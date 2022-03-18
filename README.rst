@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
-=======================================
+FIRST Tech Challenge Documentation Project
+==========================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub project is a work-in-progress for FTC documentation.
 
-Read the tutorial here:
+Noone should rely or use this documentation right now.
 
-https://docs.readthedocs.io/en/stable/tutorial/
