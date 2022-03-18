@@ -17,3 +17,6 @@ Contents
 
    usage
    api
+
+.. toctree::
+   /overview/ftccontrolsystem
