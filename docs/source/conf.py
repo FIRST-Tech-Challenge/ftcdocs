@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx_rtd_theme',
+    'sphinx_panels',
 ]
 
 intersphinx_mapping = {
@@ -45,5 +46,8 @@ master_doc = "index"
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
+    #app.add_css_file("css/ftc-rtl.css")
+    app.add_js_file("js/external-links-new-tab.js")
+
 
 
