@@ -27,7 +27,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    .. link-button:: stubs/programming_resources
       :type: ref
-      :text: Porgramming Resources
+      :text: Programming Resources
       :classes: btn-outline-primary btn-block
 
    ---
@@ -43,7 +43,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    .. link-button:: stubs/programming_resources
       :type: ref
-      :text: Programming Resources
+      :text: Robot Building
       :classes: btn-outline-primary btn-block
 
    ---
@@ -75,7 +75,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    .. link-button:: stubs/ptc_onshape_resources
       :type: ref
-      :text: Admin Resources
+      :text: CAD Resources
       :classes: btn-outline-primary btn-block
 
 .. panels::
@@ -83,51 +83,51 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
    :footer: bg-white border-0
 
    ---
-   :header: bg-info font-weight-bold text-white
+   :header: bg-primary font-weight-bold text-white
 
-   Tournament Organizer
+   Event Info
    
    ^^^
 
-   Resources for Tournament Organizers who make it all possible.
+   Links to event management, events and event results.
 
    +++
 
-   .. link-button:: stubs/tournament_organizer_resources
+   .. link-button:: stubs/external_tools
       :type: ref
-      :text: Tournament Organizers
+      :text: Event Links and Results
       :classes: btn-outline-primary btn-block
 
    ---
-   :header: bg-info font-weight-bold text-white
+   :header: bg-primary font-weight-bold text-white
 
-   Volunteer Resources
+   Awards
    
    ^^^
 
-   Resources for volunteers of all kinds. Come one, come all!
+   Know the awards criteria before the event.
 
    +++
 
-   .. link-button:: stubs/volunteer_resources
+   .. link-button:: stubs/Awards
       :type: ref
-      :text: Volunteer Resources
+      :text: Awards
       :classes: btn-outline-primary btn-block
 
    ---
-   :header: bg-info font-weight-bold text-white
+   :header: bg-primary font-weight-bold text-white
 
-   FTC Partner Resources
+   Frequently Asked Questions
    
    ^^^
 
-   Product Delivery Partner (PDP) Resources for managinbg regions.
+   Rookie team FAQs and answers
 
    +++
 
-   .. link-button:: stubs/ftc_partner_resources
+   .. link-button:: stubs/faqs
       :type: ref
-      :text: PDP Resources
+      :text: Frequently Asked Questions
       :classes: btn-outline-primary btn-block
 
 .. panels::
