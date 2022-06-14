@@ -18,17 +18,16 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
    ---
    :header: bg-primary font-weight-bold text-white
 
-   Rookie Team
+   Programming and Control System
    
    ^^^
-
-   Rookie Teams may not know where to start. This is the way!
+   Look for programming resources here.
 
    +++
 
-   .. link-button:: stubs/rookie_teams
+   .. link-button:: stubs/programming_resources
       :type: ref
-      :text: Rookie Resources
+      :text: Porgramming Resources
       :classes: btn-outline-primary btn-block
 
    ---
@@ -50,31 +49,31 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
    ---
    :header: bg-primary font-weight-bold text-white
 
-   Mentors (Technical)
+   Game Manuals
    
    ^^^
 
-   Technical Mentors looking for Technical Resources should look here first!
+   Look for game rules and game details here.
 
    +++
 
-   .. link-button:: stubs/mentor_technical_resources
+   .. link-button:: stubs/game_manuals
       :type: ref
-      :text: Tech Resources
+      :text: Game Manuals
       :classes: btn-outline-primary btn-block
 
    ---
    :header: bg-primary font-weight-bold text-white
 
-   Coaches (Admin) 
+   CAD Resources 
    
    ^^^
 
-   Coaches looking for Team Administrative Resources can look here for help.
+   Look for resources for FTC CAD
 
    +++
 
-   .. link-button:: stubs/coach_administrative_resources
+   .. link-button:: stubs/ptc_onshape_resources
       :type: ref
       :text: Admin Resources
       :classes: btn-outline-primary btn-block
