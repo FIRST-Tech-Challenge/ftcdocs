@@ -1,6 +1,6 @@
 Rookie Teams
 ============
-FIRST Tech Challenge documentation
+Welcome to FIRST Tech Challenge! Resources have been organized by type to help your team stay organized and be successful throughout the season. Get started by exploring our robot building resources, control system and the game.  You may also find the Coach's Playbook, a weekly schedule of activities, helpful to organize the whole team under Team Management.
 ==================================
 
 .. rst-class:: center
@@ -34,17 +34,17 @@ FIRST Tech Challenge documentation
    ---
    :header: bg-primary font-weight-bold text-white
 
-   Veteran Team
+   Robot Building
    
    ^^^
 
-   Veteran Teams looking for veteran resources can look here.
+   Look for robot building resources here.
 
    +++
 
-   .. link-button:: stubs/veteran_teams
+   .. link-button:: stubs/programming_resources
       :type: ref
-      :text: Vet Resources
+      :text: Programming Resources
       :classes: btn-outline-primary btn-block
 
    ---
