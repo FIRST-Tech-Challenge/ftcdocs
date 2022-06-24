@@ -65,6 +65,23 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
    ---
    :header: bg-primary font-weight-bold text-white
 
+   Team Management
+   
+   ^^^
+
+   Links to team management resources.
+
+   +++
+
+   .. link-button:: stubs/external_tools
+      :type: ref
+      :text: Team Management Resources
+      :classes: btn-outline-primary btn-block
+   
+   
+   ---
+   :header: bg-primary font-weight-bold text-white
+   
    CAD Resources 
    
    ^^^
@@ -81,22 +98,6 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 .. panels::
    :column: col-sm d-flex pb-3
    :footer: bg-white border-0
-
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-   Team Management
-   
-   ^^^
-
-   Links to team management resources.
-
-   +++
-
-   .. link-button:: stubs/external_tools
-      :type: ref
-      :text: Team Management Resources
-      :classes: btn-outline-primary btn-block
 
    ---
    :header: bg-primary font-weight-bold text-white
