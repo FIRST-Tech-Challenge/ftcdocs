@@ -7,20 +7,18 @@ Installation
 ------------
 This project has a number of requirements to install on a clean system:
 
-pip install make
+.. code-block:: console
 
-pip install sphinx
-
-pip install myst-parser
-
-pip install sphinx_rtd_theme
+    pip install -r requirements.txt
 
 
 Generating Documentation Locally
 --------------------------------
 From the command line, from the /docs folder, run:
 
-make html
+.. code-block:: console
+
+    make html
 
 The documentation will be in the /build folder, run the index.html file 
 in a web browser.
