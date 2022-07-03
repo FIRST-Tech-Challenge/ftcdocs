@@ -1,6 +1,8 @@
 Game Manuals
 ============
 
+Read the game manuals! They contain a vast array of knowledge!
+
 Game Manual Part 1 Traditional Events
 ------------------
 .. raw:: html
