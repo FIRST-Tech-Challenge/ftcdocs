@@ -6,7 +6,7 @@ students.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. It can never be used at all for rules. Anything contained is for information only, the game rules supercede all documentation here.
 
 .. toctree::
    :hidden:
