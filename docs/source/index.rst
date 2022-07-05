@@ -30,7 +30,7 @@ students.
    :hidden:
 
    stubs/game_manuals
-   stubs/playing_field_resources
+   game_specific_resources/playing_field_resources
 
 .. toctree::
    :caption: FTC Control System Resources
