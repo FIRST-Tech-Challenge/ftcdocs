@@ -9,7 +9,7 @@ None should rely on or use this documentation right now.
 
 ## Prerequisites
 
-- Github Account
+- GitHub Account
 - Git Installed on Local Machine (for local method)
 
 ## Local Method
