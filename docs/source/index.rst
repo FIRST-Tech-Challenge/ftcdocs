@@ -6,7 +6,7 @@ students.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. Anything contained herein is for informational purposes only; while this documentation is intended to support teams and in some way provide context to game rules, the game rules supercede all documentation found here.
 
 .. toctree::
    :hidden:
