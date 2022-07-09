@@ -11,7 +11,7 @@ Teams who are using a Control Hub with the integrated Robot Controller
 will only need to configure a single smartphone for use as a Driver
 Station. The process is as follows: 
 
-*  Rename the smartphone to “<TEAM NUMBER>-DS” (where <TEAM NUMBER> is replaced by your team number). 
+*  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number). 
 *  Install the Driver Station (DS) app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.) 
 *  Put your phone into Airplane Mode (with the WiFi radio still on). 
 *  Pair (i.e., wirelessly connect) the Driver Station to the Control Hub.
@@ -39,9 +39,9 @@ Teams who have two smartphones and are not using a Control Hub will need
 to configure one smartphone for use as a Robot Controller and a second
 smartphone for use as a Driver Station. The process is as follows, 
 
-*  Rename one smartphone to “<TEAM NUMBER>-RC” (replace <TEAM NUMBER> with your team number). 
+*  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number). 
 *  Install the Robot Controller app onto the Robot Controller phone. 
-*  Rename a second smartphone to “<TEAM NUMBER>-DS” (where <TEAM NUMBER> is replaced by your team number). 
+*  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number). 
 *  Install the Driver Station app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.) 
 *  Put your phones into Airplane Mode (with the WiFi radios still on). 
 *  Pair (i.e., wirelessly connect) the Driver Station to the Robot Controller.
@@ -52,30 +52,30 @@ smartphone for use as a Driver Station. The process is as follows,
 |
 
 .. Do not change the name of the following Header title, as it's linked from elsewhere. Currently it is called "Renaming Your Smartphones".
+
 Renaming Your Smartphones
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The official rules of the FIRST Tech Challenge (see <RS01>) require that
 you change the Wi-Fi name of your smartphones to include your team
-number and “-RC” if the phone is a Robot Controller or “-DS” if it is a
-Driver Station. A team can insert an additional dash and a letter (“A”,
-“B”, “C”, etc.) if the team has more than one set of Android phones.
+number and "-RC" if the phone is a Robot Controller or "-DS" if it is a
+Driver Station. A team can insert an additional dash and a letter ("A",
+"B", "C", etc.) if the team has more than one set of Android phones.
 
 If, for example, a team has a team number of 9999 and the team has
 multiple sets of phones, the team might decide to name one phone
-“9999-C-RC” for the Robot Controller and the other phone “9999-C-DS” for
-the Driver Station. The “-C” indicates that these devices belong to the
+"9999-C-RC" for the Robot Controller and the other phone "9999-C-DS" for
+the Driver Station. The "-C" indicates that these devices belong to the
 third set of phones for this team.
 
 The name of a Robot Controller phone can be changed in the RC app, using
-instructions
-`here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Managing-a-Smartphone-Robot-Controller#changing-the-name>`__.
+instructions :ref:`found here <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>`.
 It can also be changed at the *Manage* page from the RC app, a paired DS
 app, or a connected laptop; click ``Apply Wi-Fi Settings`` when done.
 
 The name of a Driver Station phone can be changed in the DS app, using
 instructions
-`here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Managing-a-Smartphone-Driver-Station#changing-the-name>`__.
+:ref:`found here <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:changing the name>`.
 
 As an alternate, the device names can be changed at the Android system
 level, as described below.
@@ -171,13 +171,11 @@ Phones*). Here are some of the benefits:
 The FTC app releases are also available on the `FTCRobotController
 Github
 repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
-It is possible to “side-load” the FTC apps onto the Robot Controller
-(RC) and Driver Station (DS) phones. However, this section of the Wiki
-does **not** include such instructions; other Wiki pages describe
-side-loading the `RC
-app <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Managing-a-Smartphone-Robot-Controller#updating-the-robot-controller-app>`__
-and the `DS
-app <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Managing-a-Smartphone-Driver-Station#updating-the-driver-station-app>`__.
+It is possible to "side-load" the FTC apps onto the Robot Controller
+(RC) and Driver Station (DS) phones. However, this section of the document 
+does **not** include such instructions; other document pages describe
+side-loading the :ref:`RC app <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`
+and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>`.
 
 Updating FTC Apps and Firmware on REV Devices (REV Expansion Hub, REV Control Hub, REV Driver Hub)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -258,7 +256,7 @@ the robot during a match.
 
 NOTE: it will take an estimated 2.5 minutes per phone to complete this
 task. Also note that the screens displayed on your Android devices might
-differ slightly from the images contained in this wiki.
+differ slightly from the images contained in this document.
 
 .. |airplane1| image:: images/AirplaneStep1.jpg
 .. |airplane2| image:: images/AirplaneStep2.jpg
@@ -306,7 +304,7 @@ your Robot Controller and send gamepad input to these programs.
 Likewise, it will allow your op modes running on your Robot Controller
 to send telemetry data to your Driver Station phone where it can be
 displayed for your drivers. The process to connect the two devices is
-known as “pairing.”
+known as "pairing."
 
 NOTE: the Control Hub does not have its own internal battery. Before you
 can connect a Driver Station to the Control Hub, you must connect the
@@ -433,7 +431,7 @@ smartphone Robot Controller, then before attempting to pair to the Robot
 Controller, you should forget the Wi-Fi network for the previous Control
 Hub (using the Android Wifi Settings screen on the Driver Station) and
 then power cycle the Driver Station phone. If the previous Control Hub
-is powered on and if you haven’t forgotten this network, then the Driver
+is powered on and if you haven't forgotten this network, then the Driver
 Station might try and connect to the Control Hub and might be unable to
 connect to the Robot Controller smartphone.
 
@@ -544,3 +542,4 @@ Note that it will take an estimated 10 minutes to complete this task.
 | status should read active, connected on the    |                     |
 | Robot Controller's main screen.                |                     |
 +------------------------------------------------+---------------------+
+
