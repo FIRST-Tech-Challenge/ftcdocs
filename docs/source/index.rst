@@ -10,11 +10,13 @@ students.
 
 .. toctree::
    :hidden:
+   :maxdepth: 1
 
    /overview/ftccontrolsystem
 
 .. toctree::
    :caption: Getting Started
+   :maxdepth: 1
    :hidden:
 
    stubs/rookie_teams
@@ -27,6 +29,7 @@ students.
    
 .. toctree::
    :caption: Game and Season-Specific Resources
+   :maxdepth: 1
    :hidden:
 
    stubs/game_manuals
@@ -34,15 +37,17 @@ students.
 
 .. toctree::
    :caption: FTC Control System Resources
+   :maxdepth: 1
    :hidden:
 
    stubs/ftc_control_system_overview
    stubs/hardware_and_software_configuration
-   stubs/programming_resources
+   programming_resources/index
    stubs/external_tools
 
 .. toctree::
    :caption: CAD Resources
+   :maxdepth: 1
    :hidden:
 
    stubs/ptc_onshape_resources
@@ -51,6 +56,7 @@ students.
 
 .. toctree::
    :caption: Volunteer Resources
+   :maxdepth: 1
    :hidden:
 
    stubs/volunteer_materials
