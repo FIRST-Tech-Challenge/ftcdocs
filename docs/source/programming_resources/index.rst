@@ -14,6 +14,20 @@ Supported Language Tutorials
    -  :doc:`Onbot Java Tutorial <onbot_java/OnBot-Java-Tutorial>`
    -  :doc:`Android Studio Tutorial <android_studio_java/Android-Studio-Tutorial>`
 
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   blocks/Blocks-Tutorial
+   onbot_java/OnBot-Java-Tutorial
+   android_studio_java/Android-Studio-Tutorial
+
+
+Supporting Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 FTC Control System Supporting Documentation
 
    -  :doc:`FTC Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`
@@ -27,18 +41,6 @@ FTC Control System Supporting Documentation
    -  :doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`
    -  :doc:`Managing a Smartphone Driver Station (DS) <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
    -  :doc:`Managing a Smartphone Robot Controller (RC) <shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`
-
-
-.. toctree::
-   :caption: Tutorials
-   :maxdepth: 1
-   :titlesonly:
-   :hidden:
-
-   blocks/Blocks-Tutorial
-   onbot_java/OnBot-Java-Tutorial
-   android_studio_java/Android-Studio-Tutorial
-
 
 .. toctree::
    :caption: Supplemental
