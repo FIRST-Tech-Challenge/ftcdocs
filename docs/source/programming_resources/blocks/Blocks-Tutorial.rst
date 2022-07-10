@@ -1,8 +1,11 @@
 Blocks Programming Tutorial
 ===========================
 
-Introduction
-~~~~~~~~~~~~
+.. Putting headers in html hides them from the table of contents.
+
+.. raw:: html
+
+   <h3>Introduction</h3>
 
 This tutorial will take you step-by-step through the process of
 configuring, programming, and operating your Control System. This
@@ -21,8 +24,9 @@ to get acquainted with the FTC Control System!
 
 |
 
-Table of Contents
-~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+   <h3>Table of Contents</h3>
 
 1. Introduction
    
@@ -53,4 +57,17 @@ Table of Contents
    
    - :doc:`Blocks Reference Material <../tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material>`
 
+.. Only placing tutorial-specific items in the tutorial toc
+
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   ../tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks
+   ../tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode
+   ../tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks)
+   ../tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks)
+   ../tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material
 

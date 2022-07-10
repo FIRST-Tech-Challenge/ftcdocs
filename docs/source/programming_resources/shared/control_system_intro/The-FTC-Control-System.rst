@@ -16,6 +16,7 @@ robot can complete, the more points a team will earn.
    :align: center
 
 .. rst-class:: center
+
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
 Autonomous vs. Driver-Controlled

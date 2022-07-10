@@ -1,8 +1,9 @@
 OnBot Java Programming Tutorial
 ===============================
 
-Introduction
-~~~~~~~~~~~~
+.. raw:: html
+   
+   <h3>Introduction</h3>
 
 This tutorial will take you step-by-step through the process of
 configuring, programming, and operating your Control System. This
@@ -19,8 +20,9 @@ to advanced Java skills and who would like to write text-based op modes.
 
 |
 
-Table of Contents
-~~~~~~~~~~~~~~~~~
+.. raw:: html
+   
+   <h3>Table of Contents</h3>
 
 1. Introduction
 
@@ -50,4 +52,15 @@ Table of Contents
 
    -  :doc:`OnBot Java Reference Info <../tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info>`
 
+.. Only placing tutorial-specific items in the tutorial toc
 
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   ../tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java)
+   ../tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java)
+   ../tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java)
+   ../tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info

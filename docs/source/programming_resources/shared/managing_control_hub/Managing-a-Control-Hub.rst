@@ -386,8 +386,8 @@ which is included with the FTC Android Studio project folder.
 This example calibration file can be found
 `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__.
 
-Uploading a Custom Webcam Calibration File
-------------------------------------------
+Uploading a Custom Webcam Calibration File Instructions
+-------------------------------------------------------
 
 1. On the *Manage* page, click on the *Select Webcam Calibration File* button to select the calibration file.
 

@@ -61,6 +61,13 @@ students.
 
    stubs/volunteer_materials
 
+.. toctree::
+   :caption: Miscellaneous 
+   :maxdepth: 1
+   :hidden:
+
+   usage
+
 .. rst-class:: center
    
 **I AM A...**

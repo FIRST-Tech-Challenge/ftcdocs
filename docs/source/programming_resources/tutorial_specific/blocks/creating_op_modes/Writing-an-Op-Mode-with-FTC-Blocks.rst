@@ -145,7 +145,7 @@ created op mode opened for editing in your web browser's main screen.
 
 |
 
-   Notice that the left-hand side of the browser’s screen contains a list of categorized programming blocks.  If you click on a category, the browser will display a list of available related programming blocks.
+   Notice that the left-hand side of the browsers screen contains a list of categorized programming blocks.  If you click on a category, the browser will display a list of available related programming blocks.
 
    The right-hand side of the screen is where you arrange your programming blocks to create the logic for your op mode.
 

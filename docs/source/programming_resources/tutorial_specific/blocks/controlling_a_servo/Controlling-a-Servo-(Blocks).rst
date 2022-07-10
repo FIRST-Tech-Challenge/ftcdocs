@@ -175,7 +175,7 @@ place in the do portion of the "if do" block.
 
 |
 
-   If the "Y" button is pressed on gamepad #1, the op mode will move the servo’s position to the 0-degree position.
+   If the "Y" button is pressed on gamepad #1, the op mode will move the servo's position to the 0-degree position.
 
 13. Click on the blue and white Settings icon for the "if do" block.  
 This will display a pop-up menu that lets you modify the "if do"      

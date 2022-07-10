@@ -1,8 +1,9 @@
 Android Studio Programming Tutorial
 ===================================
 
-Introduction
-------------
+.. raw:: html
+
+   <h3>Introduction</h3>
 
 This tutorial will take you step-by-step through the process of
 configuring, programming, and operating your Control System. This
@@ -19,8 +20,9 @@ Android app developers use. Android Studio is only recommended for
 
 |
 
-Table of Contents
------------------
+.. raw:: html
+
+   <h3>Table of Contents</h3>
 
 1. Introduction
 
@@ -47,11 +49,18 @@ Table of Contents
    -  :doc:`Controlling a Servo <../tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio)>`
    -  :doc:`Using Sensors <../tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio)>`
 
+.. Only placing tutorial-specific items in the tutorial toc
+
 .. toctree::
+   :caption: Tutorials
    :maxdepth: 1
+   :titlesonly:
    :hidden:
 
-   ../shared/control_system_intro/The-FTC-Control-System
-   ../shared/required_materials/Required-Materials
-   ../shared/using_android_device/Using-Your-Android-Device
+   ../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio
+   ../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder
+   ../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options
+   ../tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio)
+   ../tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio)
+   ../tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio)
 

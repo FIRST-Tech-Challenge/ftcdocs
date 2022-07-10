@@ -1,7 +1,9 @@
 Programming Resources
 =====================
 
-.. note:: This page still needs an introduction.
+This page contains programming tutorials and related FTC Control System
+documentation useful for configuring and programming FTC Control System
+components.
 
 Programming Tutorials
 ~~~~~~~~~~~~~~~~~~~~~
@@ -12,7 +14,23 @@ Supported Language Tutorials
    -  :doc:`Onbot Java Tutorial <onbot_java/OnBot-Java-Tutorial>`
    -  :doc:`Android Studio Tutorial <android_studio_java/Android-Studio-Tutorial>`
 
+FTC Control System Supporting Documentation
+
+   -  :doc:`FTC Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`
+   -  :doc:`Required Materials <shared/required_materials/Required-Materials>`
+   -  :doc:`Using Your Android Device <shared/using_android_device/Using-Your-Android-Device>`
+   -  :doc:`Configuring Your Android Devices <shared/configuring_android/Configuring-Your-Android-Devices>`
+   -  :doc:`Connecting Devices to a Control or Expansion Hub <shared/connecting_devices/Connecting-Devices-to-a-Control-or-Expansion-Hub>`
+   -  :doc:`Configuring Your Hardware <shared/configure_hardware/Configuring-Your-Hardware>`
+   -  :doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network <shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
+   -  :doc:`Installing a Javascript Enabled Browser <shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`
+   -  :doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`
+   -  :doc:`Managing a Smartphone Driver Station (DS) <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
+   -  :doc:`Managing a Smartphone Robot Controller (RC) <shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`
+
+
 .. toctree::
+   :caption: Tutorials
    :maxdepth: 1
    :titlesonly:
    :hidden:
@@ -20,4 +38,24 @@ Supported Language Tutorials
    blocks/Blocks-Tutorial
    onbot_java/OnBot-Java-Tutorial
    android_studio_java/Android-Studio-Tutorial
+
+
+.. toctree::
+   :caption: Supplemental
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   shared/control_system_intro/The-FTC-Control-System
+   shared/required_materials/Required-Materials
+   shared/using_android_device/Using-Your-Android-Device
+   shared/configuring_android/Configuring-Your-Android-Devices
+   shared/connecting_devices/Connecting-Devices-to-a-Control-or-Expansion-Hub
+   shared/configure_hardware/Configuring-Your-Hardware
+   shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network
+   shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser
+   shared/managing_control_hub/Managing-a-Control-Hub
+   shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station
+   shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller
+
 
