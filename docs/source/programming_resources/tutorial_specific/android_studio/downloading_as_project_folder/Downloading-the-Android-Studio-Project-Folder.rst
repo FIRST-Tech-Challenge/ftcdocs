@@ -14,13 +14,13 @@ the *FIRST-Tech-Challenge* GitHub organization:
 
 *  https://github.com/FIRST-Tech-Challenge/FtcRobotController
 
-**Important Note for Advanced GitHub Users:** this tutorial assumes that
-the user is a novice with respect to using GitHub and the git version
-control software. If you are a GitHub power user, you can use git to
-*clone* a local copy of the public GitHub repository. This document,
-however, does not explain how to use git to access the repository. It
-provides instructions on downloading the repository as a .ZIP file
-instead.
+.. important:: **Advanced GitHub Users** - this tutorial assumes that
+   the user is a novice with respect to using GitHub and the git version
+   control software. If you are a GitHub power user, you can use git to
+   *clone* a local copy of the public GitHub repository. This document,
+   however, does not explain how to use git to access the repository. It
+   provides instructions on downloading the repository as a .ZIP file
+   instead.
 
 .. image:: images/ClickOnReleases.jpg
    :align: center

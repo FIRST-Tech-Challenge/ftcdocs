@@ -306,9 +306,9 @@ to send telemetry data to your Driver Station phone where it can be
 displayed for your drivers. The process to connect the two devices is
 known as "pairing."
 
-NOTE: the Control Hub does not have its own internal battery. Before you
-can connect a Driver Station to the Control Hub, you must connect the
-Control Hub to a 12V battery.
+.. note:: the Control Hub does not have its own internal battery. Before you
+   can connect a Driver Station to the Control Hub, you must connect the
+   Control Hub to a 12V battery.
 
 Also note that it will take an estimated 10 minutes to complete this
 task.
