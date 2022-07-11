@@ -215,22 +215,22 @@ students.
 
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/blocks-programming-manual.pdf
-               :type: url
+            .. link-button:: programming_resources/blocks/Blocks-Tutorial 
+               :type: ref
                :text: Blocks
                :classes: btn-outline-primary btn-block
 
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/onbot-java-guide.pdf
-               :type: url
+            .. link-button:: programming_resources/onbot_java/OnBot-Java-Tutorial
+               :type: ref
                :text: OnBot-Java
                :classes: btn-outline-primary btn-block
          
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/android-studio-guide.pdf
-               :type: url
+            .. link-button:: programming_resources/android_studio_java/Android-Studio-Tutorial
+               :type: ref
                :text: Android Studio
                :classes: btn-outline-primary btn-block
 
