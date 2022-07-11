@@ -211,7 +211,7 @@ Let's look at the structure of your newly created op mode. Here's a copy
 of the op mode text (minus some comments, the package definition, and
 some import package statements):
 
-::
+.. code-block:: java
 
    @TeleOp
 
@@ -249,7 +249,7 @@ At the start of the op mode there is an annotation that occurs before
 the class definition. This annotation states that this is a
 tele-operated (i.e., driver controlled) op mode:
 
-::
+.. code-block:: java
 
    @TeleOp
 
@@ -260,7 +260,7 @@ You can see from the sample code that an op mode is defined as a Java
 class. In this example, the op mode name is called "MyFIRSTJavaOpMode"
 and it inherits characteristics from the LinearOpMode class.
 
-::
+.. code-block:: java
 
    public class MyFIRSTJavaOpMode extends LinearOpMode {
 
@@ -269,7 +269,7 @@ variables for this op mode. These variables will hold references to the
 five configured devices that the OnBot Java editor detected in the
 configuration file of your Robot Controller.
 
-::
+.. code-block:: java
 
        private Gyroscope imu;
        private DcMotor motorTest;
@@ -281,7 +281,7 @@ Next, there is an overridden method called runOpMode. Every op mode of
 type LinearOpMode must implement this method. This method gets called
 when a user selects and runs the op mode.
 
-::
+.. code-block:: java
 
        @Override
        public void runOpMode() {
@@ -290,7 +290,7 @@ At the start of the runOpMode method, the op mode uses an object named
 hardwareMap to get references to the hardware devices that are listed in
 the Robot Controller's configuration file:
 
-::
+.. code-block:: java
 
            imu = hardwareMap.get(Gyroscope.class, "imu");
            motorTest = hardwareMap.get(DcMotor.class, "motorTest");
@@ -319,7 +319,7 @@ message to the Driver Station. Then it calls the waitForStart method, to
 wait until the user pushes the start button on the driver station to
 begin the op mode run.
 
-::
+.. code-block:: java
 
            telemetry.addData("Status", "Initialized");
            telemetry.update();
@@ -334,7 +334,7 @@ After a start command has been received, the op mode enters a while loop
 and keeps iterating in this loop until the op mode is no longer active
 (i.e., until the user pushes the stop button on the Driver Station):
 
-::
+.. code-block:: java
 
            // run until the end of the match (driver presses STOP)
            while (opModeIsActive()) {
@@ -391,7 +391,7 @@ reads ``private Servo servoTest;``. This should appear somewhere near the
 beginning of your op mode class definition. Change the word "Servo" to
 the word "Zervo":
 
-::
+.. code-block:: java
 
    private Zervo servoTest;
 
@@ -399,7 +399,7 @@ Also, let's modify the telemetry statement that informs the user that
 the op mode has been initialized, and let's remove one of the two
 arguments so that the statement looks like this:
 
-::
+.. code-block:: java
 
    telemetry.addData("Status",);
 
@@ -436,7 +436,7 @@ causing the problem.
 
 Let's restore this statement back to its original, correct form:
 
-::
+.. code-block:: java
 
    telemetry.addData("Status", "Initialized");
 
@@ -454,7 +454,7 @@ column 13.
 You should restore the statement back to its original form and then push
 the build button and verify that the op mode gets built properly.
 
-::
+.. code-block:: java
 
    private Servo servoTest;
 
@@ -504,7 +504,7 @@ Let's modify your op mode to control the DC motor that you connected and
 configured for your REV Expansion Hub. Modify the code for the program
 loop so that it looks like the following:
 
-::
+.. code-block:: java
 
    // run until the end of the match (driver presses STOP)
    double tgtPower = 0;
@@ -521,14 +521,14 @@ loop so that it looks like the following:
 If you look at the code that was added, you will see that we defined a
 new variable called target power before we enter the while loop.
 
-::
+.. code-block:: java
 
    double tgtPower = 0;
 
 At the start of the while loop we set the variable tgtPower equal to the
 negative value of the gamepad1's left joystick:
 
-::
+.. code-block:: java
 
    tgtPower = -this.gamepad1.left_stick_y;
 
@@ -553,7 +553,7 @@ represented by the variable tgtPower. The values for target power and
 actual motor power are then added to the set of data that will be sent
 via the telemetry mechanism to the Driver Station.
 
-::
+.. code-block:: java
 
        tgtPower = -this.gamepad1.left_stick_y;
        motorTest.setPower(tgtPower);

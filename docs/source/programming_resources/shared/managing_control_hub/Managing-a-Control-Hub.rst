@@ -16,10 +16,10 @@ As an alternate, you can change the name of a Control Hub at the
 *Manage* page from a connected Driver Station or laptop, as described
 below. Click ``Apply Wi-Fi Settings`` when done.
 
-**Important Note:** Changing the name of a Control Hub changes the name
-of the Hub's wireless network. Once the name is changed, you will have
-to connect your devices (Driver Station and programming laptop) to the
-new network.
+.. important:: Changing the name of a Control Hub changes the name
+   of the Hub's wireless network. Once the name is changed, you will have
+   to connect your devices (Driver Station and programming laptop) to the
+   new network.
 
 Changing the Name of a Control Hub
 ----------------------------------
@@ -66,12 +66,12 @@ before you begin using your Control Hub.
 You can change the password of a Control Hub using a laptop or
 Chromebook that is connected to the Hub's Program & Management page.
 
-**Important Note:** Commit your new password to memory or store it in a
-secure location so you will not forget it. You will need this password
-to manage and operate your Control Hub. Also note, once the password has
-been changed, you will have to reconnect your devices (Driver Station
-and programming laptop/Chromebook) to the network using the new
-password.
+.. warning:: Commit your new password to memory or store it in a
+   secure location so you will not forget it. You will need this password
+   to manage and operate your Control Hub. Also note, once the password has
+   been changed, you will have to reconnect your devices (Driver Station
+   and programming laptop/Chromebook) to the network using the new
+   password.
 
 Changing the Password of a Control Hub
 --------------------------------------
@@ -96,10 +96,10 @@ Resetting a Control Hub
 If you forget the network name or password for a Control Hub, you can
 reset the Hub's name and password back to their factory default values.
 
-**Important Note:** Resetting a Control Hub will restore its default
-network name and password. However, existing configuration files and op
-modes should not be affected by the reset. This includes op modes that
-were created using the Blocks, OnBot Java and Android Studio tools.
+.. important:: Resetting a Control Hub will restore its default
+   network name and password. However, existing configuration files and op
+   modes should not be affected by the reset. This includes op modes that
+   were created using the Blocks, OnBot Java and Android Studio tools.
 
 Resetting Instructions
 -----------------------
@@ -310,8 +310,8 @@ newest version of the Android Studio project folder you will update the
 Robot Controller app when you build the project and install it on your
 Control Hub.
 
-**Important Note:** If you update your Robot Controller, then you should
-also update your Driver Station software to the same version number.
+.. tip:: If you update your Robot Controller, then you should
+   also update your Driver Station software to the same version number.
 
 Updating the Robot Controller App Instructions
 ----------------------------------------------

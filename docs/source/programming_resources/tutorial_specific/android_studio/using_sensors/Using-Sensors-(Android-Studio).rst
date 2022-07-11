@@ -19,7 +19,7 @@ equal to 2", the sensor returns a measured distance equal to 2" or so.
 Modify your op mode to add a telemetry statement that will send the
 distance information (in centimeters) to the Driver Station.
 
-::
+.. code-block:: java
 
    telemetry.addData("Servo Position", servoTest.getPosition());
    telemetry.addData("Target Power", tgtPower);
@@ -61,7 +61,7 @@ disconnected.
 Modify the code in your op mode that occurs before the waitForStart
 command to set the digital channel for input mode.
 
-::
+.. code-block:: java
 
    // set digital channel to input mode.
    digitalTouch.setMode(DigitalChannel.Mode.INPUT);
@@ -76,7 +76,7 @@ that checks the state of the digital input channel. If the channel is
 LOW (false), the touch sensor button is pressed and being pulled LOW to
 ground. Otherwise, the touch sensor button is not pressed.
 
-::
+.. code-block:: java
 
    // is button pressed?
    if (digitalTouch.getState() == false) {

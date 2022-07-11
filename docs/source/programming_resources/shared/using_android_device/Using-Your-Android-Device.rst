@@ -8,7 +8,7 @@ Unlocking Your Screen
 ~~~~~~~~~~~~~~~~~~~~~
 
 When you first power on an Android phone, it usually starts off with the
-screen in a “locked” state. For the Motorola smartphones that are used
+screen in a "locked" state. For the Motorola smartphones that are used
 in the *FIRST* Tech Challenge, you must touch the locked screen and then
 slide your finger upwards along the screen to unlock the phone. Note
 that different devices might require a slightly different procedure to
@@ -53,16 +53,16 @@ use to navigate the screens on your Android device.
 
 |
 
-The leftmost button (see image above) is the “Back” button. You can use
+The leftmost button (see image above) is the "Back" button. You can use
 this button to return to the previous screen on your Android device.
 
-The center button is the “Home” button. Pressing this button should take
+The center button is the "Home" button. Pressing this button should take
 you back to the home or opening screen of your Android device.
 
-The rightmost button is the “Recent Apps” button. If you click on this
+The rightmost button is the "Recent Apps" button. If you click on this
 button it will display the apps that were recently run and are dormant
-in the background. You can close a recent app by tapping the “X” button
-on the app’s listing.
+in the background. You can close a recent app by tapping the "X" button
+on the app's listing.
 
 .. image:: images/android_recentApps.jpg
    :align: center
@@ -84,8 +84,8 @@ If you are using a device with Android Marshmallow (6.x) or earlier, you
 can display the available apps using the *Android App Drawer* button
 that is available on the home screen.
 
-There should be another row of buttons visible above the “Back”, “Home”
-and “Recent Apps” buttons. In the center of this row of buttons is a
+There should be another row of buttons visible above the "Back", "Home"
+and "Recent Apps" buttons. In the center of this row of buttons is a
 button that has an array of dots or squares.
 
 .. image:: images/android_nextToBottomButtons.jpg

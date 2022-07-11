@@ -156,11 +156,7 @@ Configuring a DC Motor
 Now that you've created a file, you will need to add a DC Motor to the
 configuration file.
 
-**Important note:** At this point, although you have created your
-configuration file, you have not yet saved its contents to the Robot
-Controller. You will save the configuration file later in the 
-:ref:`Saving the Configuration Information <programming_resources/shared/configure_hardware/Configuring-Your-Hardware:Saving the Configuration Information>` 
-step.
+.. important:: At this point, although you have created your configuration file, you have not yet saved its contents to the Robot Controller. You will save the configuration file later in the :ref:`Saving the Configuration Information <programming_resources/shared/configure_hardware/Configuring-Your-Hardware:Saving the Configuration Information>` step.
 
 Configuring a DC Motor Instructions
 -----------------------------------

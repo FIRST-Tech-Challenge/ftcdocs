@@ -64,7 +64,7 @@ button will move the servo to the 90-degree position. Pushing the green
 
 Modify your op mode to add the following code:
 
-::
+.. code-block:: java
 
    // run until the end of the match (driver presses STOP)
    double tgtPower = 0;

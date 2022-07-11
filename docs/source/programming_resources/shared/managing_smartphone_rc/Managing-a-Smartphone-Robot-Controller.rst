@@ -13,9 +13,9 @@ from a paired DS app.)
 
 As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` show how to rename a smartphone using the Android Settings activity of the phone.
 
-**Important Note:** Once the name of your Robot Controller is changed,
-you might need to reconnect your devices (Driver Station and programming
-laptop) to the newly changed network.
+.. important:: Once the name of your Robot Controller is changed,
+   you might need to reconnect your devices (Driver Station and programming
+   laptop) to the newly changed network.
 
 Changing the Name of a Robot Controller
 ---------------------------------------
@@ -66,10 +66,10 @@ interference or other wireless disruptions.
 You can change the operating channel using the Advanced Settings menu on
 the Robot Controller or Driver Station.
 
-**Important Note:** Not every Android phone supports channel changing
-through the FTC software. Refer to rule <RE06> in the game manual for a
-list of *FIRST*-approved phones that support channel changing through
-the FTC software.
+.. warning:: Not every Android phone supports channel changing
+   through the FTC software. Refer to rule <RE06> in the game manual for a
+   list of *FIRST*-approved phones that support channel changing through
+   the FTC software.
 
 Changing the WiFi Channel Instructions
 --------------------------------------
@@ -182,7 +182,7 @@ facilitate communication between the Robot Controller and the motors,
 servos, and sensors of the robot. Periodically, REV Robotics may release
 new versions of the firmware which contains fixes and improvements for
 the Expansion Hub. The firmware releases are in the form of a binary
-(“.bin”) file.
+(".bin") file.
 
 The `REV Hardware
 Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
@@ -192,7 +192,7 @@ into the computer via USB cable.
 As an alternate, you can use the *Manage* interface from a laptop or
 Driver Station (DS) connected to a Robot Controller phone with Expansion
 Hub plugged in via USB. The Manage page allows you to upload an
-Expansion Hub’s firmware, or to update it using the included or uploaded
+Expansion Hub's firmware, or to update it using the included or uploaded
 version. New firmware images can be obtained from the `REV Robotics
 website <http://www.revrobotics.com/software/>`__.
 
@@ -331,7 +331,7 @@ are some of the benefits:
 FTC teams using Blocks or OnBot Java for programming can use the REV
 Hardware Client to update the Robot Controller (RC) app on an RC phone.
 
-NOTE: it will take an estimated 7.5 minutes per device to complete this
+Note it will take an estimated 7.5 minutes per device to complete this
 task.
 
 As an alternate, the FTC app releases are available on the
@@ -341,17 +341,17 @@ Download the Robot Controller APK file to a computer, transfer it to the
 RC phone's Downloads folder, then open that file to install the RC app.
 This process is called "side-loading".
 
-**Important Note:** If you update the Robot Controller (RC) app, you
-should also update the Driver Station (DS) app to the same version
-number.
+.. tip:: If you update the Robot Controller (RC) app, you
+   should also update the Driver Station (DS) app to the same version
+   number.
 
-**Important Note:** Teams using Android Studio should not update the RC
-app with the REV Hardware Client or by side-loading. Instead, by
-updating to the newest version of the FTC Android Studio project folder,
-you will update the Robot Controller app when you build the project and
-install it on your RC device. You can download the newest version of the
-project folder
-`here <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+.. important:: Teams using Android Studio should not update the RC
+   app with the REV Hardware Client or by side-loading. Instead, by
+   updating to the newest version of the FTC Android Studio project folder,
+   you will update the Robot Controller app when you build the project and
+   install it on your RC device. You can download the newest version of the
+   project folder
+   `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
 Uploading a Custom Webcam Calibration File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

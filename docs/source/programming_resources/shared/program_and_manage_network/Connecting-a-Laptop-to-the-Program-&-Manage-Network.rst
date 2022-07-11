@@ -109,9 +109,16 @@ your laptop.
 
 |
 
-If the display is not updated as shown after a few seconds, try clicking on Network Connections at the bottom of the blue box showing the Wi-Fi connections.  This will bring up a Setting dialog box that includes a link to "Show available networks", which can be used to force the list of Wi-Fi connections to be updated.
+If the display is not updated as shown after a few seconds, try clicking on
+Network Connections at the bottom of the blue box showing the Wi-Fi
+connections.  This will bring up a Setting dialog box that includes a link to
+"Show available networks", which can be used to force the list of Wi-Fi
+connections to be updated.
 
-Note that when you are connected to the blocks programming mode server on your Robot Controller, your laptop **will not have access to the Internet**.  It only has direct access to the Robot Controller.
+.. attention:: Note that when you are connected to the blocks 
+   programming mode server on your Robot Controller, your laptop 
+   **will not have access to the Internet**.  It only has direct 
+   access to the Robot Controller.
 
 
 Troubleshooting Your Wireless Connection

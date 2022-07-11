@@ -26,11 +26,11 @@ References to the Driver Station smartphone may instead apply to the
 Hub <https://docs.revrobotics.com/rev-control-system/driver-hub-gs>`__,
 which is preloaded with the FTC Driver Station (DS) app.
 
-**IMPORTANT NOTE:** Eventually the Control Hub will need be renamed so
-that its name complies with Game Manual rule <RS01>, but for now we will
-use the Control Hub with its default name. You can learn how to manage a
-Control Hub (and modify its name, password, etc.) in :doc:`this
-tutorial <../managing_control_hub/Managing-a-Control-Hub>`.
+.. important:: Eventually the Control Hub will need be renamed so
+   that its name complies with Game Manual rule <RS01>, but for now we will
+   use the Control Hub with its default name. You can learn how to manage a
+   Control Hub (and modify its name, password, etc.) in 
+   :doc:`this tutorial <../managing_control_hub/Managing-a-Control-Hub>`.
 
 Two Android Smartphone Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,8 +80,8 @@ instructions
 As an alternate, the device names can be changed at the Android system
 level, as described below.
 
-NOTE: it will take an estimated 5 minutes per phone to complete this
-task.
+.. note:: It will take an estimated 5 minutes per phone to complete this
+   task.
 
 .. |rename1| image:: images/RenameStep1.jpg
 .. |rename2| image:: images/RenameStep2.jpg
@@ -254,9 +254,9 @@ not want any of the cellular telephone functions to be enabled during a
 match. The cellular telephone functions could disrupt the function of
 the robot during a match.
 
-NOTE: it will take an estimated 2.5 minutes per phone to complete this
-task. Also note that the screens displayed on your Android devices might
-differ slightly from the images contained in this document.
+.. note:: It will take an estimated 2.5 minutes per phone to complete this
+   task. Also note that the screens displayed on your Android devices might
+   differ slightly from the images contained in this document.
 
 .. |airplane1| image:: images/AirplaneStep1.jpg
 .. |airplane2| image:: images/AirplaneStep2.jpg
@@ -425,15 +425,15 @@ task.
 Two Android Smartphone Pairing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Important Note: If your Driver Station was previously paired to a
-Control Hub, and you currently would like to connect to an Android
-smartphone Robot Controller, then before attempting to pair to the Robot
-Controller, you should forget the Wi-Fi network for the previous Control
-Hub (using the Android Wifi Settings screen on the Driver Station) and
-then power cycle the Driver Station phone. If the previous Control Hub
-is powered on and if you haven't forgotten this network, then the Driver
-Station might try and connect to the Control Hub and might be unable to
-connect to the Robot Controller smartphone.
+.. important:: If your Driver Station was previously paired to a
+   Control Hub, and you currently would like to connect to an Android
+   smartphone Robot Controller, then before attempting to pair to the Robot
+   Controller, you should forget the Wi-Fi network for the previous Control
+   Hub (using the Android Wifi Settings screen on the Driver Station) and
+   then power cycle the Driver Station phone. If the previous Control Hub
+   is powered on and if you haven't forgotten this network, then the Driver
+   Station might try and connect to the Control Hub and might be unable to
+   connect to the Robot Controller smartphone.
 
 Once you have successfully installed the FTC apps onto your Android
 phones, you will want to establish a secure wireless connection between
