@@ -1,4 +1,0 @@
-Programming Resources
-=====================
-
-Programming Resources!

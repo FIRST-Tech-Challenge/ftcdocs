@@ -7,6 +7,7 @@ The *FIRST* Tech Challenge seeks to inspire youth to become the next generation 
    :align: center
 
 .. rst-class:: center
+
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
 Autonomous vs. Driver-Controlled
