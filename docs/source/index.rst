@@ -40,7 +40,7 @@ students.
    :maxdepth: 1
    :hidden:
 
-   stubs/ftc_control_system_overview
+   programming_resources/shared/control_system_intro/The-FTC-Control-System 
    stubs/hardware_and_software_configuration
    programming_resources/index
    stubs/external_tools
