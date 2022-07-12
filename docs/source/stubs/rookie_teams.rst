@@ -25,7 +25,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/programming_resources
+   .. link-button:: ../programming_resources/index
       :type: ref
       :text: Programming Resources
       :classes: btn-outline-primary btn-block
@@ -41,7 +41,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/programming_resources
+   .. link-button:: ../programming_resources/index
       :type: ref
       :text: Robot Building
       :classes: btn-outline-primary btn-block
@@ -57,7 +57,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/game_manuals
+   .. link-button:: ../stubs/game_manuals
       :type: ref
       :text: Game Manuals
       :classes: btn-outline-primary btn-block
@@ -73,7 +73,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/external_tools
+   .. link-button:: ../stubs/external_tools
       :type: ref
       :text: Team Management Resources
       :classes: btn-outline-primary btn-block
@@ -90,7 +90,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/ptc_onshape_resources
+   .. link-button:: ../stubs/ptc_onshape_resources
       :type: ref
       :text: CAD Resources
       :classes: btn-outline-primary btn-block
@@ -110,7 +110,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/external_tools
+   .. link-button:: ../stubs/external_tools
       :type: ref
       :text: Event Links and Results
       :classes: btn-outline-primary btn-block
@@ -126,7 +126,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/Awards
+   .. link-button:: ../stubs/Awards
       :type: ref
       :text: Awards
       :classes: btn-outline-primary btn-block
@@ -142,7 +142,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: stubs/faqs
+   .. link-button:: ../stubs/faqs
       :type: ref
       :text: Frequently Asked Questions
       :classes: btn-outline-primary btn-block
@@ -166,22 +166,22 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/blocks-programming-manual.pdf
-               :type: url
+            .. link-button:: ../programming_resources/blocks/Blocks-Tutorial
+               :type: ref
                :text: Blocks
                :classes: btn-outline-primary btn-block
 
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/onbot-java-guide.pdf
-               :type: url
+            .. link-button:: ../programming_resources/onbot_java/OnBot-Java-Tutorial
+               :type: ref
                :text: OnBot-Java
                :classes: btn-outline-primary btn-block
          
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/android-studio-guide.pdf
-               :type: url
+            .. link-button:: ../programming_resources/android_studio_java/Android-Studio-Tutorial
+               :type: ref
                :text: Android Studio
                :classes: btn-outline-primary btn-block
 
@@ -216,3 +216,13 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
       :type: url
       :text: Game Manuals
       :classes: btn-outline-primary btn-block
+
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   Awards
+   faqs
+
