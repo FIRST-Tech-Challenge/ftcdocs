@@ -81,10 +81,9 @@ battery to power its internal Android device.
 REV Robotics Control Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-For the 2019-2020 season, teams in select regions will have the option
-of using the REV Robotics Control Hub. The Control Hub is an integrated
-version of the Robot Controller. It combines an Android device built
-into the same case as a REV Robotics Expansion Hub.
+The REV Robotics Control Hub is an integrated version of the Robot Controller.
+It combines an Android device built into the same case as a REV Robotics
+Expansion Hub.
 
 .. image:: images/ControlHubEquals.jpg
    :align: center

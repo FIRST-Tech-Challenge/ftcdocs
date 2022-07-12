@@ -32,7 +32,7 @@ students.
    :maxdepth: 1
    :hidden:
 
-   stubs/game_manuals
+   manuals/game_manuals/game_manuals
    game_specific_resources/playing_field_resources/playing_field_resources
 
 .. toctree::
@@ -261,7 +261,7 @@ students.
 
    +++
 
-   .. link-button:: https://www.firstinspires.org/resource-library/ftc/game-and-season-info
-      :type: url
+   .. link-button:: manuals/game_manuals/game_manuals
+      :type: ref
       :text: Game Manuals
       :classes: btn-outline-primary btn-block

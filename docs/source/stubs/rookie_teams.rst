@@ -57,7 +57,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: ../stubs/game_manuals
+   .. link-button:: ../manuals/game_manuals/game_manuals
       :type: ref
       :text: Game Manuals
       :classes: btn-outline-primary btn-block
@@ -212,8 +212,8 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: https://www.firstinspires.org/resource-library/ftc/game-and-season-info
-      :type: url
+   .. link-button:: ../manuals/game_manuals/game_manuals
+      :type: ref
       :text: Game Manuals
       :classes: btn-outline-primary btn-block
 
