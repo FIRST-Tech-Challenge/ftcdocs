@@ -211,7 +211,7 @@ follows:
 .. |devop2a| image:: images/2a-developer-options.jpg
 .. |devop2b| image:: images/2b-developer-options.jpg
 .. |devop4| image:: images/4-developer-options.jpg
-.. |devop5| image:: images/5-developer-options.gif
+.. |devop5| image:: images/5-developer-options.*
 
 +------------------------------------------------+---------------------+
 | Step                                           | Image               |

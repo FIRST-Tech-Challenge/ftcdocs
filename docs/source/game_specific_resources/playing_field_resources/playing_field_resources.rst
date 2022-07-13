@@ -1,7 +1,7 @@
 Playing Field Resources
 =======================
 
-.. figure:: https://1.bp.blogspot.com/-ISRRWvhkroI/YUjZg8NW0QI/AAAAAAAACAg/6NDlmXjV8IwwelpenkDJyZ7p8w1pKtxSACLcBGAsYHQ/s1920/7%2BDriver%2BControlled%2Ba2.jpg
+.. figure:: images/FreightFrenzyExampleField.jpg
     
     Traditional Playing Field ~ FREIGHT FRENZY presented by Raytheon Technologies, 2021-2022
 
