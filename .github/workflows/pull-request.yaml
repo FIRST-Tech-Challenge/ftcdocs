@@ -6,24 +6,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: ghcr.io/uvidyadharan/ftcdocs-build:0.1
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v2
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
-        
-      - name: Refresh Packages
-        run: sudo apt-fast -y update
-        
-      - name: Install Dependencies
-        run: sudo apt-fast install -y texlive-xetex latexmk
-        
-      - name: Python Setup
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.8
-          cache: 'pip'
         
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
