@@ -22,8 +22,7 @@ Station. The process is as follows:
 |
 
 References to the Driver Station smartphone may instead apply to the
-`REV Driver
-Hub <https://docs.revrobotics.com/rev-control-system/driver-hub-gs>`__,
+`REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
 which is preloaded with the FTC Driver Station (DS) app.
 
 .. important:: Eventually the Control Hub will need be renamed so
@@ -154,8 +153,7 @@ Installing the FTC Apps
 **As of 2021, the FTC apps (v 6.1 and higher) are no longer available on
 Google Play.**
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software will allow you to download the apps to FTC devices: REV Control
 Hub, REV Expansion Hub, REV Driver Hub, and other FTC-approved Android
 devices (*see section below, called Updating FTC Apps on Android
@@ -180,28 +178,23 @@ and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managi
 Updating FTC Apps and Firmware on REV Devices (REV Expansion Hub, REV Control Hub, REV Driver Hub)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software is used to install and update FTC apps, firmware and/or
 operating systems on FTC devices from REV Robotics. Simply connect the
 device via USB to your PC with the REV Hardware Client installed and
 running, and the software will detect connected hardware. After
-detection, the REV Hardware Client can then `update the FTC Robot
-Controller (RC) app on a REV Control
-Hub <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-robot-controller-application>`__,
-`update the FTC Driver Station (DS) app on a REV Driver
-Hub <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-the-driver-hub>`__,
-or `update
-firmware <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-firmware>`__.
+detection, the REV Hardware Client can then 
+`update the FTC Robot Controller (RC) app on a REV Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
+`update the FTC Driver Station (DS) app on a REV Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
+or 
+`update firmware <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__.
 
 Updating FTC Apps on Android Phones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
-software is used to install, uninstall, and update apps on Android
-phones `similar to updating the REV Driver Hub Driver Station
-App <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/updating-the-driver-hub>`__.
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
+software is used to install, uninstall, and 
+`update apps on Android phones <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__.
 However, the phones must have **Developer Options** enabled in order for
 the phone to be properly recognized and updated by the REV Hardware
 Client software. The process for enabling Developer Options is as
