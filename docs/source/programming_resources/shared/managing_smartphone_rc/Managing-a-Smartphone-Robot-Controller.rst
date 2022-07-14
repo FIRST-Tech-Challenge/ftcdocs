@@ -184,8 +184,7 @@ new versions of the firmware which contains fixes and improvements for
 the Expansion Hub. The firmware releases are in the form of a binary
 (".bin") file.
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software can update the firmware of an Expansion Hub plugged directly
 into the computer via USB cable.
 
@@ -193,8 +192,8 @@ As an alternate, you can use the *Manage* interface from a laptop or
 Driver Station (DS) connected to a Robot Controller phone with Expansion
 Hub plugged in via USB. The Manage page allows you to upload an
 Expansion Hub's firmware, or to update it using the included or uploaded
-version. New firmware images can be obtained from the `REV Robotics
-website <http://www.revrobotics.com/software/>`__.
+version. New firmware images can be obtained from the 
+`REV Robotics website <https://www.revrobotics.com/software/>`__.
 
 Also, included or uploaded Expansion Hub firmware can be updated in
 Robot Controller Advanced Settings, from a paired Driver Station (DS)
@@ -315,8 +314,7 @@ the App Version number under the *ABOUT ROBOT CONTROLLER* section.
 As of 2021, the FTC apps (v 6.1 and higher) are not available on Google
 Play.
 
-The `REV Hardware Client
-software <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
 will allow you to download the apps to FTC devices: REV Control Hub, REV
 Expansion Hub, REV Driver Hub, and FTC-approved Android devices. Here
 are some of the benefits: 
