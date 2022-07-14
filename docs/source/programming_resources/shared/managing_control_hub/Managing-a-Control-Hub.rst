@@ -195,16 +195,14 @@ versions of the firmware which contains fixes and improvements for the
 Expansion Hub. The firmware releases are in the form of a binary
 (.bin) file.
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software can update the firmware for the Control Hub's embedded
 Expansion Hub.
 
 As an alternate, you can use the *Manage* interface from a connected
 laptop or Driver Station (DS) app to upload a Control Hub's firmware, or
 to update it using the included or uploaded version. New firmware images
-can be obtained from the `REV Robotics
-website <https://www.revrobotics.com/software/>`__.
+can be obtained from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
 
 Also, included or uploaded Control Hub firmware can be updated in Robot
 Controller Advanced Settings, from a paired Driver Station (DS) app as
@@ -296,13 +294,11 @@ CONTROLLER* section.
 
 |
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software can update the Robot Controller (RC) app on the Control Hub.
 
 As an alternate, Control Hub users can download the RC app from the
-FIRST Tech Challenge `Github
-repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__
+FIRST Tech Challenge `Github repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__
 and use the *Manage* page to complete the update.
 
 Note that if you are an Android Studio user, then by updating to the
@@ -422,8 +418,7 @@ Driver Station and note the Operating System Version number under the
 
 |
 
-The `REV Hardware
-Client <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software can update the Control Hub operating system.
 
 As an alternate, Control Hub users can download a new Control Hub OS
@@ -517,8 +512,7 @@ Info* page when you navigate to address "192.168.43.1:8080":
 
 2. Verify that the PATH environment variable for your Windows
 computer includes the path to the adb.exe executable file. The
-`Android Developer
-website <https://developer.android.com/studio/command-line/adb>`__
+`Android Developer website <https://developer.android.com/studio/command-line/adb>`__
 tells you where in your Android SDK installation you can find the
 adb.exe file. This
 `post <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__
