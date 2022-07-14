@@ -4,8 +4,7 @@ Managing a Smartphone Driver Station
 REV Driver Hub
 ~~~~~~~~~~~~~~
 
-The `REV Driver
-Hub <https://docs.revrobotics.com/rev-control-system/driver-hub-gs>`__
+The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__
 is preloaded with the FTC Driver Station (DS) app. The procedures
 described below for a DS phone, also apply to a REV Driver Hub.
 
@@ -77,8 +76,7 @@ STATION* section.
 As of 2021, the FTC apps (v 6.1 and higher) are not available on Google
 Play.
 
-The `REV Hardware Client
-software <https://docs.revrobotics.com/rev-control-system/managing-the-control-system/rev-hardware-client>`__
+The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
 will allow you to download the apps to FTC devices: REV Control Hub, REV
 Expansion Hub, REV Driver Hub, and FTC-approved Android devices. Here
 are some of the benefits: 
@@ -97,8 +95,7 @@ NOTE: it will take an estimated 7.5 minutes per device to complete this
 task.
 
 As an alternate, the FTC app releases are available on the
-`FTCRobotController
-Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
+`FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
 Download the Driver Station APK file to a computer, transfer it to the
 DS phone's Downloads folder, then open that file to install the DS app.
 This process is called "side-loading".
