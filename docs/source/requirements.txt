@@ -2,3 +2,4 @@ make
 sphinx
 myst-parser
 sphinx_rtd_theme
+sphinx-autobuild==2021.3.14
