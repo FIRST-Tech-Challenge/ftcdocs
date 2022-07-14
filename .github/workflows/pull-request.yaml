@@ -9,15 +9,28 @@ jobs:
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+        
+      - name: Run Tune
+        uses: abbbi/github-actions-tune@v1
+        
+      - name: Refresh Packages
+        run: sudo apt-fast -y update
+        
+      - name: Install Dependencies
+        run: sudo apt-fast install -y texlive-xetex latexmk
+        
+      - name: Python Setup
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
-      - name: Install Dependancies
+          cache: 'pip'
+        
+      - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
-      - name: Install Latex
-        run: "sudo apt-get update -y && sudo apt-get install -y texlive-xetex latexmk"
+
       - name: Build PDF
         run: make -C docs/ latexpdf
+        
       - name: Archive PDF
         env:
           PR_NUMBER: ${{ github.event.number }}
@@ -26,3 +39,44 @@ jobs:
         with:
           name: "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
           path: docs/build/latex/ftcdocs.pdf
+  spelling-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v2
+        
+      - uses: reviewdog/action-misspell@v1
+        with:
+          locale: "US"
+          reporter: "github-check"
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v2
+        
+      - name: Run Tune
+        uses: abbbi/github-actions-tune@v1
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
+      - name: link-check
+        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n"
+
+      - name: Arhive Log
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+          ID:  ${{ github.run_attempt }}
+        with:
+          name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
+          path: docs/build/linkcheck/output.txt
