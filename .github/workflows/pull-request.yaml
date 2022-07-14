@@ -69,7 +69,7 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: link-check
-        run: make -C docs/ linkcheck
+        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n"
 
       - name: Arhive Log
         if: ${{ failure() }}
@@ -80,6 +80,3 @@ jobs:
         with:
           name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
           path: docs/build/linkcheck/output.txt
-      
-        
-      
