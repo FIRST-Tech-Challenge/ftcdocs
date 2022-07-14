@@ -8,7 +8,7 @@ Android Studio is distributed freely by Google, and the most up-to-date
 reference for installing and using the Android Studio software can be
 found on the Android developer website:
 
-*  http://developer.android.com/sdk/index.html
+*  https://developer.android.com/studio
 
 Android Studio is available on the Windows, MacOS, and Linux operating
 systems.
@@ -20,7 +20,7 @@ Before you download and install the Android Studio you should first
 check the list of system requirements on the Android developer's website
 to verify that your system satisfies the list of minimum requirements:
 
-*  http://developer.android.com/sdk/index.html#Requirements
+*  https://developer.android.com/studio#Requirements
 
 Java Development Kit
 ~~~~~~~~~~~~~~~~~~~~

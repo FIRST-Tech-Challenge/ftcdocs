@@ -204,7 +204,7 @@ As an alternate, you can use the *Manage* interface from a connected
 laptop or Driver Station (DS) app to upload a Control Hub's firmware, or
 to update it using the included or uploaded version. New firmware images
 can be obtained from the `REV Robotics
-website <http://www.revrobotics.com/software/>`__.
+website <https://www.revrobotics.com/software/>`__.
 
 Also, included or uploaded Control Hub firmware can be updated in Robot
 Controller Advanced Settings, from a paired Driver Station (DS) app as

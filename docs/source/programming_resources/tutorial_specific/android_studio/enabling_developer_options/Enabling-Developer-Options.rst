@@ -17,7 +17,7 @@ will see that you can enable Developer Options on you Android phone by
 going to Settings->About phone on the phone, and then tapping the Build
 number seven times.
 
-*  https://developer.android.com/studio/run/device.html#device-developer-options
+*  https://developer.android.com/studio/run/device#device-developer-options
 
 In order to be able to use the Android Studio tools to install apps onto
 your phone, you will need to make sure that the Developer Options and
