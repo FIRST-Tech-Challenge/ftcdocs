@@ -41,6 +41,35 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+# Credit: https://github.com/wpilibsuite/frc-docs/blob/main/source/conf.py
+# -- Options for latex generation --------------------------------------------
+
+latex_engine = "xelatex"
+
+# Disable xindy support
+# See: https://github.com/readthedocs/readthedocs.org/issues/5476
+latex_use_xindy = False
+
+latex_elements = {
+    "fontpkg": r"""
+	\setmainfont{DejaVu Serif}
+	\setsansfont{DejaVu Sans}
+	\setmonofont{DejaVu Sans Mono}""",
+    "preamble": r"""
+	\usepackage[titles]{tocloft}
+	\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+	\setlength{\cftchapnumwidth}{0.75cm}
+	\setlength{\cftsecindent}{\cftchapnumwidth}
+	\setlength{\cftsecnumwidth}{1.25cm}
+	""",
+    "fncychap": r"\usepackage[Bjornstrup]{fncychap}",
+    "printindex": r"\footnotesize\raggedright\printindex",
+}
+
+suppress_warnings = ["epub.unknown_project_files"]
+
+sphinx_tabs_valid_builders = ["epub", "linkcheck"]
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
