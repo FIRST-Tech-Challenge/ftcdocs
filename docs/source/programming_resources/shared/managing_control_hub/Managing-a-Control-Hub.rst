@@ -433,7 +433,7 @@ the update of the OS.
 Updating the Control Hub OS Instructions
 ----------------------------------------
 
-1. Download the new Control Hub OS update file from the `REV Robotics website <http://www.revrobotics.com/software/>`__.
+1. Download the new Control Hub OS update file from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
 
 2. On the *Manage* page, click on the *Select Update File* button to select the OS update file that you would like to upload.
 
