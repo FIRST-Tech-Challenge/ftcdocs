@@ -10,7 +10,6 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 .. rst-class:: center
 
 
-
 .. panels::
    :column: col-sm d-flex pb-3
    :footer: bg-white border-0
@@ -21,6 +20,7 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
    JAVA and Android Studio
    
    ^^^
+   
    Look for programming resources here.
 
    +++
@@ -62,13 +62,12 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
       :text: FTC Machine Toolchain
       :classes: btn-outline-primary btn-block
 
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-
 .. panels::
    :column: col-sm d-flex pb-3
    :footer: bg-white border-0
+
+   ---
+   :header: bg-primary font-weight-bold text-white
 
    Outreach
    
@@ -82,7 +81,6 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
       :type: ref
       :text: Outreach
       :classes: btn-outline-primary btn-block
-   
    
    ---
    :header: bg-primary font-weight-bold text-white
@@ -115,7 +113,3 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
       :type: ref
       :text: Awards
       :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-primary font-weight-bold text-white
-
