@@ -21,14 +21,14 @@ Javascript-enabled browser.
 Installing a Javascript-Enabled Browser Instructions
 ----------------------------------------------------
 
-1. Visit the `Google Chrome Browser website <https://www.google.com/chrome/browser/desktop/index.html>`__ (using your computer's existing browser) and follow onscreen instructions to download and install Chrome.
+1. Visit the `Google Chrome Browser website <https://www.google.com/chrome>`__ (using your computer's existing browser) and follow onscreen instructions to download and install Chrome.
 
 .. image:: images/InstallingBrowserStep1.jpg
    :align: center
 
 .. rst-class:: center
 
-`Chrome Browser Website Link <https://www.google.com/chrome/browser/desktop/index.html>`__
+`Chrome Browser Website Link <https://www.google.com/chrome>`__
 
 2. Note that your computer might prompt you with a security warning   
 during the installation process. If you are prompted with this        

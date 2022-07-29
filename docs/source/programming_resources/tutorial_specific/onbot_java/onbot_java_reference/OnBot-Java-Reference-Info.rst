@@ -42,6 +42,6 @@ REV Robotics Expansion Hub Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `REV Robotics Expansion Hub Getting Started
-Guide <http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf>`__
+Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
 
 
