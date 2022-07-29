@@ -1,4 +1,0 @@
-Volunteer Resources
-===================
-
-Volunteer Resources!
