@@ -65,6 +65,11 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
    ---
    :header: bg-primary font-weight-bold text-white
 
+
+.. panels::
+   :column: col-sm d-flex pb-3
+   :footer: bg-white border-0
+
    Outreach
    
    ^^^
@@ -94,10 +99,6 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
       :type: ref
       :text: Engineering Notebook
       :classes: btn-outline-primary btn-block
-
-.. panels::
-   :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
