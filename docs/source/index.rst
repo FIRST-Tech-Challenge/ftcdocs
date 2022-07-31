@@ -23,9 +23,6 @@ students.
    stubs/veteran_teams
    stubs/coach_administrative_resources
    stubs/mentor_technical_resources
-   stubs/tournament_organizer_resources
-   stubs/volunteer_resources
-   stubs/ftc_partner_resources
    
 .. toctree::
    :caption: Game and Season-Specific Resources
@@ -54,14 +51,9 @@ students.
    stubs/autodesk_fusion_360_resources
    stubs/solidworks_resources
 
-.. toctree::
-   :caption: Volunteer Resources
-   :maxdepth: 1
-   :hidden:
-
-   stubs/volunteer_materials
-
-.. toctree::
+..
+   [ddiaz] Commenting for now
+   .. toctree::
    :caption: Miscellaneous 
    :maxdepth: 1
    :hidden:
@@ -142,58 +134,6 @@ students.
    .. link-button:: stubs/coach_administrative_resources
       :type: ref
       :text: Admin Resources
-      :classes: btn-outline-primary btn-block
-
-.. panels::
-   :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
-
-   ---
-   :header: bg-info font-weight-bold text-white
-
-   Tournament Organizer
-   
-   ^^^
-
-   Resources for Tournament Organizers who make it all possible.
-
-   +++
-
-   .. link-button:: stubs/tournament_organizer_resources
-      :type: ref
-      :text: Tournament Organizers
-      :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-info font-weight-bold text-white
-
-   Volunteer Resources
-   
-   ^^^
-
-   Resources for volunteers of all kinds. Come one, come all!
-
-   +++
-
-   .. link-button:: stubs/volunteer_resources
-      :type: ref
-      :text: Volunteer Resources
-      :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-info font-weight-bold text-white
-
-   FTC Partner Resources
-   
-   ^^^
-
-   Product Delivery Partner (PDP) Resources for managinbg regions.
-
-   +++
-
-   .. link-button:: stubs/ftc_partner_resources
-      :type: ref
-      :text: PDP Resources
       :classes: btn-outline-primary btn-block
 
 .. panels::

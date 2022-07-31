@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import os
 
 project = 'ftcdocs'
 copyright = '2022, FIRST'
@@ -82,4 +83,17 @@ def setup(app):
     app.add_js_file("js/external-links-new-tab.js")
 
 
+if(os.environ.get("DOCS_BUILD") == "true"):
+    html_context = dict()
+    html_context['display_lower_left'] = True
 
+    html_context['current_version'] = version
+    html_context['version'] = version
+
+    html_context['downloads'] = list()  
+    html_context['downloads'].append( ('PDF', 'ftcdocs.pdf') )
+
+    html_context['display_github'] = True
+    html_context['github_user'] = 'FIRST-Tech-Challenge'
+    html_context['github_repo'] = 'ftcdocs'
+    html_context['github_version'] = 'main/docs/source/'
