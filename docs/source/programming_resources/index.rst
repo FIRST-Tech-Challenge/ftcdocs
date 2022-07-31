@@ -34,8 +34,8 @@ FTC Control System Supporting Documentation
    -  :doc:`Required Materials <shared/required_materials/Required-Materials>`
    -  :doc:`Using Your Android Device <shared/using_android_device/Using-Your-Android-Device>`
    -  :doc:`Configuring Your Android Devices <shared/configuring_android/Configuring-Your-Android-Devices>`
-   -  :doc:`Connecting Devices to a Control or Expansion Hub <shared/connecting_devices/Connecting-Devices-to-a-Control-or-Expansion-Hub>`
-   -  :doc:`Configuring Your Hardware <shared/configure_hardware/index>`
+   -  :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
+   -  :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
    -  :doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network <shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
    -  :doc:`Installing a Javascript Enabled Browser <shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`
    -  :doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`
@@ -52,8 +52,8 @@ FTC Control System Supporting Documentation
    shared/required_materials/Required-Materials
    shared/using_android_device/Using-Your-Android-Device
    shared/configuring_android/Configuring-Your-Android-Devices
-   shared/connecting_devices/Connecting-Devices-to-a-Control-or-Expansion-Hub
-   shared/configure_hardware/index
+   /hardware_and_software_configuration/connecting_devices/index
+   /hardware_and_software_configuration/configuring/index
    shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network
    shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser
    shared/managing_control_hub/Managing-a-Control-Hub

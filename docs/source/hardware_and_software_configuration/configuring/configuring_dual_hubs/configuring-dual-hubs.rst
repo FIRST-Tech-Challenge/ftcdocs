@@ -1,6 +1,3 @@
-.. warning::
-      This documentation is out of date
-
 Using Two Expansion Hubs
 ========================
 
@@ -193,7 +190,7 @@ Connecting the Two Expansion Hubs
 together. Before you do this, disconnect the 12V battery and power
 switch from the first Expansion Hub.
 
-   Use the XT30 extension cable to connect an XT30 power port on one of the
+Use the XT30 extension cable to connect an XT30 power port on one of the
 Expansion Hubs to an XT30 power port on the other Hub.
 
 .. figure:: images/XT30ExtensionConnected.jpg

@@ -22,11 +22,11 @@ The following cameras have been tested and calibrated to work accurately
 with FTC software:
 
 -  `Logitech C270 HD
-   Webcam <https://www.logitech.com/en-us/product/hd-webcam-c270>`__
+   Webcam <https://www.logitech.com/en-us/products/webcams/c270-hd-webcam.960-000694.html>`__
 -  `Logitech C310 HD
-   Webcam <https://www.logitech.com/en-us/product/hd-webcam-c310?crid=34>`__
+   Webcam <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.960-000585.html>`__
 -  `Logitech C920 HD
-   Webcam <https://www.logitech.com/en-us/product/hd-pro-webcam-c920s?crid=34>`__
+   Webcam <https://www.logitech.com/en-us/products/webcams/c920s-pro-hd-webcam.960-001257.html>`__
 
 Calibrating a UVC camera is an optional, advanced task. Instructions for
 creating a calibration file are in the comments of the

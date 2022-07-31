@@ -1,6 +1,5 @@
 Saving the Configuration Information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+====================================
 Once you have configured your hardware, you must save the information to
 the configuration file. If you do not save this information, it will be
 lost and the robot controller will be unable to communicate with your

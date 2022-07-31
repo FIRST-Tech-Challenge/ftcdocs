@@ -112,7 +112,7 @@ electrostatic charge on the robots as the move across the tile floor.
    :align: center
 
 *FIRST* recommends the use of `ACL Heavy Duty
-Staticide <https://www.aclstaticide.com/heavy_duty_staticide.html>`__
+Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__
 spray to treat the tiles. This spray is extremely effective at
 preventing charge build up on the robots. Also, this spray only needs to
 be applied once and it will last for an entire event (and it will work
