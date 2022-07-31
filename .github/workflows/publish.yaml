@@ -1,0 +1,72 @@
+name: "Publish Docs"
+
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v2
+        
+      - name: Run Tune
+        uses: abbbi/github-actions-tune@v1
+        
+      - name: Refresh Packages
+        run: sudo apt-fast -y update
+        
+      - name: Install Dependencies
+        run: sudo apt-fast install -y texlive-xetex latexmk
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
+      - name: Build site
+        env:
+          DOCS_BUILD: 'true'
+          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+        run: make -C docs/ html
+
+      - name: Build PDF
+        run: make -C docs/ latexpdf
+        
+      - name: Move PDF
+        run: cp docs/build/latex/ftcdocs.pdf docs/build/html/
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'docs/build/html'
+          
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@main
+
+      
