@@ -2,3 +2,5 @@ Sphinx==4.4.0
 sphinx-rtd-theme==1.0.0
 sphinx-panels==0.6.0
 sphinx-autobuild==2021.3.14
+make==0.1.6.post2
+myst-parser==0.18.0
