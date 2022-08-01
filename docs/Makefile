@@ -17,7 +17,7 @@ help:
 .PHONY: help Makefile
 
 autobuild:
-	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=0 --open-browser
+	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
 
 .PHONY: help autobuild Makefile
 

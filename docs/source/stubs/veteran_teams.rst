@@ -49,11 +49,11 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
    ---
    :header: bg-primary font-weight-bold text-white
 
-   FTC Machine Toolchain
+   FTC Machine Learning Toolchain
    
    ^^^
 
-   Look for user guides and links to FTC-mltoolchain .
+   Look for user guides and links to FTC-ML toolchain.
 
    +++
 
