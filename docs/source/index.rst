@@ -13,6 +13,7 @@ students.
    :maxdepth: 1
 
    /overview/ftcoverview
+   Gracious Professionalism®</gracious_professionalism/gp>
 
 .. toctree::
    :caption: Getting Started
