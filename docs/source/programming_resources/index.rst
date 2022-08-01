@@ -52,8 +52,6 @@ FTC Control System Supporting Documentation
    shared/required_materials/Required-Materials
    shared/using_android_device/Using-Your-Android-Device
    shared/configuring_android/Configuring-Your-Android-Devices
-   /hardware_and_software_configuration/connecting_devices/index
-   /hardware_and_software_configuration/configuring/index
    shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network
    shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser
    shared/managing_control_hub/Managing-a-Control-Hub
