@@ -48,7 +48,6 @@ FTC Control System Supporting Documentation
    :titlesonly:
    :hidden:
 
-   shared/control_system_intro/The-FTC-Control-System
    shared/required_materials/Required-Materials
    shared/using_android_device/Using-Your-Android-Device
    shared/configuring_android/Configuring-Your-Android-Devices
