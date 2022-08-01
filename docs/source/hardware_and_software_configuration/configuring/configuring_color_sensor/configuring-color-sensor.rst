@@ -1,5 +1,5 @@
 Configuring a Color Distance Sensor
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 The REV Robotics Color Distance Sensor is an I2C sensor. It actually
 combines two sensor functions into a single device. It is a color
