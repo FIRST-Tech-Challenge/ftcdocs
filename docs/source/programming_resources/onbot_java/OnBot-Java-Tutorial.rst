@@ -34,8 +34,8 @@ to advanced Java skills and who would like to write text-based op modes.
 
    -  :doc:`Configuring Your Android
       Devices <../shared/configuring_android/Configuring-Your-Android-Devices>`
-   -  :doc:`Connecting Devices to a Control or Expansion Hub <../shared/connecting_devices/Connecting-Devices-to-a-Control-or-Expansion-Hub>`
-   -  :doc:`Configuring Your Hardware <../shared/configure_hardware/Configuring-Your-Hardware>`
+   -  :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
+   -  :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
 
 3. Connecting to the Program & Manage Server
 

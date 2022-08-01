@@ -253,7 +253,7 @@ Note that you will need an estimated 15 minutes to complete this task.
 
 .. important:: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file. If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
 
-If you did not :doc:`create and activate a configuration file yet <../../../shared/configure_hardware/Configuring-Your-Hardware>` please follow :doc:`this link <../../../shared/configure_hardware/Configuring-Your-Hardware>`  
+If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`  
 to do so. After you created and activated your configuration file, 
 you can close and then reopen your op mode so that the programming 
 blocks for the newly configured devices will be visible.
