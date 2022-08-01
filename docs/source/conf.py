@@ -3,6 +3,7 @@
 # -- Project information
 import os
 import sys
+import urllib.parse as urlparse
 
 project = 'FIRST Tech Challenge Docs'
 copyright = '2022, FIRST'
@@ -105,8 +106,8 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['version'] = version
 
     html_context['downloads'] = list()
-    pdfname = project.lower().replace(" ", "")
-    html_context['downloads'].append( ('PDF', f'{pdfname}.pdf') )
+    pdfname = str(urlparse.urlparse(os.environ.get("url")).path) + project.lower().replace(" ", "") + ".pdf"
+    html_context['downloads'].append(('PDF', str(pdfname)))
 
     html_context['display_github'] = True
     html_context['github_user'] = 'FIRST-Tech-Challenge'
