@@ -2,10 +2,11 @@
 
 # -- Project information
 import os
+import sys
 
-project = 'ftcdocs'
+project = 'FIRST Tech Challenge Docs'
 copyright = '2022, FIRST'
-author = 'FIRST'
+author = 'FIRST Tech Challenge'
 
 release = '0.1'
 version = '0.1.0'
@@ -42,6 +43,16 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+# Specify canonical root
+# This tells search engines that this domain is preferred
+html_baseurl = "https://ftcdocs.firstinspires.org"
+
+# Sidebar logo
+html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
+
+# URL favicon
+html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
+
 # Credit: https://github.com/wpilibsuite/frc-docs/blob/main/source/conf.py
 # -- Options for latex generation --------------------------------------------
 
@@ -73,6 +84,9 @@ sphinx_tabs_valid_builders = ["epub", "linkcheck"]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Specify a standard user agent, as Sphinx default is blocked on some sites
+user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
 
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
