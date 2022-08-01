@@ -12,7 +12,7 @@ students.
    :hidden:
    :maxdepth: 1
 
-   /overview/ftccontrolsystem
+   /overview/ftcoverview
 
 .. toctree::
    :caption: Getting Started
