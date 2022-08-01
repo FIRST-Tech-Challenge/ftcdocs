@@ -38,7 +38,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
-          path: docs/build/latex/ftcdocs.pdf
+          path: docs/build/latex/*.pdf
+          if-no-files-found: error
   spelling-check:
     runs-on: ubuntu-latest
     steps:
