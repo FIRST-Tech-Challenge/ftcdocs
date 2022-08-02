@@ -29,7 +29,7 @@ PTC Onshape Training Videos
 
 FTC-specific Training Videos
 
-*  `Using the FTC Library with Onshape <https://www.youtube.com/watch?v=KP3pT9OsiW8&t=0s>`__
+*  `Using the FTC Library with Onshape <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`__
 
 Select PTC Learning Pathway Training Series (available on OnShape login)
 
