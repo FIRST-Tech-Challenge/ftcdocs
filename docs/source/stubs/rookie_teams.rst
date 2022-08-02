@@ -90,7 +90,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
    +++
 
-   .. link-button:: ../stubs/ptc_onshape_resources
+   .. link-button:: ../cad_resources/index
       :type: ref
       :text: CAD Resources
       :classes: btn-outline-primary btn-block
