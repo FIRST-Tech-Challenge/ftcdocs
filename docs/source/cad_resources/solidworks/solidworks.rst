@@ -16,7 +16,7 @@ Dassault Systèmes makes software available to all *FIRST* teams via the *FIRST*
 Dassault Systèmes provides both cloud-based and desktop-based tools to *FIRST*
 teams. Teams must:
 
-1.  `Create a 3DEXPERIENCE ID <https://eu1-ds-iam.3dexperience.3ds.com/login?service=https%3A%2F%2Fwww.3ds.com%2F#register>`__
+1.  `Create a 3DEXPERIENCE ID <https://eu1-ds-iam.3dexperience.3ds.com/login>`__
     if you don't have one.
 2.  `Apply to request your license <https://www.solidworks.com/product/students/get-your-license>`__.
 
