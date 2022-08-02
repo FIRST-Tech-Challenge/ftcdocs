@@ -40,9 +40,9 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../stubs/ptc_onshape_resources
+   .. link-button:: ../cad_resources/index
       :type: ref
-      :text: Mechanical Resources
+      :text: CAD Resources
       :classes: btn-outline-primary btn-block
 
    ---

@@ -89,6 +89,9 @@ epub_show_urls = 'footnote'
 # Specify a standard user agent, as Sphinx default is blocked on some sites
 # user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
 
+# Solidworks links break our link checker.
+linkcheck_ignore = [r'https://www\.solidworks\.com/.*']
+
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
 

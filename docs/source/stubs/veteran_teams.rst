@@ -41,7 +41,7 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
    +++
 
-   .. link-button:: ../programming_resources/index
+   .. link-button:: ../cad_resources/index
       :type: ref
       :text: CAD and 3D Printing
       :classes: btn-outline-primary btn-block
@@ -93,8 +93,8 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
    +++
 
-   .. link-button:: ../stubs/ptc_onshape_resources
-      :type: ref
+   .. link-button:: http://firsttechchallenge.blogspot.com/2020/12/tips-for-your-teams-engineering.html
+      :type: url
       :text: Engineering Notebook
       :classes: btn-outline-primary btn-block
 
