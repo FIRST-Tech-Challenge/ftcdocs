@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-fast -y update
         
       - name: Install Dependencies
-        run: sudo apt-fast install -y texlive-xetex latexmk
+        run: xargs -a dependencies sudo apt-fast install -y
         
       - name: Python Setup
         uses: actions/setup-python@v4

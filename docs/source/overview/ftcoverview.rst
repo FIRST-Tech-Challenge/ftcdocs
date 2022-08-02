@@ -20,7 +20,7 @@ Championship <https://www.firstchampionship.org/>`__.
 
 .. raw:: html
 
-   <iframe width="699" height="393" src="https://www.youtube.com/embed/y5NPp_5KHuk" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |
 
