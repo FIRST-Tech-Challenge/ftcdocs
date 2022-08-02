@@ -48,9 +48,12 @@ students.
    :maxdepth: 1
    :hidden:
 
-   stubs/ptc_onshape_resources
-   stubs/autodesk_fusion_360_resources
-   stubs/solidworks_resources
+   Computer Aided Design (CAD) <cad_resources/index>
+
+.. toctree::
+   :caption: ------ 
+   :maxdepth: 1
+   :hidden:    
 
 ..
    [ddiaz] Commenting for now
