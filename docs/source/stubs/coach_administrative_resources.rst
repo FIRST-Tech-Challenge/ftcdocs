@@ -68,3 +68,50 @@ Welcome to FIRST Tech Challenge coach's page! Resources have been organized by t
    :footer: bg-white border-0
 
   
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   Team Management
+   
+   ^^^
+  
+   Resources to provide your team a well-paced and successful season.
+
+   +++
+
+   .. link-button:: ../programming_resources/index
+      :type: ref
+      :text: Team Management
+      :classes: btn-outline-primary btn-block
+
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   New Coach Tips
+   
+   ^^^
+
+   Discover the best practices for new coaches.
+
+   +++
+
+   .. link-button:: ../programming_resources/index
+      :type: ref
+      :text: New Coach Tips
+      :classes: btn-outline-primary btn-block
+
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   Pre-Event Checklists
+   
+   ^^^
+
+   Simple checklists to prepare for competition.
+
+   +++
+
+   .. link-button:: ../manuals/game_manuals/game_manuals
+      :type: ref
+      :text: Pre-Event Checklists
+      :classes: btn-outline-primary btn-block
