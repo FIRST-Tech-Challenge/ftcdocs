@@ -75,3 +75,56 @@ team while promoting FIRST's ethos.
       :type: url
       :text: Sample Budget
       :classes: btn-outline-primary btn-block
+
+.. panels::
+   :column: col-sm d-flex pb-3
+   :footer: bg-white border-0
+
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   Team Management
+
+   ^^^
+
+   Resources to provide your team a well-paced and successful season.
+
+   +++
+
+   .. link-button:: https://www.firstinspires.org/node/5226
+      :type: url
+      :text: Team Management
+      :classes: btn-outline-primary btn-block
+
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   New Coach Tips
+
+   ^^^
+
+   Discover the best practices for new coaches.
+
+   +++
+
+   .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/coachs-playbook.pdf
+      :type: url
+      :text: Coach's Playbook
+      :classes: btn-outline-primary btn-block
+
+   ---
+   :header: bg-primary font-weight-bold text-white
+
+   Pre-Event Checklists
+
+   ^^^
+
+   Simple checklists to prepare for competition.
+
+   +++
+
+   .. link-button:: https://www.firstinspires.org/resource-library/ftc/preparing-for-competition
+      :type: url
+      :text: Pre-Event Checklists
+      :classes: btn-outline-primary btn-block
+
