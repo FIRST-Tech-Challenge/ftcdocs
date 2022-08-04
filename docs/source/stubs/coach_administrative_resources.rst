@@ -1,8 +1,10 @@
 Coach (Administrative) Resources
 ================================
 
-
-Welcome to FIRST Tech Challenge coach's page! Resources have been organized by type to help your team stay organized and be successful throughout the season. These resources are focused on the coach or administrator needs to manage the team while promoting FIRST's ethos.
+Welcome to FIRST Tech Challenge coach's page! Resources have been organized by
+type to help your team stay organized and be successful throughout the season.
+These resources are focused on the coach or administrator needs to manage the
+team while promoting FIRST's ethos.
 
 .. rst-class:: center
    
@@ -26,8 +28,8 @@ Welcome to FIRST Tech Challenge coach's page! Resources have been organized by t
 
    +++
 
-   .. link-button:: ../programming_resources/index
-      :type: ref
+   .. link-button:: https://www.firstinspires.org/robotics/fll/core-values
+      :type: url
       :text: Core Values
       :classes: btn-outline-primary btn-block
 
@@ -42,10 +44,21 @@ Welcome to FIRST Tech Challenge coach's page! Resources have been organized by t
 
    +++
 
-   .. link-button:: ../programming_resources/index
-      :type: ref
-      :text: Register Your Team
-      :classes: btn-outline-primary btn-block
+   .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. link-button:: https://my.firstinspires.org/Dashboard/
+               :type: url
+               :text: Register Your Team
+               :classes: btn-outline-primary btn-block
+         
+         .. div:: col-sm pl-1 pr-1
+
+            .. link-button:: https://www.firstinspires.org/resource-library/youth-registration-system
+               :type: url
+               :text: Youth Registration
+               :classes: btn-outline-primary btn-block
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -58,13 +71,8 @@ Welcome to FIRST Tech Challenge coach's page! Resources have been organized by t
 
    +++
 
-   .. link-button:: ../manuals/game_manuals/game_manuals
-      :type: ref
-      :text: Budget
+   .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/sample-team-budget.pdf
+      :type: url
+      :text: Sample Budget
       :classes: btn-outline-primary btn-block
 
-.. panels::
-   :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
-
-  
