@@ -24,9 +24,9 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../programming_resources/index
+   .. link-button:: ../hardware_and_software_configuration/index
       :type: ref
-      :text: Control System Resources
+      :text: Control System HW Resources
       :classes: btn-outline-primary btn-block
 
    ---
@@ -40,9 +40,9 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../cad_resources/index
-      :type: ref
-      :text: CAD Resources
+   .. link-button:: https://www.firstinspires.org/node/5181
+      :type: url
+      :text: Build Resources
       :classes: btn-outline-primary btn-block
 
    ---
@@ -56,7 +56,7 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../stubs/Awards
+   .. link-button:: ../programming_resources/index
       :type: ref
       :text: Programming Resources
       :classes: btn-outline-primary btn-block
@@ -76,28 +76,28 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../stubs/external_tools
-      :type: ref
-      :text: Technical Writing
+   .. link-button:: http://firsttechchallenge.blogspot.com/2020/12/tips-for-your-teams-engineering.html
+      :type: url
+      :text: Portfolio Tips      
       :classes: btn-outline-primary btn-block
 
    ---
    :header: bg-primary font-weight-bold text-white
 
-   FTC Machine Toolchain
+   FTC-ML Toolchain
    
    ^^^
 
-   Look for user guides and links to FTC-mltoolchain .
+   FTC Machine Learning (TensorFlow) Toolkit
 
    +++
 
-   .. link-button:: ../manuals/game_manuals/game_manuals
-      :type: ref
-      :text: FTC Machine Toolchain
+   .. link-button:: http://firsttechchallenge.blogspot.com/2021/12/first-tech-challenge-machine-learning.html
+      :type: url
+      :text: FTC-ML Toolchain
       :classes: btn-outline-primary btn-block
   
-     ---
+   ---
    :header: bg-primary font-weight-bold text-white
   
    CAD and 3D Printing
@@ -108,7 +108,7 @@ Welcome to FIRST Tech Challenge technical mentors! Resources have been organized
 
    +++
 
-   .. link-button:: ../programming_resources/index
+   .. link-button:: ../cad_resources/index
       :type: ref
       :text: CAD and 3D Printing
       :classes: btn-outline-primary btn-block
