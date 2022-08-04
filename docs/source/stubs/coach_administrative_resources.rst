@@ -128,4 +128,3 @@ team while promoting FIRST's ethos.
       :text: Pre-Event Checklists
       :classes: btn-outline-primary btn-block
 
-
