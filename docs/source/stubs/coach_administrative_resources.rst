@@ -75,4 +75,3 @@ team while promoting FIRST's ethos.
       :type: url
       :text: Sample Budget
       :classes: btn-outline-primary btn-block
-
