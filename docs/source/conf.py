@@ -91,13 +91,10 @@ epub_show_urls = 'footnote'
 
 # Change request header to avoid 403 error because Solidworks is great like that
 linkcheck_request_headers = {
-          "https://solidworks.com/": {
-              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-          },
-          "*": {
-              "Accept": "text/html,application/xhtml+xml",
-          }
-      }
+    "*": {
+        "Accept": "text/html,application/xhtml+xml",
+    }
+}
 
 # Firstinspires redirects to login and break our link checker :)
 linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/']
