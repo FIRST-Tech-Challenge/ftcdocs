@@ -87,10 +87,20 @@ sphinx_tabs_valid_builders = ["epub", "linkcheck"]
 epub_show_urls = 'footnote'
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
-# user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
+#user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
 
-# Solidworks links break our link checker.
-linkcheck_ignore = [r'https://www\.solidworks\.com/.*']
+# Change request header to avoid 403 error because Solidworks is great like that
+linkcheck_request_headers = {
+          "https://solidworks.com/": {
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+          },
+          "*": {
+              "Accept": "text/html,application/xhtml+xml",
+          }
+      }
+
+# Firstinspires redirects to login and break our link checker :)
+linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/']
 
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
