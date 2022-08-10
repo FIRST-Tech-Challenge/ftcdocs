@@ -1,5 +1,5 @@
-Java Sample Op Mode for TensorFlow Object Detection
-====================================================
+Java Sample Op Mode for TFOD
+=============================
 
 Creating the Op Mode
 ~~~~~~~~~~~~~~~~~~~~

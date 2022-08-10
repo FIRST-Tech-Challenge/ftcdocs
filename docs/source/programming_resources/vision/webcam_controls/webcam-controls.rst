@@ -649,21 +649,44 @@ The following sample OpModes are linked here for reference only. These
 rudimentary OpModes may not apply to your webcam and may not meet your
 needs in general.
 
--  Adjust exposure, gain and AE Priority:
-   `W_WebcamControls_Exp_Gain.java <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/FTC-Webcam-Controls/W_WebcamControls_Exp_Gain.java>`__
 
--  Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2,
-   3):
-   `W_TFOD_WebcamExpGain.java <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/FTC-Webcam-Controls/W_TFOD_WebcamExpGain.java>`__
 
--  Adjust white balance temperature, if supported:
-   `W_WebcamControls_WhiteBalance.java <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/FTC-Webcam-Controls/W_WebcamControls_WhiteBalance.java>`__
+.. dropdown:: Adjust exposure, gain and AE Priority
 
--  Adjust focus, if supported:
-   `W_WebcamControls_Focus.java <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/FTC-Webcam-Controls/W_WebcamControls_Focus.java>`__
+   :download:`W_WebcamControls_Exp_Gain.java <opmodes/W_WebcamControls_Exp_Gain.java>`
 
--  Adjust virtual pan, tilt and zoom, if supported:
-   `W_WebcamControls_PTZ.java <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/FTC-Webcam-Controls/W_WebcamControls_PTZ.java>`__
+   .. literalinclude:: opmodes/W_WebcamControls_Exp_Gain.java
+      :language: java
+
+
+
+.. dropdown:: Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)
+
+   :download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`
+
+   .. literalinclude:: opmodes/W_TFOD_WebcamExpGain.java
+      :language: java
+
+.. dropdown:: Adjust white balance temperature, if supported
+
+   :download:`W_WebcamControls_WhiteBalance.java <opmodes/W_WebcamControls_WhiteBalance.java>`
+
+   .. literalinclude:: opmodes/W_WebcamControls_WhiteBalance.java
+      :language: java
+
+.. dropdown:: Adjust focus, if supported
+
+    :download:`W_WebcamControls_Focus.java <opmodes/W_WebcamControls_Focus.java>`
+
+   .. literalinclude:: opmodes/W_WebcamControls_Focus.java
+      :language: java
+
+.. dropdown:: Adjust virtual pan, tilt and zoom, if supported
+
+   :download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`
+
+   .. literalinclude:: opmodes/W_WebcamControls_PTZ.java
+      :language: java
 
 Summary
 -------

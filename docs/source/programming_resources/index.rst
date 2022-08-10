@@ -86,4 +86,6 @@ Learning more about using vision in FTC
    vision/vision_overview/vision-overview
    vision/blocks_tfod_opmode/blocks-tfod-opmode
    vision/java_tfod_opmode/java-tfod-opmode
+   vision/identifying_vumarks/identifying-vumarks
+   vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/webcam_controls/webcam-controls
