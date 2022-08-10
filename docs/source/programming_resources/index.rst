@@ -84,3 +84,6 @@ Learning more about using vision in FTC
    :titlesonly:
 
    vision/vision_overview/vision-overview
+   vision/blocks_tfod_opmode/blocks-tfod-opmode
+   vision/java_tfod_opmode/java-tfod-opmode
+   vision/webcam_controls/webcam-controls
