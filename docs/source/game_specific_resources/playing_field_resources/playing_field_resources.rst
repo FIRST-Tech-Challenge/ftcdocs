@@ -15,7 +15,9 @@ in the official field drawings. The base field stays the same for all games but 
 Traditional Field Setup Guide
 ------------------------------------
 
-`Traditional Field Setup Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-setup-guide.pdf>`__
+.. only:: latex
+
+    `Traditional Field Setup Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-setup-guide.pdf>`__
 
 .. raw:: html
 
@@ -26,7 +28,9 @@ Traditional Field Setup Guide
 Remote Field Setup Guide
 ------------------------------------
 
-`Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/remote-field-requirements.pdf>`__
+.. only:: latex
+
+    `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/remote-field-requirements.pdf>`__
 
 .. raw:: html
 
