@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_rtd_theme',
     'sphinx_panels',
+    'javasphinx',
 ]
 
 autosectionlabel_prefix_document = True
@@ -32,6 +33,14 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
+
+javadoc_url_map = {
+    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/7.1.0/', 'javadoc'),
+}
 
 templates_path = ['_templates']
 

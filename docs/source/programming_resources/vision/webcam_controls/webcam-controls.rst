@@ -298,6 +298,8 @@ exposure.
 White Balance Control
 ---------------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`
+
 Continuing with other interfaces, the FTC SDK (new for version 7.1)
 provides methods for white balance control.
 
@@ -337,6 +339,8 @@ The Logitech C920 webcam has a min value of 2000 and a max value of
 White Balance Control Mode
 --------------------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl.Mode`
+
 This interface supports 3 values of WhiteBalanceControl.Mode:
 
 -  AUTO
@@ -354,11 +358,10 @@ even reverts to Auto in a fresh session, after being set to Manual in a
 previous session. For other CameraControl settings, some webcams revert
 to a default value and some preserve their last commanded value.
 
-Full details are described in the `WhiteBalanceControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/WhiteBalanceControl.html>`__.
-
 Focus Control
 -------------
+
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`
 
 At a distance called “focus length”, a subject’s image (light rays)
 converge from the lens to form a clear image on the webcam sensor.
@@ -385,6 +388,8 @@ described above for exposure.
 Focus Control Mode
 ------------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`
+
 A webcam may operate in one of various focus modes. To directly control
 the focus length, set the webcam to Fixed mode.
 
@@ -403,6 +408,8 @@ Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/first
 
 Pan-Tilt-Zoom Control
 ---------------------
+
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.PtzControl`
 
 The FTC SDK provides methods for virtual pan (horizontal motion), tilt
 (vertical motion), and zoom (enlargement and reduction of image size).
@@ -460,9 +467,6 @@ vary among different versions of the same webcam model.
 These pan and tilt methods are called on a PtzControl object, as
 described above for exposure.
 
-Full details are described in the `PtzControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/PtzControl.html>`__.
-
 Zoom
 ~~~~
 
@@ -478,8 +482,6 @@ values higher than 250-280 have no further effect on the preview image
 These zoom methods are called on a PtzControl object, as described above
 for exposure.
 
-Full details are described in the `PtzControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/PtzControl.html>`__.
 
 AE Priority
 -----------
