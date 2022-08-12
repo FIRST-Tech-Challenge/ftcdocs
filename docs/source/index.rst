@@ -74,7 +74,7 @@ students.
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -142,7 +142,7 @@ students.
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-secondary font-weight-bold text-white

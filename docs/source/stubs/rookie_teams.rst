@@ -13,7 +13,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0 
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -81,7 +81,7 @@ Welcome to FIRST Tech Challenge! Resources have been organized by type to help y
    
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
