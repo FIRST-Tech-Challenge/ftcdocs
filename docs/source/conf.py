@@ -21,11 +21,13 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme',
+    'sphinx_rtd_dark_mode',
     'sphinx_panels',
 ]
 
 autosectionlabel_prefix_document = True
+
+default_dark_mode = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
