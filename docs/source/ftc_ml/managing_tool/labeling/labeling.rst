@@ -96,7 +96,8 @@ within a bounding box as a “duck”, then add the “duck” label, and so on.
 You should not have more than 10 objects within a single frame (so keep
 that in mind when creating videos); this is because the ftc-ml tool is
 limited to 10 labels per frame, and there should NEVER be unlabeled
-trackable objects in a frame (See Section 7.1 part 8 for more
+trackable objects in a frame (See :ref:`here <ftc_ml/optimize_videos/optimize-videos:optimizing 
+videos for increased tensorflow model performance>` for more
 information about the background detector).
 
 Once the first frame has been fully labeled, click the “Start Tracking”

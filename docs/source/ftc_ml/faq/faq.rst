@@ -1,7 +1,8 @@
 FAQ
 ====
 
-1. Why is TensorFlow called “TensorFlow”?
+Why is TensorFlow called “TensorFlow”?
+----------------------------------------
 
    -  The name TensorFlow is derived from the single- and
       multi-dimensional arrays that neural networks perform operations
@@ -10,7 +11,8 @@ FAQ
       weighted nodes. Hence TensorFlow. There were apparently multiple
       projects known as “TensorFlow” that sprung up at the same time.
 
-2. How many frames of our object is enough to ensure a good model?
+How many frames of our object is enough to ensure a good model?
+----------------------------------------------------------------
 
    -  That’s going to be completely dependent upon the object, poses
       you’re trying to account for, backgrounds, and lighting
@@ -20,15 +22,16 @@ FAQ
       object. Exceeding 1,000 frames for a single object is likely
       overkill.
 
-3. How do I know if my model is trained well?
-
-   -  There are a number of metrics in Section 5.8 that can help you
-      determine when a model begins to converge (where additional
+How do I know if my model is trained well?
+-------------------------------------------
+   -  There are a number of :ref:`metrics<ftc_ml/managing_tool/model_metrics/model-metrics:understanding model metrics>`
+      that can help you determine when a model begins to converge (where additional
       training will likely lead to no benefit). Pay special attention to
       mAP metrics and Loss metrics, you should see those metrics
       generally settle by around 100 epochs.
 
-4. Why does my team only get 240 minutes of model training time?
+Why does my team only get 240 minutes of model training time?
+-----------------------------------------------------------------
 
    -  Training in the Google TensorFlow network on GPU resources is not
       free. Each team is allocated an amount of time based on the costs
@@ -45,7 +48,8 @@ FAQ
       ftc-ml is based on can run their own “instance” of this tool in
       their own Google Cloud Project. However, swim at your own risk.
 
-5. Why can’t I seem to get a 100% object detection prediction?
+Why can’t I seem to get a 100% object detection prediction?
+--------------------------------------------------------------
 
    -  Model predictions are never perfect, and attempting to strive for
       that makes for a really specific and non-generic model. If object
@@ -56,7 +60,8 @@ FAQ
       predicting all objects above 50% all the time you’re actually
       doing really well.
 
-6. I read somewhere about a parameter I can tweak…
+I read somewhere about a parameter I can tweak…
+-------------------------------------------------
 
    -  There are no parameters tweakable in ftc-ml, sorry. It was
       designed to be simple and easy to use. If you want, feel free to
@@ -65,7 +70,8 @@ FAQ
       modify the code, and deploy it to your own Google Cloud Project
       instance! However, swim at your own risk.
 
-7. Can object bounding boxes overlap?
+Can object bounding boxes overlap?
+--------------------------------------
 
    -  Sure, but if you have “blocks” in front of a “ball” such that
       objects are obscuring each other, just label the parts that are
@@ -73,8 +79,8 @@ FAQ
       “there would be the rest of the ball here if it wasn’t obscured by
       these blocks”
 
-8. What are the maximum limitations imposed within the ftc-ml tool for
-   various actions? (PER TEAM)
+What are the limitations imposed within the ftc-ml tool? (PER TEAM)
+---------------------------------------------------------------------
 
    -  Max # of Datasets: 20 (you can delete datasets to make more)
 

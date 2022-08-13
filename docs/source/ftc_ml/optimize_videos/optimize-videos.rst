@@ -129,7 +129,6 @@ for use.
     textures like zebra stripes, giraffe spots, neon colors, and so on.
     Colored patterns are TensorFlow’s strength. Careful Team Shipping
     Element design beforehand may yield great benefits later.
-
 8.  When creating videos for TensorFlow training, be very careful about
     the backgrounds being used. Machine Learning involves passing data
     and answers to a model, and letting the model determine the rules

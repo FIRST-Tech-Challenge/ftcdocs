@@ -47,25 +47,27 @@ It should look like this:
    moved all three opmodes into my teamcode folder but that is not
    necessary. You only need one opmode.
 
-   .. figure:: images/image23.png
-      :align: center
+.. figure:: images/image23.png
+    :align: center
 
 |
-   .. figure:: images/image24.png
-      :align: center
+
+.. figure:: images/image24.png
+    :align: center
 
 |
-   .. figure:: images/image25.png
-      :align: center
+
+.. figure:: images/image25.png
+    :align: center
 
 4. You will then have to open the opmode that you moved and remove the
-   @Disabled should be near the top of the code.
+   ``@Disabled`` should be near the top of the code.
 
 5. The next step is to add your model (.tflite) to your assets folder.
    You will find this folder in your project view on the left by going
    to:
 
-   -  FtcRobotControler -> assets.
+   -  ``FtcRobotControler -> assets.``
 
 By left- clicking on the assets folder you go to the “Open In” sub menu
 from which you can choose your file explorer of choice. From there you

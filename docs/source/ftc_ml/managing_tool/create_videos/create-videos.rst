@@ -22,5 +22,4 @@ incredibly high, and that’s just wasted frames that you have to label
 with duplicate frames (it takes longer to train your model). There are
 multiple web-based tools that will allow you to change the frame rate by
 removing frames from the video free online. For tips and best practices
-for creating the best poses, see Section 7 Optimizing Videos for
-increased TensorFlow Model Performance.
+for creating the best poses go :ref:`here <ftc_ml/optimize_videos/optimize-videos:optimizing videos for increased tensorflow model performance>`.
