@@ -108,7 +108,7 @@ linkcheck_request_headers = {
 }
 
 # Firstinspires redirects to login and break our link checker :)
-linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/']
+linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/', "https://ftc-ml.firstinspires.org"]
 
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
