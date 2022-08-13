@@ -41,6 +41,7 @@ students.
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    hardware_and_software_configuration/index
    programming_resources/index
+   ftc_ml/index
    stubs/external_tools
 
 .. toctree::
