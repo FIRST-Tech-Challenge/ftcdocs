@@ -42,8 +42,6 @@ students. It’s way more than building robots, see
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    hardware_and_software_configuration/index
    programming_resources/index
-   ftc_ml/index
-   stubs/external_tools
 
 .. toctree::
    :caption: CAD Resources
@@ -53,10 +51,12 @@ students. It’s way more than building robots, see
    Computer Aided Design (CAD) <cad_resources/index>
 
 .. toctree::
-   :caption: ------ 
+   :caption: Additional Tools
    :maxdepth: 1
    :hidden:    
-
+   
+   ftc_ml/index
+   
 ..
    [ddiaz] Commenting for now
    .. toctree::

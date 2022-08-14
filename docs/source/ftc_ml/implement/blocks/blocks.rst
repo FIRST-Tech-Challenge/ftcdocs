@@ -69,6 +69,11 @@ example below:
 
 ``/sdcard/FIRST/tflitemodels/myCustomFreightFrenzyModel.tflite``
 
+.. tip:: On some older models of phones, the upload path may be 
+   different. On some phones, like the Motorola G2 phone, the model 
+   path should instead be set to 
+   ``/storage/emulated/0/FIRST/tflitemodels/myCustomFreightFrenzyModel.tflite``
+
 6. Next you will have to update the labels. This should match the order
    of the labels in the dataset(s) that your model is based on. To do so
    click on the gear icon and add the needed number of items. Then add

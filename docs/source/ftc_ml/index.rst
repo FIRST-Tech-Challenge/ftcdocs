@@ -1,7 +1,7 @@
-FTC-ML
-===========
+FTC Machine Learning Toolchain
+==============================
 
-This tool, the FIRST Tech Challenge Machine Learning tool (FTC-ML), allows FIRST Tech Challenge 
+This tool, the FIRST Tech Challenge Machine Learning toolchain **(FTC-ML)**, allows FIRST Tech Challenge 
 teams to create custom TensorFlow models for use in the **FREIGHT FRENZY**, presented by `Raytheon 
 Technologies`, game. Learn how to train TensorFlow to recognize your Team Shipping Element, 
 Freight scoring elements, and more using this tool, and download models that you can use 
