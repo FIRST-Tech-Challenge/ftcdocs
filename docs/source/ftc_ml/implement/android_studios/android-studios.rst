@@ -87,6 +87,12 @@ just opened.
 ``private static final String TFOD_MODEL_ASSET =
 "/sdcard/FIRST/tflitemodels/myCustomFreightFrenzyModel.tflite";``
 
+.. tip:: On some older models of phones, the upload path may be 
+   different. On some phones, like the Motorola G2 phone, the model 
+   path should instead be set to 
+   ``private static final String TFOD_MODEL_ASSET = 
+   "/storage/emulated/0/FIRST/tflitemodels/myCustomFreightFrenzyModel.tflite";``
+
 7. Next we will have to acquire a Vuforia Key. There are detailed
    instructions in each of the opmodes on acquiring such a key.
 
