@@ -1,0 +1,410 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+<variables>
+<variable id="4MpF+DyAlYQ`$}qStL},">telemetryInterval</variable>
+<variable id="y@zkYnO1.Q8K3%EPG:xb">loopTimeLimit</variable>
+<variable id="teDKfqc:fx*l=hl4:,!9">myLoopTimer</variable>
+<variable id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</variable>
+<variable id="i|@FSnc^kOFgrwvc9ukY">numberOfCycles</variable>
+<variable id="Q;,4B$yNq-mRouOV_5%#">msPerCycle</variable>
+</variables>
+<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" editable="false" x="-169" y="-5">
+<field name="NAME">runOpMode</field>
+<comment pinned="false" h="32" w="532">This function is executed when this Op Mode is selected from the Driver Station.</comment>
+<statement name="STACK">
+<block type="comment" id="Lc#BFtj*NTB48YL;eBl.">
+<field name="COMMENT">&lt;&lt;===  CICK THE QUESTION MARK FOR INFO.</field>
+<comment pinned="false" h="318" w="316">This OpMode verifies if the "setTelemetryRate" myBlock actually works.
+
+The default FTC refresh rate is 4 cycles per second, or 250 ms time interval.  Try 500 ms, then other values.  For each value, run the OpMode a few times.
+
+The testing loop contains a myBlock called telemetryAction that returns the number 1 only if the current Telemetry interval has elapsed.  Otherwise it returns 0.
+
+No gamepad or special configuration are needed.</comment>
+<next>
+<block type="variables_set" id="$9%9yvl:-{h(8CUQO*E3">
+<field name="VAR" id="4MpF+DyAlYQ`$}qStL},">telemetryInterval</field>
+<value name="VALUE">
+<block type="math_number" id="wOu!O{St:8fM$vIv(`J|">
+<field name="NUM">500</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id="YuPyuhEqFBc;M1JKt$DB">
+<field name="VAR" id="teDKfqc:fx*l=hl4:,!9">myLoopTimer</field>
+<value name="VALUE">
+<block type="elapsedTime2_create" id="{h-sC{3:`=Wd[|,5Byt5"/>
+</value>
+<next>
+<block type="variables_set" id="e1ob^--wVVJ*[]W!*8_`">
+<field name="VAR" id="y@zkYnO1.Q8K3%EPG:xb">loopTimeLimit</field>
+<value name="VALUE">
+<block type="math_number" id="$/o~)U4zs~l%=CW,0oDD">
+<field name="NUM">5</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id="7f{/f8qxTSeeQK7-1083">
+<field name="VAR" id="i|@FSnc^kOFgrwvc9ukY">numberOfCycles</field>
+<value name="VALUE">
+<block type="math_number" id="`$M=,`(bT*]XdVHWH@_I">
+<field name="NUM">0</field>
+</block>
+</value>
+<next>
+<block type="comment" id="{Ui1FH4b|x2;gx4tzp%W">
+<field name="COMMENT">Does the following myBlock actually work?</field>
+<next>
+<block type="misc_callJava_noReturn" id="%@{[d$g3PsYk$s(0RrFp">
+<mutation methodLookupString="org.firstinspires.ftc.teamcode.W_myBlocks_Telemetry_v02 setTelemetryRate(int) void" parameterCount="1" returnType="void" comment="Sets Telemetry refresh rate or interval, which resets to default 250 ms every time OpMode runs.  Optional: add pause in Blocks to view confirming message." tooltip="Set Telemetry refresh interval" accessMethod="callJava" convertReturnValue="" argLabel0="Refresh interval (milliseconds)" argType0="int" argAuto0=""/>
+<field name="CLASS_NAME">W_myBlocks_Telemetry_v02</field>
+<field name="METHOD_NAME">setTelemetryRate</field>
+<comment pinned="false" h="141" w="261">Sets Telemetry refresh rate or interval, which resets to default 250 ms every time OpMode runs.  Optional: add pause in Blocks to view confirming message.</comment>
+<value name="ARG0">
+<shadow type="math_number" id="F})F*pY*$I(]SHm566m%">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id="(qQ/PHIy$KC)0ng`ZB9I">
+<field name="VAR" id="4MpF+DyAlYQ`$}qStL},">telemetryInterval</field>
+</block>
+</value>
+<next>
+<block type="linearOpMode_waitForStart" id=":`$wN_ci`O;o6P0~.(+g">
+<next>
+<block type="controls_if" id="}Q?5mbxSO8Di;i!__6[y">
+<value name="IF0">
+<block type="linearOpMode_opModeIsActive" id=")o%YFX/#9kvv^sgXr4~5"/>
+</value>
+<statement name="DO0">
+<block type="comment" id="^8*VGYbry?uc|lQ,P6G%">
+<field name="COMMENT">Start a new Telemetry cycle with .update</field>
+<next>
+<block type="telemetry_update" id=";Pmg_J2XG97K;^c,]?a!">
+<next>
+<block type="comment" id="iwIuGS=![RUR;7HkmEbn">
+<field name="COMMENT">Reset the loop timer and its variable.</field>
+<next>
+<block type="variables_set" id="L;n`)YP]91!P^)t0RRwq">
+<field name="VAR" id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</field>
+<value name="VALUE">
+<block type="math_number" id="S4G0sM_8HY^nA]}I/g$U">
+<field name="NUM">0</field>
+</block>
+</value>
+<next>
+<block type="elapsedTime2_reset" id="^H[,63BkeHbMEoZwoBIa">
+<value name="ELAPSED_TIME">
+<block type="variables_get" id="x+RYf^.$%Vv0]z:}Gx~A">
+<field name="VAR" id="teDKfqc:fx*l=hl4:,!9">myLoopTimer</field>
+</block>
+</value>
+<next>
+<block type="comment" id="Apt5XQ/}cz?+wZZWEfWU">
+<field name="COMMENT">Loop for the specified time duration.</field>
+<next>
+<block type="comment" id="eFeQENle]fX8n{,O04JO">
+<field name="COMMENT">This loop tries to update Telemetry very fast,</field>
+<next>
+<block type="comment" id="ba;g~/gv#q{HqB(!$E9_">
+<field name="COMMENT">but is limited by the maximum refresh rate.</field>
+<next>
+<block type="controls_whileUntil" id="*7QCM~Of@sx-uJb%ho=5">
+<field name="MODE">WHILE</field>
+<value name="BOOL">
+<block type="logic_operation" id="3MANc#E|j#S%f^9VFkHR" inline="false">
+<field name="OP">AND</field>
+<value name="A">
+<block type="logic_compare" id="3-%SoV:~t9FG-`M0.1Zn">
+<field name="OP">LTE</field>
+<value name="A">
+<block type="variables_get" id="Rq5p}#n8r=^/cf:jVIlB">
+<field name="VAR" id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</field>
+</block>
+</value>
+<value name="B">
+<block type="variables_get" id="uKu5Vun3_8bg1i.9RdVC">
+<field name="VAR" id="y@zkYnO1.Q8K3%EPG:xb">loopTimeLimit</field>
+</block>
+</value>
+</block>
+</value>
+<value name="B">
+<block type="linearOpMode_opModeIsActive" id="~khAbGc.WtLV:!r*I!ts"/>
+</value>
+</block>
+</value>
+<statement name="DO">
+<block type="comment" id="YwUChAMsWLE:u|2J]rF@">
+<field name="COMMENT">This myBlock returns 1, only if Telemetry interval</field>
+<next>
+<block type="comment" id="+*i;ml[#E=g6TA{Tg*bw">
+<field name="COMMENT">has elapsed.  If so, increment the cycles counter.</field>
+<next>
+<block type="math_change" id="K?MX/vX)W!?{i:/i}6,]">
+<field name="VAR" id="i|@FSnc^kOFgrwvc9ukY">numberOfCycles</field>
+<value name="DELTA">
+<shadow type="math_number" id="^RbPy,;Q(f79B}TfWGNp">
+<field name="NUM">1</field>
+</shadow>
+<block type="misc_callJava_return" id="9^FqT2mM|.+iZA]I*3tD">
+<mutation methodLookupString="org.firstinspires.ftc.teamcode.W_myBlocks_Telemetry_v02 telemetryAction() int" parameterCount="0" returnType="int" comment="At each scheduled Telemetry update, return value 1 to increment counter.  Otherwise return 0." tooltip="Action before Telemetry update" accessMethod="callJava_String" convertReturnValue="Number"/>
+<field name="CLASS_NAME">W_myBlocks_Telemetry_v02</field>
+<field name="METHOD_NAME">telemetryAction</field>
+<comment pinned="false" h="129.33334350585938" w="155.9998779296875">At each scheduled Telemetry update, return value 1 to increment counter.  Otherwise return 0.</comment>
+</block>
+</value>
+<next>
+<block type="variables_set" id="=tYr-.%OO.$$uSii9qs8">
+<field name="VAR" id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</field>
+<value name="VALUE">
+<block type="elapsedTime2_getProperty_Number" id="NY-mHOsbFFahi[wJ@$Qa">
+<field name="PROP">Time</field>
+<value name="ELAPSED_TIME">
+<block type="variables_get" id="VF+Fx46%h%8;Br+!i[=w">
+<field name="VAR" id="teDKfqc:fx*l=hl4:,!9">myLoopTimer</field>
+</block>
+</value>
+</block>
+</value>
+<next>
+<block type="procedures_callnoreturn" id="o~b7!^`?=`bO[x7yVwx}">
+<mutation name="BuildStatusMessage"/>
+<next>
+<block type="telemetry_update" id="E+862$gp~P[)|a2@F[BH"/>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+<next>
+<block type="procedures_callnoreturn" id="x)JS}!E]Q=Q,Xpxe=Mm@">
+<mutation name="BuildStatusMessage"/>
+<next>
+<block type="comment" id=",p+@EA~*grVP35s(M`D{">
+<field name="COMMENT">Calculate average time (ms) per Telemetry cycle.</field>
+<next>
+<block type="variables_set" id="p](i0iZ2vHSU~vt#CG3_">
+<field name="VAR" id="Q;,4B$yNq-mRouOV_5%#">msPerCycle</field>
+<value name="VALUE">
+<block type="math_arithmetic" id="HdnZ]n2=BoJ!Lz+.FAK)">
+<field name="OP">MULTIPLY</field>
+<value name="A">
+<shadow type="math_number" id="e*DRiFW$J=hnv%3j/66{">
+<field name="NUM">1</field>
+</shadow>
+<block type="math_arithmetic" id="vn[}DvW1ISdjyNl]7FXG">
+<field name="OP">DIVIDE</field>
+<value name="A">
+<shadow type="math_number" id="+)Nk|)o(HYO`=1VA4r1#">
+<field name="NUM">1</field>
+</shadow>
+<block type="variables_get" id="A4w#M1yv]Scu@ky{Sbg`">
+<field name="VAR" id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</field>
+</block>
+</value>
+<value name="B">
+<shadow type="math_number" id="Q5`YF6og]y%v3nvZ`[BN">
+<field name="NUM">1</field>
+</shadow>
+<block type="variables_get" id="jNuKijj4!ug_;P*RfY9_">
+<field name="VAR" id="i|@FSnc^kOFgrwvc9ukY">numberOfCycles</field>
+</block>
+</value>
+</block>
+</value>
+<value name="B">
+<shadow type="math_number" id="~TSi6r%O4@U0Ft!hh|q4">
+<field name="NUM">1000</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="comment" id="Y~K,!j@YoJnSNnZkPIf9">
+<field name="COMMENT">Add result to the final status message.</field>
+<next>
+<block type="telemetry_addNumericData_Number" id="[[gOfAE)_hY:.5WMip@_">
+<value name="KEY">
+<shadow type="text" id="MI~Tq}zH8GEi@YPhZRN}">
+<field name="TEXT">Refresh interval, calculated (ms)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number" id="=#UtLg4sMg{tyYD6|LI5">
+<field name="NUM">123</field>
+</shadow>
+<block type="misc_roundDecimal" id="Q))_|sWsUc]b;qO/ka6C">
+<value name="NUMBER">
+<shadow type="math_number" id="uvQ+t*Wuh0|*^e]ohGfK">
+<field name="NUM">3.14159265</field>
+</shadow>
+<block type="variables_get" id="Ko-nK9nZVdu/j(Ix;V19">
+<field name="VAR" id="Q;,4B$yNq-mRouOV_5%#">msPerCycle</field>
+</block>
+</value>
+<value name="PRECISION">
+<shadow type="math_number" id="M:dr9{@gxM98oWToz{hw">
+<field name="NUM">0</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="telemetry_update" id="FJegbvq.Xgr124{#fND_">
+<next>
+<block type="controls_whileUntil" id="nDch@{/MvA+;*/h;N.=e">
+<field name="MODE">WHILE</field>
+<value name="BOOL">
+<block type="linearOpMode_opModeIsActive" id="~li?uAI1ZffZtx)jL7i#"/>
+</value>
+<statement name="DO">
+<block type="comment" id="bpA/kZ/w^(u~4W5qaYBe">
+<field name="COMMENT">"Empty loop" to study the final status message.</field>
+</block>
+</statement>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block type="procedures_defnoreturn" id="l8@BKf,s3#}^%OUF9t2h" x="619" y="247">
+<field name="NAME">BuildStatusMessage</field>
+<comment pinned="false" h="80" w="160">Build a message with status of Telemetry testing.</comment>
+<statement name="STACK">
+<block type="telemetry_addNumericData_Number" id="E7h!5x1ZRz=_k[|CV5Sk">
+<value name="KEY">
+<shadow type="text" id="tt]{P)UlW_O[tJNA~y`.">
+<field name="TEXT">Loop time limit</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="KC![({zNl(r]}IL1{fIg">
+<field name="VAR" id="y@zkYnO1.Q8K3%EPG:xb">loopTimeLimit</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="#VC5;@+`Rv,cT5,i{h`l">
+<value name="KEY">
+<shadow type="text" id="B7UejLX=O!DnW$?8AVN*">
+<field name="TEXT">Elapsed time in loop</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number">
+<field name="NUM">123</field>
+</shadow>
+<block type="misc_roundDecimal" id="1a07`;i)g].ADTQQgdM%">
+<value name="NUMBER">
+<shadow type="math_number" id=".-uQ;o_mR37?L|!:$];X">
+<field name="NUM">3.14159265</field>
+</shadow>
+<block type="variables_get" id="GI*4,UkB{Q!WR1,HA`g@">
+<field name="VAR" id=":Z:_07x4([m8RpGOH(Ty">elapsedLoopTime</field>
+</block>
+</value>
+<value name="PRECISION">
+<shadow type="math_number" id="!D1B6*zIGg0$rPw=WV9Z">
+<field name="NUM">2</field>
+</shadow>
+</value>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="-0k5t3fPn8ngDvZC)i;X">
+<value name="KEY">
+<shadow type="text" id=")A6U_U,*BwA|0$8E@;ep">
+<field name="TEXT">Refresh interval, programmed (ms)</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number" id="BuHF4;z]($r3fy$?G:6(">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="axP^?sTsK;U736O=n+x@">
+<field name="VAR" id="4MpF+DyAlYQ`$}qStL},">telemetryInterval</field>
+</block>
+</value>
+<next>
+<block type="telemetry_addNumericData_Number" id="gedZ3/?JPNc]nz1BM^M@">
+<value name="KEY">
+<shadow type="text" id=":CWTk?N$hhlz#*w[wTT5">
+<field name="TEXT">Number of cycles</field>
+</shadow>
+</value>
+<value name="NUMBER">
+<shadow type="math_number" id="G.lzlDBzD]V(501F2ACP">
+<field name="NUM">123</field>
+</shadow>
+<block type="variables_get" id="K6T;H7kwTh#b^m:+g?+g">
+<field name="VAR" id="i|@FSnc^kOFgrwvc9ukY">numberOfCycles</field>
+</block>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</xml>
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Extra>
+<OpModeMeta flavor="TELEOP" group="" autoTransition="" />
+<Enabled value="true" />
+</Extra>
