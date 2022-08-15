@@ -23,18 +23,22 @@ None should rely on or use this documentation right now.
 4. Install Pip following [these](https://pip.pypa.io/en/stable/installation/) instructions
 5. Change directory to root project and install dependencies
     - `cd ftcdocs`
-    - `pip install -r requirements.txt`
+    - `pip install -r docs/requirements.txt`
 6. Make desired changes to project. Remember to follow style guide shown [here](https://docs.wpilib.org/en/stable/docs/contributing/frc-docs/style-guide.html)
-7. Build project by executing following commands in `docs\` folder of project
-    - On Windows execute `./make.bat html`
-    - On Mac OS or Linux execute `make html`
-8. View Result
+7. Install dependencies for PDF
+    - Ubuntu/Debian: `xargs -a dependencies sudo apt install -y`
+    - Windows: Install MiKTeX from [here](https://miktex.org/download)
+8. Build project by executing following commands in `docs\` folder of project
+    - HTML: `make html`
+    - Autobuild HTML: `make autobuild`
+    - PDF: `make latexpdf`
+9. View Result (html)
     - Open `docs\build\html\index.html` in a browser of your choice
-    - To create local http server execute `python3 -m http.server 8080` in `docs\build\html\index.html` and view result [here](https://localhost:8080)
-9. Commit changes and push after desired result has been achieved
+    - To create local http server execute `python3 -m http.server 7350` in `docs\build\html\index.html` and view result [here](https://localhost:7350). If you are using the Autobuild option this server will be automatically created and updated with most changes to rst files. Some changes will not be transferred like images and will require a `make clean`.
+10. Commit changes and push after desired result has been achieved
     - `git commit -a -m <MESSAGE>` replace <MESSAGE> with your commit message
     - `git push`
-10. [Create](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a Pull Request to upstream repository. Make sure to be concise in your PR title and description. 
+11. [Create](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) a Pull Request to upstream repository. Make sure to be concise in your PR title and description. 
 
 ## Cloud Method
 

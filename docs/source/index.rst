@@ -2,7 +2,8 @@ FIRST Tech Challenge documentation
 ==================================
 
 **FIRST Tech Challenge** is a robotics program for middle and high school
-students.
+students. It’s way more than building robots, see 
+:doc:`About the FIRST Tech Challenge <overview/ftcoverview>` to see why.
 
 .. note::
 
@@ -41,7 +42,6 @@ students.
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    hardware_and_software_configuration/index
    programming_resources/index
-   stubs/external_tools
 
 .. toctree::
    :caption: CAD Resources
@@ -51,10 +51,12 @@ students.
    Computer Aided Design (CAD) <cad_resources/index>
 
 .. toctree::
-   :caption: ------ 
+   :caption: Additional Tools
    :maxdepth: 1
    :hidden:    
-
+   
+   ftc_ml/index
+   
 ..
    [ddiaz] Commenting for now
    .. toctree::
@@ -70,11 +72,9 @@ students.
 
 .. rst-class:: center
 
-*(This could totally be a rendered graphic instead)*
-
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -142,7 +142,7 @@ students.
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-secondary font-weight-bold text-white

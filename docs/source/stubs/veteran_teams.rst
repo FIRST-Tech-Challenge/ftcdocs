@@ -12,7 +12,7 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -49,22 +49,22 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
    ---
    :header: bg-primary font-weight-bold text-white
 
-   FTC Machine Learning Toolchain
+   FTC Machine Learning
    
    ^^^
 
-   Look for user guides and links to FTC-ML toolchain.
+   User guide for FTC-Machine Learning toolchain.
 
    +++
 
-   .. link-button:: ../manuals/game_manuals/game_manuals
-      :type: ref
-      :text: FTC Machine Toolchain
+   .. link-button:: http://firsttechchallenge.blogspot.com/2021/12/first-tech-challenge-machine-learning.html
+      :type: url
+      :text: FTC-ML Toolchain
       :classes: btn-outline-primary btn-block
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -77,8 +77,8 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
    +++
 
-   .. link-button:: ../stubs/external_tools
-      :type: ref
+   .. link-button:: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources
+      :type: url
       :text: Outreach
       :classes: btn-outline-primary btn-block
    
@@ -109,7 +109,8 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
    +++
 
-   .. link-button:: ../stubs/Awards
-      :type: ref
+   .. link-button:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf
+      :type: url
       :text: Awards
       :classes: btn-outline-primary btn-block
+

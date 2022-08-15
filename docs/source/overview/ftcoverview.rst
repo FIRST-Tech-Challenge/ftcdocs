@@ -18,6 +18,10 @@ enlistment, and other employment pathways.
 Each season concludes with regional championship events and an exciting `FIRST
 Championship <https://www.firstchampionship.org/>`__.
 
+.. only:: latex
+
+   `About FIRST Tech Challenge (2021) <https://www.youtube.com/embed/y5NPp_5KHuk>`__
+
 .. raw:: html
 
    <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
