@@ -166,7 +166,7 @@ programmers.
 creator.
 
    For extra fun: try the **Telemetry.speak** Block, followed by a 1500
-   millisecond **``.sleep``** Block. You can learn more about DS spoken
+   millisecond ``.sleep`` Block. You can learn more about DS spoken
    telemetry at `this separate
    tutorial <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Driver-Station-Speech-Telemetry>`__.
 
