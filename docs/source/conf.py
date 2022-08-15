@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_rtd_dark_mode',
     'sphinx_panels',
+    'sphinx_design',
     'javasphinx',
 ]
 
