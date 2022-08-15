@@ -66,7 +66,7 @@ the USB hub can only come from either of the following sources:
 
 FIRST has tested a few USB 2.0 powered hubs and recommends one from
 Anker. At the time this document was written, this hub was available
-from `Amazon.com <https://www.amazon.com/s?k=anker+4-port+usb+hub>`__.
+from `Anker.com <https://www.anker.com/products/a7516>`__.
 
 .. image:: images/ankerhub.jpg
 

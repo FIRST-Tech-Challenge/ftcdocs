@@ -21,17 +21,28 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme',
+    'sphinx_rtd_dark_mode',
     'sphinx_panels',
+    'javasphinx',
 ]
 
 autosectionlabel_prefix_document = True
+
+default_dark_mode = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
+
+javadoc_url_map = {
+    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/7.1.0/', 'javadoc'),
+}
 
 templates_path = ['_templates']
 
@@ -87,10 +98,17 @@ sphinx_tabs_valid_builders = ["epub", "linkcheck"]
 epub_show_urls = 'footnote'
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
-# user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0"
+#user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
 
-# Solidworks links break our link checker.
-linkcheck_ignore = [r'https://www\.solidworks\.com/.*']
+# Change request header to avoid 403 error because Solidworks is great like that
+linkcheck_request_headers = {
+    "*": {
+        "Accept": "text/html,application/xhtml+xml",
+    }
+}
+
+# Firstinspires redirects to login and break our link checker :)
+linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/', "https://ftc-ml.firstinspires.org"]
 
 # Specify the master doc file, AKA our homepage
 master_doc = "index"

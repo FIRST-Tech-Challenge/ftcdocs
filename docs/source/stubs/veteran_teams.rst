@@ -12,7 +12,7 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white
@@ -64,7 +64,7 @@ Welcome back to FIRST Tech Challenge veteran teams! Resources have been organize
 
 .. panels::
    :column: col-sm d-flex pb-3
-   :footer: bg-white border-0
+   :footer:  border-0
 
    ---
    :header: bg-primary font-weight-bold text-white

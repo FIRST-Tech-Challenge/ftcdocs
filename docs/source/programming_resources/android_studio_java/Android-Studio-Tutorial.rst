@@ -41,6 +41,7 @@ Android app developers use. Android Studio is only recommended for
 
    -  :doc:`Downloading and Installing Android Studio <../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio>`
    -  :doc:`Downloading the FTC Android Studio Project <../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
+   -  :doc:`Disabling Android Studio Instant Run <../tutorial_specific/android_studio/disable_instant_run/disable-instant-run>`
 
 4. Writing an Op Mode
 
@@ -59,8 +60,10 @@ Android app developers use. Android Studio is only recommended for
 
    ../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio
    ../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder
+   ../tutorial_specific/android_studio/disable_instant_run/disable-instant-run
    ../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options
    ../tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio)
    ../tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio)
    ../tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio)
+   
 

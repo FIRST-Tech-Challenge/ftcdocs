@@ -39,7 +39,7 @@ Once you have verified that your laptop satisfies the minimum system
 requirements, you can go to the Android developer's website to download
 and install Android Studio:
 
-*  https://developer.android.com/studio/index.html
+*  https://developer.android.com/studio
 
 Click on the green "DOWNLOAD ANDROID STUDIO" button to start the
 download process.
