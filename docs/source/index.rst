@@ -21,10 +21,10 @@ students. It’s way more than building robots, see
    :maxdepth: 1
    :hidden:
 
-   stubs/rookie_teams
-   stubs/veteran_teams
-   stubs/coach_administrative_resources
-   stubs/mentor_technical_resources
+   persona_pages/rookie_teams/rookie_teams
+   persona_pages/veteran_teams/veteran_teams
+   persona_pages/coach_admin/coach_admin
+   persona_pages/mentor_tech/mentor_tech
    
 .. toctree::
    :caption: Game and Season-Specific Resources
@@ -70,14 +70,12 @@ students. It’s way more than building robots, see
    
 **I AM A...**
 
-.. rst-class:: center
-
 .. grid:: 4
 
    .. grid-item-card:: Rookie Resources
-      :link: stubs/rookie_teams
+      :link: persona_pages/rookie_teams/rookie_teams
       :link-type: doc
-      :class-header: bg-primary font-weight-bold text-white 
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left body
 
       Rookie Team 
@@ -87,9 +85,9 @@ students. It’s way more than building robots, see
       Rookie Teams may not know where to start. This is the way!
 
    .. grid-item-card:: Veteran Resources
-      :link: stubs/veteran_teams
+      :link: persona_pages/veteran_teams/veteran_teams
       :link-type: doc
-      :class-header: bg-primary font-weight-bold text-white 
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left
 
       Veteran Team 
@@ -98,23 +96,10 @@ students. It’s way more than building robots, see
 
       Veteran Teams looking for veteran resources can look here.
    
-   .. grid-item-card:: Mentor Resources
-      :link: stubs/mentor_technical_resources
-      :link-type: doc
-      :class-header: bg-primary font-weight-bold text-white 
-      :class-body: sd-text-left
-
-      Mentor (Technical)
-   
-      ^^^
-
-      Technical Mentors looking for Technical Resources 
-      should look here first!
-
    .. grid-item-card:: Coach Resources
-      :link: stubs/coach_administrative_resources
+      :link: persona_pages/coach_admin/coach_admin
       :link-type: doc
-      :class-header: bg-primary font-weight-bold text-white 
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left
 
       Coach (Admin)
@@ -124,10 +109,23 @@ students. It’s way more than building robots, see
       Coaches looking for Team Administrative Resources can 
       look here for help.
 
+   .. grid-item-card:: Mentor Resources
+      :link: persona_pages/mentor_tech/mentor_tech
+      :link-type: doc
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
+      :class-body: sd-text-left
+
+      Mentor (Technical)
+   
+      ^^^
+
+      Technical Mentors looking for Technical Resources 
+      should look here first!
+
 .. grid:: 3
 
    .. grid-item-card:: 
-      :class-header: bg-secondary font-weight-bold text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
       Programming Quick Links
@@ -170,8 +168,18 @@ students. It’s way more than building robots, see
 
                Android Studio
 
+         .. div:: col-sm pl-1 pr-1
+ 
+            .. button-ref:: programming_resources/index
+               :ref-type: doc
+               :color: secondary
+               :outline:
+               :expand:
+
+               All Resources
+
    .. grid-item-card:: 
-      :class-header: bg-secondary font-weight-bold text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
       Robot Build Links
@@ -183,15 +191,6 @@ students. It’s way more than building robots, see
       +++
 
       .. div:: container-fluid p-0
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
-               :color: secondary
-               :outline:
-               :expand:
-
-               REV Starter Bot
 
          .. div:: col-sm pl-1 pr-1
       
@@ -213,22 +212,46 @@ students. It’s way more than building robots, see
 
                Hardware Config
 
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
+               :color: secondary
+               :outline:
+               :expand:
+
+               REV Starter Bot
+
    .. grid-item-card:: 
-      :class-header: bg-secondary font-weight-bold text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
       Game Manuals
    
       ^^^
 
-      Be sure you're following all of the rules of the competition!
+      Be sure you're following all of the rules of the competition! 
+      Game Manuals and Q&A are essential documents.
 
       +++
  
-      .. button-ref:: manuals/game_manuals/game_manuals
-         :ref-type: doc
-         :color: secondary
-         :outline:
-         :expand:
+      .. div:: container-fluid p-0
 
-         Game Manuals
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: manuals/game_manuals/game_manuals
+               :ref-type: doc
+               :color: secondary
+               :outline:
+               :expand:
+
+               Game Manuals
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://ftc-qa.firstinspires.org/
+               :color: secondary
+               :outline:
+               :expand:
+
+               Game Q&A System
+
