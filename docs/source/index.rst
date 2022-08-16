@@ -142,10 +142,9 @@ students. It’s way more than building robots, see
 
             .. button-ref:: programming_resources/blocks/Blocks-Tutorial
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Blocks
       
@@ -153,10 +152,9 @@ students. It’s way more than building robots, see
 
             .. button-ref:: programming_resources/onbot_java/OnBot-Java-Tutorial
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                OnBot-Java
          
@@ -164,10 +162,9 @@ students. It’s way more than building robots, see
  
             .. button-ref:: programming_resources/android_studio_java/Android-Studio-Tutorial
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Android Studio
 
@@ -175,10 +172,9 @@ students. It’s way more than building robots, see
  
             .. button-ref:: programming_resources/index
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                All Resources
 
@@ -200,10 +196,9 @@ students. It’s way more than building robots, see
       
             .. button-ref:: hardware_and_software_configuration/connecting_devices/index
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Device Connections
 
@@ -211,20 +206,18 @@ students. It’s way more than building robots, see
 
             .. button-ref:: hardware_and_software_configuration/configuring/index
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Hardware Config
 
          .. div:: col-sm pl-1 pr-1
 
             .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                REV Starter Bot
 
@@ -247,20 +240,18 @@ students. It’s way more than building robots, see
       
             .. button-ref:: manuals/game_manuals/game_manuals
                :ref-type: doc
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Game Manuals
 
          .. div:: col-sm pl-1 pr-1
 
             .. button-link:: https://ftc-qa.firstinspires.org/
-               :color: secondary
+               :color: black
                :outline:
                :expand:
-               :class: sd-text-black
 
                Game Q&A System
 

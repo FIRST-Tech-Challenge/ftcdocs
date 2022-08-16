@@ -43,7 +43,7 @@ link for the resource you want to explore!
          .. div:: col-sm pl-1 pr-1
 
             .. button-link:: https://my.firstinspires.org/Dashboard/
-               :color: secondary
+               :color: black
                :outline:
                :expand:
 
@@ -52,7 +52,7 @@ link for the resource you want to explore!
          .. div:: col-sm pl-1 pr-1
 
             .. button-link:: https://www.firstinspires.org/resource-library/youth-registration-system
-               :color: secondary
+               :color: black
                :outline:
                :expand:
 
