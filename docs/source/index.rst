@@ -21,10 +21,10 @@ students. It’s way more than building robots, see
    :maxdepth: 1
    :hidden:
 
-   stubs/rookie_teams
-   stubs/veteran_teams
-   stubs/coach_administrative_resources
-   stubs/mentor_technical_resources
+   persona_pages/rookie_teams/rookie_teams
+   persona_pages/veteran_teams/veteran_teams
+   persona_pages/coach_admin/coach_admin
+   persona_pages/mentor_tech/mentor_tech
    
 .. toctree::
    :caption: Game and Season-Specific Resources
@@ -70,142 +70,188 @@ students. It’s way more than building robots, see
    
 **I AM A...**
 
-.. rst-class:: center
+.. grid:: 4
 
-.. panels::
-   :column: col-sm d-flex pb-3
-   :footer:  border-0
+   .. grid-item-card:: Rookie Resources
+      :link: persona_pages/rookie_teams/rookie_teams
+      :link-type: doc
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
+      :class-body: sd-text-left body
 
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-   Rookie Team
+      Rookie Team 
    
-   ^^^
+      ^^^
 
-   Rookie Teams may not know where to start. This is the way!
+      Rookie Teams may not know where to start. This is the way!
 
-   +++
+   .. grid-item-card:: Veteran Resources
+      :link: persona_pages/veteran_teams/veteran_teams
+      :link-type: doc
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
+      :class-body: sd-text-left
 
-   .. link-button:: stubs/rookie_teams
-      :type: ref
-      :text: Rookie Resources
-      :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-   Veteran Team
+      Veteran Team 
    
-   ^^^
+      ^^^
 
-   Veteran Teams looking for veteran resources can look here.
-
-   +++
-
-   .. link-button:: stubs/veteran_teams
-      :type: ref
-      :text: Vet Resources
-      :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-   Mentors (Technical)
+      Veteran Teams looking for veteran resources can look here.
    
-   ^^^
+   .. grid-item-card:: Coach Resources
+      :link: persona_pages/coach_admin/coach_admin
+      :link-type: doc
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
+      :class-body: sd-text-left
 
-   Technical Mentors looking for Technical Resources should look here first!
-
-   +++
-
-   .. link-button:: stubs/mentor_technical_resources
-      :type: ref
-      :text: Tech Resources
-      :classes: btn-outline-primary btn-block
-
-   ---
-   :header: bg-primary font-weight-bold text-white
-
-   Coaches (Admin) 
+      Coach (Admin)
    
-   ^^^
+      ^^^
 
-   Coaches looking for Team Administrative Resources can look here for help.
+      Coaches looking for Team Administrative Resources can 
+      look here for help.
 
-   +++
+   .. grid-item-card:: Mentor Resources
+      :link: persona_pages/mentor_tech/mentor_tech
+      :link-type: doc
+      :class-header: sd-bg-primary font-weight-bold sd-text-white 
+      :class-body: sd-text-left
 
-   .. link-button:: stubs/coach_administrative_resources
-      :type: ref
-      :text: Admin Resources
-      :classes: btn-outline-primary btn-block
-
-.. panels::
-   :column: col-sm d-flex pb-3
-   :footer:  border-0
-
-   ---
-   :header: bg-secondary font-weight-bold text-white
-
-   Programming Quick Links
+      Mentor (Technical)
    
-   ^^^
+      ^^^
 
-   Quick Links for Programming Language Resources.
+      Technical Mentors looking for Technical Resources 
+      should look here first!
 
-   +++
+.. grid:: 3
 
-   .. div:: container-fluid p-0
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
+
+      Programming Quick Links
+   
+      ^^^
+
+      Quick Links for Programming Language Resources 
+
+      +++
+
+      .. div:: container-fluid p-0
 
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: programming_resources/blocks/Blocks-Tutorial 
-               :type: ref
-               :text: Blocks
-               :classes: btn-outline-primary btn-block
+            .. button-ref:: programming_resources/blocks/Blocks-Tutorial
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
+               Blocks
+      
          .. div:: col-sm pl-1 pr-1
 
-            .. link-button:: programming_resources/onbot_java/OnBot-Java-Tutorial
-               :type: ref
-               :text: OnBot-Java
-               :classes: btn-outline-primary btn-block
+            .. button-ref:: programming_resources/onbot_java/OnBot-Java-Tutorial
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               OnBot-Java
          
          .. div:: col-sm pl-1 pr-1
+ 
+            .. button-ref:: programming_resources/android_studio_java/Android-Studio-Tutorial
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
-            .. link-button:: programming_resources/android_studio_java/Android-Studio-Tutorial
-               :type: ref
-               :text: Android Studio
-               :classes: btn-outline-primary btn-block
+               Android Studio
 
-   ---
-   :header: bg-secondary font-weight-bold text-white
+         .. div:: col-sm pl-1 pr-1
+ 
+            .. button-ref:: programming_resources/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
-   Build Resources
+               All Resources
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
+
+      Robot Build Links
    
-   ^^^
+      ^^^
 
-   Building things is hard. Let's build stuff together.
+      Building things is hard. Let's build stuff together.
 
-   +++
+      +++
 
-   .. link-button:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
-      :type: url
-      :text: Starter Bot
-      :classes: btn-outline-primary btn-block
+      .. div:: container-fluid p-0
 
-   ---
-   :header: bg-secondary font-weight-bold text-white
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: hardware_and_software_configuration/connecting_devices/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
-   Game Manuals
+               Device Connections
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: hardware_and_software_configuration/configuring/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Hardware Config
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
+               :color: black
+               :outline:
+               :expand:
+
+               REV Starter Bot
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
+
+      Game Manuals
    
-   ^^^
+      ^^^
 
-   All of the Game Manual Goodness your heart desires.
+      Be sure you're following all of the rules of the competition! 
+      Game Manuals and Q&A are essential documents.
 
-   +++
+      +++
+ 
+      .. div:: container-fluid p-0
 
-   .. link-button:: manuals/game_manuals/game_manuals
-      :type: ref
-      :text: Game Manuals
-      :classes: btn-outline-primary btn-block
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: manuals/game_manuals/game_manuals
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Game Manuals
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://ftc-qa.firstinspires.org/
+               :color: black
+               :outline:
+               :expand:
+
+               Game Q&A System
+
