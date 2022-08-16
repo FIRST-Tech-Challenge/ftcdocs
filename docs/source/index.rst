@@ -145,6 +145,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Blocks
       
@@ -155,6 +156,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                OnBot-Java
          
@@ -165,6 +167,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Android Studio
 
@@ -175,6 +178,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                All Resources
 
@@ -199,6 +203,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Device Connections
 
@@ -209,6 +214,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Hardware Config
 
@@ -218,6 +224,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                REV Starter Bot
 
@@ -243,6 +250,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Game Manuals
 
@@ -252,6 +260,7 @@ students. It’s way more than building robots, see
                :color: secondary
                :outline:
                :expand:
+               :class: sd-text-black
 
                Game Q&A System
 
