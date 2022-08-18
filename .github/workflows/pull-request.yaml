@@ -39,7 +39,7 @@ jobs:
       - name: Move PDF
         run: cp docs/build/latex/*.pdf docs/build/html/
           
-      - name: Arhive Site
+      - name: Archive Site
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'docs/build/html'
@@ -85,7 +85,7 @@ jobs:
       - name: link-check
         run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n"
 
-      - name: Arhive Log
+      - name: Archive Log
         if: ${{ failure() }}
         uses: actions/upload-artifact@v2
         env:
