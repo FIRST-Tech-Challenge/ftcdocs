@@ -96,4 +96,5 @@ Learning more about using vision in FTC
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `*FIRST* Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`
+-  `*FIRST* Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`__
+
