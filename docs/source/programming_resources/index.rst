@@ -91,3 +91,9 @@ Learning more about using vision in FTC
    vision/identifying_vumarks/identifying-vumarks
    vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/webcam_controls/webcam-controls
+   
+   
+Additional *FIRST* Website Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `*FIRST* Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`
