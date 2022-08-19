@@ -67,7 +67,7 @@ One Main Power Switch must control all power provided by the Main Battery. It al
 Power Distribution Block
 -------------------------
 
-.. figure:: images/XT30_Power_Distribution_Block.webp
+.. figure:: images/XT30_Power_Distribution_Block.png
     :align: center
     :alt: REV-31-1387
     :width: 25 %
@@ -80,7 +80,7 @@ See :ref:`Game Manual Part 2<manuals/game_manuals/game_manuals:game manuals>` fo
 REV Servo Power Module
 ----------------------
 
-.. figure:: images/REV-11-1144.webp
+.. figure:: images/REV-11-1144.png
     :align: center
     :alt: REV-31-1387
     :width: 25 %
@@ -94,12 +94,12 @@ current across all output servo ports for a total of 90 Watts of power per modul
 
 Comercial USB Battery Pack
 ---------------------------
-.. figure:: images/ankerbattery.webp
+.. figure:: images/ankerbattery.png
     :align: center
     :alt: REV-31-1387
     :width: 25 %
 
-A commercial USB battery pack is an auxiliary power source that can be used in specfic situations in accordance with 
+A commercial USB battery pack is an auxiliary power source that can be used in specific situations in accordance with 
 the :ref:`Game Manuals<manuals/game_manuals/game_manuals:game manuals>`
 
 

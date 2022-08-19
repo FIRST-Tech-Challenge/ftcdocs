@@ -33,4 +33,4 @@ Driver Station
 .. toctree::
    :maxdepth: 1
    
-   ds_components/ds-components
+   ds_components/index

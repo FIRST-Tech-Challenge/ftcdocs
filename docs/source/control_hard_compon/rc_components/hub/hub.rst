@@ -6,7 +6,7 @@ The REV Hubs are the core of your robot control system.
 Control Hub
 ------------
 
-.. figure:: images/REV-31-1595.webp
+.. figure:: images/REV-31-1595.png
     :align: center
     :alt: REV-31-1595
     :width: 50%
@@ -21,7 +21,7 @@ and run the SDK.
 Expansion Hub
 --------------
 
-.. figure:: images/REV-31-1153.webp
+.. figure:: images/REV-31-1153.png
     :align: center
     :alt: REV-31-1153
     :width: 50%

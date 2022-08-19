@@ -35,7 +35,7 @@ Using this and the speed of sound the distance can be calculated.
 Distance Sensor (Optical)
 -----------------------------
 
-.. figure:: images/REV-31-1505.webp
+.. figure:: images/REV-31-1505.png
         :align: center
         :alt: REV-31-1505
         :width: 25%
@@ -52,7 +52,7 @@ Color Sensor
 
 .. list-table:: 
 
-    * - .. figure:: images/REV-31-1557.webp
+    * - .. figure:: images/REV-31-1557.png
                 :align: center
                 :alt: REV-31-1557
                 :width: 50%
@@ -72,7 +72,7 @@ question to be relatively close to the sensor.
 Touch Sensor
 -------------
 
-.. figure:: images/REV-31-1425.webp
+.. figure:: images/REV-31-1425.png
         :align: center
         :alt: REV-31-1425
         :width: 25%
