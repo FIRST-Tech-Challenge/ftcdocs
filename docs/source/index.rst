@@ -39,6 +39,7 @@ students. It’s way more than building robots, see
    :maxdepth: 1
    :hidden:
 
+   control_hard_compon/index
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    hardware_and_software_configuration/index
    programming_resources/index
