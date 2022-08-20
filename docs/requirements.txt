@@ -4,3 +4,4 @@ make==0.1.6.post2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=sphinx_rtd_dark_mode_v2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=javasphinx
 sphinx_design==0.2.0
+sphinx-charts==0.2.1

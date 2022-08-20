@@ -1,0 +1,58 @@
+[
+  {
+    "Gain": 0,
+    "Round 1": "none"
+  },
+  {
+    "Gain": 20,
+    "Round 1": "none"
+  },
+  {
+    "Gain": 30,
+    "Round 1": "none"
+  },
+  {
+    "Gain": 33,
+    "Round 1": 0.84
+  },
+  {
+    "Gain": 35,
+    "Round 1": 0.88
+  },
+  {
+    "Gain": 40,
+    "Round 1": 0.91
+  },
+  {
+    "Gain": 45,
+    "Round 1": 0.93
+  },
+  {
+    "Gain": 50,
+    "Round 1": 0.93
+  },
+  {
+    "Gain": 55,
+    "Round 1": 0.94
+  },
+  {
+    "Gain": 60,
+    "Round 1": 0.94
+  },
+  {
+    "Gain": 70,
+    "Round 1": 0.9
+  },
+  {
+    "Gain": 80,
+    "Round 1": 0.88
+  },
+  {
+    "Gain": 90,
+    "Round 1": "none"
+  },
+  {
+    "Gain": 100,
+    "Round 1": 0.81
+  }
+]

@@ -215,11 +215,16 @@ and webcam image processing.
 This chart shows TFOD confidence levels; ‘instant’ is defined here as
 recognition within 1 second.
 
-
-.. figure:: images/250-chart-gain=0.png
-   :align: center
+.. chart:: dc.json
 
    Five readings at each exposure level
+
+.. only:: latex
+
+   .. figure:: images/250-chart-gain=0.png
+      :align: center
+
+      Five readings at each exposure level
 
 Higher exposure does improve recognition, then performance suddenly
 drops. Then at higher levels, this TFOD model begins to “see” a Cube,
