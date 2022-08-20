@@ -36,7 +36,6 @@ students. It’s way more than building robots, see
 
 .. toctree::
    :caption: FTC Control System Resources
-   :maxdepth: 1
    :hidden:
 
    control_hard_compon/index

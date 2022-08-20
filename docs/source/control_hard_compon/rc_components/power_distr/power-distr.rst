@@ -1,5 +1,5 @@
-Power Distribution System
-=========================
+Power Distribution
+===================
 
 Robot Main Battery
 ----------------------
