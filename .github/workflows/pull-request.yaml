@@ -34,7 +34,9 @@ jobs:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: make -C docs/ html
       - name: Build PDF
-        run: make -C docs/ latexpdf
+        run: |
+          make -C docs/ latex
+          make -C docs/build/latex -j 2
         
       - name: Move PDF
         run: cp docs/build/latex/*.pdf docs/build/html/
