@@ -1,10 +1,15 @@
 REV Hubs
-=========
+==========
 
-The REV Hubs are the core of your robot control system.
+The REV Hubs are the core of an FTC robot.
 
 Control Hub
 ------------
+
+.. toctree::
+    :maxdepth: 1
+
+    ports/ch-ports
 
 .. figure:: images/REV-31-1595.png
     :align: center
@@ -20,6 +25,11 @@ and run the SDK.
 
 Expansion Hub
 --------------
+
+.. toctree::
+    :maxdepth: 1
+
+    ports/exh-ports
 
 .. figure:: images/REV-31-1153.png
     :align: center
