@@ -19,5 +19,8 @@ Basic Configurations
    power_distr/power-distr
    hub/hub
    motors/motors
+   encoders/encoders
+   servos/servos
    sensors/sensors
+   uvc/uvc
    

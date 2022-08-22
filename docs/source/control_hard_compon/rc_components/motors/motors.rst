@@ -45,6 +45,12 @@ Motors are the primary drivers of an FTC robot. FTC Motors are 12v brushed DC mo
 via a REV Expansion Hub, REV Control Hub, REV SPARK Mini Motor Controller, or VEX Motor
 Controller 29. ``<RE09>``
 
+Additional Resources
+---------------------
+
+ - :ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:motor ports>`
+ - :ref:`Connecting Motors <hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor:connecting a motor to the hub>`
+ - :ref:`Configuring Motors <hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor:configuring a dc motor>`
 
 
     
