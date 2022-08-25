@@ -7,9 +7,11 @@ Sensors
 Listed below are a couple examples of common sensors in FTC. This is not intended to limit or extend in anyway the scope of 
 sensors as established in ``<RE12>``. While the FTC SDK supports many sensors not all are natively supported.
 
+Examples
+----------
 
 Distance Sensor (Ultrasonic)
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. list-table:: 
@@ -33,7 +35,7 @@ It does this by sending out a sound wave and measuring the time it takes for the
 Using this and the speed of sound the distance can be calculated.
 
 Distance Sensor (Optical)
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: images/REV-31-1505.png
         :align: center
@@ -48,7 +50,7 @@ known speed of light the distance can be calculated. Be mindful the way the obje
 of the distance measurement. A transparent object like field panels will often provide innacurate measurements.
 
 Color Sensor
--------------
+~~~~~~~~~~~~~~
 
 .. list-table:: 
 
@@ -70,7 +72,7 @@ A color sensor is a digital output device that is able to measure the color of a
 question to be relatively close to the sensor. 
 
 Touch Sensor
--------------
+~~~~~~~~~~~~~~
 
 .. figure:: images/REV-31-1425.png
         :align: center
@@ -80,4 +82,78 @@ Touch Sensor
         REV-31-1425
 
 A touch sensor is a digital output device that detects the activation of a button. This can be used as a limit switch, a way to limit 
-the range of motion of a mechanism.
+the range of motion of a mechanism. Such a device would typically use the digital port
+
+
+Magnetic Limit Switch
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/REV-31-1462.png
+        :align: center
+        :alt: REV-31-1462
+        :width: 25%
+
+        REV-31-1462
+
+A Magnetic Limit Switch is used to detect the presence of a magnet in near proximity. This is commonly used to limit the range of 
+movement of a mechanism that would cause damage if it went beyond said limit. This is done by placing a magnet on said mechanism 
+which would cause the Limit Switch to activate. It is important to note that as a digital device this will only send out a boolean 
+output and not a range. For measureing the strength of a magnetic field take a look at a magnetometer.
+
+
+IMU
+~~~~~
+
+.. list-table:: Example IMUs
+
+        * - .. figure:: images/navx2.png
+                :align: center
+                :alt: NAV X2 Micro
+                :width: 50%
+
+                NAV X2 Micro
+
+          - .. figure:: images/BNO055.jpg
+                :align: center
+                :alt: BNO055
+                :width: 50%
+
+                BNO055
+
+An Interial Measurement Unit (IMU) is sensor that is a combination of a Gyroscope, Accelerometer, and Magnetometer. A Gyroscope 
+is device that reports the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ of an object in 3 
+dimensions. An Accelerometer is a device that reports the acceleration of an object in 3 dimensions. Acceleration can be thought of 
+as the rate of change of speed at any given instance. A Magnetometer is a device that measures the strength of magnetic fields in 3 axis. 
+This can be used as a compass to gain the orientation of a robot relative to the poles of the Earth, an absolute measurement.
+
+
+Potentiometer
+~~~~~~~~~~~~~~~
+
+.. list-table:: Example Potentiometers
+
+        * - .. figure:: images/REV-31-1155.png
+                :align: center
+                :alt: REV-31-1155
+                :width: 50%
+
+                REV-31-1155
+
+          - .. figure:: images/BBG-770.jpg
+                :align: center
+                :width: 50%
+                :alt: BBG-770
+
+                50k Ohm Potentiometer
+
+A Potentiometer is a device that changes the output voltage based upon the degree to which the adjuster is turned. It is often used 
+in FTC as a form of measuring the absolute orientation of an axle. The manner in which the output voltage change is subject to change 
+based on the Potentiometer that is used. Such a device is typically attatched via the analog port of the REV Hub.
+
+
+Additional Resources
+---------------------
+
+ - :ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:analog ports>`
+ - :ref:`Digital Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:digital ports>`
+ - :ref:`I2C Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:i2c ports>`
