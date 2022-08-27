@@ -70,7 +70,8 @@ students. It’s way more than building robots, see
    
 **I AM A...**
 
-.. grid:: 4
+.. grid:: 1 2 2 4
+   :gutter: 2 
 
    .. grid-item-card:: Rookie Resources
       :link: persona_pages/rookie_teams/rookie_teams
@@ -122,7 +123,8 @@ students. It’s way more than building robots, see
       Technical Mentors looking for Technical Resources 
       should look here first!
 
-.. grid:: 3
+.. grid:: 1 2 2 3
+   :gutter: 2
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
@@ -225,7 +227,7 @@ students. It’s way more than building robots, see
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
-      Game Manuals
+      Game Manual Links
    
       ^^^
 
