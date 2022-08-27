@@ -1,7 +1,6 @@
 Sphinx==4.4.0
-sphinx-panels==0.6.0
 sphinx-autobuild==2021.3.14
 make==0.1.6.post2
-myst-parser==0.18.0
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=sphinx_rtd_dark_mode_v2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=javasphinx
+sphinx_design==0.2.0

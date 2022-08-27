@@ -72,6 +72,8 @@ Advanced Topics for Programmers
    shared/pid_coefficients/pid-coefficients
    shared/pidf_coefficients/pidf-coefficients
    shared/auto_load_opmode/auto-load-opmode
+   shared/myblocks/index
+   shared/external_libraries_blocks/external-libraries-blocks.rst
 
 
 Vision Programming
@@ -89,3 +91,10 @@ Learning more about using vision in FTC
    vision/identifying_vumarks/identifying-vumarks
    vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/webcam_controls/webcam-controls
+   
+   
+Additional *FIRST* Website Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`__
+
