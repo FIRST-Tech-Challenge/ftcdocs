@@ -15,15 +15,22 @@
 
   <div role="contentinfo">
   {%- block contentinfo %}
-  <img src="/_static/Raytheon-400.png" alt="Raytheon Technologies" class="invert-img" width="200">
-    <p>
+  
+  <div id="container" style="white-space:nowrap;">
+    
+    <p align="right" style='text-align: right' >Season Presenting Sponsor</p>
+    <figure>
+      <img src="/_static/Raytheon-400.png" alt="Raytheon Technologies" class="invert-img" width="200" align="right"/>
+    </figure>
+  
+  </div>
     {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {%- trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
+    {%- if hasdoc('copyright') %}
+      {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+    {%- else %}
+      {%- trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
     {%- endif %}
+  {%- endif %}
 
     {%- if build_id and build_url %}
       <span class="build">

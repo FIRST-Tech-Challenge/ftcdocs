@@ -60,10 +60,6 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Specify canonical root
-# This tells search engines that this domain is preferred
-html_baseurl = "https://ftcdocs.firstinspires.org"
-
 # Sidebar logo
 html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
 
@@ -140,3 +136,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+
+    # Specify canonical root
+    # This tells search engines that this domain is preferred
+    html_baseurl = os.environ.get("url")
