@@ -46,6 +46,11 @@ javadoc_url_map = {
 
 templates_path = ['_templates']
 
+# Specify the master doc file, AKA our homepage
+master_doc = "index"
+
+output_name = 'ftcdocs'
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
@@ -54,10 +59,6 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-
-# Specify canonical root
-# This tells search engines that this domain is preferred
-html_baseurl = "https://ftcdocs.firstinspires.org"
 
 # Sidebar logo
 html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
@@ -110,8 +111,9 @@ linkcheck_request_headers = {
 # Firstinspires redirects to login and break our link checker :)
 linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/', "https://ftc-ml.firstinspires.org"]
 
-# Specify the master doc file, AKA our homepage
-master_doc = "index"
+latex_documents = [
+    (master_doc, output_name + '.tex', project, author, "manual"),
+]
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
@@ -127,10 +129,14 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['version'] = version
 
     html_context['downloads'] = list()
-    pdfname = str(urlparse.urlparse(os.environ.get("url")).path) + project.lower().replace(" ", "") + ".pdf"
+    pdfname = str(urlparse.urlparse(os.environ.get("url")).path) + output_name + ".pdf"
     html_context['downloads'].append(('PDF', str(pdfname)))
 
     html_context['display_github'] = True
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+
+    # Specify canonical root
+    # This tells search engines that this domain is preferred
+    html_baseurl = os.environ.get("url")
