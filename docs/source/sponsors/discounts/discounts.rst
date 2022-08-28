@@ -8,127 +8,118 @@ site-wide, and may require an application process or a season-specific or
 team-specific promo code. Read details below for each vendor for more
 information.
 
-----
+.. dropdown:: FTC Team Grant Opportunities
 
-FTC Team Grant Opportunities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   .. image:: images/ftc-logo.png
+      :height: 50px
+      :target: https://www.firstinspires.org/robotics/team-grants
+      :alt: FTC Onecolor Logo
+      :name: FTC Onecolor Logo
+      :class: invert-img
 
-.. image:: images/ftc-logo.png
-   :height: 50px
-   :target: https://www.firstinspires.org/robotics/team-grants
-   :alt: FTC Onecolor Logo
-   :name: FTC Onecolor Logo
-   :class: invert-img
+   **What**:
 
-**What**:
+   *  FTC Team Grants
 
-*  FTC Team Grants
+   **Expires**: See each individual grant opportunity.
 
-**Expires**: See each individual grant opportunity.
+   **To Apply**: Check out the 
+   `list of current Team Grants available <https://www.firstinspires.org/robotics/team-grants>`_ 
+   and see if you're eligible!
 
-**To Apply**: Check out the 
-`list of current Team Grants available <https://www.firstinspires.org/robotics/team-grants>`_ 
-and see if you're eligible!
 
-----
+.. dropdown:: FIRST Storefront
 
-FIRST Storefront
-~~~~~~~~~~~~~~~~
+   .. image:: images/ftc-logo.png
+      :height: 50px
+      :target: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf
+      :alt: FTC Logo Onecolor
+      :name: FTC Logo Onecolor
+      :class: invert-img
 
-.. image:: images/ftc-logo.png
-   :height: 50px
-   :target: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf
-   :alt: FTC Logo Onecolor
-   :name: FTC Logo Onecolor
-   :class: invert-img
+   **What**:
 
-**What**:
+   *  All FTC Teams are eligible for discounts on control equipment, electronics, and starter kits.
+   *  Teams are limited to one purchase per item per category each season.
 
-*  All FTC Teams are eligible for discounts on control equipment, electronics, and starter kits.
-*  Teams are limited to one purchase per item per category each season.
+   **Expires**: Good for the 2022-2023 FTC competition season.
 
-**Expires**: Good for the 2022-2023 FTC competition season.
+   **Promo Code**: N/A
 
-**Promo Code**: N/A
+   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf>`_
+   for instructions on how to purchase discounted parts.
 
-**To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf>`_ for instructions on how to purchase discounted parts.
 
-----
+.. dropdown:: Pitsco
 
-Pitsco
-~~~~~~
+   .. image:: images/tetrix-logo.jpg
+      :height: 100px
+      :target: https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge
+      :alt: Pitsco Tetrix Logo
+      :name: Pitsco Tetrix Logo
+      :class: invert-img
 
-.. image:: images/tetrix-logo.jpg
-   :height: 100px
-   :target: https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge
-   :alt: Pitsco Tetrix Logo
-   :name: Pitsco Tetrix Logo
-   :class: invert-img
+   **What**:
 
-**What**:
+   *  Get 25% off spare parts on the Pitsco Education site using a promo code.
 
-*  Get 25% off spare parts on the Pitsco Education site using a promo code.
+   **Expires**: Good for the 2022-2023 FTC competition season.
 
-**Expires**: Good for the 2022-2023 FTC competition season.
+   **Promo Code**: Go to the `Pitsco FTC page <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_,
+   enter your team number, and get your promo code.
 
-**Promo Code**: Go to the `Pitsco FTC page <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_, enter your team number, and get your promo code.
+   **To Use**: Use the promo code at checkout on the 
+   `Pitsco Education Site <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_.
 
-**To Use**: Use the promo code at checkout on the `Pitsco Education Site <https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge>`_.
+.. dropdown:: REV Robotics
 
-----
+   .. image:: images/rev-logo.jpg
+      :height: 100px
+      :target: https://www.revrobotics.com/competition/ftc/discounts/
+      :alt: REV Robotics Logo
+      :name: REV Robotics Logo
+      :class: invert-img
 
-REV Robotics
-~~~~~~~~~~~~
+   **What**:
 
-.. image:: images/rev-logo.jpg
-   :height: 100px
-   :target: https://www.revrobotics.com/competition/ftc/discounts/
-   :alt: REV Robotics Logo
-   :name: REV Robotics Logo
-   :class: invert-img
+   *  Get 15% off select parts on the REV Robotics site using a promo code.
 
-**What**:
+   **Expires**: Good for the 2022-2023 FTC competition season.
 
-*  Get 15% off select parts on the REV Robotics site using a promo code.
+   **Promo Code**:  Team promo code can be obtained ONLY by Lead Coach 1 or 2 by
+   selecting "Passwords/Voucher Codes" from the "Payment & Product" drop-down in
+   the "Team Options" column of the team information in the 
+   `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_.
+   The REV Robotics promo code for the team will be listed under the
+   "REV Robotics" section of the resulting webpage.
 
-**Expires**: Good for the 2022-2023 FTC competition season.
+   **To Use**: Use the promo code at checkout on the 
+   `REV Robotics Website <https://www.revrobotics.com/competition/ftc/discounts/>`_
+   for a 15% discount on select parts. Be sure to always use the promo code,
+   as discounts cannot be applied retroactively.
 
-**Promo Code**:  Team promo code can be obtained ONLY by Lead Coach 1 or 2 by
-selecting "Passwords/Voucher Codes" from the "Payment & Product" drop-down in
-the "Team Options" column of the team information in the 
-`FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_.
-The REV Robotics promo code for the team will be listed under the
-"REV Robotics" section of the resulting webpage.
 
-**To Use**: Use the promo code at checkout on the 
-`REV Robotics Website <https://www.revrobotics.com/competition/ftc/discounts/>`_
-for a 15% discount on select parts. Be sure to always use the promo code,
-as discounts cannot be applied retroactively.
+.. dropdown:: ServoCity / Actobotics / goBILDA
 
-----
+   .. image:: images/servocity-logo.png
+      :height: 50px
+      :target: https://www.servocity.com/first_team_discounts/
+      :alt: ServoCity Logo
+      :name: ServoCity Logo
+      :class: invert-img
 
-ServoCity / Actobotics / goBILDA
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   **What**:
 
-.. image:: images/servocity-logo.png
-   :height: 50px
-   :target: https://www.servocity.com/first_team_discounts/
-   :alt: ServoCity Logo
-   :name: ServoCity Logo
-   :class: invert-img
+   *  Get 25% off site-wide on ServoCity / Actobotics / goBILDA website.
 
-**What**:
+   **Expires**: Contact vendor for more details.
 
-*  Get 25% off site-wide on ServoCity / Actobotics / goBILDA website.
+   **Application Forms**:  
 
-**Expires**: Contact vendor for more details.
+   *  Complete the `ServoCity / ActoBotics Team Discount application form <https://www.servocity.com/first_team_discounts/>`_
+   *  Complete the `goBILDA Team Discount application form <https://www.gobilda.com/ftc/>`_
 
-**Application Forms**:  
-
-*  Complete the `ServoCity / ActoBotics Team Discount application form <https://www.servocity.com/first_team_discounts/>`_
-*  Complete the `goBILDA Team Discount application form <https://www.gobilda.com/ftc/>`_
-
-**To Use**: Once your application is accepted, your account on the
-vendor website will be activated to receive the discount automatically
-without the use of a promo code.
+   **To Use**: Once your application is accepted, your account on the
+   vendor website will be activated to receive the discount automatically
+   without the use of a promo code.
 

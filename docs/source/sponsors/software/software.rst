@@ -10,97 +10,86 @@ sponsors merely require your FTC team number and contact information, and some
 software is simply provided free of charge with no proof of registration
 requirement. Read details below for each product for more information.
 
-----
+.. dropdown:: Autodesk
 
-Autodesk
-~~~~~~~~
+   .. image:: images/autodesk-logo.jpg
+      :height: 50px
+      :target: https://www.autodesk.com/education/competitions/first
+      :alt: Autodesk Logo
+      :name: Autodesk Logo
+      :class: invert-img
 
-.. image:: images/autodesk-logo.jpg
-   :height: 50px
-   :target: https://www.autodesk.com/education/competitions/first
-   :alt: Autodesk Logo
-   :name: Autodesk Logo
-   :class: invert-img
+   **What**:
 
-**What**:
+   *  Autodesk CAD software (including Fusion 360, Inventor, 3ds Max, and more...)
 
-*  Autodesk CAD software (including Fusion 360, Inventor, 3ds Max, and more...)
+   **Expires**: Contact Autodesk for exact details.
 
-**Expires**: Contact Autodesk for exact details.
+   **Access Codes**: N/A
 
-**Access Codes**: N/A
+   **To Access**: Check out the :doc:`Autodesk page <../../cad_resources/autodesk/autodesk>` for details.
 
-**To Access**: Check out the :doc:`Autodesk page <../../cad_resources/autodesk/autodesk>` for details.
+.. dropdown:: Dassault Systèmes
 
-----
+   .. image:: images/dassault-logo.png
+      :height: 50px
+      :target: https://www.solidworks.com/product/students/first-robotics-students
+      :alt: Dassault Logo
+      :name: Dassault Logo
+      :class: invert-img
 
-Dassault Systèmes
-~~~~~~~~~~~~~~~~~
+   **What**:
 
-.. image:: images/dassault-logo.png
-   :height: 50px
-   :target: https://www.solidworks.com/product/students/first-robotics-students
-   :alt: Dassault Logo
-   :name: Dassault Logo
-   :class: invert-img
+   *  Dassault Systèmes CAD software (including SOLIDWORKS and the **3D** EXPERIENCE Platform) 
 
-**What**:
+   **Expires**: Contact Dassault Systèmes for exact details.
 
-*  Dassault Systèmes CAD software (including SOLIDWORKS and the **3D** EXPERIENCE Platform) 
+   **Access Codes**: [COMING SOON]
 
-**Expires**: Contact Dassault Systèmes for exact details.
+   **To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details.
 
-**Access Codes**: [COMING SOON]
+.. dropdown:: Monday.com
 
-**To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details.
+   .. image:: images/monday-logo.png
+      :height: 50px
+      :target: https://monday\.com/lp/academic/frcglobal
+      :alt: Monday.com Logo
+      :name: Monday.com Logo
+      :class: invert-img
 
-----
+   **What**:
 
-Monday.com
-~~~~~~~~~~
+   *  Cloud-based customizable team management platform
+   *  One year Pro account for all team members
 
-.. image:: images/monday-logo.png
-   :height: 50px
-   :target: https://monday\.com/lp/academic/frcglobal
-   :alt: Monday.com Logo
-   :name: Monday.com Logo
-   :class: invert-img
+   **Expires**: Contact Monday.com for exact details.
 
-**What**:
+   **Access Codes**: N/A
 
-*  Cloud-based customizable team management platform
-*  One year Pro account for all team members
+   **To Access**: Teams need to go to the 
+   `FIRST dedicated page <https://monday.com/lp/academic/frcglobal>`_ 
+   and create an account on that specific landing page using the "Get your free 
+   account" button. Once you've created your account, use the "Request Pro Plan"
+   form to request your account to be given Pro plan access. You will be notified
+   once your account has been upgraded.
 
-**Expires**: Contact Monday.com for exact details.
 
-**Access Codes**: N/A
+.. dropdown:: PTC
 
-**To Access**: Teams need to go to the 
-`FIRST dedicated page <https://monday.com/lp/academic/frcglobal>`_ 
-and create an account on that specific landing page using the "Get your free 
-account" button. Once you've created your account, use the "Request Pro Plan"
-form to request your account to be given Pro plan access. You will be notified
-once your account has been upgraded.
+   .. image:: images/ptc-logo.png
+      :height: 50px
+      :target: https://www.ptc.com/en/education/student/first
+      :alt: PTC Logo
+      :name: PTC Logo
 
-----
+   **What**:
 
-PTC
-~~~
+   *  PTC Software Access (including Creo, OnShape, etc...)
 
-.. image:: images/ptc-logo.png
-   :height: 50px
-   :target: https://www.ptc.com/en/education/student/first
-   :alt: PTC Logo
-   :name: PTC Logo
+   **Expires**: Contact PTC for exact details.
 
-**What**:
+   **Access Codes**: N/A
 
-*  PTC Software Access (including Creo, OnShape, etc...)
-
-**Expires**: Contact PTC for exact details.
-
-**Access Codes**: N/A
-
-**To Access**: Check out the :doc:`PTC page <../../cad_resources/ptc/ptc>` for details.
+   **To Access**: Check out the :doc:`PTC page <../../cad_resources/ptc/ptc>` for details.
 
 
