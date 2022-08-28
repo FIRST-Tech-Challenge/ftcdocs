@@ -12,7 +12,7 @@ requirement. Read details below for each product for more information.
 
 .. dropdown:: Autodesk
 
-   .. image:: images/autodesk-logo.jpg
+   .. image:: images/autodesk-logo.png
       :height: 50px
       :target: https://www.autodesk.com/education/competitions/first
       :alt: Autodesk Logo
@@ -59,7 +59,6 @@ requirement. Read details below for each product for more information.
       :target: https://monday\.com/lp/academic/frcglobal
       :alt: Monday.com Logo
       :name: Monday.com Logo
-      :class: invert-img
 
    |
 

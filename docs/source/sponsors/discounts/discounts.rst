@@ -61,7 +61,6 @@ information.
       :target: https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge
       :alt: Pitsco Tetrix Logo
       :name: Pitsco Tetrix Logo
-      :class: invert-img
 
    |
 
@@ -84,7 +83,6 @@ information.
       :target: https://www.revrobotics.com/competition/ftc/discounts/
       :alt: REV Robotics Logo
       :name: REV Robotics Logo
-      :class: invert-img
 
    |
 
@@ -114,7 +112,6 @@ information.
       :target: https://www.servocity.com/first_team_discounts/
       :alt: ServoCity Logo
       :name: ServoCity Logo
-      :class: invert-img
 
    |
 
