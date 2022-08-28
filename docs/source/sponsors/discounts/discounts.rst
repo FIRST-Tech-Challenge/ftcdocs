@@ -17,6 +17,8 @@ information.
       :name: FTC Onecolor Logo
       :class: invert-img
 
+   |
+
    **What**:
 
    *  FTC Team Grants
@@ -36,6 +38,8 @@ information.
       :alt: FTC Logo Onecolor
       :name: FTC Logo Onecolor
       :class: invert-img
+
+   |
 
    **What**:
 
@@ -59,6 +63,8 @@ information.
       :name: Pitsco Tetrix Logo
       :class: invert-img
 
+   |
+
    **What**:
 
    *  Get 25% off spare parts on the Pitsco Education site using a promo code.
@@ -79,6 +85,8 @@ information.
       :alt: REV Robotics Logo
       :name: REV Robotics Logo
       :class: invert-img
+
+   |
 
    **What**:
 
@@ -107,6 +115,8 @@ information.
       :alt: ServoCity Logo
       :name: ServoCity Logo
       :class: invert-img
+
+   |
 
    **What**:
 
