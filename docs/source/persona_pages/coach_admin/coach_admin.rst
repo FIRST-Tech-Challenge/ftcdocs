@@ -11,7 +11,8 @@ link for the resource you want to explore!
    
 **I AM A COACH**
 
-.. grid:: 3
+.. grid:: 1 2 2 3
+   :gutter: 2
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/robotics/fll/core-values
@@ -27,14 +28,15 @@ link for the resource you want to explore!
       and Coopertition through our Core Values.
 
    .. grid-item-card::
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      FIRST Dashboard
+      FIRST Dashboard Links
 
       ^^^
 
-      Discover registration and purchasing FAQs.
+      Discover registration and purchasing FAQs. Team Registration requires *FIRST* 
+      Dashboard account access on firstinspires.org.
    
       +++
 
@@ -47,7 +49,7 @@ link for the resource you want to explore!
                :outline:
                :expand:
 
-               Register Your Team
+               Register Your Team (Login)
  
          .. div:: col-sm pl-1 pr-1
 
@@ -69,8 +71,6 @@ link for the resource you want to explore!
       ^^^
 
       A simple guide to managing your team's budget.
-
-.. grid:: 3
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/node/5226

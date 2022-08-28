@@ -12,7 +12,8 @@ resource you want to explore!
    
 **I AM A ROOKIE**
 
-.. grid:: 4
+.. grid:: 1 2 2 4
+   :gutter: 2
 
    .. grid-item-card:: 
       :link: ../../programming_resources/index
@@ -62,8 +63,6 @@ resource you want to explore!
 
       Links to team management resources.
       
-.. grid:: 4
-
    .. grid-item-card:: 
       :link: ../../cad_resources/index
       :link-type: doc
