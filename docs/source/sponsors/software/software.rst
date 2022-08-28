@@ -59,6 +59,7 @@ requirement. Read details below for each product for more information.
       :target: https://monday\.com/lp/academic/frcglobal
       :alt: Monday.com Logo
       :name: Monday.com Logo
+      :class: invert-img
 
    |
 
