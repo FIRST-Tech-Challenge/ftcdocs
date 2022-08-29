@@ -32,6 +32,7 @@ students. It’s way more than building robots, see
    :hidden:
 
    manuals/game_manuals/game_manuals
+   Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
 
 .. toctree::
@@ -57,14 +58,13 @@ students. It’s way more than building robots, see
    
    ftc_ml/index
    
-..
-   [ddiaz] Commenting for now
-   .. toctree::
-   :caption: Miscellaneous 
+.. toctree::
+   :caption: FTC Freebies and Discounts
    :maxdepth: 1
    :hidden:
 
-   usage
+   Complimentary Software<sponsors/software/software>
+   Team Discounts<sponsors/discounts/discounts>
 
 .. rst-class:: center
    
