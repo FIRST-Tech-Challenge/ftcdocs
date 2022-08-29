@@ -19,6 +19,8 @@ requirement. Read details below for each product for more information.
       :name: Autodesk Logo
       :class: invert-img
 
+   |
+
    **What**:
 
    *  Autodesk CAD software (including Fusion 360, Inventor, 3ds Max, and more...)
@@ -38,6 +40,8 @@ requirement. Read details below for each product for more information.
       :name: Dassault Logo
       :class: invert-img
 
+   |
+
    **What**:
 
    *  Dassault Systèmes CAD software (including SOLIDWORKS and the **3D** EXPERIENCE Platform) 
@@ -55,6 +59,9 @@ requirement. Read details below for each product for more information.
       :target: https://monday\.com/lp/academic/frcglobal
       :alt: Monday.com Logo
       :name: Monday.com Logo
+      :class: invert-img
+
+   |
 
    **What**:
 
@@ -80,6 +87,8 @@ requirement. Read details below for each product for more information.
       :target: https://www.ptc.com/en/education/student/first
       :alt: PTC Logo
       :name: PTC Logo
+
+   |
 
    **What**:
 
