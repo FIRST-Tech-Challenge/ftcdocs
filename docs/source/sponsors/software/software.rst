@@ -79,6 +79,10 @@ requirement. Read details below for each product for more information.
    form to request your account to be given Pro plan access. You will be notified
    once your account has been upgraded.
 
+   **Webinar**: Monday.com is hosting a webinar to help teams learn how to make
+   the most of the Monday.com account sponsorship. The Webinar will be held
+   on Monday, September 12 2022 from 12:00p-1:00p EST. To sign up to attend the
+   webinar, `sign up via this link <https://monday.zoom.us/webinar/register/WN_OFXOIZTnThW3RPXEmvBw_g>`_.
 
 .. dropdown:: PTC
 
