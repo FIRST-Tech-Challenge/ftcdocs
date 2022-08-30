@@ -10,15 +10,16 @@ collaborative robot design with your team.
 Obtaining SOLIDWORKS® Software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dassault Systèmes makes software available to all *FIRST* teams via the *FIRST*
-`SOLIDWORKS Desktop & SOLIDWORKS Cloud Sponsorship Page <https://www.solidworks.com/product/students/first-robotics-students>`__.
+Dassault Systèmes makes select software available to all *FIRST* teams. 
+
+.. note:: As of the 2022-2023 season, Dassault Systèmes is changing their software application process. **More Details to be announced by Kickoff**. All teams who would like to request software should create a 3DEXPERIENCE ID regardless of whether you're requesting desktop or cloud-based software.
 
 Dassault Systèmes provides both cloud-based and desktop-based tools to *FIRST*
 teams. Teams must:
 
 1.  `Create a 3DEXPERIENCE ID <https://eu1-ds-iam.3dexperience.3ds.com/login>`__
     if you don't have one.
-2.  `Apply to request your license <https://www.solidworks.com/product/students/get-your-license>`__.
+2.  Apply to request your license (**more details coming soon**).
 
 SOLIDWORKS® Training Videos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
