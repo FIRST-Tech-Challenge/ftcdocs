@@ -7,7 +7,13 @@ students. It’s way more than building robots, see
 
 .. note::
 
-   This project is under active development. Anything contained herein is for informational purposes only; while this documentation is intended to support teams and in some way provide context to game rules, the game rules supercede all documentation found here.
+   This project is under active development. Anything contained herein is for 
+   informational purposes only; while this documentation is intended to support 
+   teams and in some way provide context to game rules, the game rules supercede 
+   all documentation found here. If you have feedback about this project, 
+   please use our :doc:`feedback form <form/form>`.
+
+   
 
 .. toctree::
    :hidden:
@@ -15,6 +21,7 @@ students. It’s way more than building robots, see
 
    /overview/ftcoverview
    Gracious Professionalism®</gracious_professionalism/gp>
+   form/form
 
 .. toctree::
    :caption: Getting Started
