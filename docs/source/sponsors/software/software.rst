@@ -33,6 +33,11 @@ requirement. Read details below for each product for more information.
 
 .. dropdown:: Dassault Systèmes
 
+   .. todo:: 
+      Once Solidworks updates their team software registration process, we need to add instructions 
+      on how to get the voucher code from the voucher system and provide that code to Solidworks for 
+      them to credit the team with the software license.
+
    .. image:: images/dassault-logo.png
       :height: 50px
       :target: https://www.solidworks.com/product/students/first-robotics-students
@@ -53,6 +58,11 @@ requirement. Read details below for each product for more information.
    **To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details.
 
 .. dropdown:: Monday.com
+
+   .. todo:: 
+      Update the Complimentary Software page: Monday.com will be recording their webinar on 
+      September 12. After the webinar we need to update the text to remove the webinar registration
+      information and add a link to the recorded webinar.
 
    .. image:: images/monday-logo.png
       :height: 50px
@@ -79,6 +89,10 @@ requirement. Read details below for each product for more information.
    form to request your account to be given Pro plan access. You will be notified
    once your account has been upgraded.
 
+   **Webinar**: Monday.com is hosting a webinar to help teams learn how to make
+   the most of the Monday.com account sponsorship. The Webinar will be held
+   on Monday, September 12 2022 from 12:00p-1:00p EST. To sign up to attend the
+   webinar, `sign up via this link <https://monday.zoom.us/webinar/register/WN_OFXOIZTnThW3RPXEmvBw_g>`_.
 
 .. dropdown:: PTC
 
