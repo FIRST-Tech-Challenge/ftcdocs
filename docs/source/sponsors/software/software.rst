@@ -33,7 +33,7 @@ requirement. Read details below for each product for more information.
 
 .. dropdown:: Dassault Systèmes
 
-   .. todo: 
+   .. todo:: 
       Once Solidworks updates their team software registration process, we need to add instructions 
       on how to get the voucher code from the voucher system and provide that code to Solidworks for 
       them to credit the team with the software license.
