@@ -1,8 +1,6 @@
-Development To-Do List
-======================
-
 :orphan:
 
-
+Development To-Do List
+======================
 
 .. todolist::
