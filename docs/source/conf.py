@@ -29,7 +29,7 @@ extensions = [
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False
-todo_include_todos = True
+todo_include_todos = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
