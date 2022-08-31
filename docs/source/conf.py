@@ -15,20 +15,21 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.autosectionlabel',
-    'sphinx.ext.intersphinx',
-    'sphinx_rtd_dark_mode',
-    'sphinx_design',
     'javasphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.doctest',
+    'sphinx.ext.duration',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx_design',
+    'sphinx_rtd_dark_mode',
 ]
 
 autosectionlabel_prefix_document = True
-
 default_dark_mode = False
+todo_include_todos = True
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
