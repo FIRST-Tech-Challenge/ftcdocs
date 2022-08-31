@@ -3,7 +3,8 @@ FIRST Tech Challenge documentation
 
 **FIRST Tech Challenge** is a robotics program for middle and high school
 students. It’s way more than building robots, see 
-:doc:`About the FIRST Tech Challenge <overview/ftcoverview>` to see why.
+:doc:`About the FIRST Tech Challenge <overview/ftcoverview>` to see why. If 
+you have any feedback please checkout our :ref:`feedback form <form/form:feedback form>`.
 
 .. note::
 
@@ -15,6 +16,7 @@ students. It’s way more than building robots, see
 
    /overview/ftcoverview
    Gracious Professionalism®</gracious_professionalism/gp>
+   form/form
 
 .. toctree::
    :caption: Getting Started
