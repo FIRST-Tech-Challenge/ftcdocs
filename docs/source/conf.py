@@ -121,6 +121,10 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
 
+    if(os.environ.get("GOOGLE_ANALYTICS") == "true"):
+        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=G-7B5F7THY9C")
+        app.add_js_file("google_analytics_tracker.js")
+
 
 if(os.environ.get("DOCS_BUILD") == "true"):
     html_context = dict()
