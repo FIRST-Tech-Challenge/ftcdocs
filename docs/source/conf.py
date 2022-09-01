@@ -121,9 +121,9 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
 
-    if(os.environ.get("GOOGLE_ANALYTICS") == "true"):
-        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=G-7B5F7THY9C")
-        app.add_js_file("google_analytics_tracker.js")
+    if os.environ.get("GOOGLE_ANALYTICS_ID", default="") != "":
+        app.add_js_file(f"https://www.googletagmanager.com/gtag/js?id={os.environ.get('GOOGLE_ANALYTICS_ID')}")
+        app.add_js_file(None, body=f'window.dataLayer = window.dataLayer || [];function gtag(){{dataLayer.push(arguments);}}gtag(\'js\', new Date());gtag(\'config\', {os.environ.get("GOOGLE_ANALYTICS_ID")});')
 
 
 if(os.environ.get("DOCS_BUILD") == "true"):
