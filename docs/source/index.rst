@@ -21,7 +21,7 @@ students. It’s way more than building robots, see
 
    /overview/ftcoverview
    Gracious Professionalism®</gracious_professionalism/gp>
-   form/form
+   FTC Docs Feedback Form<form/form>
 
 .. toctree::
    :caption: Getting Started
