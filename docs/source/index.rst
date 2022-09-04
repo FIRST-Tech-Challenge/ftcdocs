@@ -7,7 +7,13 @@ students. It’s way more than building robots, see
 
 .. note::
 
-   This project is under active development. Anything contained herein is for informational purposes only; while this documentation is intended to support teams and in some way provide context to game rules, the game rules supercede all documentation found here.
+   This project is under active development. Anything contained herein is for 
+   informational purposes only; while this documentation is intended to support 
+   teams and in some way provide context to game rules, the game rules supercede 
+   all documentation found here. If you have feedback about this project, 
+   please use our :doc:`feedback form <form/form>`.
+
+   
 
 .. toctree::
    :hidden:
@@ -15,6 +21,7 @@ students. It’s way more than building robots, see
 
    /overview/ftcoverview
    Gracious Professionalism®</gracious_professionalism/gp>
+   FTC Docs Feedback Form<form/form>
 
 .. toctree::
    :caption: Getting Started
@@ -32,6 +39,7 @@ students. It’s way more than building robots, see
    :hidden:
 
    manuals/game_manuals/game_manuals
+   Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
 
 .. toctree::
@@ -57,20 +65,20 @@ students. It’s way more than building robots, see
    
    ftc_ml/index
    
-..
-   [ddiaz] Commenting for now
-   .. toctree::
-   :caption: Miscellaneous 
+.. toctree::
+   :caption: FTC Freebies and Discounts
    :maxdepth: 1
    :hidden:
 
-   usage
+   Complimentary Software<sponsors/software/software>
+   Team Discounts<sponsors/discounts/discounts>
 
 .. rst-class:: center
    
 **I AM A...**
 
-.. grid:: 4
+.. grid:: 1 2 2 4
+   :gutter: 2 
 
    .. grid-item-card:: Rookie Resources
       :link: persona_pages/rookie_teams/rookie_teams
@@ -122,7 +130,8 @@ students. It’s way more than building robots, see
       Technical Mentors looking for Technical Resources 
       should look here first!
 
-.. grid:: 3
+.. grid:: 1 2 2 3
+   :gutter: 2
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
@@ -225,7 +234,7 @@ students. It’s way more than building robots, see
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
-      Game Manuals
+      Game Manual Links
    
       ^^^
 
