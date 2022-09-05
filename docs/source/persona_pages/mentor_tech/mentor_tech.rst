@@ -61,7 +61,7 @@ Just click on the panel for the resource you want to explore!
 
       ^^^
 
-      Links to echnical writing resources.
+      Links to technical writing resources.
 
    .. grid-item-card::
       :link: ../../ftc_ml/index
