@@ -10,7 +10,7 @@ Creating a PR
 PRs should be made to the `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ repo on GitHub. Your 
 title should aim to desrcribe the purpose of your pr in a *concise* manner. For more information on creating a 
 PR, see 
-`this <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request>`_
+`this <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_
 
 
 Creating an Issue
