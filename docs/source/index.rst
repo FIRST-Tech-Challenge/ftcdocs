@@ -73,6 +73,13 @@ students. It’s way more than building robots, see
    Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
 
+.. toctree::
+   :caption: Docs
+   :maxdepth: 1
+   :hidden:
+
+   Contributing to Docs<contrib/index>
+
 .. rst-class:: center
    
 **I AM A...**
