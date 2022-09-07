@@ -5,7 +5,7 @@ Contributing to Docs
     :hidden:
 
     guidelines/guidelines
-    env/env
+    environment/environment
     ghpages/ghpages
 
 
@@ -16,5 +16,5 @@ Mission Statement
 
 
 - :doc:`Contribution Guidelines <guidelines/guidelines>`
-- :doc:`Creating a Development Environment <env/env>`
+- :doc:`Creating a Development Environment <environment/environment>`
 - :doc:`Deploying to Github Pages <ghpages/ghpages>`
