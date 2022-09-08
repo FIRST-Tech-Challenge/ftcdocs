@@ -21,7 +21,7 @@ configuration diagrams.
 
       :download:`Control Hub B1 - Basic Config<images/B1.pdf>`
 
-      .. figure:: images/B1
+      .. figure:: images/B1.*
          :align: left
          :alt: Control Hub RC Diagram
 
@@ -31,7 +31,7 @@ configuration diagrams.
 
       :download:`Android Phone A1 - Basic Config<images/A1.pdf>`
 
-      .. figure:: images/A1
+      .. figure:: images/A1.*
          :align: left
          :alt: Android Phone RC Diagram
 
