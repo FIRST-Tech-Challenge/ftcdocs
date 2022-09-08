@@ -13,15 +13,13 @@ students. It’s way more than building robots, see
    all documentation found here. If you have feedback about this project, 
    please use our :doc:`feedback form <form/form>`.
 
-   
-
 .. toctree::
    :hidden:
    :maxdepth: 1
 
    /overview/ftcoverview
-   Gracious Professionalism®</gracious_professionalism/gp>
-   FTC Docs Feedback Form<form/form>
+   gracious_professionalism/gp
+   Site Feedback Form<form/form>
 
 .. toctree::
    :caption: Getting Started
@@ -43,11 +41,11 @@ students. It’s way more than building robots, see
    game_specific_resources/playing_field_resources/playing_field_resources
 
 .. toctree::
-   :caption: FTC Control System Resources
-   :maxdepth: 1
+   :caption: Control System Resources
    :hidden:
 
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
+   control_hard_compon/index
    hardware_and_software_configuration/index
    programming_resources/index
 
@@ -66,11 +64,11 @@ students. It’s way more than building robots, see
    ftc_ml/index
    
 .. toctree::
-   :caption: FTC Freebies and Discounts
+   :caption: Team Freebies and Discounts
    :maxdepth: 1
    :hidden:
 
-   Complimentary Software<sponsors/software/software>
+   Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
 
 .. rst-class:: center

@@ -11,7 +11,6 @@ author = 'FIRST Tech Challenge'
 
 release = '0.1'
 version = '0.1.0'
-
 # -- General configuration
 
 extensions = [
@@ -67,6 +66,7 @@ html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
 # URL favicon
 html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
 
+
 # Credit: https://github.com/wpilibsuite/frc-docs/blob/main/source/conf.py
 # -- Options for latex generation --------------------------------------------
 
@@ -121,7 +121,7 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
 
-
+# Configure for official builds
 if(os.environ.get("DOCS_BUILD") == "true"):
     html_context = dict()
     html_context['display_lower_left'] = True
@@ -137,7 +137,12 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
-
+    
     # Specify canonical root
     # This tells search engines that this domain is preferred
     html_baseurl = os.environ.get("url")
+
+# Configure RTD Theme
+html_theme_options = {
+    'navigation_depth': 5,
+}

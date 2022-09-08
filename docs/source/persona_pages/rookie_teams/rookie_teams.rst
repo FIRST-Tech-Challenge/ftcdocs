@@ -73,7 +73,7 @@ resource you want to explore!
 
       ^^^
 
-      Look for resources for FTC Computer-Aided Design software and tutorials.
+      Look for resources for Computer-Aided Design software and tutorials.
 
    .. grid-item-card:: 
       :link: https://ftc-events.firstinspires.org/

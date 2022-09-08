@@ -45,11 +45,11 @@ resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      FTC Machine Learning
+      Machine Learning
 
       ^^^
 
-      User guide for FTC-Machine Learning toolchain.
+      User guide for FIRST Machine Learning Toolchain.
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources
