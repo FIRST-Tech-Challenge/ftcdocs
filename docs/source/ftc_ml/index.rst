@@ -1,7 +1,7 @@
-FTC Machine Learning Toolchain
-==============================
+*FIRST* Machine Learning Toolchain
+==================================
 
-This tool, the FIRST Tech Challenge Machine Learning toolchain **(FTC-ML)**, allows FIRST Tech Challenge 
+This tool, the *FIRST* Tech Challenge Machine Learning toolchain **(FTC-ML)**, allows *FIRST* Tech Challenge 
 teams to create custom TensorFlow models for use in the game challenge. Learn how to train TensorFlow to 
 recognize your Team Shipping Element, Freight scoring elements, and more using this tool, and download 
 models that you can use in your autonomous and driver-controlled Op Modes. 
@@ -30,7 +30,7 @@ this project:
 
 -  Uday Vidyadharan, Team 7350 – Platform tester and Contributor
 
--  Jacob Burroughs – Platform configuration and FTC Scoring SSO
+-  Jacob Burroughs – Platform configuration and SSO
 
 -  Richard Lester – Platform UI improvements
 

@@ -1,5 +1,5 @@
-FTC Control System Introduction
-===============================
+Control System Introduction
+===========================
 
 About the *FIRST* Tech Challenge
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

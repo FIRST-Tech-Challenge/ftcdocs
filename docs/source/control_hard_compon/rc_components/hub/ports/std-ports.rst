@@ -1,7 +1,9 @@
 Battery Ports
 --------------
 
-.. danger:: **Never** connect a battery charger directly to the battery port. This will void your warranty and fry your hub.
+.. danger:: 
+   **Never** connect a battery charger directly to the battery port. This will
+   void your warranty and fry your hub.
 
 These `XT-30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ 
 connectors are used to power your REV Hub as well as all the devices connected to it. 
@@ -30,10 +32,12 @@ Encoder Ports
 --------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your quadrature encoders. There are 4 of these ports on each hub and they can be used 
-in tandem with the motor they are adjacent to. However, it is also possible to use this port to connect to a standalone 
-incremental encoder. To connect to more than 4 encoders it is currently necessary to connect an addition hub. For more information 
-on this port please see 
+style connectors are used for your quadrature encoders. There are 4 of these
+ports on each hub and they can be used in tandem with the motor they are
+adjacent to. However, it is also possible to use this port to connect to a
+standalone incremental encoder. To connect to more than 4 encoders it is
+currently necessary to connect an addition hub. For more information on this
+port please see 
 `REV Encoder Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#encoder-port-specifications>`_.
 
 Servo Ports
@@ -48,10 +52,12 @@ please see `REV Servo Port Documentation <https://docs.revrobotics.com/duo-contr
 +5V Power Ports
 ---------------
 
-These 0.1” Header pins are used to power and control varius appliances. There are two ports on each hub. These connectors 
-can be used for a wide range of applications including but not limited to powering powered usb hubs. 
-For more information on this port please see 
-`REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#+5v-power-port-specifications>`_. 
+These 0.1” Header pins are used to power and control varius appliances. There
+are two ports on each hub. These connectors can be used for a limited range of
+applications in FIRST Tech Challenge, such as powering powered usb hubs. For more
+information on this port please see 
+`REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#+5v-power-port-specifications>`_ and 
+:ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`.
 
 Analog Ports
 --------------
@@ -69,16 +75,15 @@ Digital Ports
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
 A device attatched to a digital port alternate between one of two states (e.g., on and off). One such device would be a button. It is 
-to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only 
-one channel (N+1).
+to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one channel (N+1).
 
 
 I2C Ports
 ---------
 
-.. 
-    TODO [uvidyadharan]
-    Add reference to I2C Driver creation tutorial once migrated
+.. todo::
+   TODO [uvidyadharan]
+   Add reference to I2C Driver creation tutorial once migrated
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for connecting I2C sensors. Each port is a single I2C bus where multiple sensors can be 
@@ -102,3 +107,4 @@ UART
 
 This connector is used only for **Developer** (non end user) debugging. Its use is not supported 
 by FIRST.
+

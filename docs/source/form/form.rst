@@ -1,7 +1,7 @@
-FTC Docs Feedback Form
-======================
+Site Feedback Form
+==================
 
-We would love to hear your feedback on FTC Docs. Please fill 
+We would love to hear your feedback on this site (*FIRST* Tech Challenge Docs). Please fill 
 out the form below and we will try our best to incorporate 
 your feedback into the documentation.
 

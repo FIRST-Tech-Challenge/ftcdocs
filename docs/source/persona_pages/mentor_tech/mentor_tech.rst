@@ -69,11 +69,11 @@ Just click on the panel for the resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      FTC-ML Toolchain
+      Machine Learning Toolchain
 
       ^^^
 
-      FTC Machine Learning (TensorFlow) Toolkit
+      Machine Learning (TensorFlow) Toolchain
 
    .. grid-item-card::
       :link: ../../cad_resources/index
