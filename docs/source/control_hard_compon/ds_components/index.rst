@@ -22,7 +22,7 @@ configuration diagrams.
 
       :download:`Driver Station C1 - Basic Config<images/C1.pdf>`
 
-      .. figure:: images/C1.png
+      .. figure:: images/C1
          :align: left
          :alt: Driver Station Image
 
