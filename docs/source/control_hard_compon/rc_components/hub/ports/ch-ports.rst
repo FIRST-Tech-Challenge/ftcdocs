@@ -17,8 +17,8 @@ Control Hub Ports
     Control Hub Front Ports
 
 
-USB-A 2.0/3.0 Ports
--------------------
+USB-A Ports
+-----------
 
 A Control Hub has both a USB 2.0 and 3.0 Type-A female port. This is primarily
 used for connecting UVC Cameras in acccordance with ``<RE14>``.
