@@ -52,5 +52,5 @@ Additional Resources
 
 - :ref:`Connecting UVC Camera via Powered USB Hub <hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera:configuring an external uvc camera and a powered usb hub>`
 - :ref:`Connecting UVC Camera directly to REV Control Hub <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:configuring an external webcam with a control hub>`
-- :ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:usb 2.0/3.0 ports>`
+- :ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:USB-A 2.0/3.0 Ports`
 - :ref:`Vision in FTC <programming_resources/index:vision programming>`
