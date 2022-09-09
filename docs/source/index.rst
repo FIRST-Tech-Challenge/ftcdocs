@@ -64,6 +64,13 @@ students. It’s way more than building robots, see
    ftc_ml/index
    
 .. toctree::
+   :caption: Team Resources
+   :maxdepth: 1
+   :hidden:    
+   
+   faq/faqs
+
+.. toctree::
    :caption: Team Freebies and Discounts
    :maxdepth: 1
    :hidden:
