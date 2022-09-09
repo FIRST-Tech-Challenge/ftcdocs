@@ -1,5 +1,5 @@
 Common Team FAQs
-============
+=================
 
 If you're looking for quick answers regarding the many facets of being a team from registration to 
 competition to judging. Please refer to these official questions and answers to guide you through the season. 
