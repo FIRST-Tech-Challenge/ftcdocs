@@ -100,7 +100,7 @@ resource you want to explore!
       Know the awards criteria before the event.
 
    .. grid-item-card:: 
-      :link: ../../stubs/faqs
+      :link: /faq/faqs
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
@@ -116,5 +116,5 @@ resource you want to explore!
    :titlesonly:
    :hidden:
 
-   ../../stubs/faqs
+   /faq/faqs
 
