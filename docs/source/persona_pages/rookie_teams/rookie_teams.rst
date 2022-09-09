@@ -111,10 +111,3 @@ resource you want to explore!
 
       Rookie team FAQs and answers
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-   :hidden:
-
-   /faq/faqs
-

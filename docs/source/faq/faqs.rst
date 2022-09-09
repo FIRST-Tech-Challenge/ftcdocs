@@ -1,5 +1,10 @@
-FAQ's
+Common Team FAQs
 ============
+
+If you're looking for quick answers regarding the many facets of being a team from registration to 
+competition to judging. Please refer to these official questions and answers to guide you through the season. 
+If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific 
+questions on the `FTC Game Q&A <https://ftc-qa.firstinspires.org/>`_ .
 
 Dashboard/Registration FAQs
 ----------------------------
