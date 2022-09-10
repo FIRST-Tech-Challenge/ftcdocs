@@ -25,11 +25,11 @@ Game Manual Part 2 Traditional Events
 
 .. only:: latex
 
-    `Game Manual Part 2 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/game-manual-part-2-traditional.pdf>`__
+    `Game Manual Part 2 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-manual-part-2-traditional.pdf>`__
 
 .. raw:: html
 
-    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/game-manual-part-2-traditional.pdf"  width="100%" height="700"></iframe>
+    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-manual-part-2-traditional.pdf"  width="100%" height="700"></iframe>
 
 |
 
@@ -51,11 +51,11 @@ Game Manual Part 2 Remote Events
 
 .. only:: latex
 
-    `Game Manual Part 2 Remote Events <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote.pdf>`__
+    `Game Manual Part 2 Remote Events <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-manual-part-2-remote.pdf>`__
 
 .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote.pdf"  width="100%" height="700"></iframe>
+    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-manual-part-2-remote.pdf"  width="100%" height="700"></iframe>
 
 |
 
