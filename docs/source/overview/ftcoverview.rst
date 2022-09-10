@@ -15,8 +15,15 @@ raise funds, design and market their team brand, and do community outreach to
 earn specific awards. Participants are encouraged to explore future education,
 enlistment, and other employment pathways.
 
-Each season concludes with regional championship events and an exciting `FIRST
-Championship <https://www.firstchampionship.org/>`__.
+.. comment
+   Build the FIRST Championship link so we can italicize FIRST.
+
+Each season concludes with regional championship events and an exciting
+|text|_ Championship
+
+.. _text: https://www.firstchampionship.org/
+
+.. |text| replace:: *FIRST*
 
 .. only:: latex
 
