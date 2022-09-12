@@ -30,13 +30,13 @@ How do I know if my model is trained well?
       mAP metrics and Loss metrics, you should see those metrics
       generally settle by around 100 epochs.
 
-Why does my team only get 240 minutes of model training time?
------------------------------------------------------------------
+Why does my team get a limited amount of model training time?
+-------------------------------------------------------------
 
    -  Training in the Google TensorFlow network on GPU resources is not
       free. Each team is allocated an amount of time based on the costs
       of using the fixed cloud resources. Our hope is that a team who is
-      congnizant of their training time should be able to get 2-3 models
+      congnizant of their training time should be able to get 4-5 models
       and additional training time on one model with that allocation.
 
    -  It is not possible for a team to “purchase” additional training

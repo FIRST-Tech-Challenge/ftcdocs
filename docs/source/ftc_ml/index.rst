@@ -3,7 +3,7 @@
 
 This tool, the *FIRST* Tech Challenge Machine Learning toolchain **(FTC-ML)**, allows *FIRST* Tech Challenge 
 teams to create custom TensorFlow models for use in the game challenge. Learn how to train TensorFlow to 
-recognize your Team Shipping Element, Freight scoring elements, and more using this tool, and download 
+recognize your Custom Signal Sleeve images and more using this tool, and download 
 models that you can use in your autonomous and driver-controlled Op Modes. 
 
 .. toctree::

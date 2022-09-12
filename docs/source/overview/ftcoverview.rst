@@ -55,3 +55,14 @@ option for up to 24 students.
 Continue on to learn about the `essential steps to starting a FIRST Tech
 Challenge Team! <https://www.firstinspires.org/robotics/ftc/start-a-team>`__
 
+About *FIRST* Tech Challenge Kahoot
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is a fun self-led *FIRST* Tech Challenge `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ to
+test and build your knowledge. Learn about the many facets of *FIRST* Tech
+Challenge and the Core Values of *FIRST* in the *FIRST* Tech Challenge `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__.
+
+
+
