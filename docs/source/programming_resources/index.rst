@@ -86,12 +86,12 @@ Learning more about using vision in FTC
    :titlesonly:
 
    vision/vision_overview/vision-overview
+   vision/tensorflow_pp_2022/tensorflow_pp_2022
    vision/blocks_tfod_opmode/blocks-tfod-opmode
    vision/java_tfod_opmode/java-tfod-opmode
-   vision/identifying_vumarks/identifying-vumarks
    vision/tensorflow_ff_2021/tensorflow-ff-2021
+   vision/identifying_vumarks/identifying-vumarks
    vision/webcam_controls/webcam-controls
-   vision/tensorflow_pp_2022/tensorflow_pp_2022
    
    
 Additional *FIRST* Website Resources
