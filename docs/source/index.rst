@@ -183,6 +183,16 @@ students. It’s way more than building robots, see
                Android Studio
 
          .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               TensorFlow in POWERPLAY
+
+         .. div:: col-sm pl-1 pr-1
  
             .. button-ref:: programming_resources/index
                :ref-type: doc
@@ -205,6 +215,26 @@ students. It’s way more than building robots, see
       +++
 
       .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: control_hard_compon/ds_components/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Driver Station
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: control_hard_compon/rc_components/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Robot Controller
 
          .. div:: col-sm pl-1 pr-1
       
@@ -259,6 +289,16 @@ students. It’s way more than building robots, see
                :expand:
 
                Game Manuals
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: game_specific_resources/playing_field_resources/playing_field_resources
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Field Manuals
 
          .. div:: col-sm pl-1 pr-1
 
