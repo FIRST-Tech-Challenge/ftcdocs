@@ -256,15 +256,6 @@ students. It’s way more than building robots, see
 
                Hardware Config
 
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
-               :color: black
-               :outline:
-               :expand:
-
-               REV Starter Bot
-
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
