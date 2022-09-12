@@ -145,15 +145,17 @@ As shown in the previous examples, with the default POWERPLAY TensorFlow model
 it is sometimes more common for TensorFlow to recognize/label partial image
 areas (upper or lower portions of the images) than whole images themselves.
 This is likely due to how the training set was developed during training of the
-TensorFlow model.  In order to try to ensure that there would be as many
-detections for a given set of images as possible, the training set included
-frames that contained both complete and partial images; it just happened that
-the way the frames were developed there were more upper and lower partial
-images than whole images, and it appears that TensorFlow's neural network seems
-to almost "prefer" to recognize partial images rather than whole images. Such 
-biases are common. To provide some additional context on this, here are a few
-examples of labeled frames that were used to train the default TensorFlow
-model.
+TensorFlow model.  
+
+In order to try to ensure that there would be as many detections for a given
+set of images as possible, the training set included frames that contained both
+complete and partial images; it just happened that the way the frames were
+developed there were more upper and lower partial images than whole images, and
+it appears that TensorFlow's neural network seems to almost "prefer" to
+recognize partial images rather than whole images. Such biases are common. 
+
+To provide some additional context on this, here are a few examples of labeled
+frames that were used to train the default TensorFlow model.
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -214,38 +216,45 @@ Tips for Choosing Images For Your Own Custom Model
 
 It should also be known that the white background on the stickers posed quite a
 challenge, one that teams should be aware of when/if attempting to develop
-their own images for their Signal Sleeves. TensorFlow attempts to identify
+their own images for their Signal Sleeves.  TensorFlow attempts to identify
 common background material and "ignore" the backgrounds for detecting labeled
-objects; a great example of this is the white background on the sticker.  If
-the same background is always present, and always has similar characteristics
-in the training data, TensorFlow may assume the background isn't actually a
-background and is really a part of the image. TensorFlow may then expect to
-see the specific background with the objects always. If the background of the
-image then varies for whatever reason, TensorFlow may not recognize the image
-with the new background. For example in 2021 Freight Frenzy, the duck model was
+objects; a great example of this is the white background on the sticker.  
+
+If the same background is always present, and always has similar
+characteristics in the training data, TensorFlow may assume the background
+isn't actually a background and is really a part of the image. TensorFlow may
+then expect to see the specific background with the objects always. If the
+background of the image then varies for whatever reason, TensorFlow may not
+recognize the image with the new background. 
+
+A great example of this occurred in 2021 Freight Frenzy; the duck model was
 trained to recognize a rubber duck, and the rubber duck just happened to always
 be present on a gray mat tile within the training frames. The model happened to
 "expect" a gray mat tile in the background, and rubber ducks seen without the
-gray mat tile had a significantly reduced detection rate.  In POWERPLAY, the
-white sticker background is always present, except the white color of the
-background can be unintentionally altered based on the lighting being used in
-the room; warmer lights cause the white to turn yellow or orange, cooler lights
-cause the white to turn more blue, and glare causes a gradient of colors to
-appear across the white background. Sometimes algorithms can adjust the color
-scheme to provide a "white balance" to adjust the colors correctly, but requiring 
-such tools and adjustments might be beyond the grasp for the average user. (See
-:ref:`White Balance Control <programming_resources/vision/webcam_controls/webcam-controls:white balance control>` 
-and
-:ref:`White Balance Control Mode <programming_resources/vision/webcam_controls/webcam-controls:white balance control mode>` 
-for more information about adjusting white balance programmatically within the
-FTC SDK's Java language libraries). In order to get TensorFlow to become less
-sensitive to the need for "white balance" within the frame, and ignore the
-white altogether, a suite of different lighting scenarios were replicated and
-used to train the model with the hopes that TensorFlow would eventually see the
-"areas of changing colors" (due to the different lighting situations) as
-background and ignore it altogether to focus more on the images themselves.
-This is ultimately what was successful for the default model. Below are some
-examples of the lighting conditions used to train the model.
+gray mat tile had a significantly reduced detection rate.  
+
+In POWERPLAY, the white sticker background is always present, except the white
+color of the background can be unintentionally altered based on the lighting
+being used in the room; warmer lights cause the white to turn yellow or orange,
+cooler lights cause the white to turn more blue, and glare causes a gradient of
+colors to appear across the white background. Sometimes algorithms can adjust
+the color scheme to provide a "white balance" to adjust the colors correctly,
+but requiring such tools and adjustments might be beyond the grasp for the
+average user. (See :ref:`White Balance Control
+<programming_resources/vision/webcam_controls/webcam-controls:white balance
+control>` and :ref:`White Balance Control Mode
+<programming_resources/vision/webcam_controls/webcam-controls:white balance
+control mode>` for more information about adjusting white balance
+programmatically within the FTC SDK's Java language libraries). 
+
+In order to get TensorFlow to become less sensitive to the need for "white
+balance" within the frame, and ignore the white altogether, a suite of
+different lighting scenarios were replicated and used to train the model with
+the hopes that TensorFlow would eventually see the "areas of changing colors"
+(due to the different lighting situations) as background and ignore it
+altogether to focus more on the images themselves.  This is ultimately what was
+successful for the default model. Below are some examples of the lighting
+conditions used to train the model.
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -303,11 +312,11 @@ examples of the lighting conditions used to train the model.
 
 It is recommended that teams choose a background that is more resistant to
 being "altered" by lighting conditions, and doesn't exist anywhere else on the
-game field, or try adjusting the 
-:ref:`White Balance <programming_resources/vision/webcam_controls/webcam-controls:white balance control>` 
-via programming if you're a Java language user.
+game field, or try adjusting the :ref:`White Balance
+<programming_resources/vision/webcam_controls/webcam-controls:white balance
+control>` via programming if you're a Java language user.
 
-Remember, TensorFlow has the following behaviors:
+Remember, TensorFlow has the following quirks/behaviors:
 
 -  In order to run TensorFlow on mobile phones, *FIRST* Tech Challenge uses a very small core
    model resolution. This means the image is downscaled from the high definition
