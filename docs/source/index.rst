@@ -206,11 +206,11 @@ students. It’s way more than building robots, see
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left 
 
-      Robot Build Links
+      Control System Links
    
       ^^^
 
-      Building things is hard. Let's build stuff together.
+      Let's get to know the *FIRST* Tech Challenge Control System! 
 
       +++
 
