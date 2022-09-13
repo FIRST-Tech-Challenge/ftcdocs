@@ -12,44 +12,139 @@ resource you want to explore!
    
 **I AM A ROOKIE**
 
-.. grid:: 1 2 2 4
+.. grid:: 1 2 2 3
    :gutter: 2
+   
+   .. grid-item-card::
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left
 
-   .. grid-item-card:: 
-      :link: ../../programming_resources/index
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left body
-
-      Programming and Control System
+      Programming Resources
 
       ^^^
 
       Look for programming resources here.
 
-   .. grid-item-card:: 
-      :link: https://www.firstinspires.org/resource-library/ftc/robot-building-resources
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
+      +++
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Programming
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../ftc_ml/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Machine Learning
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               TensorFlow in POWERPLAY
+
+   .. grid-item-card::
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      Robot Building
+      Robot Building and Control
 
       ^^^
 
-      Look for robot building resources here.
+      Look for programming and control system resources here.
+
+      +++
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
+               :color: black
+               :outline:
+               :expand:
+
+               REV Starter Bot
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../control_hard_compon/ds_components/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Driver Station
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../control_hard_compon/rc_components/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Robot Controller
 
    .. grid-item-card:: 
-      :link: ../../manuals/game_manuals/game_manuals
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
 
-      Game Manuals
-
+      Game Manual Links
+   
       ^^^
 
-      Look for game rules and game details here.
+      Be sure you're following all of the rules of the competition! 
+      Game Manuals and Q&A are essential documents.
+
+      +++
+ 
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: ../../manuals/game_manuals/game_manuals
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Game Manuals
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: ../../game_specific_resources/playing_field_resources/playing_field_resources
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Field Manuals
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://ftc-qa.firstinspires.org/
+               :color: black
+               :outline:
+               :expand:
+
+               Game Q&A System
 
    .. grid-item-card:: 
       :link: https://www.firstinspires.org/node/5226
@@ -109,5 +204,5 @@ resource you want to explore!
 
       ^^^
 
-      Rookie team FAQs and answers
+      Commonly asked team FAQs
 
