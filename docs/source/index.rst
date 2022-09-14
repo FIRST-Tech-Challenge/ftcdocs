@@ -74,11 +74,11 @@ students. It’s way more than building robots, see
    Team Discounts<sponsors/discounts/discounts>
 
 .. toctree::
-   :caption: Docs
+   :caption: FTC Docs
    :maxdepth: 1
    :hidden:
 
-   Contributing to Docs<contrib/index>
+   Contributing to FTC Docs<contrib/index>
 
 .. rst-class:: center
    

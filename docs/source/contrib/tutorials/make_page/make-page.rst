@@ -1,5 +1,5 @@
 Creating a new page in FTC Docs
-============================
+================================
 
 When do you make a new page
 ------------------------------
@@ -35,6 +35,16 @@ Lead node directies are named after the title of the page they are the index for
 "Hardware" section is named "hardware" and the index for the "Hardware" page is named "hardware.rst". Directories use 
 ``_`` to separate words and files use ``-`` to separate words. 
 
+Main Index
+~~~~~~~~~~~~~
+
+The main index is the root of the project. It is located at ``docs/source/index.rst``. This is the landing page of 
+FTC Docs as well as the base. Almost all other pages are children of this page. Orphan pages are only made in very 
+specific rare circumstances. At the start of this file there is a the basic introduction followed by the various table 
+of contents. There is not one table of contents but multiple in this document all of which are concatenated together by 
+Sphinx on build. Each tree is a different section of FTC Docs. Most content you are looking to add will fit into a category 
+already there but you may need to add a section depending on the scenario.
+
 
 Steps to create a new page
 -----------------------------
@@ -43,7 +53,12 @@ Steps to create a new page
 Local
 ~~~~~~~
 
+#. Create new directory for your page. This should correspond to the name of your page and use ``_`` to separate words.
 
+#. If needed convert the parent directory to an index file. This is done by renaming the file to ``index.rst``. If done make sure to add the ``toctree`` directive to the file.
+
+#. Create a new file in the appropriate directory. The name of the file should be the name of the page with ``-`` 
+   separating words. For example, the page "Hardware" would be named ``hardware.rst``.
 
 
 GH Pages

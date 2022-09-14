@@ -7,6 +7,7 @@ Contributing to FTC Docs
     guidelines/guidelines
     environment/environment
     ghpages/ghpages
+    tutorials/index
 
 
 Mission Statement
