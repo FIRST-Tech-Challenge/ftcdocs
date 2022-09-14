@@ -335,7 +335,7 @@ First, it's important to note that TensorFlow has the following quirks/behaviors
    webcam image to one that is only 300x300 pixels. This means that medium and
    small objects within the webcam images may be reduced to very small
    indistinguishable clusters of pixels in the target image. Keep the objects in
-   the view of the camera large, and train for a wide range of image sizes.  
+   the view of the camera large, and train for a wide range of image sizes.     
 -  TensorFlow is not really good at differentiating geometric shapes. TensorFlow
    Object Detection is an object classifier, and similar geometric shapes will
    classify similarly. Humans are much better at differentiating geometric shapes than
