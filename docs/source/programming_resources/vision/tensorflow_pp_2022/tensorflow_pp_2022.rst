@@ -211,14 +211,17 @@ frames that were used to train the default TensorFlow model.
 
       Example Training for a Panel
 
-Tips for Choosing Images For Your Own Custom Model
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Understanding Backgrounds For Signal Sleeves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It should also be known that the white background on the stickers posed quite a
-challenge, one that teams should be aware of when/if attempting to develop
-their own images for their Signal Sleeves.  TensorFlow attempts to identify
+When thinking about how to develop a custom Signal Sleeve, it's easy to
+overlook one of the most important elements that may make or break your ability
+to detect objects - your image background.  TensorFlow attempts to identify
 common background material and "ignore" the backgrounds for detecting labeled
-objects; a great example of this is the white background on the sticker.  
+objects; a great example of this is the white background on the sticker.  It
+should be known that the white background on the stickers posed quite a
+challenge, one that teams should be aware of when/if attempting to develop
+their own images for their Signal Sleeves.  
 
 If the same background is always present, and always has similar
 characteristics in the training data, TensorFlow may assume the background
@@ -316,7 +319,16 @@ game field, or try adjusting the :ref:`White Balance
 <programming_resources/vision/webcam_controls/webcam-controls:white balance
 control>` via programming if you're a Java language user.
 
-Remember, TensorFlow has the following quirks/behaviors:
+Selecting Images For Signal Sleeves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Selecting images to use for your custom Signal Sleeve can seem daunting. Questions
+swirl like "What images are going to be recognized best?", "Why were the images 
+used in the Default Model chosen?", and "How do I make this easier on myself?".
+Hopefully this section will help you understand the image selection used for the
+Default Model, and that will help inform your own decisions for your Signal Sleeve.
+
+First, it's important to note that TensorFlow has the following quirks/behaviors:
 
 -  In order to run TensorFlow on mobile phones, *FIRST* Tech Challenge uses a very small core
    model resolution. This means the image is downscaled from the high definition
@@ -324,15 +336,50 @@ Remember, TensorFlow has the following quirks/behaviors:
    small objects within the webcam images may be reduced to very small
    indistinguishable clusters of pixels in the target image. Keep the objects in
    the view of the camera large, and train for a wide range of image sizes.  
--  TensorFlow is **REALLY** bad at differentiating geometric shapes. TensorFlow
+-  TensorFlow is not really good at differentiating geometric shapes. TensorFlow
    Object Detection is an object classifier, and similar geometric shapes will
    classify similarly. Humans are much better at differentiating geometric shapes than
    neural net algorithms, like TensorFlow, at the present.
--  TensorFlow is great at pattern detection, color recognition, and image
+-  TensorFlow is great at pattern detection, color differentiation, and image
    textures. For instance, TensorFlow can be easily trained to recognize the
    difference between Zebras and Horses, but it would not be able to
-   differentiate between specific patterns to be able to identify, for
+   differentiate between specific Zebra patterns to be able to identify, for
    example, "Carl the Zebra."
+
+The default images were chosen for several design factors:
+
+-  Images needed to be vertically short and horizontally long. When setting the
+   TensorFlow zoom factor above 1.0, the aspect ratio causes the zoom window to
+   be wider horizontally than vertically; even at modest zoom factors the 
+   zoom window shrinks to be vertically smaller than the sticker itself at 
+   even the minimim distance from the robot (18 inches). In order to have
+   more than one detection within the window, and to aid in providing wide margins
+   for adjusting the camera during robot setup, images that are horizontally wide
+   and vertically short were desired. Thanks to the season theme, the green 
+   lightning bolt from the *FIRST* Energize season logo was chosen first. The green
+   color and the zig-zag pattern on the top and bottom of the bolt were desired
+   elements for TensorFlow.
+-  TensorFlow's ability to detect patterns better than shapes was utilized in two
+   ways in the "Bulb" image; first the repeated bulb image created a repeating pattern
+   that TensorFlow could recognize, and the image itself was colored differently than
+   other colors it may have seen on the sticker background, the cones themselves, or
+   on the green lightning bolt. Yellow was selected as the color within the 
+   repeating light bulbs. It helped that the light bulb had a similar art style
+   to the lightning bolt and even fit the theme, even though that wasn't a hard
+   requirement.
+-  Finally, the solar panels were selected similarly to the bulbs. The grid pattern
+   within the solar panels made for a unique pattern element not present in the other
+   images, and the purple color helped offset it as well. 
+
+With the images selected, there were only basic tweaks made to the images for use in
+POWERPLAY. For example, the images were modified to have relatively similar aspect
+ratios and sizes to aid in uniformity of setup, and it was determined that TensorFlow
+could be trained to recognize elements of each image fairly well. 
+
+When selecting images for use with TensorFlow, keep in mind the elements of pattern,
+color, and size. For example, a donut can be a great image for use by TensorFlow;
+not because of the circular shape, but because of the frosting and the sprinkles on 
+top which creates a very unique pattern for TensorFlow to recognize. Be creative!
 
 Using Custom TensorFlow models in Blocks and Java
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
