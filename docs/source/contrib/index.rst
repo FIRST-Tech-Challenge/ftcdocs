@@ -1,4 +1,4 @@
-Contributing to Docs
+Contributing to FTC Docs
 =========================
 
 .. toctree::
@@ -18,3 +18,4 @@ Mission Statement
 - :doc:`Contribution Guidelines <guidelines/guidelines>`
 - :doc:`Creating a Development Environment <environment/environment>`
 - :doc:`Deploying to Github Pages <ghpages/ghpages>`
+- :doc:`Tutorials <tutorials/index>`
