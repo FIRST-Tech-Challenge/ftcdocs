@@ -16,8 +16,13 @@ Software Overview
 -----------------
 
 The FTC SDK contains a superinterface called CameraControl, which
-contains 5 interfaces: - ExposureControl - GainControl -
-WhiteBalanceControl (new for SDK 7.1) - FocusControl - PtzControl
+contains 5 interfaces: 
+
+- :ref:`ExposureControl <programming_resources/vision/webcam_controls/webcam-controls:exposure control>`
+- :ref:`GainControl <programming_resources/vision/webcam_controls/webcam-controls:gain control>` 
+- :ref:`WhiteBalanceControl <programming_resources/vision/webcam_controls/webcam-controls:white balance control>` (new for SDK 7.1) 
+- :ref:`FocusControl <programming_resources/vision/webcam_controls/webcam-controls:focus control>`
+- :ref:`PtzControl <programming_resources/vision/webcam_controls/webcam-controls:ptz support>`
 
 Similar to Java classes, Java interfaces provide methods. A webcam can
 be controlled using methods of these 5 interfaces.
@@ -70,13 +75,16 @@ For example, at a frame rate of 60 frames per second (fps), exposure
 duration is 1/60 of a second, or 1/60 x 1000 = 16 milliseconds. This
 basic tutorial does not address frame rate.
 
-Here are the methods to manage exposure: - setExposure() has two
-parameters: duration and time unit - getExposure() has one parameter:
-time unit
+Here are the methods to manage exposure: 
+
+- setExposure() has two parameters: duration and time unit 
+- getExposure() has one parameter: time unit
 
 The webcam may support minimum and maximum allowed values of exposure.
-These can be retrieved with: - getMinExposure(TimeUnit.MILLISECONDS) -
-getMaxExposure(TimeUnit.MILLISECONDS)
+These can be retrieved with: 
+
+- getMinExposure(TimeUnit.MILLISECONDS) 
+- getMaxExposure(TimeUnit.MILLISECONDS)
 
 There are no ``set()`` methods for min and max exposure; these are
 hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -89,24 +97,30 @@ object; sample code is shown below, after Exposure Control Mode.
 Exposure Control Mode
 ---------------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
+
+
 A webcam may operate in one of various exposure modes.
 
 Many common FTC webcams offer only some of these modes. To directly
 control the exposure, set the webcam to Manual mode.
 
-The SDK supports these values of ExposureControl.Mode: -
-AperturePriority - Auto - ContinuousAuto - Manual - ShutterPriority -
-Unknown
+The SDK supports these values of ExposureControl.Mode: 
 
-Mode is managed with these ExposureControl methods: -
-setMode(ExposureControl.Mode._mode_) - getMode()
+- `AperturePriority`
+- `Auto` 
+- `ContinuousAuto`
+- `Manual` 
+- `ShutterPriority` 
+- `Unknown`
+
+Mode is managed with these ExposureControl methods: 
+
+- setMode(ExposureControl.Mode._mode_) 
+- getMode()
 
 The Logitech C920 and C270 models offer two exposure modes:
 AperturePriority and Manual.
-
-Full details, and a few other methods, are described in the
-`ExposureControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/ExposureControl.html>`__.
 
 Exposure Control code samples
 -----------------------------
@@ -140,6 +154,8 @@ See far below for these and other exposure controls illustrated in
 Gain Control
 ------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
+
 Gain is a digital camera setting that controls the amplification of the
 signal from the webcam sensor. This amplifies the whole signal,
 including any associated background noise.
@@ -152,11 +168,16 @@ increasing gain may provide a sharper image, although with more noise.
 
 The FTC interface GainControl uses a single value to control gain. It’s
 used for amplification, and thus has no units – it’s just a number of
-type integer. Its methods are: - setGain(int gain) - getGain()
+type integer. Its methods are: 
+
+- setGain(int gain) 
+- getGain()
 
 As with exposure, the webcam may support minimum and maximum allowed
-values of gain. These can be retrieved with: - getMinGain() -
-getMaxGain()
+values of gain. These can be retrieved with: 
+
+- getMinGain() 
+- getMaxGain()
 
 There are no ``set()`` methods for min and max gain; these are
 hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -164,9 +185,6 @@ vary among different versions of the same webcam model.
 
 These and other gain methods are called on a GainControl object, as
 described above for exposure.
-
-Full details are described in the `GainControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/GainControl.html>`__.
 
 Example 1: Exposure’s effect on TFOD
 ------------------------------------
@@ -179,7 +197,7 @@ Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
 model and OpMode that are working reasonably well. The model may have
 been supplied with the FTC SDK, or created with the **FTC Machine
 Learning toolchain** `[forum] <https://community.ftclive.org/>`__
-`[manual] <https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf>`__
+:ref:`[manual] <ftc_ml/index:*first* machine learning toolchain>`
 
 Here we will discuss only the Duck game element. **Can the exposure
 and/or gain controls improve the chance of a fast, accurate TFOD
@@ -367,15 +385,20 @@ At a distance called “focus length”, a subject’s image (light rays)
 converge from the lens to form a clear image on the webcam sensor.
 
 If supported by the webcam, focus can be managed with these FocusControl
-methods: - setFocusLength(double focusLength) - getFocusLength()
+methods: 
+
+-  setFocusLength(double focusLength) 
+-  getFocusLength()
 
 Distance units are not specified here; they may be undimensioned values
 within an allowed range. For example, the Logitech C920 allows values
 from 0 to 250, with **higher** values focusing on **closer** objects.
 
 The webcam may support minimum and maximum allowed values of focus
-length. These can be retrieved with: - getMinFocusLength() -
-getMaxFocusLength()
+length. These can be retrieved with: 
+
+-  getMinFocusLength() 
+-  getMaxFocusLength()
 
 There are no ``set()`` methods for min and max focus length; these are
 hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -393,11 +416,19 @@ Focus Control Mode
 A webcam may operate in one of various focus modes. To directly control
 the focus length, set the webcam to Fixed mode.
 
-The SDK supports these values of FocusControl.Mode: - Auto -
-ContinuousAuto - Fixed - Infinity - Macro - Unknown
+The SDK supports these values of FocusControl.Mode: 
 
-Mode is managed with these FocusControl methods: -
-setMode(ExposureControl.Mode._mode_) - getMode()
+-  `Auto` 
+-  `ContinuousAuto` 
+-  `Fixed` 
+-  `Infinity` 
+-  `Macro` 
+-  `Unknown`
+
+Mode is managed with these FocusControl methods: 
+
+-  setMode(ExposureControl.Mode._mode_) 
+-  getMode()
 
 The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed,
 which does respond to FTC FocusControl methods. The Logitech C270 (older
@@ -457,8 +488,10 @@ The above examples assume these objects already exist:
 
 The webcam may support minimum and maximum allowed pan/tilt paired
 values. Subject to the control object guidelines shown above, these can
-be retrieved as follows: - ``minPanTiltHolder = getMinPanTilt();`` -
-``maxPanTiltHolder = getMaxPanTilt();``
+be retrieved as follows: 
+
+-  ``minPanTiltHolder = getMinPanTilt();`` 
+-  ``maxPanTiltHolder = getMaxPanTilt();``
 
 There are no ``set()`` methods for min and max pan/tilt values; these
 are hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -472,8 +505,12 @@ Zoom
 
 Virtual zoom is described with a single dimensionless value of type
 integer. Similar to the interfaces described above, virtual zoom can be
-managed with these methods: - setZoom(int zoom) - getZoom() -
-getMinZoom() - getMaxZoom()
+managed with these methods: 
+
+-  setZoom(int zoom) 
+-  getZoom() 
+-  getMinZoom() 
+-  getMaxZoom()
 
 The Logitech C920 allows zoom values ranging from 100 to 500, although
 values higher than 250-280 have no further effect on the preview image
@@ -499,7 +536,10 @@ dark, AE Priority **allows the frame rate to decrease**. This slowdown,
 or ‘undershoot’, allows more light per frame, which can ‘brighten’ the
 image.
 
-Its methods are: - setAePriority(boolean priority) - getAePriority()
+Its methods are: 
+
+-  setAePriority(boolean priority) 
+-  getAePriority()
 
 These AE Priority methods are called on an ExposureControl object, as
 described above.
@@ -541,25 +581,30 @@ Here are two methods to query exposure and a specific exposure mode:
    -  for *mode*, enter the specific mode name you are testing
 
 For the following methods, a field called ``unknownExposure`` of type
-long is returned if exposure unavailable: -
-getExposure(TimeUnit.MILLISECONDS) -
-getMinExposure(TimeUnit.MILLISECONDS) -
-getMaxExposure(TimeUnit.MILLISECONDS)
+long is returned if exposure unavailable: 
+
+-  getExposure(TimeUnit.MILLISECONDS) 
+-  getMinExposure(TimeUnit.MILLISECONDS) 
+-  getMaxExposure(TimeUnit.MILLISECONDS)
 
 The methods that set the exposure and mode can also return a Boolean,
 presumably indicating whether the operation was successful or not. As
-optional examples: - ``wasExposureSet =  setExposure(25);`` -
-``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``
+optional examples: 
 
-Likewise the AE Priority feature can return a Boolean. For example: -
-``wasAEPrioritySet =  setAePriority(true);``
+- ``wasExposureSet =  setExposure(25);`` 
+- ``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``
+
+Likewise the AE Priority feature can return a Boolean. For example: 
+
+- ``wasAEPrioritySet =  setAePriority(true);``
 
 Gain Support
 ~~~~~~~~~~~~
 
 The method that sets the gain can also return a Boolean indicating
-whether the operation was successful or not. As an optional example: -
-``wasGainSet =  setGain(25);``
+whether the operation was successful or not. As an optional example: 
+
+- ``wasGainSet =  setGain(25);``
 
 White Balance Support
 ~~~~~~~~~~~~~~~~~~~~~
@@ -574,26 +619,35 @@ examples:
 Focus Support
 ~~~~~~~~~~~~~
 
-Here are two methods to query focus and and a specific focus mode: -
-isFocusLengthSupported() - isModeSupported(FocusControl.Mode._mode_)
+Here are two methods to query focus and and a specific focus mode: 
+
+- isFocusLengthSupported() 
+- isModeSupported(FocusControl.Mode._mode_)
 
 The following methods return a **negative value** if the requested focus
 value is unavailable. For example, -1 is returned by the Logitech C270
 and the Microsoft LifeCam VX-5000. The Javadoc also mentions a field
-``unknownFocusLength`` of type double. - getFocusLength() -
-getMinFocusLength() - getMaxFocusLength()
+``unknownFocusLength`` of type double. 
+
+- getFocusLength() 
+- getMinFocusLength() 
+- getMaxFocusLength()
 
 The methods that set the focus length and mode can also return a
 Boolean, presumably indicating whether the operation was successful or
-not. As optional examples: - ``wasFocusSet =  setFocusLength(25);`` -
-``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``
+not. As optional examples: 
+
+- ``wasFocusSet =  setFocusLength(25);`` 
+- ``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``
 
 PTZ Support
 ~~~~~~~~~~~
 
 The methods that set the pan/tilt pair and zoom value can also return a
 Boolean, presumably indicating whether the operation was successful or
-not. As optional examples: - ``wasPanTiltSet =  setPanTilt(myHolder);``
+not. As optional examples: 
+
+- ``wasPanTiltSet =  setPanTilt(myHolder);``
 - ``wasZoomSet = setZoom(3)``
 
 For PTZ get() methods, some webcams simply **return zero** for
