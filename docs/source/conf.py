@@ -5,6 +5,14 @@ import os
 import sys
 import urllib.parse as urlparse
 
+# Workaround for issue
+# https://github.com/sphinx-contrib/googleanalytics/issues/2 
+# Note that a warning still will be issued "unsupported object from its setup()
+# function" Remove this workaround when the issue has been resolved upstream
+import sphinx.application
+import sphinx.errors
+sphinx.application.ExtensionError = sphinx.errors.ExtensionError
+
 project = 'FIRST Tech Challenge Docs'
 copyright = '2022, FIRST'
 author = 'FIRST Tech Challenge'
@@ -24,11 +32,16 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx_design',
     'sphinx_rtd_dark_mode',
+    'sphinxcontrib.googleanalytics',
 ]
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False
 todo_include_todos = False
+
+# Configure Google Analytics
+googleanalytics_id = 'G-7B5F7THY9C'
+googleanalytics_enabled = True
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
