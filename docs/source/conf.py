@@ -5,14 +5,6 @@ import os
 import sys
 import urllib.parse as urlparse
 
-# Workaround for issue
-# https://github.com/sphinx-contrib/googleanalytics/issues/2 
-# Note that a warning still will be issued "unsupported object from its setup()
-# function" Remove this workaround when the issue has been resolved upstream
-import sphinx.application
-import sphinx.errors
-sphinx.application.ExtensionError = sphinx.errors.ExtensionError
-
 project = 'FIRST Tech Challenge Docs'
 copyright = '2022, FIRST'
 author = 'FIRST Tech Challenge'
