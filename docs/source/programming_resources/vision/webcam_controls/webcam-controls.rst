@@ -154,6 +154,8 @@ See far below for these and other exposure controls illustrated in
 Gain Control
 ------------
 
+:java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
+
 Gain is a digital camera setting that controls the amplification of the
 signal from the webcam sensor. This amplifies the whole signal,
 including any associated background noise.
@@ -183,9 +185,6 @@ vary among different versions of the same webcam model.
 
 These and other gain methods are called on a GainControl object, as
 described above for exposure.
-
-Full details are described in the `GainControl
-Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/GainControl.html>`__.
 
 Example 1: Exposure’s effect on TFOD
 ------------------------------------
