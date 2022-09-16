@@ -385,15 +385,20 @@ At a distance called “focus length”, a subject’s image (light rays)
 converge from the lens to form a clear image on the webcam sensor.
 
 If supported by the webcam, focus can be managed with these FocusControl
-methods: - setFocusLength(double focusLength) - getFocusLength()
+methods: 
+
+-  setFocusLength(double focusLength) 
+-  getFocusLength()
 
 Distance units are not specified here; they may be undimensioned values
 within an allowed range. For example, the Logitech C920 allows values
 from 0 to 250, with **higher** values focusing on **closer** objects.
 
 The webcam may support minimum and maximum allowed values of focus
-length. These can be retrieved with: - getMinFocusLength() -
-getMaxFocusLength()
+length. These can be retrieved with: 
+
+-  getMinFocusLength() 
+-  getMaxFocusLength()
 
 There are no ``set()`` methods for min and max focus length; these are
 hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -411,11 +416,19 @@ Focus Control Mode
 A webcam may operate in one of various focus modes. To directly control
 the focus length, set the webcam to Fixed mode.
 
-The SDK supports these values of FocusControl.Mode: - Auto -
-ContinuousAuto - Fixed - Infinity - Macro - Unknown
+The SDK supports these values of FocusControl.Mode: 
 
-Mode is managed with these FocusControl methods: -
-setMode(ExposureControl.Mode._mode_) - getMode()
+-  `Auto` 
+-  `ContinuousAuto` 
+-  `Fixed` 
+-  `Infinity` 
+-  `Macro` 
+-  `Unknown`
+
+Mode is managed with these FocusControl methods: 
+
+-  setMode(ExposureControl.Mode._mode_) 
+-  getMode()
 
 The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed,
 which does respond to FTC FocusControl methods. The Logitech C270 (older
@@ -475,8 +488,10 @@ The above examples assume these objects already exist:
 
 The webcam may support minimum and maximum allowed pan/tilt paired
 values. Subject to the control object guidelines shown above, these can
-be retrieved as follows: - ``minPanTiltHolder = getMinPanTilt();`` -
-``maxPanTiltHolder = getMaxPanTilt();``
+be retrieved as follows: 
+
+-  ``minPanTiltHolder = getMinPanTilt();`` 
+-  ``maxPanTiltHolder = getMaxPanTilt();``
 
 There are no ``set()`` methods for min and max pan/tilt values; these
 are hard-coded in the webcam’s firmware. Note that firmware settings may
@@ -490,8 +505,12 @@ Zoom
 
 Virtual zoom is described with a single dimensionless value of type
 integer. Similar to the interfaces described above, virtual zoom can be
-managed with these methods: - setZoom(int zoom) - getZoom() -
-getMinZoom() - getMaxZoom()
+managed with these methods: 
+
+-  setZoom(int zoom) 
+-  getZoom() 
+-  getMinZoom() 
+-  getMaxZoom()
 
 The Logitech C920 allows zoom values ranging from 100 to 500, although
 values higher than 250-280 have no further effect on the preview image
@@ -519,8 +538,8 @@ image.
 
 Its methods are: 
 
-- setAePriority(boolean priority) 
-- getAePriority()
+-  setAePriority(boolean priority) 
+-  getAePriority()
 
 These AE Priority methods are called on an ExposureControl object, as
 described above.
@@ -562,10 +581,11 @@ Here are two methods to query exposure and a specific exposure mode:
    -  for *mode*, enter the specific mode name you are testing
 
 For the following methods, a field called ``unknownExposure`` of type
-long is returned if exposure unavailable: -
-getExposure(TimeUnit.MILLISECONDS) -
-getMinExposure(TimeUnit.MILLISECONDS) -
-getMaxExposure(TimeUnit.MILLISECONDS)
+long is returned if exposure unavailable: 
+
+-  getExposure(TimeUnit.MILLISECONDS) 
+-  getMinExposure(TimeUnit.MILLISECONDS) 
+-  getMaxExposure(TimeUnit.MILLISECONDS)
 
 The methods that set the exposure and mode can also return a Boolean,
 presumably indicating whether the operation was successful or not. As
