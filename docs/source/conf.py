@@ -31,7 +31,7 @@ autosectionlabel_prefix_document = True
 default_dark_mode = False
 todo_include_todos = False
 
-# Configure Google Analytics
+# Configure Google Analytics, Disabled by default
 googleanalytics_enabled = False
 
 intersphinx_mapping = {
