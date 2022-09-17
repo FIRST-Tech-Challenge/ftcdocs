@@ -32,8 +32,7 @@ default_dark_mode = False
 todo_include_todos = False
 
 # Configure Google Analytics
-googleanalytics_id = 'G-7B5F7THY9C'
-googleanalytics_enabled = True
+googleanalytics_enabled = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -146,6 +145,10 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     # Specify canonical root
     # This tells search engines that this domain is preferred
     html_baseurl = os.environ.get("url")
+
+    # Configure Google Analytics
+    googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID")
+    googleanalytics_enabled = True
 
 # Configure RTD Theme
 html_theme_options = {
