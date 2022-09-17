@@ -24,11 +24,15 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx_design',
     'sphinx_rtd_dark_mode',
+    'sphinxcontrib.googleanalytics',
 ]
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False
 todo_include_todos = False
+
+# Configure Google Analytics, Disabled by default
+googleanalytics_enabled = False
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -141,6 +145,10 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     # Specify canonical root
     # This tells search engines that this domain is preferred
     html_baseurl = os.environ.get("url")
+
+    # Configure Google Analytics
+    googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID") 
+    googleanalytics_enabled = os.environ.get("GOOGLE_ANALYTICS_ID", default = "") != ""
 
 # Configure RTD Theme
 html_theme_options = {
