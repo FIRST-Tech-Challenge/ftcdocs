@@ -147,7 +147,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_baseurl = os.environ.get("url")
 
     # Configure Google Analytics
-    googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID")
+    googleanalytics_id = (os.environ.get("GOOGLE_ANALYTICS_ID"), "") [os.environ.get("GOOGLE_ANALYTICS_ID", default = "") == ""]
     googleanalytics_enabled = True
 
 # Configure RTD Theme
