@@ -148,6 +148,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
 
     # Configure Google Analytics
     googleanalytics_id = (os.environ.get("GOOGLE_ANALYTICS_ID"), "") [os.environ.get("GOOGLE_ANALYTICS_ID", default = "") == ""]
+    print(googleanalytics_id)
     googleanalytics_enabled = True
 
 # Configure RTD Theme
