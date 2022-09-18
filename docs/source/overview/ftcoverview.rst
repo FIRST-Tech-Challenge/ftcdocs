@@ -19,11 +19,13 @@ enlistment, and other employment pathways.
    Build the FIRST Championship link so we can italicize FIRST.
 
 Each season concludes with regional championship events and an exciting
+
 |text|_ Championship
 
 .. _text: https://www.firstchampionship.org/
 
-.. |text| replace:: *FIRST*
+.. |text| replace:: *FIRST* Championship
+
 
 .. only:: latex
 
@@ -31,7 +33,7 @@ Each season concludes with regional championship events and an exciting
 
 .. raw:: html
 
-   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk?enablejsapi=1" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; enablejsapi; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |
 
