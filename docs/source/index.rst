@@ -193,6 +193,16 @@ students. It’s way more than building robots, see
                TensorFlow in POWERPLAY
 
          .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: https://github.com/FIRST-Tech-Challenge/FtcRobotController
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FtcRobotController Github Page
+
+         .. div:: col-sm pl-1 pr-1
  
             .. button-ref:: programming_resources/index
                :ref-type: doc
