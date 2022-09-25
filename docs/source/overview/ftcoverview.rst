@@ -54,7 +54,7 @@ option for up to 24 students.
 .. comment
    Build the Start a Team link so we can italicize FIRST.
 
-Continue on to learn about the |text2|_.
+Continue on to learn about the |text2|_
 
 .. _text2: https://www.firstinspires.org/robotics/ftc/start-a-team
 .. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team!
