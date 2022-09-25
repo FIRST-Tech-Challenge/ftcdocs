@@ -18,12 +18,9 @@ enlistment, and other employment pathways.
 .. comment
    Build the FIRST Championship link so we can italicize FIRST.
 
-Each season concludes with regional championship events and an exciting
-
-|text|_ Championship
+Each season concludes with regional championship events and an exciting |text|_.
 
 .. _text: https://www.firstchampionship.org/
-
 .. |text| replace:: *FIRST* Championship
 
 
@@ -51,11 +48,16 @@ creation, public speaking, videography, and many more. *FIRST* Tech Challenge
 welcomes every student, with or without special skills.
 
 If you are looking to incorporate *FIRST* into your classroom or after-school
-programming, learn more about FIRST Class Pack, a flexible implementation
+programming, learn more about *FIRST* Class Pack, a flexible implementation
 option for up to 24 students.
 
-Continue on to learn about the `essential steps to starting a FIRST Tech
-Challenge Team! <https://www.firstinspires.org/robotics/ftc/start-a-team>`__
+.. comment
+   Build the Start a Team link so we can italicize FIRST.
+
+Continue on to learn about the |text2|_
+
+.. _text2: https://www.firstinspires.org/robotics/ftc/start-a-team
+.. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team!
 
 About *FIRST* Tech Challenge Kahoot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
