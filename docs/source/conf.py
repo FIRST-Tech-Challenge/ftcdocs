@@ -134,7 +134,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['version'] = version
 
     html_context['downloads'] = list()
-    pdfname = str(urlparse.urlparse(os.environ.get("url")).path) + output_name + ".pdf"
+    pdfname = str(urlparse.urlparse(os.environ.get("url", default="")).path) + output_name + ".pdf"
     html_context['downloads'].append(('PDF', str(pdfname)))
 
     html_context['display_github'] = True
