@@ -32,7 +32,7 @@ SDK Releases
 ------------
 
 The Software Development Kit is developed and maintained by a core group, known
-as the *FIRST* Tech Challenge *Tech Team*, within a private GitHub repository.
+as the *FIRST* Tech Challenge *Technology Team*, within a private GitHub repository.
 This repository is kept private in order to prevent leaking the details of
 future *FIRST* Tech Challenge game secrets, features in development, and other
 aspects of development. Development and maintenance is ongoing year round.
@@ -58,14 +58,15 @@ The `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ is also updated
 with the current source so that changes can be tracked and the GitHub
 repository can be `forked
-<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__ by teams 
+<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__ by 
+s 
 (the FtcRobotController repository should never be `cloned
 <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__).
 This update is a one-way push, however, which is why public contributions
 (`Pull Requests
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`__)
 to the FtcRobotController repository are not accepted.  The community is free
-and encouraged to create issues for the development team to consider and
+and encouraged to create issues for the *Technology Team* to consider and
 address, however.
 
 .. note:: 
@@ -128,9 +129,9 @@ in the release notes, but those that have a direct user impact should.
 Bug Fixes
 """""""""
 
-Virtually every release of the SDK includes bug fixes, but when the *Tech Team*
+Virtually every release of the SDK includes bug fixes, but when the *Technology Team*
 wishes to elevate the visibility of an important bug fix it is included in a
 Bug Fixes section of the Release Notes. Sometimes team code can be affected if
 the bug required a workaround, and being elevated in the Release Notes is a way
-for the *Tech Team* to notify teams that the workaround is no longer necessary.
+for the *Technology Team* to notify teams that the workaround is no longer necessary.
 
