@@ -42,11 +42,13 @@ students. It’s way more than building robots, see
 
 .. toctree::
    :caption: Control System Resources
+   :maxdepth: 1
    :hidden:
 
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    control_hard_compon/index
    hardware_and_software_configuration/index
+   Software Development Kit (SDK) <ftc_sdk/index>
    programming_resources/index
 
 .. toctree::
@@ -135,7 +137,7 @@ students. It’s way more than building robots, see
       Technical Mentors looking for Technical Resources 
       should look here first!
 
-.. grid:: 1 2 2 3
+.. grid:: 1 2 2 2
    :gutter: 2
 
    .. grid-item-card:: 
@@ -255,6 +257,69 @@ students. It’s way more than building robots, see
                :expand:
 
                Hardware Config
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
+
+      Software Development Kit (SDK)
+   
+      ^^^
+
+      The Software Development Kit (SDK) is the collection of tools for
+      developing software and executing it on the robot. 
+
+      +++
+ 
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://github.com/FIRST-Tech-Challenge/FtcRobotController/              
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               SDK GitHub Repository
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases               
+               :color: black
+               :outline:
+               :expand:
+
+               SDK Releases
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ftc_sdk/updating_software/updating-software
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Updating Software
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://javadoc.io/doc/org.firstinspires.ftc
+               :color: black
+               :outline:
+               :expand:
+
+               Javadoc Documentation
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ftc_sdk/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               About the SDK
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
