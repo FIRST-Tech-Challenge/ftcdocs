@@ -59,7 +59,7 @@ The `FtcRobotController GitHub Repository
 with the current source so that changes can be tracked and the GitHub
 repository can be `forked
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__ by 
-s 
+teams 
 (the FtcRobotController repository should never be `cloned
 <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__).
 This update is a one-way push, however, which is why public contributions
