@@ -40,8 +40,8 @@ aspects of development. Development and maintenance is ongoing year round.
 Release Content
 """""""""""""""
 
-Once the SDK is ready to be released, a snapshot export of the SDK repository
-is produced, consisting of:
+Once the SDK is ready to be released, the private SDK repository is built and exported. 
+This build consists of:
 
 -  Built Driver Station App (``FtcDriverStation-release.apk``)
 -  Built Robot Controller App (``FtcRobotController-release.apk``)
