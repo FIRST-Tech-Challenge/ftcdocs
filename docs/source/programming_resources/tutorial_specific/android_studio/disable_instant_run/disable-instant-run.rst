@@ -1,6 +1,13 @@
 Disabling Android Studio Instant Run
 =====================================
 
+.. attention::
+   *Instant Run* was removed in Android Studio Chipmunk (2021.2.1), and 
+   is no longer an issue for versions of Android Studio that are 
+   Chipmunk (2021.2.1) or newer. However, this article remains for those
+   using *FIRST* Tech Challenge Software Development Kit (SDK) v7.1 
+   and older with previous versions of Android Studio.
+
 Introduction
 ~~~~~~~~~~~~
 
