@@ -1,4 +1,4 @@
-Disabling Android Studio Instant Run
+:bdg-warning:`Legacy` Disabling Android Studio Instant Run
 =====================================
 
 .. attention::
