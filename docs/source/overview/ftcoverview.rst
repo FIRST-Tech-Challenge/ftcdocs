@@ -15,8 +15,14 @@ raise funds, design and market their team brand, and do community outreach to
 earn specific awards. Participants are encouraged to explore future education,
 enlistment, and other employment pathways.
 
-Each season concludes with regional championship events and an exciting `FIRST
-Championship <https://www.firstchampionship.org/>`__.
+.. comment
+   Build the FIRST Championship link so we can italicize FIRST.
+
+Each season concludes with regional championship events and an exciting |text|_.
+
+.. _text: https://www.firstchampionship.org/
+.. |text| replace:: *FIRST* Championship
+
 
 .. only:: latex
 
@@ -24,7 +30,7 @@ Championship <https://www.firstchampionship.org/>`__.
 
 .. raw:: html
 
-   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk?enablejsapi=1" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; enablejsapi; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 |
 
@@ -42,9 +48,25 @@ creation, public speaking, videography, and many more. *FIRST* Tech Challenge
 welcomes every student, with or without special skills.
 
 If you are looking to incorporate *FIRST* into your classroom or after-school
-programming, learn more about FIRST Class Pack, a flexible implementation
+programming, learn more about *FIRST* Class Pack, a flexible implementation
 option for up to 24 students.
 
-Continue on to learn about the `essential steps to starting a FIRST Tech
-Challenge Team! <https://www.firstinspires.org/robotics/ftc/start-a-team>`__
+.. comment
+   Build the Start a Team link so we can italicize FIRST.
+
+Continue on to learn about the |text2|_
+
+.. _text2: https://www.firstinspires.org/robotics/ftc/start-a-team
+.. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team!
+
+About *FIRST* Tech Challenge Kahoot
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is a fun self-led *FIRST* Tech Challenge `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ to
+test and build your knowledge. Learn about the many facets of *FIRST* Tech
+Challenge and the Core Values of *FIRST* in the *FIRST* Tech Challenge `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__.
+
+
 

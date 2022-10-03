@@ -1,9 +1,9 @@
 Playing Field Resources
 =======================
 
-.. figure:: images/FreightFrenzyExampleField.jpg
+.. figure:: images/PowerPlayField.png
     
-    Traditional Playing Field ~ FREIGHT FRENZY presented by Raytheon Technologies, 2021-2022
+    Traditional Playing Field ~ POWERPLAY presented by Raytheon Technologies, 2022-2023
 
 About the Playing Field
 ------------------------------------
@@ -17,11 +17,11 @@ Traditional Field Setup Guide
 
 .. only:: latex
 
-    `Traditional Field Setup Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-setup-guide.pdf>`__
+    `Traditional Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/field-setup-and-assembly-guide.pdf>`__
 
 .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/field-setup-guide.pdf" width="100%" height="700"></iframe>
+    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/field-setup-and-assembly-guide.pdf" width="100%" height="700"></iframe>
 
 |
 
@@ -30,11 +30,11 @@ Remote Field Setup Guide
 
 .. only:: latex
 
-    `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/remote-field-requirements.pdf>`__
+    `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf>`__
 
 .. raw:: html
 
-    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/remote-field-requirements.pdf" width="100%" height="700"></iframe>
+    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf" width="100%" height="700"></iframe>
 
 |
 

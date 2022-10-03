@@ -41,7 +41,7 @@ Android app developers use. Android Studio is only recommended for
 
    -  :doc:`Downloading and Installing Android Studio <../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio>`
    -  :doc:`Downloading the FTC Android Studio Project <../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
-   -  :doc:`Disabling Android Studio Instant Run <../tutorial_specific/android_studio/disable_instant_run/disable-instant-run>`
+   -  :bdg-warning:`Legacy` :doc:`Disabling Android Studio Instant Run <../tutorial_specific/android_studio/disable_instant_run/disable-instant-run>`
 
 4. Writing an Op Mode
 

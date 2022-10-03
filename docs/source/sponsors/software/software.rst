@@ -1,12 +1,12 @@
-FTC Team Complimentary Software
-===============================
+FIRST Tech Challenge Team Complimentary Software
+================================================
 
 As a benefit of being a *FIRST* Tech Challenge Team, some sponsors of *FIRST*
 programs have generously provided complimentary software, licenses, and/or
 support to teams.  These licenses are generally good for a period of one year
 and many must be renewed annually. Sometimes sponsored content require the use
 of a donation voucher provided in your FIRST Dashboard team account, sometimes
-sponsors merely require your FTC team number and contact information, and some
+sponsors merely require your Team number and contact information, and some
 software is simply provided free of charge with no proof of registration
 requirement. Read details below for each product for more information.
 

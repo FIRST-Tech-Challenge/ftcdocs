@@ -39,17 +39,40 @@ resource you want to explore!
 
       Look for our CAD sponsors and 3D printing resources here.
 
+
    .. grid-item-card::
-      :link: ../../ftc_ml/index       
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      FTC Machine Learning
+      Machine Learning Toolchain
 
       ^^^
 
-      User guide for FTC-Machine Learning toolchain.
+      Machine Learning (TensorFlow) Toolchain
+
+      +++
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../ftc_ml/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FTC-ML
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               TensorFlow in POWERPLAY
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources

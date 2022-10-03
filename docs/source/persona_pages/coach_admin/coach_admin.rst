@@ -85,12 +85,12 @@ link for the resource you want to explore!
       Resources to provide your team a well-paced and successful season.
 
    .. grid-item-card::
-      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/coachs-playbook.pdf      
+      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf
       :link-type: url
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      New Coach Tips
+      Coach Guidance
 
       ^^^
 

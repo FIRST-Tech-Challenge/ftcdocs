@@ -63,18 +63,40 @@ Just click on the panel for the resource you want to explore!
 
       Links to technical writing resources.
 
-   .. grid-item-card::
-      :link: ../../ftc_ml/index
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left body
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-body: sd-text-left 
 
-      FTC-ML Toolchain
-
+      Machine Learning Toolchain
+   
       ^^^
 
-      FTC Machine Learning (TensorFlow) Toolkit
+      Machine Learning (TensorFlow) Toolchain
 
+      +++
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../ftc_ml/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FTC-ML
+      
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               TensorFlow in POWERPLAY
+         
    .. grid-item-card::
       :link: ../../cad_resources/index
       :link-type: doc

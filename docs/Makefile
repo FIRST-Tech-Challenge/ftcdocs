@@ -10,6 +10,7 @@ BUILDDIR      = build
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
+LATEXBUILDDIR = build/latex/
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
@@ -18,6 +19,12 @@ help:
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
+
+official:
+	DOCS_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(HTMLBUILDDIR) $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
+	cp $(LATEXBUILDDIR)*.pdf $(HTMLBUILDDIR)
+
 
 .PHONY: help autobuild Makefile
 
