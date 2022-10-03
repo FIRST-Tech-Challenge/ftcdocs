@@ -1,5 +1,5 @@
 :bdg-warning:`Legacy` Disabling Android Studio Instant Run
-=====================================
+===========================================================
 
 .. attention::
    *Instant Run* was removed in Android version 3.5, and is no 
