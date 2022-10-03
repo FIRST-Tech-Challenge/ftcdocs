@@ -4,8 +4,6 @@ FIRST Tech Challenge Documentation Project
 
 This GitHub project is a work-in-progress for FTC documentation.
 
-None should rely on or use this documentation right now.
-
 # Contributing
 
 ## Prerequisites
