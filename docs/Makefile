@@ -8,6 +8,10 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
 
+SIZECHECKER   = python3 -m scripts.imagesizechecker
+CONFEXCLUDE   = --exclude-file source/conf.py
+SIZEMAX       = 500
+
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
 LATEXBUILDDIR = build/latex/
@@ -25,6 +29,8 @@ official:
 	@$(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
 	cp $(LATEXBUILDDIR)*.pdf $(HTMLBUILDDIR)
 
+imagecheck:
+	@$(SIZECHECKER) $(SOURCEDIR) $(SIZEMAX) $(CONFEXCLUDE) $(O)
 
 .PHONY: help autobuild Makefile
 
