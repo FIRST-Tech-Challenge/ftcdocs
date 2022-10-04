@@ -1,10 +1,8 @@
 FIRST Tech Challenge Documentation Project
 ==========================================
-![Build](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/publish.yaml/badge.svg)
+![Build](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/publish.yaml/badge.svg) ![Link-Check](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/link-check.yaml/badge.svg)
 
 This GitHub project is a work-in-progress for FTC documentation.
-
-None should rely on or use this documentation right now.
 
 # Contributing
 
