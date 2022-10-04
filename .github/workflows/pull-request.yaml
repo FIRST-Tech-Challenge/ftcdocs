@@ -88,3 +88,24 @@ jobs:
         with:
           name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
           path: docs/build/linkcheck/output.txt
+
+  image-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v2
+        
+      - name: Run Tune
+        uses: abbbi/github-actions-tune@v1
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+
+      - name: image-check
+        run: make -C docs/ imagecheck
+
+
+
+      

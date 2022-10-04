@@ -50,6 +50,12 @@ javadoc_url_map = {
 
 templates_path = ['_templates']
 
+# Image Checker Configuration
+
+IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg",
+                        "source/control_hard_compon/rc_components/images/B1.svg",
+                        "source/control_hard_compon/ds_components/images/C1.svg",]
+
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
 
