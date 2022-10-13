@@ -235,7 +235,7 @@ date with the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobot
       2. Turn on the Control Hub (apply robot power), wait for green LED.
 
       3. Connect a laptop via Wi-Fi to the Control Hub. Open the Chrome
-         browser, enter the usual address http://192.168.43.1:8080
+         browser, enter the usual address ``http://192.168.43.1:8080``
 
          Click the Manage tab, then scroll down to “Update Robot Controller App”.
 
