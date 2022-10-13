@@ -1,12 +1,6 @@
 *FIRST* Tech Challenge Software Development Kit
 ===============================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   Updating Software <updating_software/updating-software>
-
 The Software Development Kit (SDK) is the collection of tools for developing
 software and executing it on a *FIRST* Tech Challenge robot. SDK Software
 includes:
@@ -56,18 +50,18 @@ release
 
 The `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ is also updated
-with the current source so that changes can be tracked and the GitHub
+with the exported Android Studio Project source so that changes can be tracked and the GitHub
 repository can be `forked
-<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__ by 
-teams 
-(the FtcRobotController repository should never be `cloned
-<https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__).
+<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__
+or `cloned
+<https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__
+by teams.
 This update is a one-way push, however, which is why public contributions
 (`Pull Requests
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`__)
 to the FtcRobotController repository are not accepted.  The community is free
-and encouraged to create issues for the *Technology Team* to consider and
-address, however.
+and encouraged to create issues at the repository for the *Technology Team* to
+consider and address, however.
 
 .. note:: 
    Some season-specific assets, such as TensorFlow models and Vuforia
@@ -122,16 +116,34 @@ Enhancements
 
 Enhancements are new features or (non-breaking) improvements made to existing
 features of the SDK. Enhancements might include items such as improved logging,
-new user interfaces (UI), better user experience (UX), new APIs, better 
+new user interfaces (UI), better user experience (UX), new APIs, better
 performance, or greater reliability. Not all enhancements of the SDK are listed
 in the release notes, but those that have a direct user impact should.
 
 Bug Fixes
 """""""""
 
-Virtually every release of the SDK includes bug fixes, but when the *Technology Team*
-wishes to elevate the visibility of an important bug fix it is included in a
-Bug Fixes section of the Release Notes. Sometimes team code can be affected if
-the bug required a workaround, and being elevated in the Release Notes is a way
-for the *Technology Team* to notify teams that the workaround is no longer necessary.
+Virtually every release of the SDK includes bug fixes, but when the *Technology
+Team* wishes to elevate the visibility of an important bug fix it is included
+in a Bug Fixes section of the Release Notes. Sometimes team code can be
+affected if the bug required a workaround, and being elevated in the Release
+Notes is a way for the *Technology Team* to notify teams that the workaround is
+no longer necessary.
+
+Updating SDK Software
+---------------------
+
+It is important to update the SDK software each time it is updated. Updates
+mid-season may not be required, check with the minimum software version in the
+Game Manual 1.  It is recommended to use the REV Hardware Client to update
+hardware, if a 64-bit Windows computer is available. If not, then alternate
+methods provided can be used to update the software.
+
+-  :doc:`Updating the REV Hardware Client <updating_software/Updating-REV-Hardware-Client>`
+-  :doc:`Updating the Driver Station App <updating_software/Updating-the-DS-App>`
+-  :doc:`Updating the Robot Controller App <updating_software/Updating-the-RC-App>`
+-  :doc:`Updating the Driver Hub OS <updating_software/Updating-the-Driver-Hub-OS>`
+-  :doc:`Updating the Control Hub OS <updating_software/Updating-the-Control-Hub-OS>`
+-  :doc:`Updating the Hub Firmware <updating_software/Updating-Hub-Firmware>`
+
 

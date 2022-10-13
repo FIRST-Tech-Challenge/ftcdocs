@@ -41,6 +41,19 @@ students. It’s way more than building robots, see
    game_specific_resources/playing_field_resources/playing_field_resources
 
 .. toctree::
+   :caption: Software Development Kit (SDK)
+   :maxdepth: 1
+   :hidden:
+
+   SDK Overview <ftc_sdk/index>
+   Updating REV Hardware Client <ftc_sdk/updating_software/Updating-REV-Hardware-Client>
+   Updating Driver Station App <ftc_sdk/updating_software/Updating-the-DS-App>
+   Updating Robot Controller App <ftc_sdk/updating_software/Updating-the-RC-App>
+   Updating Driver Hub OS <ftc_sdk/updating_software/Updating-the-Driver-Hub-OS>
+   Updating Control Hub OS <ftc_sdk/updating_software/Updating-the-Control-Hub-OS>
+   Updating Hub Firmware <ftc_sdk/updating_software/Updating-Hub-Firmware>
+
+.. toctree::
    :caption: Control System Resources
    :maxdepth: 1
    :hidden:
@@ -48,7 +61,6 @@ students. It’s way more than building robots, see
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    control_hard_compon/index
    hardware_and_software_configuration/index
-   Software Development Kit (SDK) <ftc_sdk/index>
    programming_resources/index
 
 .. toctree::
@@ -291,16 +303,6 @@ students. It’s way more than building robots, see
                :expand:
 
                SDK Releases
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ftc_sdk/updating_software/updating-software
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               Updating Software
 
          .. div:: col-sm pl-1 pr-1
 
