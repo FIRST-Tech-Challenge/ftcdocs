@@ -120,7 +120,11 @@ linkcheck_request_headers = {
 }
 
 # Firstinspires redirects to login and break our link checker :)
-linkcheck_ignore = [r'https://my.firstinspires.org/Dashboard/', "https://ftc-ml.firstinspires.org"]
+linkcheck_ignore = [
+   r'https://my.firstinspires.org/Dashboard/', 
+   "https://ftc-ml.firstinspires.org",
+   r'https://github.com/.*#'
+]
 
 latex_documents = [
     (master_doc, output_name + '.tex', project, author, "manual"),
