@@ -7,16 +7,16 @@ includes:
 
 -  *FIRST* Tech Challenge Driver Station App 
 
-   *  Includes Self-Inspect, :doc:`Robot Configuration <../hardware_and_software_configuration/configuring/index>`, and others
+   *  Includes Self-Inspect, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
 
 -  *FIRST* Tech Challenge Robot Controller App
 
-   *  Includes :doc:`Blocks Programming Environment <../programming_resources/blocks/Blocks-Tutorial>`
-   *  Includes :doc:`OnBot Java Programming Environment <../programming_resources/onbot_java/OnBot-Java-Tutorial>`
+   *  Includes :doc:`Blocks Programming Environment </programming_resources/blocks/Blocks-Tutorial>`
+   *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
 
 -  `Android Studio Project <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__  
    for building the Robot Controller App with 
-   :doc:`Android Studio <../programming_resources/android_studio_java/Android-Studio-Tutorial>`
+   :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
 -  Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)
 
@@ -139,11 +139,11 @@ Game Manual 1.  It is recommended to use the REV Hardware Client to update
 hardware, if a 64-bit Windows computer is available. If not, then alternate
 methods provided can be used to update the software.
 
--  :doc:`Updating the REV Hardware Client <updating_software/Updating-REV-Hardware-Client>`
--  :doc:`Updating the Driver Station App <updating_software/Updating-the-DS-App>`
--  :doc:`Updating the Robot Controller App <updating_software/Updating-the-RC-App>`
--  :doc:`Updating the Driver Hub OS <updating_software/Updating-the-Driver-Hub-OS>`
--  :doc:`Updating the Control Hub OS <updating_software/Updating-the-Control-Hub-OS>`
--  :doc:`Updating the Hub Firmware <updating_software/Updating-Hub-Firmware>`
+-  :doc:`Updating the REV Hardware Client <ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+-  :doc:`Updating the Driver Station App <ftc_sdk/updating/ds_app/Updating-the-DS-App>`
+-  :doc:`Updating the Robot Controller App <ftc_sdk/updating/rc_app/Updating-the-RC-App>`
+-  :doc:`Updating the Driver Hub OS <ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
+-  :doc:`Updating the Control Hub OS <ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
+-  :doc:`Updating the Hub Firmware <ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
 
 

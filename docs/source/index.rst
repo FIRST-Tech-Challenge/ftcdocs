@@ -45,13 +45,8 @@ students. It’s way more than building robots, see
    :maxdepth: 1
    :hidden:
 
-   SDK Overview <ftc_sdk/index>
-   Updating REV Hardware Client <ftc_sdk/updating_software/Updating-REV-Hardware-Client>
-   Updating Driver Station App <ftc_sdk/updating_software/Updating-the-DS-App>
-   Updating Robot Controller App <ftc_sdk/updating_software/Updating-the-RC-App>
-   Updating Driver Hub OS <ftc_sdk/updating_software/Updating-the-Driver-Hub-OS>
-   Updating Control Hub OS <ftc_sdk/updating_software/Updating-the-Control-Hub-OS>
-   Updating Hub Firmware <ftc_sdk/updating_software/Updating-Hub-Firmware>
+   SDK Overview <ftc_sdk/overview/index>
+   Updating Components <ftc_sdk/updating/index>
 
 .. toctree::
    :caption: Control System Resources
