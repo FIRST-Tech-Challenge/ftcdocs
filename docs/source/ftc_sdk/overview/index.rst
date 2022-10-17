@@ -139,11 +139,11 @@ Game Manual 1.  It is recommended to use the REV Hardware Client to update
 hardware, if a 64-bit Windows computer is available. If not, then alternate
 methods provided can be used to update the software.
 
--  :doc:`Updating the REV Hardware Client <ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
--  :doc:`Updating the Driver Station App <ftc_sdk/updating/ds_app/Updating-the-DS-App>`
--  :doc:`Updating the Robot Controller App <ftc_sdk/updating/rc_app/Updating-the-RC-App>`
--  :doc:`Updating the Driver Hub OS <ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
--  :doc:`Updating the Control Hub OS <ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
--  :doc:`Updating the Hub Firmware <ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
+-  :doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+-  :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`
+-  :doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-the-RC-App>`
+-  :doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
+-  :doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
+-  :doc:`Updating the Hub Firmware </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
 
 

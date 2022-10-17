@@ -50,7 +50,8 @@ Here are 5 methods:
 
       Confirm the Latest Version in the drop-down menu, then click the blue
       “Re-install” rectangle (green arrow, above). This is done quickly, since
-      :doc:`in Updating the REV Hardware Client <Updating-REV-Hardware-Client>`
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
       the required update file was previously downloaded.
 
       Done! The Hub’s firmware is now updated.

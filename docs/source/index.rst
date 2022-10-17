@@ -310,7 +310,7 @@ students. It’s way more than building robots, see
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ftc_sdk/index
+            .. button-ref:: ftc_sdk/overview/index
                :ref-type: doc
                :color: black
                :outline:

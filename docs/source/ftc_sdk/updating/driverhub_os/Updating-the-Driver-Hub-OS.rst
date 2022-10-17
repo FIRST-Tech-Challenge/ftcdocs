@@ -35,7 +35,8 @@ More info about updating the Driver Hub OS is
       Confirm the Latest Version in the drop-down menu, if any. Then click the
       blue rectangle, labeled “Update” when applicable. The speed of this
       update is improved, since       
-      :doc:`in Updating the REV Hardware Client <Updating-REV-Hardware-Client>`
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
       the required update file was previously downloaded.
 
 

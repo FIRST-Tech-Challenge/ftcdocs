@@ -31,7 +31,8 @@ of the programming language/environment used to program robot Team Code.
       **not** need to be open.
 
       Here the computer does not need to be connected to the internet, since
-      :doc:`in Updating the REV Hardware Client <Updating-REV-Hardware-Client>`
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
       the required DS update file was previously downloaded.
 
       The RHC app will recognize the phone, as shown here:
@@ -45,7 +46,7 @@ of the programming language/environment used to program robot Team Code.
 
       If the phone is not recognized, ensure that the phone has :doc:`developer
       options
-      <../../programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
+      </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
       enabled. If necessary, click the "Scan for Devices" button in the
       lower-left of the REV Hardware Client app to force the RHC to rescan
       devices.
@@ -157,7 +158,8 @@ of the programming language/environment used to program robot Team Code.
       to be open.
 
       Here the computer does not need to be connected to the internet, since
-      :doc:`in Updating the REV Hardware Client <Updating-REV-Hardware-Client>`
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
       the required DS update file was previously downloaded.
 
       The RHC app will recognize the Driver Hub, as shown here:
