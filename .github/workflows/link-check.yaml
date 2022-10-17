@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
 
       - name: Python Setup
         uses: actions/setup-python@v4
