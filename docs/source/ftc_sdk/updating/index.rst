@@ -1,7 +1,7 @@
 Updating Components of the Control System
 =========================================
 
-Certain components of the FTC Control System will periodically recieve updates. 
+Certain components of the FTC Control System will periodically receive updates. 
 Teams should make sure to update each component of the Control System to the latest
 released version.
 
