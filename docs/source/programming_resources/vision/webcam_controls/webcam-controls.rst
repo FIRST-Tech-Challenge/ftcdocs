@@ -196,7 +196,7 @@ These 2 examples assume you are already using TensorFlow Object
 Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
 model and OpMode that are working reasonably well. The model may have
 been supplied with the FTC SDK, or created with the **FTC Machine
-Learning toolchain** `[forum] <https://community.ftclive.org/>`__
+Learning toolchain** `[forum] <https://ftc-community.firstinspires.org/>`__
 :ref:`[manual] <ftc_ml/index:*first* machine learning toolchain>`
 
 Here we will discuss only the Duck game element. **Can the exposure
