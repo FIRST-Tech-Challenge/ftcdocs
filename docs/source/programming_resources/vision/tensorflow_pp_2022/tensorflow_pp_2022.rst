@@ -32,7 +32,7 @@ Sleeve and place over the Signals to use instead of the default images. This
 training should take into account certain conditions such as distance from
 camera to target, angle, lighting, and especially backgrounds. Teams can
 receive technical support using the Machine Learning Toolchain through the
-`Machine Learning Forum <https://community.ftclive.org/>`__.
+`Machine Learning Forum <https://ftc-community.firstinspires.org/>`__.
 
 .. note::
    TensorFlow Lite runs on Android 6.0 (Marshmallow) or higher, a requirement met
