@@ -37,8 +37,8 @@ More info about updating the Control Hub OS is
    Confirm the Latest Version in the drop-down menu, then click the blue
    “Update” rectangle (green arrow, above). The speed of this update is
    improved, since    :doc:`in Updating the REV Hardware Client
-   <Updating-REV-Hardware-Client>` the required update file was previously
-   downloaded.
+   </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+   the required update file was previously downloaded.
 
    Done! The Control Hub’s OS is now updated.
 
