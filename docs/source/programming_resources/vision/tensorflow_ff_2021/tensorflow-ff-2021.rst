@@ -31,7 +31,7 @@ certain conditions of distance, angle, lighting and background.
 
 This new tool is the **FTC Machine Learning Toolchain**, `announced
 10/7/2021 <http://firsttechchallenge.blogspot.com/2021/10/new-machine-learning-tool-beta-testing.html>`__.
-Learn more at these links: `[forum] <https://community.ftclive.org/>`__
+Learn more at these links: `[forum] <https://ftc-community.firstinspires.org/>`__
 :doc:`[manual] <../../../ftc_ml/index>`
 
 How Might a Team Use TensorFlow in Freight Frenzy?
