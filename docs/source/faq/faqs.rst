@@ -72,6 +72,15 @@ Competition FAQs
 .. grid:: 1
     :gutter: 3
 
+    .. grid-item-card:: Who on my team needs to be with the robot for inspection?
+
+        It depends on which inspection station you're visiting and how your event is configured. 
+        The inspectors at Field Inspection like to see the Drive Team, Human Player, and Coach 
+        (not necessarily an adult, but whoever is serving as the "coach" role on the field). The 
+        inspectors at Robot Inspection really just want to see team members who have the best idea 
+        of what's going on with the robot (mechanically and electrically). Look at your inspection 
+        sheets, you can generally determine what you're doing based on the checklist.
+        
     .. grid-item-card:: Why aren’t you going to replay that match?
 
         There are only certain situations that warrant replaying a match. Unless we can prove that it was a 
