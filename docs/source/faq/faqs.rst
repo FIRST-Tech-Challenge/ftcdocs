@@ -105,6 +105,17 @@ Competition FAQs
         If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that decision. 
         Refer to  GM1 <C02>.
 
+Technology FAQs
+--------------------
+
+.. grid:: 1
+    :gutter: 3
+
+    .. grid-item-card:: I'm getting a weird error, where can I go to get help with fixing this?
+
+        The best place to go for help is the `ftc-community platform <https://ftc-community.firstinspires.org>`__. 
+        The ftc-community platform is a community place to ask questions that is monitored by a variety of 
+        knowledgeable folks who can likely help you with your questions! 
 
 ===============================================
 
