@@ -72,6 +72,15 @@ Competition FAQs
 .. grid:: 1
     :gutter: 3
 
+    .. grid-item-card:: Who on my team needs to be with the robot for inspection?
+
+        It depends on which inspection station you're visiting and how your event is configured. 
+        The inspectors at Field Inspection like to see the Drive Team, Human Player (if there is 
+        one), and Drive Coach. The inspectors at Robot Inspection really just want to see team 
+        members who have the best idea of what's going on with the robot (mechanically and 
+        electrically). Look at your inspection sheets, you can generally determine what you're 
+        doing based on the checklist.
+        
     .. grid-item-card:: Why aren’t you going to replay that match?
 
         There are only certain situations that warrant replaying a match. Unless we can prove that it was a 
@@ -96,6 +105,17 @@ Competition FAQs
         If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that decision. 
         Refer to  GM1 <C02>.
 
+Technology FAQs
+--------------------
+
+.. grid:: 1
+    :gutter: 3
+
+    .. grid-item-card:: I'm getting a weird error, where can I go to get help with fixing this?
+
+        The best place to go for help is the `ftc-community platform <https://ftc-community.firstinspires.org>`__. 
+        The ftc-community platform is a community place to ask questions that is monitored by a variety of 
+        knowledgeable folks who can likely help you with your questions! 
 
 ===============================================
 
