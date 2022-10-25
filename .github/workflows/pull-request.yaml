@@ -34,6 +34,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'docs/build/html'
+          retention-days: 7
         
       - name: Archive PDF
         env:
@@ -44,6 +45,7 @@ jobs:
           name: "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
           path: docs/build/latex/*.pdf
           if-no-files-found: error
+          retention-days: 7
   spelling-check:
     runs-on: ubuntu-latest
     steps:
@@ -82,6 +84,7 @@ jobs:
         with:
           name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
           path: docs/build/linkcheck/output.txt
+          retention-days: 7
 
   image-check:
     runs-on: ubuntu-latest
