@@ -50,6 +50,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'docs/build/html'
+          retention-days: 7
           
   deploy:
     needs: build
