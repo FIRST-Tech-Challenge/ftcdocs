@@ -57,43 +57,6 @@ requirement. Read details below for each product for more information.
 
    **To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details.
 
-.. dropdown:: Monday.com
-
-   .. todo:: 
-      Update the Complimentary Software page: Monday.com will be recording their webinar on 
-      September 12. After the webinar we need to update the text to remove the webinar registration
-      information and add a link to the recorded webinar.
-
-   .. image:: images/monday-logo.png
-      :height: 50px
-      :target: https://monday\.com/lp/academic/frcglobal
-      :alt: Monday.com Logo
-      :name: Monday.com Logo
-      :class: invert-img
-
-   |
-
-   **What**:
-
-   *  Cloud-based customizable team management platform
-   *  One year Pro account for all team members
-
-   **Expires**: Contact Monday.com for exact details.
-
-   **Access Codes**: N/A
-
-   **To Access**: Teams need to go to the 
-   `FIRST dedicated page <https://monday.com/lp/academic/frcglobal>`_ 
-   and create an account on that specific landing page using the "Get your free 
-   account" button. Once you've created your account, use the "Request Pro Plan"
-   form to request your account to be given Pro plan access. You will be notified
-   once your account has been upgraded.
-
-   **Webinar**: Monday.com is hosting a webinar to help teams learn how to make
-   the most of the Monday.com account sponsorship. The Webinar will be held
-   on Monday, September 12 2022 from 7:30p-8:30p EDT. To sign up to attend the
-   webinar, `sign up via this link <https://monday.zoom.us/webinar/register/WN_OFXOIZTnThW3RPXEmvBw_g>`_.
-
 .. dropdown:: PTC
 
    .. image:: images/ptc-logo.png
@@ -113,5 +76,3 @@ requirement. Read details below for each product for more information.
    **Access Codes**: N/A
 
    **To Access**: Check out the :doc:`PTC page <../../cad_resources/ptc/ptc>` for details.
-
-

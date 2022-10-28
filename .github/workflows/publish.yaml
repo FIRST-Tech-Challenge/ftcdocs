@@ -17,10 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
+        uses: actions/checkout@v3
         
       - name: Refresh Packages
         run: sudo apt-fast -y update
@@ -53,6 +50,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'docs/build/html'
+          retention-days: 7
           
   deploy:
     needs: build

@@ -8,10 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
+        uses: actions/checkout@v3
         
       - name: Refresh Packages
         run: sudo apt-fast -y update
@@ -37,6 +34,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'docs/build/html'
+          retention-days: 7
         
       - name: Archive PDF
         env:
@@ -44,9 +42,10 @@ jobs:
           ID:  ${{ github.run_attempt }}
         uses: actions/upload-artifact@v3
         with:
-          name: "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
+          name: FTCDOCS
           path: docs/build/latex/*.pdf
           if-no-files-found: error
+          retention-days: 7
   spelling-check:
     runs-on: ubuntu-latest
     steps:
@@ -62,10 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
+        uses: actions/checkout@v3
 
       - name: Python Setup
         uses: actions/setup-python@v4
@@ -86,17 +82,15 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
           ID:  ${{ github.run_attempt }}
         with:
-          name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
+          name: LINKCHECK
           path: docs/build/linkcheck/output.txt
+          retention-days: 7
 
   image-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
-        
-      - name: Run Tune
-        uses: abbbi/github-actions-tune@v1
+        uses: actions/checkout@v3
 
       - name: Python Setup
         uses: actions/setup-python@v4

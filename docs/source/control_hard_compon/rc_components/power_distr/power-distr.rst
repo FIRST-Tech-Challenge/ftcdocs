@@ -174,7 +174,7 @@ REV Servo Power Module
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      REV XT30 Power Dist
+      REV Servo Power Module
 
       ^^^
 
