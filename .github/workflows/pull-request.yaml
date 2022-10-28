@@ -42,7 +42,7 @@ jobs:
           ID:  ${{ github.run_attempt }}
         uses: actions/upload-artifact@v3
         with:
-          name: "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
+          name: FTCDOCS
           path: docs/build/latex/*.pdf
           if-no-files-found: error
           retention-days: 7
@@ -82,7 +82,7 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
           ID:  ${{ github.run_attempt }}
         with:
-          name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
+          name: LINKCHECK
           path: docs/build/linkcheck/output.txt
           retention-days: 7
 
