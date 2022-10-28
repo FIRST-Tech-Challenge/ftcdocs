@@ -59,7 +59,7 @@ More info about updating the Control Hub OS is
 
    3. If needed, download the latest OS file from the REV Robotics `Control
       Hub OS web
-      page <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system/operating-system-changelog>`__.
+      page <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system#using-the-robot-controller-console>`__.
       Do not extract or “un-zip” this file.
 
    4. At the Manage page, click “Select Update File…” and navigate to the
