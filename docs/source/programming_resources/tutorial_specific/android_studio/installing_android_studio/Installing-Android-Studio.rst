@@ -20,7 +20,9 @@ Before you download and install the Android Studio you should first
 check the list of system requirements on the Android developer's website
 to verify that your system satisfies the list of minimum requirements:
 
-*  https://developer.android.com/studio#Requirements
+*  `Windows <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#1>`__
+*  `MacOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#3>`__
+*  `Linux <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#5>`__
 
 Java Development Kit
 ~~~~~~~~~~~~~~~~~~~~
