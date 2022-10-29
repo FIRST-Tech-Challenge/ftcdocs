@@ -35,6 +35,9 @@ jobs:
         with:
           path: 'docs/build/html'
           retention-days: 7
+          
+      - name: Create Tag File
+        run: touch "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
         
       - name: Archive PDF
         env:
@@ -43,7 +46,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: FTCDOCS
-          path: docs/build/latex/*.pdf
+          path: |
+            docs/build/latex/*.pdf
+            FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }} 
           if-no-files-found: error
           retention-days: 7
   spelling-check:
