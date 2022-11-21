@@ -537,7 +537,7 @@ matters!).
 
 The Blocks IMU palette contains a Block with default parameters for the
 Angles method of describing the Hub’s orientation on the robot. Let’s
-review this Blocks pallete function now, as a good example. The Java 
+review this Blocks palette function now, as a good example. The Java 
 API closely resembles the Blocks method.
 
 .. figure:: images/080-Blocks-angles-01.png
