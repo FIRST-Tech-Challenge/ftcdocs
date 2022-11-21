@@ -871,9 +871,9 @@ Here's an example of reading IMU Angles:
 
          // Now use these simple methods to extract each angle 
          // (Java type double) from the object you just created:
-         double Yaw   = robotOrientation.getYaw(AngleUnit.DEGREES)
-         double Pitch = robotOrientation.getPitch(AngleUnit.DEGREES)
-         double Roll  = robotOrientation.getRoll(AngleUnit.DEGREES)
+         double Yaw   = robotOrientation.getYaw(AngleUnit.DEGREES);
+         double Pitch = robotOrientation.getPitch(AngleUnit.DEGREES);
+         double Roll  = robotOrientation.getRoll(AngleUnit.DEGREES);
 
 Note that the robot’s orientation is described here **intrinsically**;
 the axes move with each rotation. Here’s an example from the Javadocs:
@@ -1009,9 +1009,9 @@ Here is an example for reading Angular Velocity:
 
          // Then read or display these values (Java type float) 
          // from the object you just created:
-         float zRotationRate = myRobotAngularVelocity.zRotationRate
-         float xRotationRate = myRobotAngularVelocity.xRotationRate
-         float yRotationRate = myRobotAngularVelocity.yRotationRate
+         float zRotationRate = myRobotAngularVelocity.zRotationRate;
+         float xRotationRate = myRobotAngularVelocity.xRotationRate;
+         float yRotationRate = myRobotAngularVelocity.yRotationRate;
 
       These are also shown in each of the Java **Sample OpModes** listed in a
       section below.
