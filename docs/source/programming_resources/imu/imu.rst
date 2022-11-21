@@ -155,7 +155,7 @@ When done, **save** and **activate** this configuration.
 
 *If a Blocks OpMode is open at the computer’s programming screen, close and
 re-open that OpMode to capture this updated configuration. Blocks are provided
-only for devices in the configuration that’s active*\ **upon opening**\ *an
+only for devices in the configuration that’s active*\  **upon opening**\  *an
 OpMode.*
 
 Axes Definition
@@ -182,7 +182,7 @@ You must decide which face or direction is **“forward”** on your robot
    of the robot.
 
 *These are Robot axes, different than (and not aligned with) the Hub
-axes used by the legacy ``BNO055IMU`` driver.*
+axes used by the legacy* ``BNO055IMU`` *driver.*
 
 Rotation follows the traditional **right-hand rule**: with the thumb
 pointing along the positive axis, the fingers curl in the direction of
@@ -870,7 +870,7 @@ Here's an example of reading IMU Angles:
          robotOrientation = imu.getRobotYawPitchRollAngles();
 
          // Now use these simple methods to extract each angle 
-         // (Java type ``double``) from the object you just created:
+         // (Java type double) from the object you just created:
          double Yaw   = robotOrientation.getYaw(AngleUnit.DEGREES)
          double Pitch = robotOrientation.getPitch(AngleUnit.DEGREES)
          double Roll  = robotOrientation.getRoll(AngleUnit.DEGREES)
@@ -951,7 +951,7 @@ Here is an example use of these functions:
               AngleUnit.DEGREES
          );
 
-         // Then read or display the desired values (Java type ``float``):
+         // Then read or display the desired values (Java type float):
          float X_axis = myRobotOrientation.firstAngle;
          float Y_axis = myRobotOrientation.secondAngle;
          float Z_axis = myRobotOrientation.thirdAngle;
@@ -1007,7 +1007,7 @@ Here is an example for reading Angular Velocity:
          // Read Angular Velocities
          myRobotAngularVelocity = imu.getRobotAngularVelocity(AngleUnit.DEGREES);
 
-         // Then read or display these values (Java type ``float``) 
+         // Then read or display these values (Java type float) 
          // from the object you just created:
          float zRotationRate = myRobotAngularVelocity.zRotationRate
          float xRotationRate = myRobotAngularVelocity.xRotationRate
@@ -1109,7 +1109,8 @@ The SDK 8.1 contains Sample OpModes demonstrating the above.
 
          Blocks IMU Sample
 
-      Here’s an :download:`image <images/360-SensorIMU.png>` and the :download:`Block file <opmodes/SensorIMU.blk>` of this Sample OpMode.
+      Here’s an :download:`image <images/360-SensorIMU.png>` and the 
+      :download:`Blocks file <opmodes/SensorIMU.blk>` of this Sample OpMode.
 
    .. tab-item:: Java
       :sync: java
