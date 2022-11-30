@@ -50,6 +50,7 @@ to get acquainted with the FTC Control System!
 
    -  :doc:`Creating an Op Mode <../tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>`
    -  :doc:`Running an Op Mode <../tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode>`
+   -  :doc:`Managing Op Modes <../tutorial_specific/blocks/managing_opmodes/managing-opmodes>`
    -  :doc:`Controlling a Servo <../tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks)>`
    -  :doc:`Using Sensors <../tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks)>`
 
@@ -69,5 +70,6 @@ to get acquainted with the FTC Control System!
    ../tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode
    ../tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks)
    ../tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks)
+   ../tutorial_specific/blocks/managing_opmodes/managing-opmodes
    ../tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material
 
