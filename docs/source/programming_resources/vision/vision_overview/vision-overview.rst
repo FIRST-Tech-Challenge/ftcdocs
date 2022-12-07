@@ -51,7 +51,11 @@ Vuforia Advantages
 -  Very efficient with a fast detection rate (estimated 15 to 20
    detections per second).
 -  Provides accurate, relative location of robot to target in field
-   coordinates. ### Vuforia Disadvantages
+   coordinates.
+
+Vuforia Disadvantages
+~~~~~~~~~~~~~~~~~~~~~
+
 -  Only looks for 2D image targets.
 -  Image targets must have a large amount of detail and uniqueness in
    order to be accurate and useful.
@@ -77,7 +81,11 @@ TensorFlow Advantages
 
 -  TensorFlow can be taught how to distinguish between similar looking
    (but still distinct) objects, such as a Stone and a Skystone from the
-   2019-2020 challenge. ### TensorFlow Disadvantages
+   2019-2020 challenge.
+
+TensorFlow Disadvantages
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 -  TensorFlow is computationally intensive and has a low detection rate
    (an estimated 1 to 2 detections per second).
 -  If TensorFlow recognizes an object in its field of view, it only
