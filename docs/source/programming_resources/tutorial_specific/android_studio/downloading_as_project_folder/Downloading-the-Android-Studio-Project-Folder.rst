@@ -48,8 +48,12 @@ this **Assets** section.
 |
 
 Click on the Source code (zip) link to download the compressed Android
-Studio project folder. ### Extracting the Contents of the Archived
-Project File Once you have downloaded the archived (.ZIP) project file
+Studio project folder.
+
+Extracting the Contents of the Archived Project File
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once you have downloaded the archived (.ZIP) project file
 you can move this file to the location of your choice.
 
 .. image:: images/MoveDownloadedFile.jpg
