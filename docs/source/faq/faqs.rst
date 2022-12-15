@@ -6,6 +6,8 @@ competition to judging. Please refer to these official questions and answers to 
 If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific 
 questions on the `FTC Game Q&A <https://ftc-qa.firstinspires.org/>`_ .
 
+Stupid Edit.
+
 Dashboard/Registration FAQs
 ----------------------------
 
