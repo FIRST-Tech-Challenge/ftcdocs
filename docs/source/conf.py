@@ -6,7 +6,7 @@ import sys
 import urllib.parse as urlparse
 
 project = 'FIRST Tech Challenge Docs'
-copyright = '2022, FIRST'
+copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 
 release = '0.1'

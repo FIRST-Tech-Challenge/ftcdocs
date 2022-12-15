@@ -28,10 +28,14 @@
     {%- if hasdoc('copyright') %}
       {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
     {%- else %}
-      {%- trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
+      &#169; 2023 <i>{%- trans copyright=copyright|e %}{{ copyright }}{% endtrans %}</i>
     {%- endif %}
   {%- endif %}
-
+  </div>
+  <div>
+    <a href="https://www.firstinspires.org/about/privacy-policy">Privacy Policy</a>
+  </div>
+  <div>
     {%- if build_id and build_url %}
       <span class="build">
         {#- Translators: Build is a noun, not a verb -#}
@@ -49,9 +53,8 @@
         {%- trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
       </span>
     {%- endif -%}
-
-    </p>
   {%- endblock %}
+  </p>
   </div>
 
   {% if show_sphinx %}
