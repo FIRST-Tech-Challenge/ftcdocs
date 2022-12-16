@@ -1,6 +1,6 @@
 .. meta::
    :title: FIRST Tech Challenge Documentation
-   :description: The mother of all FTC documentation sites
+   :description: The official home of FIRST Tech Challenge Documentation.
    :keywords: FTC Control System, Control Hub, TensorFlow, PowerPlay, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game
 
 FIRST Tech Challenge documentation
