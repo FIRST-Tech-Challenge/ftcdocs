@@ -96,7 +96,8 @@ As a user of the Site, you agree not to:
 #.  Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
 #.  Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
 #.  Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.
-#.  Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site. Use any information obtained from the Site in order to harass, abuse, or harm another person.
+#.  Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site. 
+#.  Use any information obtained from the Site in order to harass, abuse, or harm another person.
 #.  Make improper use of our support services or submit false reports of abuse or misconduct.
 #.  Use the Site in a manner inconsistent with any applicable laws or regulations.
 #.  Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.
