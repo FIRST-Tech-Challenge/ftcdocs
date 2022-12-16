@@ -1,3 +1,8 @@
+.. meta::
+   :title: FIRST Machine Learning Toolchain
+   :description: The official FIRST Machine Learning Toolchain (FTC-ML) manual
+   :keywords: FTC-ML, FTC ML, FIRST Machine Learning Toolchain, FMLTC, FTC, Tensorflow, Object Detection
+
 *FIRST* Machine Learning Toolchain
 ==================================
 
