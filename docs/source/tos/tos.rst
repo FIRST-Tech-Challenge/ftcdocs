@@ -38,10 +38,10 @@ the Site.
 INTELLECTUAL PROPERTY RIGHTS
 ----------------------------
 
-Unless otherwise indicated, the Site is the proprietary property of FIRST and all source code,
+Unless otherwise indicated, the Site is the proprietary property of *FIRST* and all source code,
 databases, functionality, software, website designs, audio, video, text, photographs, and
 graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos
-contained therein (the “Marks”) are owned or controlled by FIRST or licensed to FIRST, and are
+contained therein (the “Marks”) are owned or controlled by *FIRST* or licensed to *FIRST*, and are
 protected by copyright and trademark laws and various other intellectual property rights and
 unfair competition laws of the United States, international copyright laws, and international
 conventions. The Content and the Marks are provided on the Site “AS IS” for your information
@@ -75,11 +75,11 @@ Site (or any portion thereof).
 USER REGISTRATION
 -----------------
 
-If you are utilizing a FIRST website to register for any of our programs, you agree to keep your
+If you are utilizing a *FIRST* website to register for any of our programs, you agree to keep your
 password confidential and will be responsible for all use of your account and password. We
 reserve the right to remove, reclaim, or change a username you select if we determine, in our
 sole discretion, that such username is inappropriate, obscene, or otherwise objectionable.
-FIRST chooses to protect the privacy of children under the age of 13, residing outside of the
+*FIRST* chooses to protect the privacy of children under the age of 13, residing outside of the
 European Union, within the spirit of COPPA, those residing in the European Union as provided
 by the European Union General Data Protection Regulation (GDPR), and those residing in the
 United Kingdom under the United Kingdom General Data Protection Regulation (UK GDPR).
@@ -89,7 +89,7 @@ PROHIBITED ACTIVITIES
 
 You may not access or use the Site for any purpose other than that for which we make the Site
 available. The Site may not be used in connection with any commercial endeavors except those
-that are specifically endorsed or approved by FIRST.
+that are specifically endorsed or approved by *FIRST*.
 
 As a user of the Site, you agree not to:
 
@@ -146,7 +146,7 @@ CONTRIBUTION LICENSE
 --------------------
 
 By posting your Contributions to any part of the Site, you grant, represent and warrant that you
-have the right to grant, to FIRST an unrestricted, unlimited, irrevocable, perpetual, nonexclusive,
+have the right to grant, to *FIRST* an unrestricted, unlimited, irrevocable, perpetual, nonexclusive,
 transferable, royalty-free, fully-paid, worldwide right, and license to host, use, copy, reproduce,
 disclose, publish, broadcast, retitle, archive, store, cache, publicly perform, publicly display,
 reformat, translate, transmit, excerpt (in whole or in part), and distribute such
@@ -206,18 +206,18 @@ our rights and property and to facilitate the proper functioning of the Site.
 PRIVACY POLICY
 --------------
 
-FIRST takes your privacy seriously. As a nonprofit and a mission-driven youth-serving
+*FIRST* takes your privacy seriously. As a nonprofit and a mission-driven youth-serving
 organization, we are compelled to understand who we are serving, how our programs are
-performing, and make improvements so that we can achieve our goals of making FIRST
+performing, and make improvements so that we can achieve our goals of making *FIRST*
 accessible to any youth who wants to be part of the fun, exciting and life-changing experience.
 Thus, we need to collect certain pieces of data from you to ensure we are meeting our goals
 and responsibilities as a youth-serving nonprofit organization.
-Please review our Privacy Policy: `FIRST Privacy Policy <https://www.firstinspires.org/about/privacy-policy>`_
+Please review our Privacy Policy here: `https://www.firstinspires.org/about/privacy-policy <https://www.firstinspires.org/about/privacy-policy>`_
 
 COPYRIGHT INFRINGEMENTS
 -----------------------
 
-FIRST respects the intellectual property rights of others. If you believe that any material
+*FIRST* respects the intellectual property rights of others. If you believe that any material
 available on or through the Site infringes upon any copyright you own or control, please
 immediately notify us using the contact information provided below (a “Notification”). A copy of
 your Notification will be sent to the person who posted or stored the material addressed in the
@@ -350,12 +350,12 @@ at (800) 952-5210 or (916) 445-1254.
 CONTACT US
 ----------
 
-FIRST has a Data Governance Team who represents FIRST and will lead investigative
+*FIRST* has a Data Governance Team who represents *FIRST* and will lead investigative
 action, complaint handling and data breach notification. If you have any questions about
 these terms and conditions, the practices of any of our Sites, or your dealings with any of our
 Sites, contact us via email privacy@firstinspires.org or by sending a letter to:
 
-| FIRST
+| *FIRST*
 | 200 Bedford Street
 | Manchester, NH 03101
 | Or you may call us at (800) 871-8326 or (603) 666-3906.
