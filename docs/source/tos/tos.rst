@@ -7,7 +7,7 @@ Agreement to Terms
 ------------------
 
 These Terms of Use constitute a legally binding agreement made between you, whether
-personally or on behalf of an entity (“you”) and FIRST (“Company”, “we”, “us”, or “our”),
+personally or on behalf of an entity (“you”) and *FIRST* (“Company”, “we”, “us”, or “our”),
 concerning your access to and use of the 
 `http://www.firstinspires.org <http://www.firstinspires.org>`_ website as well as any
 other media form, media channel, mobile website or mobile application related, linked, or
@@ -92,6 +92,7 @@ available. The Site may not be used in connection with any commercial endeavors 
 that are specifically endorsed or approved by FIRST.
 
 As a user of the Site, you agree not to:
+
 -  Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
 -  Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
 -  Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.
