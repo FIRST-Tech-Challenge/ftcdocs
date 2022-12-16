@@ -1,3 +1,8 @@
+.. meta::
+   :title: Programming Resources, FTC Docs
+   :description: Official Programming Resources for FIRST Tech Challenge
+   :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studios, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
+
 Programming Resources
 =====================
 
