@@ -25,7 +25,7 @@ extensions = [
     'sphinx_design',
     'sphinx_rtd_dark_mode',
     'sphinxcontrib.googleanalytics',
-    'sphinxcontrib.cookiebanner',
+    'sphinxcontrib.cookiebanner', 
 ]
 
 autosectionlabel_prefix_document = True
