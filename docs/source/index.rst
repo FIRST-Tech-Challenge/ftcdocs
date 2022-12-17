@@ -4,17 +4,17 @@
    :keywords: FTC Control System, Control Hub, TensorFlow, PowerPlay, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game
 
 *FIRST* Tech Challenge documentation
-==================================
+====================================
 
 *FIRST* Tech Challenge is a robotics program for middle and high school
-students. It’s way more than building robots, see :doc:|linktext|.
+students. It’s way more than building robots, see :doc:|linktext| to see why.
 
 .. _linktext: overview/ftcoverview
 .. |linktext| replace:: About the *FIRST* Tech Challenge
 
 .. comment
    The above craziness attempts to replace this:
-   :doc:`About the FIRST Tech Challenge <overview/ftcoverview>` to see why.
+   :doc:`About the FIRST Tech Challenge <overview/ftcoverview>`
 
 .. note::
 
