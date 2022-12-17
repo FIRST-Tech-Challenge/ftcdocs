@@ -35,6 +35,7 @@ todo_include_todos = False
 # Configure Google Analytics, Disabled by default
 googleanalytics_enabled = False
 
+# Cookiebanner Enable
 cookiebanner_enabled = True
 
 intersphinx_mapping = {
