@@ -1,4 +1,4 @@
-FIRST Tech Challenge Documentation Project
+*FIRST* Tech Challenge Documentation Project
 ==========================================
 ![Build](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/publish.yaml/badge.svg) ![Link-Check](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/link-check.yaml/badge.svg)
 
