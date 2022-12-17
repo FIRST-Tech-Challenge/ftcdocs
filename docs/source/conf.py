@@ -35,6 +35,9 @@ todo_include_todos = False
 # Configure Google Analytics, Disabled by default
 googleanalytics_enabled = False
 
+# Ensure Cookie Banner is Enabled
+cookiebanner_enabled = True
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
