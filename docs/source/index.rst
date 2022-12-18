@@ -7,14 +7,9 @@
 ====================================
 
 *FIRST* Tech Challenge is a robotics program for middle and high school
-students. It’s way more than building robots, see :doc:|linktext| to see why.
-
-.. _linktext: overview/ftcoverview
-.. |linktext| replace:: About the *FIRST* Tech Challenge
-
-.. comment
-   The above craziness attempts to replace this:
-   :doc:`About the FIRST Tech Challenge <overview/ftcoverview>`
+students. It’s way more than building robots, see 
+:doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>`
+to see why.
 
 .. note::
 
