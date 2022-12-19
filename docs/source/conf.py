@@ -25,6 +25,7 @@ extensions = [
     'sphinx_design',
     'sphinx_rtd_dark_mode',
     'sphinxcontrib.googleanalytics',
+    'sphinxcontrib.cookiebanner', 
 ]
 
 autosectionlabel_prefix_document = True
@@ -159,6 +160,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     # Configure Google Analytics
     googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID") 
     googleanalytics_enabled = os.environ.get("GOOGLE_ANALYTICS_ID", default = "") != ""
+    cookiebanner_enabled = os.environ.get("COOKIEBANNER", default = "") != ""
 
 # Configure RTD Theme
 html_theme_options = {
