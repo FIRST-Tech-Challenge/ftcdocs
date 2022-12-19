@@ -1,3 +1,9 @@
+.. meta::
+   :title: FTC Robot Controller Overview, FTC Docs
+   :description: A Visual Overview of the FTC Robot Controller
+   :keywords: FTC, FIRST Tech Challenge, RC, Robot Controller, Control Hub, Expansion Hub
+   
+   
 Robot Controller Overview
 =========================
 
