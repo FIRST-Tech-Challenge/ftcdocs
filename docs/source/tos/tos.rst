@@ -1,6 +1,6 @@
 :orphan:
 
-Terms of Service <https://www.firstinspires.org/sites/default/files/uploads/first-terms-conditions.pdf>`__
+`Terms of Service <https://www.firstinspires.org/sites/default/files/uploads/first-terms-conditions.pdf>`_
 =============================================================================================================
 
 .. only:: latex
