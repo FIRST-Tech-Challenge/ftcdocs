@@ -111,7 +111,7 @@ sphinx_tabs_valid_builders = ["epub", "linkcheck"]
 epub_show_urls = 'footnote'
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
-#user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
 
 # Change request header to avoid 403 error because Solidworks is great like that
 linkcheck_request_headers = {
