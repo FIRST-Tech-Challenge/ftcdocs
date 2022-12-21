@@ -9,7 +9,7 @@ Agreement to Terms
 These Terms of Use constitute a legally binding agreement made between you, whether
 personally or on behalf of an entity (“you”) and *FIRST* (“Company”, “we”, “us”, or “our”),
 concerning your access to and use of the 
-`http://www.firstinspires.org <http://www.firstinspires.org>`_ website as well as any
+`https://www.firstinspires.org/ <https://www.firstinspires.org/>`_ website as well as any
 other media form, media channel, mobile website or mobile application related, linked, or
 otherwise connected thereto (collectively, the “Site” or “Sites”). You agree that by accessing the
 Site, you have read, understood, and agreed to be bound by these Terms of Use.
