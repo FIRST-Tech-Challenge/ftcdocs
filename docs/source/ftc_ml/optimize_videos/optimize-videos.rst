@@ -1,3 +1,8 @@
+.. meta::
+   :title: Optimizing Videos for FTC-ML
+   :description: A guide to optimizing the input videos for use in FTC-ML
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, FTC-ML, Tensorflow, TFOD, FMLTC
+
 Optimizing Videos for increased TensorFlow Model Performance
 ============================================================
 

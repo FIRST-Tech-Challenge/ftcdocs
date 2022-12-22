@@ -1,3 +1,8 @@
+.. meta::
+   :title: CAD Resources
+   :description: Computer Aided Design Resources for the FIRST Tech Challenge
+   :keywords: FTC Docs, FIRST Tech Challenge, CAD, Resources
+
 CAD Resources
 =============
 

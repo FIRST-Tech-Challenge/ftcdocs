@@ -6,3 +6,4 @@ git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=jav
 sphinx_design==0.2.0
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=googleanalytics
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=cookiebanner
+sphinx-sitemap==2.3.0

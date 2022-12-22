@@ -1,3 +1,7 @@
+.. meta::
+   :title: FIRST Tech Challenge Game Q&A
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, Q&A
+
 FIRST Tech Challenge Game Q&A
 =============================
 

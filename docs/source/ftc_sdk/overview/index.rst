@@ -1,3 +1,8 @@
+.. meta::
+   :title: FIRST Tech Challenge Software Development Kit
+   :description: A brief introduction to the FTC SDK
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, RC, Robot Controller, DS, Driver Station
+
 *FIRST* Tech Challenge Software Development Kit
 ===============================================
 
