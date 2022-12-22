@@ -1,3 +1,8 @@
+.. meta::
+   :title: Driver Station Overview
+   :description: An overview of the various components of the FTC Driver Station
+   :keywords: FTC Docs, FIRST Tech Challenge, DS
+
 Driver Station Overview
 =======================
 

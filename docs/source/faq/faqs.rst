@@ -1,3 +1,8 @@
+.. meta::
+   :title: Common FTC Team FAQs
+   :description: Common questions asked by FIRST Tech Challenge teams answered
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, FAQ
+
 Common Team FAQs
 =================
 

@@ -163,6 +163,17 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     # Specify canonical root
     # This tells search engines that this domain is preferred
     html_baseurl = os.environ.get("url")
+    
+    # Sets up sitemap and robots.txt    
+    if(html_baseurl != ""):
+        extensions.append('sphinx_sitemap')
+        
+        with open('robots.txt', 'w') as robots:
+            
+            robots.write(f'User-agent: *\n\nSitemap: {html_baseurl}sitemap.xml')
+            html_extra_path = ["robots.txt"]
+            sitemap_url_scheme = "{link}"
+
 
     # Configure Google Analytics
     googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID") 
