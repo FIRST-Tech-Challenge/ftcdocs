@@ -172,6 +172,7 @@ if(os.environ.get("DOCS_BUILD") == "true"):
             
             robots.write(f'User-agent: *\n\nSitemap: {html_baseurl}sitemap.xml')
             html_extra_path = ["robots.txt"]
+	    sitemap_url_scheme = "{link}"
 
 
     # Configure Google Analytics
