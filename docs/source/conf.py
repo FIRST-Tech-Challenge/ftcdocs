@@ -144,7 +144,7 @@ def setup(app):
     app.add_js_file("js/external-links-new-tab.js")
 
 # Configure for local official-esque builds
-if(os.environ.get("DOCS_BUILD") == "true"):
+if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
     html_context = dict()
     html_context['display_lower_left'] = True
 
@@ -160,8 +160,9 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
 
-
-cookiebanner_enabled = os.environ.get("COOKIEBANNER", default = "") != ""
+if(os.environ.get("RTD_DOCS_BUILD") == "true")
+	cookiebanner_enabled = True
+	extensions.append('sphinx_sitemap')
 
 # Configure RTD Theme
 html_theme_options = {
