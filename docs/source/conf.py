@@ -159,10 +159,12 @@ if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+    cookiebanner_enabled = True
 
-if(os.environ.get("RTD_DOCS_BUILD") == "true")
-	cookiebanner_enabled = True
-	extensions.append('sphinx_sitemap')
+
+if(os.environ.get("RTD_DOCS_BUILD") == "true"):
+    cookiebanner_enabled = True
+    extensions.append('sphinx_sitemap')
 
 # Configure RTD Theme
 html_theme_options = {
