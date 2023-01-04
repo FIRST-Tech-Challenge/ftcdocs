@@ -114,7 +114,7 @@ epub_show_urls = 'footnote'
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 
 # Add a timeout to linkcheck to prevent check from simply hanging on poor websites
-linkcheck_timeout = 15
+linkcheck_timeout = 30
 
 # Change request header to avoid 403 error because Solidworks is great like that
 linkcheck_request_headers = {
