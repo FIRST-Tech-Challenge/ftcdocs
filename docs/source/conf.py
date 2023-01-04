@@ -166,6 +166,7 @@ if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
 if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     cookiebanner_enabled = True
     extensions.append('sphinx_sitemap')
+    html_baseurl = os.environ.get("FTCDOCS_URL", default="")
 
 # Configure RTD Theme
 html_theme_options = {
