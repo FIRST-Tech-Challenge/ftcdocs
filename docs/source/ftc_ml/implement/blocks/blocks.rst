@@ -93,14 +93,14 @@ example below:
    .. figure:: images/image47.png
       :align: center
 
-8. If you're using SDK 7.0 or older, select the “Upload TensorFlow Lite Model File” button and select
+8. If you're using **SDK 7.0 or older**, select the “Upload TensorFlow Lite Model File” button and select
    the model (.tflite). Then click upload.
 
 .. figure:: images/image48.png
    :width: 80%
    :align: center
    
-If you're using SDK 7.1 and newer, in the same location you'll find a TensorFlow Lite Model File 
+If you're using **SDK 7.1 and newer**, in the same location you'll find a TensorFlow Lite Model File 
 Manager link. Click on that link to take you to the model file manager, and upload your model. 
 Here you can also view other models already uploaded, rename, and delete models.
 
