@@ -125,7 +125,3 @@ jobs:
 
       - name: image-check
         run: make -C docs/ imagecheck
-
-
-
-      
