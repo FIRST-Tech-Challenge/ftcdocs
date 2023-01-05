@@ -1,3 +1,8 @@
+.. meta::
+   :title: Hardware Component Overview
+   :description: A detailed overview of the hardware components present in the FTC Control System
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, Hardware Component, Control System, Overview
+
 Hardware Component Overview
 ============================
 

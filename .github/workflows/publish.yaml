@@ -39,11 +39,16 @@ jobs:
         run: |
           echo "::set-output name=site::$(curl -H "Accept: application/vnd.github+json" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}/pages | jq -r '.html_url')"
 
+      - name: Set Short Hash
+        id: hash
+        run: echo "hash=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+        
       - name: Build site
         env:
           url: ${{ steps.getSite.outputs.site }}
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
-          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+          COOKIEBANNER: ${{ secrets.COOKIEBANNER }}
+          SPHINXOPTS: "-D html_context.commit=${{ steps.hash.outputs.hash }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: make -C docs/ official
           
       - name: Upload artifact

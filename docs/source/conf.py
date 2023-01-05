@@ -6,7 +6,7 @@ import sys
 import urllib.parse as urlparse
 
 project = 'FIRST Tech Challenge Docs'
-copyright = '2022, FIRST'
+copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 
 release = '0.1'
@@ -25,6 +25,7 @@ extensions = [
     'sphinx_design',
     'sphinx_rtd_dark_mode',
     'sphinxcontrib.googleanalytics',
+    'sphinxcontrib.cookiebanner', 
 ]
 
 autosectionlabel_prefix_document = True
@@ -110,7 +111,10 @@ sphinx_tabs_valid_builders = ["epub", "linkcheck"]
 epub_show_urls = 'footnote'
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
-#user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+# Add a timeout to linkcheck to prevent check from simply hanging on poor websites
+linkcheck_timeout = 30
 
 # Change request header to avoid 403 error because Solidworks is great like that
 linkcheck_request_headers = {
@@ -120,10 +124,14 @@ linkcheck_request_headers = {
 }
 
 # Firstinspires redirects to login and break our link checker :)
+# ftc-ml.firstinspires.org does a redirect that linkcheck hates.
+# GitHub links with Javascript Anchors cannot be detected by linkcheck
+# Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
-   r'https://github.com/.*#'
+   r'https://github.com/.*#',
+   r'https://www.solidworks.com/'
 ]
 
 latex_documents = [
@@ -154,11 +162,23 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     
     # Specify canonical root
     # This tells search engines that this domain is preferred
-    html_baseurl = os.environ.get("url")
+    html_baseurl = str(os.environ.get("url")).replace("http://", "https://")
+    
+    # Sets up sitemap and robots.txt    
+    if(html_baseurl != ""):
+        extensions.append('sphinx_sitemap')
+        
+        with open('robots.txt', 'w') as robots:
+            
+            robots.write(f'User-agent: *\n\nSitemap: {html_baseurl}sitemap.xml')
+            html_extra_path = ["robots.txt"]
+            sitemap_url_scheme = "{link}"
+
 
     # Configure Google Analytics
     googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID") 
     googleanalytics_enabled = os.environ.get("GOOGLE_ANALYTICS_ID", default = "") != ""
+    cookiebanner_enabled = os.environ.get("COOKIEBANNER", default = "") != ""
 
 # Configure RTD Theme
 html_theme_options = {

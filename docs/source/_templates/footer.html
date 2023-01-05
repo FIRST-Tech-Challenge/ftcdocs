@@ -13,47 +13,62 @@
 
   <hr/>
 
-  <div role="contentinfo">
+  <div role="contentinfo" style="display: flex">
   {%- block contentinfo %}
   
-  <div id="container" style="white-space:nowrap;">
-    
-    <p align="right" style='text-align: right' >Season Presenting Sponsor</p>
-    <figure>
-      <img src="/_static/Raytheon-400.png" alt="Raytheon Technologies" class="invert-img" width="200" align="right"/>
-    </figure>
-  
+    <div id="container" style="width: 50%; white-space:nowrap;">
+
+      <div>
+        {%- if show_copyright %}
+        {%- if hasdoc('copyright') %}
+        {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+        {%- else %}
+        &#169; 2023 <i>{%- trans copyright=copyright|e %}{{ copyright }}{% endtrans %}</i>
+        {%- endif %}
+        {%- endif %}
+      </div>
+
+      <div>
+        <a href="https://www.firstinspires.org/about/privacy-policy">Privacy Policy</a>
+      </div>
+      <div>
+        <a href="/tos/tos.html">Terms of Service</a>
+      </div>
+      <div>
+        <a href="https://www.pavesuite.com/FIRST/PublicPortal/HomePage">Report an Incident</a>
+      </div>
+
+      <div>
+        {%- if build_id and build_url %}
+        <span class="build">
+            {#- Translators: Build is a noun, not a verb -#}
+            {%- trans %}Build{% endtrans -%}
+            <a href="{{ build_url }}">{{ build_id }}</a>.
+          </span>
+        {%- elif commit %}
+        <span class="commit">
+            {#- Translators: the phrase "revision" comes from Git, referring to a commit #}
+            {%- trans %}Revision{% endtrans %} <code>{{ commit }}</code>.
+          </span>
+        {%- endif %}
+        {%- if last_updated %}
+        <span class="lastupdated">
+            {%- trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+          </span>
+        {%- endif -%}
+        {%- endblock %}
+      </div>
+    </div>
+
+    <div align="right" style='flex-grow:1; text-align: right'>
+      Season Presenting Sponsor
+      <figure>
+        <img src="/_static/Raytheon-400.png" alt="Raytheon Technologies" class="invert-img" width="200" align="right"/>
+      </figure>
+    </div>
   </div>
-    {%- if show_copyright %}
-    {%- if hasdoc('copyright') %}
-      {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-    {%- else %}
-      {%- trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
-    {%- endif %}
-  {%- endif %}
 
-    {%- if build_id and build_url %}
-      <span class="build">
-        {#- Translators: Build is a noun, not a verb -#}
-        {%- trans %}Build{% endtrans -%}
-        <a href="{{ build_url }}">{{ build_id }}</a>.
-      </span>
-    {%- elif commit %}
-      <span class="commit">
-        {#- Translators: the phrase "revision" comes from Git, referring to a commit #}
-        {%- trans %}Revision{% endtrans %} <code>{{ commit }}</code>.
-      </span>
-    {%- endif %}
-    {%- if last_updated %}
-      <span class="lastupdated">
-        {%- trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
-      </span>
-    {%- endif -%}
-
-    </p>
-  {%- endblock %}
-  </div>
-
+  <div>
   {% if show_sphinx %}
     {%- set sphinx_web = '<a href="https://www.sphinx-doc.org/">Sphinx</a>' %}
     {%- set readthedocs_web = '<a href="https://readthedocs.org">Read the Docs</a>'  %}
@@ -66,5 +81,5 @@
   {% endif %}
 
   {%- block extrafooter %} {% endblock %}
-
+  </div>
 </footer>

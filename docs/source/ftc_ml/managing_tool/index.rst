@@ -1,3 +1,8 @@
+.. meta::
+   :title: Managing the ftc-ml tool workflow
+   :description: A guide for going from novice to expert in the use of the FTC-ML tool workflow
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC
+
 Managing the ftc-ml tool workflow
 =================================
 

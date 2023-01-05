@@ -1,3 +1,8 @@
+.. meta::
+   :title: Hardware and Software Configuration
+   :description:
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, configuration
+
 Hardware and Software Configuration
 =====================================
 

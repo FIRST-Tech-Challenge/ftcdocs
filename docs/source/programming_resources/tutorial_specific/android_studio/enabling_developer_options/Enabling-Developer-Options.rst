@@ -13,7 +13,7 @@ Android Studio.
 The Android Developer website contains information on how to enable
 Developer Options onto your phone. If you visit the following link and
 read the section entitled "Enabling On-device Developer Options" you
-will see that you can enable Developer Options on you Android phone by
+will see that you can enable Developer Options on your Android phone by
 going to Settings->About phone on the phone, and then tapping the Build
 number seven times.
 
