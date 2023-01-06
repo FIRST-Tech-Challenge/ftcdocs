@@ -62,7 +62,7 @@ team software back to the master branch, whether via merges from feature branche
 Team commits are represented by purple circles, while commits containing SDK updates are represented by green circles.  In this
 instance team commits are interleaved with SDK updates, which produces a situation where the two default branches do not match.
 While this is a perfectly acceptable, and a very common branch management strategy, certain benefits can be obtained if we
-isolate the default branch that it always matches the parent.
+isolate the default branch so that it always matches the parent.
 
 .. figure:: images/clean-master.svg
    :align: center
