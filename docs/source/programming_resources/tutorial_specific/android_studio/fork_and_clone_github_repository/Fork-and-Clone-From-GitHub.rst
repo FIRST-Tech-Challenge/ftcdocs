@@ -130,9 +130,8 @@ Remotes may be referenced in git commands and a repository can have any number o
 name for the remote of a repository that has been cloned is 'origin'.  The conventional name of a remote
 that tracks the parent of a fork is 'upstream'.
 
-   .. figure:: images/two-remotes.PNG
+   .. figure:: images/two-remotes.svg
       :align: center
-      :width: 80%
       :alt: remotes
 
       A local repository with two remotes.
@@ -209,9 +208,8 @@ Updating the SDK
 To update the SDK, we simply fetch from upstream, FIRST-Tech-Challenge/FtcRobotController, the parent of your team fork,
 then merge and push to origin to complete the update.
 
-   .. figure:: images/fetch-from-upstream.PNG
+   .. figure:: images/fetch-from-upstream.svg
       :align: center
-      :width: 80%
       :alt: remotes
 
       Fetching changes from the upstream repository.
