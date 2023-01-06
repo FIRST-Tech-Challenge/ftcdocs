@@ -22,9 +22,6 @@ from their local clone to the team fork.  Local work should typically be done on
 on GitHub and merged into the team fork's repository on GitHub.  Teams should not issue pull requests against the upstream
 parent, the FIRST-Tech-Challenge/FtcRobotContoller repository, of the team fork.
 
-Branch strategies, and branching in general is beyond the scope of this document.  To learn more about branching
-please refer to `GitHub's About Branches documentation <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branchesi>`_
-
 .. figure:: images/fork-clone-diagram.PNG
    :align: center
    :width: 70%
@@ -32,14 +29,61 @@ please refer to `GitHub's About Branches documentation <https://docs.github.com/
 
    The relationship between forks and clones.  The clone exists on your local laptop while the fork exists on GitHub servers.
 
+Branch Strategies
++++++++++++++++++
+
+A branch represents an independent line of development.  The default branch for the FtcRobotController repository, and
+its forks and clones is 'master'.  Using branches judiciously can help developers collaborate on a common set of software by
+isolating changes, keeping the default branch clean, and providing space for feature development to iterate independent of
+software that's been deemed 'production ready'.
+
+.. figure:: images/branches.svg
+   :align: center
+   :alt: branches
+
+   A repository with 3 branches.
+
+Each circle represents a commit, the different colors representing different branches.
+Each branch contains all of the commits of its parent branch prior to the point in time
+when the branch was created, but all commits after that point in time are independent of the parent.  Developers can experiment,
+make changes, develop new features, all without disrupting the work of other team members.  When a developer is satisfied
+that a branch is stable enough to be shared, the branch can be merged back into the parent.
+
+It can be useful to ensure that the default branch in team forks and clones matches the default branch for
+FIRST-Tech-Challenge/FtcRobotController.  However a typical development pattern will have team developers committing
+team software back to the master branch, whether via merges from feature branches, or direct commits to master.
+
+.. figure:: images/master-comparison.svg
+   :align: center
+   :alt: branches
+
+   FIRST-Tech-Challenge/FtcRobotController master vs. typical team repository master.
+
+Team commits are represented by purple circles, while commits containing SDK updates are represented by green circles.  In this
+instance team commits are interleaved with SDK updates, which produces a situation where the two default branches do not match.
+While this is a perfectly acceptable, and a very common branch management strategy, certain benefits can be obtained if we
+isolate the default branch that it always matches the parent.
+
+.. figure:: images/clean-master.svg
+   :align: center
+   :alt: branches
+
+   Team repository's master always matches FIRST-Tech-Challenge/FtcRobotController's master branch.
+
+Following this model means that commit history for the master branch for the team's repository will always match the commit
+history for the parent's master branch.  All software that teams intend to compete with is merged into a competition branch.
+Features, new software, experiments, etc, are worked on in child branches of the competition branch and merge back into the
+competition branch, not the master branch.  SDK updates should always be conflict free, updates can be done independent of merges
+into a competition branch, and if something goes sideways when doing a merge of an SDK update into development it can be
+more straightforward to recover as opposed to backing out of an update straight into master where the branches do not match.
+
+More detailed information on the mechanics of branching can be found here `Using Branches <https://www.atlassian.com/git/tutorials/using-branches>`_
+
 Getting Started
 +++++++++++++++
 
 .. important::
-   The following assumes all operations are done on the master branch of your local repository.  The master branch
-   should be clean and should, to reduce the chances of error, always match the commit history of your fork, and your
-   fork should always match your commit history of it's parent.  Deviations from this use model are much more likely
-   to introduce complications with updates down the line.
+   The following assumes all operations are done on the master branch of your local repository.
 
 #. Obtain and install `GitForWindows <https://gitforwindows.org/>`_  This software contains a git client along with a bash shell.
    All of the command line snippets below assume you are using a bash shell and that git is in your path.  GitForWindows is
@@ -252,7 +296,6 @@ merge from master into the branch by checking out the branch and running the mer
 
       $ git checkout <feature-branch>
       $ get merge master
-
 
 
 
