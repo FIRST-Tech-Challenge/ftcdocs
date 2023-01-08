@@ -13,7 +13,7 @@ Forks vs. Clones
 ----------------
 
 A **Fork** on GitHub is a copy of another repository on GitHub from one account
-to another account. The new forked respository retains a parent-child
+to another account. The new forked repository retains a parent-child
 relationship with the origin repository. Forks are typically used when software
 will have an independent line of development, such as when FTC teams develop
 their own team code using the FIRST-Tech-Challenge/FtcRobotController
@@ -30,7 +30,7 @@ forked repository up to date.
    FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
    should never attempt to push changes up to the repo.
 
-A **Clone** is a copy of a respository, typically on a local computer. A team
+A **Clone** is a copy of a repository, typically on a local computer. A team
 member creates a branch of the team's repository for feature development, and
 clones the branch to a local computer. Software development and testing then
 happens completely within their local clone. Once they're finished, or they've
