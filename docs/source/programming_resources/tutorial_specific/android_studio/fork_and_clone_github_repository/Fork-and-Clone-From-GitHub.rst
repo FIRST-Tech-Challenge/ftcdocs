@@ -60,7 +60,7 @@ software by isolating changes, keeping the default branch clean, and providing
 space for feature development to iterate independent of software that's been
 deemed 'production ready'.
 
-.. figure:: images/branches.svg 
+.. figure:: images/branches.*
    :align: center 
    :alt: branches
 
@@ -80,7 +80,7 @@ However a typical development pattern will have team developers committing team
 software back to the master branch, whether via merges from feature branches,
 or direct commits to master.
 
-.. figure:: images/master-comparison.svg 
+.. figure:: images/master-comparison.*
    :align: center 
    :alt: FTC master vs Team master
 
@@ -94,7 +94,7 @@ branches do not match.  While this is a perfectly acceptable, and a very common
 branch management strategy, certain benefits can be obtained if we isolate the
 default branch so that it always matches the parent.
 
-.. figure:: images/clean-master.svg 
+.. figure:: images/clean-master.*
    :align: center 
    :alt: keeping branches in sync
 
@@ -254,7 +254,7 @@ repositories can linked to each other remotely.  A remote repository is simply
 defined as a version of a repository hosted somewhere else.   In the preceding
 examples, your fork of FtcRobotController is a remote of your local clone.
 
-   .. figure:: images/origin-remote.svg 
+   .. figure:: images/origin-remote.*
       :align: center 
       :alt: remote named origin
 
@@ -265,7 +265,7 @@ of remotes.  The default name for the remote of a repository that has been
 cloned is 'origin'.  The conventional name of a remote that tracks the parent
 of a fork is 'upstream'.
 
-   .. figure:: images/two-remotes.svg 
+   .. figure:: images/two-remotes.*
       :align: center 
       :alt: repo with two remotes
 
@@ -315,7 +315,7 @@ running
 This will download any changes in all branches on the remote named origin that
 are not present in the local repository.
 
-   .. figure:: images/fetch-from-origin.svg 
+   .. figure:: images/fetch-from-origin.*
       :align: center 
       :alt: fetching changes from origin
 
@@ -364,7 +364,7 @@ To update from the SDK, we simply fetch from upstream,
 FIRST-Tech-Challenge/FtcRobotController, the parent of your team fork, then
 merge and push to origin to complete the update.
 
-   .. figure:: images/fetch-from-upstream.svg 
+   .. figure:: images/fetch-from-upstream.*
       :align: center 
       :alt: Fetching changes from upstream
 
@@ -382,7 +382,7 @@ Instead of fetching from origin, fetch from upstream.
 
       $ git fetch upstream
 
-   .. figure:: images/merge-from-upstream.svg 
+   .. figure:: images/merge-from-upstream.*
       :align: center 
       :alt: Merging fetched changes
 
