@@ -40,7 +40,7 @@ merged into the team's main repository branch once it has been accepted by the
 team. Multiple different developers can work seamlessly using this process.
 
 
-.. figure:: images/fork-clone-diagram.PNG 
+.. figure:: images/fork-clone-diagram.png 
    :align: center 
    :width: 70% 
    :alt: Diagram showing the relationship between forks and clones.
@@ -137,7 +137,7 @@ Getting Started (Quick-Start Guide)
       This step requires you to have a GitHub account, and you need to be logged
       in to GitHub in order to Fork a repository.
 
-   .. figure:: images/fork.PNG 
+   .. figure:: images/fork.png 
       :align: center 
       :width: 80% 
       :alt: Forking a repo
@@ -158,7 +158,7 @@ Getting Started (Quick-Start Guide)
    your team account.  In all other respects the user interface will be
    identical.
 
-   .. figure:: images/clone.PNG 
+   .. figure:: images/clone.png 
       :align: center 
       :width: 80% 
       :alt: Cloning a repo
@@ -330,7 +330,7 @@ to get a bit confusing.  However, if you are simply merging from a remote
 master into a local master, and your local master is always tracking the
 remote, your merges should go smoothly.
 
-   .. figure:: images/merge-from-origin.PNG 
+   .. figure:: images/merge-from-origin.png 
       :align: center 
       :alt: merging fetched changes
 
