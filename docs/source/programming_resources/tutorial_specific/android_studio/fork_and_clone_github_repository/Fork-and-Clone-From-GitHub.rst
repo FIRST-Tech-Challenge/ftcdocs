@@ -13,7 +13,7 @@ Forks vs. Clones
 ----------------
 
 A **Fork** on GitHub is a copy of another repository on GitHub from one account
-to another account. The new forked respository retains a parent-child
+to another account. The new forked repository retains a parent-child
 relationship with the origin repository. Forks are typically used when software
 will have an independent line of development, such as when FTC teams develop
 their own team code using the FIRST-Tech-Challenge/FtcRobotController
@@ -30,7 +30,7 @@ forked repository up to date.
    FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
    should never attempt to push changes up to the repo.
 
-A **Clone** is a copy of a respository, typically on a local computer. A team
+A **Clone** is a copy of a repository, typically on a local computer. A team
 member creates a branch of the team's repository for feature development, and
 clones the branch to a local computer. Software development and testing then
 happens completely within their local clone. Once they're finished, or they've
@@ -40,7 +40,7 @@ merged into the team's main repository branch once it has been accepted by the
 team. Multiple different developers can work seamlessly using this process.
 
 
-.. figure:: images/fork-clone-diagram.PNG 
+.. figure:: images/fork-clone-diagram.png 
    :align: center 
    :width: 70% 
    :alt: Diagram showing the relationship between forks and clones.
@@ -137,7 +137,7 @@ Getting Started (Quick-Start Guide)
       This step requires you to have a GitHub account, and you need to be logged
       in to GitHub in order to Fork a repository.
 
-   .. figure:: images/fork.PNG 
+   .. figure:: images/fork.png 
       :align: center 
       :width: 80% 
       :alt: Forking a repo
@@ -158,7 +158,7 @@ Getting Started (Quick-Start Guide)
    your team account.  In all other respects the user interface will be
    identical.
 
-   .. figure:: images/clone.PNG 
+   .. figure:: images/clone.png 
       :align: center 
       :width: 80% 
       :alt: Cloning a repo
@@ -330,7 +330,7 @@ to get a bit confusing.  However, if you are simply merging from a remote
 master into a local master, and your local master is always tracking the
 remote, your merges should go smoothly.
 
-   .. figure:: images/merge-from-origin.PNG 
+   .. figure:: images/merge-from-origin.png 
       :align: center 
       :alt: merging fetched changes
 
