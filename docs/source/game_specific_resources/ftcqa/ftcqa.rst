@@ -31,7 +31,7 @@ The Q&A website credentials for the team will be listed under the "Game Q&A
 Forum Accounts" section of the resulting webpage.
  
 Game Q&A Summary
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 The Game Q&A tool periodically provides updates to their 
 "`one-page summary <https://ftc-qa.firstinspires.org/onepage.html>`_" of all

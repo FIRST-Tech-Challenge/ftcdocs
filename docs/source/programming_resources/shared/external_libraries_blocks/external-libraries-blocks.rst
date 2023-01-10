@@ -159,7 +159,7 @@ As a reminder, creating a myBlock requires only these two items:
    myBlock method.
 
 For more info, see the separate myBlock tutorial
-:ref:`here <programming_resources/shared/myblocks/index:custom ftc blocks (myblocks)>`.
+:ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 **Step 3C** assumes the library methods should be provided **directly**
 to the Blocks user, without even creating a myBlock. This scenario
