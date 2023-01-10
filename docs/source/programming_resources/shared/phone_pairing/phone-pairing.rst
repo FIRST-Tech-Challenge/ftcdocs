@@ -1,11 +1,11 @@
-FTC Phone Pairing
-==================
+Phone Pairing
+=============
 
 Introduction
 ------------
 
-The recent generation of FTC apps (6.2, 7.0 and 7.1) is extremely
-reliable for pairing, including between **all models of FTC-legal
+The recent generation of apps (6.2, 7.0 and 7.1) is extremely
+reliable for pairing, including between **all models of legal
 phones**.
 
 When the Android phones have been suitably prepared, pairing via Wi-Fi
@@ -17,7 +17,7 @@ This article does not cover the REV Control Hub or REV Driver Hub.
 Legal Phones
 ------------
 
-As of Freight Frenzy in 2021-2022, these are legal FTC phones: -
+As of Freight Frenzy in 2021-2022, these are legal phones: -
 Motorola Moto G 2nd Generation - Motorola Moto G 3rd Generation -
 Motorola Moto G4 Play (XT1607, XT1609) - Motorola Moto G5 - Motorola
 Moto G5 Plus - Motorola Moto E4 (XT1765, XT1765PP, XT1766, XT1767) -
@@ -27,12 +27,12 @@ Motorola Moto E5 (XT1920) - Motorola Moto E5 Play (XT1921)
 Phone Cleanup and Prep
 ----------------------
 
-1. On RC phone: if needed, select Settings/Accounts/Google/select/3
-   dots/Remove account/confirm. Repeat for any other accounts. Also
-   remove any non-FTC apps/games that might run in the background or
-   attempt updates.
+1. On RC phone: if needed, select Settings/Accounts/Google/select/3 dots/Remove
+   account/confirm. Repeat for any other accounts. Also remove any non-*FIRST*
+   Tech Challenge apps/games that might run in the background or attempt
+   updates.
 
-2. On RC phone: force quit (swipe away) all apps, including FTC app.
+2. On RC phone: force quit (swipe away) all apps, including the RC app.
 
 3. RC phone, Apps/Settings/Wi-Fi. Manually select and Forget any saved
    Networks.
@@ -41,7 +41,7 @@ Phone Cleanup and Prep
    Settings or Advanced).
 
 -  Select and forget/disconnect any connections with Peer Devices,
-   including the current FTC phone pairing. This may take a few tries;
+   including the current phone pairing. This may take a few tries;
    OK to give up if disconnect not acknowledged.
 
    -  If the top item shows ‘Created Group’, Disconnect it.
@@ -51,14 +51,14 @@ Phone Cleanup and Prep
       the RC phone.
    -  Pairing will be done later in the apps; see below.
 
--  Select and Forget all Remembered Groups, including any FTC phone
+-  Select and Forget all Remembered Groups, including ANY phone
    pairings. (This can also be done from Advanced RC Settings from
-   either FTC app.) Your goal after steps d1 and d2: ‘Not visible’, no
+   either app.) Your goal after steps d1 and d2: ‘Not visible’, no
    ‘Peer devices’, no ‘Remembered groups’.
 
 -  If needed, Rename/Configure phone now to legal name,
    e.g. 12345-A-RC or 12345-RC. (This can also be done from Settings in
-   each FTC app.)
+   each app.)
 
 -  Optional for Moto phones only: Configure device/Limit 2 devices,
    ‘Inactivity timeout’ Never, check box ‘Auto connect remembered

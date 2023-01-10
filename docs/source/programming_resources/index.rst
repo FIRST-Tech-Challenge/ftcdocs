@@ -6,8 +6,8 @@
 Programming Resources
 =====================
 
-This page contains programming tutorials and related FTC Control System
-documentation useful for configuring and programming FTC Control System
+This page contains programming tutorials and related Control System
+documentation useful for configuring and programming Control System
 components.
 
 Programming Tutorials
@@ -35,12 +35,12 @@ Programming Tutorials
 Supporting Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-FTC Control System Supporting Documentation
+Control System Supporting Documentation
 
--  :doc:`FTC Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`
+-  :doc:`Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`
 -  :doc:`Required Materials <shared/required_materials/Required-Materials>`
 -  :doc:`Using Your Android Device <shared/using_android_device/Using-Your-Android-Device>`
--  :doc:`FTC Phone Pairing <shared/phone_pairing/phone-pairing>`
+-  :doc:`Phone Pairing <shared/phone_pairing/phone-pairing>`
 -  :doc:`Configuring Your Android Devices <shared/configuring_android/Configuring-Your-Android-Devices>`
 -  :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
 -  :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
@@ -87,7 +87,7 @@ Advanced Topics for Programmers
 Vision Programming
 ~~~~~~~~~~~~~~~~~~~
 
-Learning more about using vision in FTC
+Learning more about using vision
 
 .. toctree::
    :maxdepth: 1

@@ -18,8 +18,7 @@ clicking on the “Start Training” button brings up a pop-up window as
 seen in Figure 9. Here you’re able to tweak several options:
 
 -  **Starting Model** –The typical starting model size is the SSD
-   MobileNet v2 320x320, and this is the default recommended model type
-   for FTC.
+   MobileNet v2 320x320, and this is the default recommended model type.
 
 -  **Number of Training Steps** – “Steps” are the basic “work unit” for
    training a model. A specific number of training frames are processed

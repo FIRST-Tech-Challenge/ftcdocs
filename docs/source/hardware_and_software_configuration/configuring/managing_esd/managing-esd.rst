@@ -18,14 +18,14 @@ quantifies the efficacy of various ESD mitigation techniques:
 `Eric Chin’s White Paper on ESD Mitigation Techniques and their
 Efficacy <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`__
 
-Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the
-work they did to model the problems caused by ESD and to evaluate
-different techniques to mitigate the risk caused by this phenomenon.
-Also special thanks to FTC Teams 2844, 8081, 10523, 10523a, and 10984,
-and the volunteer team from Arizona (including Robert Garduno, Susan
-Garduno, Richard Gomez, Matthew Rainey, Christine Sapio, Patricia
-Strones, and David Thompson) for assisting in testing some of these
-mitigation techniques under the hot desert sun!
+Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work they
+did to model the problems caused by ESD and to evaluate different techniques to
+mitigate the risk caused by this phenomenon.  Also special thanks to *FIRST*
+Tech Challenge Teams 2844, 8081, 10523, 10523a, and 10984, and the volunteer
+team from Arizona (including Robert Garduno, Susan Garduno, Richard Gomez,
+Matthew Rainey, Christine Sapio, Patricia Strones, and David Thompson) for
+assisting in testing some of these mitigation techniques under the hot desert
+sun!
 
 What is an Electrostatic Discharge Event?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,13 +59,13 @@ is called the triboelectric effect.
 
    Robots become charged due to the triboelectric effect.
 
-A robot’s wheels moving on field tiles build charge on the robot frame
-just like your wool socks moving on carpet build charge on your body.
-Many other plastic and rubber materials behave similarly. It is
-important to note that triboelectric charging takes charge from one
-object and gives it to another, so the charges are mirrored. In the case
-of an FTC robot, positive charge accumulates on the wheels and negative
-charge accumulates on the tiles.
+A robot’s wheels moving on field tiles build charge on the robot frame just
+like your wool socks moving on carpet build charge on your body.  Many other
+plastic and rubber materials behave similarly. It is important to note that
+triboelectric charging takes charge from one object and gives it to another, so
+the charges are mirrored. In the case of a *FIRST* Tech Challenge robot,
+positive charge accumulates on the wheels and negative charge accumulates on
+the tiles.
 
 Note that a robot with wheels that slide across the soft tiles of a
 competition field will build electrostatic charge on its frame more

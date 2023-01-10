@@ -45,7 +45,7 @@ More info about updating the Control Hub OS is
 .. dropdown:: Method 2 - Manage page on computer
 
    1. Connect the computer via Wi-Fi to the Control Hub. In the Chrome
-      browser, open the FTC interface.
+      browser, open the *FIRST* Tech Challenge interface.
 
    2. Click on the Manage tab, scroll down to Update Control Hub Operating
       System.

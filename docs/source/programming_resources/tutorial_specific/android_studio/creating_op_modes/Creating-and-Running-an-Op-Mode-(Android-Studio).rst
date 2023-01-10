@@ -4,10 +4,10 @@ Creating and Running an Op Mode (Android-Studio)
 TeamCode Module
 ~~~~~~~~~~~~~~~
 
-If you successfully imported the FTC Android Studio project folder, you
+If you successfully imported the Android Studio project folder, you
 will see on the project browser an Android module named ``TeamCode``. The
-FTC Android Studio project folder will be used to build a version of the
-FTC Robot Controller app that includes the custom op modes that you will
+Android Studio project folder will be used to build a version of the
+Robot Controller app that includes the custom op modes that you will
 write to control your competition robot.
 
 .. image:: images/teamcodeFolder.jpg
@@ -17,14 +17,14 @@ write to control your competition robot.
 
 When you create your classes and op modes, you will to create them in
 the ``org.firstinspires.ftc.teamcode`` package that resides in the TeamCode
-module. This package is reserved for your use within the FTC Android
+module. This package is reserved for your use within the Android
 Studio project folder.
 
 Javadoc Reference Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Javadoc reference documentation for the FTC SDK is available online.
-Visit the following URL to view the FTC SDK documentation:
+The Javadoc reference documentation for the SDK is available online.
+Visit the following URL to view the SDK documentation:
 
 *  https://javadoc.io/doc/org.firstinspires.ftc
 
@@ -50,7 +50,7 @@ Sample Op Modes
 ~~~~~~~~~~~~~~~
 
 A great way to learn how to program a robot is to examine the sample op
-modes that are included with the FTC Android Studio project folder. You
+modes that are included with the Android Studio project folder. You
 can locate these files in the FtcRobotController module in the package
 ``org.firstinspires.ftc.robotcontroller.external.samples``.
 
@@ -350,11 +350,11 @@ Make sure that you select the correct target device. In the figure above
 the Motorola phone is selected as the target device. Hit OK to build the
 APK file and install it on the target device.
 
-Note that if you previously installed a copy of the FTC Robot Controller
+Note that if you previously installed a copy of the Robot Controller
 app from the Google Play store, the installation of your newly built app
 will fail the first time you attempt to install it. This is because
 Android Studio detects that the app that you just build has a different
-digital signature than the official version of the FTC Robot Controller
+digital signature than the official version of the Robot Controller
 app that was installed from Google Play.
 
 .. image:: images/ApplicationInstallFailed.jpg

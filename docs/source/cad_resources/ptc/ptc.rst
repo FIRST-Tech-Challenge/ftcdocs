@@ -27,9 +27,9 @@ free to *FIRST* teams.
 PTC Onshape Training Videos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-FTC-specific Training Videos
+*FIRST* Tech Challenge specific Training Videos
 
-*  `Using the FTC Library with Onshape <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`__
+*  `Using the FIRST Tech Challenge Library with Onshape <https://ftconshape.com/introduction-to-the-ftc-parts-library/>`__
 
 Select PTC Learning Pathway Training Series (available on OnShape login)
 
