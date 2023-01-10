@@ -310,7 +310,7 @@ and output, an example of a ‘wrapper method’.
 Note that myHypotenuse() is a ``static`` method, required for all
 myBlock methods. Also note that parameter labels are allowed to be
 different than the actual method parameters. Learn more about myBlocks
-:ref:`here <programming_resources/shared/myblocks/index:custom ftc blocks (myblocks)>`.
+:ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 Here is the myBlock that will appear in the Blocks toolbox (menu):
 
