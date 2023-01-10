@@ -3,7 +3,7 @@ More about Parameter Types
 
 Do not type or run the following myBlock example. Its dummy inputs
 simply illustrate various **parameter types**. This myBlock does
-correctly read the robot battery voltage, but FTC Blocks now offers a
+correctly read the robot battery voltage, but Blocks now offers a
 **VoltageSensor** Block in the **Sensors** menu.
 
 .. figure:: images/a0280-batteryVoltage.png

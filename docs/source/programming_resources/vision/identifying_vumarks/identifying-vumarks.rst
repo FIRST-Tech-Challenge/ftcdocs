@@ -25,13 +25,13 @@ then the robots should try and score their preloaded game elements into
 the leftmost goal during the autonomous portion of that match.
 
 Note that the VuMark-related features of the software are only available
-with *version 3.3* of the FTC software (Robot Controller and Driver
+with *version 3.3* of the SDK software (Robot Controller and Driver
 Station) and higher.
 
 Example Blocks VuMark Op Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version 3.3 and higher of the FTC Robot Controller app includes a sample
+Version 3.3 and higher of the Robot Controller app includes a sample
 op mode that demonstrates how to check for VuMarks and extract the
 hidden information when a VuMark is identified. To create an op mode
 based on this VuMark Example, click on the “Create New Op Mode” button,
@@ -140,7 +140,7 @@ Example Java VuMark Op Mode
 If you are a Java Programmer, there is a sample op mode that
 demonstrates how to check for and identify VuMarks in a Java op mode.
 The sample op mode is named “ConceptVuMarkIdentification” and it’s
-available through both the FTC OnBot Java Programming Tool user
+available through both the OnBot Java Programming Tool user
 interface, and in the ftc_app Android Studio project. If you are an
 OnBot Java user, when you create a new op mode, you should be able to
 see the item “ConceptVuMarkIdentification” listed in the drop down list
@@ -183,7 +183,7 @@ This variable will be a reference to the instance of the Vuforia
 localization/tracking engine.
 
 In the method runOpMode() the first two statements are used to configure
-the system to display a camera monitor window on the FTC Robot
+the system to display a camera monitor window on the Robot
 Controller app, as the op mode is running. The first statement (see
 below) gets the id of the Android view that will be used to display
 camera output as the op mode is running. The second statement creates a

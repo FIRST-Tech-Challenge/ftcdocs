@@ -5,10 +5,10 @@ Sensors
    As per :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
    a UVC Webcam is not considered a sensor.
 
-Listed below are a couple examples of common sensors in FTC. This is not
+Listed below are a couple examples of common robot sensors. This is not
 intended to limit or extend in anyway the scope of sensors as established in
-``<RE12>``. While the FTC SDK supports many sensors not all are natively
-supported.
+``<RE12>``. While the *FIRST* Tech Challenge SDK supports many sensors not all
+are natively supported.
 
 Examples
 ----------
@@ -285,7 +285,7 @@ Potentiometer
       50k Ohm Potentiometer
 
 A Potentiometer is a device that changes the output voltage based upon the
-degree to which the adjuster is turned. It is often used in FTC as a form of
+degree to which the adjuster is turned. It is often used as a form of
 measuring the absolute orientation of an axle. The manner in which the output
 voltage change is subject to change based on the Potentiometer that is used.
 Such a device is typically attatched via the analog port of the REV Hub.

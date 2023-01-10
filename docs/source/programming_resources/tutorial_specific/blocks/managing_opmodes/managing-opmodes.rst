@@ -7,7 +7,7 @@ other text-based programming language file. Blocks programs are saved with a
 **.blk** extension, but its contents are actually formatted as XML (Extensible
 Markup Language).  The actual XML format in a Blocks program is beyond the
 scope of this document, except to say that it's not intended to be
-read/viewed/interpreted by any other program than FTC Blocks. There is not a
+read/viewed/interpreted by any other program than Blocks. There is not a
 general program on a MAC or a PC that can view or edit the Blocks program, it
 must always be done through the Blocks interface within the Robot Controller
 App (running on a REV Control Hub or legal Android SmartPhone) - that is, to
@@ -32,7 +32,7 @@ or you are using a program *acting* as a web browser (REV Hardware Client,
 etc.).  The program that you are creating/editing only *ephemerally* exists
 within the web browser; there is no auto-save or feature to ensure that the
 program is ultimately saved back onto the device (REV Control Hub or approved
-FTC SmartPhone) for use by a robot. Only the *SAVE* operation will actually
+SmartPhone) for use by a robot. Only the *SAVE* operation will actually
 save the OpMode to a **.blk** file onto the device. Therefore, it's imperative
 that Blocks programmers *SAVE* their work often, and especially once they have
 completed their work. The mechanism by which you can *SAVE* an OpMode is via

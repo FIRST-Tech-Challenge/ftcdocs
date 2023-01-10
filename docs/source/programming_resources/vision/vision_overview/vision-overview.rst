@@ -4,8 +4,8 @@ Computer Vision Overview
 Introduction
 ------------
 
-The FTC control system software has built-in support for two computer
-vision technologies:
+The *FIRST* Tech Challenge control system software has built-in support for two
+computer vision technologies:
 
 1. Vuforia -
    `Vuforia <https://www.ptc.com/en/products/vuforia>`__
@@ -34,7 +34,7 @@ vision technologies:
       the identified object.
    -  A robot can use this location information to navigate to the
       recognized object.
-   -  Note that in the FTC control system, the TensorFlow software uses
+   -  Note that in the control system, the TensorFlow software uses
       the Vuforia software to “grab” images from the camera while it is
       looking for or tracking game elements.
 

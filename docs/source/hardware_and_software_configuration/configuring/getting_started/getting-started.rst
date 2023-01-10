@@ -59,14 +59,21 @@ Note that when the OTG adapter is plugged into the smartphone, the phone will de
 5. The first time you connect the Robot Controller smartphone to the  
 Expansion Hub, the Android operating system should prompt you to ask  
 if it is OK to associate the newly detected USB device (which is the  
-Expansion Hub) with the FTC Robot Controller app.                     
+Expansion Hub) with the Robot Controller app.                     
 
 .. image:: images/ConfiguringHardwareStep5.jpg
    :align: center
 
 |
 
-.. important:: You might be prompted multiple times to associate the USB hardware with the FTC Robot Controller.  Whenever you are prompted by your phone with this message, you should always select the "Use by default for this USB device" option and hit the "OK" button to associate the USB device with the FTC Robot Controller app. If you fail to make this association, then the Robot Controller app might not reliably connect to this Expansion Hub the next time you turn your system on.
+.. important:: 
+   You might be prompted multiple times to associate the USB hardware with the
+   Robot Controller.  Whenever you are prompted by your phone with this
+   message, you should always select the "Use by default for this USB device"
+   option and hit the "OK" button to associate the USB device with the Robot
+   Controller app. If you fail to make this association, then the Robot
+   Controller app might not reliably connect to this Expansion Hub the next
+   time you turn your system on.
 
 Getting the Control Hub Ready
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

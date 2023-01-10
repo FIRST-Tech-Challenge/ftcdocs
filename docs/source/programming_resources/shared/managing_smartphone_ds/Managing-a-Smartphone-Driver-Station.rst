@@ -5,7 +5,7 @@ REV Driver Hub
 ~~~~~~~~~~~~~~
 
 The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__
-is preloaded with the FTC Driver Station (DS) app. The procedures
+is preloaded with the Driver Station (DS) app. The procedures
 described below for a DS phone, also apply to a REV Driver Hub.
 
 Changing the Name
@@ -73,12 +73,12 @@ STATION* section.
 
 |
 
-As of 2021, the FTC apps (v 6.1 and higher) are not available on Google
+As of 2021, all apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to FTC devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and FTC-approved Android devices. Here
+will allow you to download the apps to approved devices: REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and approved Android devices. Here
 are some of the benefits: 
 
 -  Connect a REV Control Hub via WiFi. 
@@ -88,13 +88,13 @@ are some of the benefits:
 -  Install and switch between DS and RC applications on Android Devices. 
 -  Access the Robot Control Console on the Control Hub.
 
-All FTC teams using Blocks, OnBot Java or Android Studio can use the REV
+All teams using Blocks, OnBot Java or Android Studio can use the REV
 Hardware Client to update the Driver Station (DS) app on a DS phone.
 
 NOTE: it will take an estimated 7.5 minutes per device to complete this
 task.
 
-As an alternate, the FTC app releases are available on the
+As an alternate, the app releases are available on the
 `FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
 Download the Driver Station APK file to a computer, transfer it to the
 DS phone's Downloads folder, then open that file to install the DS app.

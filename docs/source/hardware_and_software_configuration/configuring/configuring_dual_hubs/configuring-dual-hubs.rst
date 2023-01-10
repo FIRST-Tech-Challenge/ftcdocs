@@ -33,10 +33,10 @@ need the following items:
    * - Required Item(s)  
      - Image
 
-   * - Two (2) FIRST-approved Android smartphones. One should have the FTC Robot 
-       Controller app installed and the other should have the FTC Driver Station 
+   * - Two (2) FIRST-approved Android smartphones. One should have the Robot 
+       Controller app installed and the other should have the Driver Station 
        app installed. For a list of FIRST-approved Android  smartphones, refer 
-       to the current FTC Game Manual Part 1, rule <RE06>.
+       to the current Game Manual Part 1, rule <RE06>.
      - .. figure:: images/twoAndroidPhones.jpg
 
    * -  USB Type A male to type mini-B male cable.
@@ -52,7 +52,7 @@ need the following items:
      - .. figure:: images/TamiyaAdapter.jpg
 
    * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of 
-       FIRST-approved 12V batteries, refer to the current FTC Game Manual 
+       FIRST-approved 12V batteries, refer to the current Game Manual 
        Part 1, rule <RE03>.
      - .. figure:: images/Battery.jpg
    
@@ -122,7 +122,7 @@ addresses that are also not equal to 1.
 Changing the Address of an Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use the Advanced Settings menu of the FTC Robot Controller App
+You can use the Advanced Settings menu of the Robot Controller App
 to change the address of an Expansion Hub. Note that it is recommended
 that when you change the address of an Expansion Hub, you only connect
 one Expansion Hub to the Robot Controller during the change address

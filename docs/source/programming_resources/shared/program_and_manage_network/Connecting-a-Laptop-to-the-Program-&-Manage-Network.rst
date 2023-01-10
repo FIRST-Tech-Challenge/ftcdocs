@@ -30,7 +30,7 @@ access information.
 |
 
 2. The Program & Manage screen displays important information that    
-you can use to connect your laptop to the FTC Blocks or OnBot Java    
+you can use to connect your laptop to the Blocks or OnBot Java    
 Programming Mode server.                                              
 
 .. image:: images/ProgramAndManageScreen.jpg

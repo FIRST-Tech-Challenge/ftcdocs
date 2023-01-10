@@ -67,9 +67,9 @@ You can change the operating channel using the Advanced Settings menu on
 the Robot Controller or Driver Station.
 
 .. warning:: Not every Android phone supports channel changing
-   through the FTC software. Refer to rule <RE06> in the game manual for a
+   through the software. Refer to rule <RE06> in the game manual for a
    list of *FIRST*-approved phones that support channel changing through
-   the FTC software.
+   the software.
 
 Changing the WiFi Channel Instructions
 --------------------------------------
@@ -311,12 +311,12 @@ the App Version number under the *ABOUT ROBOT CONTROLLER* section.
 
 |
 
-As of 2021, the FTC apps (v 6.1 and higher) are not available on Google
+As of 2021, the apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to FTC devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and FTC-approved Android devices. Here
+will allow you to download the apps to approved devices: REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and approved Android devices. Here
 are some of the benefits: 
 
 *  Connect a REV Control Hub via WiFi. 
@@ -326,13 +326,13 @@ are some of the benefits:
 *  Install and switch between DS and RC applications on Android Devices. 
 *  Access the Robot Control Console on the Control Hub.
 
-FTC teams using Blocks or OnBot Java for programming can use the REV
+Teams using Blocks or OnBot Java for programming can use the REV
 Hardware Client to update the Robot Controller (RC) app on an RC phone.
 
 Note it will take an estimated 7.5 minutes per device to complete this
 task.
 
-As an alternate, the FTC app releases are available on the
+As an alternate, the app releases are available on the
 `FTCRobotController
 Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
 Download the Robot Controller APK file to a computer, transfer it to the
@@ -345,7 +345,7 @@ This process is called "side-loading".
 
 .. important:: Teams using Android Studio should not update the RC
    app with the REV Hardware Client or by side-loading. Instead, by
-   updating to the newest version of the FTC Android Studio project folder,
+   updating to the newest version of the Android Studio project folder,
    you will update the Robot Controller app when you build the project and
    install it on your RC device. You can download the newest version of the
    project folder
@@ -360,7 +360,7 @@ custom calibration files and then upload these files to a Control Hub.
 
 A commented example of what the contents of a calibration file should
 look like can be found in a file called *teamwebcamcalibrations.xml*,
-which is included with the FTC Android Studio project folder. 
+which is included with the Android Studio project folder. 
 This example calibration file can be found
 `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__.
 

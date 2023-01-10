@@ -12,12 +12,12 @@ configuring, programming, and operating your Control System. This
 tutorial uses the *Blocks Programming Tool* to help you get started
 quickly.
 
-The FTC Blocks Programming Tool is a visual design tool that lets
+The Blocks Programming Tool is a visual design tool that lets
 programmers use a web browser to create, edit and save their *op modes*.
 
 *FIRST* recommends getting starting with Blocks, even if you are an
 experienced programmer. Using Blocks is the *easiest* and *fastest* way
-to get acquainted with the FTC Control System!
+to get acquainted with the Control System!
 
 .. image:: images/BlocksPicture1.jpg
    :align: center
@@ -30,7 +30,7 @@ to get acquainted with the FTC Control System!
 
 1. Introduction
    
-   -  :doc:`The FTC Control System <../shared/control_system_intro/The-FTC-Control-System>`
+   -  :doc:`The Control System <../shared/control_system_intro/The-FTC-Control-System>`
    -  :doc:`Required Materials <../shared/required_materials/Required-Materials>`
    -  :doc:`Using Your Android Device <../shared/using_android_device/Using-Your-Android-Device>`
 
