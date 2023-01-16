@@ -114,21 +114,6 @@ of development.
 It can be useful to ensure that the default branch in team forks and clones matches the default branch for
 FIRST-Tech-Challenge/FtcRobotController.  However a typical development pattern will have team developers committing
 team software back to the master branch, whether via merges from feature branches, or direct commits to master.
-=======
-Each circle represents a commit, the different colors representing different
-branches.  Each branch contains all of the commits of its parent branch prior
-to the point in time when the branch was created, but all commits after that
-point in time are independent of the parent.  Developers can experiment, make
-changes, develop new features, all without disrupting the work of other team
-members.  When a developer is satisfied that a branch is stable enough to be
-shared, the branch can be merged back into the parent.
-
-It can be useful to ensure that the default branch in team forks and clones
-matches the default branch for FIRST-Tech-Challenge/FtcRobotController.
-However a typical development pattern will have team developers committing team
-software back to the master branch, whether via merges from feature branches,
-or direct commits to master.
->>>>>>> origin/2022.1.5-updating-the-sdk
 
 .. figure:: images/master-comparison.*
    :align: center 
@@ -501,8 +486,16 @@ commit that represents the new, old, SDK version.
 Versions in the SDK follow a standard `semantic versioning <https://semver.org/>`_ scheme.  When a new SDK version is released, the FTC
 engineering team pushes a release candidate branch to FIRST-Tech-Challenge/FtcRobotController, then merges that branch into master.  This
 results in two commits, the new SDK version commit that contains all the good stuff, and a merge commit representing the merge from the
-candidate branch into master.  The release is then formally cut, where a tag is then created, on the merge commit.  Tags always follow the
-semantic versioning rules.  e.g. v7.0, v7.1, v7.2, v8.0, etc.
+candidate branch into master.  The release is then formally cut, where a tag is then created, on the merge commit.
+
+Tags from remotes are not automatically copied into a repository on a clone.  To retrieve tags execute.
+
+   .. code-block:: console
+
+      $ git fetch --all --tags
+
+The --all option fetches at once from all remotes, the --tags option tells git to fetch the tags.
+Tags always follow the semantic versioning rules.  e.g. v7.0, v7.1, v7.2, v8.0, etc.
 
    .. figure:: images/revert.png
       :align: center
@@ -517,3 +510,27 @@ compiling against v7.2 use.
 
       $ git revert -Xtheirs v8.0^2
 
+Summary
+=======
+
+Assumes all commands are run from the root directory of your local clone.  Also assumes you are not committing team code to your local
+master branch, but instead are working in a competition branch.
+
+Add FIRST-Tech-Challenge/FtcRobotController as a remote
+-------------------------------------------------------
+
+   .. code-block:: console
+
+      $ git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
+
+Update the to latest SDK version
+--------------------------------
+
+   .. code-block:: console
+
+      $ git checkout master
+      $ git fetch upstream
+      $ git merge upstream/master
+      $ git push origin master
+      $ git checkout competition
+      $ git merge master
