@@ -321,19 +321,18 @@ To see what remote are established for a given repository
 
 To add the parent of your team's fork as a remote of your local clone
 
-
    .. code-block:: console
 
       $ git remote add upstream
       https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
 
 .. important::
-   By locally setting the FIRST Tech Challenge FtcRobotController repository as
-   an upstream remote on a branch clone, this allows you to be able to fetch
-   and merge changes to the FIRST-Tech-Challenge/FtcRobotController within your
-   branch clone.  This is very powerful. If the reason why this is important
-   isn't immediately obvious, please re-read the two paragraphs under header
-   marked ``Updating your Fork and Local Clone`` above.
+   Setting the FIRST Tech Challenge FtcRobotController repository as
+   an upstream remote of your local clone, allows you to fetch
+   changes from the FIRST-Tech-Challenge/FtcRobotController to your
+   local clone using the alias name 'upstream'.  This is very powerful.
+   If the reason why this is important isn't immediately obvious, please re-read the
+   two paragraphs under header marked ``Updating your Fork and Local Clone`` above.
 
 **The rest of this tutorial assumes that you have added
 FIRST-Tech-Challenge/FtcRobotController as an upstream in your local clone.**
@@ -402,6 +401,12 @@ a deep respect for the process.
 Updating the SDK to the Latest Version
 ......................................
 
+.. important::
+   Remember to use ``git remote -v`` to ensure that the upstream has been set
+   as a remote on your clone. If not, be sure to review the "Remotes" section
+   again to add the FtcRobotController repository to the upstream remote on
+   your clone.
+
 To update from the SDK, we simply fetch from upstream,
 FIRST-Tech-Challenge/FtcRobotController, the parent of your team fork, then
 merge and push to origin to complete the update.
@@ -416,13 +421,6 @@ Instead of fetching from origin, fetch from upstream.  This copies in any commit
 In the diagram above that is the v8.0 commit.  Your local master is not changed.  It is still pointing to, and representing, the v7.2
 commit.  Since a commit is a complete snapshot of a workspace at a point in time, nothing changes in your workspace, but your
 repository has a new commit with the branch name upstream/master.
-
-.. important::
-   Remember to use ``git remote -v`` to ensure that the upstream has been set
-   as a remote on your clone. If not, be sure to review the "Remotes" section 
-   again to add the FtcRobotController repository to the upstream remote on
-   your clone.
-
 
    .. code-block:: console
 
