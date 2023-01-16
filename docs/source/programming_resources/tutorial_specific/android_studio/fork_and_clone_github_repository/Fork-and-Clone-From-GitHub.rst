@@ -399,7 +399,7 @@ can you learn to effectively manage conflicts. Always approach with patience and
 a deep respect for the process.
 
 Updating the SDK to the Latest Version
-......................................
+======================================
 
 .. important::
    Remember to use ``git remote -v`` to ensure that the upstream has been set
@@ -426,7 +426,7 @@ repository has a new commit with the branch name upstream/master.
 
       $ git fetch upstream
 
-   .. figure:: images/merge-from-upstream.*
+   .. figure:: images/merge-from-upstream.png
       :align: center
       :alt: remotes
 
@@ -463,8 +463,9 @@ as this is where you are most likely to encounter merge conflicts.
       $ git checkout <feature-branch> 
       $ get merge master
 
+
 Downgrading the SDK to a Previous Version
-.........................................
+-----------------------------------------
 
 Typically, the working branch of a local repository, whether it's master, or a competition branch will eventually contain a
 series team commits interleaved with SDK update commits.  In this scenario a team can not simply roll back to a prior SDK
