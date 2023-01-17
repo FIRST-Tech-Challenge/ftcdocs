@@ -470,7 +470,7 @@ Downgrading the SDK to a Previous Version
 -----------------------------------------
 
 Typically, the working branch of a local repository, whether it's master, or a competition branch will eventually contain a
-series team commits interleaved with SDK update commits.  In this scenario a team can not simply roll back to a prior SDK
+series of team commits interleaved with SDK update commits.  In this scenario a team can not simply roll back to a prior SDK
 version without also rolling back all of their team commits.  Consider the following diagram.
 
    .. figure:: images/sample-rollback.png
