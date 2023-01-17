@@ -16,9 +16,9 @@ A **Fork** on GitHub is a copy of another repository on GitHub from one account
 to another account. The new forked repository retains a parent-child
 relationship with the origin repository. Forks are typically used when software
 will have an independent line of development, such as when FTC teams develop
-their own team code using the FIRST-Tech-Challenge/FtcRobotController
+their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
 repository as a basis.  FTC teams should create a Fork of the
-FIRST-Tech-Challenge/FtcRobotController repository as a convenient way to
+`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
 manage their software development process. Thanks to the parent-child
 relationship, when changes are made to the parent repository those changes can
 be easily tracked and fetched/merged into the forked repository, keeping the
