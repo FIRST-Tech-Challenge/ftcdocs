@@ -66,7 +66,9 @@ deemed 'production ready'.
 
    A single branch with the default name of master
 
-Each circle represents a commit.
+Each circle represents a commit to a branch. The name of the branch always points to the most recent
+commit, also known as the *head* of the branch. Each new commit also has a pointer to the previous
+*head* commit, represented by an arrow in the image.
 
 A commit is a snapshot of the entire workspace at a point in time.  Git does not store diffs.  If you make a change to a file, and
 create a new commit with the changed file, it stores the entire changed file in the commit.  To avoid unnecessary
@@ -399,7 +401,7 @@ can you learn to effectively manage conflicts. Always approach with patience and
 a deep respect for the process.
 
 Updating the SDK to the Latest Version
-======================================
+--------------------------------------
 
 .. important::
    Remember to use ``git remote -v`` to ensure that the upstream has been set
@@ -510,20 +512,20 @@ compiling against v7.2 use.
       $ git revert -Xtheirs v8.0^2
 
 Summary
-=======
+-------
 
 Assumes all commands are run from the root directory of your local clone.  Also assumes you are not committing team code to your local
 master branch, but instead are working in a competition branch.
 
 Add FIRST-Tech-Challenge/FtcRobotController as a remote
--------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. code-block:: console
 
       $ git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
 
 Update the to latest SDK version
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. code-block:: console
 
