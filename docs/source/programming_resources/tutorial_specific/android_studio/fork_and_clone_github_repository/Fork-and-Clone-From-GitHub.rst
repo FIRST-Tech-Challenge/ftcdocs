@@ -67,8 +67,9 @@ deemed 'production ready'.
    A single branch with the default name of master
 
 Each circle represents a commit to a branch. The name of the branch always points to the most recent
-commit, also known as the *head* of the branch. Each new commit also has a pointer to the previous
-*head* commit, represented by an arrow in the image.
+commit, also known as the HEAD.  While there may be many branches, there is only one HEAD and it always,
+unless it is in a `detached state <https://www.git-scm.com/docs/git-checkout#_detached_head>`_, points to the
+latest commit of the currently checked out branch.  All other commits point to their immediate parent.
 
 A commit is a snapshot of the entire workspace at a point in time.  Git does not store diffs.  If you make a change to a file, and
 create a new commit with the changed file, it stores the entire changed file in the commit.  To avoid unnecessary
@@ -484,10 +485,16 @@ new merge commit that reverts the 8.0 commit.  Do not revert merge commits, e.g.
 represents the divergence of the the two branches that were merged.  This is not what you want.  You want to revert the parent of the merge
 commit that represents the new, old, SDK version.
 
-Versions in the SDK follow a standard `semantic versioning <https://semver.org/>`_ scheme.  When a new SDK version is released, the FTC
-engineering team pushes a release candidate branch to FIRST-Tech-Challenge/FtcRobotController, then merges that branch into master.  This
-results in two commits, the new SDK version commit that contains all the good stuff, and a merge commit representing the merge from the
-candidate branch into master.  The release is then formally cut, where a tag is then created, on the merge commit.
+A Short Digression on Tags
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A tag is simply a named pointer to a commit, that unlike a branch pointer, or HEAD, never moves.  Since a commit is a snapshot in
+time of an entire workspace, this allows a developer to *tag* a point in time in an immutable fashion.
+*FIRST* uses tags to track SDK versions through a standard `semantic versioning <https://semver.org/>`_ naming scheme.  When a new
+SDK version is released, the FTC engineering team pushes a release candidate branch to FIRST-Tech-Challenge/FtcRobotController, then merges
+that branch into master.  This results in two commits, the new SDK version commit that contains all the good stuff, and a merge commit
+representing the merge from the candidate branch into master.  The release is then formally cut, where a tag is then created,
+on the merge commit.
 
 Tags from remotes are not automatically copied into a repository on a clone.  To retrieve tags execute.
 
@@ -497,6 +504,34 @@ Tags from remotes are not automatically copied into a repository on a clone.  To
 
 The --all option fetches at once from all remotes, the --tags option tells git to fetch the tags.
 Tags always follow the semantic versioning rules.  e.g. v7.0, v7.1, v7.2, v8.0, etc.
+
+The ^ syntax allows one to reference parents of a commit and can be applied to tag names.  tag^ is the immediate parent of the commit
+tag points to.  For commits with multiple parents such as merge commits one can apply a number to refer to a specific parent.
+tag^1 is the same as tag^ and is the first parent of the commit, tag^2 is the second parent of the commit.
+
+Merging the Inverse of an SDK Update
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The diagram below shows the v8.0 tag pointing to the v8.0 merge commit along with references to the parents of v8.0.
+
+   .. figure:: images/tags.png
+      :align: center
+      :alt: tags
+
+      v8.0 tag pointing to the v8.0 merge commit.
+
+.. warning:: If you want to downgrade more than one revision you must revert each revision in sequence otherwise you could wind up
+   with changes remaining after reversion from the SDK version in between latest and the target you are referring to.
+   For example if you need to downgrade from v8.1.1 to v8.0 you revert v8.1.1 followed by v8.1.  If you don't follow this order,
+   then changes in v8.1.1 that don't overlap with v8.1 will remain in your workspace and that's not what you want.
+
+.. important:: If any commits have dependencies on new features or APIs introduced in the reverted versions, then your
+   build will break.  You will have to manually figure out how to fix your software so that it is no longer depends upon
+   reverted software.
+
+We want to create a new commit that is the inverse of the version you want to revert *from*.  And you'll want to do this for every version,
+in reverse order, that you want to undo.  The target of the command below is the tag of the version you want to undo, not the tag of the
+version you want to revert to.
 
    .. figure:: images/revert.png
       :align: center
@@ -510,6 +545,8 @@ compiling against v7.2 use.
    .. code-block:: console
 
       $ git revert -Xtheirs v8.0^2
+
+The -Xtheirs option is a convenience that says, "If there are any conflicts, automatically take the software from the v8.0^2 side."
 
 Summary
 -------
