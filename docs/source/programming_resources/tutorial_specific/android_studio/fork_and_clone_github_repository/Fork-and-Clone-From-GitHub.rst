@@ -51,9 +51,9 @@ team. Multiple different developers can work seamlessly using this process.
 Branch Strategies 
 -----------------
 
-A branch is a new/separate version of the main repository used to develop new
-features for the repository. The default branch for the FtcRobotController
-repository, and its forks and clones, is 'master' (though for all newer
+A branch is a series of commits that are independent of any other lines of development
+and is typically used to develop new features for the repository. The default branch for the
+FtcRobotController repository, and its forks and clones, is 'master' (though for all newer
 repositories created by GitHub the default branch is called 'main').  Using
 branches judiciously can help developers collaborate on a common set of
 software by isolating changes, keeping the default branch clean, and providing
@@ -94,7 +94,7 @@ that a branch is stable enough to be shared, the branch can be merged back into 
    Two branches that point to the same commit.
 
 Immediately after creating a branch the new branch name simply points to the latest commit from the branch that
-the new branch was created from.
+the new branch was created from.  Now imagine that we create a new commit on that branch.
 
 .. figure:: images/new-commit-on-feature.png
    :align: center
@@ -113,6 +113,29 @@ of development.
    :alt: independent lines of development
 
    Two independent lines of development.
+
+Eventually you typically want to merge that feature branch back into the main
+line of development represented by the master branch.  When you merge one
+branch into another, git traverses the ancestor commits of the branches
+to find the common ancestor.  It then determines what changed from the
+common ancestor, to the head of each branch, and applies those changes to
+a new commit called a merge commit.  An artifact of this process is that
+the merge commit will have two parents.
+
+.. figure:: images/merge-commit.png
+   :align: center
+   :alt: demonstration of merge commit
+
+   Merging the feature branch back into the master branch.
+
+As shown above, the feature branch still exists.  New commits added to
+the feature branch will diverge again from the master branch.  However if
+development of the feature is finished, the branch can be deleted.  Deletion
+of the branch simply results in the name pointer being deleted.  Branch
+deletion does not result in the deletion of any commits that were made
+on that branch.  As you can see here, the commit that was on the feature
+branch still exists and is reachable by referencing the correct parent
+from the merge branch.
 
 It can be useful to ensure that the default branch in team forks and clones matches the default branch for
 FIRST-Tech-Challenge/FtcRobotController.  However a typical development pattern will have team developers committing
@@ -212,20 +235,25 @@ Getting Started (Quick-Start Guide)
 
    To clone your fork of the FtcRobotController, follow these steps:
 
-   #. Click the green ":octicon:`code;1em;sd-text-info` Code" button shown in the image above.
+   #. Click the green ":octicon:`code;1em;sd-text-info` Code" button shown in
+      the image above.
    #. Ensure the "Local" and "HTTPS" sub-tabs are selected.
-   #. Click the ":octicon:`copy;1em;sd-text-info`" button to copy the url in the text entry box.
-   #. Open a "Git Bash" shell (via the Search bar in Windows)
+   #. Click the ":octicon:`copy;1em;sd-text-info`" button to copy the url in
+      the text entry box.
+   #. Open a "Git Bash" shell in a suitable directory.  This is easily done
+      on Windows by opening the File Explorer, finding the directory you want
+      to clone the repository into, right clicking on that directory folder
+      and selecting "Git Bash here"
    #. Within the Git Bash shell, execute the following command
 
       .. code-block:: bash
 
          git clone <copied-url>
 
-#. Git will sync a clone of your repository. When it's done, Code away...
+#. Git will download a clone of your repository. When it's done, Code away...
 
 #. This is the point where you can create a branch for feature development, if
-   desired. To create a branch, we can create and swap to a new branch via
+   desired. To create a branch, we can create and switch to a new branch via
    the following `git-checkout <https://git-scm.com/docs/git-checkout>`_ command:
 
    .. code-block:: bash
@@ -233,12 +261,8 @@ Getting Started (Quick-Start Guide)
       git checkout -b <branchname>
 
    Using the ``-b`` option creates the new branch specified by ``<branchname>``
-   and automatically swaps to that branch. Omitting the ``-b`` option will
-   simply *swap* to an existing branch if one exists. If you create a new
-   branch via the web or via another process, be sure to perform a ``git fetch
-   origin`` and a ``git merge`` in order to fetch the and merge changes from
-   the repository so that the ``git checkout`` command knows that the branch
-   has been created.
+   and automatically switches to that branch. Omitting the ``-b`` option will
+   simply *switch* to an existing branch if one exists.
 
 Best Practices 
 ^^^^^^^^^^^^^^
@@ -279,7 +303,7 @@ This author prefers the latter because it gives the developer the opportunity
 test new software before pushing to the fork.  It also allows for merge
 conflict resolution locally instead of through GitHub's UI.
 
-Obtaining the Latest Software 
+Obtaining the Latest Software
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When describing how to update a repository many basic tutorials will use the
@@ -331,11 +355,12 @@ To add the parent of your team's fork as a remote of your local clone
 
 .. important::
    Setting the FIRST Tech Challenge FtcRobotController repository as
-   an upstream remote of your local clone, allows you to fetch
+   an upstream remote of your local clone allows you to fetch
    changes from the FIRST-Tech-Challenge/FtcRobotController to your
    local clone using the alias name 'upstream'.  This is very powerful.
-   If the reason why this is important isn't immediately obvious, please re-read the
-   two paragraphs under header marked ``Updating your Fork and Local Clone`` above.
+   If the reason why this is important isn't immediately obvious, please
+   re-read the two paragraphs under header marked ``Updating your Fork
+   and Local Clone`` above.
 
 **The rest of this tutorial assumes that you have added
 FIRST-Tech-Challenge/FtcRobotController as an upstream in your local clone.**
