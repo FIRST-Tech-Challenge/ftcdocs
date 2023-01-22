@@ -4,9 +4,9 @@ External Libraries in OnBot Java and Blocks
 Introduction
 ------------
 
-FTC Blocks and OnBot Java programmers can use external libraries,
+Blocks and OnBot Java programmers can use external libraries,
 starting with SDK 7.0 released for the Freight Frenzy season. This
-capability previously existed for FTC programmers using Android Studio.
+capability previously existed for programmers using Android Studio.
 
 An external library is a collection of specialized software ready for
 public use, and typically available from a website or repository, called
@@ -14,14 +14,14 @@ a ‘repo’. You don’t need to know its inner workings, just what it does
 and how to use it.
 
 This beginner-level tutorial shows how to incorporate a library’s
-features into your FTC OpModes, and provides simple examples. It does
+features into your Op Modes, and provides simple examples. It does
 not teach Java.
 
 Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who
 developed this capability, along with myBlocks and many other useful
-features of FTC software.
+features of the software.
 
-*Note: This new capability exists for an FTC Robot Controller (RC)
+*Note: This new capability exists for a Robot Controller (RC)
 running Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC
 phones cannot use this feature.*
 
@@ -58,7 +58,7 @@ Step 1 - Select library, get archive file
 
 There are hundreds of code libraries available on the internet. In Step
 1, you find a library with specialized functions (methods) that you want
-to use. Start with a web search, or get suggestions from other FTC
+to use. Start with a web search, or get suggestions from other 
 teams.
 
 It’s best to choose a repo with a well documented interface. Review its
@@ -88,7 +88,7 @@ Copy the .jar or .aar file to your programming laptop, if the file is
 not stored there already.
 
 Connect your laptop via Wi-Fi to a Robot Controller device that’s
-running the FTC RC app, version 7.0 or higher (see instructions at
+running the RC app, version 7.0 or higher (see instructions at
 ``Program and Manage``, on the RC phone or its paired Driver Station
 device). In the Chrome browser, open OnBot Java.
 
@@ -159,13 +159,13 @@ As a reminder, creating a myBlock requires only these two items:
    myBlock method.
 
 For more info, see the separate myBlock tutorial
-:ref:`here <programming_resources/shared/myblocks/index:custom ftc blocks (myblocks)>`.
+:ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 **Step 3C** assumes the library methods should be provided **directly**
 to the Blocks user, without even creating a myBlock. This scenario
 doesn’t need to be enabled with your Java code at all.
 
-Instead you must ask the **library developer** to add two FTC
+Instead you must ask the **library developer** to add two 
 annotations, then provide you a fresh .jar or .aar file. The changes
 are:
 
@@ -225,7 +225,7 @@ in Blocks. Meanwhile other students (like you), if they want to, can
 advance their Java skills and still contribute to the team’s actual
 robot programming.
 
-Often, FTC teams have one student who has moved far ahead with their
+Often, teams have one student who has moved far ahead with their
 Java skills, and becomes the team programmer – the **only** programmer.
 Then nobody else has the chance to learn and contribute basic
 programming.
@@ -233,7 +233,7 @@ programming.
 This feature can allow a new arrangement: “nobody is left out, and
 nobody is held back”.
 
-As a third benefit, FTC judges love to hear about Outreach. For example
+As a third benefit, judges love to hear about Outreach. For example
 your team could develop useful Blocks for beginner teams. Or, you share
 ideas and tips with other advanced teams who are doing the same kind of
 development. And, you are encouraged to communicate with library
@@ -250,7 +250,7 @@ The first example uses a very basic “homemade” library called Geometry
 For OBJ. To get your own copy, click :download:`here <opmodes/GeometryForObj.jar>`.
 
 As with any current real-world library, this one is **not annotated**
-for FTC use. You can use it in OnBot Java only (Step 3A), **or** you can
+for use. You can use it in OnBot Java only (Step 3A), **or** you can
 create a myBlock (Step 3B) to share its capabilities with Blocks
 programmers. Lacking annotations, this library does not provide direct
 “pass-through” methods (Step 3C) to Blocks.
@@ -279,7 +279,7 @@ Then simply use the method in your Java code:
    double myHypotenuse = Geometry.hypot(A, B);
 
 Under **Step 3B**, let’s create your own custom Block called
-“myHypotenuse”. *This is just an exercise; regular FTC Blocks could
+“myHypotenuse”. *This is just an exercise; regular Blocks could
 easily calculate this value.*
 
 You will still need the ``import`` statement, same as above in Step 3A.
@@ -310,7 +310,7 @@ and output, an example of a ‘wrapper method’.
 Note that myHypotenuse() is a ``static`` method, required for all
 myBlock methods. Also note that parameter labels are allowed to be
 different than the actual method parameters. Learn more about myBlocks
-:ref:`here <programming_resources/shared/myblocks/index:custom ftc blocks (myblocks)>`.
+:ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 Here is the myBlock that will appear in the Blocks toolbox (menu):
 
@@ -331,18 +331,18 @@ myBlocks to show telemetry output of various input values.
  
     Telemetry of myBlocks using Geometry library
 
-Example 2 - FTC-annotated library
----------------------------------
+Example 2 - *FIRST* Tech Challenge-annotated library
+----------------------------------------------------
 
 Now let’s try another “homemade” library that **does** already contain
-the FTC annotations. This one is called Arithmetic For Blocks; click
+the annotations. This one is called Arithmetic For Blocks; click
 :download:`here <opmodes/ArithmeticForBlocks.aar>`.
 
 This library contains a class name ``com.example.google.ftc.MoreMath``,
 with public methods ``sum``, ``min``, ``max`` and ``average``. Each
 accepts two numbers and provides a numeric result.
 
-This library **is annotated** specifically for FTC use, as described
+This library **is annotated** specifically for team use, as described
 above. After you upload the .aar file and ``Build Everything``, its 4
 “pass-through” methods will automatically appear as Blocks:
 
@@ -359,7 +359,7 @@ version of a pass-through method. But you **don’t need** an OnBot Java
 file to support this library or its methods; that’s done automatically
 by OnBot Java when it processes the library at upload.
 
-What if you have an FTC-annotated library, and don’t want **any** of its
+What if you have an annotated library, and don’t want **any** of its
 methods to appear as a Blocks pass-through? Just ``Build Everything``,
 then delete the .jar or .aar file.
 
@@ -377,7 +377,7 @@ to experiment with these.
    which is a hardware device class for the `REV
    Potentiometer <https://www.revrobotics.com/rev-31-1155/>`__. It uses
    ``AnalogSensorType`` and ``DeviceProperties`` annotations to make
-   this sensor appear in the “Configure Robot” menu of the FTC RC app or
+   this sensor appear in the “Configure Robot” menu of the RC app or
    paired DS app. After the .aar file has been uploaded (and
    ``Build Everything``), configure your robot’s Analog Input Devices
    and choose ``REV Potentiometer``. It has a public method
@@ -386,17 +386,17 @@ to experiment with these.
 Real-world libraries
 --------------------
 
-External Libraries have unique content and structure. Each may pose
-special challenges as you try to use it for FTC. Communication with the
-library developer will be very helpful, perhaps essential.
+External Libraries have unique content and structure. Each may pose special
+challenges as you try to use it in robot code. Communication with the library
+developer will be very helpful, perhaps essential.
 
 Ideally, the library’s .jar or .aar file encompasses all the classes
 you’ll need, without external dependencies. A good example is
-**EasyOpenCV**, designed and ready for FTC use. See the simple
+**EasyOpenCV**, designed and ready for use. See the simple
 instructions
 `here <https://github.com/OpenFTC/EasyOpenCV>`__.
 
-General, non-FTC libraries might involve a longer journey. For example,
+General external libraries might involve a longer journey. For example,
 `Apache Commons <https://commons.apache.org/>`__ is a vast public repo,
 basically a library of libraries, focused on the Java programming
 language. Complications can arise even when choosing a simple math-only
@@ -419,7 +419,7 @@ Starting over, you can find and upload the .jar file containing the
 ‘missing’ class. But that may expose further dependencies, requiring
 more .jar files.
 
-Also, be aware that the FTC SDK already contains some common Apache
+Also, be aware that the SDK already contains some common Apache
 classes. OnBot Java may detect this duplication, preventing upload of
 your .jar file. On the bright side, your desired methods should already
 be available!
@@ -462,7 +462,7 @@ tutorial.
 Summary
 -------
 
-FTC Blocks and OnBot Java programmers can benefit and learn from this
+Blocks and OnBot Java programmers can benefit and learn from this
 new capability with external libraries.
 
 You are encouraged to submit other examples and suggestions that worked

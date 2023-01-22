@@ -26,7 +26,7 @@ Android app developers use. Android Studio is only recommended for
 
 1. Introduction
 
-   -  :doc:`The FTC Control System <../shared/control_system_intro/The-FTC-Control-System>`
+   -  :doc:`The Control System <../shared/control_system_intro/The-FTC-Control-System>`
    -  :doc:`Required Materials <../shared/required_materials/Required-Materials>`
    -  :doc:`Using Your Android Device <../shared/using_android_device/Using-Your-Android-Device>`
 
@@ -40,7 +40,7 @@ Android app developers use. Android Studio is only recommended for
 3. Installing Android Studio
 
    -  :doc:`Downloading and Installing Android Studio <../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio>`
-   -  :doc:`Downloading the FTC Android Studio Project <../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
+   -  :doc:`Downloading the Android Studio Project <../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
    -  :bdg-warning:`Legacy` :doc:`Disabling Android Studio Instant Run <../tutorial_specific/android_studio/disable_instant_run/disable-instant-run>`
 
 4. Writing an Op Mode

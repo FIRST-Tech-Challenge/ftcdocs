@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This tutorial shows how to make **custom FTC Blocks**, to be used in
+This tutorial shows how to make **custom Blocks**, to be used in
 regular Blocks programs. These **“myBlocks”** are programmed in Java,
 with OnBot Java or Android Studio.
 

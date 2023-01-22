@@ -1,21 +1,21 @@
-FTC Webcam Controls
-====================
+Webcam Controls
+===============
 
 Introduction
 ------------
 
-This basic tutorial describes 8 webcam controls available in the FTC
+This basic tutorial describes 8 webcam controls available in the 
 SDK. It includes an example, using 2 of these controls to potentially
 improve TensorFlow recognition in Freight Frenzy.
 
 Hats off to `rgatkinson <https://github.com/rgatkinson>`__ and
-`Windwoes <https://github.com/Windwoes>`__ who developed these FTC
+`Windwoes <https://github.com/Windwoes>`__ who developed these 
 webcam controls.
 
 Software Overview
 -----------------
 
-The FTC SDK contains a superinterface called CameraControl, which
+The SDK contains a superinterface called CameraControl, which
 contains 5 interfaces: 
 
 - :ref:`ExposureControl <programming_resources/vision/webcam_controls/webcam-controls:exposure control>`
@@ -32,28 +32,26 @@ zoom. ExposureControl also contains a feature called auto-exposure
 priority, or AE Priority. Together there are **8 webcam controls**
 discussed in this tutorial.
 
-The official documentation is found in the `FTC
-Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click the
+The official documentation is found in the `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click the
 link for **RobotCore**, then click the **CameraControl** link in the
 left column.
 
 .. figure:: images/020-RobotCore.png
    :align: center
 
-   FTC RobotCore Javadoc API
+   RobotCore Javadoc API
 
 That page provides links to the 5 interfaces listed above.
 
 The methods described here can be used in Android Studio or OnBot Java.
-They can also be provided to FTC Blocks programmers by creating
+They can also be provided to Blocks programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
-You will see Vuforia mentioned here, and in the `sample
-OpModes <#sample-opmodes>`__ below. **Why Vuforia?** The FTC
+You will see Vuforia mentioned here, and in the `sample OpModes
+<#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge
 implementation of Google’s TensorFlow Lite receives camera images from a
-Vuforia video stream. The FTC SDK already includes and uses Vuforia for
-navigation, so it’s a convenient tool for passing camera streams to
-TFOD.
+Vuforia video stream. The SDK already includes and uses Vuforia for
+navigation, so it’s a convenient tool for passing camera streams to TFOD.
 
 These CameraControl interfaces allow some control of the webcam, within
 requirements or settings of Vuforia for its own performance. Such
@@ -67,7 +65,7 @@ Exposure is the amount of light that reaches the webcam sensor. It is an
 important part of how bright or dark your image appears.
 
 Exposure varies directly with the amount of time that the shutter is
-open, allowing light to enter and reach the sensor. So, the FTC
+open, allowing light to enter and reach the sensor. So, the 
 interface ExposureControl uses a single value of **duration**, in units
 of time that you specify, typically ``TimeUnit.MILLISECONDS``.
 
@@ -102,7 +100,7 @@ Exposure Control Mode
 
 A webcam may operate in one of various exposure modes.
 
-Many common FTC webcams offer only some of these modes. To directly
+Many common webcams offer only some of these modes. To directly
 control the exposure, set the webcam to Manual mode.
 
 The SDK supports these values of ExposureControl.Mode: 
@@ -166,7 +164,7 @@ hand, longer exposure can cause motion blur, which may affect target
 tracking performance. In some cases, reducing exposure duration and
 increasing gain may provide a sharper image, although with more noise.
 
-The FTC interface GainControl uses a single value to control gain. It’s
+The interface GainControl uses a single value to control gain. It’s
 used for amplification, and thus has no units – it’s just a number of
 type integer. Its methods are: 
 
@@ -195,7 +193,7 @@ described so far: ExposureControl and GainControl.
 These 2 examples assume you are already using TensorFlow Object
 Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
 model and OpMode that are working reasonably well. The model may have
-been supplied with the FTC SDK, or created with the **FTC Machine
+been supplied with the SDK, or created with the **Machine
 Learning toolchain** `[forum] <https://ftc-community.firstinspires.org/>`__
 :ref:`[manual] <ftc_ml/index:*first* machine learning toolchain>`
 
@@ -253,7 +251,7 @@ venue.
 
 This data is the result of a very particular combination of: webcam
 model (Logitech C270), distance (12 inches), lookdown angle (30
-degrees), TFOD model (FTC SDK 7.0 default), ambient lighting,
+degrees), TFOD model (SDK 7.0 default), ambient lighting,
 background, etc. **Your results will vary, perhaps significantly.**
 
 
@@ -308,7 +306,7 @@ Example 3: An odd preview
 How can this be? Answer: this image was not an ‘instant’ result.
 Exposure was reduced very low, **after** TFOD had recognized the Duck.
 
-The FTC implementations of TensorFlow Lite (and Vuforia) are good at
+The implementations of TensorFlow Lite (and Vuforia) are good at
 **tracking** a currently-identified object (or image) through
 translation, rotation, partial blockage, and even extreme changes in
 exposure.
@@ -318,7 +316,7 @@ White Balance Control
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`
 
-Continuing with other interfaces, the FTC SDK (new for version 7.1)
+Continuing with other interfaces, the SDK (new for version 7.1)
 provides methods for white balance control.
 
 White balance is a digital camera setting that balances the **color
@@ -332,7 +330,7 @@ incandescent light bulb (warm/orange) has a color temperature of around
 When performed automatically, white balance adds the opposite color to
 the image in an attempt to bring the color temperature back to neutral.
 This interface WhiteBalanceControl allows the color temperature to be
-directly programmed by an FTC user.
+directly programmed by a user.
 
 A single value is used here to control white balance temperature, in
 units of degrees Kelvin, of Java type integer. Here are the methods:
@@ -431,7 +429,7 @@ Mode is managed with these FocusControl methods:
 -  getMode()
 
 The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed,
-which does respond to FTC FocusControl methods. The Logitech C270 (older
+which does respond to FocusControl methods. The Logitech C270 (older
 model) offers only Fixed mode, but does not allow programmed control.
 
 Full details are described in the `FocusControl
@@ -442,7 +440,7 @@ Pan-Tilt-Zoom Control
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.PtzControl`
 
-The FTC SDK provides methods for virtual pan (horizontal motion), tilt
+The SDK provides methods for virtual pan (horizontal motion), tilt
 (vertical motion), and zoom (enlargement and reduction of image size).
 This is **virtual** PTZ since the actions are digitally simulated,
 within the full original image captured by the webcam. Pan and tilt are
@@ -457,7 +455,7 @@ smallest unit of image capture by the webcam sensor. For example, the
 Logitech C920 and the Microsoft LifeCam VX-5000 have a range of
 +/-36,000 units, far greater than the pixel count in each axis.
 
-The webcam accepts pan and tilt as a pair of (x, y) values. Thus the FTC
+The webcam accepts pan and tilt as a pair of (x, y) values. Thus the 
 SDK pan and tilt methods handle these values **only as a pair**, in a
 special class named PanTiltHolder. This class has two fields, named pan
 and tilt, of type integer.
@@ -524,7 +522,7 @@ AE Priority
 -----------
 
 Auto-Exposure Priority is a setting within the ExposureControl
-interface. It’s listed here at the end, not likely to be needed in FTC
+interface. It’s listed here at the end, not likely to be needed in 
 since it it operates in very low lighting.
 
 What does it do? Imagine that the webcam is operating at its default
@@ -558,15 +556,15 @@ The Exposure=0 recognition here was made before reducing exposure and
 gain. When testing ‘instant’ results, AE Priority could improve the
 chance of recognition.
 
-Again, this effect is triggered only in very low lighting, not expected
-in FTC. If the building loses all power, Duck recognition becomes… less
+Again, this effect is triggered only in very low lighting, not expected in
+competition. If the building loses all power, Duck recognition becomes… less
 essential.
 
 Evaluating Your Webcam
 ----------------------
 
 The firmware of a specific webcam may or may not support certain
-features described here. The FTC SDK provides some methods to query the
+features described here. The SDK provides some methods to query the
 webcam and/or return values that indicate whether a valid response was
 available.
 
@@ -656,10 +654,10 @@ unsupported values.
 Some Caveats
 ------------
 
--  the FTC SDK supports webcams conforming to the `UVC
+-  the SDK supports webcams conforming to the `UVC
    standard <https://en.wikipedia.org/wiki/USB_video_device_class>`__
 
-   -  many non-UVC webcams work well in FTC, despite lacking UVC
+   -  many non-UVC webcams work well in competition, despite lacking UVC
       certification
    -  some non-UVC webcams can be listed in Configure Robot, but crash
       the RC app at runtime
@@ -692,14 +690,14 @@ of an external library such as `OpenCV <https://opencv.org/>`__ or
 is not covered in this basic tutorial. A separate tutorial covers the
 general use of `External
 Libraries <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__
-in FTC Blocks and OnBot Java.
+in Blocks and OnBot Java.
 
 Sample OpModes
 --------------
 
-The intent of this tutorial is to describe the available FTC webcam
+The intent of this tutorial is to describe the available webcam
 controls, allowing programmers to **develop their own solutions** guided
-by the FTC API (Javadoc).
+by the SDK API (Javadoc).
 
 The following sample OpModes are linked here for reference only. These
 rudimentary OpModes may not apply to your webcam and may not meet your
@@ -747,7 +745,7 @@ needs in general.
 Summary
 -------
 
-Some webcam controls in the FTC SDK could potentially improve TFOD
+Some webcam controls in the SDK could potentially improve TFOD
 recognitions. Exposure, gain and other values could be pre-programmed in
 team autonomous OpModes. It’s also possible to manually enter such
 values before a match begins, based on anticipated lighting, starting

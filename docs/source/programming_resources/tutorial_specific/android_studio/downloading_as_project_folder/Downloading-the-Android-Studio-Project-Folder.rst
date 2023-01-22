@@ -1,11 +1,10 @@
 Downloading the Android Studio Project Folder
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The FTC SDK can be downloaded from a GitHub repository. GitHub is a
-web-based version control company that lets individuals and
-organizations host content online. In order to access the FTC software,
-you will need to have a GitHub account. You can create one for free by
-visiting the GitHub website:
+The SDK can be downloaded from a GitHub repository. GitHub is a web-based
+version control company that lets individuals and organizations host content
+online. In order to access the Android Studio software, you will need to have a
+GitHub account. You can create one for free by visiting the GitHub website:
 
 *  https://github.com/
 
@@ -61,7 +60,7 @@ you can move this file to the location of your choice.
 
 |
 
-Before you can import the FTC project into Android Studio, you must
+Before you can import the project into Android Studio, you must
 first extract the contents of the archived project file. For Windows
 users, right mouse click on the file and select "Extract All" from the
 pop up menu. Windows should prompt you to select a destination for the
@@ -94,12 +93,12 @@ destination.
 |
 
 Once you have successfully extracted the contents of the archived file,
-you are ready to import the FTC project into Android Studio.
+you are ready to import the project into Android Studio.
 
-Importing the FTC Project into Android Studio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Importing the Project into Android Studio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In order to import the FTC Project, you will need to launch the Android
+In order to import the Project, you will need to launch the Android
 Studio software on your computer. On the main Android Studio Welcome
 screen, select the option to "Import project (Gradle, Eclipse, ADT,
 etc.)" to begin the import process.

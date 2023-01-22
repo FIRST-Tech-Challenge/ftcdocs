@@ -16,7 +16,7 @@ Blocks. Here are some examples of both:
    can provide Blocks users with controls previously considered too
    complex.
 
--  Provide access to **External Libraries**, new for FTC SDK 7.0. More
+-  Provide access to **External Libraries**, new for SDK 7.0. More
    info is :ref:`here <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
    libraries in onbot java and blocks>`.
 
@@ -31,7 +31,7 @@ Blocks. Here are some examples of both:
 -  Could **telemetry.speak** have a myBlock equivalent of the Boolean
    ``AndroidTextToSpeech.isSpeaking()``?
 
-Looking for ideas? The top-level API Documentation for the FTC SDK is
+Looking for ideas? The top-level API Documentation for the SDK is
 `here <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click
 **RobotCore** to see many commonly used classes in the left-side menu,
 and you can also check other sections.
