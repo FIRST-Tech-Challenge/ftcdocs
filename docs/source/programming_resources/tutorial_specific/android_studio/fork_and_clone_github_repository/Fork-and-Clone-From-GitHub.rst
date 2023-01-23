@@ -350,8 +350,7 @@ To add the parent of your team's fork as a remote of your local clone
 
    .. code-block:: console
 
-      $ git remote add upstream
-      https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
+      $ git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
 
 .. important::
    Setting the FIRST Tech Challenge FtcRobotController repository as
