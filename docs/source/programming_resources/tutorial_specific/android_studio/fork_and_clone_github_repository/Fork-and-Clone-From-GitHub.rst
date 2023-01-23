@@ -2,7 +2,7 @@ Fork and Clone from GitHub
 ==========================
 
 .. important:: 
-   This approach assumes a basic familiarity with git and GitHub.  As with most
+   This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/quickstart/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
    things related to git there are many different ways to satisfy any
    objective.  This documentation describes one method for Windows users.
    Users not comfortable with command line tools and git should obtain the SDK
@@ -12,26 +12,26 @@ Fork and Clone from GitHub
 Forks vs. Clones 
 ----------------
 
-A **Fork** on GitHub is a copy of another repository on GitHub from one account
+A `Fork <https://docs.github.com/en/get-started/quickstart/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/quickstart/github-glossary#repository>`_ on GitHub from one account
 to another account. The new forked repository retains a parent-child
-relationship with the origin repository. Forks are typically used when software
+relationship with the `origin <https://docs.github.com/en/get-started/quickstart/github-glossary#origin>`_ repository. Forks are typically used when software
 will have an independent line of development, such as when FTC teams develop
 their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
 repository as a basis.  FTC teams should create a Fork of the
 `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
 manage their software development process. Thanks to the parent-child
 relationship, when changes are made to the parent repository those changes can
-be easily tracked and fetched/merged into the forked repository, keeping the
+be easily tracked and `fetched <https://docs.github.com/en/get-started/quickstart/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/quickstart/github-glossary#merge>`_ into the forked repository, keeping the
 forked repository up to date.
 
 .. warning:: 
-   Teams should not issue pull requests against the upstream parent, the
+   Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/quickstart/github-glossary#upstream>`_ parent, the
    FIRST-Tech-Challenge/FtcRobotContoller repository. Forks of the
    FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
    should never attempt to push changes up to the repo.
 
-A **Clone** is a copy of a repository, typically on a local computer. A team
-member creates a branch of the team's repository for feature development, and
+A `Clone <https://docs.github.com/en/get-started/quickstart/github-glossary#clone>`_ is a copy of a repository, typically on a local computer. A team
+member creates a `feature branch <https://docs.github.com/en/get-started/quickstart/github-glossary#clone>`_ of the team's repository for feature development, and
 clones the branch to a local computer. Software development and testing then
 happens completely within their local clone. Once they're finished, or they've
 reached a checkpoint, the changes within the local clone can then be pushed
@@ -51,10 +51,10 @@ team. Multiple different developers can work seamlessly using this process.
 Branch Strategies 
 -----------------
 
-A branch is a series of commits that are independent of any other lines of development
+A `branch <https://docs.github.com/en/get-started/quickstart/github-glossary#branch>`_ is a series of `commits <https://docs.github.com/en/get-started/quickstart/github-glossary#commit>`_ that are independent of any other lines of development
 and is typically used to develop new features for the repository. The default branch for the
-FtcRobotController repository, and its forks and clones, is 'master' (though for all newer
-repositories created by GitHub the default branch is called 'main').  Using
+FtcRobotController repository, and its forks and clones, is `master <https://docs.github.com/en/get-started/quickstart/github-glossary#master>`_ (though for all newer
+repositories created by GitHub the default branch is called `main <https://docs.github.com/en/get-started/quickstart/github-glossary#main>`_).  Using
 branches judiciously can help developers collaborate on a common set of
 software by isolating changes, keeping the default branch clean, and providing
 space for feature development to iterate independent of software that's been
@@ -67,14 +67,14 @@ deemed 'production ready'.
    A single branch with the default name of master
 
 Each circle represents a commit to a branch. The name of the branch always points to the most recent
-commit, also known as the HEAD.  While there may be many branches, there is only one HEAD and it always,
+commit, also known as the `HEAD <https://docs.github.com/en/get-started/quickstart/github-glossary#head>`_.  While there may be many branches there is only one HEAD and it always,
 unless it is in a `detached state <https://www.git-scm.com/docs/git-checkout#_detached_head>`_, points to the
 latest commit of the currently checked out branch.  All other commits point to their immediate parent.
 
-A commit is a snapshot of the entire workspace at a point in time.  Git does not store diffs.  If you make a change to a file, and
+A commit is a `snapshot <https://docs.github.com/en/get-started/quickstart/github-glossary#snapshot>`_ of the entire workspace at a point in time.  Git does not store `diffs <https://docs.github.com/en/get-started/quickstart/github-glossary#diff>`_.  If you make a change to a file, and
 create a new commit with the changed file, it stores the entire changed file in the commit.  To avoid unnecessary
-duplication of files, if your repository consists of three files, and the other two were unchanged then the
-snapshot points back to the unchanged files.
+duplication of files, if your repository consists of three files - one changed and the other two were unchanged - then the
+snapshot merely points back to the unchanged files rather than containing unchanged data.
 
 Note that each commit has a parent which allows git to determine reachability of commits from different
 branches.  It also allows git to determine the common ancestor commit of any two branches, which is important
@@ -117,9 +117,9 @@ of development.
 Eventually you typically want to merge that feature branch back into the main
 line of development represented by the master branch.  When you merge one
 branch into another, git traverses the ancestor commits of the branches
-to find the common ancestor.  It then determines what changed from the
+to find the common `ancestor <https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-say-ancestor-with-regards-to-git>`_.  It then determines what changed from the
 common ancestor, to the head of each branch, and applies those changes to
-a new commit called a merge commit.  An artifact of this process is that
+a new commit called a *merge commit*.  An artifact of this process is that
 the merge commit will have two parents.
 
 .. figure:: images/merge-commit.png
@@ -154,7 +154,7 @@ instance team commits are interleaved with SDK updates (1), which produces a sit
 
 (1) Not really, or maybe depending upon how the commit parentage lays out.
 This is a vastly simplified view of things, but is sufficient to demonstrate the logical concept
-and is the view of things you get if you simply execute `git log`.
+and is the view of things you get if you simply execute `git log <https://www.atlassian.com/git/tutorials/git-log>`_.
 For an in-depth, approachable, explanation of exactly what is happening with commits as they relate to
 branches `see this tutorial <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`_
 
@@ -530,7 +530,7 @@ Tags from remotes are not automatically copied into a repository on a clone.  To
 The --all option fetches at once from all remotes, the --tags option tells git to fetch the tags.
 Tags always follow the semantic versioning rules.  e.g. v7.0, v7.1, v7.2, v8.0, etc.
 
-The ^ syntax allows one to reference parents of a commit and can be applied to tag names.  tag^ is the immediate parent of the commit
+The `^ syntax <https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821>`_ allows one to reference parents of a commit and can be applied to tag names.  tag^ is the immediate parent of the commit
 tag points to.  For commits with multiple parents such as merge commits one can apply a number to refer to a specific parent.
 tag^1 is the same as tag^ and is the first parent of the commit, tag^2 is the second parent of the commit.
 
@@ -554,7 +554,7 @@ The diagram below shows the v8.0 tag pointing to the v8.0 merge commit along wit
    build will break.  You will have to manually figure out how to fix your software so that it is no longer depends upon
    reverted software.
 
-We want to create a new commit that is the inverse of the version you want to revert *from*.  And you'll want to do this for every version,
+Remember that Git does not delete commits (with a few exceptions), so in order to revert a commit we must create a new commit that is the inverse of the commit you want to revert *from*.  And you'll want to do this for every version,
 in reverse order, that you want to undo.  The target of the command below is the tag of the version you want to undo, not the tag of the
 version you want to revert to.
 
