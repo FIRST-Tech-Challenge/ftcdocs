@@ -152,11 +152,11 @@ Team commits are represented by blue circles, while commits containing SDK updat
 purple circle is a merge commit.  More on merges later. In this
 instance team commits are interleaved with SDK updates (1), which produces a situation where the two default branches do not match.
 
-|   (1) Not really, or maybe depending upon how the commit parentage lays out.
-|   This is a vastly simplified view of things, but is sufficient to demonstrate the logical concept
-|   and is the view of things you get if you simply execute `git log <https://www.atlassian.com/git/tutorials/git-log>`_.
-|   For an in-depth, approachable, explanation of exactly what is happening with commits as they relate to
-|   branches `see this tutorial <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`_
+   (1) Not really, or maybe depending upon how the commit parentage lays out.
+   This is a vastly simplified view of things, but is sufficient to demonstrate the logical concept
+   and is the view of things you get if you simply execute `git log <https://www.atlassian.com/git/tutorials/git-log>`_.
+   For an in-depth, approachable, explanation of exactly what is happening with commits as they relate to
+   branches `see this tutorial <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`_.
 
 While this is a perfectly acceptable, and a very common branch management strategy, certain benefits can be obtained if we
 isolate the default branch so that it always matches the parent.  The following figure demonstrates a clone whose master branch
