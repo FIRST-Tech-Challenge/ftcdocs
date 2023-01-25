@@ -475,7 +475,7 @@ represented by v8.0.
       Pushing fetched and merged changes back to your team fork.
 
 Once you've merged the upstream/master into your local clone's master branch, push those changes to GitHub so that your GitHub clone
-reflects the upstream respository.
+reflects the upstream repository.
 
    .. code-block:: console
 
