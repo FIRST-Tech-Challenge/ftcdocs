@@ -544,11 +544,6 @@ The diagram below shows the v8.0 tag pointing to the v8.0 merge commit along wit
 
       v8.0 tag pointing to the v8.0 merge commit.
 
-.. warning:: If you want to downgrade more than one revision you must revert each revision in sequence otherwise you could wind up
-   with changes remaining after reversion from the SDK version in between latest and the target you are referring to.
-   For example if you need to downgrade from v8.1.1 to v8.0 you revert v8.1.1 followed by v8.1.  If you don't follow this order,
-   then changes in v8.1.1 that don't overlap with v8.1 will remain in your workspace and that's not what you want.
-
 .. important:: If any commits have dependencies on new features or APIs introduced in the reverted versions, then your
    build will break.  You will have to manually figure out how to fix your software so that it is no longer depends upon
    reverted software.
@@ -561,7 +556,7 @@ version you want to revert to.
       :align: center
       :alt: demonstrating the revert
 
-      A new merge commit representing the revert from v8.0 to v7.2.
+      Result of revert - a new merge commit representing the revert from v8.0 to v7.2.
 
 Because the merge commit has two parents, and you want to reference the SDK version commit, use the tag name you want to roll back and append ^2.  For example to roll back v8.0, resulting in the SDK
 compiling against v7.2 use.
@@ -571,6 +566,16 @@ compiling against v7.2 use.
       $ git revert -Xtheirs v8.0^2
 
 The -Xtheirs option is a convenience that says, "If there are any conflicts, automatically take the software from the v8.0^2 side."
+
+.. warning:: If you want to downgrade more than one revision you must revert
+   each revision in sequence otherwise you could wind up with changes remaining
+   after reversion from the SDK version in between latest and the target you
+   are referring to. For example if you need to downgrade from v8.1.1 to v8.0,
+   for reference all SDK versions can be found
+   `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`_,
+   you must revert v8.1.1 followed by v8.1. If you don't follow this order,
+   then changes in v8.1.1 that don't overlap with v8.1 will remain in your
+   workspace and that's not what you want.
 
 Summary
 -------
