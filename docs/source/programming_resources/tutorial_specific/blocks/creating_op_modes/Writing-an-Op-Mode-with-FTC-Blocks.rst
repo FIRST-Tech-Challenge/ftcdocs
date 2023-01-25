@@ -1,4 +1,4 @@
-Creating Op Modes (FTC Blocks)
+Creating Op Modes (Blocks)
 ==============================
 
 
@@ -15,18 +15,18 @@ Controller after being selected on the Driver Station.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
-This section of the wiki explains how to use the FTC Blocks Programming
-Tool to write an op mode for an FTC robot.
+This section of the wiki explains how to use the Blocks Programming
+Tool to write an op mode for a robot.
 
-The FTC Blocks Programming Tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Blocks Programming Tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The FTC Blocks Programming Tool is a user-friendly programming tool that
+The Blocks Programming Tool is a user-friendly programming tool that
 is served up by the Robot Controller. A user can create custom op modes
 for their robot using this tool and then save these op modes directly
 onto the Robot Controller. Users drag and drop jigsaw-shaped programming
 blocks onto a design "canvas" and arrange these blocks to create the
-program logic for their op mode. The FTC Blocks Programming Tool is
+program logic for their op mode. The Blocks Programming Tool is
 powered by Google's Blockly software and was developed with support from
 Google.
 
@@ -37,7 +37,7 @@ Google.
 
 The examples in this section use a Windows laptop computer to connect to
 the Robot Controller. This Windows laptop computer has a
-Javascript-enabled web browser installed that is used to access the FTC
+Javascript-enabled web browser installed that is used to access the 
 Blocks Programming Tool.
 
 .. image:: images/BlocksPicture2.jpg
@@ -55,7 +55,7 @@ you are using a Control Hub as your Robot Controller.
 
 Note that if you prefer, you can use an alternate device, such as an
 Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook,
-instead of a Windows computer to access the FTC Blocks Programming Tool.
+instead of a Windows computer to access the Blocks Programming Tool.
 The instructions included in this document, however, assume that you are
 using a Windows laptop.
 
@@ -69,7 +69,7 @@ Creating Your First Op Mode
 
 If you connected your laptop successfully to the Program & Manage
 wireless network of the Robot Controller, then you are ready to create
-your first op mode. In this section, you will use the FTC Blocks
+your first op mode. In this section, you will use the Blocks
 Programming Tool to create the program logic for your first op mode.
 
 Note that it will take an estimated 10 minutes to create your first op
@@ -506,6 +506,6 @@ op mode.
 
 |
 
-Congratulations! You wrote your first op mode using the FTC Blocks
+Congratulations! You wrote your first op mode using the Blocks
 Programming Tool! You will learn how to run your op mode in the the
 section entitled :doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>`.

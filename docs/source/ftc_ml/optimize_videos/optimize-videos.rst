@@ -50,7 +50,7 @@ makes some sense. Please read this in its entirety:
    labels <https://github.com/tensorflow/models/blob/master/research/object_detection/data/mscoco_complete_label_map.pbtxt>`__.
    The ftc-ml tool uses the SSD MobileNet v2 320x320 model as its
    default starter model from this Zoo – the TensorFlow models released
-   in the `FTC 7.0
+   in the `7.0
    SDK <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v7.0>`__
    are based on this model too. Unfortunately due to the way models are
    trained within ftc-ml, those everyday object labels are no longer
@@ -64,11 +64,9 @@ makes some sense. Please read this in its entirety:
    categories of objects that can be recognized using the zoo models
    once the appropriate labels are added to your Op Mode code).
 
-**NOTE:** FTC is working to convert several of these TensorFlow Model
-Zoo models from full TensorFlow models (.pb files) to TensorFlow-Lite
-models (.tflite files) to be used within FTC Op Modes. It will be
-announced on the Help/Feedback forums once these models are available
-for use.
+   Teams can download the `TensorFlow Lite 2.x Model Zoo models
+   <https://storage.googleapis.com/ftc-ml-firstinspires-prod/models/ssd_mobilenet_v2_all.zip>`
+   for use.
 
 3.  The performance of a TensorFlow model using Object Detection, even
     on TPU hardware, is completely dependent upon the core resolution of

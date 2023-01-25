@@ -190,7 +190,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
             Store)
 
          Touch the APK filename that you transferred. Respond to the prompts, to
-         install the updated FTC RC app.
+         install the updated RC app.
 
          After install, drag the RC app icon from the app menu to the RC phone’s
          home screen.
@@ -313,7 +313,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
       correct: **Robot Controller APK** stored on the **Driver Station**
       device.
 
-      First download the RC APK file from the FTC github repo to the computer,
+      First download the RC APK file from the github repo to the computer,
       as shown in Step 1 of Method 2. Then transfer that APK file from the
       computer to the DS device’s Download folder, using a USB data cable. When
       complete, you may unplug the DS device from the computer.

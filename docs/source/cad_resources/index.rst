@@ -20,7 +20,7 @@ to run. Some CAD suppliers also provide cloud-based tools, which move the proces
 onto cloud servers - these solutions often merely require an internet-connected computer 
 with a web browser.
 
-Here are a few tools commonly used by FTC teams:
+Here are a few tools commonly used by teams:
 
 Software for Beginners
 

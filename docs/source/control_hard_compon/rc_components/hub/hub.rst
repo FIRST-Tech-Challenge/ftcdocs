@@ -1,7 +1,7 @@
 REV Hubs
 ==========
 
-The REV Hubs are the core control units of an FTC robot.
+The REV Hubs are the core control units of a *FIRST* Tech Challenge robot.
 
 Control Hub
 ------------

@@ -6,11 +6,11 @@ The Java Programming Language
 
 This tutorial assumes that you have a sound understanding of the Java
 programming language. If you do not know Java, then you should consider
-using the FTC Blocks Programming Tool, which is a visual development
-tool. Information about the FTC Blocks Programming Tool can be found at
+using the Blocks Programming Tool, which is a visual development
+tool. Information about the Blocks Programming Tool can be found at
 the following link:
 
-:doc:`FTC Blocks Tutorial <../../../blocks/Blocks-Tutorial>`
+:doc:`Blocks Tutorial <../../../blocks/Blocks-Tutorial>`
 
 Or, you can learn the Java programming language by completing the Oracle
 Java Tutorial, which is available at the following address:
@@ -30,13 +30,13 @@ Controller phone after being selected on the Driver Station phone.
 
 Teams who are participating in the FIRST Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
-This document explains how to use the FTC OnBot Java Programming Tool to
-write an op mode for an FTC robot.
+This document explains how to use the OnBot Java Programming Tool to
+write an op mode for a robot.
 
-The FTC OnBot Java Programming Tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The OnBot Java Programming Tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The FTC OnBot Java Programming Tool is a user-friendly programming tool
+The OnBot Java Programming Tool is a user-friendly programming tool
 that is served up by the Robot Controller phone. A user can create
 custom op modes for their robot using this tool and then save these op
 modes directly onto the Robot Controller. Users write their op modes
@@ -51,7 +51,7 @@ run time.
 
 The examples in this document use a Windows laptop computer to connect
 to the Robot Controller. This Windows laptop computer has a
-Javascript-enabled web browser installed that is used to access the FTC
+Javascript-enabled web browser installed that is used to access the 
 OnBot Java Programming Tool.
 
 .. image:: images/BlocksPicture2.jpg
@@ -354,7 +354,7 @@ When you create or edit an op mode the OnBot Java editor will auto-save
 the .java file to the file system of the Robot Controller. However,
 before you can execute your changes on the Robot Controller, you must
 first build the op mode and convert it from a Java text file to a binary
-that can be loaded dynamically into the FTC Robot Controller app.
+that can be loaded dynamically into the Robot Controller app.
 
 If you are satisfied with your op mode and are ready to build, press the
 Build button (which is the button with the wrench symbol, see image

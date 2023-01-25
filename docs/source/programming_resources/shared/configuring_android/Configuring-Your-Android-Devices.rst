@@ -23,7 +23,7 @@ Station. The process is as follows:
 
 References to the Driver Station smartphone may instead apply to the
 `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
-which is preloaded with the FTC Driver Station (DS) app.
+which is preloaded with the Driver Station (DS) app.
 
 .. important:: Eventually the Control Hub will need be renamed so
    that its name complies with Game Manual rule <RS01>, but for now we will
@@ -147,16 +147,16 @@ level, as described below.
 | device.                                        |                     |
 +------------------------------------------------+---------------------+
 
-Installing the FTC Apps
-~~~~~~~~~~~~~~~~~~~~~~~
+Installing the *FIRST* Tech Challenge Apps
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**As of 2021, the FTC apps (v 6.1 and higher) are no longer available on
+**As of 2021, the SDK apps (v 6.1 and higher) are no longer available on
 Google Play.**
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software will allow you to download the apps to FTC devices: REV Control
-Hub, REV Expansion Hub, REV Driver Hub, and other FTC-approved Android
-devices (*see section below, called Updating FTC Apps on Android
+software will allow you to download the apps to devices: REV Control
+Hub, REV Expansion Hub, REV Driver Hub, and other approved Android
+devices (*see section below, called Updating Apps on Android
 Phones*). Here are some of the benefits: 
 
 *  Connect to a REV Control Hub via WiFi. 
@@ -166,31 +166,31 @@ Phones*). Here are some of the benefits:
 *  Install and switch between DS and RC applications on Android Devices. 
 *  Access the Robot Control Console on the Control Hub.
 
-The FTC app releases are also available on the `FTCRobotController
+The app releases are also available on the `FTCRobotController
 Github
 repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
-It is possible to "side-load" the FTC apps onto the Robot Controller
+It is possible to "side-load" the apps onto the Robot Controller
 (RC) and Driver Station (DS) phones. However, this section of the document 
 does **not** include such instructions; other document pages describe
 side-loading the :ref:`RC app <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`
 and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>`.
 
-Updating FTC Apps and Firmware on REV Devices (REV Expansion Hub, REV Control Hub, REV Driver Hub)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Updating Apps and Firmware on REV Devices (REV Expansion Hub, REV Control Hub, REV Driver Hub)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software is used to install and update FTC apps, firmware and/or
-operating systems on FTC devices from REV Robotics. Simply connect the
+software is used to install and update apps, firmware and/or
+operating systems on devices from REV Robotics. Simply connect the
 device via USB to your PC with the REV Hardware Client installed and
 running, and the software will detect connected hardware. After
 detection, the REV Hardware Client can then 
-`update the FTC Robot Controller (RC) app on a REV Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
-`update the FTC Driver Station (DS) app on a REV Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
+`update the Robot Controller (RC) app on a REV Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
+`update the Driver Station (DS) app on a REV Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
 or 
 `update firmware <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__.
 
-Updating FTC Apps on Android Phones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Updating Apps on Android Phones
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software is used to install, uninstall, and 
@@ -289,7 +289,7 @@ Control Hub Pairing
 ^^^^^^^^^^^^^^^^^^^
 
 The REV Robotics Control Hub should come with the Robot Controller app
-pre-installed. Once you have successfully installed the FTC Driver
+pre-installed. Once you have successfully installed the Driver
 Station on an Android phone, you will want to establish a secure
 wireless connection between the Control Hub and the Driver Station. This
 connection will allow your Driver Station phone to select op modes on
@@ -338,7 +338,7 @@ task.
 | Hub is healthy.                                |                     |
 +------------------------------------------------+---------------------+
 | 3. On the Driver Station device, browse the    | |pairing3|          |
-| available apps and locate the **FTC Driver     |                     |
+| available apps and locate the **Driver         |                     |
 | Station** icon. Tap on the icon to launch the  |                     |
 | Driver Station app. Note that the first time   |                     |
 | you launch the app your Android device might   |                     |
@@ -348,7 +348,7 @@ task.
 +------------------------------------------------+---------------------+
 | 4. Touch the three vertical dots on the upper  | |pairing4|          |
 | right hand corner of the main screen of the    |                     |
-| FTC Driver Station app. This will launch a     |                     |
+| Driver Station app. This will launch a         |                     |
 | pop-up menu.                                   |                     |
 +------------------------------------------------+---------------------+
 | 5. Select **Settings** from the pop-up menu.   | |pairing5|          |
@@ -428,7 +428,7 @@ Two Android Smartphone Pairing
    Station might try and connect to the Control Hub and might be unable to
    connect to the Robot Controller smartphone.
 
-Once you have successfully installed the FTC apps onto your Android
+Once you have successfully installed the apps onto your Android
 phones, you will want to establish a secure wireless connection between
 the two devices. This connection will allow your Driver Station phone to
 select op modes on your Robot Controller phone and send gamepad input to
@@ -458,7 +458,7 @@ Note that it will take an estimated 10 minutes to complete this task.
 | Step                                           | Image               |
 +================================================+=====================+
 | 1. On the Robot Controller device, browse the  | |pairingns1|        |
-| available apps and locate the **FTC Robot      | |pairingns1b|       |
+| available apps and locate the **Robot          | |pairingns1b|       |
 | Controller** icon. Tap on the icon to launch   |                     |
 | the Robot Controller app. Note that the first  |                     |
 | time you launch the app your Android device    |                     |
@@ -473,7 +473,7 @@ Note that it will take an estimated 10 minutes to complete this task.
 |                                                |                     |
 +------------------------------------------------+---------------------+
 | 3. On the Driver Station device, browse the    | |pairingns3|        |
-| available apps and locate the **FTC Driver     | |pairingns3b|       |
+| available apps and locate the **Driver         | |pairingns3b|       |
 | Station** icon. Tap on the icon to launch the  |                     |
 | Driver Station app. Note that the first time   |                     |
 | you launch the app your Android device might   |                     |
@@ -483,7 +483,7 @@ Note that it will take an estimated 10 minutes to complete this task.
 +------------------------------------------------+---------------------+
 | 4. Touch the three vertical dots on the upper  | |pairingns4|        |
 | right hand corner of the main screen of the    |                     |
-| FTC Driver Station app. This will launch a     |                     |
+| Driver Station app. This will launch a         |                     |
 | pop-up menu.                                   |                     |
 +------------------------------------------------+---------------------+
 | 5. Select **Settings** from the pop-up menu.   | |pairingns5|        |

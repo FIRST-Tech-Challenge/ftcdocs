@@ -6,9 +6,9 @@ begin by learning how to use the :ref:`Blocks programming
 tool <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
 There are currently three programming tools that are available for the
-FTC teams to use:
+teams to use:
 
-1. **The FTC Blocks Programming Tool** - A visual, programming tool that
+1. **The Blocks Programming Tool** - A visual, programming tool that
    lets programmers use a web browser to create, edit and save their op
    modes. This tool is recommended for novice programmers and for users
    who prefer to design their op modes visually, using a drag-and-drop
@@ -16,7 +16,7 @@ FTC teams to use:
 
 .. image:: images/BlocksPicture1.jpg
 
-2. **The FTC OnBot Java Programming Tool** - A text-based programming
+2. **The OnBot Java Programming Tool** - A text-based programming
    tool that lets programmers use a web browser to create, edit and save
    their Java op modes. This tool is recommended for programmers who
    have basic to advanced Java skills and who would like to write
@@ -33,12 +33,12 @@ FTC teams to use:
 .. image:: images/androidStudioScreen.jpg
 
 Each tool has its own merits and weaknesses. For many users (especially
-rookies and novice programmers), **the FTC Blocks Programming Tool is
+rookies and novice programmers), **the Blocks Programming Tool is
 the best overall tool to use**. The Blocks Programming Tool is intuitive
 and easy-to-learn. **It is the fastest way to get started programming
 your robot.**
 
-The FTC OnBot Java Programming Tool is similar to the Blocks Programming
+The OnBot Java Programming Tool is similar to the Blocks Programming
 Tool. However, OnBot Java is a text-based tool and it requires that the
 user have a sound understanding of the Java programming language.
 

@@ -24,7 +24,7 @@ document before proceeding.
 |
 
    .. note:: 
-    Be careful of a common pitfall – as of FTC SDK 7.0, normal
+    Be careful of a common pitfall – as of SDK 7.0, normal
     TensorFlow blocks cannot load custom tensorflow models. There are TWO
     kinds of TensorFlow blocks, one type for regular models and one type
     for custom models, and ALL of the blocks in each category MUST be

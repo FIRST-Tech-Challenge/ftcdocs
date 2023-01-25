@@ -1,9 +1,9 @@
 Required Materials
 ==================
 
-This wiki contains tutorials that demonstrate how to configure, program,
-and operate the FTC control system. In order to complete the tutorials,
-you will need to have the following materials available:
+This wiki contains tutorials that demonstrate how to configure, program, and
+operate the *FIRST* Tech Challenge control system. In order to complete the
+tutorials, you will need to have the following materials available:
 
 .. |androidphones| image:: images/twoAndroidPhones.jpg
 .. |chandphones| image:: images/ControlHubAndPhone.jpg
@@ -90,7 +90,7 @@ you will need to have the following materials available:
 | *FIRST*-approved\* 12V Battery (such as Tetrix | |battery|           |
 | W39057 or REV Robotics REV-31-1302).\*\ **For  |                     |
 | a list of FIRST-approved 12V batteries, refer  |                     |
-| to the current FTC Game Manual Part 1, rule    | Or                  |
+| to the current Game Manual Part 1, rule        | Or                  |
 | <RE03>.**\                                     | |slimbattery|       |
 |                                                |                     |
 |                                                |                     |
@@ -98,7 +98,7 @@ you will need to have the following materials available:
 | *FIRST*-approved\* 12V DC Motor (such as       | |motor|             |
 | Tetrix W39530, with power cable W41352).       |                     |
 | \*\ **For a list of FIRST-approved 12V motors, |                     |
-| refer to the current FTC Game Manual Part 1,   |                     |
+| refer to the current Game Manual Part 1,       |                     |
 | rule <RE09>.**\                                |                     |
 +------------------------------------------------+---------------------+
 | REV Robotics Anderson to JST VH Cable          | |jst|               |

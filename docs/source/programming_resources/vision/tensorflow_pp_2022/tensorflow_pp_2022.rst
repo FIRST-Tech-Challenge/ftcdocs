@@ -20,7 +20,7 @@ POWERPLAY presented by Raytheon Technologies** challenge.
    This season’s TFOD model can recognize Signal image elements
 
 TensorFlow Object Detection (TFOD) has been integrated into the control system
-software to identify these Signal images during a match. The FTC SDK (SDK
+software to identify these Signal images during a match. The SDK (SDK
 version 8.0) contains TFOD Sample Op Modes and Detection Models that can
 recognize and differentiate between the Signal images: Bolt (green lightning
 bolt), Bulb (4 yellow light bulbs), and Panel (purple solar panels).
@@ -36,7 +36,7 @@ receive technical support using the Machine Learning Toolchain through the
 
 .. note::
    TensorFlow Lite runs on Android 6.0 (Marshmallow) or higher, a requirement met
-   by all currently allowed FTC devices. If you are a Blocks programmer using an
+   by all currently allowed devices. If you are a Blocks programmer using an
    older/disallowed Android device that is not running Marshmallow or higher, TFOD
    Blocks will automatically be missing from the Blocks toolbox or design palette.
 
@@ -62,7 +62,7 @@ Challenge software or to use the game-specific default model provided. As noted
 above, the *FIRST* Machine Learning Toolchain is a streamlined tool for training
 your own TFOD models. 
 
-The FIRST Tech Challenge software (FTC Robot Controller App and Android Studio
+The FIRST Tech Challenge software (Robot Controller App and Android Studio
 Project) includes sample op modes (Blocks and Java versions) that demonstrate
 how to use **the default inference model**.  These tutorials show how to use
 the sample op modes, using examples from previous *FIRST* Tech Challenge seasons, but demonstrate
@@ -248,7 +248,7 @@ average user. (See :ref:`White Balance Control
 control>` and :ref:`White Balance Control Mode
 <programming_resources/vision/webcam_controls/webcam-controls:white balance
 control mode>` for more information about adjusting white balance
-programmatically within the FTC SDK's Java language libraries). 
+programmatically within the SDK's Java language libraries). 
 
 In order to get TensorFlow to become less sensitive to the need for "white
 balance" within the frame, and ignore the white altogether, a suite of

@@ -1,8 +1,8 @@
 Implementing in Robot Code
 ============================
 
-The basis of this tutorial will be the sample opmodes provided by FIRST
-in the `FTC 7.0
+The basis of this tutorial will be the sample opmodes provided by *FIRST*
+in the `7.0 
 SDK <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__. The
 process for testing a custom TensorFlow model is quite simple. To do
 this the general process flow is as follows:
