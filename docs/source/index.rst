@@ -11,13 +11,19 @@ students. It’s way more than building robots, see
 :doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>`
 to see why.
 
+.. warning::
+
+   FTC Docs will be undergoing maintence on Saturday 2/25 EST. Access will be limited 
+   so please plan accordingly. Downloading a copy of the :doc:`FTC Docs PDF <ftc_docs/pdf/pdf>` would be advisable 
+   for smoothing out the transition.
+
 .. note::
 
    This project is under active development. Anything contained herein is for 
    informational purposes only; while this documentation is intended to support 
    teams and in some way provide context to game rules, the game rules supercede 
    all documentation found here. If you have feedback about this project, 
-   please use our :doc:`feedback form <form/form>`.
+   please use our :doc:`feedback form <ftc_docs/form/form>`.
 
 .. toctree::
    :hidden:
@@ -25,7 +31,6 @@ to see why.
 
    /overview/ftcoverview
    gracious_professionalism/gp
-   Site Feedback Form<form/form>
 
 .. toctree::
    :caption: Getting Started
@@ -92,6 +97,17 @@ to see why.
 
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
+
+.. toctree::
+   :caption: FTC Docs
+   :maxdepth: 1
+   :hidden:
+
+   Site Feedback Form<ftc_docs/form/form>
+   FTC Docs PDF<ftc_docs/pdf/pdf>
+   Dark Mode<ftc_docs/dark/dark>
+
+.. Add Contrib Section here when added
 
 .. rst-class:: center
    
