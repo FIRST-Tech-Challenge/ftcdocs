@@ -18,6 +18,6 @@ FTC Docs PDF
             :width: 50%
             :align: center
 
-Though FTC Docs is avaiable as a website in HTML it is also available as a PDF. 
+Though FTC Docs is available as a website in HTML it is also available as a PDF. 
 This PDF can be acsessed by clicking the the FTC Docs menu in the bottom left corner 
 of the page and selecting the PDF option.
