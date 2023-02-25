@@ -11,12 +11,6 @@ students. It’s way more than building robots, see
 :doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>`
 to see why.
 
-.. warning::
-
-   FTC Docs will be undergoing maintence on Saturday 2/25 EST. Access will be limited 
-   so please plan accordingly. Downloading a copy of the :doc:`FTC Docs PDF <ftc_docs/pdf/pdf>` would be advisable 
-   for smoothing out the transition.
-
 .. note::
 
    This project is under active development. Anything contained herein is for 
