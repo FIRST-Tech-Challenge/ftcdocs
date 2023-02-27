@@ -735,7 +735,7 @@ rotations.
 
 This basic tutorial does not cover the math behind Quaternions, an advanced
 substitute for Euler Angles described above. The SDK 8.1 IMU interface supports
-the use of Quaternions, for FTC teams and third party libraries familiar with
+the use of Quaternions, for teams and third party libraries familiar with
 them.
 
 Initialize IMU
@@ -743,7 +743,7 @@ Initialize IMU
 
 This prepares the IMU for operation, using the parameters you defined.
 
-In FTC Blocks, use the first Block shown in the IMU palette, called
+In Blocks, use the first Block shown in the IMU palette, called
 ``imu.initialize``. Most teams do this during the INIT phase of their
 OpMode, before ``waitForStart()``.
 
@@ -828,7 +828,7 @@ Here's an example of reading IMU Angles:
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, create a new Variable to receive data from this green
+      In Blocks, create a new Variable to receive data from this green
       Block in the **IMU** palette:
 
       .. figure:: images/300-Blocks-get-robot-YPR-angles.png
@@ -898,7 +898,7 @@ its mounted orientation.*
 Read IMU Angles - Flexible
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As an alternative to the ``YawPitchRollAngles`` class, the FTC SDK also
+As an alternative to the ``YawPitchRollAngles`` class, the SDK also
 provides a more flexible ``Orientation`` class. This allows you to
 specify a **custom order** of axis rotations, and a choice of intrinsic
 or extrinsic axes.
@@ -964,7 +964,7 @@ Here is an example use of these functions:
 Read Angular Velocity
 ^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK also provides values for **angular velocity**, the rate of
+The SDK also provides values for **angular velocity**, the rate of
 change (degrees or radians per second) for Roll, Pitch or Yaw.
 
 Here is an example for reading Angular Velocity:
@@ -1029,7 +1029,7 @@ Here is an example for resetting the Yaw axis:
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, this optional command is simple:
+      In Blocks, this optional command is simple:
 
       .. figure:: images/210-Blocks-reset-Yaw.png
          :align: center
@@ -1065,7 +1065,7 @@ Hub to a different Orthogonal position, still relying only on Heading.
 This* ``resetYaw()`` *exception does*\  **not**\  *apply to angular velocity
 for Yaw (Z-axis).*
 
-Here’s the official FTC Javadocs description for ``resetYaw()``: 
+Here’s the official Javadocs description for ``resetYaw()``: 
 
    | Resets the robot’s yaw angle to 0. After calling this method, the reported
    | orientation will be relative to the robot’s position when this method is
@@ -1100,7 +1100,7 @@ The SDK 8.1 contains Sample OpModes demonstrating the above.
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, a simple example is called ``SensorIMU``.
+      In Blocks, a simple example is called ``SensorIMU``.
 
       .. figure:: images/350-Blocks-IMU-Sample.png
          :align: center
@@ -1152,7 +1152,7 @@ The SDK 8.1 contains Sample OpModes demonstrating the above.
 SDK Resources
 -------------
 
-Advanced programmers are invited to browse the FTC `Javadocs
+Advanced programmers are invited to browse the `Javadocs
 documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ (API),
 particularly in:
 
@@ -1172,7 +1172,7 @@ this basic tutorial.
 Summary
 -------
 
-The FTC SDK 8.1 provides a universal interface that supports both the
+The SDK 8.1 provides a universal interface that supports both the
 BHI260AP and BNO055 IMU. This basic tutorial introduced some new
 features:
 

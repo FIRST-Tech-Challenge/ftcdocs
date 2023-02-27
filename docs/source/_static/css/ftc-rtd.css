@@ -134,6 +134,11 @@ html[data-theme='dark'] .wy-nav-content-wrap{
 	}
 }
 
+div.ethical-sidebar, div.ethical-footer {
+    position: absolute;
+    left: -99999px;
+}
+
 /* ===================================== */
 /* ====== START SPHINX TABS CSS ======== */
 

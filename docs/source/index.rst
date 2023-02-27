@@ -17,7 +17,7 @@ to see why.
    informational purposes only; while this documentation is intended to support 
    teams and in some way provide context to game rules, the game rules supercede 
    all documentation found here. If you have feedback about this project, 
-   please use our :doc:`feedback form <form/form>`.
+   please use our :doc:`feedback form <ftc_docs/form/form>`.
 
 .. toctree::
    :hidden:
@@ -25,8 +25,6 @@ to see why.
 
    /overview/ftcoverview
    gracious_professionalism/gp
-   Site Feedback Form<form/form>
-   /contact/contact
 
 .. toctree::
    :caption: Getting Started
@@ -93,6 +91,17 @@ to see why.
 
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
+
+.. toctree::
+   :caption: FTC Docs
+   :maxdepth: 1
+   :hidden:
+
+   Site Feedback Form<ftc_docs/form/form>
+   FTC Docs PDF<ftc_docs/pdf/pdf>
+   Dark Mode<ftc_docs/dark/dark>
+
+.. Add Contrib Section here when added
 
 .. rst-class:: center
    

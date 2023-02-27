@@ -4,7 +4,7 @@ Using TensorFlow in Freight Frenzy
 What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
 
-FTC teams can use `TensorFlow
+*FIRST* Tech Challenge teams can use `TensorFlow
 Lite <https://www.tensorflow.org/lite/>`__, a lightweight version of
 Google’s `TensorFlow <https://www.tensorflow.org/>`__ machine learning
 technology that is designed to run on mobile devices such as an Android
@@ -18,18 +18,18 @@ elements for the 2021-2022 Freight Frenzy challenge.
 
    This season’s TFOD model can recognize Freight elements
 
-TensorFlow Object Detection (TFOD) has been integrated into the FTC
+TensorFlow Object Detection (TFOD) has been integrated into the 
 control system software, to identify and track these game pieces during
-a match. The FTC software (SDK version 7.0) contains TFOD Sample Op
+a match. The software (SDK version 7.0) contains TFOD Sample Op
 Modes that can recognize the Freight elements Duck, Box (or Cube), and
 Cargo (or Ball).
 
-Also, FTC teams can use a new tool to train their own TFOD models, to
+Also, teams can use a new tool to train their own TFOD models, to
 recognize their custom Team Shipping Element (TSE) and/or to improve
 recognition of Freight elements. This training could take into account
 certain conditions of distance, angle, lighting and background.
 
-This new tool is the **FTC Machine Learning Toolchain**, `announced
+This new tool is the **Machine Learning Toolchain**, `announced
 10/7/2021 <http://firsttechchallenge.blogspot.com/2021/10/new-machine-learning-tool-beta-testing.html>`__.
 Learn more at these links: `[forum] <https://ftc-community.firstinspires.org/>`__
 :doc:`[manual] <../../../ftc_ml/index>`
@@ -64,7 +64,7 @@ Important Note on Phone Compatibility
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TensorFlow Lite runs on Android 6.0 (Marshmallow) or higher, a
-requirement met by all currently allowed FTC devices. If you are a
+requirement met by all currently allowed devices. If you are a
 Blocks programmer using an older/disallowed Android device that is not
 running Marshmallow or higher, TFOD Blocks will automatically be missing
 from the Blocks toolbox or design palette.
@@ -72,7 +72,7 @@ from the Blocks toolbox or design palette.
 Sample Op Modes
 ~~~~~~~~~~~~~~~
 
-The FTC software (SDK version 7.0 and higher) contains sample Blocks and
+The software (SDK version 7.0 and higher) contains sample Blocks and
 Java op modes that demonstrate TensorFlow **recognition** of Freight
 elements Duck, Box (cube) and Cargo (ball). The sample op modes also
 show **where** in the camera’s field of view a detected object is
@@ -89,7 +89,7 @@ Using a Custom Inference Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Teams have the option of using a custom inference model with the FIRST
-Tech Challenge software. As noted above, the **FTC Machine Learning
+Tech Challenge software. As noted above, the **Machine Learning
 toolchain** is a streamlined tool for training your own TFOD models. An
 alternate would be to use the `TensorFlow Object Detection
 API <https://github.com/tensorflow/models/tree/master/research/object_detection>`__
@@ -99,7 +99,7 @@ might also want to use an available pre-trained model to build a robot
 that can detect common everyday objects (for demo or outreach purposes,
 for example).
 
-The FTC software includes sample op modes (Blocks and Java versions)
+The software includes sample op modes (Blocks and Java versions)
 that demonstrate how to use a **custom inference model**:
 
 -  `Using a Custom TensorFlow Model with
@@ -107,7 +107,7 @@ that demonstrate how to use a **custom inference model**:
 -  `Using a Custom TensorFlow Model with
    Java <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Using-a-Custom-TensorFlow-Model-with-Java>`__
 
-These tutorials use examples from a previous FTC season (Skystone), but
+These tutorials use examples from a previous season (Skystone), but
 the process remains generally valid for Freight Frenzy.
 
 Detecting Everyday Objects

@@ -1,9 +1,9 @@
 Controlling a Servo (Blocks)
 ----------------------------
 
-In the section titled :doc:`Creating an Op Mode with FTC
+In the section titled :doc:`Creating an Op Mode with 
 Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use
-the FTC Blocks Programming Tool to write an op mode that controls a 12V
+the Blocks Programming Tool to write an op mode that controls a 12V
 DC motor. In this section, you will learn how to write an op mode that
 controls a servo motor.
 
@@ -74,7 +74,7 @@ Controller's Program & Manage Wi-Fi network.
 
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left-hand corner of the  
-browser window on the laptop. This should take you to the main FTC    
+browser window on the laptop. This should take you to the main 
 Blocks Development Tool project screen. 
 
 .. image:: images/ControlServoStep2ControlHub.jpg

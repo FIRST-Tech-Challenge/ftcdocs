@@ -1,7 +1,7 @@
 Example: Read-Write File Access
 ===============================
 
-The current version of regular FTC Blocks (FTC SDK 7.0) does not provide
+The current version of regular Blocks (SDK 7.0) does not provide
 **read/write access to an external file**, other than automatic Log or
 Match Log file entries. File access is a useful capability, available so
 far to Java programmers only. Now it can be done with myBlocks!
@@ -13,7 +13,7 @@ value to a specified filename, and a companion myBlock can later
 .. image:: images/a0550-file-access-Blocks.png
 
 The file is stored on the Control Hub or RC phone, in the FIRST/settings
-folder. It exists separately from the FTC app, OpModes and other FTC
+folder. It exists separately from the RC app, OpModes, and other 
 files.
 
 Write and read actions can happen in the same OpMode or **different
@@ -41,7 +41,7 @@ or Android Studio.
    Programming tip: Instead of memorizing every possible Java command,
    programmers often study and modify existing code for a similar task.
    Unfamiliar commands are explored with an internet search, reference
-   book, at the `FTC Javadoc
+   book, at the `Javadoc
    reference <https://javadoc.io/doc/org.firstinspires.ftc>`__, or at
    the official `Oracle
    Javadoc <https://docs.oracle.com/javase/7/docs/api/>`__.

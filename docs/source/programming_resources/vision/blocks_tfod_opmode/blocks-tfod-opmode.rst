@@ -129,7 +129,7 @@ factor, the image will be cropped by this factor and this artificially
 magnified image will be passed to the TensorFlow library. The net result
 is that the robot is able to detect and track an object at a
 significantly larger distance. The webcams and built-in Android cameras
-that are typically used by FTC teams have high enough resolution to
+that are typically used by teams have high enough resolution to
 allow TensorFlow to “see” an artificially magnified target clearly.
 
 .. figure:: images/030_Blocks_TFOD_webcam_zoom.png

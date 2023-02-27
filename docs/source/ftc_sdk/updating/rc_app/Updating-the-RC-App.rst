@@ -7,24 +7,67 @@ Controller App is the application that runs on the Robot Controller Android
 Device (REV Control Hub or an approved Android RC phone). This app 
 communicates with the Driver Station App to control the robot.
 
-The Robot Controller App also contains the programming environments for
-Blocks and OnBot Java, but not the Team Code developed using those 
-environments. When building using the Android Studio project, however,
-a full build and deploy with Android Studio builds and deploys the 
-Robot Controller application with the Java Team Code built-in. Therefore,
-when updating the Robot Controller App, it is important to understand 
-which programming environments the team uses to know how to correctly
-update the Robot Controller App.
-
 This page shows how to update the Robot Controller (RC) app on these
 devices:
 
 -  An approved Android RC smartphone
 -  REV Control Hub
 
-**Android Studio** teams should **not** use these steps to update the RC
-app. **Android Studio** teams should ensure that their projects are up to
-date with the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+Blocks / OnBot Java vs Android Studio
+-------------------------------------
+
+Blocks / OnBot Java
+^^^^^^^^^^^^^^^^^^^
+
+The Robot Controller (RC) App contains the programming environments for Blocks
+and OnBot Java, and the User Programs (Team Code) developed using those
+environments are stored independently ALONGSIDE the RC App. This makes it
+possible to update the RC App independently without affecting Team Code.  This
+incredibly simplifies updating the RC App software, since no *code* needs to be
+modified in order to upgrade/downgrade the RC App itself. This does mean,
+however, that users of Blocks and OnBot Java are limited to the "default" RC
+App dependencies that are shipped with the App. Blocks and OnBot Java programs
+can still be run with an Android Studio-built RC App, however, so some
+flexibility is still possible in this regard for advanced users.
+
+Android Studio
+^^^^^^^^^^^^^^
+
+Android Studio, in general, works exactly the opposite. The FtcRobotController
+repository (the Android Studio Project) contains the full source code needed to
+build a complete RC App; when the Android Studio Project is compiled and
+deployed, it's actually building a complete Robot Controller App and installing
+it onto the RC Android device. Team Code **and** the Robot Controller code are
+compiled *together*, meaning the Team Code is embedded WITHIN the RC App and
+cannot be updated/edited independently of the RC App. If the Android
+Studio-deployed RC App is replaced using the REV Hardware Client or similar
+process, the RC App with the Team Code embedded is removed and replaced with
+the default RC App - so Android Studio users should NEVER update the RC App
+using anything but Android Studio! However, this can complicate upgrading and
+downgrading software. In order to upgrade/downgrade the RC App portion of their
+Android Studio code, the team's :doc:`Android Studio project
+<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
+must be merged properly with software releases of the `FtcRobotController
+repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ code
+aligning to the version of the Robot Controller App that they want to use. This
+must be carefully weighed when deciding to use Android Studio.
+
+Updating the RC App for Android Studio
+--------------------------------------
+
+**Android Studio** teams should **not** use the steps on this page to update
+the RC app, for the reasons described above. **Android Studio** teams should
+ensure that their :doc:`Android Studio Projects
+<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
+are up to date with the desired version of the `SDK GitHub Repo
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+
+Updating the RC App for Blocks / OnBot Java
+-------------------------------------------
+
+These instructions are for independently updating the RC App in situations where
+such an independent update is supported - i.e. Blocks or OnBot Java development.
+Expand the following instructions that apply to your Robot Controller hardware:
 
 .. dropdown:: Robot Controller (RC) app on Android phone
 
@@ -147,7 +190,7 @@ date with the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobot
             Store)
 
          Touch the APK filename that you transferred. Respond to the prompts, to
-         install the updated FTC RC app.
+         install the updated RC app.
 
          After install, drag the RC app icon from the app menu to the RC phone’s
          home screen.
@@ -270,7 +313,7 @@ date with the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobot
       correct: **Robot Controller APK** stored on the **Driver Station**
       device.
 
-      First download the RC APK file from the FTC github repo to the computer,
+      First download the RC APK file from the github repo to the computer,
       as shown in Step 1 of Method 2. Then transfer that APK file from the
       computer to the DS device’s Download folder, using a USB data cable. When
       complete, you may unplug the DS device from the computer.

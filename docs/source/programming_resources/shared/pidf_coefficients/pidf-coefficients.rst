@@ -156,7 +156,7 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
        }
    }
 
-Note 1: As of FTC SDK 7.0, the former PID-only methods are still
+Note 1: As of SDK 7.0, the former PID-only methods are still
 available, but deprecated.
 
 Note 2: the deprecated Modern Robotics and Hitechnic DC motor

@@ -114,6 +114,7 @@ epub_show_urls = 'footnote'
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 
 # Add a timeout to linkcheck to prevent check from simply hanging on poor websites
+
 linkcheck_timeout = 30
 
 # Change request header to avoid 403 error because Solidworks is great like that
@@ -143,8 +144,8 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
 
-# Configure for official builds
-if(os.environ.get("DOCS_BUILD") == "true"):
+# Configure for local official-esque builds
+if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
     html_context = dict()
     html_context['display_lower_left'] = True
 
@@ -152,33 +153,20 @@ if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['version'] = version
 
     html_context['downloads'] = list()
-    pdfname = str(urlparse.urlparse(os.environ.get("url", default="")).path) + output_name + ".pdf"
+    pdfname = str(urlparse.urlparse(os.environ.get("FTCDOCS_URL", default="")).path) + output_name + ".pdf"
     html_context['downloads'].append(('PDF', str(pdfname)))
 
     html_context['display_github'] = True
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
-    
-    # Specify canonical root
-    # This tells search engines that this domain is preferred
-    html_baseurl = str(os.environ.get("url")).replace("http://", "https://")
-    
-    # Sets up sitemap and robots.txt    
-    if(html_baseurl != ""):
-        extensions.append('sphinx_sitemap')
-        
-        with open('robots.txt', 'w') as robots:
-            
-            robots.write(f'User-agent: *\n\nSitemap: {html_baseurl}sitemap.xml')
-            html_extra_path = ["robots.txt"]
-            sitemap_url_scheme = "{link}"
+    cookiebanner_enabled = True
 
 
-    # Configure Google Analytics
-    googleanalytics_id = os.environ.get("GOOGLE_ANALYTICS_ID") 
-    googleanalytics_enabled = os.environ.get("GOOGLE_ANALYTICS_ID", default = "") != ""
-    cookiebanner_enabled = os.environ.get("COOKIEBANNER", default = "") != ""
+if(os.environ.get("RTD_DOCS_BUILD") == "true"):
+    cookiebanner_enabled = True
+    extensions.append('sphinx_sitemap')
+    html_baseurl = os.environ.get("FTCDOCS_URL", default="")
 
 # Configure RTD Theme
 html_theme_options = {

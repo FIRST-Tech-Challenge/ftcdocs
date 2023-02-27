@@ -26,7 +26,7 @@ Controller's Program & Manage Wi-Fi network.
 
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left hand corner of the  
-browser window on the laptop. This should take you to the main FTC    
+browser window on the laptop. This should take you to the main 
 Blocks Development Tool project screen.                               
 
 .. image:: images/DistanceSensorStep2ControlHub.jpg
@@ -70,7 +70,7 @@ sensorColorRange.getDistance" programming block.
 
 |
 
-   Note that earlier versions of the FTC Blocks Programming tool refer to the REV Robotics Color-Distance Sensor as the "LynxI2cColorRangeSensor".  Newer versions of the software refer to the device as the "REV Color/Range Sensor".
+   Note that earlier versions of the Blocks Programming tool refer to the REV Robotics Color-Distance Sensor as the "LynxI2cColorRangeSensor".  Newer versions of the software refer to the device as the "REV Color/Range Sensor".
 
 7. Drag the "call sensorColorRange.getDistance" programming block to  
 the "number" field of the "call telemetry.addData" programming block. 
@@ -135,7 +135,7 @@ Controller's Programming Mode Wi-Fi network.
 
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left hand corner of the  
-browser window on the laptop. This should take you to the main FTC    
+browser window on the laptop. This should take you to the main 
 Blocks Development Tool project screen.                               
 
 .. image:: images/TouchSensorOpModeStep2ControlHub.jpg

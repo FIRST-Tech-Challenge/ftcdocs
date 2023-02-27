@@ -312,7 +312,7 @@ Control Hub.
 Updating the Robot Controller App Instructions
 ----------------------------------------------
 
-1. Go to the FTC `GitHub repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__. 
+1. Go to the `GitHub repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__. 
 
 2. Locate the *FtcRobotController-release.apk* file.
 
@@ -378,7 +378,7 @@ custom calibration files and then upload these files to a Control Hub.
 
 A commented example of what the contents of a calibration file should
 look like can be found in a file called *teamwebcamcalibrations.xml*,
-which is included with the FTC Android Studio project folder. 
+which is included with the Android Studio project folder. 
 This example calibration file can be found
 `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__.
 

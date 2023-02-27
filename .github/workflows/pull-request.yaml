@@ -3,8 +3,8 @@ name: "Pull Request Docs Check"
 on: 
 - pull_request
 
-jobs:
-  build:
+jobs:           
+  build-pdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
@@ -28,16 +28,7 @@ jobs:
       - name: Build site
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
-        run: make -C docs/ official
-          
-      - name: Archive Site
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'docs/build/html'
-          retention-days: 7
-          
-      - name: Create Tag File
-        run: touch "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
+        run: make -C docs/ latexpdf
         
       - name: Archive PDF
         env:
@@ -50,7 +41,35 @@ jobs:
             docs/build/latex/*.pdf
             FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }} 
           if-no-files-found: error
-          retention-days: 7
+
+  build-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
+        
+      - name: Refresh Packages
+        run: sudo apt-fast -y update
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+        
+      - name: Build site
+        env:
+          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+        run: make -C docs/ html
+          
+      - name: Archive Site
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'docs/build/html'
+          
   spelling-check:
     runs-on: ubuntu-latest
     steps:
@@ -104,7 +123,3 @@ jobs:
 
       - name: image-check
         run: make -C docs/ imagecheck
-
-
-
-      
