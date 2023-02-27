@@ -36,7 +36,7 @@ jobs:
           ID:  ${{ github.run_attempt }}
         uses: actions/upload-artifact@v3
         with:
-          name: FTCDOCS
+          name: FTCDOCS-PDF
           path: |
             docs/build/latex/*.pdf
             FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }} 
@@ -66,9 +66,11 @@ jobs:
         run: make -C docs/ html
           
       - name: Archive Site
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
+          name: FTCDOCS-HTML
           path: 'docs/build/html'
+          if-no-files-found: error
           
   spelling-check:
     runs-on: ubuntu-latest
