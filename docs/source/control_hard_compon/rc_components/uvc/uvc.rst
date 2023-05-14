@@ -41,8 +41,8 @@ UVC Webcam
 A webcam is a device that provides visual images of the surrounding
 environment. For use as part of *FIRST* Tech Challenge teams must use a COTS 
 `UVC <https://www.usb.org/document-library/video-class-v15-document-set>`_ 
-(USB Video Class) Compatible Camera. This device an be connected directly to
-the REV Control Hub or to a to the Robot Control system via a powered USB hub
+(USB Video Class) Compatible Camera. This device can be connected directly to
+the REV Control Hub or to the Robot Control system via a powered USB hub
 ``<RE14>``. This device is intended to be used in vision related tasks. An
 example use case of a webcam is reading the state of the barcode after
 randomization, a vision task in *Freight Frenzy*, 2021-2022.

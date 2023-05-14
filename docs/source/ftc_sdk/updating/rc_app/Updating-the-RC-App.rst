@@ -2,7 +2,7 @@ Updating the Robot Controller (RC) App
 ======================================
 
 The Robot Controller App is one of the Apps provided with the *FIRST* Tech
-Challenge :doc:`Software Development Kit (SDK) <../index>`. The Robot
+Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`. The Robot
 Controller App is the application that runs on the Robot Controller Android
 Device (REV Control Hub or an approved Android RC phone). This app 
 communicates with the Driver Station App to control the robot.

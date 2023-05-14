@@ -4,7 +4,7 @@ Veteran Teams
 Welcome back to FIRST Tech Challenge veteran teams! Resources have been
 organized by type to help your team stay organized and be successful throughout
 the season. These resources are tailored to teams with experience in robotics
-looking to elevate their skills.  The technical reources are a stepping stone
+looking to elevate their skills.  The technical resources are a stepping stone
 towards industry standard certifications. Just click on the panel for the
 resource you want to explore!
 
@@ -21,11 +21,11 @@ resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      JAVA and Android Studio
+      Java and Android Studio
 
       ^^^
 
-      Look for JAVA programming resources here.
+      Look for Java programming resources here.
 
    .. grid-item-card::
       :link: ../../cad_resources/index

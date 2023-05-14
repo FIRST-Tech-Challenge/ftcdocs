@@ -12,8 +12,5 @@ Expansion Hub Ports
 USB-B Port
 ----------
 
-On an Expansion Hub, the USB-mini-B port is the primary port for communicating
-with the hub. It is used by the Android Phone, through the use of a USB-OTG
-cable, to control the Expansion Hub.  It is also used to upload firmware to the
-device.
-
+An Android RC phone controls an Expansion Hub through this USB-mini-B 
+port, connected with USB OTG cable. This port also allows firmware updates.
