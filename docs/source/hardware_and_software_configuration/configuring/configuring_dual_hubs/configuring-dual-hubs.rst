@@ -19,6 +19,7 @@ Expansion Hubs on a single robot to two.
 smartphone Robot Controller with two Expansion Hubs. Control Hubs have a
 reserved address, so you do not need to worry about an Expansion Hub's
 address when it is the only Expansion Hub connected to a Control Hub.
+However, the process for physically connecting them is the same.
 
 Equipment Needed
 ~~~~~~~~~~~~~~~~
