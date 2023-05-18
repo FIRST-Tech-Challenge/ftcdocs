@@ -71,12 +71,11 @@ Checking the Address of an Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Before you connect your two Expansion Hubs together, you should first
-check the serial address associated with each of the Hubs.
+check the address associated with each of the Hubs.
 
-2. Each Expansion Hub has a serial address assigned to it at the factory.
-By default, this serial address is the same for all Hubs. If you want to
-connect two Expansion Hubs together, then you will have to change the
-address of one of your Hubs.
+2. Each Expansion Hub has an address assigned to it. By default, this address
+is set to 2. If you want to connect two Expansion Hubs together, then you will
+have to change the address of one of your Hubs.
 
 3. You can determine the address of an Expansion Hub by connecting it to a
 12V battery and to your Robot Controller. Create and save a temporary
@@ -103,8 +102,8 @@ battery, the blink sequence that will repeat for the LED is as follows,
 
 ``GREEN (long) –> BLUE (short) –> BLUE (short)``
 
-This sequence will repeat over and over again. Use this process to check the serial addresses for each of your
-Expansion Hubs.
+This sequence will repeat over and over again. Use this process to check the
+addresses for each of your Expansion Hubs.
 
 **Important Note:** By default, a REV Robotics Expansion Hub should have
 its address preset at the factory to a value of 2. Also by default, a
