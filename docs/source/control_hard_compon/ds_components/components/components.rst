@@ -243,7 +243,7 @@ Gamepads
 :ref:`Game Manual 1 <manuals/game_manuals/game_manuals:game manuals>` defines
 the gamepads that are allowed in competition play. Up to two gamepads, in any
 combination, of the allowed types of gamepads may be used. All gamepads MUST be
-used in wired mode only, no wireless of any kind is allowed. Secial features of
+used in wired mode only, no wireless of any kind is allowed. Special features of
 some gamepads (Rumble, Lighting) may be programmed and used by teams for
 notifications and signaling to the drivers of the robot.
 

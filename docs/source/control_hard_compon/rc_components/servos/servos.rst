@@ -8,7 +8,7 @@ Servos
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      REV-41-1097
+      REV Smart Robot Servo (SRS)
 
       ^^^
 
@@ -25,7 +25,7 @@ Servos
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      GB 2000-0025-0504
+      goBILDA Dual Mode Servo
 
       ^^^
 
@@ -42,7 +42,7 @@ Servos
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      W39197
+      Hitec Conventional Servo
 
       ^^^
 

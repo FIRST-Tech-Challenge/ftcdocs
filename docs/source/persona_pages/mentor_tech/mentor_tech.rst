@@ -16,7 +16,7 @@ Just click on the panel for the resource you want to explore!
    :gutter: 2
 
    .. grid-item-card::
-      :link: ../../programming_resources/index
+      :link: ../../programming_resources/shared/control_system_intro/The-FTC-Control-System
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body

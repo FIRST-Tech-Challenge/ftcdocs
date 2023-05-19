@@ -195,7 +195,7 @@ to see why.
                :outline:
                :expand:
 
-               OnBot-Java
+               OnBot Java
          
          .. div:: col-sm pl-1 pr-1
  
@@ -279,7 +279,7 @@ to see why.
                :outline:
                :expand:
 
-               Hardware Config
+               Hardware Configuration
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
@@ -295,6 +295,16 @@ to see why.
       +++
  
       .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ftc_sdk/overview/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               About the SDK
 
          .. div:: col-sm pl-1 pr-1
       
@@ -323,16 +333,6 @@ to see why.
                :expand:
 
                Javadoc Documentation
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ftc_sdk/overview/index
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               About the SDK
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white

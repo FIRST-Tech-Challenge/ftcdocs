@@ -123,7 +123,7 @@ Enhancements are new features or (non-breaking) improvements made to existing
 features of the SDK. Enhancements might include items such as improved logging,
 new user interfaces (UI), better user experience (UX), new APIs, better
 performance, or greater reliability. Not all enhancements of the SDK are listed
-in the release notes, but those that have a direct user impact should.
+in the release notes, but those that have a direct user impact should be listed.
 
 Bug Fixes
 """""""""
@@ -138,10 +138,10 @@ no longer necessary.
 Updating SDK Software
 ---------------------
 
-It is important to update the SDK software each time it is updated. Updates
-mid-season may not be required, check with the minimum software version in the
-Game Manual 1.  It is recommended to use the REV Hardware Client to update
-hardware, if a 64-bit Windows computer is available. If not, then alternate
+It is important for teams to update the SDK software. Updates
+mid-season may not be required. Teams can check  the minimum software version
+required for a game in Game Manual 1.  It is recommended to use the REV Hardware 
+Client to update hardware, if a 64-bit Windows computer is available. If not, then alternate
 methods provided can be used to update the software.
 
 -  :doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
