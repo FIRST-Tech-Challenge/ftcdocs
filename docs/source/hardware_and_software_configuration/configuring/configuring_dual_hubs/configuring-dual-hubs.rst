@@ -16,9 +16,10 @@ Game Manual Part 1 (rule <RE07>, part f) limits the maximum number of
 Expansion Hubs on a single robot to two.
 
 **Important Note:** This document describes the process for setting up a
-smartphone Robot Controller with two Expansion Hubs. The process is
-similar if you want to connect a Control Hub (which has its own built-in
-Expansion Hub) to another Expansion Hub.
+smartphone Robot Controller with two Expansion Hubs. Control Hubs have a
+reserved address, so you do not need to worry about an Expansion Hub's
+address when it is the only Expansion Hub connected to a Control Hub.
+However, the process for physically connecting them is the same.
 
 Equipment Needed
 ~~~~~~~~~~~~~~~~
@@ -71,12 +72,11 @@ Checking the Address of an Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Before you connect your two Expansion Hubs together, you should first
-check the serial address associated with each of the Hubs.
+check the address associated with each of the Hubs.
 
-2. Each Expansion Hub has a serial address assigned to it at the factory.
-By default, this serial address is the same for all Hubs. If you want to
-connect two Expansion Hubs together, then you will have to change the
-address of one of your Hubs.
+2. Each Expansion Hub has an address assigned to it. By default, this address
+is set to 2. If you want to connect two Expansion Hubs together, then you will
+have to change the address of one of your Hubs.
 
 3. You can determine the address of an Expansion Hub by connecting it to a
 12V battery and to your Robot Controller. Create and save a temporary
@@ -103,21 +103,8 @@ battery, the blink sequence that will repeat for the LED is as follows,
 
 ``GREEN (long) –> BLUE (short) –> BLUE (short)``
 
-This sequence will repeat over and over again. Use this process to check the serial addresses for each of your
-Expansion Hubs.
-
-**Important Note:** By default, a REV Robotics Expansion Hub should have
-its address preset at the factory to a value of 2. Also by default, a
-REV Robotics Control Hub should have the address for its internal
-Expansion Hub preset at the factory to a value of 1. If you are using a
-Control Hub combined with a second Expansion Hub, then their factory
-addresses (1 and 2 respectively) should not conflict. You should not
-need to change either address for this combination.
-
-**Important Note:** An address of 1 is typically reserved for a Control
-Hub. As a general rule, you should avoid using an Expansion Hub with an
-address of 1. Your Expansion Hubs should all have non-conflicting
-addresses that are also not equal to 1.
+This sequence will repeat over and over again. Use this process to check the
+addresses for each of your Expansion Hubs.
 
 Changing the Address of an Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
