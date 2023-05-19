@@ -117,7 +117,8 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 linkcheck_timeout = 30
 
-# Change request header to avoid 403 error because Solidworks is great like that
+# Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
+
 linkcheck_request_headers = {
     "https://www.autodesk.com/": {
         "Origin": "https://www.autodesk.com",
