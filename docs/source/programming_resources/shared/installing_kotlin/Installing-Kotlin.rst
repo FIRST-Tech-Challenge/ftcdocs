@@ -43,13 +43,13 @@ Installing Kotlin In Your Project
 
 
 To use Kotlin in your Android project, you need to add the Kotlin plugin to your project. This is
-done by adding the following line to the root ``build.gradle`` file in the ``buildscript`` section:
+done by adding the following lines to the root ``build.gradle`` file in the ``buildscript`` section:
 
 .. code-block:: groovy
 
     buildscript {
 
-        ext.kotlin_version = '1.8.20' <----- ADD THIS LINE, UPDATE VERSION TO LATEST
+        ext.kotlin_version = '1.8.20' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
 
         repositories {
             mavenCentral()
@@ -58,7 +58,7 @@ done by adding the following line to the root ``build.gradle`` file in the ``bui
 
         dependencies {
             classpath 'com.android.tools.build:gradle:7.2.0'
-            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20" <----- ADD THIS LINE
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" <----- ADD THIS LINE
         }
     }
 
@@ -66,11 +66,13 @@ done by adding the following line to the root ``build.gradle`` file in the ``bui
 .. note:: This file is located in the base folder of your project, not the one in the TeamCode module nor
             the one in the FtcRobotController module.
 
-.. note:: The exact kotlin version will need to be updated as new versions are released. The latest version as
-        of this writing is 1.8.20 but you should check the Kotlin website to see if a newer version is available
+.. note:: The exact kotlin version can be changed/updated if desired per new releases. The latest version as
+        of this writing is 1.8.20 but you should check the Kotlin website to see if a newer version (one that is
+        compatible with the current Gradle version) is available
         (see table `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin>`__).
 
-Next you need to add the Kotlin plugin to the ``build.gradle`` file in the TeamCode module:
+Next you need to add the Kotlin plugin to the ``build.gradle`` file in the TeamCode module. Open the file
+and find the following section near the top of the file. Change it to look like this:
 
 .. code-block:: groovy
 
