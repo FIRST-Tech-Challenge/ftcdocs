@@ -79,6 +79,7 @@ Advanced Topics for Programmers
    shared/pid_coefficients/pid-coefficients
    shared/pidf_coefficients/pidf-coefficients
    shared/auto_load_opmode/auto-load-opmode
+   shared/installing_kotlin/Installing-Kotlin
    shared/myblocks/index
    shared/external_libraries_blocks/external-libraries-blocks.rst
    imu/imu.rst
