@@ -3,7 +3,7 @@ Using the Kotlin Programming Language
 
 
 What Is Kotlin?
-~~~~~~~~~~~~~~~
+---------------
 
 
 The Kotlin programming language is a a modern alternative to the Java programing language
@@ -39,7 +39,7 @@ Kotlin project without having to convert it.
 
 
 Installing Kotlin In Your Project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 
 To use Kotlin in your Android project, you need to add the Kotlin plugin to your project. This is
@@ -83,11 +83,14 @@ Next you need to add the Kotlin plugin to the ``build.gradle`` file in the TeamC
 Finally, you need to run a Gradle sync to download the Kotlin plugin and any other dependencies. This is
 done by clicking on the ``Sync Now`` link in the upper right corner of the Android Studio window.
 
+
 .. image:: images/gradleSyncIcon.png
     :align: center
+    :alt: Gradle Sync Icon
+
+|
 
 Make sure you are on a reliable internet connection when you do this!
-
 
 .. note:: If you get an error that says "Kotlin not configured" when you try to run a Gradle sync, you may need
         to install the Kotlin plugin. To do this, go to ``File -> Settings -> Plugins`` and search for "Kotlin".
