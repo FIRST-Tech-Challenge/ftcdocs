@@ -38,6 +38,18 @@ Because Kotlin is fully interoperable, you can also use all your existing Java c
 Kotlin project without having to convert it.
 
 
+Using Kotlin in *FIRST* Tech Challenge
+--------------------------------------
+
+
+While there is no rule (as of the writing of this document) prohibiting Kotlin as a programming 
+option in *FIRST* Tech Challenge, it is not one of the recommended tools as listed in **<RS02>** 
+"Recommended Programming Tools" portion of the *FIRST* Tech Challenge `Game Manual Part 1 
+<https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf>`__. 
+Teams that use Kotlin do so at their own risk and should expect that there will not be technical
+help/support available at events in the case of software issues.
+
+
 Installing Kotlin In Your Project
 ---------------------------------
 
