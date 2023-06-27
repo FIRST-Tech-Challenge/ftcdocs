@@ -17,12 +17,19 @@ This article does not cover the REV Control Hub or REV Driver Hub.
 Legal Phones
 ------------
 
-As of Freight Frenzy in 2021-2022, these are legal phones: -
-Motorola Moto G 2nd Generation - Motorola Moto G 3rd Generation -
+As of CENTERSTAGE presented by Raytheon Technologies in 2023-2024, 
+these are the legal phones: -
 Motorola Moto G4 Play (XT1607, XT1609) - Motorola Moto G5 - Motorola
 Moto G5 Plus - Motorola Moto E4 (XT1765, XT1765PP, XT1766, XT1767) -
 Motorola Moto E5 (XT1920) - Motorola Moto E5 Play (XT1921)
 
+Note that only Motorola Moto G4 Play models that have been updated to 
+Android 7 (Nougat) are legal to use, as the minimum Android version is
+Android 7.0 - unfortunately Motorola no longer supports Over-The-Air 
+updates for the Motorola Moto G4 Play, so there is no automatic way to
+update the smartphone. Depending on the exact model of the phone, the
+`Motorola Rescue and Smart Assistant Tool <https://www.motorola.co.uk/rescue-and-smart-assistant/p>`__ 
+**may** be able to update your device, however there are no guarantees.
 
 Phone Cleanup and Prep
 ----------------------
