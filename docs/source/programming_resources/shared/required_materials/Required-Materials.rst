@@ -43,10 +43,10 @@ tutorials, you will need to have the following materials available:
 | Required Item(s)                               | Image               |
 +================================================+=====================+
 + Two (2) *FIRST*-approved\* Android             + |androidphones|     +
-| smartphones.                                   |                     |
-|                                                | Or                  |
-|                                                |                     |
-+                                                + |chandphones|       +
+| Devices - this could be two Android            |                     |
+| smartphones, OR it could be a Control Hub      | Or                  |
+| and a smartphone, OR a Control Hub and a       |                     |
++ Driver Hub.                                    + |chandphones|       +
 +------------------------------------------------+---------------------+
 | Wireless Internet access.                      | |wifi|              |
 |                                                |                     |
