@@ -4,7 +4,7 @@ Phone Pairing
 Introduction
 ------------
 
-The recent generation of apps (6.2, 7.0 and 7.1) is extremely
+The recent generation of apps (8.0, 8.1.1, and newer) are extremely
 reliable for pairing, including between **all models of legal
 phones**.
 
@@ -78,7 +78,7 @@ Phone Cleanup and Prep
 -  Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then
    Done
 -  Bluetooth OFF
--  Location OFF, only for Android 6.x or 7.x
+-  Location OFF, only for Android 7.x
 
 6. repeat above steps on DS phone.
 
@@ -86,11 +86,11 @@ Phone Cleanup and Prep
 Pairing
 -------
 
-1. On RC phone: open the current season’s RC app (now 7.0 or 7.1). Check
+1. On RC phone: open the current season’s RC app. Check
    Self Inspect for any RC issues.
 
-2. On DS phone: open the current season’s DS app (now 7.0, 7.0.1 or
-   7.1). Check Self Inspect for any DS issues.
+2. On DS phone: open the current season’s DS app. Check Self Inspect 
+   for any DS issues.
 
 3. On DS phone: Menu (3 dots)/Settings. Confirm ‘Pairing Method’ is
    Wi-Fi Direct. Open ‘Pair with Robot Controller’. (Do not pair using
