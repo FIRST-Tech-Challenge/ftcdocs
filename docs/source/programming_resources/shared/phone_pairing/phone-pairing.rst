@@ -4,7 +4,7 @@ Phone Pairing
 Introduction
 ------------
 
-The recent generation of apps (6.2, 7.0 and 7.1) is extremely
+The recent generation of apps (8.0, 8.1.1, and newer) are extremely
 reliable for pairing, including between **all models of legal
 phones**.
 
@@ -17,12 +17,19 @@ This article does not cover the REV Control Hub or REV Driver Hub.
 Legal Phones
 ------------
 
-As of Freight Frenzy in 2021-2022, these are legal phones: -
-Motorola Moto G 2nd Generation - Motorola Moto G 3rd Generation -
+As of CENTERSTAGE presented by Raytheon Technologies in 2023-2024, 
+these are the legal phones: -
 Motorola Moto G4 Play (XT1607, XT1609) - Motorola Moto G5 - Motorola
 Moto G5 Plus - Motorola Moto E4 (XT1765, XT1765PP, XT1766, XT1767) -
 Motorola Moto E5 (XT1920) - Motorola Moto E5 Play (XT1921)
 
+Note that only Motorola Moto G4 Play models that have been updated to 
+Android 7 (Nougat) are legal to use, as the minimum Android version is
+Android 7.0 - unfortunately Motorola no longer supports Over-The-Air 
+updates for the Motorola Moto G4 Play, so there is no automatic way to
+update the smartphone. Depending on the exact model of the phone, the
+`Motorola Rescue and Smart Assistant Tool <https://www.motorola.co.uk/rescue-and-smart-assistant/p>`__ 
+**may** be able to update your device, however there are no guarantees.
 
 Phone Cleanup and Prep
 ----------------------
@@ -71,7 +78,7 @@ Phone Cleanup and Prep
 -  Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then
    Done
 -  Bluetooth OFF
--  Location OFF, only for Android 6.x or 7.x
+-  Location OFF, only for Android 7.x
 
 6. repeat above steps on DS phone.
 
@@ -79,11 +86,11 @@ Phone Cleanup and Prep
 Pairing
 -------
 
-1. On RC phone: open the current season’s RC app (now 7.0 or 7.1). Check
+1. On RC phone: open the current season’s RC app. Check
    Self Inspect for any RC issues.
 
-2. On DS phone: open the current season’s DS app (now 7.0, 7.0.1 or
-   7.1). Check Self Inspect for any DS issues.
+2. On DS phone: open the current season’s DS app. Check Self Inspect 
+   for any DS issues.
 
 3. On DS phone: Menu (3 dots)/Settings. Confirm ‘Pairing Method’ is
    Wi-Fi Direct. Open ‘Pair with Robot Controller’. (Do not pair using
