@@ -55,12 +55,14 @@ must be carefully weighed when deciding to use Android Studio.
 Updating the RC App for Android Studio
 --------------------------------------
 
-**Android Studio** teams should **not** use the steps on this page to update
-the RC app, for the reasons described above. **Android Studio** teams should
-ensure that their :doc:`Android Studio Projects
+**Android Studio** users should **not** use the steps on this page to update
+the RC app, for the reasons described above. **Android Studio** users must
+ensure that their Android Studio Projects are up to date with the desired version 
+of the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+
+For information on how to properly create and maintain an Android Studio project
+that can be updated using GitHub, please see :doc:`Using GitHub Fork and Clone
 <../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
-are up to date with the desired version of the `SDK GitHub Repo
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
 Updating the RC App for Blocks / OnBot Java
 -------------------------------------------
