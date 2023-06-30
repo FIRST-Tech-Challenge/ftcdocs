@@ -1094,7 +1094,7 @@ If ``resetYaw()`` does not meet your needs, other code-based choices
 Sample OpModes
 --------------
 
-The SDK 8.1 and newer contains Sample OpModes demonstrating the above. 
+SDK 8.1 and newer contains Sample OpModes demonstrating the above. 
 
 .. tab-set::
 
