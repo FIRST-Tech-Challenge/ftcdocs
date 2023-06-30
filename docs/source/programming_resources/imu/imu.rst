@@ -22,7 +22,7 @@ BHI260AP and BNO055 IMU. This basic tutorial introduces some new features:
 -  universal classes and methods supporting both IMU types 
 -  three ways to specify Hub mounting orientation on the robot
 
-Teams wanting to use the IMU with Control Hubs with the newer IMU are required to:
+Teams wanting to use the newer IMU are required to:
 
 - use SDK 8.1 or newer
 - update the Control Hub OS to 1.1.3 or newer.  
