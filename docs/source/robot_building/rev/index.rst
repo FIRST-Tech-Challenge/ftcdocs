@@ -5,3 +5,7 @@ Basic Robot Building Guide for REV
    :maxdepth: 1
 
    Power Play <PowerPlay/index.rst>
+
+
+Volunteer Special Thanks
+------------------------

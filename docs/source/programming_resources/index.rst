@@ -99,7 +99,7 @@ Learning more about using vision
    vision/java_tfod_opmode/java-tfod-opmode
    vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/identifying_vumarks/identifying-vumarks
-   vision/webcam_controls/webcam-controls
+   vision/webcam_controls/index
    
    
 Additional *FIRST* Website Resources
