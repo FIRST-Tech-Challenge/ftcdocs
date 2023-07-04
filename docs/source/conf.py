@@ -182,3 +182,8 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
 html_theme_options = {
     'navigation_depth': 5,
 }
+
+
+# Avoid duplicate labels
+
+autosectionlabel_maxdepth = 2
