@@ -54,6 +54,13 @@ to see why.
    Updating Components <ftc_sdk/updating/index>
 
 .. toctree::
+   :caption: Robot Building Resources
+   :maxdepth: 1
+   :hidden:
+
+   Basic ‘Bot Guide for REV <robot_building/rev/index>
+
+.. toctree::
    :caption: Control System Resources
    :maxdepth: 1
    :hidden:
