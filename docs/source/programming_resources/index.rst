@@ -82,6 +82,8 @@ Advanced Topics for Programmers
    shared/myblocks/index
    shared/external_libraries_blocks/external-libraries-blocks.rst
    imu/imu.rst
+   shared/installing_kotlin/Installing-Kotlin
+
 
 
 Vision Programming

@@ -7,7 +7,12 @@ What Needs to Be Configured for My Control System?
 Control Hub Configuration 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who are using a Control Hub with the integrated Robot Controller
+.. note:: 
+   References to the Driver Station smartphone may instead apply to the
+   `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
+   which is preloaded with the Driver Station (DS) app.
+
+Teams who are using a Control Hub (which has an integrated Android Device)
 will only need to configure a single smartphone for use as a Driver
 Station. The process is as follows: 
 
@@ -20,10 +25,6 @@ Station. The process is as follows:
    :align: center
 
 |
-
-References to the Driver Station smartphone may instead apply to the
-`REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
-which is preloaded with the Driver Station (DS) app.
 
 .. important:: Eventually the Control Hub will need be renamed so
    that its name complies with Game Manual rule <RS01>, but for now we will
