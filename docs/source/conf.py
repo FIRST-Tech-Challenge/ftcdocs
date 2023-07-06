@@ -186,3 +186,6 @@ html_theme_options = {
 # Add support for translations
 gettext_compact = False
 locale_dirs = ["locale/"]
+
+github_username = ""
+github_repository = ""
