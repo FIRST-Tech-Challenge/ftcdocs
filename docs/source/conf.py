@@ -178,12 +178,19 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     extensions.append('sphinx_sitemap')
     html_baseurl = os.environ.get("FTCDOCS_URL", default="")
 
+    html_context = dict()
+    html_context['github_user'] = 'FIRST-Tech-Challenge'
+    html_context['github_repo'] = 'ftcdocs'
+    html_context['github_version'] = 'main/docs/source/'
+
 # Configure RTD Theme
 html_theme_options = {
     'navigation_depth': 5,
 }
 
-
 # Avoid duplicate labels
-
 autosectionlabel_maxdepth = 2
+
+# Add support for translations
+gettext_compact = False
+locale_dirs = ["locale/"]
