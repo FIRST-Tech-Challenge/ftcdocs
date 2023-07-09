@@ -102,6 +102,7 @@ Learning more about using vision
    vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/identifying_vumarks/identifying-vumarks
    vision/webcam_controls/webcam-controls
+   Camera Calibration <vision/camera_calibration/camera-calibration>
    
    
 Additional *FIRST* Website Resources
