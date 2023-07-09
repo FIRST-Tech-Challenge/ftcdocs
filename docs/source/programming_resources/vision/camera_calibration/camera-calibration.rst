@@ -26,7 +26,7 @@ etc.
    optimization to arrive at the optimal parameters. 
 -  For the rest of us, here we explain how to calibrate your camera using `3DF Zephyr
    <https://www.3dflow.net/3df-zephyr-free/>`__, which is
-   extremely easy to use and can provide fair data.
+   extremely easy to use and can provide reasonable results.
 
 Calibrating with 3DF Zephyr
 ---------------------------
@@ -35,7 +35,7 @@ Calibrating with 3DF Zephyr
 2. Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode folder,
    and modify the parameters at the top according to your needs. It's important
    to note that this Sample is only written in Java.
-3. In 3DF Zephyr, go to
+3. In 3DF Zephyr, go to:
 
    - Utilities --> Images --> Camera Calibration 
 
