@@ -44,6 +44,7 @@ to see why.
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
+   Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
 
 .. toctree::
    :caption: Software Development Kit (SDK)
