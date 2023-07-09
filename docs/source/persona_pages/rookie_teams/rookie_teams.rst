@@ -75,7 +75,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/freight-frenzy-2021-2022/starter-bot-freight-frenzy
+            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/powerplay-2022-2023/starter-bot-powerplay
                :color: black
                :outline:
                :expand:

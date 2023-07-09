@@ -4,7 +4,7 @@ Updating Hub Firmware
 Firmware is low-level software that controls a device’s circuit boards, or
 electronic **hardware**. This must sometimes be updated on the REV Expansion
 Hub and the REV Control Hub in order for the :doc:`Software Development Kit
-(SDK) <../index>` to perform correctly.
+(SDK) </ftc_sdk/overview/index>` to perform correctly.
 
 Here are 5 methods: 
 
@@ -23,10 +23,6 @@ Here are 5 methods:
       Client, with a USB data cable (not charge-only). The Expansion Hub’s
       port is Mini USB (not micro). On the Control Hub, use only the USB-C
       port, not its Mini USB port.
-
-      .. warning:: 
-         As of October 2022, RHC version 1.4.3 has a known bug with some aspects
-         of firmware updating. A fix is planned for the next version.
 
    3. Click the hub’s large icon/rectangle. Under “Expansion/Control Hub
       Firmware”, see the current/latest mismatch, if any (yellow oval,
@@ -156,12 +152,6 @@ Here are 5 methods:
       robot.
 
    That’s it! The Hub’s firmware is now updated.
-
-   .. note:: 
-      As of October 2022, the REV Robotics `documentation site
-      <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__
-      describes an **outdated two-step process** for using the Manage page to
-      upload Hub firmware.
 
 .. dropdown:: Method 5 - Manage page on Driver Station device - DS phone or Driver Hub
 

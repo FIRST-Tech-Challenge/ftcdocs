@@ -43,10 +43,10 @@ tutorials, you will need to have the following materials available:
 | Required Item(s)                               | Image               |
 +================================================+=====================+
 + Two (2) *FIRST*-approved\* Android             + |androidphones|     +
-| smartphones.                                   |                     |
-|                                                | Or                  |
-|                                                |                     |
-+                                                + |chandphones|       +
+| Devices - this could be two Android            |                     |
+| smartphones, OR it could be a Control Hub      | Or                  |
+| and a smartphone, OR a Control Hub and a       |                     |
++ Driver Hub.                                    + |chandphones|       +
 +------------------------------------------------+---------------------+
 | Wireless Internet access.                      | |wifi|              |
 |                                                |                     |
@@ -68,11 +68,13 @@ tutorials, you will need to have the following materials available:
 | is the recommended browser).                   |                     |
 |                                                |                     |
 +------------------------------------------------+---------------------+
-| If you are using a smartphone as your Robot    | |exhub|             |
-| Controller, you will also need a REV Robotics  |                     |
-| Expansion Hub (REV-31-1153) to connect to the  |                     |
-| motors, servos, and sensors. Control Hub users |                     |
-| will use the integrated Expansion Hub.         |                     |
+| If you are using a smartphone as part of your  | |exhub|             |
+| Robot Controller, you will also need a REV     |                     |
+| Robotics Expansion Hub (REV-31-1153) to        |                     |
+| connect to the motors, servos, and sensors.    |                     |
+| Control Hub users will use the integrated      |                     |
+| ports built into the Control Hub to connect    |                     |
+| motors, servos, and sensors.                   |                     |
 +------------------------------------------------+---------------------+
 | REV Robotics Switch, Cable, & Bracket          | |switch|            |
 | (REV-31-1387).                                 |                     |

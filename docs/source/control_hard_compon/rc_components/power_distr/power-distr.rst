@@ -59,7 +59,7 @@ Robot Main Battery
       REV Robotics (REV-31-1302)
 
 The main power of a robot comes from one 12v battery. The battery may be one of
-batteries shown above. Refer to section ``<RE03>`` in the 
+the batteries shown above. Refer to section ``<RE03>`` in the 
 :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
 for exact information on allowed batteries. Note that it is typically allowed
 by ``<RE15>`` to replace the connector on the batteries, provided the in-line
@@ -144,7 +144,7 @@ Power Distribution Block
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      REV XT30 Power Dist
+      REV XT30 Power Distribution Block
 
       ^^^
 
@@ -157,8 +157,8 @@ Power Distribution Block
 
       REV (REV-31-1293)
 
-A Power Distribution Block helps to distribute the power to devices such as
-Control Hubs, Spark Minis, and more.  
+Power Distribution Blocks help to distribute the power to devices such as
+Control Hubs, SPARKminis, and more.  
 See :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
 for a description of legal Power Distribution methods. The REV XT30 Power
 Distribution Block shown is only one option for distributing power, and is
@@ -187,13 +187,13 @@ REV Servo Power Module
 
       REV (REV-11-1144)
 
-An electronic device that boosts the power supplied to 3-wire servos. A REV
+This is an electronic device that boosts the power supplied to 3-wire servos. A REV
 Servo Power Module has 6 input servo ports and 6 matching output ports. It
 draws power from a 12V source and provides 6V power to each output servo port.
 A REV Servo Power Module can provide up to 15A of current across all output
 servo ports for a total of 90 Watts of power per module.
 
-Comercial USB Battery Pack
+Commercial USB Battery Pack
 ---------------------------
 
 .. grid:: 1 2 2 3

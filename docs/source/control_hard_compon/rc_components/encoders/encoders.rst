@@ -36,10 +36,10 @@ Encoders (Rotation Counters)
 
       REV Through Bore Encoder, in incremental mode.
 
-An encoder is a device that measures the roatational displacement around an
-axis.  All legal *FIRST* Tech Challenge motors contain a built in quadrature
+An encoder is a device that measures the rotational displacement around an
+axis.  Most legal *FIRST* Tech Challenge motors contain a built in quadrature
 encoder that is compatible with a REV Hub. It is also possible to use a
-standalone incremental encoder like a REV Through Bore Enocder (shown above).
+standalone incremental encoder like a REV Through Bore Encoder (shown above).
 An incremental encoder works by sending out a "tick" per partial rotation of
 the shaft. More information on how many ticks are output per rotation can be
 found on the manufacturer's website. An absolute encoder is able to indicate

@@ -117,11 +117,21 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 linkcheck_timeout = 30
 
-# Change request header to avoid 403 error because Solidworks is great like that
+# Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
+
 linkcheck_request_headers = {
+    "https://www.autodesk.com/": {
+        "Origin": "https://www.autodesk.com",
+        "Referer": "https://www.autodesk.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Accept-Encoding": "gzip,deflate",
+        "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+    },
     "*": {
         "Accept": "text/html,application/xhtml+xml",
-    }
+    },
 }
 
 # Firstinspires redirects to login and break our link checker :)
@@ -168,7 +178,16 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     extensions.append('sphinx_sitemap')
     html_baseurl = os.environ.get("FTCDOCS_URL", default="")
 
+    html_context = dict()
+    html_context['github_user'] = 'FIRST-Tech-Challenge'
+    html_context['github_repo'] = 'ftcdocs'
+    html_context['github_version'] = 'main/docs/source/'
+
 # Configure RTD Theme
 html_theme_options = {
     'navigation_depth': 5,
 }
+
+# Add support for translations
+gettext_compact = False
+locale_dirs = ["locale/"]
