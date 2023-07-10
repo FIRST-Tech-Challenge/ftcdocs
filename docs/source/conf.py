@@ -154,6 +154,9 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
 
+# Set Cookie Banner to disabled by default
+cookiebanner_enabled = False
+
 # Configure for local official-esque builds
 if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
     html_context = dict()
@@ -177,11 +180,6 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     cookiebanner_enabled = True
     extensions.append('sphinx_sitemap')
     html_baseurl = os.environ.get("FTCDOCS_URL", default="")
-
-    html_context = dict()
-    html_context['github_user'] = 'FIRST-Tech-Challenge'
-    html_context['github_repo'] = 'ftcdocs'
-    html_context['github_version'] = 'main/docs/source/'
 
 # Configure RTD Theme
 html_theme_options = {
