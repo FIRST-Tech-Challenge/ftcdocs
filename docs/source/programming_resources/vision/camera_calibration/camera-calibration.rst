@@ -14,6 +14,11 @@ fiducial marker systems like AprilTags. It's important to note that calibrations
 are not only specific to the camera and lens, but also specific to the resolution 
 used on a particular camera as well!
 
+.. warning:: 
+   Due to the differences in refractive index, calibrations performed in air and 
+   in liquids (for example, in water) are not transferrable. Calibrations must be 
+   performed within the medium that the camera will be operating in. 
+
 Camera Calibration Methods
 --------------------------
 
