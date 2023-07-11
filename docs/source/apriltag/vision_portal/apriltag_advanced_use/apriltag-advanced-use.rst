@@ -19,7 +19,7 @@ these Blocks/Java types):
 The reference frame is the *FIRST* Tech Challenge **Field Coordinate System**,
 provided here:
 
-- https://ftc-docs.firstinspires.org/en/latest/field-coordinate-system
+- https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html
 
 Here is a simple graphic showing the *FIRST* Tech Challenge global axes that
 apply to **every game, every season**:
