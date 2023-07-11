@@ -6,10 +6,10 @@ requires calibration data, for **each specific resolution**.
 
    *“Without a camera calibration, the best you could achieve is being
    able to turn towards the target. Range information would be
-   incorrect.” – FTC navigation expert @gearsincorg*
+   incorrect.” – FIRST Tech Challenge navigation expert @gearsincorg*
 
-The FTC SDK contains such data for a limited number of webcams and
-resolutions. Teams can generate their own data, called **lens
+The *FIRST* Tech Challenge SDK contains such data for a limited number of
+webcams and resolutions. Teams can generate their own data, called **lens
 intrinsics**.
 
 Here’s one possible procedure, of several free choices available
@@ -109,11 +109,11 @@ SDK Calibration Data
 The Logitech C270 webcam offers 18 resolutions, each wanting
 calibration. The Logitech C920 offers 19 resolutions.
 
-For the “FTC standard” Logitech C270 (from the FIRST Storefront), the
-FTC SDK 8.2 currently has a set of lens intrinsics for **one
+For the “standard” Logitech C270 (from the *FIRST* Storefront), the
+SDK 8.2 currently has a set of lens intrinsics for **one
 resolution**, 640x480.
 
-Currently the FTC SDK has calibration data for 10 resolutions spread
+Currently the SDK has calibration data for 10 resolutions spread
 among 4 webcams:
 
 -  Logitech HD Webcam C270, 640x480
@@ -127,7 +127,7 @@ Android Studio, navigate to the subfolders ``RobotCore``, ``res``,
 ``xml``.
 
 Android RC phone cameras also need calibration data for good pose
-estimates. The FTC SDK provides no lens intrinsics for these cameras.
+estimates. The SDK provides no lens intrinsics for these cameras.
 
 ====
 

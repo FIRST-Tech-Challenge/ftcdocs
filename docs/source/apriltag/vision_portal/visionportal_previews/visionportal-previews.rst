@@ -14,7 +14,7 @@ feedback of the camera’s view.
 
    LiveView demonstrating multiple camera support
 
-The FTC apps offer a camera preview on both devices:
+The Driver Station and Robot Controller apps offer a camera preview on both devices:
 
 -  **LiveView** on Robot Controller (RC) device – RC phone or Control
    Hub (see below)
@@ -67,7 +67,7 @@ Controls should use ``scrcpy`` or an HDMI monitor. Doing this via Camera
 Stream (“back and forth”) will be less effective and less efficient.
 
 More information is available at the **VisionPortal Camera Controls** page, and
-at the `FTC Webcam Control tutorial
+at the `Webcam Control tutorial
 <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
 
 Aspect Ratios in Previews

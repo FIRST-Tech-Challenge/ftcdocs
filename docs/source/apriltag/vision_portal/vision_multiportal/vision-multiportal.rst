@@ -1,7 +1,7 @@
 Vision MultiPortal
 ==================
 
-The FDC SDK can accommodate two portals, each with full features
+The SDK can accommodate two portals, each with full features
 including AprilTag and TFOD processors, and even switchable cameras. USB
 Bandwidth must be considered, especially for webcams sharing an external
 USB hub.
@@ -23,7 +23,7 @@ VisionPortal Builder using the ``setCameraMonitorViewId()`` Block or
 method.
 
 “Dual cameras” was previously (and still is) available with EasyOpenCV.
-Now this is possible within the FTC SDK.
+Now this is possible within the SDK.
 
 Test OpMode
 ~~~~~~~~~~~
@@ -51,9 +51,10 @@ screen.
 On a Moto e4 RC phone, the OpMode can run the built-in phone camera
 along with a webcam.
 
-On a Control Hub, it can run two webcams: - both plugged in directly to
-the Hub, or - both plugged into an unpowered USB Hub (with more
-restricted USB bandwidth)
+On a Control Hub, it can run two webcams: 
+
+- both plugged in directly to the Hub, or 
+- both plugged into an unpowered USB Hub (with more restricted USB bandwidth)
 
 Dual Previews
 ~~~~~~~~~~~~~

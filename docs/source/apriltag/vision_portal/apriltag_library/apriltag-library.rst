@@ -1,8 +1,8 @@
 AprilTag Library
 ================
 
-For an FTC match, your OpMode has a known set of AprilTags to detect.
-They are preloaded by default or specified by you, with or without
+For a *FIRST* Tech Challenge match, your OpMode has a known set of AprilTags to
+detect.  They are preloaded by default or specified by you, with or without
 custom tags.
 
 These tags form an **AprilTag Library**. Each Library tag has a set of 4
@@ -18,8 +18,8 @@ Libraries.
 The Easy Way
 ~~~~~~~~~~~~
 
-Let’s start with… no Library! If your OpMode will use only the FTC
-defaults, no Library action is needed.
+Let’s start with… no Library! If your OpMode will use only the current 
+season defaults, no Library action is needed.
 
 Simply create the AprilTagProcessor as follows:
 
@@ -50,7 +50,7 @@ this “Easy Way” does specify the default Library, behind the scenes.
 Default Libraries
 ~~~~~~~~~~~~~~~~~
 
-The FTC SDK uses two core Libraries of predefined AprilTags:
+The SDK uses two core Libraries of predefined AprilTags:
 
 -  tags used only in Sample OpModes
 -  tags used only in the Robot Game (competition)
@@ -71,7 +71,7 @@ holding three “placeholder” tags:
 -  ``1, WOOF, 0.166, DistanceUnit.METER``
 -  ``2, OINK, 0.166, DistanceUnit.METER``
 
-After FTC Kickoff in September 2023, these will be replaced (in SDK 9.0)
+After Kickoff in September 2023, these will be replaced (in SDK 9.0)
 by the **real tags** for CENTERSTAGE.
 
 For convenience, a third Library contains **both** of these core
@@ -415,7 +415,7 @@ size.
 Or you might prefer to use your own tag names, or distance units.
 
 Advanced users might want to specify the **location** of a predefined
-tag **on the FTC game field**. This can be done with the optional Vector
+tag **on the game field**. This can be done with the optional Vector
 and Quaternion fields.
 
 ====

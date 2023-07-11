@@ -2,11 +2,11 @@ VisionPortal Camera Controls
 ============================
 
 Clearer camera images can improve AprilTag (and TFOD) vision processing.  The
-FTC SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more),
+SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more),
 now available in Blocks! These controls can be applied under various lighting
 conditions.
 
-FTC already provides a `Camera Controls
+The SDK documentation already provides a `Camera Controls
 tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
 You are encouraged to learn more there.
 
@@ -75,10 +75,9 @@ cannot be made in real time, with gamepads disabled during Camera Stream.
 Control Ranges
 ~~~~~~~~~~~~~~
 
-Each webcam model has its own level of support for the FTC Camera
-Controls.
+Each webcam model has its own level of support for Camera Controls.
 
-The Logitech C920 supports all the control features offered by the FTC
+The Logitech C920 supports all the control features offered by the 
 SDK; many webcams don’t. More info is at
 `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
 
@@ -143,7 +142,7 @@ says:
 
    *Gain can be managed in coordination with exposure.*
 
-Actually, in the FTC SDK, Gain **must** be managed with Exposure.
+Actually, in the SDK, Gain **must** be managed with Exposure.
 
 Shared Blocks
 ~~~~~~~~~~~~~
@@ -185,10 +184,10 @@ It **is needed** if instead the OpMode will next try to get (or set)
 that variable’s pan and/or tilt values, or try to pass that variable to
 ``setPanTiltHolder()``. The values will be zero.
 
-FTC Test OpMode
-~~~~~~~~~~~~~~~
+Gain and Exposure Test OpMode
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The FTC SDK offers a built-in test OpMode to optimize Gain and Exposure.
+The SDK offers a built-in test OpMode to optimize Gain and Exposure.
 See the Sample Java Sample called
 ``ConceptAprilTagOptimizeExposure.java``.
 

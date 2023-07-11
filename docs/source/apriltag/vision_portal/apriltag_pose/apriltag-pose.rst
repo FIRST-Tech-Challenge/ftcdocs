@@ -45,7 +45,7 @@ pose values.
          double myTagPoseRoll = myAprilTagDetection.ftcPose.roll;
          double myTagPoseYaw = myAprilTagDetection.ftcPose.yaw;
 
-*The FTC SDK terms for Pitch, Roll and Yaw are* **not the same** *as the native
+*The SDK terms for Pitch, Roll and Yaw are* **not the same** *as the native
 AprilTag terms, due to the FTC reference frame.*
 
 Teams may find it helpful to use a **calculated extension** of the basic pose,
@@ -80,8 +80,8 @@ with these terms:
          double myTagPoseBearing = myAprilTagDetection.ftcPose.bearing;
          double myTagPoseElevation = myAprilTagDetection.ftcPose.elevation;
 
-Here, the FTC terms do agree with the SDK method names, because they are
-calculated within the FTC SDK from the native AprilTag pose values shown above
+Here, the terms do agree with the SDK method names, because they are
+calculated within the SDK from the native AprilTag pose values shown above
 (XYZ distances and PRY rotations).
 
 As with tag ID code, pose data is usually retrieved inside a ``for() loop``,
@@ -100,7 +100,7 @@ Sample OpModes:
 - Blocks: `ConceptAprilTag`
 - Java: `ConceptAprilTag.java`
 
-More discussion of FTC AprilTag pose data is available here:
+More discussion of AprilTag pose data is available here:
 
 - https://ftc-docs.firstinspires.org/apriltag-detection-values
 

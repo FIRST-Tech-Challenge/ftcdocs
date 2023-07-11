@@ -8,7 +8,7 @@ Vision processing can consume significant **CPU resources** and USB
 communications **bandwidth**.  Reaching such limits may affect previews, and
 cause an OpMode or Robot Controller to slow down, or freeze, or crash.
 
-FTC teams can balance the benefits of higher resolution and speed
+Teams can balance the benefits of higher resolution and speed
 (frames-per-second) against the risk of overloading CPU and bandwidth
 resources.
 
@@ -210,7 +210,7 @@ Toggle Camera Stream
 A more active way to conserve CPU resources ("Level 3") is **stopping the
 camera stream**, while running an OpMode.  Naturally this also achieves Levels
 1 and 2: stopping LiveView and preventing operation of the AprilTag and TFOD
-Processors.
+Processors. DS Camera Stream provides no new snapshots.
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -240,7 +240,7 @@ Processors.
 
 Stopping (and later resuming) the stream is slightly risky, can take about 1
 second, and stops all background processing.  This is what happens when
-switching cameras, in the FTC Sample OpModes called ``SwitchableCameras``.  One
+switching cameras, in the Sample OpModes called ``SwitchableCameras``.  One
 stream stops, and the other stream starts.
 
 Close VisionPortal
@@ -326,7 +326,7 @@ Then 4 with Streaming on, Preview on:
 - both enabled
 - both disabled
 
-This gives FTC teams ample opportunity to evaluate and manage CPU performance
+This gives Teams ample opportunity to evaluate and manage CPU performance
 and USB Bandwidth.  Many other tools remain:
 
 - monitor frames-per-second (FPS)
@@ -341,7 +341,7 @@ Frame Rate
 ----------
 
 The VisionPortal **automatically optimizes** for maximum frame rate, the number
-of processed frames per seond (FPS).  Presuming this optimization is based on
+of processed frames per second (FPS).  Presuming this optimization is based on
 **CPU resources**, measuring effects on **frame rate** could indirectly reflect
 CPU resource status/consumption/capacity.
 
@@ -352,7 +352,7 @@ available for your OpMode to track, record and evaluate, in Blocks and Java:
 
    float myFPS = myVisionPortal.getFps();
 
-FTC teams can collect FPS data to illustrate the general effects of, for
+Teams can collect FPS data to illustrate the general effects of, for
 example, (a) resolution and (b) processors running, on CPU performance.
 Results will depend on many team-specific factors such as webcams, codebase
 (other processing), vision targets (number, type, distance), etc.
@@ -410,23 +410,48 @@ For both formats, higher resolution can reduce frame rate.
 These factors offer much opportunity for experimentation and Datalogging, to
 help optimize your VisionPortal performance.
 
+Camera Resolution
+-----------------
+
+Some teams believe "higher resolution is better", when purchasing webcams and
+specifying resolution for AprilTag and TFOD use.
+
+As indicated in the previous sections here, it's more useful to consider a
+"suitable resolution" that satisfies multiple goals and challenges:
+
+- quick and reliable AprilTag detections
+- quick and reliable TFOD recognitions, including object tracking
+- accurate AprilTag pose estimates
+- smooth, accurate navigation while driving (higher FPS)
+- avoid CPU overload
+- avoid USB bandwidth limits
+- resolution (or aspect ratio) for which calibration values exist
+- accommodates lighting conditions and any Camera Controls applied
+
+You might end up preferring the **lowest resolution** that meets your needs.
+
+It's easy to find out which resolutions are supported by your camera. Just try
+to run any VisionPortal OpMode with an **incorrect (fake) resolution**; the error
+message will tell you the supported resolutions. Write these down for future
+reference.
+
 Other Tools
 -----------
 
-For managing CPU usage, the SDK offers more tools still not covered here.
-These are left for interested Blocks and Java users to research and
-investigate:
+This topic continues at the **AprilTag Advanced Use** page, to discuss advanced
+tools for managing CPU usage. It includes a Test OpMode in Blocks and Java.
 
-- select the camera resolution
+For now, these are left for interested users to research and investigate:
+
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
 - get all or only fresh recognitions from the TFOD Processor
 
 All of the above features are easily found in the **FTC Blocks** toolboxes, or
-palettes, under VisionPortal.
+palettes, under Vision category.
 
-**Java** users should review the VisionPortal interface at the FTC
+**Java** users should review the VisionPortal interface at the SDK
 `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/overview-summary.html>`__
 site.  Click **FRAMES** for easy navigation.
 

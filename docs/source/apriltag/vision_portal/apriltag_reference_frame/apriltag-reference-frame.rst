@@ -5,10 +5,10 @@ Introduction
 ------------
 
 Before discussing AprilTag **pose** (at the next page), the **FTC axes** or
-reference frame must be described.  FTC pose data is based on the **camera's
+reference frame must be described.  Pose data is based on the **camera's
 point of view**, and requires a **flat AprilTag**.
 
-Here are the axis designations in the new FTC SDK:
+Here are the axis designations in the new SDK:
 
 - Y axis points **straight outward** from the camera lens center
 - X axis points **to the right** (looking outward), perpendicular to the Y axis
@@ -70,7 +70,7 @@ You can also see that the AprilTag's flat face is not parallel to the plane of
 the camera.  That **rotation offset** can break down into three angles about
 the X, Y and Z axes.
 
-Any off-axis pointing or tilting of the AprilTag is reported by the FTC SDK as
+Any off-axis pointing or tilting of the AprilTag is reported by the SDK as
 rotation about axes X, Y or Z.  Here are some examples:
 
 - If that tag is parallel to the camera but tilted, say, clockwise, this is
@@ -94,14 +94,14 @@ rotation about axes X, Y or Z.  Here are some examples:
 Related Info
 ------------
 
-More discussion of the FTC AprilTag reference frame is available here:
+More discussion of the AprilTag reference frame is available here:
 
 - https://ftc-docs.firstinspires.org/apriltag-detection-values
 
 This section described the SDK's default AprilTag reference frame.  Teams are
 welcome to make other calculations, such as the pose of the camera (or robot)
-relative to the AprilTag, or **relative to the FTC game field**.  Such advanced
-efforts can be useful and a good learning exercise, beyond the scope of the FTC
+relative to the AprilTag, or **relative to the game field**.  Such advanced
+efforts can be useful and a good learning exercise, beyond the scope of the 
 SDK and this guide.
 
 ====
