@@ -67,56 +67,20 @@ need the following items:
    * - REV Robotics XT30 Extension Cable (REV-31-1394).
      - .. figure:: images/xt30Extension.jpg
 
-
-Checking the Address of an Expansion Hub
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. Before you connect your two Expansion Hubs together, you should first
-check the address associated with each of the Hubs.
-
-2. Each Expansion Hub has an address assigned to it. By default, this address
-is set to 2. If you want to connect two Expansion Hubs together, then you will
-have to change the address of one of your Hubs.
-
-3. You can determine the address of an Expansion Hub by connecting it to a
-12V battery and to your Robot Controller. Create and save a temporary
-configuration file for your Expansion Hub. You do not need to have any
-motors, servos, or sensors defined in your configuration file, but the
-attached Expansion Hub must be included in the file. Note that after we
-change the address of the Expansion Hub we will eventually delete this
-temporary configuration file.
-
-.. figure:: images/CheckAddressHardware.jpg
-   :align: center
-
-|
-
-4. After you have saved the configuration file and returned to the main
-screen of the Robot Controller app, the Expansion Hub’s LED should enter
-a state where it turns green for a few moments (indicating that it’s
-successfully connected to a Robot Controller) and then it will blink
-blue for a number of times equivalent to the device’s address.
-
-For example, if your Expansion Hub has an address of 2, and it is
-successfully connected to a Robot Controller and powered by a12V
-battery, the blink sequence that will repeat for the LED is as follows,
-
-``GREEN (long) –> BLUE (short) –> BLUE (short)``
-
-This sequence will repeat over and over again. Use this process to check the
-addresses for each of your Expansion Hubs.
-
 Changing the Address of an Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can use the Advanced Settings menu of the Robot Controller App
-to change the address of an Expansion Hub. Note that it is recommended
-that when you change the address of an Expansion Hub, you only connect
-one Expansion Hub to the Robot Controller during the change address
-process.
+to change the address of any connected Expansion Hubs.
 
-With your Expansion Hub connected to the 12V battery and to the Robot
-Controller, launch the Settings menu from Robot Controller app (note you
+**Important Note:** If both of your Expansion Hubs have the same address
+or were just removed from the box (by default, the address is set to 2),
+you need to change the address of one of them _before_ connecting them
+together. This guide assumes that you will be setting the address of the
+first Expansion Hub before connecting the second Expansion Hub.
+
+With your first Expansion Hub connected to the 12V battery and to the Robot
+Controller, launch the Settings menu from the Robot Controller app (note you
 can also do this from the Driver Station app, if the Driver Station is
 paired to the Robot Controller).
 
@@ -131,17 +95,21 @@ Expansion Hub address screen.
 .. figure:: images/ExpansionHubAddressChange.jpg
    :align: center
 
-3. The USB serial number of the Expansion Hub and its currently assigned
-address should be displayed. By default, the factory assigned address is
-2.
+3. The USB serial number of the Expansion Hub and its currently-assigned
+address should be displayed.
 
-.. figure:: images/DefaultAddress.jpg
+**Important Note:** If any Expansion Hubs that are physically connected and
+powered are not displayed, there may be an address conflict. If this happens,
+disconnect all Expansion Hubs except the one whose address you want to change.
+
+.. figure:: images/DefaultAddress.*
    :align: center
 
-4. Use the dropdown list control on the right hand side to change the
-address to a non-conflicting value.
+4. Use the dropdown list control on the right hand side to change an Expansion
+Hub's address. Addresses that conflict with other currently-connected Expansion
+Hubs won't be available.
 
-.. figure:: images/NewAddress.jpg
+.. figure:: images/NewAddress.*
    :align: center
 
 Push the “Done” button to change the address. You should see a message
@@ -149,25 +117,6 @@ indicating that the Expansion Hub’s address has been changed.
 
 .. figure:: images/AddressChangeComplete.jpg
    :align: center
-
-Warning: Expansion Hub “Expansion Hub 2” is missing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-After the address has been successfully changed, if you return back to
-the main screen of your Robot Controller app (which will restart the
-robot), you should see an error message indicating that the Robot
-Controller can no longer find the Expansion Hub that you configured
-earlier. This is because the configuration file was created with the
-original address of the Expansion Hub.
-
-.. figure:: images/ExpansionHub2Missing.jpg
-   :align: center
-
-You can delete the temporary configuration that was made with the old
-address, and then create a new configuration file for the Expansion
-Hub’s new address. Save the new configuration file and return to the
-main Robot Controller screen. The Expansion Hub should blink the new
-address value after the robot restart.
 
 Connecting the Two Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -207,9 +156,13 @@ connect the Robot Controller and power on the devices.
 Configuring Your Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you were able to successfully daisy chain your two Expansion Hubs,
+If you successfully daisy chained your two Expansion Hubs,
 then you should be able to create a new configuration file that includes
 both devices.
+
+**Note:** If you already have a configuration that contains just the USB-connected
+Expansion Hub, you can add the second Expansion Hub by editing the
+configuration and pressing the "Scan" button.
 
 Connect the Robot Controller and select the Configure Robot option from
 the Settings menu. Press the New button to create a new configuration
