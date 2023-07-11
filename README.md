@@ -33,7 +33,7 @@ This GitHub project is a work-in-progress for FTC documentation.
     - Link: `make linkcheck`
 9. View Result (html)
     - Open `docs\build\html\index.html` in a browser of your choice
-    - To create local http server execute `python3 -m http.server 7350` in `docs\build\html\index.html` and view result [here](https://localhost:7350). If you are using the Autobuild option this server will be automatically created and updated with most changes to rst files. Some changes will not be transferred like images and will require a `make clean`.
+    - To create local http server execute `python3 -m http.server 7350` in `docs\build\html\index.html` and view result [here](http://localhost:7350). If you are using the Autobuild option this server will be automatically created and updated with most changes to rst files. Some changes will not be transferred like images and will require a `make clean`.
 10. Commit changes and push after desired result has been achieved
     - `git commit -a -m <MESSAGE>` replace <MESSAGE> with your commit message
     - `git push`
