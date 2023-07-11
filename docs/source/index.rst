@@ -65,6 +65,16 @@ to see why.
    programming_resources/index
 
 .. toctree::
+   :caption: AprilTag Resources
+   :maxdepth: 1
+   :hidden:
+
+   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
+
+.. toctree::
    :caption: CAD Resources
    :maxdepth: 1
    :hidden:
@@ -210,13 +220,13 @@ to see why.
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+            .. button-ref:: ../../apriltag/vision_portal/apriltag_intro/apriltag-intro
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in POWERPLAY
+               AprilTags
 
          .. div:: col-sm pl-1 pr-1
  
