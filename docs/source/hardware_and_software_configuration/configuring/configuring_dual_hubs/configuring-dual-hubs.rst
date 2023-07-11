@@ -31,18 +31,18 @@ need the following items:
    :header-rows: 1
    :widths: auto
 
-   * - Required Item(s)  
+   * - Required Item(s)
      - Image
 
-   * - Two (2) FIRST-approved Android smartphones. One should have the Robot 
-       Controller app installed and the other should have the Driver Station 
-       app installed. For a list of FIRST-approved Android  smartphones, refer 
+   * - Two (2) FIRST-approved Android smartphones. One should have the Robot
+       Controller app installed and the other should have the Driver Station
+       app installed. For a list of FIRST-approved Android  smartphones, refer
        to the current Game Manual Part 1, rule <RE06>.
      - .. figure:: images/twoAndroidPhones.jpg
 
    * -  USB Type A male to type mini-B male cable.
      -  .. figure:: images/USBTypeACable.jpg
-   
+
    * - Micro USB OTG adapter.
      - .. figure:: images/OTGAdapter.jpg
 
@@ -52,18 +52,18 @@ need the following items:
    * - REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).
      - .. figure:: images/TamiyaAdapter.jpg
 
-   * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of 
-       FIRST-approved 12V batteries, refer to the current Game Manual 
+   * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of
+       FIRST-approved 12V batteries, refer to the current Game Manual
        Part 1, rule <RE03>.
      - .. figure:: images/Battery.jpg
-   
+
    * - Two(2) REV Robotics Expansion Hubs (REV-31-1153).
-     - .. figure:: images/ExpansionHub.jpg 
+     - .. figure:: images/ExpansionHub.jpg
        .. figure:: images/ExpansionHub.jpg
 
    * - REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack shown but only one needed).
      - .. figure:: images/3PinJSTPH.jpg
-   
+
    * - REV Robotics XT30 Extension Cable (REV-31-1394).
      - .. figure:: images/xt30Extension.jpg
 
@@ -90,7 +90,7 @@ temporary configuration file.
    :align: center
 
 |
-   
+
 4. After you have saved the configuration file and returned to the main
 screen of the Robot Controller app, the Expansion Hub’s LED should enter
 a state where it turns green for a few moments (indicating that it’s
