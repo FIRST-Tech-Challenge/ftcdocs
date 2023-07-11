@@ -4,7 +4,7 @@ Using Two Expansion Hubs
 Introduction
 ~~~~~~~~~~~~
 
-A single REV Robotics Expansion Hub has a limited amount of input/output
+A single REV Robotics Control or Expansion Hub has a limited amount of input/output
 (I/O) ports available. In some instances, you might want to use more
 devices than there are ports available. For these instances you might
 need to connect a second Expansion Hub to your first Hub to add more I/O
@@ -19,7 +19,7 @@ Expansion Hubs on a single robot to two.
 smartphone Robot Controller with two Expansion Hubs. Control Hubs have a
 reserved address, so you do not need to worry about an Expansion Hub's
 address when it is the only Expansion Hub connected to a Control Hub.
-However, the process for physically connecting them is the same.
+However, the process for physically connecting and configuring them is the same.
 
 Equipment Needed
 ~~~~~~~~~~~~~~~~
