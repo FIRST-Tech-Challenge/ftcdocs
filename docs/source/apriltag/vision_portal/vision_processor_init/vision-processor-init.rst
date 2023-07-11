@@ -13,7 +13,7 @@ these steps:
 - **Step 1.** *Optional:*  
 
   - Supplement the default **AprilTag Library** with
-    additional tags. This task is not shown in the FTC Sample OpModes, and is
+    additional tags. This task is not shown in the Sample OpModes, and is
     covered at the **Library** page (not here).
 
 - **Step 2.** *Required:*  
@@ -71,7 +71,7 @@ The SDK also provides the "Builder" way to create the processor, allowing
 
 **Builder** is a Java pattern or structure for adding features or parameters,
 finalized with the ``.build()`` command.  Such features are **not** modified
-later during an FTC OpMode.
+later during an OpMode.
 
 *Inside the SDK, even the "easy" process uses the Builder pattern to set the
 default parameters.*
@@ -181,7 +181,7 @@ The SDK also provides the "Builder" way to create the processor, allowing
 
 **Builder** is a Java pattern or structure for adding features or parameters,
 finalized with the ``.build()`` command.  Such features are **not** modified
-later during an FTC OpMode.
+later during an OpMode.
 
 *Inside the SDK, even the "easy" process uses the Builder pattern to set the default parameters.*
 

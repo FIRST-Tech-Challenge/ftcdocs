@@ -6,8 +6,8 @@ Introduction
 
 A popular camera-based technology is **AprilTag**, a scanned image similar to a
 QR Code. Its effectiveness and quick set-up on custom Signal Sleeves led to
-**wide adoption** in POWERPLAY (2022-2023) by FTC teams, especially those
-programming in Java.
+**wide adoption** in POWERPLAY (2022-2023) by *FIRST* Tech Challenge teams,
+especially those programming in Java.
 
 .. figure:: images/005-AprilTag-Worlds.png
    :width: 75%
@@ -21,22 +21,22 @@ several resources:
 
 -  AprilTag: an open-source technology for evaluating
    formatted images 
--  EasyOpenCV: an FTC-optimized interface with OpenCV, an image
-   processing library 
+-  EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an
+   image processing library 
 -  myBlocks: custom Blocks created in OnBot Java (OBJ)
 
-Now these three areas are provided, or bundled, in the new **FTC
+Now these three areas are provided, or bundled, in the new *FIRST* **Tech Challenge
 Software Development Kit (SDK), version 8.2**.
 
 Namely, key capabilities of **AprilTag** and **EasyOpenCV** are
-available to the FTC Robot Controller (RC) and Driver Station (DS) apps,
+available to the Robot Controller (RC) and Driver Station (DS) apps,
 without special downloads. And AprilTag features are included in **FTC
 Blocks**, without needing custom myBlocks.
 
 The AprilTag features work on Android RC phone cameras, and on webcams.
 A single OpMode can use AprilTag and TensorFlow Object Detection (TFOD).
 
-In FTC, AprilTag is ready for the spotlight!
+In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!
 
 What is AprilTag?
 -----------------
@@ -66,14 +66,14 @@ containing information and designed for easy recognition.
 The above samples represent different formats, or **families**. A
 project typically uses a single AprilTag family.
 
-This year, FTC uses a common family called **36h11**. A PDF showing the
-numbers 0 through 20 from the 36h11 family can be downloaded here:
+This year, *FIRST* Tech Challenge nuses a common family called **36h11**. A PDF
+showing the numbers 0 through 20 from the 36h11 family can be downloaded here:
 
 - :download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`
 
 Each number is the ID code of that tag.
 
-Here’s an AprilTag representing **ID code 2**. The FTC software
+Here’s an AprilTag representing **ID code 2**. The SDK software
 recognizes and overlays the ID code onto the image (small blue rectangle
 **ID 02**).
 
@@ -113,9 +113,9 @@ The above image shows a complete AprilTag with outer white border. From the
 AprilTag Pose
 -------------
 
-Beyond ID code, the new FTC SDK also provides **pose** data, namely position
+Beyond ID code, the new SDK also provides **pose** data, namely position
 and orientation (rotation) from the **camera’s point of view**.  This requires
-a **flat AprilTag**, which was not possible with curved FTC POWERPLAY Signal
+a **flat AprilTag**, which was not possible with curved POWERPLAY Signal
 Sleeves.
 
 Let’s look again at the camera preview image, called LiveView, from a Robot
@@ -154,7 +154,7 @@ and the camera, along with an estimated **angle** of rotation around those
 axes. A closer or larger AprilTag can yield a more accurate estimate of pose.
 
 To provide good pose estimates, each RC phone camera or webcam requires
-**calibration data**, for a specific resolution. The FTC SDK contains such data
+**calibration data**, for a specific resolution. The SDK contains such data
 for a limited number of webcams and resolutions. Teams can generate their own
 data, called **lens intrinsics**, using a provided procedure.
 
@@ -185,14 +185,14 @@ and more.
 
 It’s also possible to evaluate **non-AprilTag images** from the same camera
 and/or a second camera. For example, the SDK can estimate the horizontal angle
-(or Bearing) of an object detected with **TensorFlow**, another FTC vision
-technology. Advanced teams might consider active camera pointing control, to
-keep an AprilTag or other object in view.
+(or Bearing) of an object detected with **TensorFlow**, another vision
+technology employed in *FIRST* Tech Challenge. Advanced teams might consider
+active camera pointing control, to keep an AprilTag or other object in view.
 
 Annotations
 -----------
 
-In the FTC preview (RC phone screen or DS Camera Stream), an official
+In the preview (RC phone screen or DS Camera Stream), an official
 recognized AprilTag will display a **colored border** and its numeric **ID
 code**. These **annotations** allow easy visual confirmation of recognition:
 
@@ -240,7 +240,7 @@ found here:
 AprilTag Axes
 -------------
 
-The FTC SDK now provides the underlying pose data as follows: 
+The SDK now provides the underlying pose data as follows: 
 
 -  Position is based on X, Y and Z distance **from the camera lens to the
    AprilTag**. 
@@ -251,7 +251,7 @@ Note: the optional red-green-blue annotated axes represent the **tag’s
 frame of reference**, unrelated to SDK pose data. That annotation
 indicates only a successful AprilTag recognition.
 
-Here are the axis designations in the new FTC SDK: 
+Here are the axis designations in the new SDK: 
 
 - Y axis points **straight outward** from the camera lens center 
 - X axis points **to the right**, perpendicular to the Y axis 
@@ -265,7 +265,7 @@ Note: these axes are different than the official AprilTag
 `definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__,
 even from the camera’s frame of reference.
 
-The FTC SDK provides AprilTag **rotation** data as follows: 
+The SDK provides AprilTag **rotation** data as follows: 
 
 - **Pitch** is the measure of rotation about the X axis 
 - **Roll** is the measure of rotation about the Y axis 
@@ -279,7 +279,7 @@ Further discussion is provided here:
 
 - https://ftc-docs.firstinspires.org/apriltag-detection-values
 
-Note: This article does not discuss the FTC `Field Coordinate
+Note: This article does not discuss the *FIRST* Tech Challenge `Field Coordinate
 System <https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__.
 Your OpModes might relate robot orientation to the overall field or 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`
@@ -290,28 +290,33 @@ Advanced Use
 
 **Option 1**
 
-If a tag’s position and orientation **on the FTC game field** are
+If a tag’s position and orientation **on the game field** are
 specified in advance, the tag’s pose data could be used by an advanced
 OpMode to calculate the robot’s position on the field. This conversion
-math, an exercise for the FTC team, can allow a robot to use the tag’s
+math, an exercise for the reader, can allow a robot to use the tag’s
 pose data in real-time to navigate to the desired location on the field.
 
 **Option 2**
 
 Vision processing can consume significant **CPU resources** and USB
-communications **bandwidth**. FTC teams may balance the benefits of
-higher resolution and speed (frames-per-second) against the risk of
-overloading CPU and bandwidth resources. The 8.2 SDK provides numerous
-tools to manage this balance: - select the camera resolution - disable
-and enable the RC preview (called LiveView) - disable and enable the
-AprilTag (or TFOD) processor - close the camera stream - select a
-compressed video streaming format - measure frames-per-second - set
-decimation (down-sampling) - select a pose solver algorithm
+communications **bandwidth**. *FIRST* Tech Challenge teams may balance the
+benefits of higher resolution and speed (frames-per-second) against the risk of
+overloading CPU and bandwidth resources. The 8.2 SDK provides numerous tools to
+manage this balance: 
+
+- select the camera resolution 
+- disable and enable the RC preview (called LiveView) 
+- disable and enable the AprilTag (or TFOD) processor 
+- close the camera stream 
+- select a compressed video streaming format 
+- measure frames-per-second 
+- set decimation (down-sampling) 
+- select a pose solver algorithm
 
 **Option 3**
 
 Clearer camera images can improve AprilTag (and TFOD) vision processing.
-The FTC SDK offers powerful **webcam controls** (Exposure, Gain, Focus,
+The SDK offers powerful **webcam controls** (Exposure, Gain, Focus,
 and more), now available in FTC Blocks! These controls can be applied
 under various lighting conditions.
 
@@ -376,15 +381,15 @@ Summary
 AprilTag is a popular camera-based technology, using a scanned image
 similar to a QR Code.
 
-The new FTC SDK version 8.2 now includes key capabilities of AprilTag
-and EasyOpenCV, an FTC-optimized interface with OpenCV for image
-processing. These methods are packaged for convenient use by **Java and
-Blocks programmers**.
+The new SDK version 8.2 now includes key capabilities of AprilTag and
+EasyOpenCV, a *FIRST* Tech Challenge-optimized interface with OpenCV for image
+processing. These methods are packaged for convenient use by **Java and Blocks
+programmers**.
 
 By default, the SDK can detect the ID code for any AprilTag in the 36h11
 family.
 
-For AprilTags in a default or custom tag Library, the FTC interface
+For AprilTags in a default or custom tag Library, the interface
 provides calculated **pose** estimates (position and rotation) from the
 **camera’s frame of reference**. The source data is also available for
 advanced teams.
@@ -397,7 +402,7 @@ Multiple cameras are supported, and a single OpMode can use AprilTag and
 TensorFlow Object Detection (TFOD). AprilTag detection is improved with
 webcam Camera Controls, now available also in FTC Blocks.
 
-**In FTC, AprilTag is ready to take center stage!**
+**In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**
 
 ====
 

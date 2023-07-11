@@ -2,7 +2,7 @@ VisionPortal Overview
 =====================
 
 **FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new
-interface for FTC vision processing.
+interface for vision processing.
 
 -  For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of
    **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection
@@ -50,20 +50,20 @@ interface for FTC vision processing.
 
       Full Screen Preview
 
-Many other new and improved FTC features `await your discovery
+Many other new and improved features `await your discovery
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-information>`__
 in VisionPortal and beyond.
 
 ----
 
-In preparation for the 2023-2024 CENTERSTAGE season, the new FTC Software
+In preparation for the 2023-2024 CENTERSTAGE season, the new Software
 Development Kit (SDK) **VisionPortal** includes **built-in support for AprilTag
-technology**. Previously, FTC teams needed to download and incorporate external
+technology**. Previously, Teams needed to download and incorporate external
 libraries, complicating the programming effort.
 
 AprilTag is a popular vision technology for detecting a simple black-and-white
 tag, used to estimate **position and orientation**. In the 2022-2023 POWERPLAY
-game, many FTC teams enjoyed AprilTag’s reliable Autonomous performance for
+game, many Teams enjoyed AprilTag’s reliable Autonomous performance for
 Signal Sleeve recognition.
 
    .. figure:: images/005-AprilTag-Worlds.png
@@ -76,10 +76,10 @@ Signal Sleeve recognition.
 **All sections of this Guide assume prior reading of the** :doc:`AprilTag
 Introduction <../apriltag_intro/apriltag-intro>` **.**
    
-The FTC SDK describes AprilTag pose **relative to the camera**, by default.
+The SDK describes AprilTag pose **relative to the camera**, by default.
 This computing process is called **pose estimation**, a term that emphasizes
 this is an estimate only, based on many factors including **camera
-calibration**. You must determine AprilTag’s best use for reaching your FTC
+calibration**. You must determine AprilTag’s best use for reaching your 
 goals.
 
 .. toctree::
@@ -102,12 +102,13 @@ goals.
 
 ====
 
-Much credit to EasyOpenCV developer
-`@Windwoes <https://github.com/Windwoes>`__, FTC Blocks developer
-`@lizlooney <https://github.com/lizlooney>`__, FTC navigation expert
-`@gearsincorg <https://github.com/gearsincorg>`__, and the smart people
-at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
+Much credit to 
+
+- EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__ 
+- FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__ 
+- *FIRST* Tech Challenge navigation expert `@gearsincorg <https://github.com/gearsincorg>`__ 
+- and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
 
 Questions, comments and corrections to westsiderobotics@verizon.net
 
-.
+
