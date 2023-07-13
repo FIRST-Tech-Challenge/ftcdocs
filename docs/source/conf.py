@@ -47,6 +47,7 @@ javadoc_url_map = {
     'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/8.2.0/', 'javadoc'),
     'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/8.2.0/', 'javadoc'),
     'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.vision': ('https://javadoc.io/static/org.firstinspires.ftc/Vision/8.2.0/', 'javadoc'),
 }
 
 templates_path = ['_templates']
