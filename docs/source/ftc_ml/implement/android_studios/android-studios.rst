@@ -19,7 +19,7 @@ document before proceeding.
       -  This opmode is designed to be able to switch between two
          different webcams for the input for TFOD.
 
-   -  `ConceptTensorFlowObjectDetectionWebcam <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java>`_
+   -  `ConceptTensorFlowObjectDetectionEasy <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionEasy.java>`__
 
       -  This opmode is designed to use an external webcam as its input
          for TFOD

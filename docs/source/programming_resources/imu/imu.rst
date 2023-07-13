@@ -194,7 +194,7 @@ pointing along the positive axis, the fingers curl in the direction of
    lower right corner of the Hub.*
 
 This tutorial will **not** discuss the *FIRST* Tech Challenge `Field Coordinate System
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/FTC_FieldCoordinateSystemDefinition.pdf>`__.
+<https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__.
 Your OpModes might relate robot orientation to the overall field or `‘global
 coordinates’
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__
