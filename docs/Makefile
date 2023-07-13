@@ -15,6 +15,8 @@ SIZEMAX       = 500
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
 LATEXBUILDDIR = build/latex/
+BOOKLETSBUILDDIR = build/booklets
+
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
@@ -24,6 +26,10 @@ help:
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
 
+booklets:
+	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
+	xargs  -d '\n' --arg-file=$(BOOKLETSBUILDDIR)/booklets.txt printf -- '$(LATEXBUILDDIR)%s\n' | xargs cp -f -t $(BOOKLETSBUILDDIR)
+	
 local-full:
 	DOCS_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(HTMLBUILDDIR) $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)

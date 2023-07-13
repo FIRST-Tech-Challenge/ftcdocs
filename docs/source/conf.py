@@ -152,6 +152,21 @@ latex_documents = [
     (master_doc, output_name + '.tex', project, author, "manual"),
 ]
 
+if(os.environ.get("BOOKLETS_BUILD") == "true"):
+    print('Building booklets')
+    latex_documents = [
+        (master_doc, output_name + '.tex', project, author, "manual"),
+        ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"),
+        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"),
+    ]
+
+    if not os.path.exists('../build/booklets'):
+        os.makedirs('../build/booklets')
+    with open('../build/booklets/booklets.txt', 'w') as file:
+        for doc in latex_documents:
+            file.write(doc[1].replace(".tex", ".pdf") + '\n')
+        
+
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
     #app.add_css_file("css/ftc-rtl.css")
