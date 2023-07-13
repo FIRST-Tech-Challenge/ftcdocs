@@ -42,11 +42,12 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 javadoc_url_map = {
-    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/7.1.0/', 'javadoc'),
-    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/7.1.0/', 'javadoc'),
-    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/7.1.0/', 'javadoc'),
-    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/7.1.0/', 'javadoc'),
-    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/7.1.0/', 'javadoc'),
+    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.vision': ('https://javadoc.io/static/org.firstinspires.ftc/Vision/8.2.0/', 'javadoc'),
 }
 
 templates_path = ['_templates']
@@ -138,11 +139,13 @@ linkcheck_request_headers = {
 # ftc-ml.firstinspires.org does a redirect that linkcheck hates.
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
+# As of 7/13/23, april.eecs.umich.edu has an expired certificate
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
    r'https://github.com/.*#',
-   r'https://www.solidworks.com/'
+   r'https://www.solidworks.com/',
+   r'https://april.eecs.umich.edu/'
 ]
 
 latex_documents = [
