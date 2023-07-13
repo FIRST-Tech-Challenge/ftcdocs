@@ -66,7 +66,37 @@ Control System Supporting Documentation
    shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station
    shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller
 
+AprilTag Programming
+~~~~~~~~~~~~~~~~~~~~
 
+Topics for programming with AprilTags
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   AprilTag Introduction <../apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   VisionPortal Overview <../apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
+
+Vision Programming
+~~~~~~~~~~~~~~~~~~~
+
+Learning more about using vision
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   vision/vision_overview/vision-overview
+   vision/tensorflow_pp_2022/tensorflow_pp_2022
+   vision/blocks_tfod_opmode/blocks-tfod-opmode
+   vision/java_tfod_opmode/java-tfod-opmode
+   vision/tensorflow_ff_2021/tensorflow-ff-2021
+   vision/webcam_controls/webcam-controls
+   Camera Calibration <vision/camera_calibration/camera-calibration>
+   
 Advanced Topics
 ~~~~~~~~~~~~~~~~
 
@@ -84,25 +114,6 @@ Advanced Topics for Programmers
    imu/imu.rst
    shared/installing_kotlin/Installing-Kotlin
 
-
-
-Vision Programming
-~~~~~~~~~~~~~~~~~~~
-
-Learning more about using vision
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   vision/vision_overview/vision-overview
-   vision/tensorflow_pp_2022/tensorflow_pp_2022
-   vision/blocks_tfod_opmode/blocks-tfod-opmode
-   vision/java_tfod_opmode/java-tfod-opmode
-   vision/tensorflow_ff_2021/tensorflow-ff-2021
-   vision/identifying_vumarks/identifying-vumarks
-   vision/webcam_controls/webcam-controls
-   
    
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
