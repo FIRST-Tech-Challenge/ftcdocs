@@ -84,23 +84,113 @@ html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
 
 latex_engine = "xelatex"
 
+latex_logo = "assets/Latex_Logo_FTC.png"
+
+latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Center_Stage_Title.pdf']
+
 # Disable xindy support
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
 latex_use_xindy = False
 
 latex_elements = {
+    "papersize": "letterpaper",
+
+    'classoptions':',openany',
+
     "fontpkg": r"""
-	\setmainfont{DejaVu Serif}
-	\setsansfont{DejaVu Sans}
-	\setmonofont{DejaVu Sans Mono}""",
+        \setmainfont{Roboto}
+        \setsansfont{Roboto}
+        \setmonofont{DejaVu Sans Mono}
+    """,
+
+    'passoptionstopackages': r"""\PassOptionsToPackage{letterpaper,portrait,includehead=true,includefoot=true,left=0.5in,right=0.5in,top=0.9in,bottom=3in,footskip=12.4pt,headsep=25pt,}{geometry}""",
+    
     "preamble": r"""
-	\usepackage[titles]{tocloft}
-	\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-	\setlength{\cftchapnumwidth}{0.75cm}
-	\setlength{\cftsecindent}{\cftchapnumwidth}
-	\setlength{\cftsecnumwidth}{1.25cm}
+        \usepackage{fancyhdr}
+        
+        \usepackage{color}
+
+        \usepackage{eso-pic}
+
+        \usepackage{titlesec}
+
+        \titleformat
+            {\chapter} % command
+            [display] % shape
+            {\bfseries\Large\itshape} % format
+            {Chapter \thechapter} % label
+            {0ex} % sep
+            {
+                \vspace*{-1ex}
+                \textcolor[rgb]{.96, .49, .15}{\rule{\textwidth}{3pt}}
+                \vspace{1ex}
+            } % before-code
+            [
+            ] % after-code
+        
+        \makeatletter
+            \fancypagestyle{normal}{
+                \fancyhf{}
+                \fancyfoot[LE]{{
+                        \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
+                        \vspace{10mm}
+                }}
+                \fancyfoot[RE]{
+                    \vspace{-10mm}
+                    \py@HeaderFamily \py@release
+                    }
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage \headrule}}
+            }
+
+        \makeatother
+
 	""",
-    "fncychap": r"\usepackage[Bjornstrup]{fncychap}",
+
+    "maketitle": r"""
+        \newgeometry{left=0.5in,
+            right=0.5in,
+            top=0.5in,
+            bottom=0.5in}
+        
+        \pagenumbering{Roman}
+
+        \begin{titlepage}
+
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}};
+
+            \vspace*{113mm}
+            
+            \begin{flushright}
+                \begin{center}
+                    \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
+                    \\
+                    \vspace{4mm}
+                    \textbf{\Huge {FTC Docs}}
+                \end{center}
+            \end{flushright}
+        
+        \restoregeometry
+        \end{titlepage}
+
+        \newpage
+
+        \vspace*{5mm}
+
+        \textbf{\Large{Sponsor Thank You}}
+
+        \indent Thank you to our generous sponsors for your continued support of the \emph{FIRST} Tech Challenge! 
+        \vspace{50mm}
+        
+        \begin{figure}[!h]
+            \begin{center}
+                \includegraphics[scale=0.8]{RTX.png}
+            \end{center}
+        \end{figure}
+
+    
+    """,
+
     "printindex": r"\footnotesize\raggedright\printindex",
 }
 
