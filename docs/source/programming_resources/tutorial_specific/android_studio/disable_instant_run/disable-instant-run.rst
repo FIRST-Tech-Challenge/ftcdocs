@@ -1,5 +1,5 @@
-Disabling Android Studio Instant Run
-====================================
+Disabling Android Studio Instant Run :bdg-warning:`Legacy` :bdg-success:`AS`
+=============================================================================
 
 .. attention::
    *Instant Run* was removed in Android Studio version 3.5, and 

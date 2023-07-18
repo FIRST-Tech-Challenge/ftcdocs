@@ -4,13 +4,15 @@
 import os
 import sys
 import urllib.parse as urlparse
+import gitinfo
 
 project = 'FIRST Tech Challenge Docs'
 copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
+license = 'BSD 3-Clause'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.2'
+version = '0.2.0'
 # -- General configuration
 
 extensions = [
@@ -92,6 +94,8 @@ latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'ass
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
 latex_use_xindy = False
 
+gitInfo = gitinfo.get_git_info(dir="../../.")
+
 latex_elements = {
     "papersize": "letterpaper",
 
@@ -103,7 +107,10 @@ latex_elements = {
         \setmonofont{DejaVu Sans Mono}
     """,
 
-    'passoptionstopackages': r"""\PassOptionsToPackage{letterpaper,portrait,includehead=true,includefoot=true,left=0.5in,right=0.5in,top=0.9in,bottom=3in,footskip=12.4pt,headsep=25pt,}{geometry}""",
+    'passoptionstopackages': r"""
+        \PassOptionsToPackage{letterpaper,portrait,includehead=true,includefoot=true,left=0.5in,right=0.5in,top=0.9in,bottom=3in,footskip=12.4pt,headsep=25pt,}{geometry}
+        \usepackage{titling}
+        """,
     
     "preamble": r"""
         \usepackage{fancyhdr}
@@ -113,6 +120,8 @@ latex_elements = {
         \usepackage{eso-pic}
 
         \usepackage{titlesec}
+
+        \usepackage[datesep=/,style=ddmmyyyy]{datetime2}
 
         \titleformat
             {\chapter} % command
@@ -127,6 +136,9 @@ latex_elements = {
             } % before-code
             [
             ] % after-code
+
+        \addtolength{\topmargin}{-23.80643pt}
+        \setlength{\footskip}{36pt}
         
         \makeatletter
             \fancypagestyle{normal}{
@@ -137,10 +149,31 @@ latex_elements = {
                 }}
                 \fancyfoot[RE]{
                     \vspace{-10mm}
-                    \py@HeaderFamily \py@release
+                    \py@HeaderFamily \py@release \hspace{4mm} \today
                     }
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
-                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage \headrule}}
+                \fancyfoot[LO]{\vspace{-15mm} \py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
+                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
+                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+
+            }
+
+            \fancypagestyle{plain}{
+                \fancyhf{}
+                \fancyfoot[LE]{{
+                        \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
+                        \vspace{10mm}
+                }}
+                \fancyfoot[RE]{
+                    \vspace{-10mm}
+                    \py@HeaderFamily \py@release \hspace{4mm} \today
+                    }
+                \fancyfoot[LO]{\vspace{-15mm} \py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
+                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
+                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+
+
             }
 
         \makeatother
@@ -157,7 +190,7 @@ latex_elements = {
 
         \begin{titlepage}
 
-            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}};
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}}
 
             \vspace*{113mm}
             
@@ -166,7 +199,10 @@ latex_elements = {
                     \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
                     \\
                     \vspace{4mm}
-                    \textbf{\Huge {FTC Docs}}
+                    \textbf{\Huge {\thetitle}}
+                    \\
+                    \vspace*{\fill}
+                    \textbf{\Large {\emph{FIRST} Tech Challenge Documentation}}
                 \end{center}
             \end{flushright}
         
@@ -187,9 +223,38 @@ latex_elements = {
                 \includegraphics[scale=0.8]{RTX.png}
             \end{center}
         \end{figure}
-
     
     """,
+
+    'atendofbody': rf"""
+
+            \newpage
+            
+            \chapter{{Version Information}}
+
+            \section{{Document Information}}
+            \large \textbf{{Author:}} \theauthor
+            \\
+            \large \textbf{{Version:}} {release}
+            \\
+            \large \textbf{{Release Date:}} \today
+            \\
+
+            \section{{Git Information}}
+            \large \textbf{{Git Hash: }} {gitInfo['commit']}
+            \\
+            \large \textbf{{Git Branch: }} {gitInfo['refs']}
+            \\
+            \large \textbf{{Git Commit Date: }} {gitInfo['author_date']}
+            \\
+            \large \textbf{{Git Commit Author:}} {gitInfo['author']}
+            
+
+            \section{{Document License}}
+            \large \textbf{{License:}} {license}
+
+
+        """,
 
     "printindex": r"\footnotesize\raggedright\printindex",
 }
@@ -245,16 +310,17 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
-        (master_doc, output_name + '.tex', project, author, "manual"),
-        ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"),
-        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"),
+        (master_doc, output_name + '.tex', project, author, "manual"), # Main, Questionable if it should be built with booklets
+        ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
+        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
+        ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
+        ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
+        ('programming_resources/blocks/Blocks-Tutorial', "blocks.tex", 'Blocks Guide', author, "manual"), # Blocks
+        ('booklets/apriltags', "april_tags.tex", 'April Tags Guide', author, "manual"), # April Tags
+        ('booklets/control_system', "control_system.tex", 'Control System Guide', author, "manual"), # Control System
+        ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
+        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Progrmming Resources', author, "manual"), # Advanced Topics
     ]
-
-    if not os.path.exists('../build/booklets'):
-        os.makedirs('../build/booklets')
-    with open('../build/booklets/booklets.txt', 'w') as file:
-        for doc in latex_documents:
-            file.write(doc[1].replace(".tex", ".pdf") + '\n')
         
 
 def setup(app):

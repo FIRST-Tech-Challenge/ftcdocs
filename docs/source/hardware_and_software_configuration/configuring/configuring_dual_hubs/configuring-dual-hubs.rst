@@ -29,7 +29,8 @@ need the following items:
 
 .. list-table::
    :header-rows: 1
-   :widths: auto
+   :widths: 50 50
+   :class: longtable
 
    * - Required Item(s)
      - Image

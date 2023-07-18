@@ -1,5 +1,5 @@
-Enabling Developer Options
-==========================
+Enabling Developer Options :bdg-success:`AS`
+============================================
 
 After you have configured your Android phone, you will also have to make
 sure that your phone is in developer mode before you will be able to
