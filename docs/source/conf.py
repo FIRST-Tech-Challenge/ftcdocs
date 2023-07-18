@@ -95,6 +95,7 @@ latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'ass
 latex_use_xindy = False
 
 gitInfo = gitinfo.get_git_info(dir="../../.")
+gitInfo = {'commit': "N/A", 'refs': 'N/A', 'author_date': 'N/A', 'author': 'N/A'} if gitInfo==None else gitInfo
 
 latex_elements = {
     "papersize": "letterpaper",
