@@ -123,5 +123,8 @@ jobs:
         with:
           python-version: 3.8
 
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
       - name: image-check
         run: make -C docs/ imagecheck

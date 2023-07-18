@@ -318,7 +318,7 @@ task.
    * - 8. From the **Settings** screen, look for andselect \ **Pair with Robot Controller** tolaunch the **Pair** \ **with RobotController** screen.
      - |pairing8|
 
-   * - 9. From **Pair with Robot Controller** screen,look for and press the **Wifi Settings**button to launch the device's Android WifiSettings screen.
+   * - 9. From **Pair with Robot Controller** screen,look for and press the **Wifi Settings** button to launch the device's Android WifiSettings screen.
      - |pairing9|
 
    * - 10. Find the name of your Control Hub'swireless network from the list of availableWiFi networks. Click on the network name toselect the network. If this is the first timeyou are connecting to the Control Hub, thenthe default network name should begin with theprefix FTC- (FTC-1Ybr in this example).The default network name should be listed on asticker attached to the bottom side of theControl Hub.
