@@ -32,9 +32,9 @@ jobs:
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: |
-        cd docs
-        make booklets
-        cd ..
+          cd docs
+          make booklets
+          cd ..
 
       - name: Archive PDF
         env:
@@ -46,4 +46,3 @@ jobs:
           path: |
             docs/build/booklets/*.pdf
           if-no-files-found: error
-      
