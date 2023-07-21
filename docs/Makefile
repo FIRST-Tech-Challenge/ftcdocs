@@ -26,11 +26,14 @@ help:
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
 
-booklets:
-	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
+--move-booklets:
 	mkdir -p $(BOOKLETSBUILDDIR)
-	echo $(wildcard $(LATEXBUILDDIR)*.tex)
 	cp $(addsuffix .pdf, $(basename $(wildcard $(LATEXBUILDDIR)*.tex))) $(BOOKLETSBUILDDIR)
+
+--generate-booklets:
+	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
+
+booklets: --generate-booklets --move-booklets
 	
 local-full:
 	DOCS_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(HTMLBUILDDIR) $(SPHINXOPTS) $(O)
