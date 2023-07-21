@@ -1,5 +1,5 @@
-Using Sensors (OnBot Java)
-==========================
+Using Sensors :bdg-info:`OBJ`
+=============================
 
 Color-Distance Sensor
 ~~~~~~~~~~~~~~~~~~~~~

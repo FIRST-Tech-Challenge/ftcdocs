@@ -1,5 +1,5 @@
-Creating and Running an Op Mode (Android-Studio)
-================================================
+Creating and Running an Op Mode :bdg-success:`AS`
+=================================================
 
 TeamCode Module
 ~~~~~~~~~~~~~~~

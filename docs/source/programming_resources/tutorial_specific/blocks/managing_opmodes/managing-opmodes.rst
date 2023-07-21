@@ -1,5 +1,5 @@
-Managing OpModes in Blocks
-==========================
+Managing OpModes in Blocks :bdg-warning:`Blocks`
+=================================================
 
 Blocks is a programming language that uses graphical programming elements to
 create programs. As such its file format is different than, say, a JAVA or
