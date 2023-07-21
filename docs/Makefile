@@ -28,6 +28,7 @@ autobuild:
 
 booklets:
 	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
+	mkdir -p $(BOOKLETSBUILDDIR)
 	cp $(addsuffix .pdf, $(basename $(wildcard $(LATEXBUILDDIR)*.tex))) $(BOOKLETSBUILDDIR)
 	
 local-full:

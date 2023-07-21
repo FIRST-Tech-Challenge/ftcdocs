@@ -318,15 +318,7 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
-        ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
-        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
-        ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
-        ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
-        ('programming_resources/blocks/Blocks-Tutorial', "blocks.tex", 'Blocks Guide', author, "manual"), # Blocks
-        ('booklets/apriltags', "april_tags.tex", 'April Tags Guide', author, "manual"), # April Tags
-        ('booklets/control_system', "control_system.tex", 'Control System Guide', author, "manual"), # Control System
         ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
-        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Progrmming Resources', author, "manual"), # Advanced Topics
     ]
         
 
