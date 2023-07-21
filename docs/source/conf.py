@@ -145,14 +145,13 @@ latex_elements = {
             \fancypagestyle{normal}{
                 \fancyhf{}
                 \fancyfoot[LE]{{
+                        \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
-                        \vspace{10mm}
                 }}
                 \fancyfoot[RE]{
-                    \vspace{-10mm}
                     \py@HeaderFamily \py@release \hspace{4mm} \today
                     }
-                \fancyfoot[LO]{\vspace{-15mm} \py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
                 \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
                 \fancyhead[L]{{\vspace{5mm} FTC Docs}}
                 \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
@@ -162,14 +161,13 @@ latex_elements = {
             \fancypagestyle{plain}{
                 \fancyhf{}
                 \fancyfoot[LE]{{
+                        \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
-                        \vspace{10mm}
                 }}
                 \fancyfoot[RE]{
-                    \vspace{-10mm}
                     \py@HeaderFamily \py@release \hspace{4mm} \today
                     }
-                \fancyfoot[LO]{\vspace{-15mm} \py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
                 \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
                 \fancyhead[L]{{\vspace{5mm} FTC Docs}}
                 \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
@@ -182,6 +180,7 @@ latex_elements = {
 	""",
 
     "maketitle": r"""
+
         \newgeometry{left=0.5in,
             right=0.5in,
             top=0.5in,
@@ -207,7 +206,6 @@ latex_elements = {
                 \end{center}
             \end{flushright}
         
-        \restoregeometry
         \end{titlepage}
 
         \newpage
@@ -224,7 +222,14 @@ latex_elements = {
                 \includegraphics[scale=0.8]{RTX.png}
             \end{center}
         \end{figure}
-    
+
+        \restoregeometry
+
+        \newgeometry{left=0.5in,
+            right=0.5in,
+            top=0.6in,
+            bottom=1in}
+ 
     """,
 
     'atendofbody': rf"""
@@ -239,6 +244,8 @@ latex_elements = {
             \large \textbf{{Version:}} {release}
             \\
             \large \textbf{{Release Date:}} \today
+            \\
+            \large \textbf{{Generation Time:}} \DTMcurrenttime
             \\
 
             \section{{Git Information}}
@@ -311,7 +318,6 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
-        (master_doc, output_name + '.tex', project, author, "manual"), # Main, Questionable if it should be built with booklets
         ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
         ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
         ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
