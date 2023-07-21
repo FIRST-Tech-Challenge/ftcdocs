@@ -30,6 +30,7 @@ booklets:
 	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
 	mkdir -p $(BOOKLETSBUILDDIR)
 	find -iname '*.tex'
+	$(wildcard $(LATEXBUILDDIR)*.tex)
 	cp $(addsuffix .pdf, $(basename $(wildcard $(LATEXBUILDDIR)*.tex))) $(BOOKLETSBUILDDIR)
 	
 local-full:
