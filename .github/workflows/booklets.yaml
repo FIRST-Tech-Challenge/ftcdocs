@@ -32,17 +32,15 @@ jobs:
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: |
-          cd docs
-          make booklets
-          cd ..
+          make -C docs/ booklets
 
-      - name: Archive PDF
+      - name: Archive Booklets
         env:
           PR_NUMBER: ${{ github.event.number }}
           ID:  ${{ github.run_attempt }}
         uses: actions/upload-artifact@v3
         with:
-          name: FTCDOCS-PDF
+          name: FTCDOCS-Booklets
           path: |
             docs/build/booklets/*.pdf
           if-no-files-found: error
