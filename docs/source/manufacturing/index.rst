@@ -20,13 +20,13 @@ CAD software. For more information on CAD, see the :doc:`CAD Resources <../cad_r
 Here are some manufacturing methods that are commonly used in FTC:
 
 * Prototyping (Proof-of-Concept, Testing) (Cardboard, Wood, Foam, etc.)
-* :doc:`3D Printing <3d_printing/3d_printing>` (Smaller parts, Prototyping) (Plastics)
+* :doc:`3D Printing <3d_printing/index>` (Smaller parts, Prototyping) (Plastics)
 * Machining (Larger Parts, Plates) (Metal, Wood, Composites, Plastics)
 * Laser Cutting (Plates, Gears, etc.) (Wood, Composites, Plastics)
 
 
-.. toctree::
-   :hidden:
-   :maxdepth: 1
 
-    3D Printing <3d_printing/3d_printing>
+.. toctree::
+    :maxdepth: 2
+
+    3d_printing/index
