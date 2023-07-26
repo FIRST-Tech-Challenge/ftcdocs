@@ -44,4 +44,4 @@ jobs:
           aws-region: us-west-2
       - name: Upload Booklets to S3
         run: |
-          aws s3 sync docs/build/booklets s3://ftc-docs-cdn/booklets/en --delete --acl public-read
+          aws s3 sync docs/build/booklets s3://ftc-docs-cdn/booklets/en --delete
