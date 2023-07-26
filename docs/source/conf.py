@@ -325,7 +325,7 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('programming_resources/blocks/Blocks-Tutorial', "blocks.tex", 'Blocks Guide', author, "manual"), # Blocks
         ('booklets/apriltags', "april_tags.tex", 'April Tags Guide', author, "manual"), # April Tags
         ('booklets/control_system', "control_system.tex", 'Control System Guide', author, "manual"), # Control System
-        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Progrmming Resources', author, "manual"), # Advanced Topics
+        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Programming Resources', author, "manual"), # Advanced Topics
         ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
     ]
         
