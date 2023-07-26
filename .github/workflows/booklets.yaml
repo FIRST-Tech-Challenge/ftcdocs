@@ -34,14 +34,11 @@ jobs:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: make -C docs/ booklets
 
-      - name: Upload Booklets to S3
-        uses: jakejarvis/s3-sync-action@master
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
         with:
-          args: --acl public-read --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-east-1'
-          SOURCE_DIR: 'docs/build/booklets'
-          DEST_DIR: 'booklets/en'
+          role-to-assume: arn:aws:iam::549273919012:role/gh-actions/ftc-docs-uploader
+          aws-region: us-west-2
+      - name: Upload Booklets to S3
+        run: |
+          aws s3 sync docs/build/booklets s3://ftc-docs-cdn/booklets/en --delete --acl public-read
