@@ -12,7 +12,7 @@ Programming Resources
 - `Programming Resources <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_
 - `Android Studios Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/android_studios.pdf>`_
 - `OnBot Java Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_
-- `Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_
+- `Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_
 
 - `April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_
 - `Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_
