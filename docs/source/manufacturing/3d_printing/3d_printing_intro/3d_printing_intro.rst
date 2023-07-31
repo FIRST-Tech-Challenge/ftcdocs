@@ -22,7 +22,7 @@ type of printer used, so this guide will focus on them.
 
 .. figure:: images/fdm_example.png
    :align: center
-   :width: 50%
+   :width: 55%
    :alt: FDM printer
 
    FDM printer printing a part
@@ -35,8 +35,8 @@ use in FTC, although they have a few specific niches, such as very high precisio
 
 .. figure:: images/resin_spool.png
    :align: center
-   :width: 50%
-   :alt:
+   :width: 55%
+   :alt: Resin spool
 
    SLA Resin printed lift string spools
 
