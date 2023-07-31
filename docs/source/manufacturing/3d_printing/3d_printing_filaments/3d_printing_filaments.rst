@@ -52,14 +52,14 @@ prints at a low temperature, and tends to warp very little. PLA is very stiff, b
 shock loads (impacts), and parts should be designed with this in mind.
 
 .. figure:: images/pla_dt_example.png
-    :width: 60%
+    :width: 65%
     :align: center
     :alt: PLA Part
 
     Drive train parts printed in PLA
 
-- PLA hotend temperatures: 190-230° C
-- PLA bed temperatures:20-60° C; PLA does not require a heated bed, but it is recommended.
+* PLA hotend temperatures: 190-230° C
+* PLA bed temperatures: 20-60° C; PLA does not require a heated bed, but it is recommended.
 
 .. tip:: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts in locations such
     as a hot car, as this can produce severe warping in those parts.
