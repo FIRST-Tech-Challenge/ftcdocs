@@ -5,7 +5,7 @@
 
 .. figure:: images/printed_parts_example.png
    :align: center
-   :width: 70%
+   :width: 60%
    :alt: Example of 3D printed parts
 
    3D printed dead wheel odometry parts
