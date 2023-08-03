@@ -1,5 +1,5 @@
 Blocks Reference Materials :bdg-warning:`Blocks`
-=================================================
+================================================
 
 Blocks Reference Manual
 ~~~~~~~~~~~~~~~~~~~~~~~

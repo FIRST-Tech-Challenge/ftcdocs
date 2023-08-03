@@ -100,29 +100,21 @@ gitInfo = {'commit': "N/A", 'refs': 'N/A', 'author_date': 'N/A', 'author': 'N/A'
 
 latex_elements = {
     "papersize": "letterpaper",
-
     'classoptions':',openany',
-
     "fontpkg": r"""
         \setmainfont{Roboto}
         \setsansfont{Roboto}
         \setmonofont{DejaVu Sans Mono}
     """,
-
     'passoptionstopackages': r"""
         \PassOptionsToPackage{letterpaper,portrait,includehead=true,includefoot=true,left=0.5in,right=0.5in,top=0.9in,bottom=3in,footskip=12.4pt,headsep=25pt,}{geometry}
         \usepackage{titling}
         """,
-    
     "preamble": r"""
         \usepackage{fancyhdr}
-        
         \usepackage{color}
-
         \usepackage{eso-pic}
-
         \usepackage{titlesec}
-
         \usepackage[datesep=/,style=ddmmyyyy]{datetime2}
 
         \titleformat
@@ -141,7 +133,6 @@ latex_elements = {
 
         \addtolength{\topmargin}{-23.80643pt}
         \setlength{\footskip}{36pt}
-        
         \makeatletter
             \fancypagestyle{normal}{
                 \fancyhf{}
@@ -158,7 +149,6 @@ latex_elements = {
                 \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
 
             }
-
             \fancypagestyle{plain}{
                 \fancyhf{}
                 \fancyfoot[LE]{{
@@ -172,29 +162,20 @@ latex_elements = {
                 \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
                 \fancyhead[L]{{\vspace{5mm} FTC Docs}}
                 \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
-
-
             }
 
         \makeatother
-
 	""",
-
     "maketitle": r"""
-
         \newgeometry{left=0.5in,
             right=0.5in,
             top=0.5in,
             bottom=0.5in}
-        
         \pagenumbering{Roman}
-
         \begin{titlepage}
 
             \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}}
-
             \vspace*{113mm}
-            
             \begin{flushright}
                 \begin{center}
                     \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
@@ -206,39 +187,27 @@ latex_elements = {
                     \textbf{\Large {\emph{FIRST} Tech Challenge Documentation}}
                 \end{center}
             \end{flushright}
-        
         \end{titlepage}
-
+	
         \newpage
-
         \vspace*{5mm}
-
         \textbf{\Large{Sponsor Thank You}}
-
         \indent Thank you to our generous sponsors for your continued support of the \emph{FIRST} Tech Challenge! 
         \vspace{50mm}
-        
         \begin{figure}[!h]
             \begin{center}
                 \includegraphics[scale=0.8]{RTX.png}
             \end{center}
         \end{figure}
-
         \restoregeometry
-
         \newgeometry{left=0.5in,
             right=0.5in,
             top=0.6in,
             bottom=1in}
- 
     """,
-
     'atendofbody': rf"""
-
             \newpage
-            
             \chapter{{Version Information}}
-
             \section{{Document Information}}
             \large \textbf{{Author:}} \theauthor
             \\
@@ -248,7 +217,6 @@ latex_elements = {
             \\
             \large \textbf{{Generation Time:}} \DTMcurrenttime
             \\
-
             \section{{Git Information}}
             \large \textbf{{Git Hash: }} {gitInfo['commit']}
             \\
@@ -257,14 +225,9 @@ latex_elements = {
             \large \textbf{{Git Commit Date: }} {gitInfo['author_date']}
             \\
             \large \textbf{{Git Commit Author:}} {gitInfo['author']}
-            
-
             \section{{Document License}}
             \large \textbf{{License:}} {license}
-
-
         """,
-
     "printindex": r"\footnotesize\raggedright\printindex",
 }
 
