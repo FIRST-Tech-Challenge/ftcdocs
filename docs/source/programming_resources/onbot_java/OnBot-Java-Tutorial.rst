@@ -21,6 +21,9 @@ to advanced Java skills and who would like to write text-based op modes.
 
 |
 
+.. note::
+   :bdg-info:`OBJ` indicates that the content is specific to OnBot Java Programming
+
 .. toctree::
    :maxdepth: 2
 
