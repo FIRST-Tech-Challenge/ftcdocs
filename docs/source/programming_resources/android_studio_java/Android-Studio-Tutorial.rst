@@ -21,6 +21,9 @@ Android app developers use. Android Studio is only recommended for
 
 |
 
+.. note::
+   :bdg-success:`AS` indicates that the content is specific to Android Studio Programming
+
 .. toctree::
    :maxdepth: 2
    
