@@ -3,6 +3,10 @@ Booklets
 
 More 'bite-sized' versions of the FTC Docs. These are meant to be printed out and used as a reference for teams.
 
+.. 
+    In order to add a booklet, add a link to the booklet in the list below. The link should be in the format of:
+    https://ftc-docs-cdn.ftclive.org/booklets/en/<booklet_name>.pdf
+
 FTC Machine Learning
 ----------------------
 - `FTC ML Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/ftc_ml.pdf>`_
