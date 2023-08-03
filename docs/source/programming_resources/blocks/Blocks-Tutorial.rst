@@ -24,6 +24,10 @@ to get acquainted with the Control System!
 
 |
 
+.. note::
+   :bdg-warning:`Blocks` indicates that the content is specific to Blocks Programming
+   
+
 .. toctree::
    :maxdepth: 2
 
