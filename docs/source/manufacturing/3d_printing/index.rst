@@ -13,6 +13,10 @@ Sometimes, teams need a part that is impossible to machine or cut out, or needs 
 teams may want to test and iterate the design of a part rapidly and cheaply. 3D printing is a great solution to
 all of these problems.
 
+3D Printing is the process of creating a three dimensional object by laying down successive layers of material 
+(typically plastic) from a digital model file. To do this, machines known as 3D Printers are employed which melt 
+and place plastic in order to produce this model.
+
 In order to start 3D printing, teams need to understand how the technology works, what printers are
 available to buy, how to properly set up a part to be printed, and what materials are available to print with.
 
@@ -22,4 +26,10 @@ available to buy, how to properly set up a part to be printed, and what material
 
 
     3D Printing Introduction <3d_printing_intro/3d_printing_intro>
-    3D Printing Filaments <3d_printing_filaments/3d_printing_filaments>
+    Example 3d Printed Parts <3d_printed_parts/3d_printed_parts>
+    General Knowledge <general_knowledge/general_knowledge.rst>
+    Printer Choice <printer_choice/printer_choice>
+    Filament Choice <filament_choice/filament_choice>
+    Designing and Slicing <designing_and_slicing/designing_and_slicing>
+    Specific Skill Guides <specific_skill_guides/specific_skill_guides>
+    Troubleshooting Common Issues <troubleshooting/troubleshooting>

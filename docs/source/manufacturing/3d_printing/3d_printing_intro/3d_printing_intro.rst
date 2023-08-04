@@ -18,7 +18,7 @@
 There are numerous kinds of 3D printing, but for FTC there are only a few that are practical. The most common is
 **Fused Deposition Modeling (FDM)**. FDM printers melt a plastic filament
 and extrude it through a nozzle, which moves around to create the part. FDM printers are the most common
-type of printer used, so this guide will focus on them.
+type of printer used, and the most practical for robotics teams, so this guide will focus on them.
 
 .. figure:: images/fdm_example.png
    :align: center
@@ -68,6 +68,3 @@ use in FTC, although they have a few specific niches, such as very high precisio
   the cost of a 3D printer has been decreasing rapidly, and filament is relatively cheap.
 
 
-.. tip:: For more information on 3D printing in FTC, including **choosing a printer**, slicing your parts, printer tuning,
-    printing tips/troubleshooting, and more, please visit `COREFTC <http://coreftc.org>`__, a website dedicated to
-    providing 3D printing resources for FTC teams.
