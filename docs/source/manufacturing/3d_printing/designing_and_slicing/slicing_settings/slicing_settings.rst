@@ -1,0 +1,2 @@
+Explanation of Slicer Settings
+==============================
