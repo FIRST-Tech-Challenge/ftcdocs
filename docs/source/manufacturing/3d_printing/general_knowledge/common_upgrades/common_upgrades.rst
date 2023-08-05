@@ -216,7 +216,7 @@ The 3D Printing community is heavily into modifying their printers...using their
 that you can just print yourself! Many are for aesthetics like V-Slot covers and LED lights, but others can improve 
 functionality such as filament guides and belt tensioners. These upgrades are definitely worth exploring if you have some downtime!
 
-.. figure:: images/ender3dragchain.png
+.. figure:: images/scottyuender3.png
   :align: center
   :width: 55%
   :alt:  A heavily upgraded Ender 3 using 3d prints.
