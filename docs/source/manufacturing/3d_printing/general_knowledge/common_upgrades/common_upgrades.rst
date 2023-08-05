@@ -16,7 +16,7 @@ PEX, which expands when heated and holds onto 3d prints better, and then as it c
 Powder-Coated PEI/Textured PEI are by far the most popular flexible beds now, being cheap, simple, more resistant to damage
 than PEI or PEX flexible beds, and having exceptional print adhesion.
 
-.. figure:: images/flexiblebed.png
+.. image:: images/flexiblebed.png
   :align: center
   :width: 55%
   :alt: Removing a print by bending a flexible bed.
@@ -31,7 +31,7 @@ flex beds! A glass bed combined with something like glue stick or hairspray work
 Most glass beds found on Amazon will work, look for the keywords Carborundum or Borosilicate when looking for glass 
 beds for your printer size.
 
-.. figure:: images/carborundumglassbed.png
+.. image:: images/carborundumglassbed.png
   :align: center
   :width: 55%
   :alt: A standard glass bed.
@@ -60,19 +60,22 @@ tools to connect it to your board). Here are a few hotends from different price 
   :alt: 3 pictured hotends that are example upgrades.
 
   Left to Right: Slice Engineering Mosquito, E3D V6, Phaetus Dragon
+
 |
 
 .. note:: A quick way to increase your hotend's flow rate without breaking the bank and buying a new hotend is by
           buying and utilizing something called a **CHT Nozzle**. These nozzles split filament flow into 3 parts, 
           allowing each section to melt faster, and resulting in a higher flow of plastic.
+
 |
 
-.. figure:: images/chtnozzle.png
+.. figure:: images/chtnozzle.jpg
   :align: center
   :width: 55%
   :alt: An example CHT nozzle.
 
   This Bondtech CHT nozzle splits flow into three.
+
 |
 
 Silent Stepper Boards
@@ -90,7 +93,8 @@ include this option stock, so it's not a concern for many.
   :width: 55%
   :alt: An image of a silent stepper board.
 
-  An SKR e3 Turbo with TMC2209 Stepper Drivers, the current standard for silent printing
+  An SKR e3 Turbo with TMC2209 Stepper Drivers, the current standard for silent printing.
+
 |
 
 
@@ -108,6 +112,7 @@ leveling stock, butcif yours didn't and you'd like to upgrade, these options are
   :alt: An image depicting a printers reading of a bed.
 
   An example autoleveling reading, showing the imperfections in the bed that the printer will compensate for.
+
 |
 
 Raspberry Pi/Network Functionality
@@ -127,6 +132,7 @@ If you are using a printer with the **Klipper** firmware, you should research **
   :alt: A picture of a prusa being controlled by an octoprint dash panel.
 
   An Octoprint Control Panel for a Prusa
+
 |
 
 Dual Z-Axis Support
@@ -136,7 +142,7 @@ driven by a lead screw on one side. This directly results in inconsistencies in 
 A fairly common solution to this is to add a lead screw on the other side, evening it out. This requires a board 
 upgrade and an extra stepper. There are plenty of kits for this, or you could attempt to DIY it yourself. 
 
-.. figure:: images/belteddualzender3.png
+.. image:: images/belteddualzender3.png
   :align: center
   :width: 55%
   :alt: A picture of an Ender 3 with a dual z axis setup.
@@ -162,13 +168,16 @@ cooling systems that were completely engineered with air flow simulation.
   :alt:  The mantis cooling fan design with 2 5015 fans.
 
   An example cooling setup with dual 5015 fans (Mantis).
+
 |
+
 .. figure:: images/stealthburner.png
   :align: center
   :width: 55%
   :alt:  Cooling simulations of the Voron Stealthburner project.
 
   Simulations of how air runs through a hotend cooling setup (Voron).
+
 |
 
 Linear Rails
@@ -185,6 +194,7 @@ this is one of the most expensive upgrades here, as good quality linear rails ca
   :alt:  Hiwin MGN12 rails mounted on an Ender 3.
 
   This is a MGN12 (12mm wide MGN style linear rail) being used for the x axis of a printer.
+
 |
 
 Cable Drag Chain and Wire Management
@@ -193,7 +203,7 @@ To avoid entanglement and fatigue of wires, a lot of people choose to add drag c
 movement. These chains can either be printed or purchased from a vendor like IGUS/Digikey, so if you're interested 
 in wire management, either shop around or take a look around on Printables/Thingiverse and find a set for your printer model.
 
-.. figure:: images/ender3dragchain.png
+.. image:: images/ender3dragchain.png
   :align: center
   :width: 55%
   :alt:  Cable drag chain mounted on an Ender 3.
@@ -212,4 +222,5 @@ functionality such as filament guides and belt tensioners. These upgrades are de
   :alt:  A heavily upgraded Ender 3 using 3d prints.
 
   Scott Yu-Jan's heavily upgraded Ender 3
+
 |

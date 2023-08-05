@@ -56,7 +56,7 @@ cutters like the one pictured below can make sure that one of the most important
 on your printer is good quality. The one pictured below is clamped onto a PTFE tube, spun around it a few times,
 and then the cut will be complete with little effort.
 
-.. figure:: images/ptfecutter.png
+.. figure:: images/ptfecutter.jpg
   :align: center
   :width: 55%
   :alt: A basic PTFE tube cutter.
