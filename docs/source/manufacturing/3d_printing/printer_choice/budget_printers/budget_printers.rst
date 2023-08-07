@@ -9,9 +9,6 @@ Budget Printers (Under $300 USD)
 Creality Ender-3/Pro/V2 ($100-$250)
 -----------------------------------
 
-Who's the Ender 3 for? 
-^^^^^^^^^^^^^^^^^^^^^^
-
 If you're looking for the most cost effective printer that will still do a great job, this is a great option. 
 The Ender-3 series is an open source classic in the FTC and 3D printing community. It has a huge support network 
 and despite it's low cost, has proven itself to be a very capable printer. 
@@ -59,9 +56,6 @@ Ender 3 Drawbacks
 Sovol SV06 ($259)
 -----------------
 
-Who's the SV06 for? 
-^^^^^^^^^^^^^^^^^^^
-
 If you're willing to spend just a little bit more money for more quality of life features out of the box, 
 the Sovol SV06 is a good option. It maintains an Ender-like frame but adds in modern features that 
 the Ender lacks which can save tinkering and maintenance time down the road.
@@ -89,9 +83,6 @@ SV06 Drawbacks
 
 Other Budget Printers/Ender Clones ($150-$300)
 ----------------------------------------------
-
-Who are these for? 
-^^^^^^^^^^^^^^^^^^
 
 If you're ok with forgoing the huge knowledge base behind the Ender-3 series in exchange for a few more features 
 out of the box, some Ender-3 clones can be a good option. Notable ones include the Elegoo Neptune, Anycubic Vyper, 
@@ -121,6 +112,7 @@ Common Drawbacks
   Anycubic's Viper
 
 |
+
 
 
 
