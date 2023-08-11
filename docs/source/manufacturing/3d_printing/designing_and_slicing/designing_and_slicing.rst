@@ -1,6 +1,8 @@
 Designing and Slicing
 =====================
 
+This section goes over the essentials of how to design CAD files that are easily 3d printable, and slicing softwares that can take cad files into instructions
+for a 3d printer.
 
 .. toctree::
     :maxdepth: 1
