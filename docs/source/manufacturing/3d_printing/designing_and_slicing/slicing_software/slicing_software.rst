@@ -11,7 +11,7 @@ If you are using any other printer or the proprietary software for your printer 
 amazing options. Both with almost every modern slicer feature, these are great options. Cura is great if you want a clean UI with minimal settings,
 while PrusaSlicer may enable more powerful control of your printer with more customizable settings and a larger open source community.
 
-.. figure:: images/cura_vs_prusa.jpg
+.. figure:: images/cura_vs_prusa.png
   :align: center
   :width: 55%
   :alt: Cura and Prusaslicer's logos side by side

@@ -9,6 +9,13 @@ This can typically be done easily with either just your fingers or a pair of pli
 support from small features or holes can be difficult. This is why it's reccomended to design away from using supports, and if
 you must use them, to set up your slicing settings properly in order to make them easy to remove.
 
+.. image:: images/supportremoval.png
+  :align: center
+  :width: 55%
+  :alt: The process of support removal.
+
+|
+
 Drilling Out Holes
 ------------------
 
