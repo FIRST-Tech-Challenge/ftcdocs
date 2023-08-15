@@ -3,7 +3,7 @@
 .. only:: latex
 
     Advanced Topics, Progrmming Resources
-    ======================================
+    =====================================
 
     .. toctree::
         :maxdepth: 1

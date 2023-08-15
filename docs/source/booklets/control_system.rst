@@ -3,7 +3,7 @@
 .. only:: latex
 
     *FIRST* Tech Challenge Control System
-    ======================================
+    =====================================
 
     .. toctree::
 

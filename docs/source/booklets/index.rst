@@ -1,5 +1,5 @@
 Booklets
-=========
+========
 
 More 'bite-sized' versions of the FTC Docs. These are meant to be printed out and used as a reference for teams.
 
@@ -8,11 +8,11 @@ More 'bite-sized' versions of the FTC Docs. These are meant to be printed out an
     https://ftc-docs-cdn.ftclive.org/booklets/en/<booklet_name>.pdf
 
 FTC Machine Learning
-----------------------
+--------------------
 - `FTC ML Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/ftc_ml.pdf>`_
 
 Programming Resources
-----------------------
+---------------------
 - `Programming Resources <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_
 - `Android Studios Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/android_studios.pdf>`_
 - `OnBot Java Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_
@@ -23,7 +23,7 @@ Programming Resources
 - `FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_
 
 Control System
-----------------
+--------------
 
 - `Control System <https://ftc-docs-cdn.ftclive.org/booklets/en/control_system.pdf>`_
 
