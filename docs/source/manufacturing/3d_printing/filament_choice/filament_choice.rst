@@ -10,7 +10,7 @@ printing, materials like resin (used in SLA printing) will not be discussed.
 
 |
 
-This section is all about FDM filament choices for 3d printing. There are a variety of plastics that are commonly used,
+This section is all about FDM filament choices for 3D printing. There are a variety of plastics that are commonly used,
 with some being more common than others, and some fulfilling specialty use cases. There are specialized to FTC 
 descriptions in this section, but if you want a simple comparison chart like shown below, check out this `Filament Properties Table
 <https://www.simplify3d.com/resources/materials-guide/properties-table/>`_. 

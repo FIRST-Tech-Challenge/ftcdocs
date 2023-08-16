@@ -1,4 +1,4 @@
-Example 3d Printed Parts
+Example 3D Printed Parts
 ========================
 
 Here are some example parts that your team could make with a 3d printer to either save funds or improve on customizability.

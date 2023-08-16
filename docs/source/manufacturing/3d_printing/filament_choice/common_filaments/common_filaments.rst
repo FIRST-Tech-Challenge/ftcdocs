@@ -38,7 +38,7 @@ While more expensive, these filaments can be a great option that make PLA much m
 
 
 * PLA hotend temperatures: 190-230° C
-* PLA bed temperatures: 20-60° C; PLA does not require a heated bed, but it is recommended.
+* PLA bed temperatures: 20-70° C; PLA does not require a heated bed, but it is recommended.
 
 .. warning:: Warning #1 about PLA: Due to the relatively low melting point of PLA, it is not advisable to leave PLA parts 
              in locations such as a hot car, as this can produce severe warping in those parts.

@@ -8,7 +8,7 @@ before getting into the more advanced knowledge documented here!
 .. toctree::
     :maxdepth: 1
 
-    3d Printing Terminology <terminology/terminology>
-    Common 3d Printing Tools <common_tools/common_tools>
-    Common 3d Printing Upgrades <common_upgrades/common_upgrades>
+    3D Printing Terminology <terminology/terminology>
+    Common 3D Printing Tools <common_tools/common_tools>
+    Common 3D Printing Upgrades <common_upgrades/common_upgrades>
     Hardware Tradeoffs <hardware_tradeoffs/hardware_tradeoffs>

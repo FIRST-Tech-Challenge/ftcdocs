@@ -6,9 +6,9 @@ There will be many features listed and drawbacks listed for every budget range, 
 feature that we would like to note that teams should not buy a printer without note of it being
 included.
 
-**Thermal Runaway Protection**: If a thermistor on the printer starts to disagree with the heater input
-and temperature trends don't make sense, the 3d printer will shut itself down. This is essential to prevent possible
-fires and teams should not buy 3d printers without this feature. Most 3d printers you buy today will have 
+**Thermal Runaway Protection**: This is a feature where if a thermistor on the printer disagrees with the heater input
+and temperature trends don't make sense, the 3D printer will shut itself down. This is essential to prevent possible
+fires and teams should not buy 3D printers without this feature. Most 3D printers you buy today will have 
 this due to firmware updates, despite the age of the printer, but it should still be checked. 
 
 Please search up whether the printer model you intend on buying has this feature. If you search up Ender 3s,

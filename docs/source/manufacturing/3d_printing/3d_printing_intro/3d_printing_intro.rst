@@ -59,7 +59,6 @@ use in FTC, although they have a few specific niches, such as very high precisio
 * 3D printed parts are often not as strong as machined or cut parts. This is especially true for FDM printers, which
   have a layer-by-layer structure that can be a weak point if the part is loaded in a certain way. If consideration
   is given to this weakness when designing the part, however, the result can be made very strong.
-* Depending on the material, 3D printed parts can be weak to shock loads, such as impacts.
 * A 3D printed part can only be as large as the print bed it is printed on. This means that large parts may need to
   be printed in multiple pieces and assembled later.
 * 3D printing can be slow, especially for large parts. Longer prints can take hours or even days to complete, raising

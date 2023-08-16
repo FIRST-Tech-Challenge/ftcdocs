@@ -45,7 +45,7 @@ one by Prusa Research. Do your own research and find out which of these is best 
   :width: 55%
   :alt: Prusa's filament drybox
 
-  Prusa's filament drybox solution, 3d printed and DIY.
+  Prusa's filament drybox solution, 3D printed and DIY.
 
 |
 
