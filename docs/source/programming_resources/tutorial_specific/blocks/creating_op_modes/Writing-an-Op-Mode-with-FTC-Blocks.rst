@@ -1,5 +1,5 @@
-Creating Op Modes (Blocks)
-==============================
+Creating Op Modes :bdg-warning:`Blocks`
+========================================
 
 
 What's an Op Mode?

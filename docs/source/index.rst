@@ -108,9 +108,11 @@ to see why.
    :maxdepth: 1
    :hidden:
 
+   Booklets<booklets/index>
    Site Feedback Form<ftc_docs/form/form>
    FTC Docs PDF<ftc_docs/pdf/pdf>
    Dark Mode<ftc_docs/dark/dark>
+   Workflow<ftc_docs/workflow/workflow>
 
 .. Add Contrib Section here when added
 

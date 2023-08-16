@@ -1,5 +1,5 @@
-OnBot Java Reference Info
-=========================
+OnBot Java Reference Info :bdg-info:`OBJ`
+=========================================
 
 Javadoc Reference Pages
 ~~~~~~~~~~~~~~~~~~~~~~~

@@ -4,13 +4,15 @@
 import os
 import sys
 import urllib.parse as urlparse
+import gitinfo
 
 project = 'FIRST Tech Challenge Docs'
 copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
+license = 'BSD 3-Clause'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.2'
+version = '0.2.0'
 # -- General configuration
 
 extensions = [
@@ -25,7 +27,8 @@ extensions = [
     'sphinx_design',
     'sphinx_rtd_dark_mode',
     'sphinxcontrib.googleanalytics',
-    'sphinxcontrib.cookiebanner', 
+    'sphinxcontrib.cookiebanner',
+    'sphinxcontrib.mermaid',
 ]
 
 autosectionlabel_prefix_document = True
@@ -84,23 +87,147 @@ html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
 
 latex_engine = "xelatex"
 
+latex_logo = "assets/Latex_Logo_FTC.png"
+
+latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Center_Stage_Title.pdf']
+
 # Disable xindy support
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
 latex_use_xindy = False
 
+gitInfo = gitinfo.get_git_info(dir="../../.")
+gitInfo = {'commit': "N/A", 'refs': 'N/A', 'author_date': 'N/A', 'author': 'N/A'} if gitInfo==None else gitInfo
+
 latex_elements = {
+    "papersize": "letterpaper",
+    'classoptions':',openany',
     "fontpkg": r"""
-	\setmainfont{DejaVu Serif}
-	\setsansfont{DejaVu Sans}
-	\setmonofont{DejaVu Sans Mono}""",
+        \setmainfont{Roboto}
+        \setsansfont{Roboto}
+        \setmonofont{DejaVu Sans Mono}
+    """,
+    'passoptionstopackages': r"""
+        \PassOptionsToPackage{letterpaper,portrait,includehead=true,includefoot=true,left=0.5in,right=0.5in,top=0.9in,bottom=3in,footskip=12.4pt,headsep=25pt,}{geometry}
+        \usepackage{titling}
+        """,
     "preamble": r"""
-	\usepackage[titles]{tocloft}
-	\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-	\setlength{\cftchapnumwidth}{0.75cm}
-	\setlength{\cftsecindent}{\cftchapnumwidth}
-	\setlength{\cftsecnumwidth}{1.25cm}
+        \usepackage{fancyhdr}
+        \usepackage{color}
+        \usepackage{eso-pic}
+        \usepackage{titlesec}
+        \usepackage[datesep=/,style=ddmmyyyy]{datetime2}
+
+        \titleformat
+            {\chapter} % command
+            [display] % shape
+            {\bfseries\Large\itshape} % format
+            {Chapter \thechapter} % label
+            {0ex} % sep
+            {
+                \vspace*{-1ex}
+                \textcolor[rgb]{.96, .49, .15}{\rule{\textwidth}{3pt}}
+                \vspace{1ex}
+            } % before-code
+            [
+            ] % after-code
+
+        \addtolength{\topmargin}{-23.80643pt}
+        \setlength{\footskip}{36pt}
+        \makeatletter
+            \fancypagestyle{normal}{
+                \fancyhf{}
+                \fancyfoot[LE]{{
+                        \vspace{-5mm}
+                        \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
+                }}
+                \fancyfoot[RE]{
+                    \py@HeaderFamily \py@release \hspace{4mm} \today
+                    }
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
+                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
+                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+
+            }
+            \fancypagestyle{plain}{
+                \fancyhf{}
+                \fancyfoot[LE]{{
+                        \vspace{-5mm}
+                        \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
+                }}
+                \fancyfoot[RE]{
+                    \py@HeaderFamily \py@release \hspace{4mm} \today
+                    }
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
+                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
+                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
+                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+            }
+
+        \makeatother
 	""",
-    "fncychap": r"\usepackage[Bjornstrup]{fncychap}",
+    "maketitle": r"""
+        \newgeometry{left=0.5in,
+            right=0.5in,
+            top=0.5in,
+            bottom=0.5in}
+        \pagenumbering{Roman}
+        \begin{titlepage}
+
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}}
+            \vspace*{113mm}
+            \begin{flushright}
+                \begin{center}
+                    \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
+                    \\
+                    \vspace{4mm}
+                    \textbf{\Huge {\thetitle}}
+                    \\
+                    \vspace*{\fill}
+                    \textbf{\Large {\emph{FIRST} Tech Challenge Documentation}}
+                \end{center}
+            \end{flushright}
+        \end{titlepage}
+	
+        \newpage
+        \vspace*{5mm}
+        \textbf{\Large{Sponsor Thank You}}
+        \indent Thank you to our generous sponsors for your continued support of the \emph{FIRST} Tech Challenge! 
+        \vspace{50mm}
+        \begin{figure}[!h]
+            \begin{center}
+                \includegraphics[scale=0.8]{RTX.png}
+            \end{center}
+        \end{figure}
+        \restoregeometry
+        \newgeometry{left=0.5in,
+            right=0.5in,
+            top=0.6in,
+            bottom=1in}
+    """,
+    'atendofbody': rf"""
+            \newpage
+            \chapter{{Version Information}}
+            \section{{Document Information}}
+            \large \textbf{{Author:}} \theauthor
+            \\
+            \large \textbf{{Version:}} {release}
+            \\
+            \large \textbf{{Release Date:}} \today
+            \\
+            \large \textbf{{Generation Time:}} \DTMcurrenttime
+            \\
+            \section{{Git Information}}
+            \large \textbf{{Git Hash: }} {gitInfo['commit']}
+            \\
+            \large \textbf{{Git Branch: }} {gitInfo['refs']}
+            \\
+            \large \textbf{{Git Commit Date: }} {gitInfo['author_date']}
+            \\
+            \large \textbf{{Git Commit Author:}} {gitInfo['author']}
+            \section{{Document License}}
+            \large \textbf{{License:}} {license}
+        """,
     "printindex": r"\footnotesize\raggedright\printindex",
 }
 
@@ -151,6 +278,21 @@ linkcheck_ignore = [
 latex_documents = [
     (master_doc, output_name + '.tex', project, author, "manual"),
 ]
+
+if(os.environ.get("BOOKLETS_BUILD") == "true"):
+    print('Building booklets')
+    latex_documents = [
+        ('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
+        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
+        ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
+        ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
+        ('programming_resources/blocks/Blocks-Tutorial', "blocks.tex", 'Blocks Guide', author, "manual"), # Blocks
+        ('booklets/apriltags', "april_tags.tex", 'April Tags Guide', author, "manual"), # April Tags
+        ('booklets/control_system', "control_system.tex", 'Control System Guide', author, "manual"), # Control System
+        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Programming Resources', author, "manual"), # Advanced Topics
+        ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
+    ]
+        
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")

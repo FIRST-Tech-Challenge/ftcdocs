@@ -1,5 +1,5 @@
-Controlling a Servo (Blocks)
-----------------------------
+Controlling a Servo :bdg-warning:`Blocks`
+=========================================
 
 In the section titled :doc:`Creating an Op Mode with 
 Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use

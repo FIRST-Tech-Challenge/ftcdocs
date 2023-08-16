@@ -1,5 +1,5 @@
-Controlling a Servo (Android Studio)
-====================================
+Controlling a Servo :bdg-success:`AS`
+=====================================
 
 In this section, you will modify your op mode to control a servo motor
 with the buttons of the gamepad.
