@@ -9,4 +9,3 @@ Basic Robot Building Guide for REV
 
 Volunteer Special Thanks to
 The Spanglers
-------------------------
