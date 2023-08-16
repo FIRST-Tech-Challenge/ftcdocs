@@ -237,17 +237,17 @@ be present on a gray mat tile within the training frames. The model happened to
 gray mat tile had a significantly reduced detection rate.  
 
 In POWERPLAY, the white sticker background is always present, except the white
-color of the background can be unintentionally altered based on the lighting
+color of the background can be unintentionally altered based on the lighting 
 being used in the room; warmer lights cause the white to turn yellow or orange,
 cooler lights cause the white to turn more blue, and glare causes a gradient of
 colors to appear across the white background. Sometimes algorithms can adjust
 the color scheme to provide a "white balance" to adjust the colors correctly,
 but requiring such tools and adjustments might be beyond the grasp for the
-average user. (See :ref:`White Balance Control
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control>` and :ref:`White Balance Control Mode
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control mode>` for more information about adjusting white balance
+average user. (See :doc:`White Balance Control
+</programming_resources/vision/webcam_controls/white_balance/control/control>`
+and :doc:`White Balance Control Mode
+</programming_resources/vision/webcam_controls/white_balance/mode/mode>` 
+for more information about adjusting white balance
 programmatically within the SDK's Java language libraries). 
 
 In order to get TensorFlow to become less sensitive to the need for "white
@@ -315,9 +315,9 @@ conditions used to train the model.
 
 It is recommended that teams choose a background that is more resistant to
 being "altered" by lighting conditions, and doesn't exist anywhere else on the
-game field, or try adjusting the :ref:`White Balance
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control>` via programming if you're a Java language user.
+game field, or try adjusting the :doc:`White Balance Control
+</programming_resources/vision/webcam_controls/white_balance/control/control>` 
+via programming if you're a Java language user.
 
 Selecting Images For Signal Sleeves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -331,6 +331,9 @@ html_theme_options = {
     'navigation_depth': 5,
 }
 
+# Avoid duplicate labels
+autosectionlabel_maxdepth = 2
+
 # Add support for translations
 gettext_compact = False
 locale_dirs = ["locale/"]
