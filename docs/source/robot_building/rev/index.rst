@@ -7,5 +7,5 @@ Basic Robot Building Guide for REV
    Power Play <PowerPlay/index.rst>
 
 
-Volunteer Special Thanks
-------------------------
+Volunteer Special Thanks to
+The Spanglers
