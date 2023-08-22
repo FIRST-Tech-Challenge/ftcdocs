@@ -94,7 +94,7 @@ Learning more about using vision
    vision/blocks_tfod_opmode/blocks-tfod-opmode
    vision/java_tfod_opmode/java-tfod-opmode
    vision/tensorflow_ff_2021/tensorflow-ff-2021
-   vision/webcam_controls/webcam-controls
+   vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
    
 Advanced Topics
