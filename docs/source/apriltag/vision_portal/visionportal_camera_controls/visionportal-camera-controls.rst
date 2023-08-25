@@ -7,7 +7,7 @@ now available in Blocks! These controls can be applied under various lighting
 conditions.
 
 The SDK documentation already provides a `Camera Controls
-tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
+tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/index.html>`__.
 You are encouraged to learn more there.
 
 Note that Exposure and Gain are adjusted together. The new SDK offers
@@ -79,7 +79,7 @@ Each webcam model has its own level of support for Camera Controls.
 
 The Logitech C920 supports all the control features offered by the 
 SDK; many webcams don’t. More info is at
-`ftc-docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
+`ftc-docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/eval/eval.html>`__.
 
 For example, here are control ranges reported by the Logitech C920: 
 
@@ -137,7 +137,7 @@ Gain can be adjusted only if ExposureControl Mode is set to MANUAL (not
 the default).
 
 The old `Camera Controls
-tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__
+tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/gain/control/control.html>`__
 says:
 
    *Gain can be managed in coordination with exposure.*
