@@ -6,7 +6,7 @@ Support Removal
 
 Support material removal is a basic form of post processing where, as the name suggests, you remove support material from your print.
 This can typically be done easily with either just your fingers or a pair of pliers/flush cutters, however, sometimes removing
-support from small features or holes can be difficult. This is why it's reccomended to design away from using supports, and if
+support from small features or holes can be difficult. This is why it's recommended to design away from using supports, and if
 you must use them, to set up your slicing settings properly in order to make them easy to remove.
 
 .. image:: images/supportremoval.png

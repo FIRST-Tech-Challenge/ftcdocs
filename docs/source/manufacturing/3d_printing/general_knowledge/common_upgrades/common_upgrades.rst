@@ -156,7 +156,7 @@ Part Cooling Upgrades
 ---------------------
 
 As talked about in Terminology, hotend and part cooling are vital to part quality and preventing jamming issues. 
-If you want to print PLA at higher speeds, it's reccomended to upgrade your cooling fans to be larger and more 
+If you want to print PLA at higher speeds, it's recommended to upgrade your cooling fans to be larger and more 
 efficient. 5015 and 4020 fans are a great upgrade from stock cooling, and can handle most of what's thrown at them. 
 There are plenty of mounts available for these fans if you search up your printer model and the desired fan size
 (fan sizes are given in width-depth, so a 5015 comes in a 50mm circle that is 15mm thick) If you want a cooling 

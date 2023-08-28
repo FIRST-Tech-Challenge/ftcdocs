@@ -20,7 +20,6 @@ and place plastic in order to produce this model.
 In order to start 3D printing, teams need to understand how the technology works, what printers are
 available to buy, how to properly set up a part to be printed, and what materials are available to print with.
 
-
 .. toctree::
     :maxdepth: 1
 
@@ -33,3 +32,16 @@ available to buy, how to properly set up a part to be printed, and what material
     Designing and Slicing <designing_and_slicing/designing_and_slicing>
     Specific Skill Guides <specific_skill_guides/specific_skill_guides>
     Troubleshooting Common Issues <troubleshooting/troubleshooting>
+
+Volunteer Special Thanks
+-------------------------
+
+The *FIRST* Tech Challenge staff would like to extend a special thanks
+to the following volunteers for their hard work and dedication toward
+this project:
+
+-  Lucas Y., Team 16461
+
+-  Davy Hallihan, Team 16461
+
+-  Ryan Driemeyer, Team 1002

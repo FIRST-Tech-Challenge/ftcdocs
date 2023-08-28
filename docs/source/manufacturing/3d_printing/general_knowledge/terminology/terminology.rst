@@ -18,7 +18,7 @@ General 3D Printing Terms
 
 * **Direct Drive**: A type of FDM extruder where the extruder motor is placed on the carriage together with the hotend assembly, shortening the distance that filament needs to travel significantly.
 
-* **Bowden**: A type of FDM extruder where the extruder is placed at a different spot on the printer seperate from the carriage and runs filament through a long PTFE tube to reach the hotend.
+* **Bowden**: A type of FDM extruder where the extruder is placed at a different spot on the printer separate from the carriage and runs filament through a long PTFE tube to reach the hotend.
 
 
 3D Printer Parts
@@ -26,7 +26,7 @@ General 3D Printing Terms
 
 * **Carriage**: The moving head of a printer that contains the hotend assembly.
 
-* **Bed**: The heated (or sometimes nonheated) surface that filament is layed upon.
+* **Bed**: The heated (or sometimes nonheated) surface that filament is laid upon.
 
 * **Hotend**: The part that melts filament it typically consists of a heat sink, heater, thermistor, and metal nozzle.
 
