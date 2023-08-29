@@ -89,6 +89,13 @@ to see why.
    Computer Aided Design (CAD) <cad_resources/index>
 
 .. toctree::
+   :caption: Manufacturing
+   :maxdepth: 1
+   :hidden:
+
+   Manufacturing Methods <manufacturing/index>
+
+.. toctree::
    :caption: Additional Tools
    :maxdepth: 1
    :hidden:    
