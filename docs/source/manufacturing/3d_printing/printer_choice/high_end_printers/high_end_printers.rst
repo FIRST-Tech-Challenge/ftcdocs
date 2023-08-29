@@ -58,7 +58,7 @@ Mk4 Features
 
 Mk4 Drawbacks
 ^^^^^^^^^^^^^
-* Cartesian kinematics make matching CoreXY printers speed difficult
+* Cartesian kinematics make matching the speed of CoreXY printers difficult
 
 .. image:: images/prusamk4.png
   :align: center
@@ -101,7 +101,7 @@ X1C Drawbacks
 * Replacement parts are proprietary from Bambu Lab (albeit well-priced)
 * Carbon Fiber rods can wear out over time
 * Reliant on Bambu Lab for future firmware/software updates
-* This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to.
+* This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to
 
 .. image:: images/bambulabx1c.png
   :align: center

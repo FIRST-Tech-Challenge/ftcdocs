@@ -42,7 +42,7 @@ Ender 3 Drawbacks
 * PTFE Lined Hotend 
 * Bowden Style Extruder 
 * V-Roller Motion system and singular lead screw setup causes frame flexing.
-* Can take a bit or tweaking/upgrading to work consistently.
+* Can take a bit of tweaking/upgrading to work consistently.
 
 .. figure:: images/ender3.png
   :align: center
