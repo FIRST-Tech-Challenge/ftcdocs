@@ -9,7 +9,7 @@ on:
 jobs:
   build-booklets:
     runs-on: ubuntu-latest
-    if: github.repository == 'uvidyadharan/ftcdocs'
+    if: github.repository == 'FIRST-Tech-Challenge/ftcdocs'
     permissions:
       id-token: write
       contents: read
