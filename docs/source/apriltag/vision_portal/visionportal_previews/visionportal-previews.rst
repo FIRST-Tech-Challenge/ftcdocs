@@ -27,7 +27,7 @@ It’s completely separate from **DS Camera Stream**, which still operates
 normally even if LiveView is stopped (manually or automatically).
 
 Instructions for viewing DS Camera Stream are shown at
-`ftc-docs <https://ftc-docs.firstinspires.org/en/latest/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.html#image-preview>`__.
+:ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`.
 
 Camera Stream uses its own frame collection process, which naturally still
 requires the camera/pipeline status to be ``STREAMING``. Disabling the stream
@@ -67,8 +67,8 @@ Controls should use ``scrcpy`` or an HDMI monitor. Doing this via Camera
 Stream (“back and forth”) will be less effective and less efficient.
 
 More information is available at the **VisionPortal Camera Controls** page, and
-at the `Webcam Control tutorial
-<https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/webcam_controls/webcam-controls.html>`__.
+at the 
+:ref:`Webcam Control tutorial <programming_resources/vision/webcam_controls/webcam-controls:webcam controls>`.
 
 Aspect Ratios in Previews
 -------------------------

@@ -27,7 +27,7 @@ only for the method ``saveNextFrameRaw()``. At some future time, this
 Java method may become available as a regular Block, avoiding the need
 for a myBlock. Learn more about myBlocks here:
 
-- `MyBlocks Tutorial <https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/myblocks/index.html>`__.
+- :ref:`MyBlocks Tutorial <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 This Utility OpMode helps calibrate a webcam or RC phone camera, needed
 for AprilTag pose estimation. It captures a camera frame (image) and

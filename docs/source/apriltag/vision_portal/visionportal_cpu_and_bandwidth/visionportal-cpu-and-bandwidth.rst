@@ -75,8 +75,8 @@ Controller** preview.  It's completely separate from the Driver Station (DS)
 DS Camera Stream uses its own frame collection process, which naturally still
 requires the camera/pipeline status to be ``STREAMING``.
 
-Instructions for viewing DS Camera Stream are shown at `ftc-docs
-<https://ftc-docs.firstinspires.org/en/latest/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.html#image-preview>`__.
+Instructions for viewing DS Camera Stream are shown at 
+:ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`.
 
 DS Camera Stream can display only one camera's image, even under the new
 MultiPortal feature.  Teams can create specialty OpModes to see one camera's
