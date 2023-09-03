@@ -203,8 +203,7 @@ code**. These **annotations** allow easy visual confirmation of recognition:
 
    Two AprilTags with different metadata being detected and annotations displayed
 
-In the above `DS Camera
-Stream <https://ftc-docs.firstinspires.org/en/latest/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.html#image-preview>`__
+In the above :ref:`DS Camera Stream <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`
 preview, the left-side AprilTag was recognized from a tag **Library** (default
 or customized). A Library tag has pre-loaded information (called **Metadata**)
 including its tag size, which allows **pose estimation**. These are annotated
@@ -218,7 +217,7 @@ Note: **Camera Stream** displays a snapshot of the camera’s view, on the Drive
 Station device. It’s available only during the INIT phase of an OpMode, and
 also shows any AprilTag (or TFOD) annotations. Instructions are posted here:
 
-- `Camera Stream Image Preview Documentation <https://ftc-docs.firstinspires.org/en/latest/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.html#image-preview>`__
+- :ref:`Camera Stream Image Preview Documentation <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`
 
 Optional annotations include **colored axes** at the tag center, and a
 **colored box** projecting from the tag image:
@@ -258,8 +257,8 @@ Here are the axis designations in the new SDK:
 - Z axis points **upward**, perpendicular to Y and X
 
 If the camera is upright and pointing forward on the robot, these axes
-are consistent with the Robot Coordinate System used for `IMU
-navigation <https://ftc-docs.firstinspires.org/en/latest/programming_resources/imu/imu.html#axes-definition>`__.
+are consistent with the Robot Coordinate System used for 
+:ref:`IMU navigation <programming_resources/imu/imu:axes definition>`.
 
 Note: these axes are different than the official AprilTag
 `definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__,
@@ -279,8 +278,9 @@ Further discussion is provided here:
 
 - https://ftc-docs.firstinspires.org/apriltag-detection-values
 
-Note: This article does not discuss the *FIRST* Tech Challenge `Field Coordinate
-System <https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__.
+Note: This article does not discuss the *FIRST* Tech Challenge 
+:ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
+
 Your OpModes might relate robot orientation to the overall field or 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`
 for navigation, but that’s beyond this AprilTag introduction.

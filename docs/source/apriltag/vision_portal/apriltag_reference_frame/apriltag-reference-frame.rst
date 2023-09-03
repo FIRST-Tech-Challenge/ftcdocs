@@ -17,7 +17,7 @@ Here are the axis designations in the new SDK:
 .. note::
    Note 1: If the camera is upright and pointing "forward" on the robot, these
    axes are consistent with the Robot Coordinate System used for 
-   `IMU navigation <https://ftc-docs.firstinspires.org/en/latest/programming_resources/imu/imu.html#axes-definition>`__
+   :ref:`IMU navigation <programming_resources/imu/imu:axes definition>`
 
 .. note::
    Note 2: these axes are different than the official `AprilTag definitions
