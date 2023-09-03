@@ -68,7 +68,7 @@ Stream (“back and forth”) will be less effective and less efficient.
 
 More information is available at the **VisionPortal Camera Controls** page, and
 at the 
-:ref:`Webcam Control tutorial <programming_resources/vision/webcam_controls/webcam-controls:webcam controls>`.
+:ref:`Webcam Control tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`.
 
 Aspect Ratios in Previews
 -------------------------
