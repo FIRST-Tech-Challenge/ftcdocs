@@ -76,7 +76,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         
       - uses: reviewdog/action-misspell@v1
         with:
@@ -122,6 +122,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.8
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
 
       - name: image-check
         run: make -C docs/ imagecheck

@@ -1,5 +1,5 @@
-Downloading the Android Studio Project Folder
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Downloading the Android Studio Project Folder :bdg-success:`AS` :bdg-warning:`Legacy`
+=====================================================================================
 
 The SDK can be downloaded from a GitHub repository. GitHub is a web-based
 version control company that lets individuals and organizations host content

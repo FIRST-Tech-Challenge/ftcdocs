@@ -1,5 +1,5 @@
-Creating and Running an Op Mode (OnBot Java)
-============================================
+Creating and Running an Op Mode :bdg-info:`OBJ`
+===============================================
 
 The Java Programming Language
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

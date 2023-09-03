@@ -161,3 +161,9 @@ cython_debug/
 
 # PyCharm project settings
 .idea/
+.idea/workspace.xml
+.idea/ftcdocs.iml
+.idea/misc.xml
+.idea/misc.xml
+.idea/workspace.xml
+.idea/ftcdocs.iml

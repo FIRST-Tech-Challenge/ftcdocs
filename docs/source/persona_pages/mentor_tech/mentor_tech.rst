@@ -103,9 +103,9 @@ Just click on the panel for the resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      CAD and 3D Printing
+      CAD and Design
 
       ^^^
 
-      Look for our CAD sponsors and 3D printing resources here.
+      Look for our CAD sponsors here.
    

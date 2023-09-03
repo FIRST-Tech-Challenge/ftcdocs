@@ -55,6 +55,13 @@ to see why.
    Updating Components <ftc_sdk/updating/index>
 
 .. toctree::
+   :caption: Robot Building Resources
+   :maxdepth: 1
+   :hidden:
+
+   Basic ‘Bot Guide for REV <robot_building/rev/index>
+
+.. toctree::
    :caption: Control System Resources
    :maxdepth: 1
    :hidden:
@@ -80,6 +87,13 @@ to see why.
    :hidden:
 
    Computer Aided Design (CAD) <cad_resources/index>
+
+.. toctree::
+   :caption: Manufacturing
+   :maxdepth: 1
+   :hidden:
+
+   Manufacturing Methods <manufacturing/index>
 
 .. toctree::
    :caption: Additional Tools
@@ -108,9 +122,11 @@ to see why.
    :maxdepth: 1
    :hidden:
 
+   Booklets<booklets/index>
    Site Feedback Form<ftc_docs/form/form>
    FTC Docs PDF<ftc_docs/pdf/pdf>
    Dark Mode<ftc_docs/dark/dark>
+   Workflow<ftc_docs/workflow/workflow>
 
 .. Add Contrib Section here when added
 

@@ -1,5 +1,5 @@
-Controlling a Servo (OnBot Java)
-================================
+Controlling a Servo :bdg-info:`OBJ`
+===================================
 
 In this section, you will modify your op mode to control a servo motor
 with the buttons of the gamepad.

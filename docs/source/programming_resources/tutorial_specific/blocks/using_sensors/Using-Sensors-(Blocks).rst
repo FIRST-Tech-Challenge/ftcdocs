@@ -1,5 +1,5 @@
-Using Sensors (Blocks)
-======================
+Using Sensors :bdg-warning:`Blocks`
+===================================
 
 Color-Distance Sensor
 ~~~~~~~~~~~~~~~~~~~~~

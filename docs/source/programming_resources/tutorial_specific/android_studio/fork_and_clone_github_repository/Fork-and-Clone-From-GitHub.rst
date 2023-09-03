@@ -1,5 +1,5 @@
-Fork and Clone from GitHub 
-==========================
+Fork and Clone from GitHub :bdg-success:`AS`
+============================================
 
 .. important:: 
    This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/quickstart/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
