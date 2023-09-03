@@ -1,5 +1,5 @@
-Using Sensors (Android Studio)
-==============================
+Using Sensors :bdg-success:`AS`
+===============================
 
 Color-Distance Sensor
 ~~~~~~~~~~~~~~~~~~~~~

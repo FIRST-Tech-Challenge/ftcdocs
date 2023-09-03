@@ -4,21 +4,21 @@ Configuring your Android Devices
 What Needs to Be Configured for My Control System?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Control Hub Configuration 
+Control Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note:: 
+.. note::
    References to the Driver Station smartphone may instead apply to the
    `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
    which is preloaded with the Driver Station (DS) app.
 
 Teams who are using a Control Hub (which has an integrated Android Device)
 will only need to configure a single smartphone for use as a Driver
-Station. The process is as follows: 
+Station. The process is as follows:
 
-*  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number). 
-*  Install the Driver Station (DS) app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.) 
-*  Put your phone into Airplane Mode (with the WiFi radio still on). 
+*  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
+*  Install the Driver Station (DS) app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.)
+*  Put your phone into Airplane Mode (with the WiFi radio still on).
 *  Pair (i.e., wirelessly connect) the Driver Station to the Control Hub.
 
 .. image:: images/ControlHubAndPhone.jpg
@@ -29,7 +29,7 @@ Station. The process is as follows:
 .. important:: Eventually the Control Hub will need be renamed so
    that its name complies with Game Manual rule <RS01>, but for now we will
    use the Control Hub with its default name. You can learn how to manage a
-   Control Hub (and modify its name, password, etc.) in 
+   Control Hub (and modify its name, password, etc.) in
    :doc:`this tutorial <../managing_control_hub/Managing-a-Control-Hub>`.
 
 Two Android Smartphone Configuration
@@ -37,13 +37,13 @@ Two Android Smartphone Configuration
 
 Teams who have two smartphones and are not using a Control Hub will need
 to configure one smartphone for use as a Robot Controller and a second
-smartphone for use as a Driver Station. The process is as follows, 
+smartphone for use as a Driver Station. The process is as follows,
 
-*  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number). 
-*  Install the Robot Controller app onto the Robot Controller phone. 
-*  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number). 
-*  Install the Driver Station app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.) 
-*  Put your phones into Airplane Mode (with the WiFi radios still on). 
+*  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number).
+*  Install the Robot Controller app onto the Robot Controller phone.
+*  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
+*  Install the Driver Station app onto the Driver Station phone. (The DS app is pre-installed on the REV Driver Hub.)
+*  Put your phones into Airplane Mode (with the WiFi radios still on).
 *  Pair (i.e., wirelessly connect) the Driver Station to the Robot Controller.
 
 .. image:: images/twoAndroidPhones.jpg
@@ -92,61 +92,42 @@ level, as described below.
 .. |rename7| image:: images/RenameStep7.jpg
 .. |rename8| image:: images/RenameStep8.jpg
 
-+------------------------------------------------+---------------------+
-| Step                                           | Image               |
-+================================================+=====================+
-| 1. Browse the list of available apps on the    | |rename1|           |
-| smartphone and locate the **Settings** icon.   |                     |
-| Click on **Settings** icon to display the      |                     |
-| Settings screen.                               |                     |
-+------------------------------------------------+---------------------+
-| 2. Click on **Wi-Fi** to launch the Wi-Fi      | |rename2|           |
-| screen.                                        |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 3. Touch the three vertical dots to display a  | |rename3|           |
-| pop-up menu.                                   |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 4. Select **Advanced** from the pop-up menu.   | |rename4|           |
-|                                                |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 5. Select **Wi-Fi Direct** from the **Advanced | |rename5|           |
-| Wi-Fi** screen.                                |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 6. Touch the three vertical dots to display a  | |rename6|           |
-| pop-up menu.                                   |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 7. Select **Configure Device** from the pop-up | |rename7|           |
-| menu.                                          |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 8. Use touch pad to enter new name of device.  | |rename8|           |
-| If the device will be a Robot Controller,      |                     |
-| specify your team number and -RC. If the       |                     |
-| device will bea Driver Station, specify your   |                     |
-| team number and -DS. You can also set the      |                     |
-| Wi-Fi Direct inactivity timeout to *Never      |                     |
-| disconnect* and then hit the\ **SAVE** button  |                     |
-| to save your changes. Note that in the         |                     |
-| screenshot shown to the right, the team number |                     |
-| is 9999. The "-C" indicates that this is from  |                     |
-| the third pair of smartphones forthis team.    |                     |
-| The -RC indicates that this phonewill be a     |                     |
-| Robot Controller.                              |                     |
-+------------------------------------------------+---------------------+
-| 9. After renaming phone, power cycle the       |                     |
-| device.                                        |                     |
-+------------------------------------------------+---------------------+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
+   :class: longtable
+
+
+   * - Step
+     - Image
+
+   * - 1. Browse the list of available apps on thesmartphone and locate the **Settings** icon.Click on **Settings** icon to display theSettings screen.
+     - |rename1|
+
+   * - 2. Click on **Wi-Fi** to launch the Wi-Fiscreen.
+     - |rename2|
+
+   * - 3. Touch the three vertical dots to display apop-up menu.
+     - |rename3|
+
+   * - 4. Select **Advanced** from the pop-up menu.
+     - |rename4|
+
+   * - 5. Select **Wi-Fi Direct** from the **AdvancedWi-Fi** screen.
+     - |rename5|
+
+   * - 6. Touch the three vertical dots to display apop-up menu.
+     - |rename6|
+
+   * - 7. Select **Configure Device** from the pop-upmenu.
+     - |rename7|
+
+   * - 8. Use touch pad to enter new name of device.If the device will be a Robot Controller,specify your team number and -RC. If thedevice will bea Driver Station, specify yourteam number and -DS. You can also set theWi-Fi Direct inactivity timeout to *Neverdisconnect* and then hit the\ **SAVE** buttonto save your changes. Note that in thescreenshot shown to the right, the team numberis 9999. The "-C" indicates that this is fromthe third pair of smartphones forthis team.The -RC indicates that this phonewill be aRobot Controller.
+     - |rename8|
+
+   * - 9. After renaming phone, power cycle thedevice.
+     -
+
 
 Installing the *FIRST* Tech Challenge Apps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -158,20 +139,20 @@ The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software will allow you to download the apps to devices: REV Control
 Hub, REV Expansion Hub, REV Driver Hub, and other approved Android
 devices (*see section below, called Updating Apps on Android
-Phones*). Here are some of the benefits: 
+Phones*). Here are some of the benefits:
 
-*  Connect to a REV Control Hub via WiFi. 
-*  One Click update of all software on connected devices. 
-*  Pre-download software updates without a connected device. 
-*  Back up and restore user data from Control Hub. 
-*  Install and switch between DS and RC applications on Android Devices. 
+*  Connect to a REV Control Hub via WiFi.
+*  One Click update of all software on connected devices.
+*  Pre-download software updates without a connected device.
+*  Back up and restore user data from Control Hub.
+*  Install and switch between DS and RC applications on Android Devices.
 *  Access the Robot Control Console on the Control Hub.
 
 The app releases are also available on the `FTCRobotController
 Github
 repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
 It is possible to "side-load" the apps onto the Robot Controller
-(RC) and Driver Station (DS) phones. However, this section of the document 
+(RC) and Driver Station (DS) phones. However, this section of the document
 does **not** include such instructions; other document pages describe
 side-loading the :ref:`RC app <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`
 and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>`.
@@ -184,17 +165,17 @@ software is used to install and update apps, firmware and/or
 operating systems on devices from REV Robotics. Simply connect the
 device via USB to your PC with the REV Hardware Client installed and
 running, and the software will detect connected hardware. After
-detection, the REV Hardware Client can then 
+detection, the REV Hardware Client can then
 `update the Robot Controller (RC) app on a REV Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
 `update the Driver Station (DS) app on a REV Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
-or 
+or
 `update firmware <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__.
 
 Updating Apps on Android Phones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software is used to install, uninstall, and 
+software is used to install, uninstall, and
 `update apps on Android phones <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__.
 However, the phones must have **Developer Options** enabled in order for
 the phone to be properly recognized and updated by the REV Hardware
@@ -207,36 +188,29 @@ follows:
 .. |devop4| image:: images/4-developer-options.jpg
 .. |devop5| image:: images/5-developer-options.*
 
-+------------------------------------------------+---------------------+
-| Step                                           | Image               |
-+================================================+=====================+
-| 1. Go to "Settings", then tap "About device"   |                     |
-| or "About phone".                              |  |devop1|           |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 2. Scroll down, then tap Build number seven    | |devop2a|           |
-| times.Depending on your device and operating   |                     |
-| system, you may need to tap Software           |                     |
-| information, then tap Build number seven       |                     |
-| times.                                         |                     |
-|                                                |                     |
-|                                                |                     |
-|                                                | |devop2b|           |
-+------------------------------------------------+---------------------+
-| 3. Enter your pattern, PIN or password to      |                     |
-| enable the Developer options menu.             |                     |
-+------------------------------------------------+---------------------+
-| 4. The "Developer options" menu will now       | |devop4|            |
-| appear in your Settings menu. Depending on     |                     |
-| your device, it may appear under Settings >    |                     |
-| General > Developer options.                   |                     |
-+------------------------------------------------+---------------------+
-| 5. To disable the Developer options at any     | |devop5|            |
-| time, tap the switch.                          |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+   :class: longtable
+
+   * - Step
+     - Image
+
+   * - 1. Go to "Settings", then tap "About device"or "About phone".
+     - |devop1|
+
+   * - 2. Scroll down, then tap Build number seventimes.Depending on your device and operatingsystem, you may need to tap Softwareinformation, then tap Build number seventimes.
+     - |devop2a|       |devop2b|
+
+   * - 3. Enter your pattern, PIN or password toenable the Developer options menu.
+     -
+
+   * - 4. The "Developer options" menu will nowappear in your Settings menu. Depending onyour device, it may appear under Settings >General > Developer options.
+     - |devop4|
+
+   * - 5. To disable the Developer options at anytime, tap the switch.
+     - |devop5|
+
 
 Placing Phones into Airplane Mode with Wi-Fi On
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -255,31 +229,20 @@ the robot during a match.
 .. |airplane1| image:: images/AirplaneStep1.jpg
 .. |airplane2| image:: images/AirplaneStep2.jpg
 
-+------------------------------------------------+---------------------+
-| Step                                           | Image               |
-+================================================+=====================+
-| 1. On the main Android screen of each          | |airplane1|         |
-| smartphone, use your finger to slide from the  |                     |
-| top of the screen down towards the bottom of   |                     |
-| the screen to display the quick configuration  |                     |
-| screen.Note that for some smartphones you      |                     |
-| might have to swipe down more than once to     |                     |
-| display the quick configuration screen,        |                     |
-| particularly if there are messages or          |                     |
-| notifications displayed at the top of your     |                     |
-| screen.Look for the Airplane mode icon (which  |                     |
-| is shaped like an airplane) and if the icon is |                     |
-| not activated, touch the icon to put the phone |                     |
-| into airplane mode.                            |                     |
-+------------------------------------------------+---------------------+
-| 2. Placing the phone into airplane mode will   | |airplane2|         |
-| turn off the Wi-Fi radio. If the Wi-Fi icon    |                     |
-| has a diagonal line through it (see Step 1     |                     |
-| above), then the Wi-Fi radio is disabled. You  |                     |
-| will need to touch the **Wi-Fi** icon on the   |                     |
-| quick configuration screen to turn the Wi-Fi   |                     |
-| radio back on.                                 |                     |
-+------------------------------------------------+---------------------+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+
+   * - Step
+     - Image
+
+   * - 1. On the main Android screen of eachsmartphone, use your finger to slide from thetop of the screen down towards the bottom ofthe screen to display the quick configurationscreen.Note that for some smartphones youmight have to swipe down more than once todisplay the quick configuration screen,particularly if there are messages ornotifications displayed at the top of yourscreen.Look for the Airplane mode icon (whichis shaped like an airplane) and if the icon isnot activated, touch the icon to put the phoneinto airplane mode.
+     - |airplane1|
+
+   * - 2. Placing the phone into airplane mode willturn off the Wi-Fi radio. If the Wi-Fi iconhas a diagonal line through it (see Step 1above), then the Wi-Fi radio is disabled. Youwill need to touch the **Wi-Fi** icon on thequick configuration screen to turn the Wi-Firadio back on.
+     - |airplane2|
+
 
 Pairing the Driver Station to the Robot Controller
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -321,98 +284,55 @@ task.
 .. |pairing12| image:: images/PairingControlHubStep12.jpg
 .. |pairing13| image:: images/PairingControlHubStep13.jpg
 
-+------------------------------------------------+---------------------+
-| Step                                           | Image               |
-+================================================+=====================+
-| 1. Connect an approved 12V battery to the      | |pairing1|          |
-| power switch (REV-31-1387) and make sure the   |                     |
-| switch is in the off position. Connect the     |                     |
-| switch to an XT30 port on the Control Hub and  |                     |
-| turn the switch on. The LED should initially   |                     |
-| be blue on the Control Hub.                    |                     |
-+------------------------------------------------+---------------------+
-| 2. It takes approximately 18 seconds for the   | |pairing2|          |
-| Control Hub to power on. The Control Hub is    |                     |
-| ready to pair with the Driver Station when the |                     |
-| LED turns green. Note: the light blinks blue   |                     |
-| every ~5 seconds to indicate that the Control  |                     |
-| Hub is healthy.                                |                     |
-+------------------------------------------------+---------------------+
-| 3. On the Driver Station device, browse the    | |pairing3|          |
-| available apps and locate the **Driver         |                     |
-| Station** icon. Tap on the icon to launch the  |                     |
-| Driver Station app. Note that the first time   |                     |
-| you launch the app your Android device might   |                     |
-| prompt you for permissions that the app will   |                     |
-| need to run properly. Whenever prompted, press |                     |
-| **Allow** to grant the requested permission.   |                     |
-+------------------------------------------------+---------------------+
-| 4. Touch the three vertical dots on the upper  | |pairing4|          |
-| right hand corner of the main screen of the    |                     |
-| Driver Station app. This will launch a         |                     |
-| pop-up menu.                                   |                     |
-+------------------------------------------------+---------------------+
-| 5. Select **Settings** from the pop-up menu.   | |pairing5|          |
-|                                                |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 6. From the **Settings** screen, look for and  | |pairing6|          |
-| select \ **Pairing Method** to launch the      |                     |
-| **Pairing** \ **Method** screen.               |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 7. Touch the words **Control Hub** to indicate | |pairing7|          |
-| that this Driver Station will be pairing with  |                     |
-| a Control Hub.                                 |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 8. From the **Settings** screen, look for and  | |pairing8|          |
-| select \ **Pair with Robot Controller** to     |                     |
-| launch the **Pair** \ **with Robot             |                     |
-| Controller** screen.                           |                     |
-+------------------------------------------------+---------------------+
-| 9. From **Pair with Robot Controller** screen, | |pairing9|          |
-| look for and press the **Wifi Settings**       |                     |
-| button to launch the device's Android Wifi     |                     |
-| Settings screen.                               |                     |
-+------------------------------------------------+---------------------+
-| 10. Find the name of your Control Hub's        | |pairing10|         |
-| wireless network from the list of available    |                     |
-| WiFi networks. Click on the network name to    |                     |
-| select the network. If this is the first time  |                     |
-| you are connecting to the Control Hub, then    |                     |
-| the default network name should begin with the |                     |
-| prefix FTC- (FTC-1Ybr in this example).        |                     |
-| The default network name should be listed on a |                     |
-| sticker attached to the bottom side of the     |                     |
-| Control Hub.                                   |                     |
-+------------------------------------------------+---------------------+
-| 11. When prompted, specify the password for    | |pairing11|         |
-| the Control Hub's WiFi network and press       |                     |
-| \ **Connect** to connect to the Hub. Note that |                     |
-| the default password for the Control Hub       |                     |
-| network is password. Also note that when you   |                     |
-| connect to the Control Hub's WiFi network      |                     |
-| successfully, the Driver Station will not have |                     |
-| access to the Internet.                        |                     |
-+------------------------------------------------+---------------------+
-| 12. After you successfully connected to the    | |pairing12|         |
-| Hub, use the back arrow to navigate to the     |                     |
-| previous screen. You should see the name of    |                     |
-| the WiFi network listed under "Current Robot   |                     |
-| Controller:". Use the back-arrow key to return |                     |
-| to the Settings screen. Then press the         |                     |
-| back-arrow key one more time to return to the  |                     |
-| main Driver Station screen.                    |                     |
-+------------------------------------------------+---------------------+
-| 13. Verify that the Driver Station screen has  | |pairing13|         |
-| changed and that it now indicates that it is   |                     |
-| connected to the Control Hub.The name of the   |                     |
-| Control Hub's WiFi network (FTC-1Ybr in this   |                     |
-| example) should be displayed in the Network    |                     |
-| field on the Driver Station.                   |                     |
-+------------------------------------------------+---------------------+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+   :class: longtable
+
+
+
+   * - Step
+     - Image
+
+   * - 1. Connect an approved 12V battery to thepower switch (REV-31-1387) and make sure theswitch is in the off position. Connect theswitch to an XT30 port on the Control Hub andturn the switch on. The LED should initiallybe blue on the Control Hub.
+     - |pairing1|
+
+   * - 2. It takes approximately 18 seconds for theControl Hub to power on. The Control Hub isready to pair with the Driver Station when theLED turns green. Note: the light blinks blueevery ~5 seconds to indicate that the ControlHub is healthy.
+     - |pairing2|
+
+   * - 3. On the Driver Station device, browse theavailable apps and locate the **DriverStation** icon. Tap on the icon to launch theDriver Station app. Note that the first timeyou launch the app your Android device mightprompt you for permissions that the app willneed to run properly. Whenever prompted, press**Allow** to grant the requested permission.
+     - |pairing3|
+
+   * - 4. Touch the three vertical dots on the upperright hand corner of the main screen of theDriver Station app. This will launch apop-up menu.
+     - |pairing4|
+
+   * - 5. Select **Settings** from the pop-up menu.
+     - |pairing5|
+
+   * - 6. From the **Settings** screen, look for andselect \ **Pairing Method** to launch the**Pairing** \ **Method** screen.
+     - |pairing6|
+
+   * - 7. Touch the words **Control Hub** to indicatethat this Driver Station will be pairing witha Control Hub.
+     - |pairing7|
+
+   * - 8. From the **Settings** screen, look for andselect \ **Pair with Robot Controller** tolaunch the **Pair** \ **with RobotController** screen.
+     - |pairing8|
+
+   * - 9. From **Pair with Robot Controller** screen,look for and press the **Wifi Settings** button to launch the device's Android WifiSettings screen.
+     - |pairing9|
+
+   * - 10. Find the name of your Control Hub'swireless network from the list of availableWiFi networks. Click on the network name toselect the network. If this is the first timeyou are connecting to the Control Hub, thenthe default network name should begin with theprefix FTC- (FTC-1Ybr in this example).The default network name should be listed on asticker attached to the bottom side of theControl Hub.
+     - |pairing10|
+
+   * - 11. When prompted, specify the password forthe Control Hub's WiFi network and press\ **Connect** to connect to the Hub. Note thatthe default password for the Control Hubnetwork is password. Also note that when youconnect to the Control Hub's WiFi networksuccessfully, the Driver Station will not haveaccess to the Internet.
+     - |pairing11|
+
+   * - 12. After you successfully connected to theHub, use the back arrow to navigate to theprevious screen. You should see the name ofthe WiFi network listed under "Current RobotController:". Use the back-arrow key to returnto the Settings screen. Then press theback-arrow key one more time to return to themain Driver Station screen.
+     - |pairing12|
+
+   * - 13. Verify that the Driver Station screen haschanged and that it now indicates that it isconnected to the Control Hub.The name of theControl Hub's WiFi network (FTC-1Ybr in thisexample) should be displayed in the Networkfield on the Driver Station.
+     - |pairing13|
+
 
 .. _users-with-two-android-smartphones-1:
 
@@ -455,85 +375,47 @@ Note that it will take an estimated 10 minutes to complete this task.
 .. |pairingns11| image:: images/PairingNewStep11.jpg
 .. |pairingns12| image:: images/PairingNewStep12.jpg
 
-+------------------------------------------------+---------------------+
-| Step                                           | Image               |
-+================================================+=====================+
-| 1. On the Robot Controller device, browse the  | |pairingns1|        |
-| available apps and locate the **Robot          | |pairingns1b|       |
-| Controller** icon. Tap on the icon to launch   |                     |
-| the Robot Controller app. Note that the first  |                     |
-| time you launch the app your Android device    |                     |
-| might prompt you for permissions that the app  |                     |
-| will need to run properly. Whenever prompted,  |                     |
-| press **Allow** to grant the requested         |                     |
-| permission.                                    |                     |
-+------------------------------------------------+---------------------+
-| 2. Verify that the Robot Controller app is     | |pairingns2|        |
-| running. The **Robot Status** field should     |                     |
-| read running if it is working properly.        |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 3. On the Driver Station device, browse the    | |pairingns3|        |
-| available apps and locate the **Driver         | |pairingns3b|       |
-| Station** icon. Tap on the icon to launch the  |                     |
-| Driver Station app. Note that the first time   |                     |
-| you launch the app your Android device might   |                     |
-| prompt you for permissions that the app will   |                     |
-| need to run properly. Whenever prompted, press |                     |
-| **Allow** to grant the requested permission.   |                     |
-+------------------------------------------------+---------------------+
-| 4. Touch the three vertical dots on the upper  | |pairingns4|        |
-| right hand corner of the main screen of the    |                     |
-| Driver Station app. This will launch a         |                     |
-| pop-up menu.                                   |                     |
-+------------------------------------------------+---------------------+
-| 5. Select **Settings** from the pop-up menu.   | |pairingns5|        |
-|                                                |                     |
-|                                                |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 6. From the **Settings** screen, look for and  | |pairingns6|        |
-| select \ **Pairing Method** to launch the      |                     |
-| **Pairing** \ **Method** screen.               |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 7. Verify that the **Wifi Direct** mode is     | |pairingns7|        |
-| selected, which means that this Driver Station |                     |
-| will be pairing with another Android device.   |                     |
-|                                                |                     |
-+------------------------------------------------+---------------------+
-| 8. From the **Settings** screen, look for and  | |pairingns8|        |
-| select \ **Pair with Robot Controller** to     |                     |
-| launch the **Pair**\ \ **with Robot            |                     |
-| Controller** screen.                           |                     |
-+------------------------------------------------+---------------------+
-| 9. Find the name of your Robot Controller from | |pairingns9|        |
-| the list and select it.After you have made     |                     |
-| your selection, use the back-arrow key to      |                     |
-| return to the Settings screen.Then press the   |                     |
-| back-arrow key one more time to return to the  |                     |
-| main Driver Station screen.                    |                     |
-+------------------------------------------------+---------------------+
-| 10. When the Driver Station returns to its     | |pairingns10|       |
-| main screen, the first time you attempt to     |                     |
-| connect to the Robot Controller a prompt       |                     |
-| should appear on the Robot Controller          |                     |
-| screen.Click on the **ACCEPT** button to       |                     |
-| accept the connection request from the Driver  |                     |
-| Station.                                       |                     |
-+------------------------------------------------+---------------------+
-| 11. Verify that the Driver Station screen has  | |pairingns11|       |
-| changed and that it now indicates that it is   |                     |
-| connected to the Robot Controller.The name of  |                     |
-| the Robot Controller's remote network          |                     |
-| (9999-C-RC in this example) should be          |                     |
-| displayed in the Network field on the Driver   |                     |
-| Station.                                       |                     |
-+------------------------------------------------+---------------------+
-| 12. Verify that the Robot Controller screen    | |pairingns12|       |
-| has changed and that it now indicates that it  |                     |
-| is connected to the Driver Station.The Network |                     |
-| status should read active, connected on the    |                     |
-| Robot Controller's main screen.                |                     |
-+------------------------------------------------+---------------------+
+.. list-table::
+   :widths: 50 50
+   :class: longtable
+   :header-rows: 1
 
+
+   * - Step
+     - Image
+
+   * - 1. On the Robot Controller device, browse theavailable apps and locate the **RobotController** icon. Tap on the icon to launchthe Robot Controller app. Note that the firsttime you launch the app your Android devicemight prompt you for permissions that the appwill need to run properly. Whenever prompted,press **Allow** to grant the requestedpermission.
+     - |pairingns1| |pairingns1b|
+
+   * - 2. Verify that the Robot Controller app isrunning. The **Robot Status** field shouldread running if it is working properly.
+     - |pairingns2|
+
+   * - 3. On the Driver Station device, browse theavailable apps and locate the **DriverStation** icon. Tap on the icon to launch theDriver Station app. Note that the first timeyou launch the app your Android device mightprompt you for permissions that the app willneed to run properly. Whenever prompted, press**Allow** to grant the requested permission.
+     - |pairingns3| |pairingns3b|
+
+   * - 4. Touch the three vertical dots on the upperright hand corner of the main screen of theDriver Station app. This will launch apop-up menu.
+     - |pairingns4|
+
+   * - 5. Select **Settings** from the pop-up menu.
+     - |pairingns5|
+
+   * - 6. From the **Settings** screen, look for andselect \ **Pairing Method** to launch the**Pairing** \ **Method** screen.
+     - |pairingns6|
+
+   * - 7. Verify that the **Wifi Direct** mode isselected, which means that this Driver Stationwill be pairing with another Android device.
+     - |pairingns7|
+
+   * - 8. From the **Settings** screen, look for andselect \ **Pair with Robot Controller** tolaunch the **Pair**\ \ **with RobotController** screen.
+     - |pairingns8|
+
+   * - 9. Find the name of your Robot Controller fromthe list and select it.After you have madeyour selection, use the back-arrow key toreturn to the Settings screen.Then press theback-arrow key one more time to return to themain Driver Station screen.
+     - |pairingns9|
+
+   * - 10. When the Driver Station returns to itsmain screen, the first time you attempt toconnect to the Robot Controller a promptshould appear on the Robot Controllerscreen.Click on the **ACCEPT** button toaccept the connection request from the DriverStation.
+     - |pairingns10|
+
+   * - 11. Verify that the Driver Station screen haschanged and that it now indicates that it isconnected to the Robot Controller.The name ofthe Robot Controller's remote network(9999-C-RC in this example) should bedisplayed in the Network field on the DriverStation.
+     - |pairingns11|
+
+   * - 12. Verify that the Robot Controller screenhas changed and that it now indicates that itis connected to the Driver Station.The Networkstatus should read active, connected on theRobot Controller's main screen.
+     - |pairingns12|

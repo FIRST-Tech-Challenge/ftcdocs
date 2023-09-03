@@ -280,6 +280,7 @@ Further discussion is provided here:
 
 Note: This article does not discuss the *FIRST* Tech Challenge 
 :ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
+
 Your OpModes might relate robot orientation to the overall field or 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`
 for navigation, but that’s beyond this AprilTag introduction.
