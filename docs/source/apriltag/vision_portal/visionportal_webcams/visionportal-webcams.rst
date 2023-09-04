@@ -109,7 +109,7 @@ indicated by “no drivers needed”.
 In general, other webcams (not listed above) will require user-provided
 :ref:`Camera Calibration Values <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
 for AprilTag 
-:ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose.html:apriltag pose>`.
+:ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:apriltag pose>`.
 
 A digital camera opens its shutter to allow light (“the image”) to reach
 the detector’s array of small sensors (pixels). (Webcam shutters are
