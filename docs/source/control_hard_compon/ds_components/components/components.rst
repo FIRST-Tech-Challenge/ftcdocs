@@ -176,18 +176,18 @@ Gamepads
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      Xbox 360
+      Sony DualSense
 
       ^^^
 
-      .. figure:: images/xbox360.png
+      .. figure:: images/dualsense.png
          :align: center
-         :alt: Xbox 360
-         :width: 50 %
+         :alt: Sony DualSense PS5
+         :width: 70 %
 
       +++
 
-      Xbox 360 Gamepad
+      Sony DualSense Gamepad
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white
@@ -222,6 +222,23 @@ Gamepads
       +++
 
       Etpark PS4 Wired Gamepad
+
+   .. grid-item-card::
+      :class-header: sd-bg-dark font-weight-bold sd-text-white
+      :class-body: sd-text-left body
+
+      Xbox 360
+
+      ^^^
+
+      .. figure:: images/xbox360.png
+         :align: center
+         :alt: Xbox 360
+         :width: 50 %
+
+      +++
+
+      Xbox 360 Gamepad
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white
