@@ -78,6 +78,7 @@ to see why.
 
    AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
 
