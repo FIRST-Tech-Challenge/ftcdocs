@@ -33,6 +33,11 @@ etc.
    <https://www.3dflow.net/3df-zephyr-free/>`__, which is
    extremely easy to use and can provide reasonable results.
 
+.. warning::
+   3DF Zephyr is a Microsoft Windows 64-bit application. It is not supported on 
+   32-bit versions of Windows, nor is it supported on Mac or on Linux platforms.
+
+
 Calibrating with 3DF Zephyr
 ---------------------------
 

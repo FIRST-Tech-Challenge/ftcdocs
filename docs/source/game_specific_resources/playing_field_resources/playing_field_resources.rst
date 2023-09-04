@@ -1,6 +1,10 @@
 Playing Field Resources
 =======================
 
+.. warning::
+   This page will not be updated until September 13, 2023. For the most current documents,
+   see https://www.firstinspires.org/resource-library/ftc/game-and-season-info
+
 .. figure:: images/PowerPlayField.png
     
     Traditional Playing Field ~ POWERPLAY presented by Raytheon Technologies, 2022-2023

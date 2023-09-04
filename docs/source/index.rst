@@ -137,29 +137,29 @@ to see why.
 .. grid:: 1 2 2 4
    :gutter: 2 
 
-   .. grid-item-card:: Rookie Resources
+   .. grid-item-card:: New Team Resources
       :link: persona_pages/rookie_teams/rookie_teams
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left body
 
-      Rookie Team 
+      New Team 
    
       ^^^
 
-      Rookie Teams may not know where to start. This is the way!
+      New Teams may not know where to start. This is the way!
 
-   .. grid-item-card:: Veteran Resources
+   .. grid-item-card:: Returning Team Resources
       :link: persona_pages/veteran_teams/veteran_teams
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left
 
-      Veteran Team 
+      Returning Team 
    
       ^^^
 
-      Veteran Teams looking for veteran resources can look here.
+      Returning Teams looking for resources can look here.
    
    .. grid-item-card:: Coach Resources
       :link: persona_pages/coach_admin/coach_admin

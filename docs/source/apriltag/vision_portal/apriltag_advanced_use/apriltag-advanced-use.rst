@@ -149,7 +149,7 @@ All of the above features are easily found in the relevant **FTC Blocks**
 toolbox, or palette, under the Vision category.
 
 **Java** users should review the VisionPortal interface at the `SDK Javadocs
-<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/overview-summary.html>`__
+<https://javadoc.io/doc/org.firstinspires.ftc/Vision/latest/overview-summary.html>`__
 site.  Click **FRAMES** for easy navigation.
 
 ====

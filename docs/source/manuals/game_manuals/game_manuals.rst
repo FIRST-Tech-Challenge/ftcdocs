@@ -1,6 +1,10 @@
 Game Manuals
 ============
 
+.. warning::
+   This page will not be updated until September 13, 2023. For the most current documents,
+   see https://www.firstinspires.org/resource-library/ftc/game-and-season-info
+
 Game Manuals can be found on the `Game and Season Materials page <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__ on the *FIRST* Website. They are presented here for your convenience.
 
 .. only:: html

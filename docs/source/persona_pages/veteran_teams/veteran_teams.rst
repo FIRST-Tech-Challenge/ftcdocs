@@ -1,7 +1,7 @@
-Veteran Teams
-=============
+Returning Teams
+===============
 
-Welcome back to FIRST Tech Challenge veteran teams! Resources have been
+Welcome back to FIRST Tech Challenge returning teams! Resources have been
 organized by type to help your team stay organized and be successful throughout
 the season. These resources are tailored to teams with experience in robotics
 looking to elevate their skills.  The technical resources are a stepping stone
@@ -10,7 +10,7 @@ resource you want to explore!
 
 .. rst-class:: center
    
-**I AM A VETERAN**
+**I AM A RETURNING TEAM**
 
 .. grid:: 1 2 2 3
    :gutter: 2

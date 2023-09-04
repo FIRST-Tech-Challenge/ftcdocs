@@ -1,5 +1,5 @@
-Rookie Teams
-============
+New Teams
+=========
 
 Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help
 your team stay organized and be successful throughout the season. Get started
@@ -10,7 +10,7 @@ resource you want to explore!
 
 .. rst-class:: center
    
-**I AM A ROOKIE**
+**I AM A NEW TEAM**
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -75,12 +75,12 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/powerplay-2022-2023/starter-bot-powerplay
+            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/
                :color: black
                :outline:
                :expand:
 
-               REV Starter Bot
+               REV Kickoff Concepts
 
          .. div:: col-sm pl-1 pr-1
 
@@ -157,6 +157,18 @@ resource you want to explore!
       ^^^
 
       Links to team management resources.
+
+   .. grid-item-card::
+      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/prematch-checklist.pdf
+      :link-type: url
+      :class-header: sd-bg-primary font-weight-bold sd-text-white
+      :class-body: sd-text-left
+ 
+      Pre-Match Checklist
+
+      ^^^
+
+      Pre-Match Checklist to ensure you're ready for each match!
       
    .. grid-item-card:: 
       :link: ../../cad_resources/index
