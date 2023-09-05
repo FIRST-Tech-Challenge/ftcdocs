@@ -235,31 +235,39 @@ the *FIRST* Tech Challenge SDK, including resolutions with built-in
 calibrations and those without calibrations.
 
 .. list-table:: Cameras and Supported Resolutions
-   :widths: 33 33 33
+   :widths: 25 25 25 25
    :header-rows: 1
 
    * - Camera
+     - Features
      - Resolutions with Built-In Calibrations
      - Resolutions without Calibrations
    * - `Logitech C270`_
+     - 60 DegFOV, 30fps@720p
      - 640x480
      - 160x120, 176x144, 320x176, 320x240, 352x288, 432x240, 544x288, 640x360, 752x416, 800x448, 800x600, 864x480, 960x544, 960x720, 1024x576, 1184x656, 1280x720
-   * - `Logitech C920`_
-     - 640x480, 640x360, 800x448, 800x600, 864x480, 1920x1080
-     - 160x90, 160x120, 176x144, 320x180, 320x240, 352x288, 432x240, 960x720, 1024x576, 1280x720, 1600x896, 2304x1296, 2304x1536
    * - `Logitech C310`_
+     - 60 DegFOV, 30fps@720p
      - 640x480, 640x360
      - All other resolutions
+   * - `Logitech C920`_
+     - 78 DegFOV, 60fps@1080p
+     - 640x480, 640x360, 800x448, 800x600, 864x480, 1920x1080
+     - 160x90, 160x120, 176x144, 320x180, 320x240, 352x288, 432x240, 960x720, 1024x576, 1280x720, 1600x896, 2304x1296, 2304x1536
    * - `Microsoft LifeCam HD-3000 v1/v2`_
+     - 68.5 DegFOV, 30fps@720p
      - 640x480
      - All other resolutions
    * - `Arducam Global Shutter 120 FPS`_
+     - 70 DegFOV, 120fps@1280x800 MJPG, Monochrome
      - No Built-In Calibrations
      - MJPEG: 320x240, 640x480, 800x600, 1280x720, 1280x800; YUY2: 1280x720, 1280x800
    * - Kayeton Global Shutter (`Other Global Shutter Cameras`_)
+     - 70 DegFOV, 120fps@720p MJPG, Monochrome
      - No Built-In Calibrations
      - All resolutions
    * - ELP Global Shutter (`Other Global Shutter Cameras`_)
+     - 70 DegFOV, 90fps@1920x1200 MJPG, Monochrome
      - No Built-In Calibrations
      - All resolutions
 
