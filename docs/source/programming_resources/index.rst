@@ -80,6 +80,21 @@ Topics for programming with AprilTags
    Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
 
+TensorFlow Programming
+~~~~~~~~~~~~~~~~~~~~~~
+
+Topics for programming with TensorFlow Object Detection (TFOD)
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   vision/tensorflow_cs_2023/tensorflow-cs-2023
+   vision/tensorflow_pp_2022/tensorflow_pp_2022
+   vision/tensorflow_ff_2021/tensorflow-ff-2021
+   vision/blocks_tfod_opmode/blocks-tfod-opmode
+   vision/java_tfod_opmode/java-tfod-opmode
+
 Vision Programming
 ~~~~~~~~~~~~~~~~~~~
 
@@ -90,10 +105,6 @@ Learning more about using vision
    :titlesonly:
 
    vision/vision_overview/vision-overview
-   vision/tensorflow_pp_2022/tensorflow_pp_2022
-   vision/blocks_tfod_opmode/blocks-tfod-opmode
-   vision/java_tfod_opmode/java-tfod-opmode
-   vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
    

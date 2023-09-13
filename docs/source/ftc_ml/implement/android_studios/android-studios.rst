@@ -1,6 +1,13 @@
 Android Studio
 ================
 
+.. warning::
+   This Tutorial is outdated due to the TensorFlow updates for the
+   VisionPortal. We are working on updating this tutorial, please
+   bear with us as we update it. For more information on TensorFlow
+   for Java, see the VisionPortal
+   :ref:`TensorFlow Processor Initialization <apriltag/vision_portal/vision_processor_init/vision-processor-init:tensorflow initialization - easy>`.
+
 It is assumed that you already know how to use Android Studio. If not,
 be sure to check out the :ref:`Android Studio Guide <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>`
 document before proceeding.

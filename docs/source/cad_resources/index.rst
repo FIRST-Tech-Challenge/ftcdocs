@@ -32,7 +32,7 @@ Software for Intermediate Users
 *  :doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)
 *  :doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to *FIRST* teams) (cloud)
 *  :doc:`PTC OnShape <ptc/ptc>` (Free to *FIRST* teams) (Cloud)
-*  `Trimble SketchUp <https://www.sketchup.com/>`__ (Free plans available) (desktop)
+*  `Trimble SketchUp <https://sketchup.com/>`__ (Free plans available) (desktop)
  
 Software for Professional Users
 

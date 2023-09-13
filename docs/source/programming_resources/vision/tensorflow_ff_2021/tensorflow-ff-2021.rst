@@ -81,7 +81,7 @@ located.
 Click on the following links to learn more about these sample Op Modes.
 
 -  :ref:`Blocks TensorFlow Object Detection
-   Example <programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode:blocks sample op mode for tensorflow object detection>`
+   Example <programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode:blocks sample opmode for tfod>`
 -  :ref:`Java TensorFlow Object Detection
    Example <programming_resources/vision/java_tfod_opmode/java-tfod-opmode:java sample op mode for tfod>`
 
