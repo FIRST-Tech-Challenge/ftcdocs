@@ -1,6 +1,13 @@
 Java Sample Op Mode for TFOD
 =============================
 
+.. warning::
+   This Tutorial is outdated due to the TensorFlow updates for the 
+   VisionPortal. We are working on updating this tutorial, please
+   bear with us as we update it. For more information on TensorFlow
+   for Java, see the VisionPortal 
+   :ref:`TensorFlow Processor Initialization <apriltag/vision_portal/vision_processor_init/vision-processor-init:tensorflow initialization - easy>`.
+
 Creating the Op Mode
 ~~~~~~~~~~~~~~~~~~~~
 

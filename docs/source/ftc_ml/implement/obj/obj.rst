@@ -1,6 +1,13 @@
 OnBot Java (OBJ)
 =================
 
+.. warning::
+   This Tutorial is outdated due to the TensorFlow updates for the
+   VisionPortal. We are working on updating this tutorial, please
+   bear with us as we update it. For more information on TensorFlow
+   for Java, see the VisionPortal
+   :ref:`TensorFlow Processor Initialization <apriltag/vision_portal/vision_processor_init/vision-processor-init:tensorflow initialization - easy>`.
+
 It is assumed that you already know how to use OnBot Java. If not, be
 sure to check out the :ref:`OnBot Java
 Guide <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>`

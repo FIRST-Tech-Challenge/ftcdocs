@@ -1,6 +1,13 @@
 Blocks
 =======
 
+.. warning::
+   This Tutorial is outdated due to the TensorFlow updates for the
+   VisionPortal. We are working on updating this tutorial, please
+   bear with us as we update it. For more information on using
+   custom TensorFlow models with Blocks, see the tutorial
+   `Custom TFOD Model with Blocks <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Custom-TFOD-Model-with-Blocks>`__
+
 It is assumed that you already know how to use Blocks. If not, be sure
 to check out the :ref:`Blocks Programming
 Guide <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`
