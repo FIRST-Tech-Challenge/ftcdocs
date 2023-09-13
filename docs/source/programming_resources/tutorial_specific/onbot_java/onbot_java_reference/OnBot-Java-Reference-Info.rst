@@ -36,7 +36,7 @@ the FIRST Tech Challenge community.
 
 The technology forum can be found at the following address:
 
-https://ftcforum.firstinspires.org/forum/ftc-technology?156-FTC-Technology
+- http://ftc-community.firstinspires.org
 
 REV Robotics Expansion Hub Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
