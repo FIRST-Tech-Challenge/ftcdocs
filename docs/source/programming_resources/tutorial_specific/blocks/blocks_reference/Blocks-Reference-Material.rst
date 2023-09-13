@@ -32,12 +32,12 @@ Technology Forum
 ~~~~~~~~~~~~~~~~
 
 Registered teams can create user accounts on the FIRST Tech Challenge
-forum. Teams can use the forum to ask questions and receive support from
-the FIRST Tech Challenge community.
+Community forum. Teams can use the forum to ask questions and receive 
+support from the FIRST Tech Challenge community.
 
 The technology forum can be found at the following address:
 
-https://ftcforum.firstinspires.org/forum/ftc-technology?156-FTC-Technology
+- https://ftc-community.firstinspires.org
 
 REV Robotics Expansion Hub Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

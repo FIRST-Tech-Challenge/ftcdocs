@@ -272,6 +272,7 @@ linkcheck_ignore = [
    "https://ftc-ml.firstinspires.org",
    r'https://github.com/.*#',
    r'https://www.solidworks.com/',
+   r'https://sketchup.com/',
    r'https://april.eecs.umich.edu/'
 ]
 
