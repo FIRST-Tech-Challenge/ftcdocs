@@ -41,6 +41,7 @@ to see why.
    :maxdepth: 1
    :hidden:
 
+   FIRST Tech Challenge Blog <http://firsttechchallenge.blogspot.com/>
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
