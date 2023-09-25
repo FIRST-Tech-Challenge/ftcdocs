@@ -89,13 +89,13 @@ Just click on the panel for the resource you want to explore!
       
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+            .. button-ref:: ../../programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in POWERPLAY
+               TensorFlow in CENTERSTAGE
          
    .. grid-item-card::
       :link: ../../cad_resources/index

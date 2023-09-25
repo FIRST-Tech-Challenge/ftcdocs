@@ -1,10 +1,6 @@
 Game Manuals
 ============
 
-.. warning::
-   This page will not be updated until September 13, 2023. For the most current documents,
-   see https://www.firstinspires.org/resource-library/ftc/game-and-season-info
-
 Game Manuals can be found on the `Game and Season Materials page <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__ on the *FIRST* Website. They are presented here for your convenience.
 
 .. only:: html
@@ -14,52 +10,52 @@ Game Manuals can be found on the `Game and Season Materials page <https://www.fi
 Game Manual Part 1 Traditional Events
 -------------------------------------
 
-.. only:: latex
+`Game Manual Part 1 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-traditional.pdf>`__
 
-    `Game Manual Part 1 Traditional Events <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf>`__
+.. only:: html
 
-.. raw:: html
+   .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf" width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-traditional.pdf" width="100%" height="700"></iframe>
 
 |
 
 Game Manual Part 2 Traditional Events
 -------------------------------------
 
-.. only:: latex
+`Game Manual Part 2 Traditional Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-traditional.pdf>`__
 
-    `Game Manual Part 2 Traditional Events <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-traditional.pdf>`__
+.. only:: html
 
-.. raw:: html
+   .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-traditional.pdf"  width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-traditional.pdf"  width="100%" height="700"></iframe>
 
 |
 
 Game Manual Part 1 Remote Events
 --------------------------------
 
-.. only:: latex
+`Game Manual Part 1 Remote Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-remote.pdf>`__
 
-    `Game Manual Part 1 Remote Events <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-remote-events.pdf>`__
+.. only:: html
 
-.. raw:: html
+   .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-remote-events.pdf"  width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-remote.pdf"  width="100%" height="700"></iframe>
 
 |
 
 Game Manual Part 2 Remote Events
 --------------------------------
 
-.. only:: latex
+`Game Manual Part 2 Remote Events <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-remote.pdf>`__
 
-    `Game Manual Part 2 Remote Events <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote.pdf>`__
+.. only:: html
 
-.. raw:: html
+   .. raw:: html
 
-    <iframe id="iframepdf" src="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote.pdf"  width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-remote.pdf"  width="100%" height="700"></iframe>
 
 |
 

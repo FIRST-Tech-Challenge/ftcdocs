@@ -1,13 +1,9 @@
 Playing Field Resources
 =======================
 
-.. warning::
-   This page will not be updated until September 13, 2023. For the most current documents,
-   see https://www.firstinspires.org/resource-library/ftc/game-and-season-info
-
-.. figure:: images/PowerPlayField.png
+.. figure:: images/CenterStageField.png
     
-    Traditional Playing Field ~ POWERPLAY presented by Raytheon Technologies, 2022-2023
+    Traditional Playing Field ~ CENTERSTAGE presented by RTX, 2023-2024
 
 About the Playing Field
 ------------------------------------
@@ -19,26 +15,30 @@ in the official field drawings. The base field stays the same for all games but 
 Traditional Field Setup Guide
 ------------------------------------
 
-.. only:: latex
+This document can be found here: `Traditional Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/field-assembly-and-setup-guide.pdf>`__
 
-    `Traditional Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/field-setup-and-assembly-guide.pdf>`__
+.. only:: html
 
-.. raw:: html
+   .. raw:: html
 
-    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/field-setup-and-assembly-guide.pdf" width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/field-assembly-and-setup-guide.pdf" width="100%" height="700"></iframe>
 
 |
 
 Remote Field Setup Guide
 ------------------------------------
 
-.. only:: latex
+- No Remote Field Setup Guide released yet.
 
-    `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf>`__
+.. comment
+   
+   .. only:: latex
 
-.. raw:: html
+       `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf>`__
 
-    <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf" width="100%" height="700"></iframe>
+   .. raw:: html
 
-|
+       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf" width="100%" height="700"></iframe>
+
+   |
 
