@@ -51,7 +51,7 @@ AprilTag Advantages
 
 .. figure:: images/AprilTagTelemetry.jpg
    :align: center
-   :width: 75%
+   :width: 25%
 
    AprilTag can provide accurate pose information to target
 
@@ -67,7 +67,7 @@ AprilTag Disadvantages
 -  Cameras require calibration data for every resolution used 
    in order to process correct pose information.
 
-.. figure:: images/AprilTagDual.jpg
+.. figure:: images/AprilTagDual.png
    :align: center
    :width: 75%
 
