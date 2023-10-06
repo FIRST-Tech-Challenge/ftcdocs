@@ -1,5 +1,5 @@
-Using TensorFlow in Freight Frenzy
-===================================
+TensorFlow for FREIGHT FRENZY presented by Raytheon Technologies
+================================================================
 
 What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
@@ -83,7 +83,7 @@ Click on the following links to learn more about these sample Op Modes.
 -  :ref:`Blocks TensorFlow Object Detection
    Example <programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode:blocks sample opmode for tfod>`
 -  :ref:`Java TensorFlow Object Detection
-   Example <programming_resources/vision/java_tfod_opmode/java-tfod-opmode:java sample op mode for tfod>`
+   Example <programming_resources/vision/java_tfod_opmode/java-tfod-opmode:Java Easy Sample OpMode for TFOD>`
 
 Using a Custom Inference Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

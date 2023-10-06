@@ -1,468 +1,410 @@
-Java Sample Op Mode for TFOD
-=============================
+Java Easy Sample OpMode for TFOD
+================================
 
-.. warning::
-   This Tutorial is outdated due to the TensorFlow updates for the 
-   VisionPortal. We are working on updating this tutorial, please
-   bear with us as we update it. For more information on TensorFlow
-   for Java, see the VisionPortal 
-   :ref:`TensorFlow Processor Initialization <apriltag/vision_portal/vision_processor_init/vision-processor-init:tensorflow initialization - easy>`.
+Introduction
+------------
 
-Creating the Op Mode
-~~~~~~~~~~~~~~~~~~~~
+This tutorial describes the “Easy” version of the FTC Java Sample OpMode
+for TensorFlow Object Detection (TFOD).
 
-You can use the sample “ConceptTensorFlowObjectDetection” as a template
-to create your own Java op mode that uses the TensorFlow technology to
-“look for” any game elements, and determine the relative location of any
-identified elements.
+This Sample, called “ConceptTensorFlowObjectDetectionEasy.java”, can
+recognize official FTC game elements and provide their visible size and
+position. It uses standard/default TFOD settings.
 
--  If you are using a **webcam** connected to the Robot Controller
-   device, select “ConceptTensorFlowObjectDetectionWebcam” as the sample
-   op mode from the dropdown list in the New File dialog box.
--  If you are using an Android smartphone’s **built-in camera**, select
-   “ConceptTensorFlowObjectDetection” as the sample op mode from the
-   dropdown list in the New File dialog box.
+For the 2023-2024 game CENTERSTAGE, the game element is a hexagonal
+white **Pixel**. The FTC SDK software contains a TFOD model of this
+object, ready for recognition. That model was created with a Machine
+Learning process described here:
 
-Press “OK” to create the new op mode.
+- :ref:`FIRST Machine Learning Toolchain <ftc_ml/index:*first* machine learning toolchain>`.
 
-.. figure:: images/onbotConceptTensorFlow.png
+.. figure:: images/010-TFOD-recognition.png
    :align: center
+   :width: 85%
+   :alt: TFOD Recognition
 
-   Create an Op Mode with ConceptTensorFlowObjectDetection as its template.
+   Sample TFOD Recognition
 
-Your new op mode should appear in the editing pane of the OnBot Java
-screen.
+For extra points, teams may instead use their own custom TFOD models of
+**Team Props**. That option is not described here.
 
-.. figure:: images/205_Java_TFOD_Sample_editor.png
+This tutorial shows **OnBot Java** screens. Users of **Android Studio**
+can follow along, since the Sample OpMode is exactly the same.
+
+A different Sample OpMode shows how to set **TFOD options**, unlike the
+“Easy” version which uses only standard/default TFOD settings. That
+version, called “ConceptTensorFlowObjectDetection.java” has good
+commenting to guide users in the Java **Builder pattern** for custom
+settings.
+
+The “Easy” OpMode covered here does not require the user to work with
+the Builder pattern, although the SDK does use it internally.
+
+Creating the OpMode
+-------------------
+
+At the FTC OnBot Java browser interface, click on the large black
+**plus-sign icon** “Add File”, to open the New File dialog box.
+
+.. figure:: images/020-New-File.png
    :align: center
+   :width: 85%
+   :alt: New File
 
-   Your newly created op mode should be available for editing through OnBot Java
+   New File Dialog
 
-Initializing the System
-~~~~~~~~~~~~~~~~~~~~~~~
+Specify a name for your new OpMode. Select
+“ConceptTensorFlowObjectDetectionEasy” as the Sample OpMode that will be
+the template for your new OpMode.
 
-Let’s take a look at the initial statements in the op mode. Before you
-start, you must first make sure you have a valid Vuforia developer
-license key to initialize the Vuforia software. You can obtain a key for
-free from https://developer.vuforia.com/license-manager. Once you obtain
-your key, replace the VUFORIA_KEY static String with the actual license
-key so the Vuforia software will be able to initialize properly.
+This Sample has optional gamepad inputs, so it could be designated as a
+**TeleOp** OpMode (see above).
 
-.. code-block:: java
+Click “OK” to create your new OpMode.
 
-       private static final String VUFORIA_KEY =
-               " -- YOUR NEW VUFORIA KEY GOES HERE  --- ";
+Android Studio users should follow the commented instructions to copy
+this class from the Samples folder to the Teamcode folder, with a new
+name. Also remove the ``@Disabled`` annotation, to make the OpMode
+visible in the Driver Station list.
 
-Also, by default the op mode is disabled. Comment out the “@Disabled”
-annotation to enable your newly created op mode.
+The new OpMode should appear in edit mode in your browser.
 
-.. code-block:: java
+.. figure:: images/040-Sample-Open.png
+   :align: center
+   :width: 85%
+   :alt: Open Sample
 
-   @TeleOp(name = "Concept: TensorFlow Object Detection", group = "Concept")
-   //@Disabled
-   public class MyTensorFlowExample extends LinearOpMode {
+   Opening New Sample
 
-Since TensorFlow will receive image data from Vuforia, the op mode
-attempts to create and initialize a VuforiaLocalizer object by calling
-the function called “initVuforia()”:
+By default, the Sample OpMode assumes you are using a webcam, configured
+as “Webcam 1”. If you are using the built-in camera on your Android RC
+phone, change the USE_WEBCAM Boolean from ``true`` to ``false`` (orange
+oval above).
 
-.. code-block:: java
+Preliminary Testing
+-------------------
 
-           // The TFObjectDetector uses the camera frames from the VuforiaLocalizer, so we create that
-           // first.
-           initVuforia();
-           initTfod();
+This OpMode is ready to use – it’s the “Easy” version!
 
-You can initialize both the Vuforia and the TensorFlow libraries in the
-same op mode. This is useful, for example, if you would like to use the
-TensorFlow library to recognize the Duck and then use the Vuforia
-library to help the robot autonomously navigate on the game field.
+Click the “Build Everything” button (wrench icon at lower right), and
+wait for confirmation “BUILD SUCCESSFUL”.
 
-In this example op mode, however, the initVuforia() function does not
-load any trackable image targets.
+If Build is prevented by some other OpMode having errors/issues, they
+must be fixed before your new OpMode can run. For a quick fix, you could
+right-click on that filename and choose “Disable/Comment”. This
+“comments out” all lines of code, effectively removing that file from
+the Build. That file can be re-activated later with “Enable/Uncomment”.
 
-.. code-block:: java
+In Android Studio (or OnBot Java), you can open a problem class/OpMode
+and type **CTRL-A** and **CTRL-/** to select and “comment out” all lines
+of code. This is reversible with **CTRL-A** and **CTRL-/** again.
+
+Now run your new OpMode from the Driver Station (on the TeleOp list, if
+so designated). The OpMode should recognize any CENTERSTAGE white Pixel
+within the camera’s view, based on the trained TFOD model in the SDK.
+
+For a **preview** during the INIT phase, touch the Driver Station’s
+3-dot menu and select **Camera Stream**.
+
+.. figure:: images/200-Sample-DS-Camera-Stream.png
+   :align: center
+   :width: 85%
+   :alt: DS Camera Stream
+
+   DS Camera Stream
+
+Camera Stream is not live video; tap to refresh the image. Use the small
+white arrows at lower right to expand or revert the preview size. To
+close the preview, choose 3-dots and Camera Stream again.
+
+After the DS START button is touched, the OpMode displays Telemetry for
+any recognized Pixel(s):
+
+.. figure:: images/210-Sample-DS-Telemetry.png
+   :align: center
+   :width: 85%
+   :alt: DS Telemetry
+
+   DS Telemetry Display
+
+The above Telemetry shows the Label name, and TFOD recognition
+confidence level. It also gives the **center location** and **size** (in
+pixels) of the Bounding Box, which is the colored rectangle surrounding
+the recognized object.
+
+The pixel origin (0, 0) is at the top left corner of the image.
+
+Before and after DS START is touched, the Robot Controller provides a
+video preview called **LiveView**.
+
+.. figure:: images/240-Sample-RC-LiveView.png
+   :align: center
+   :width: 85%
+   :alt: Sample RC LiveView
+
+   Sample RC LiveView
+
+For Control Hub (with no built-in screen), plug in an HDMI monitor or
+learn about ```scrcpy`` <https://github.com/Genymobile/scrcpy>`__. The
+above image is a LiveView screenshot via ``scrcpy``.
+
+If you don’t have a physical Pixel on hand, try pointing the camera at
+this image:
+
+.. figure:: images/300-Sample-Pixel.png
+   :align: center
+   :width: 85%
+   :alt: A Pixel
+
+   Example of a Pixel
+
+
+Program Logic and Initialization
+--------------------------------
+
+During the INIT stage (before DS START is touched), this OpMode calls a
+**method to initialize** the TFOD Processor and the FTC VisionPortal.
+After DS START is touched, the OpMode runs a continuous loop, calling a
+**method to display telemetry** about any TFOD recognitions. The OpMode
+also contains two optional features to remind teams about **CPU resource
+management**, useful in vision processing.
+
+Here’s the first method, to initialize the TFOD Processor and the FTC
+VisionPortal.
+
+.. code:: java
 
        /**
-        * Initialize the Vuforia localization engine.
-        */
-       private void initVuforia() {
-           /*
-            * Configure Vuforia by creating a Parameter object, and passing it to the Vuforia engine.
-            */
-           VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters();
-
-           parameters.vuforiaLicenseKey = VUFORIA_KEY;
-           parameters.cameraDirection = CameraDirection.BACK;
-
-           //  Instantiate the Vuforia engine
-           vuforia = ClassFactory.getInstance().createVuforia(parameters);
-
-           // Loading trackables is not necessary for the TensorFlow Object Detection engine.
-       }
-
-After the Vuforia localizer is initialized, the op mode calls a method
-initTfod(). This method initializes the TensorFlow Object Detection
-engine.
-
-.. code-block:: java
-
-       /**
-        * Initialize the TensorFlow Object Detection engine.
+        * Initialize the TensorFlow Object Detection processor.
         */
        private void initTfod() {
-           int tfodMonitorViewId = hardwareMap.appContext.getResources().getIdentifier(
-               "tfodMonitorViewId", "id", hardwareMap.appContext.getPackageName());
-           TFObjectDetector.Parameters tfodParameters = new TFObjectDetector.Parameters(tfodMonitorViewId);
-           tfodParameters.minResultConfidence = 0.8f;
-           tfodParameters.isModelTensorFlow2 = true;
-           tfodParameters.inputSize = 320;
-           tfod = ClassFactory.getInstance().createTFObjectDetector(tfodParameters, vuforia);
-           tfod.loadModelFromAsset(TFOD_MODEL_ASSET, LABELS);
-       }
 
-Note that by default, when you create a new TensorFlow object detector,
-an *object tracker* is used, in addition to the TensorFlow interpreter,
-to keep track of the locations of detected objects. The object tracker
-*interpolates* object recognitions so that results are smoother than
-they would be if the system were to solely rely on the TensorFlow
-interpreter.
+           // Create the TensorFlow processor the easy way.
+           tfod = TfodProcessor.easyCreateWithDefaults();
 
-If you want to turn off the object tracker, then you can set the
-useObjectTracker variable of the tfodParameters object to false before
-you create the TensorFlow object detector.
-
-.. code-block:: java
-
-           // set useObjectTracker to false to disable object tracker.
-           tfodParameters.useObjectTracker = false;
-
-Also note that by default, the minimum detection confidence level is set
-to 80%. This means that the TensorFlow library needs to have a
-confidence level of 80% or higher in order to consider an object as
-being detected in its field of view. You can adjust this parameter to a
-higher value if you would like the system to be more selective in
-identifying an object.
-
-.. code-block:: java
-
-           tfodParameters.minResultConfidence = 0.8f;
-
-After the TensorFlow Object Detector is created it loads the TensorFlow
-model data
-
-.. code-block:: java
-
-           tfod.loadModelFromAsset(TFOD_MODEL_ASSET, LABELS);
-
-The arguments TFOD_MODEL_ASSET, LABELS are defined earlier in the op
-mode and are season specific.
-
-.. code-block:: java
-
-      private static final String TFOD_MODEL_ASSET = "FreightFrenzy_BCDM.tflite";
-       private static final String[] LABELS = {
-         "Ball",
-         "Cube",
-         "Duck",
-         "Marker"
-       };
-
-If a camera monitor window is enabled for the TensorFlow library, then
-the confidence level for a detected target will be displayed near the
-bounding box of the identified object (when the object tracker is
-enabled). For example, a value of “0.92” indicates a 92% confidence that
-the object has been identified correctly.
-
-When an object is identified by the TensorFlow library, the op mode can
-read the “Left”, “Right”, “Top” and “Bottom” values associated with the
-detected object. These values correspond to the location of the left,
-right, top and bottom boundaries of the detection box for that object.
-These values are in pixel coordinates of the image from the camera.
-
-The origin of the coordinate system is in the upper left-hand corner of
-the image. The horizontal (x) coordinate value increases as you move
-from the left to the right of the image. The vertical (y) coordinate
-value increases as you move from the top to the bottom of the image.
-
-.. figure:: images/landscapeCoordinate.png
-   :align: center
-
-   The origin of the image coordinate system is located in upper left hand corner
-
-
-In the landscape image above, the approximate coordinate values for the
-Left, Top, Right, and Bottom boundaries are 455, 191, 808, and 547
-respectively (pixel coordinates). The width and height for the landscape
-image above is 1280 and 720 respectively.
-
-Activating TensorFlow
-~~~~~~~~~~~~~~~~~~~~~
-
-In this example, the op mode activates the TensorFlow object detector
-before waiting for the start command from the Driver Station. This is
-done so that the user can access the “Camera Stream” preview from the
-Driver Station menu while it waits for the start command. Also note that
-in this example, the op mode does not activate the Vuforia tracking
-feature, it only activates TensorFlow object detection. If you want to
-incorporate Vuforia image detection and tracking you will also need to
-activate (and later deactivate when you are done) the Vuforia tracking
-feature.
-
-.. code-block:: java
-
-           /**
-            * Activate TensorFlow Object Detection before we wait for the start command.
-            * Do it here so that the Camera Stream window will have the TensorFlow annotations visible.
-            **/
-           if (tfod != null) {
-               tfod.activate();
-
-               // The TensorFlow software will scale the input images from the camera to a lower resolution.
-               // This can result in lower detection accuracy at longer distances (> 55cm or 22").
-               // If your target is at distance greater than 50 cm (20") you can adjust the magnification value
-               // to artificially zoom in to the center of image.  For best results, the "aspectRatio" argument
-               // should be set to the value of the images used to create the TensorFlow Object Detection model
-               // (typically 16/9).
-               tfod.setZoom(2.5, 16.0/9.0);
+           // Create the vision portal the easy way.
+           if (USE_WEBCAM) {
+               visionPortal = VisionPortal.easyCreateWithDefaults(
+                   hardwareMap.get(WebcamName.class, "Webcam 1"), tfod);
+           } else {
+               visionPortal = VisionPortal.easyCreateWithDefaults(
+                   BuiltinCameraDirection.BACK, tfod);
            }
 
-Setting the Zoom Factor
-~~~~~~~~~~~~~~~~~~~~~~~
+       }   // end method initTfod()
 
-When TensorFlow receives an image from the robot’s camera, the library
-downgrades the resolution of the image (presumably to achieve a higher
-detection rate). As a result, if a target is at a distance of around 24”
-(61cm) or more, the detection accuracy of the system tends to diminish.
-This degradation can occur, even if you have a very accurate inference
-model.
+For the **TFOD Processor**, the method ``easyCreateWithDefaults()`` uses
+standard default settings. Most teams don’t need to modify these,
+especially for the built-in TFOD model (white Pixel).
 
-You can specify a zoom factor in your op mode to offset the effect of
-this automatic scaling by the TensorFlow library. If you specify a zoom
-factor, the image will be cropped by this factor and this artificially
-magnified image will be passed to the TensorFlow library. The net result
-is that the robot is able to detect and track an object at a
-significantly larger distance. The webcams and built-in Android cameras
-that are typically used by teams have high enough resolution to
-allow TensorFlow to “see” an artificially magnified target clearly.
+For the **VisionPortal**, the method ``easyCreateWithDefaults()``
+requires parameters for camera name and processor(s) used, but otherwise
+uses standard default settings such as:
 
-.. code-block:: java
+-  camera resolution 640 x 480
 
-               // The TensorFlow software will scale the input images from the camera to a lower resolution.
-               // This can result in lower detection accuracy at longer distances (> 55cm or 22").
-               // If your target is at distance greater than 50 cm (20") you can adjust the magnification value
-               // to artificially zoom in to the center of image.  For best results, the "aspectRatio" argument
-               // should be set to the value of the images used to create the TensorFlow Object Detection model
-               // (typically 16/9).
-               tfod.setZoom(2.5, 16.0/9.0);
+-  non-compressed streaming format YUY2
 
-If a zoom factor has been set, then the Camera Stream preview on the
-Driver Station will show the cropped area that makes up the artificially
-magnified image.
+-  enable RC preview (called LiveView)
 
-.. figure:: images/235_Java_TFOD_Sample_camera_stream.png
-   :align: center
+-  if TFOD and AprilTag processors are disabled, still display LiveView
+   (without annotations)
 
-   Camera Stream preview indicating magnified area.
+These are good starting values for most teams.
 
-Iterating and Processing List of Recognized Objects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Telemetry Method
+----------------
 
-The op mode will then iterate until a Stop command is received. At the
-beginning of each iteration, the op mode will check with the object
-detector to see how many objects it recognizes in its field of view. In
-the code section below, the variable “updatedRecognitions” is set to a
-list of objects that were recognized using the TensorFlow technology.
+After DS START is touched, the OpMode continuously calls this method to
+display telemetry about any TFOD recognitions:
 
-.. code-block:: java
+.. code:: java
 
-           if (opModeIsActive()) {
-               while (opModeIsActive()) {
-                   if (tfod != null) {
-                       // getUpdatedRecognitions() will return null if no new information is available since
-                       // the last time that call was made.
-                       List<Recognition> updatedRecognitions = tfod.getUpdatedRecognitions();
-                       if (updatedRecognitions != null) {
-                         telemetry.addData("# Object Detected", updatedRecognitions.size());
+       /**
+        * Add telemetry about TensorFlow Object Detection (TFOD) recognitions.
+        */
+       private void telemetryTfod() {
 
-                         // step through the list of recognitions and display boundary info.
-                         int i = 0;
-                         for (Recognition recognition : updatedRecognitions) {
-                           telemetry.addData(String.format("label (%d)", i), recognition.getLabel());
-                           telemetry.addData(String.format("  left,top (%d)", i), "%.03f , %.03f",
-                                             recognition.getLeft(), recognition.getTop());
-                           telemetry.addData(String.format("  right,bottom (%d)", i), "%.03f , %.03f",
-                                   recognition.getRight(), recognition.getBottom());
-                           i++;
-                         }
-                         telemetry.update();
-                       }
+           List<Recognition> currentRecognitions = tfod.getRecognitions();
+           telemetry.addData("# Objects Detected", currentRecognitions.size());
+
+           // Step through the list of recognitions and display info for each one.
+           for (Recognition recognition : currentRecognitions) {
+               double x = (recognition.getLeft() + recognition.getRight()) / 2 ;
+               double y = (recognition.getTop()  + recognition.getBottom()) / 2 ;
+
+               telemetry.addData(""," ");
+               telemetry.addData("Image", "%s (%.0f %% Conf.)", recognition.getLabel(), recognition.getConfidence() * 100);
+               telemetry.addData("- Position", "%.0f / %.0f", x, y);
+               telemetry.addData("- Size", "%.0f x %.0f", recognition.getWidth(), recognition.getHeight());
+           }   // end for() loop
+
+       }   // end method telemetryTfod()
+
+In the first line of code, **all TFOD recognitions** are collected and
+stored in a List variable. The camera might “see” more than one game
+element in its field of view, even if not intended (i.e. for CENTERSTAGE
+with 1 game element).
+
+The ``for() loop`` then iterates through that List, handling each item,
+one at a time. Here the “handling” is simply processing certain TFOD
+fields for DS Telemetry.
+
+The ``for() loop`` calculates the pixel coordinates of the **center** of
+each Bounding Box (the preview’s colored rectangle around a recognized
+object).
+
+Telemetry is created for the Driver Station, with the object’s name
+(Label), recognition confidence level (percentage), and the Bounding
+Box’s location and size (in pixels).
+
+For competition, you want to do more than display Telemetry, and you
+want to exit the main OpMode loop at some point. These code
+modifications are discussed in another section below.
+
+Resource Management
+-------------------
+
+Vision processing is “expensive”, using much **CPU capacity and USB
+bandwidth** to process millions of pixels streaming in from the camera.
+
+This Sample OpMode contains two optional features to remind teams about
+resource management. Overall, the SDK provides :ref:`over 10
+tools <apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth:visionportal cpu and bandwidth>`
+to manage these resources, allowing your OpMode to run effectively.
+
+As the first example, streaming images from the camera can be paused and
+resumed. This is a very fast transition, freeing CPU resources (and
+potentially USB bandwidth).
+
+.. code:: java
+
+
+                   // Save CPU resources; can resume streaming when needed.
+                   if (gamepad1.dpad_down) {
+                       visionPortal.stopStreaming();
+                   } else if (gamepad1.dpad_up) {
+                       visionPortal.resumeStreaming();
                    }
-               }
-           }
 
-If the list is not empty, then the op mode iterates through the list and
-sends information via telemetry about each detected object.
+Pressing the Dpad buttons, you can observe the off-and-on actions in the
+RC preview (LiveView), described above. In your competition OpMode,
+these streaming actions would be programmed, not manually controlled.
 
-Modifying the Sample to Indicate Duck Detected
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The second example: after exiting the main loop, the VisionPortal is
+closed.
 
-Let’s modify this sample Freight Frenzy op mode so it will set a
-variable to indicate whether a Duck was detected, and show a Telemetry
-message accordingly. Using the OnBot Java editor, modify the example
-code so it looks like the following sample.
+.. code:: java
 
-Specifically, one new line initializes a Boolean variable
-“isDuckDetected”, just before the “for loop” that will examine the list
-of recognitions.
+           // Save more CPU resources when camera is no longer needed.
+           visionPortal.close();
 
-Also, if the label reads “Duck” then set the variable isDuckDetected to
-“true”, and send a telemetry message to indicate a Duck has been
-recognized. Otherwise, or ELSE, set the variable to “false” and don’t
-display the message.
+Teams may consider this at any point when the VisionPortal is no longer
+needed by the OpMode, freeing valuable CPU resources for other tasks.
 
-.. code-block:: java
+Adjusting the Zoom Factor
+-------------------------
 
-           if (opModeIsActive()) {
-               while (opModeIsActive()) {
-                   if (tfod != null) {
-                       // getUpdatedRecognitions() will return null if no new information is available since
-                       // the last time that call was made.
-                       List<Recognition> updatedRecognitions = tfod.getUpdatedRecognitions();
-                       if (updatedRecognitions != null) {
-                         telemetry.addData("# Object Detected", updatedRecognitions.size());
+If the object to be recognized will be more than roughly 2 feet (61 cm)
+from the camera, you might want to set the digital Zoom factor to a
+value greater than 1. This tells TensorFlow to use an artificially
+magnified portion of the image, which may offer more accurate
+recognitions at greater distances.
 
-                         // step through the list of recognitions and display boundary info.
-                         int i = 0;
-                         boolean isDuckDetected = false;     //  ** ADDED **
-                         for (Recognition recognition : updatedRecognitions) {
-                           telemetry.addData(String.format("label (%d)", i), recognition.getLabel());
-                           telemetry.addData(String.format("  left,top (%d)", i), "%.03f , %.03f",
-                                             recognition.getLeft(), recognition.getTop());
-                           telemetry.addData(String.format("  right,bottom (%d)", i), "%.03f , %.03f",
-                                   recognition.getRight(), recognition.getBottom());
-                           i++;
+.. code:: java
 
-                           // check label to see if the camera now sees a Duck         ** ADDED **
-                           if (recognition.getLabel().equals("Duck")) {            //  ** ADDED **
-                                isDuckDetected = true;                             //  ** ADDED **
-                                telemetry.addData("Object Detected", "Duck");      //  ** ADDED **
-                            } else {                                               //  ** ADDED **
-                                isDuckDetected = false;                            //  ** ADDED **
-                            }                                                      //  ** ADDED **
-                         }
-                         telemetry.update();
-                       }
-                   }
-               }
-           }
+       // Indicate that only the zoomed center area of each
+       // image will be passed to the TensorFlow object
+       // detector. For no zooming, set magnification to 1.0.
+       tfod.setZoom(2.0);
 
-Rebuild the OnBot Java op mode and re-run it. The op mode should display
-the new message, if a Duck is detected. Note that if you test this op
-mode with multiple ring stacks, the order of the detected objects can
-change with each iteration of your op mode.
+This ``setZoom()`` method can be placed in the INIT section of your
+OpMode,
 
-.. figure:: images/270_Java_TFOD_Sample_message.png
-   :align: center
+-  immediately after the call to the ``initTfod()`` method, or
 
-   The modified op mode should show a telemetry message if the Duck is detected
+-  as the very last command inside the ``initTfod()`` method.
 
-You can continue modifying this sample op mode, to suit your team’s
-autonomous strategy. For example, you might want to store (in a
-variable) which Barcode position had the Duck.
+This method is **not** part of the Processor Builder pattern (used in
+other TFOD Sample OpModes), so the Zoom factor can be set to other
+values during the OpMode, if desired.
 
-Also, you must decide how the main “while loop” should actually stop
-repeating, assuming the Duck’s position is discovered. (It now loops
-until Stop is pressed.) For example, the loop could stop after the
-camera has viewed all 3 Barcode positions. Or, if the camera’s view
-includes more than one Barcode position, perhaps the Duck’s bounding box
-location can provide the info you need.
+The “zoomed” region can be observed in the DS preview (Camera Stream)
+and the RC preview (LiveView), surrounded by a greyed-out area that is
+**not evaluated** by the TFOD Processor.
 
-In any case, when the op mode exits the “while loop”, your new variable
-should hold the location of the Duck, which tells you the preferred
-scoring level on the Alliance Shipping Hub. You op mode can continue
-running, using that information.
+Other Adjustments
+-----------------
 
-Important Note Regarding Image Orientation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Sample OpMode uses a default **minimum confidence** level of 75%.
+This means the TensorFlow Processor needs a confidence level of 75% or
+higher, to consider an object as “recognized” in its field of view.
 
-If you are using a webcam with your Robot Controller, then the camera
-orientation is fixed in landscape mode. However, if you are using a
-smartphone camera, the system will interpret images based on the phone’s
-orientation (Portrait or Landscape) at the time that the TensorFlow
-object detector is created and initialized.
+You can see the object name and actual confidence (as a **decimal**,
+e.g. 0.96) near the Bounding Box, in the Driver Station preview (Camera
+Stream) and Robot Controller preview (Liveview).
 
-Note that for Freight Frenzy, the default TensorFlow inference model is
-optimized for a camera in landscape mode. This means that it is better
-to orient your camera in landscape mode if you use this default
-inference model because you will get more reliable detections.
+.. code:: java
 
-If you execute the TensorFlow initialize command ``initTfod()`` while
-the phone is in Portrait mode, then the images will be processed in
-Portrait mode.
+       // Set the minimum confidence at which to keep recognitions.
+       tfod.setMinResultConfidence((float) 0.75);
 
-.. figure:: images/tfodPortrait.png
-   :align: center
+Adjust this parameter to a higher value if you would like the processor
+to be more selective in identifying an object.
 
-   If you initialize the detector in Portrait mode, then the images are processed in Portrait mode.
+Another option is to define, or clip, a **custom area for TFOD
+evaluation**, unlike ``setZoom`` which is always centered.
 
-The “Left” and “Right” values of an object’s bounding box correspond to
-horizontal coordinate values, while the “Top” and “Bottom” values of an
-object’s bounding box correspond to vertical coordinate values.
+.. code:: java
 
-.. figure:: images/tfodBoundaries.png
-   :align: center
+       // Set the number of pixels to obscure on the left, top,
+       // right, and bottom edges of each image passed to the
+       // TensorFlow object detector. The size of the images are not
+       // changed, but the pixels in the margins are colored black.
+       tfod.setClippingMargins(0, 200, 0, 0);
 
-   The “Left” and “Top” boundaries of a detection box when the image is in
-   Portrait mode.
+Adjust the four margins as desired, in units of pixels.
 
-If you want to use your smartphone in Landscape mode, then make sure
-that your phone is in Landscape mode when the TensorFlow object detector
-is initialized. You may find that the Landscape mode is preferable for
-this season’s game since it offers a wider field of view.
+These methods can be placed in the INIT section of your OpMode,
 
-.. figure:: images/tfodLandscape.png
-   :align: center
+-  immediately after the call to the ``initTfod()`` method, or
 
-   The system can also be run in Landscape mode.
+-  as the very last commands inside the ``initTfod()`` method.
 
-If the phone is in Landscape mode when the object detector is
-initialized, then the images will be interpreted in Landscape mode.
+As with ``setZoom``, these methods are **not** part of the Processor
+Builder pattern (used in other TFOD Sample OpModes), so they can be set
+to other values during the OpMode, if desired.
 
-.. figure:: images/tfodBoundariesLandscape.png
-   :align: center
-   
-   The “Left” and “Top” boundaries of a detection box when the image is in Landscape mode
+Modifying the Sample
+--------------------
 
-Note that Android devices can be locked into Portrait Mode so that the
-screen image will not rotate even if the phone is held in a Landscape
-orientation. If your phone is locked in Portrait Mode, then the
-TensorFlow object detector will interpret all images as Portrait images.
-If you would like to use the phone in Landscape mode, then you need to
-make sure your phone is set to “Auto-rotate” mode. In Auto-rotate mode,
-if the phone is held in a Landscape orientation, then the screen will
-auto rotate to display the contents in Landscape form.
+In this Sample OpMode, the main loop ends only when the DS STOP button
+is touched. For competition, teams should **modify this code** in at
+least two ways:
 
-.. figure:: images/autorotate.png
-   :align: center
+-  for a significant recognition, take action or store key information –
+   inside the ``for() loop``
 
-   Auto-rotate must be enabled in order to operate in Landscape mode
+-  end the main loop based on your criteria, to continue the OpMode
 
-Deactivating TensorFlow
-~~~~~~~~~~~~~~~~~~~~~~~
+As an example, you might set a Boolean variable ``isPixelDetected`` to
+``true``, if a significant recognition has occurred.
 
-When the example op mode is no longer active (i.e., when the user has
-pressed the stop button on the Driver Station) the op mode will attempt
-to deactivate the TensorFlow library before it’s done. It’s important to
-deactivate the library to free up system resources.
+You might also evaluate and store which randomized Spike Mark (red or
+blue tape stripe) holds the white Pixel.
 
-.. code-block:: java
+Regarding the main loop, it could end after the camera views all three
+Spike Marks, or after your code provides a high-confidence result. If
+the camera’s view includes more than one Spike Mark position, perhaps
+the white Pixel’s **Bounding Box** size and location could be useful.
+Teams should consider how long to seek an acceptable recognition, and
+what to do otherwise.
 
-           if (tfod != null) {
-               tfod.shutdown();
-           }
+In any case, the OpMode should exit the main loop and continue running,
+using any stored information.
 
+Best of luck this season!
 
-==================
+============
 
-Updated 10/21/21
+Questions, comments and corrections to westsiderobotics@verizon.net

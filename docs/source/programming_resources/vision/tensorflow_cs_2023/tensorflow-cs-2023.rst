@@ -453,10 +453,7 @@ Hopefully this gives you quite a few ideas for how to approach this challenge!
 Using Custom TensorFlow models in Blocks and Java
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructions on using Custom TensorFlow Models in 
-:ref:`Blocks <ftc_ml/implement/blocks/blocks:blocks>`,  
-:ref:`OnBot-Java <ftc_ml/implement/obj/obj:onbot java (obj)>`, 
-and :ref:`Android Studio <ftc_ml/implement/android_studios/android-studios:android studio>` can be found
-in the :doc:`FTC-ML documentation <../../../ftc_ml/index>`, in the 
-:doc:`Implementing in Robot Code <../../../ftc_ml/implement/index>` section.
+Instructions on using Custom TensorFlow Models in Blocks, OnBot-Java, and 
+Android Studio can be found in the :doc:`FTC-ML documentation <../../../ftc_ml/index>`, 
+in the :doc:`Implementing in Robot Code <../../../ftc_ml/implement/index>` section.
 

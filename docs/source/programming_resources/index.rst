@@ -94,7 +94,9 @@ Topics for programming with TensorFlow Object Detection (TFOD)
    vision/tensorflow_pp_2022/tensorflow_pp_2022
    vision/tensorflow_ff_2021/tensorflow-ff-2021
    vision/blocks_tfod_opmode/blocks-tfod-opmode
+   vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom
    vision/java_tfod_opmode/java-tfod-opmode
+   vision/java_tfod_opmode_custom/java-tfod-opmode-custom
 
 Vision Programming
 ~~~~~~~~~~~~~~~~~~~
