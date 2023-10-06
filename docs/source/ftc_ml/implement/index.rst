@@ -2,8 +2,7 @@ Implementing in Robot Code
 ============================
 
 The basis of this tutorial will be the sample opmodes provided by *FIRST*
-in the `7.0 
-SDK <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__. The
+in the `9.0 SDK <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__. The
 process for testing a custom TensorFlow model is quite simple. To do
 this the general process flow is as follows:
 
@@ -18,10 +17,6 @@ this the general process flow is as follows:
 .. toctree::
    :maxdepth: 1
 
-   android_studios/android-studios
-   obj/obj
-   blocks/blocks
+   Android/OnBot Java <../../programming_resources/vision/java_tfod_opmode_custom/java-tfod-opmode-custom>
+   Blocks <../../programming_resources/vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom>
 
-============================
-
-Written by Uday Vidyadharan, Team 7350

@@ -240,7 +240,7 @@ video preview called **LiveView**.
    Sample RC LiveView
 
 For Control Hub (with no built-in screen), plug in an HDMI monitor or
-learn about ```scrcpy`` <https://github.com/Genymobile/scrcpy>`__. The
+learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The
 above image is a LiveView screenshot via ``scrcpy``.
 
 If you don’t have a physical Pixel on hand, try pointing the camera at
