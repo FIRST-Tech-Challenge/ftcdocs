@@ -172,9 +172,7 @@ this image:
 
    Sample Pixel
 
-For a larger view, right-click the image to open in a new browser tab.
-
-\ **Congratulations!**\  At this point the Sample OpMode and your camera
+**Congratulations!** At this point the Sample OpMode and your camera
 are working properly. Ready for a custom model?
 
 Downloading the Model
