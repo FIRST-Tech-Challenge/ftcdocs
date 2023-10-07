@@ -413,7 +413,7 @@ pixels) of the Bounding Box, which is the colored rectangle surrounding
 the recognized object.
 
 Also test the RC’s video **LiveView**, using HDMI or
-```scrcpy`` <https://github.com/Genymobile/scrcpy>`__:
+``scrcpy`` (https://github.com/Genymobile/scrcpy):
 
 .. figure:: images/240-Sample-RC-LiveView.png
    :align: center

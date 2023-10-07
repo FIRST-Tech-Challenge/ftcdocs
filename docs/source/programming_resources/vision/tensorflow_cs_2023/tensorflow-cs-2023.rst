@@ -64,9 +64,9 @@ above, the *FIRST* Machine Learning Toolchain is a streamlined tool for training
 your own TFOD models. 
 
 The FIRST Tech Challenge software (Robot Controller App and Android Studio
-Project) includes sample op modes (Blocks and Java versions) that demonstrate
+Project) includes sample OpModes (Blocks and Java versions) that demonstrate
 how to use **the default inference model**.  These tutorials show how to use
-the sample op modes, using examples from previous *FIRST* Tech Challenge
+the sample OpModes, using examples from previous *FIRST* Tech Challenge
 seasons, but demonstrate the process for use in any season.
 
 -  :doc:`Blocks Sample OpMode for TensorFlow Object Detection <../blocks_tfod_opmode/blocks-tfod-opmode>`

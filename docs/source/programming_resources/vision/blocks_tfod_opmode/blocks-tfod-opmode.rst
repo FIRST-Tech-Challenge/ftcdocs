@@ -15,8 +15,9 @@ object, ready for recognition. That model was created with the
 :doc:`Machine Learning Toolchain <../../../ftc_ml/index>`.
 
 For extra points, teams may instead use their own custom TFOD models of
-**Team Props**. That option is described
-`here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Custom-TFOD-Model-with-Blocks>`__.
+**Team Props**. That option is described here:
+
+- :doc:`Blocks Custom Model Sample OpMode for TFOD <../blocks_tfod_opmode_custom/blocks-tfod-opmode-custom>`
 
 Creating the OpMode
 -------------------

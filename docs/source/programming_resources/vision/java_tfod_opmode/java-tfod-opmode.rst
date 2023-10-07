@@ -26,7 +26,9 @@ Learning process described here:
    Sample TFOD Recognition
 
 For extra points, teams may instead use their own custom TFOD models of
-**Team Props**. That option is not described here.
+**Team Props**. That option is described here:
+
+- :doc:`Java Custom Model Sample OpMode for TFOD <../java_tfod_opmode_custom/java-tfod-opmode-custom>`
 
 This tutorial shows **OnBot Java** screens. Users of **Android Studio**
 can follow along, since the Sample OpMode is exactly the same.
@@ -145,7 +147,7 @@ video preview called **LiveView**.
    Sample RC LiveView
 
 For Control Hub (with no built-in screen), plug in an HDMI monitor or
-learn about ```scrcpy`` <https://github.com/Genymobile/scrcpy>`__. The
+learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The
 above image is a LiveView screenshot via ``scrcpy``.
 
 If you don’t have a physical Pixel on hand, try pointing the camera at
