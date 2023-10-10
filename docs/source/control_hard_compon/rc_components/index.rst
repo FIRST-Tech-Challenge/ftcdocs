@@ -25,7 +25,7 @@ configuration diagrams.
 
    .. tab-item:: Control Hub
 
-      :download:`Control Hub B1 - Basic Config<images/B1.pdf>`
+      :download:`Control Hub B1 - Basic Config<files/B1.pdf>`
 
       .. figure:: images/B1.*
          :align: left
@@ -35,7 +35,7 @@ configuration diagrams.
 
       |
 
-      :download:`Control Hub B2 - Advanced Config<images/B2.pdf>`
+      :download:`Control Hub B2 - Advanced Config<files/B2.pdf>`
 
       .. figure:: images/B2.*
          :align: left
@@ -45,7 +45,7 @@ configuration diagrams.
 
    .. tab-item:: Android Phone / Hub
 
-      :download:`Android Phone A1 - Basic Config<images/A1.pdf>`
+      :download:`Android Phone A1 - Basic Config<files/A1.pdf>`
 
       .. figure:: images/A1.*
          :align: left
@@ -55,7 +55,7 @@ configuration diagrams.
 
       |
 
-      :download:`Android Phone A1 - Advanced Config<images/A2.pdf>`
+      :download:`Android Phone A1 - Advanced Config<files/A2.pdf>`
 
       .. figure:: images/A2.*
          :align: left

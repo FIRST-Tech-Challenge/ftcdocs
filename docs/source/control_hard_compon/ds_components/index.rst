@@ -22,7 +22,7 @@ on Driver Station Carriers.
 
    .. tab-item:: Driver Station
 
-      :download:`Driver Station C1 - Basic Config<images/C1.pdf>`
+      :download:`Driver Station C1 - Basic Config<files/C1.pdf>`
 
       .. figure:: images/C1.*
          :align: left
