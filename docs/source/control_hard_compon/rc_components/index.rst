@@ -25,23 +25,43 @@ configuration diagrams.
 
    .. tab-item:: Control Hub
 
-      :download:`Control Hub B1 - Basic Config<images/B1.pdf>`
+      :download:`Control Hub B1 - Basic Config<files/B1.pdf>`
 
       .. figure:: images/B1.*
          :align: left
-         :alt: Control Hub RC Diagram
+         :alt: Basic Control Hub RC Diagram
 
-         Diagram courtesy of FRC Team 3161 and Stefen Acepcion 
+         Diagrams courtesy of FRC Team 3161 and Stefen Acepcion 
+
+      |
+
+      :download:`Control Hub B2 - Advanced Config<files/B2.pdf>`
+
+      .. figure:: images/B2.*
+         :align: left
+         :alt: Advanced Control Hub RC Diagram
+
+         Diagrams courtesy of FRC Team 3161 and Stefen Acepcion 
 
    .. tab-item:: Android Phone / Hub
 
-      :download:`Android Phone A1 - Basic Config<images/A1.pdf>`
+      :download:`Android Phone A1 - Basic Config<files/A1.pdf>`
 
       .. figure:: images/A1.*
          :align: left
-         :alt: Android Phone RC Diagram
+         :alt: Basic Android Phone RC Diagram
 
-         Diagram courtesy of FRC Team 3161 and Stefen Acepcion 
+         Diagrams courtesy of FRC Team 3161 and Stefen Acepcion 
+
+      |
+
+      :download:`Android Phone A1 - Advanced Config<files/A2.pdf>`
+
+      .. figure:: images/A2.*
+         :align: left
+         :alt: Advanced Android Phone RC Diagram
+
+         Diagrams courtesy of FRC Team 3161 and Stefen Acepcion 
 
    .. tab-item:: License
 
