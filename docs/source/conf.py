@@ -59,6 +59,8 @@ templates_path = ['_templates']
 
 IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg",
                         "source/control_hard_compon/rc_components/images/B1.svg",
+                        "source/control_hard_compon/rc_components/images/A2.svg",
+                        "source/control_hard_compon/rc_components/images/B2.svg",
                         "source/control_hard_compon/ds_components/images/C1.svg",]
 
 # Specify the master doc file, AKA our homepage
