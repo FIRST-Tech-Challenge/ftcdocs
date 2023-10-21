@@ -42,6 +42,7 @@ to see why.
    :hidden:
 
    game_specific_resources/blog/blog
+   tech_tips/tech-tips
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
@@ -110,12 +111,6 @@ to see why.
    :hidden:    
    
    faq/faqs
-
-.. toctree::
-   :caption: Team Freebies and Discounts
-   :maxdepth: 1
-   :hidden:
-
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
 
