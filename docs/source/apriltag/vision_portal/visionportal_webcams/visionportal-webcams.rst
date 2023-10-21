@@ -96,7 +96,7 @@ is available at many online retailers.
   slightly more expensive than the C310, but is a dramatic step-up in quality.
   If you find a C310 for almost the same price as a C920, just buy the C920.
 * The Logitech C920 has a 78-degree field of view, and a maximum
-  frame rate of 60fps at 1080p which makes it a fabulous choice for vision
+  frame rate of 30fps at 1080p which makes it a fabulous choice for vision
   processing. The C920 also includes an auto-focus option, whereas the 
   C270 and C310 are fixed-focus, though the auto-focus tends to be slow.
 * The C920 has additional options for mounting the camera, with a 1/4 inch
@@ -203,8 +203,8 @@ is available at some online retailers, including
   needing color should look elsewhere.
 * The Arducam OV9281 is fantastic in low-light scenarios, and has a very 
   low-distortion lens making it perfect for object tracking and motion detection.
-* The Arducam required a patch to EasyOpenCV to work properly, so it is not
-  guaranteed to work properly with the FTC SDK prior to SDK 9.0.
+* The Arducam required a patch to the SDK and EasyOpenCV to work properly at high 
+  speeds, so it is not guaranteed to work properly with the FTC SDK prior to SDK 9.0.
 
 **Supported Resolutions** in YUY2 format: 1280x720, 1280x800. Note frame
 rate limitations.
@@ -251,7 +251,7 @@ calibrations and those without calibrations.
      - 640x480, 640x360
      - All other resolutions
    * - `Logitech C920`_
-     - 78 DegFOV, 60fps\@1080p
+     - 78 DegFOV, 30fps\@1080p
      - 640x480, 640x360, 800x448, 800x600, 864x480, 1920x1080
      - 160x90, 160x120, 176x144, 320x180, 320x240, 352x288, 432x240, 960x720, 1024x576, 1280x720, 1600x896, 2304x1296, 2304x1536
    * - `Microsoft LifeCam HD-3000 v1/v2`_
