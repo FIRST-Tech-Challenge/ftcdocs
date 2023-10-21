@@ -275,7 +275,10 @@ linkcheck_ignore = [
    r'https://github.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
-   r'https://april.eecs.umich.edu/'
+   r'https://april.eecs.umich.edu/',
+   r'https://www.autodesk.com/',
+   r'https://knowledge.autodesk.com/',
+   r'https://www.3dflow.net/'
 ]
 
 latex_documents = [
