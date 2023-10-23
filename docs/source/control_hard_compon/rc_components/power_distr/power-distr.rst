@@ -261,7 +261,7 @@ However, having a COTS USB External Battery on the Robot carries additional
 considerations.  All teams must ensure their COTS USB Battery Pack:
 
 - Is manufactured by a reputable brand.
-- Is within standard Watt-hour capacity limits.
+- Is within allowed Watt-hour capacity limits.
 - Includes standard safety features.
 - Is secured on the Robot.
 - Has unused ports covered.
