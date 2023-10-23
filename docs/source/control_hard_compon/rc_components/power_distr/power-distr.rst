@@ -424,4 +424,3 @@ with the exception of controlling signals provided by the Game Manual
 (per rule ``<RE12>.d``). When using a COTS USB Battery Pack, controlling signals
 for LEDs powered by the Pack should ONLY connect to compatible devices listed in 
 rule ``<RE12>.e``.
-
