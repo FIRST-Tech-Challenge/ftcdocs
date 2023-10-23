@@ -267,6 +267,7 @@ considerations.  All teams must ensure their COTS USB Battery Pack:
 - Has unused ports covered.
 - Is always charged properly.
 - Does not show any signs of distress.
+- Is never connected to the Robot power
 
 The following sections are intended to help clarify the list above.
 
@@ -295,7 +296,7 @@ Capacity Limits
 
 The recurring theme in most discussions of COTS USB Battery Packs is safety.
 The United States Transportation Safety Administration (TSA) has strict
-limitations on COTS USB Battery Packs on-board planes, and *FIRST* Tech
+limitations on COTS USB Battery Packs aboard aircraft, and *FIRST* Tech
 Challenge has adopted the capacity limit restriction. **Batteries are limited
 to 100 Watt-Hours (Wh) or less**. 
 
@@ -323,13 +324,13 @@ but not limited to:
 - Over-Temperature or Over-Heat Protection
 - Over-Current Protection
 
-You should perform a good-faith effort to determine if your Battery Pack 
+You should perform a good-faith effort to determine if your Battery Pack
 contains these safety features. Often within the documentation provided with
 your pack it will list the protections offered by the pack. Remember that the
-Battery Pack contains Lithium-Ion or Lithium Polymer batteries often will
-explode or catch fire when they fail, and these protections are vital to 
-ensuring that the batteries do not fail prematurely. It is not recommended 
-to use COTS USB Battery Packs without these protections.
+Battery Pack likely contains Lithium-Ion or Lithium Polymer batteries that will
+often explode or catch fire when they fail, and these protections are vital to
+ensuring that the batteries do not fail prematurely. It is not recommended to
+use COTS USB Battery Packs without these protections.
 
 Securing the Battery Pack to the Robot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -385,7 +386,7 @@ In addition, these are common best practices for charging your Batteries:
 - Unless it's a solar power bank, NEVER leave your battery in the sun!
 - Follow the manufacturer's guidelines on the time required to fully charge
   your COTS USB Battery Pack.
-- Avoid leaving your COTS USB Battery Pack on prolonged chage as this may 
+- Avoid leaving your COTS USB Battery Pack on prolonged charge as this may 
   cause it to overheat.
 - If the COTS USB Battery Pack becomes excessively hot during charging or 
   discharging, unplug it from the power source or powered device immediately
@@ -413,4 +414,13 @@ Here are several tips for identifying a failing battery:
   are suspected of being damaged - dispose of the battery per the manufacturer's
   recommendations immediately.
 
+Isolate COTS USB Battery Packs from the Robot Power
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Great care must be take to NEVER allow the COTS USB Battery Pack to be connected 
+to the main (or any) power system in use by the robot. The COTS USB Battery Pack 
+and connected devices must be completely isolated from the robot electrical system, 
+with the exception of controlling signals provided by the Game Manual 
+(per rule ``<RE12>.d``). When using a COTS USB Battery Pack, controlling signals
+for LEDs powered by the Pack should ONLY connect to compatible devices listed in 
+rule ``<RE12>.e``.
