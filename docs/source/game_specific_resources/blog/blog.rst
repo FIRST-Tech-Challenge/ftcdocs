@@ -11,5 +11,5 @@ just can't fully cover.
 
    .. raw:: html
 
-       <iframe id="iframeweb" src="http://firsttechchallenge.blogspot.com/" width="100%" height="700"></iframe>
+       <iframe id="iframeweb" src="https://firsttechchallenge.blogspot.com/" width="100%" height="700"></iframe>
 
