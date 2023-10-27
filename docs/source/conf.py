@@ -60,6 +60,8 @@ templates_path = ['_templates']
 
 IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg",
                         "source/control_hard_compon/rc_components/images/B1.svg",
+                        "source/control_hard_compon/rc_components/images/A2.svg",
+                        "source/control_hard_compon/rc_components/images/B2.svg",
                         "source/control_hard_compon/ds_components/images/C1.svg",]
 
 # Options for HoverXRef extension
@@ -278,7 +280,10 @@ linkcheck_ignore = [
    r'https://github.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
-   r'https://april.eecs.umich.edu/'
+   r'https://april.eecs.umich.edu/',
+   r'https://www.autodesk.com/',
+   r'https://knowledge.autodesk.com/',
+   r'https://www.3dflow.net/'
 ]
 
 latex_documents = [
