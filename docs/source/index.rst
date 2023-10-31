@@ -53,6 +53,7 @@ to see why.
    :maxdepth: 1
    :hidden:
 
+   Laptop Requirements <programming_resources/laptops/laptops>
    SDK Overview <ftc_sdk/overview/index>
    Updating Components <ftc_sdk/updating/index>
 
