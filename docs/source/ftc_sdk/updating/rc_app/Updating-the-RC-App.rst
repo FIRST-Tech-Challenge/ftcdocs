@@ -245,11 +245,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
       
    .. dropdown:: Method 2 - Manage page on computer
 
-      Here you will work directly with the Android Package or **APK file** to
-      install the RC app on the Android phone. Any computer can be used, PC or
-      Mac, old or new. This method is sometimes called “side-loading”.
-
-      1. Connect your computer to the internet, open a web browser, and
+      1. Connect a laptop to the internet, open a web browser, and
          navigate to the `SDK github
          repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
@@ -281,7 +277,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
 
       2. Turn on the Control Hub (apply robot power), wait for green LED.
 
-      3. Connect a laptop via Wi-Fi to the Control Hub. Open the Chrome
+      3. Connect the same laptop via Wi-Fi to the Control Hub. Open the Chrome
          browser, enter the usual address ``http://192.168.43.1:8080``
 
          Click the Manage tab, then scroll down to “Update Robot Controller App”.
