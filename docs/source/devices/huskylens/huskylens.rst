@@ -105,8 +105,6 @@ Edit an existing (correct) configuration, or touch ``New``. Touch
 Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged
 in.
 
-[[/images/120-DS-config.png]]
-
 .. figure:: images/120-DS-config.png
    :align: center
    :width: 85%
