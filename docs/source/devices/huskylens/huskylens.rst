@@ -159,7 +159,7 @@ sample does not use the gamepads.
 Notice the default algorithm here is ``TAG_RECOGNITION``, which simply
 detects any (common) AprilTags in the sensor’s field of view. This
 recognition is unrelated to the FTC game CENTERSTAGE and its 10
-AprilTags wih metadata. Instead, this is a simple built-in, generic
+AprilTags with metadata. Instead, this is a simple built-in, generic
 function of HuskyLens, used here only to validate the sensor’s
 operation.
 
