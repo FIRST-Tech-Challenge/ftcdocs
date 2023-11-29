@@ -16,6 +16,10 @@ FTC Machine Learning
 --------------------
 - `FTC ML Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/ftc_ml.pdf>`_
 
+Manufacturing
+---------------
+- `3D Printing Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_
+
 Programming Resources
 ---------------------
 - `Programming Resources <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_
