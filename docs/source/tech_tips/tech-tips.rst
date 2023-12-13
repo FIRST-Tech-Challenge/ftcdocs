@@ -322,3 +322,61 @@ Just click to expand the Tech Tip you'd like to read.
         and device is a potential source of failure. Extreme care must be taken
         to ensure the connections remain solid.
 
+.. dropdown:: Week of 11/13/2023 "Robot and Driver Station Self-Inspect"
+
+   This Week’s Tech Tip of the Week is here to help teams prepare for
+   inspection at their events. Aside from making sure that your robot is within
+   the Maximum Starting Size, ensuring that your robot code can correctly pass
+   Field Inspection, and other tasks in the `Robot Inspection Checklist
+   <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`__,
+   teams need to make sure their robot software and hardware apps are updated
+   to the latest and greatest versions and that their hardware is configured
+   correctly. There is a tool within the Driver Station App 3-dot menu called
+   the “Self-Inspect” feature that can help teams perform a quick check to
+   ensure their hardware and software is configured correctly. Depending on
+   your hardware configuration the Self-Inspect screens may be formatted
+   differently or have different options listed, so :ref:`there is a handy
+   reference on ftc-docs
+   <hardware_and_software_configuration/self_inspect/self-inspect:*FIRST* Tech Challenge Self-Inspect>`
+   that can help you understand the Self-Inspect tool. Make sure you’re ready
+   for inspection!
+
+.. dropdown:: Week of 11/27/2023 "HuskyLens Intro"
+
+   This week’s Tech Tip of the Week comes to us from Chris Johannesen, 2023
+   *FIRST* Tech Challenge Volunteer of the Year and author of many ftc-docs
+   tutorials. Have you heard of the HuskyLens and want to learn how to properly
+   connect one to a Control Hub, learn how to use it to detect Team Props, and
+   use the HuskyLens samples included with SDK 9.0.0 and newer? Chris has this
+   and more in his :ref:`HuskyLens Tutorial
+   <devices/huskylens/huskylens:HuskyLens Intro for *FIRST* Tech Challenge>` on
+   ftc-docs, check it out! 
+
+.. dropdown:: Week of 12/04/2023 "Using Encoders"
+
+   This week’s Tech Tip of the Week highlights proper encoder use within the
+   FIRST Tech Challenge SDK. Encoders are the devices that track how much a
+   motor shaft has rotated, which the vast majority of motors used in FIRST
+   Tech Challenge have built-in. The encoders on the motors can help track a
+   motor, but they can also be used to help synchronize and control motors via
+   “Motor Modes” built into the Control and Expansion Hub firmware. Did you
+   know that most programmers use these motor modes incorrectly? More on these
+   “Motor Modes” and the correct way to use them can be found on the `REV
+   Robotics Encoder documentation
+   <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`__.
+
+.. dropdown:: Week of 12/11/2023 "Using Servos with the Control/Expansion Hubs"
+
+   In case you missed it (ICYMI) there was a fantastic `question on the FTC-QA
+   <https://ftc-qa.firstinspires.org/qa/229>`__ that prompted an in-depth
+   discussion about servos in FIRST Tech Challenge - the question was in regard
+   to servo compatibility and operation/performance on a REV Control Hub, REV
+   Expansion Hub, and REV Servo Power Module. While the full explanation was
+   too much for a Q&A answer, the complete answer was provided on the
+   `FTC-Community forums
+   <https://ftc-community.firstinspires.org/t/rev-control-hub-servo-port-compatibility/858>`__.
+   If you are using servos (or want to use servos) on your robot, the full
+   answer contains an explanation of how servos are managed on a Control and
+   Expansion Hub that you cannot get anywhere else! 
+
+
