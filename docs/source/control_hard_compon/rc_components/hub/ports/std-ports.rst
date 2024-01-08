@@ -56,7 +56,7 @@ These 0.1” Header pins are used to power and control various appliances. There
 are two ports on each hub. These connectors can be used for a limited range of
 applications in FIRST Tech Challenge, such as powering powered USB hubs. For more
 information on this port please see 
-`REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#+5v-power-port-specifications>`_ and 
+`REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ and 
 :ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`.
 
 Analog Ports
