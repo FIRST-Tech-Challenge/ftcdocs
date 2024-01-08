@@ -26,6 +26,10 @@ The challenge is to maximize useful information in a small screen. The
 Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
+.. note::
+  These images show Version 7.0 of the FTC apps. As of January 2024, 
+  the required minimum is Version 9.0 for the CENTERSTAGE season.
+
 Device Pairing
 --------------
 
