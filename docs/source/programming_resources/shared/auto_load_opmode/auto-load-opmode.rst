@@ -93,7 +93,7 @@ using the preselect button on the main Driver Station activity.
 .. figure:: images/AutoQueueEnabled.png   
    :align: center
 
-   If the OopMode Auto Queue option is enabled, the Driver Station will
+   If the OpMode Auto Queue option is enabled, the Driver Station will
    automatically load the preselectTeleOp op mode.
 
 .. raw:: html

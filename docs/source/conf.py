@@ -250,7 +250,7 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # Add a timeout to linkcheck to prevent check from simply hanging on poor websites
 
-linkcheck_timeout = 30
+linkcheck_timeout = 60
 
 # Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
 
@@ -258,6 +258,15 @@ linkcheck_request_headers = {
     "https://www.autodesk.com/": {
         "Origin": "https://www.autodesk.com",
         "Referer": "https://www.autodesk.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Accept-Encoding": "gzip,deflate",
+        "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+    },
+    "https://www.hp.com/": {
+        "Origin": "https://www.hp.com",
+        "Referer": "https://www.hp.com/",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
         "Accept-Language": "en-us,en;q=0.5",
@@ -278,6 +287,7 @@ linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
    r'https://github.com/.*#',
+   r'https://wiki.dfrobot.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
    r'https://april.eecs.umich.edu/',

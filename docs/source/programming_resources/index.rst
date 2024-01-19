@@ -110,7 +110,7 @@ Learning more about using vision
    vision/vision_overview/vision-overview
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
-   
+
 Advanced Topics
 ~~~~~~~~~~~~~~~~
 
@@ -127,7 +127,7 @@ Advanced Topics for Programmers
    shared/external_libraries_blocks/external-libraries-blocks.rst
    imu/imu.rst
    shared/installing_kotlin/Installing-Kotlin
-
+   ../devices/huskylens/huskylens
    
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
