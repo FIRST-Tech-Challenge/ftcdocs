@@ -1,6 +1,16 @@
 Glossary
 =================
 
+.. admonition:: Key 
+
+    .. list-table::
+        
+        * - :bdg-primary:`GM1`
+          - :bdg-info:`<Insert Tag>`
+          
+        * - Game Manual Part 1
+          - <Insert Tag Desc>
+
 .. glossary::
     :sorted:
 
