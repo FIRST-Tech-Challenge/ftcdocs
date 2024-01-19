@@ -137,7 +137,7 @@ Enabling and Disabling Processors
 ---------------------------------
 
 This note is repeated from the previous page 2, :doc:`Vision Processor Initialization
-<../vision_processor_init/vision-processor-init>`
+</apriltag/vision_portal/vision_processor_init/vision-processor-init>`
 
 For a Processor created at Step 2, an OpMode does **not need** to enable that
 Processor at this Step 3, **VisionPortal Initialization**.
