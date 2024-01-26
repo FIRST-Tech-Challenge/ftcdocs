@@ -159,7 +159,7 @@ LiveView **in general**, available in Blocks and Java:
 
 .. code-block:: java
 
-   builder.enableCameraMonitoring(true);
+   builder.enableLiveView(true);
 
 Sample OpModes set this Builder field to ``true`` by default.
 
