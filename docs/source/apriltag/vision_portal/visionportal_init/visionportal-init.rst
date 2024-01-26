@@ -125,7 +125,7 @@ Comments are omitted here, to clearly illustrate the chaining.
        .addProcessor(myAprilTagProcessor)
        .setCameraResolution(new Size(640, 480))
        .setStreamFormat(VisionPortal.StreamFormat.YUY2)
-       .enableCameraMonitoring(true)
+       .enableLiveView(true)
        .setAutoStopLiveView(true)
        .build();
 
