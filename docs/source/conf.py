@@ -245,7 +245,7 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # Add a timeout to linkcheck to prevent check from simply hanging on poor websites
 
-linkcheck_timeout = 30
+linkcheck_timeout = 60
 
 # Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
 

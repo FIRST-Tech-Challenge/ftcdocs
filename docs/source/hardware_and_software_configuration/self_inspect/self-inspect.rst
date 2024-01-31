@@ -26,6 +26,10 @@ The challenge is to maximize useful information in a small screen. The
 Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
+.. note::
+  These images show Version 7.0 of the FTC apps. Please refer to Game Manual 
+  Part 1 for the correct allowed software system versions.
+
 Device Pairing
 --------------
 

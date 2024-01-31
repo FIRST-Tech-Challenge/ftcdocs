@@ -585,4 +585,3 @@ Just click to expand the Tech Tip you'd like to read.
        use the hamburger menu on the upper-left and select “Manage”. On this
        page you’ll find all of the same settings as you’d find on the
        webpage by logging in to the controller on a laptop!
-
