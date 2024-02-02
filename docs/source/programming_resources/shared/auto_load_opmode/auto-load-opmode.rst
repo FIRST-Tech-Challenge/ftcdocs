@@ -12,7 +12,7 @@ has completed. This feature can help a team avoid selecting the wrong op
 mode during a match.
 
 To use this feature, verify that you are using version 6.1 or greater of
-the FTC software (Robot Controller and Driver Station).
+the SDK software (Robot Controller and Driver Station).
 
 Select an autonomous program to use during your match. The preselect
 button will appear in the lower left corner of the screen. It will be
@@ -81,7 +81,7 @@ dropdown in the Blocks program editor.
 
    You can preselect a teleop op mode mode using the Blocks editor.
 
-Note that there is an option in the Settings menu of the FTC Driver
+Note that there is an option in the Settings menu of the Driver
 Station app called “OpMode Auto Queue”. If this option is enabled, then
 the Driver Station will automatically load an autonomous op mode’s
 preselected teleop op mode as designated by the ``preselectTeleOp``
@@ -93,7 +93,7 @@ using the preselect button on the main Driver Station activity.
 .. figure:: images/AutoQueueEnabled.png   
    :align: center
 
-   If the OopMode Auto Queue option is enabled, the Driver Station will
+   If the OpMode Auto Queue option is enabled, the Driver Station will
    automatically load the preselectTeleOp op mode.
 
 .. raw:: html

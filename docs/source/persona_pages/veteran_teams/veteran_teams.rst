@@ -1,16 +1,16 @@
-Veteran Teams
-=============
+Returning Teams
+===============
 
-Welcome back to FIRST Tech Challenge veteran teams! Resources have been
+Welcome back to FIRST Tech Challenge returning teams! Resources have been
 organized by type to help your team stay organized and be successful throughout
 the season. These resources are tailored to teams with experience in robotics
-looking to elevate their skills.  The technical reources are a stepping stone
+looking to elevate their skills.  The technical resources are a stepping stone
 towards industry standard certifications. Just click on the panel for the
 resource you want to explore!
 
 .. rst-class:: center
    
-**I AM A VETERAN**
+**I AM A RETURNING TEAM**
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -21,11 +21,11 @@ resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      JAVA and Android Studio
+      Java and Android Studio
 
       ^^^
 
-      Look for JAVA programming resources here.
+      Look for Java programming resources here.
 
    .. grid-item-card::
       :link: ../../cad_resources/index
@@ -33,11 +33,11 @@ resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      CAD and 3D Printing
+      CAD and Design
 
       ^^^
 
-      Look for our CAD sponsors and 3D printing resources here.
+      Look for our CAD sponsors here.
 
 
    .. grid-item-card::
@@ -66,13 +66,13 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+            .. button-ref:: ../../programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in POWERPLAY
+               TensorFlow in CENTERSTAGE
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources

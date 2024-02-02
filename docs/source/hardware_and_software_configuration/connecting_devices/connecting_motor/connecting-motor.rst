@@ -15,7 +15,7 @@ for more information).
 
 |
 
-For the examples in this wiki, FIRST recommends that the user build a
+For the examples in this tutorial, *FIRST* recommends that the user build a
 simple rig to secure the motor in place and prevent it from moving about
 during the test runs. The image above shows a Tetrix motor installed in
 a rig built with a Tetrix motor mount and some Tetrix C-channels. A gear

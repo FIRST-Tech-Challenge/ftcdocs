@@ -1,12 +1,12 @@
 Control System Introduction
 ===========================
 
-About the *FIRST* Tech Challenge
+About *FIRST* Tech Challenge
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *FIRST* Tech Challenge seeks to inspire youth to become the next
+*FIRST* Tech Challenge seeks to inspire youth to become the next
 generation of STEM leaders and innovators through participation in
-mentor-guided robotics competition. Teams who participate in the *FIRST*
+mentor-guided robotics competition. Teams who participate in *FIRST*
 Tech Challenge must build a robot that performs a variety of tasks. The
 tasks vary from season to season, and are based on a set of game rules
 that are published at the start of each season. The more tasks that a
@@ -31,7 +31,7 @@ human drivers.
 Point-to-Point Control System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *FIRST* Tech Challenge uses Android devices to control its robots.
+*FIRST* Tech Challenge uses Android devices to control its robots.
 During a competition, each team has two Android devices.
 
 .. image:: images/PointToPointControl.jpg
@@ -42,7 +42,7 @@ During a competition, each team has two Android devices.
 One Android device is mounted onto the robot and is called the *Robot
 Controller*. The Robot Controller acts as the “brains” of the robot. It
 does all of the thinking for the robot and tells the robot what to do.
-It consists of an Android device running an FTC Robot Controller app.
+It consists of an Android device running an Robot Controller app.
 There are two hardware options currently being used: REV Robotics
 Expansion Hub or the REV Robotics Control Hub.
 
@@ -52,7 +52,7 @@ The Driver Station is sort of like a remote control that you might use
 to control your television. The Driver Station allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The Driver
-Station consists of an Android device running an FTC Driver Station app.
+Station consists of an Android device running an Driver Station app.
 
 REV Robotics Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,10 +114,10 @@ autonomously during a match. Teams write “op modes” (which stand for
 of a competition robot. The Robot Controller can *execute* a selected op
 mode to perform certain tasks during a match.
 
-Teams who are participating in the *FIRST* Tech Challenge have a variety
+Teams who are participating in *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
 Teams can use a visual (“drag and drop”) programming tool called the
-*FTC Blocks Programming Tool* to create their op modes. Teams can also
-use a text-based Java tool known as the *FTC OnBot Java Programming
+*Blocks Programming Tool* to create their op modes. Teams can also
+use a text-based Java tool known as the *OnBot Java Programming
 Tool* or Google’s *Android Studio* integrated development environment
 (also known as an “IDE”) to create their op modes.

@@ -10,7 +10,7 @@ Go to the address **http://192.168.43.1:8080** (CH) or
 
 .. note:: A computer can usually connect to only one Wi-Fi network at a
    time. To follow this tutorial while programming please use the PDF version 
-   of FTC Docs. If you need internet and FTC programming together,
+   of FTC Docs. If you need internet and programming together,
    connect an Ethernet cable to an internet router **or** try adding a
    USB Wi-Fi dongle.
 
@@ -32,7 +32,7 @@ curly brace** at Line 7. Place all your code between these curly braces.
 
 The two forward-slash marks **//** indicate a **comment line**, all
 ignored by the Java software. Good programmers use lots of comments, to
-communicate with your FTC teammates and with **your future self**! You
+communicate with your teammates and with **your future self**! You
 will not remember every little detail of your programs… and will thank
 yourself later for commenting heavily!
 

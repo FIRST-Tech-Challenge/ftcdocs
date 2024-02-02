@@ -5,7 +5,7 @@ An Operating System (OS) is software that supports a computer’s basic
 functions, such as scheduling tasks, executing applications, and
 controlling peripherals. This must sometimes be updated on the **REV
 Driver Hub**. While this OS update is not specifically part of the 
-:doc:`Software Development Kit (SDK) <../index>`, the SDK requires
+:doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires
 these updates for the Driver Hub in order to perform correctly.
 
 Here are two methods for updating the Driver Hub OS: 
@@ -67,9 +67,10 @@ More info about updating the Driver Hub OS is
       to perform the updates, including the Driver Hub Operating System
       (OS) if needed.
 
-      While REV Robotics does provide a downloadable OS image file for the
-      Driver Hub, the tools available in this tutorial do not accept providing
-      this file for updating the OS.
+      .. note:: 
+         While REV Robotics does provide a downloadable OS image file for the
+         Driver Hub, the tools available in this tutorial do not accept providing
+         this file for updating the OS.
 
    4. When all is complete, “Forget” the Wi-Fi network used for internet
       access. Now the Driver Hub is ready for regular competition use.

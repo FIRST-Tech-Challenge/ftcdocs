@@ -5,7 +5,7 @@ An Operating System (OS) is software that supports a computer’s basic
 functions, such as scheduling tasks, executing applications, and
 controlling peripherals. This must sometimes be updated on the **REV
 Control Hub**. While this OS update is not specifically part of the
-:doc:`Software Development Kit (SDK) <../index>`, the SDK requires
+:doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires
 these updates for the Control Hub in order to perform correctly.
 
 Here are two methods for updating the Control Hub OS: 
@@ -45,7 +45,7 @@ More info about updating the Control Hub OS is
 .. dropdown:: Method 2 - Manage page on computer
 
    1. Connect the computer via Wi-Fi to the Control Hub. In the Chrome
-      browser, open the FTC interface.
+      browser, open the *FIRST* Tech Challenge interface.
 
    2. Click on the Manage tab, scroll down to Update Control Hub Operating
       System.

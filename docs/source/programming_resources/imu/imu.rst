@@ -7,24 +7,25 @@ Introduction
 In September 2022, REV Robotics began shipping `Control Hubs
 <https://www.revrobotics.com/rev-31-1595/>`__ with a different internal
 Inertial Measurement Unit (IMU). The new IMU chip is designated `BHI260AP
-<https://www.bosch-sensortec.com/products/smart-sensors/bhi260ap/>`__,
+<https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__,
 replacing the existing Hub’s IMU chip `BNO055
 <https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both are
 from Bosch Sensortec. An IMU can measure many aspects of device motion; this
 explanatory document focuses primarily on **rotation**.
 
-The new `Software SDK
+The `Software SDK
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__
-**version 8.1** provides a **universal interface** that supports both the
+**version 8.1** introduced a **universal interface** that supports both the
 BHI260AP and BNO055 IMU. This basic tutorial introduces some new features: 
 
 -  robot configuration allows selection of IMU type 
 -  universal classes and methods supporting both IMU types 
 -  three ways to specify Hub mounting orientation on the robot
 
-Teams using the new Control Hub IMU must use the new SDK 8.1.  Updating to SDK
-8.1 is **optional** for POWERPLAY, if you are not planning to use the new
-Control Hub IMU.
+Teams wanting to use the newer IMU are required to:
+
+- use SDK 8.1 or newer
+- update the Control Hub OS to 1.1.3 or newer.  
 
 However **all teams** are encouraged to begin using the universal IMU classes
 and methods for **new** Blocks and Java code. And, migrating **existing code**
@@ -193,7 +194,7 @@ pointing along the positive axis, the fingers curl in the direction of
    lower right corner of the Hub.*
 
 This tutorial will **not** discuss the *FIRST* Tech Challenge `Field Coordinate System
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/FTC_FieldCoordinateSystemDefinition.pdf>`__.
+<https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__.
 Your OpModes might relate robot orientation to the overall field or `‘global
 coordinates’
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__
@@ -735,7 +736,7 @@ rotations.
 
 This basic tutorial does not cover the math behind Quaternions, an advanced
 substitute for Euler Angles described above. The SDK 8.1 IMU interface supports
-the use of Quaternions, for FTC teams and third party libraries familiar with
+the use of Quaternions, for teams and third party libraries familiar with
 them.
 
 Initialize IMU
@@ -743,7 +744,7 @@ Initialize IMU
 
 This prepares the IMU for operation, using the parameters you defined.
 
-In FTC Blocks, use the first Block shown in the IMU palette, called
+In Blocks, use the first Block shown in the IMU palette, called
 ``imu.initialize``. Most teams do this during the INIT phase of their
 OpMode, before ``waitForStart()``.
 
@@ -828,7 +829,7 @@ Here's an example of reading IMU Angles:
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, create a new Variable to receive data from this green
+      In Blocks, create a new Variable to receive data from this green
       Block in the **IMU** palette:
 
       .. figure:: images/300-Blocks-get-robot-YPR-angles.png
@@ -898,7 +899,7 @@ its mounted orientation.*
 Read IMU Angles - Flexible
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As an alternative to the ``YawPitchRollAngles`` class, the FTC SDK also
+As an alternative to the ``YawPitchRollAngles`` class, the SDK also
 provides a more flexible ``Orientation`` class. This allows you to
 specify a **custom order** of axis rotations, and a choice of intrinsic
 or extrinsic axes.
@@ -964,7 +965,7 @@ Here is an example use of these functions:
 Read Angular Velocity
 ^^^^^^^^^^^^^^^^^^^^^
 
-The FTC SDK also provides values for **angular velocity**, the rate of
+The SDK also provides values for **angular velocity**, the rate of
 change (degrees or radians per second) for Roll, Pitch or Yaw.
 
 Here is an example for reading Angular Velocity:
@@ -1029,7 +1030,7 @@ Here is an example for resetting the Yaw axis:
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, this optional command is simple:
+      In Blocks, this optional command is simple:
 
       .. figure:: images/210-Blocks-reset-Yaw.png
          :align: center
@@ -1065,7 +1066,7 @@ Hub to a different Orthogonal position, still relying only on Heading.
 This* ``resetYaw()`` *exception does*\  **not**\  *apply to angular velocity
 for Yaw (Z-axis).*
 
-Here’s the official FTC Javadocs description for ``resetYaw()``: 
+Here’s the official Javadocs description for ``resetYaw()``: 
 
    | Resets the robot’s yaw angle to 0. After calling this method, the reported
    | orientation will be relative to the robot’s position when this method is
@@ -1093,14 +1094,14 @@ If ``resetYaw()`` does not meet your needs, other code-based choices
 Sample OpModes
 --------------
 
-The SDK 8.1 contains Sample OpModes demonstrating the above. 
+SDK 8.1 and newer contains Sample OpModes demonstrating the above. 
 
 .. tab-set::
 
    .. tab-item:: Blocks
       :sync: blocks
 
-      In FTC Blocks, a simple example is called ``SensorIMU``.
+      In Blocks, a simple example is called ``SensorIMU``.
 
       .. figure:: images/350-Blocks-IMU-Sample.png
          :align: center
@@ -1152,7 +1153,7 @@ The SDK 8.1 contains Sample OpModes demonstrating the above.
 SDK Resources
 -------------
 
-Advanced programmers are invited to browse the FTC `Javadocs
+Advanced programmers are invited to browse the `Javadocs
 documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ (API),
 particularly in:
 
@@ -1172,7 +1173,7 @@ this basic tutorial.
 Summary
 -------
 
-The FTC SDK 8.1 provides a universal interface that supports both the
+The SDK 8.1 provides a universal interface that supports both the
 BHI260AP and BNO055 IMU. This basic tutorial introduced some new
 features:
 
@@ -1180,10 +1181,8 @@ features:
 -  three ways to specify Hub mounting orientation on the robot
 -  new Blocks and Java methods to read data from both IMU types
 
-Teams using the new Control Hub IMU must use the new SDK 8.1.
-
-Updating to SDK 8.1 is **optional** for POWERPLAY, if you are not
-planning to use the new Control Hub IMU.
+Teams using the new Control Hub IMU must use at least SDK 8.1 AND
+must update to at least Control Hub OS 1.1.3.
 
 However **all teams** are encouraged to begin using the universal IMU
 classes and methods for **new** Blocks and Java code, and consider

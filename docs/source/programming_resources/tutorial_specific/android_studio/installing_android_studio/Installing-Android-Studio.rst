@@ -1,5 +1,5 @@
-Installing Android Studio
-=========================
+Installing Android Studio :bdg-success:`AS`
+===========================================
 
 Android Developer Website
 ~~~~~~~~~~~~~~~~~~~~~~~~~

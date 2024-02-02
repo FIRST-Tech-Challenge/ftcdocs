@@ -4,7 +4,7 @@ Configuring an External Webcam with a Control Hub
 Introduction
 ------------
 
-The FTC Game Manual Part 1 allows USB Video Class (UVC) cameras for
+The Game Manual Part 1 allows USB Video Class (UVC) cameras for
 robot vision tasks. If you are using a REV Robotics Control Hub, then
 you will need to use an external webcam, since the Control Hub does not
 include a built-in camera. This document describes how to connect,
@@ -16,10 +16,10 @@ for putting together this documentation.
 Type of External Camera
 -----------------------
 
-Theoretically, any USB Video Class (UVC) camera should work with the FTC
+Theoretically, any USB Video Class (UVC) camera should work with the 
 system. However, FIRST recommends using UVC web cameras from Logitech.
 The following cameras have been tested and calibrated to work accurately
-with FTC software:
+with SDK software:
 
 -  `Logitech C270 HD
    Webcam <https://www.logitech.com/en-us/products/webcams/c270-hd-webcam.960-000694.html>`__
@@ -68,7 +68,7 @@ Sample Op Modes
 When the configuration has been saved and activated, the external UVC
 camera can be programmed for robot vision tasks.
 
-The FTC software offers “webcam” versions of its sample Blocks and Java
+The SDK software offers “webcam” versions of its sample Blocks and Java
 Op Modes, showing how to use the external UVC camera for Vuforia or
 TensorFlow operations.
 
@@ -82,8 +82,8 @@ configuration file.
 Image Preview
 -------------
 
-The FTC apps provide camera preview for ‘stream-enabled’ Op Modes using
-Vuforia or TensorFlow Object Detection (TFOD).
+The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
+Modes using Vuforia or TensorFlow Object Detection (TFOD).
 
 On a paired Driver Station phone, with the camera connected and
 configured, select a stream-enabled Op Mode. Press the INIT button, and

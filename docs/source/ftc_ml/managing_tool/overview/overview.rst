@@ -75,7 +75,7 @@ There are 3 primary areas of the main workflow page:
    e. **Hello <NAME> Team <NUMBER>** - this link will take you to the
       ftc-scoring accounts page where you can log off when desired. This
       link also serves as the mechanism for invalidating a team
-      selection (if your account is rostered on multiple FTC teams) so
+      selection (if your account is rostered on multiple teams) so
       that a different team can be selected. See section 4.3 and section
       4.4 for more information.
 

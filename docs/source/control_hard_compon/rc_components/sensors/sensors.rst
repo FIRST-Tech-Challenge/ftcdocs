@@ -5,10 +5,10 @@ Sensors
    As per :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
    a UVC Webcam is not considered a sensor.
 
-Listed below are a couple examples of common sensors in FTC. This is not
-intended to limit or extend in anyway the scope of sensors as established in
-``<RE12>``. While the FTC SDK supports many sensors not all are natively
-supported.
+Listed below are some examples of common robot sensors. This is not
+intended to limit or extend in any way the scope of sensors as established in
+``<RE12>``. While the *FIRST* Tech Challenge SDK supports many sensors not all
+are natively supported.
 
 Examples
 ----------
@@ -23,7 +23,7 @@ Distance Sensor (Ultrasonic)
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      MB1242
+      MaxBotix I2C Ultrasonic Sensor
 
       ^^^
 
@@ -35,23 +35,6 @@ Distance Sensor (Ultrasonic)
       +++
 
       MB1242
-
-   .. grid-item-card::
-      :class-header: sd-bg-dark font-weight-bold sd-text-white
-      :class-body: sd-text-left body
-
-      RCWL-1601
-
-      ^^^
-
-      .. figure:: images/RCWL-1601.jpg
-         :align: center
-         :alt: RCWL-1601
-         :width: 50%
-
-      +++
-
-      RCWL-1601
 
 
 An Ultrasonic Distance Sensor is a device that is able to measure the distance
@@ -69,7 +52,7 @@ Distance Sensor (Optical)
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV-31-1505
+      REV 2m Distance Sensor
 
       ^^^
 
@@ -82,13 +65,13 @@ Distance Sensor (Optical)
 
       REV-31-1505
 
-An Optical Distance Sensor is a device that is able to measure the distance
+An Optical Time of Flight (ToF) Sensor is a device that is able to measure the distance
 between an object and the sensor. It does this by sending out a light beam and
 measuring the time it takes for the beam to travel to the object and back.
-Using this time and the known speed of light the distance can be calculated. Be
-mindful the way the object in question interacts with light can change the
+Using this time and the known speed of light the distance can be calculated. 
+Be aware that the way the object in question interacts with light can change the
 accuracy of the distance measurement. A transparent object like field panels
-will often provide innacurate measurements.
+will often provide inaccurate measurements.
 
 Color Sensor
 ~~~~~~~~~~~~~~
@@ -100,7 +83,7 @@ Color Sensor
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV-31-1557
+      REV Color Sensor 
 
       ^^^
 
@@ -117,7 +100,7 @@ Color Sensor
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      MR 45-2018
+      Modern Robotics Color Sensor
 
       ^^^
 
@@ -130,7 +113,7 @@ Color Sensor
 
       MR 45-2018
 
-A color sensor is a digital output device that is able to measure the color of
+A color sensor is usually a digital output device that is able to measure the color of
 an object. Most color sensors require the object in question to be relatively
 close to the sensor. 
 
@@ -144,7 +127,7 @@ Touch Sensor
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV-31-1425
+      REV Touch Sensor
 
       ^^^
 
@@ -172,7 +155,7 @@ Magnetic Limit Switch
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV-31-1462
+      REV Magnetic Limit Switch
 
       ^^^
 
@@ -190,7 +173,7 @@ proximity. This is commonly used to limit the range of movement of a mechanism
 that would cause damage if it went beyond said limit. This is done by placing a
 magnet on said mechanism which would cause the Limit Switch to activate. It is
 important to note that as a digital device this will only send out a boolean
-output and not a range. For measureing the strength of a magnetic field take a
+output and not a range. For measuring the strength of a magnetic field take a
 look at a magnetometer.
 
 IMU
@@ -203,18 +186,18 @@ IMU
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      NAV X2 Micro
+      Navigation Sensor
 
       ^^^
 
       .. figure:: images/navx2.png
          :align: center
-         :alt: NAV X2 Micro
+         :alt: navX2-Micro
          :width: 50%
 
       +++
 
-      NAV X2 Micro
+      navX2-Micro
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white
@@ -234,13 +217,13 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (IMU) is sensor that is a combination of a
-Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is device that reports
+An Interial Measurement Unit (IMU) is a sensor that is a combination of a
+Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the
 acceleration of an object in 3 dimensions. Acceleration can be thought of as
-the rate of change of speed at any given instance. A Magnetometer is a device
-that measures the strength of magnetic fields in 3 axis.  This can be used as a
+the rate of change of speed at any given instant. A Magnetometer is a device
+that measures the strength of magnetic fields in 3 axes.  This can be used as a
 compass to gain the orientation of a robot relative to the poles of the Earth,
 an absolute measurement.
 
@@ -254,7 +237,7 @@ Potentiometer
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV-31-1155
+      REV Potentiometer
 
       ^^^
 
@@ -285,9 +268,9 @@ Potentiometer
       50k Ohm Potentiometer
 
 A Potentiometer is a device that changes the output voltage based upon the
-degree to which the adjuster is turned. It is often used in FTC as a form of
+degree to which the adjuster is turned. It is often used as a form of
 measuring the absolute orientation of an axle. The manner in which the output
-voltage change is subject to change based on the Potentiometer that is used.
+voltage changes is based on the Potentiometer that is used.
 Such a device is typically attatched via the analog port of the REV Hub.
 
 

@@ -1,9 +1,15 @@
-FIRST Tech Challenge documentation
-==================================
+.. meta::
+   :title: FIRST Tech Challenge Documentation
+   :description: The official home of FIRST Tech Challenge Documentation.
+   :keywords: FTC Control System, Control Hub, TensorFlow, CENTERSTAGE, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game
 
-**FIRST Tech Challenge** is a robotics program for middle and high school
+*FIRST* Tech Challenge documentation
+====================================
+
+*FIRST* Tech Challenge is a robotics program for middle and high school
 students. It’s way more than building robots, see 
-:doc:`About the FIRST Tech Challenge <overview/ftcoverview>` to see why.
+:doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>`
+to see why.
 
 .. note::
 
@@ -11,7 +17,7 @@ students. It’s way more than building robots, see
    informational purposes only; while this documentation is intended to support 
    teams and in some way provide context to game rules, the game rules supercede 
    all documentation found here. If you have feedback about this project, 
-   please use our :doc:`feedback form <form/form>`.
+   please use our :doc:`feedback form <ftc_docs/form/form>`.
 
 .. toctree::
    :hidden:
@@ -19,7 +25,6 @@ students. It’s way more than building robots, see
 
    /overview/ftcoverview
    gracious_professionalism/gp
-   Site Feedback Form<form/form>
 
 .. toctree::
    :caption: Getting Started
@@ -36,17 +41,28 @@ students. It’s way more than building robots, see
    :maxdepth: 1
    :hidden:
 
+   game_specific_resources/blog/blog
+   tech_tips/tech-tips
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
+   Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
 
 .. toctree::
    :caption: Software Development Kit (SDK)
    :maxdepth: 1
    :hidden:
 
+   Laptop Requirements <programming_resources/laptops/laptops>
    SDK Overview <ftc_sdk/overview/index>
    Updating Components <ftc_sdk/updating/index>
+
+.. toctree::
+   :caption: Robot Building Resources
+   :maxdepth: 1
+   :hidden:
+
+   Basic ‘Bot Guide for REV <robot_building/rev/index>
 
 .. toctree::
    :caption: Control System Resources
@@ -56,7 +72,19 @@ students. It’s way more than building robots, see
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    control_hard_compon/index
    hardware_and_software_configuration/index
+   hardware_and_software_configuration/self_inspect/self-inspect
    programming_resources/index
+
+.. toctree::
+   :caption: AprilTag Resources
+   :maxdepth: 1
+   :hidden:
+
+   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
+   Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
 
 .. toctree::
    :caption: CAD Resources
@@ -64,6 +92,13 @@ students. It’s way more than building robots, see
    :hidden:
 
    Computer Aided Design (CAD) <cad_resources/index>
+
+.. toctree::
+   :caption: Manufacturing
+   :maxdepth: 1
+   :hidden:
+
+   Manufacturing Methods <manufacturing/index>
 
 .. toctree::
    :caption: Additional Tools
@@ -78,14 +113,21 @@ students. It’s way more than building robots, see
    :hidden:    
    
    faq/faqs
+   Team Complimentary Software<sponsors/software/software>
+   Team Discounts<sponsors/discounts/discounts>
 
 .. toctree::
-   :caption: Team Freebies and Discounts
+   :caption: FTC Docs
    :maxdepth: 1
    :hidden:
 
-   Team Complimentary Software<sponsors/software/software>
-   Team Discounts<sponsors/discounts/discounts>
+   Booklets<booklets/index>
+   Site Feedback Form<ftc_docs/form/form>
+   FTC Docs PDF<ftc_docs/pdf/pdf>
+   Dark Mode<ftc_docs/dark/dark>
+   Workflow<ftc_docs/workflow/workflow>
+
+.. Add Contrib Section here when added
 
 .. toctree::
    :caption: FTC Docs
@@ -101,29 +143,29 @@ students. It’s way more than building robots, see
 .. grid:: 1 2 2 4
    :gutter: 2 
 
-   .. grid-item-card:: Rookie Resources
+   .. grid-item-card:: New Team Resources
       :link: persona_pages/rookie_teams/rookie_teams
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left body
 
-      Rookie Team 
+      New Team 
    
       ^^^
 
-      Rookie Teams may not know where to start. This is the way!
+      New Teams may not know where to start. This is the way!
 
-   .. grid-item-card:: Veteran Resources
+   .. grid-item-card:: Returning Team Resources
       :link: persona_pages/veteran_teams/veteran_teams
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white 
       :class-body: sd-text-left
 
-      Veteran Team 
+      Returning Team 
    
       ^^^
 
-      Veteran Teams looking for veteran resources can look here.
+      Returning Teams looking for resources can look here.
    
    .. grid-item-card:: Coach Resources
       :link: persona_pages/coach_admin/coach_admin
@@ -186,7 +228,7 @@ students. It’s way more than building robots, see
                :outline:
                :expand:
 
-               OnBot-Java
+               OnBot Java
          
          .. div:: col-sm pl-1 pr-1
  
@@ -200,13 +242,23 @@ students. It’s way more than building robots, see
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+            .. button-ref:: ../../apriltag/vision_portal/apriltag_intro/apriltag-intro
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in POWERPLAY
+               AprilTags
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               TensorFlow
 
          .. div:: col-sm pl-1 pr-1
  
@@ -270,7 +322,7 @@ students. It’s way more than building robots, see
                :outline:
                :expand:
 
-               Hardware Config
+               Hardware Configuration
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white
@@ -286,6 +338,16 @@ students. It’s way more than building robots, see
       +++
  
       .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ftc_sdk/overview/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               About the SDK
 
          .. div:: col-sm pl-1 pr-1
       
@@ -314,16 +376,6 @@ students. It’s way more than building robots, see
                :expand:
 
                Javadoc Documentation
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ftc_sdk/overview/index
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               About the SDK
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-white

@@ -89,9 +89,9 @@ Motors
 
       REV Robotics Core Hex 12V DC Motor
     
-Motors are the primary drivers of an FTC robot. FTC Motors are 12v brushed DC motors and are enumerated in
+Motors are the primary drivers of a robot. All motors are 12v brushed DC motors and are enumerated in
 :ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. They may only be controlled
-via a REV Expansion Hub, REV Control Hub, REV SPARK Mini Motor Controller, or VEX Motor
+via a REV Expansion Hub, REV Control Hub, REV SPARKmini Motor Controller, or VEX Motor
 Controller 29. ``<RE09>``
 
 Additional Resources

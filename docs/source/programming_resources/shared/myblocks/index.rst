@@ -1,4 +1,4 @@
-Custom FTC Blocks (myBlocks)
+Custom Blocks (myBlocks)
 =============================
 
 .. toctree::

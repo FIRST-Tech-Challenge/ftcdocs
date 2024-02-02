@@ -57,6 +57,40 @@ requirement. Read details below for each product for more information.
 
    **To Access**: Check out the :doc:`Dassault Systèmes page <../../cad_resources/solidworks/solidworks>` for details.
 
+.. dropdown:: JIRA
+
+   **What**:
+
+   *  Atlassian JIRA is the #1 software development tool used by Agile teams
+
+      * Track, release, and manage world-class software
+      * Forever free for up to 10 users
+      * Get from "due" to "done"
+      * Unlimited projects and boards
+
+   **Expires**: N/A
+
+   **Access Codes**: N/A
+
+   **To Access**: Create free account on `Atlassian.com <https://www.atlassian.com/software/jira?&adgroup=1307319456925659&campaign=272205760&creative=81707524366481&device=c&keyword=jira&ds_k=jira&matchtype=e&network=o&ds_kids=p33884559131&ds_e=MICROSOFT&ds_eid=700000001738795&ds_e1=MICROSOFT>`__
+
+.. dropdown:: Miro
+
+   **What**:
+
+   *  Miro visual platform for Project Management and Ideation
+
+      * 3 editable boards
+      * Premade templates
+      * Core integrations
+      * Basic attention management
+
+   **Expires**: N/A
+
+   **Access Codes**: N/A
+
+   **To Access**: Create free account on `Miro.com <https://miro.com>`__
+
 .. dropdown:: PTC
 
    .. image:: images/ptc-logo.png
@@ -76,3 +110,20 @@ requirement. Read details below for each product for more information.
    **Access Codes**: N/A
 
    **To Access**: Check out the :doc:`PTC page <../../cad_resources/ptc/ptc>` for details.
+
+.. dropdown:: Trello
+
+   **What**:
+
+   *  Atlassian Trello brings all your tasks, teammates, and tools together
+
+      * Boards, Lists, and Cards help organize and keep team on task
+      * Free Workspaces can have 10 open boards
+      * Invite viewers to the boards
+
+   **Expires**: N/A
+
+   **Access Codes**: N/A
+
+   **To Access**: Create free account on `trello.com <https://trello.com>`__
+

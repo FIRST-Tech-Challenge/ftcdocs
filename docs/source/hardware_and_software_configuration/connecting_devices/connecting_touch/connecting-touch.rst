@@ -20,7 +20,7 @@ Note that it will take an estimated 2.5 minutes to complete this task.
 Connecting a Touch Sensor to the Hub Instructions
 -------------------------------------------------
 
-1. Connect the one end of the 4-pin JST PH cable to the REV Robotics  
+1. Connect one end of the 4-pin JST PH cable to the REV Robotics  
 Touch sensor.
 
 .. image:: images/TouchSensorStep1.jpg

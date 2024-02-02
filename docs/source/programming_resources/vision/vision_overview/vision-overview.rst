@@ -4,23 +4,24 @@ Computer Vision Overview
 Introduction
 ------------
 
-The FTC control system software has built-in support for two computer
-vision technologies:
+The *FIRST* Tech Challenge control system software has built-in support for two
+computer vision technologies:
 
-1. Vuforia -
-   `Vuforia <https://www.ptc.com/en/products/vuforia>`__
-   is PTC’s *augmented reality* technology. Teams can use Vuforia to
-   identify two-dimensional (2D) *image targets* and use these targets
-   as reference points for autonomous navigation.
+1. AprilTags -
+   :doc:`AprilTags <../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>`
+   are fiducial markers similar in design to a QR code that can be used
+   for identification and localization. AprilTags are used as reference 
+   points for autonomous navigation and for assisted navigation and
+   identification of points of interest on a game field.
 
    -  Each season, FIRST provides 2D image tagets that can be used as
       navigational reference points.
-   -  If Vuforia recognizes an image target, it provides very accurate
-      information about the robot’s location relative to the target.
+   -  If the AprilTag system recognizes an AprilTag image, it provides 
+      very accurate pose information (assuming the camera used has 
+      calibration parameters for the working resolution) about the 
+      robot’s position relative to the target.
    -  A robot can use this information to navigate autonomously on the
       field.
-   -  Special Vuforia image targets, known as *VuMarks*, can also be
-      used to encode hidden game information on the field.
 
 2. TensorFlow Lite - `TensorFlow
    Lite <https://www.tensorflow.org/lite/>`__ is a lightweight version
@@ -34,35 +35,43 @@ vision technologies:
       the identified object.
    -  A robot can use this location information to navigate to the
       recognized object.
-   -  Note that in the FTC control system, the TensorFlow software uses
-      the Vuforia software to “grab” images from the camera while it is
-      looking for or tracking game elements.
 
-      -  TensorFlow only uses Vuforia to get the camera images.
-      -  TensorFlow does all its own object detection and tracking
-         independently, without any other help from Vuforia.
+TensorFlow vs AprilTags
+-----------------------
 
-TensorFlow vs Vuforia
----------------------
-
-Vuforia Advantages
-~~~~~~~~~~~~~~~~~~
+AprilTag Advantages
+~~~~~~~~~~~~~~~~~~~
 
 -  Very efficient with a fast detection rate (estimated 15 to 20
-   detections per second).
--  Provides accurate, relative location of robot to target in field
-   coordinates. ### Vuforia Disadvantages
--  Only looks for 2D image targets.
--  Image targets must have a large amount of detail and uniqueness in
-   order to be accurate and useful.
--  Vuforia must see the image target clearly in order to calculate
-   location to the target.
+   detections per second, depending on decimation and target size).
+-  Provides accurate, relative pose information of camera to target 
+   in field coordinates.
+-  Is less prone to fluctuating or varied lighting conditions on 
+   the field.
 
-.. figure:: images/vuforiaDirectIndirect.jpg
+.. figure:: images/AprilTagTelemetry.jpg
    :align: center
+   :width: 25%
 
-   Vuforia provides accurate location info, but requires a clear view of
-   the image target.
+   AprilTag can provide accurate pose information to target
+
+
+AprilTag Disadvantages
+~~~~~~~~~~~~~~~~~~~~~~
+
+-  The entire AprilTag must be in the camera view in order to be 
+   recognized, any occlusions render the object unprocessable.
+-  AprilTags must be included in the tag library in order to 
+   process pose information for the tag (tag size and value must
+   be known to the AprilTag system in advance).
+-  Cameras require calibration data for every resolution used 
+   in order to process correct pose information.
+
+.. figure:: images/AprilTagDual.png
+   :align: center
+   :width: 75%
+
+   AprilTags not in Tag Library detected, but no pose data available
 
 TensorFlow Advantages
 ~~~~~~~~~~~~~~~~~~~~~
@@ -77,7 +86,13 @@ TensorFlow Advantages
 
 -  TensorFlow can be taught how to distinguish between similar looking
    (but still distinct) objects, such as a Stone and a Skystone from the
-   2019-2020 challenge. ### TensorFlow Disadvantages
+   2019-2020 challenge.
+
+TensorFlow Disadvantages
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Training a TensorFlow model can be daunting at first. It requires a
+   lot of understanding of the TensorFlow training metrics and behaviors.
 -  TensorFlow is computationally intensive and has a low detection rate
    (an estimated 1 to 2 detections per second).
 -  If TensorFlow recognizes an object in its field of view, it only
@@ -86,24 +101,25 @@ TensorFlow Advantages
 
 .. figure:: images/tfodIndirect.jpg
    :align: center
+   :width: 75%
 
    TensorFlow can recognize actual objects (and not just 2D image targets).
 
 .. figure:: images/tfodDual.jpg
    :align: center
+   :width: 75%
 
    TensorFlow can be taught to distinguish between similar looking objects.
 
 Which Should I Use?
 ~~~~~~~~~~~~~~~~~~~
 
-The choice of whether to use TensorFlow Lite or Vuforia will be
+The choice of whether to use TensorFlow Lite or AprilTags will be
 influenced by factors such as distance-to-target, lighting, accuracy
-required, camera placement and etc..
+required, camera placement and etc.. 
 
-In the 2019-2020 challenge, the Skystone game element can be identified
-and tracked using either technology. Vuforia requires that the 2D image
-target on the face of the Skystone be visible for detection and
-tracking. TensorFlow can also recognize Stones in the 2019-2020
-challenge in addition to the Skystone elements. Either can be used to
-identify and track Skystones during a match.
+If the object and tag can always be guaranteed to be in a specific orientation
+and the tag fully visible, AprilTags are likely the best solution. However,
+if the object does not belong to you or a tag is not able to be physically 
+placed on the object, TensorFlow can be a good solution.
+

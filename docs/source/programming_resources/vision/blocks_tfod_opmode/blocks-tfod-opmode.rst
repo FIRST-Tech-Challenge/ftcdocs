@@ -1,308 +1,290 @@
-Blocks Sample Op Mode for TensorFlow Object Detection
-========================================================
+Blocks Sample OpMode for TFOD
+=============================
 
-Creating the Op Mode
-~~~~~~~~~~~~~~~~~~~~
+Introduction
+------------
 
-You can use the sample “ConceptTensorFlowObjectDetection” as a template
-to create your own Blocks op mode that uses the TensorFlow technology to
-“look for” any game elements, and determine the relative location of any
-identified elements.
+This tutorial describes the FTC Blocks Sample OpMode for TensorFlow
+Object Detection (TFOD). This Sample, called
+“ConceptTensorFlowObjectDetection”, can recognize one or more official
+game elements and provide their visible size and position.
 
--  If you are using a **webcam** connected to the Robot Controller
-   device, select “ConceptTensorFlowObjectDetectionWebcam” as the sample
-   op mode from the dropdown list on the Create New Op Mode dialog box.
--  If you are using an Android smartphone’s **built-in camera**, select
-   “ConceptTensorFlowObjectDetection” as the sample op mode from the
-   dropdown list on the Create New Op Mode dialog box.
+For the 2023-2024 game CENTERSTAGE, the game element is a hexagonal
+white **Pixel**. The FTC SDK software contains a TFOD model of this
+object, ready for recognition. That model was created with the 
+:doc:`Machine Learning Toolchain <../../../ftc_ml/index>`.
 
-Press “OK” to create the new op mode.
+For extra points, teams may instead use their own custom TFOD models of
+**Team Props**. That option is described here:
 
-.. figure:: images/blocksConceptTensorFlowWebcam.png
+- :doc:`Blocks Custom Model Sample OpMode for TFOD <../blocks_tfod_opmode_custom/blocks-tfod-opmode-custom>`
+
+Creating the OpMode
+-------------------
+
+At the FTC Blocks browser interface, click on the “Create New OpMode”
+button to display the Create New OpMode dialog box.
+
+Specify a name for your new OpMode. Select
+“ConceptTensorFlowObjectDetection” as the Sample OpMode that will be the
+template for your new OpMode.
+
+If no webcam is configured for your REV Control Hub, the dialog box will
+display a warning message (shown here). You can ignore this warning
+message if you will use the built-in camera of an Android RC phone.
+Click “OK” to create your new OpMode.
+
+.. figure:: images/030-Create-New-OpMode.png
    :align: center
+   :width: 75%
+   :alt: Creating a new OpMode
 
-   Create an op mode with ConceptTensorFlowObjectDetection 
-   as its template.
+   Creating a New OpMode
 
-Your new op mode should appear in the editing pane of the Blocks
-Development Tool screen.
+The new OpMode should appear in edit mode in your browser.
 
-.. figure:: images/005_Blocks_TFOD_webcam_open.png
+.. figure:: images/040-Sample-OpMode.png
    :align: center
+   :width: 75%
+   :alt: Sample OpMode
 
-   Your newly created op mode will have the ConceptTensorFlowObjectDetection
-   blocks included.
+   Sample OpMode
 
-Initializing the System
-~~~~~~~~~~~~~~~~~~~~~~~
+By default, the Sample OpMode assumes you are using a webcam, configured
+as “Webcam 1”. If you are using the built-in camera on your Android RC
+phone, change the USE_WEBCAM Boolean from ``true`` to ``false`` (green
+arrow above).
 
-Let’s take a look at the initial blocks in the op mode. The first block
-in the op mode (excluding the comment blocks) initializes the Vuforia
-library on the Android Robot Controller. This is needed because the
-TensorFlow Lite library will receive image data from the Vuforia
-library. Also, in the screenshot below, the Vuforia system will use an
-externally connected webcam named “Webcam 1” (which should match the
-camera name in your robot’s configuration file).
+Adjusting the Zoom Factor
+-------------------------
 
-.. figure:: images/010_Blocks_TFOD_webcam_init.png
+If the object to be recognized will be more than roughly 2 feet (61 cm)
+from the camera, you might want to set the digital zoom factor to a
+value greater than 1. This tells TensorFlow to use an artificially
+magnified portion of the image, which may offer more accurate
+recognitions at greater distances.
+
+.. figure:: images/150-setZoom.png
    :align: center
+   :width: 75%
+   :alt: Setting Zoom
 
-   Initialize the Vuforia and TensorFlow libraries.
+   Setting the Zoom Factor
 
-You can initialize both the Vuforia and the TensorFlow libraries in the
-same op mode. This is useful, for example, if you would like to use the
-TensorFlow library to recognize the Duck and then use the Vuforia
-library to help the robot autonomously navigate on the game field.
+Pull out the **``setZoom``** Block, found in the toolbox or palette
+called “Vision”, under “TensorFlow” and “TfodProcessor” (see green oval
+above). Change the magnification value as desired (green arrow).
 
-Note that in this example the ObjectTracker parameter is set to true for
-this block, so an *object tracker* will be used, in addition to the
-TensorFlow interpreter, to keep track of the locations of detected
-objects. The object tracker *interpolates* object recognitions so that
-results are smoother than they would be if the system were to solely
-rely on the TensorFlow interpreter.
+On REV Control Hub, the “Vision” menu appears only when the active robot
+configuration contains a webcam, even if not plugged in.
 
-Also note that the Minimum Confidence level is set to 70%. This means
-that the TensorFlow library needs to have a confidence level of 70% or
-higher in order to consider an object as being detected in its field of
-view. You can adjust this parameter to a higher value if you would like
-the system to be more selective in identifying an object.
+This ``setZoom`` Block can be placed in the INIT section of your OpMode,
 
-The confidence level for a detected target will be displayed near the
-bounding box of the identified object (when the object tracker is
-enabled) on the Robot Controller. For example, a value of “0.92”
-indicates a 92% confidence that the object has been identified
-correctly.
+-  immediately after the call to the ``initTfod`` Function, or
+-  as the very last Block inside the ``initTfod`` Function.
 
-When an object is identified by the TensorFlow library, the op mode can
-read the “Left”, “Right”, “Top” and “Bottom” values associated with the
-detected object. These values correspond to the location of the left,
-right, top and bottom boundaries of the detection box for that object.
-These values are in pixel coordinates of the image from the camera.
+This Block is **not** part of the Processor Builder pattern, so the Zoom
+factor can be set to other values during the OpMode, if desired.
 
-The origin of the coordinate system is in the upper left-hand corner of
-the image. The horizontal (x) coordinate value increases as you move
-from the left to the right of the image. The vertical (y) coordinate
-value increases as you move from the top to the bottom of the image.
+The “zoomed” region can be observed in the DS preview (Camera Stream)
+and the RC preview (LiveView), surrounded by a greyed-out area that is
+**not evaluated** by the TFOD Processor.
 
-.. figure:: images/landscapeCoordinate.png
+Other Adjustments
+-----------------
+
+The Sample OpMode uses a default **minimum confidence** level of 75%.
+The TensorFlow Processor needs to have a confidence level of 75% or
+higher, to consider an object as “recognized” in its field of view.
+
+You can see the object name and actual confidence (as a **decimal**,
+e.g. 0.75) near the Bounding Box, in the Driver Station preview (Camera
+Stream) and Robot Controller preview (Liveview).
+
+.. figure:: images/160-min-confidence.png
    :align: center
+   :width: 75%
+   :alt: Setting Minimum Confidence
 
-   The origin of the image coordinate system is located in upper left hand
-   corner.
+   Setting the Minimum Confidence
 
-In the landscape image above, the approximate coordinate values for the
-Left, Top, Right, and Bottom boundaries are 455, 191, 808, and 547
-respectively (pixel coordinates). The width and height for the landscape
-image above is 1280 and 720 respectively.
+Pull out the **``setMinResultConfidence``** Block, found in the toolbox
+or palette called “Vision”, under “TensorFlow” and “TfodProcessor”.
+Adjust this parameter to a higher value if you would like the processor
+to be more selective in identifying an object.
 
-Activating TensorFlow
-~~~~~~~~~~~~~~~~~~~~~
+Another option is to define, or clip, a **custom area for TFOD
+evaluation**, unlike ``setZoom`` which is always centered.
 
-In this example, the op mode activates the TensorFlow object detector
-before waiting for the start command from the Driver Station. This is
-done so that the user can access the “Camera Stream” preview from the
-Driver Station menu while it waits for the start command. Also note that
-in this example, the op mode does not activate the Vuforia tracking
-feature, it only activates TensorFlow object detection. If you want to
-incorporate Vuforia image detection and tracking you will also need to
-activate (and later deactivate when you are done) the Vuforia tracking
-feature.
-
-.. figure:: images/020_Blocks_TFOD_webcam_activate.png
+.. figure:: images/170-clipping-margins.png
    :align: center
+   :width: 75%
+   :alt: Setting Clipping Margins
 
-   Activate TensorFlow Object Detection.
+   Setting Clipping Margins
 
-Setting the Zoom Factor
-~~~~~~~~~~~~~~~~~~~~~~~
+From the same Blocks palette, pull out the **``setClippingMargins``**
+Block. Adjust the four margins as desired, in units of pixels.
 
-When TensorFlow receives an image from the robot’s camera, the library
-downgrades the resolution of the image (presumably to achieve a higher
-detection rate). As a result, if a target is at a distance of around 24”
-(61cm) or more, the detection accuracy of the system tends to diminish.
-This degradation can occur, even if you have a very accurate inference
-model.
+These Blocks can be placed in the INIT section of your OpMode,
 
-You can specify a zoom factor in your op mode to offset the effect of
-this automatic scaling by the TensorFlow library. If you specify a zoom
-factor, the image will be cropped by this factor and this artificially
-magnified image will be passed to the TensorFlow library. The net result
-is that the robot is able to detect and track an object at a
-significantly larger distance. The webcams and built-in Android cameras
-that are typically used by FTC teams have high enough resolution to
-allow TensorFlow to “see” an artificially magnified target clearly.
+-  immediately after the call to the ``initTfod`` Function, or
+-  as the very last Blocks inside the ``initTfod`` Function.
 
-.. figure:: images/030_Blocks_TFOD_webcam_zoom.png
+As with ``setZoom``, these Blocks are **not** part of the Processor
+Builder pattern, so they can be set to other values during the OpMode,
+if desired.
+
+Command Flow in this Sample
+---------------------------
+
+After the ``waitForStart`` Block, this OpMode contains the main program
+loop:
+
+.. figure:: images/180-main-loop.png
    :align: center
+   :width: 75%
+   :alt: Main Loop
 
-   Set Zoom Factor
+   OpMode Main Loop
 
-If a zoom factor has been set, then the Camera Stream preview on the
-Driver Station will show the cropped area that makes up the artificially
-magnified image.
+This loop repeatedly calls a Blocks Function called
+**``telemetryTfod``**. That Function is the heart of the OpMode, seeking
+and evaluating recognized TFOD objects, and displaying DS Telemetry
+about those objects. It will be discussed below, in the next section.
 
-.. figure:: images/035_TFOD.png
+The main loop also allows the user to press the ``Dpad Down`` button on
+the gamepad, to temporarily stop the streaming session. This
+``.stopStreaming`` Block pauses the flow and processing of camera
+frames, thus **conserving CPU resources**.
+
+Pressing the ``Dpad Up`` button (``.resumeStreaming``) allows the
+processing to continue. The on-and-off actions can be observed in the RC
+preview (LiveView), described further below.
+
+These two commands appear here in this Sample OpMode, to spread
+awareness of one tool for managing CPU and bandwidth resources. The FTC
+VisionPortal offers over 10 such controls, :ref:`described here 
+<apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth:visionportal cpu and bandwidth>`.
+
+Processing TFOD Recognitions
+----------------------------
+
+The Function called **``telemetryTfod``** is the heart of the OpMode,
+seeking and evaluating recognized TFOD objects, and displaying DS
+Telemetry about those objects.
+
+.. figure:: images/190-telemetryTfod.png
    :align: center
-   
-   Camera stream preview indicating magnified area (at a distance of about 4 feet or 1.2 meters).
+   :width: 75%
+   :alt: Telemetry TFOD
 
+   Telemetry TFOD
 
-Iterating and Processing List of Recognized Objects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The first Block uses the TFOD Processor to gather and store all
+recognitions in a List, called ``myTfodRecognitions``.
 
-The op mode will then iterate until a Stop command is received. At the
-beginning of each iteration, the op mode will check with the object
-detector to see how many objects it recognizes in its field of view. In
-the screenshot below, the variable “recognitions” is set to a list of
-objects that were recognized using the TensorFlow technology.
+The green “FOR Loop” iterates through that List, handling each item, one
+at a time. Here the “handling” is simply displaying certain TFOD fields
+to DS Telemetry.
 
-.. figure:: images/040_Blocks_TFOD_webcam_loop.png
+For competition, you want to do more than display Telemetry, and you
+want to exit the main loop at some point. These code modifications are
+discussed in another section below.
+
+Testing the OpMode
+------------------
+
+Click the “Save OpMode” button, then run the OpMode from the Driver
+Station. The Robot Controller should use the CENTERSTAGE TFOD model to
+recognize and track the white Pixel.
+
+For a preview during the INIT phase, touch the Driver Station’s 3-dot
+menu and select **Camera Stream**.
+
+.. figure:: images/200-Sample-DS-Camera-Stream.png
    :align: center
+   :width: 75%
+   :alt: Sample DS Camera Stream
 
-   The op mode gets a list of recognized objects with each iteration of the
-   while loop.
+   Sample DS Camera Stream
 
-If the list is empty (i.e., if no objects were detected) the op mode
-sends a telemetry message to the Driver Station indicating that no items
-were detected.
+Camera Stream is not live video; tap to refresh the image. Use the small
+white arrows at lower right to expand or revert the preview size. To
+close the preview, choose 3-dots and Camera Stream again.
 
-If the list is not empty, then the op mode iterates through the list and
-calls a function “displayInfo” to display information via telemetry
-about each detected object.
+After touching the DS START button, the OpMode displays Telemetry for
+any recognized Pixel(s):
 
-Modifying the Sample Op Mode to Indicate Duck Detected
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This sample op mode uses TensorFlow blocks for the Freight Frenzy
-season. Let’s modify the op mode so it will set a variable to indicate
-whether a Duck was detected, and show a Telemetry message accordingly.
-Using the Blocks editor, under Variables, create a new variable
-“isDuckDetected”. Initialize it to “false”, just before the “for each
-item” block that will examine the list of recognitions.
-
-.. figure:: images/050_Blocks_TFOD_webcam_variable.png
+.. figure:: images/210-Sample-DS-Telemetry.png
    :align: center
+   :width: 75%
+   :alt: Sample DS Telemetry
 
-   Reset the variable to false with each cycle of the “while” loop.
+   Sample DS Telemetry
 
-Next, use the Blocks editor to modify the function “displayInfo” as
-follows. If the label reads “Duck” then set the variable isDuckDetected
-to “true”, and send a telemetry message to indicate a Duck has been
-recognized. Otherwise, or ELSE, set the variable to “false” and don’t
-display the message.
+The above Telemetry shows the label name, and TFOD confidence level. It
+also gives the **center location** and **size** (in pixels) of the
+Bounding Box, which is the colored rectangle surrounding the recognized
+object.
 
-.. figure:: images/060_Blocks_TFOD_webcam_detected.png
+The pixel origin (0, 0) is at the top left corner of the image.
+
+Before and after touching DS START, the Robot Controller provides a
+video preview called **LiveView**.
+
+.. figure:: images/240-Sample-RC-LiveView.png
    :align: center
+   :width: 75%
+   :alt: Sample RC LiveView
 
-   Set variable and show message if Duck detected.
+   Sample RC LiveView
 
-Save the op mode and re-run it. The op mode should display the new
-message, if a Duck is detected. Note that if TensorFlow detects multiple
-objects, the order of the detected objects can change with each
-iteration of your op mode.
+For Control Hub (with no built-in screen), plug in an HDMI monitor or
+learn about ``scrcpy`` (https://github.com/Genymobile/scrcpy). The
+above image is a LiveView screenshot via ``scrcpy``.
 
-.. figure:: images/070_TFOD-Sample-Webcam-DS-Telemetry.png
+If you don’t have a physical Pixel on hand, try pointing the camera at
+this image:
+
+.. figure:: images/300-Sample-Pixel.png
    :align: center
+   :width: 75%
+   :alt: Sample Pixel
 
-   The modified op mode should show a telemetry message if the Duck is detected.
+   Sample Pixel
 
-You can continue modifying this sample op mode, to suit your team’s
-autonomous strategy. For example, you might want to store (in a
-Variable) which Barcode position had the Duck.
+Modifying the Sample
+--------------------
 
-Also, you must decide how the loop should actually stop repeating,
-assuming the Duck’s position is discovered. (It now loops until Stop is
-pressed.) For example, the loop could stop after the camera has viewed
-all 3 Barcode positions. Or, if the camera’s view includes more than one
-Barcode position, perhaps the Duck’s bounding box location can provide
-the info you need.
+In this Sample OpMode, the main loop ends only upon touching the DS Stop
+button. For competition, teams should **modify this code** in at least
+two ways:
 
-In any case, when the op mode exits the loop, your new Variable should
-hold the location of the Duck, which tells you the preferred scoring
-level on the Alliance Shipping Hub. You op mode can continue running,
-using that information.
+-  for a significant recognition, take action or store key information –
+   inside the FOR loop
 
-Important Note Regarding Image Orientation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  end the main loop based on your criteria, to continue the OpMode
 
-If you are using a webcam with your Robot Controller, then the camera
-orientation is fixed in landscape mode. However, if you are using a
-smartphone camera, the system will interpret images based on the phone’s
-orientation (Portrait or Landscape) at the time that the TensorFlow
-object detector is created and initialized.
+As an example, you might set a Boolean variable ``isPixelDetected`` to
+``true``, if a significant recognition has occurred.
 
-Note that for Freight Frenzy, the default TensorFlow inference model is
-optimized for a camera in landscape mode. This means that it is better
-to orient your camera in landscape mode if you use this default
-inference model because you will get more reliable detections.
+You might also evaluate and store which randomized Spike Mark (red or
+blue tape stripe) holds the white Pixel.
 
-If you execute the TensorFlowObjectDetection ``.initialize`` block while
-the phone is in Portrait mode, then the images will be processed in
-Portrait mode.
+Regarding the main loop, it could end after the camera views all three
+Spike Marks, or after your code provides a high-confidence result. If
+the camera’s view includes more than one Spike Mark position, perhaps
+the white Pixel’s **Bounding Box** size and location could be useful.
+Teams should consider how long to seek an acceptable recognition, and
+what to do otherwise.
 
-.. figure:: images/tfodPortrait.png
-   :align: center
+In any case, the OpMode should exit the main loop and continue running,
+using any stored information.
 
-   If you initialize the detector in Portrait mode, then the images are
-   processed in Portrait mode.
+Best of luck this season!
 
-The “Left” and “Right” values of an object’s bounding box correspond to
-horizontal coordinate values, while the “Top” and “Bottom” values of an
-object’s bounding box correspond to vertical coordinate values.
+============
 
-.. figure:: images/tfodBoundaries.png
-   :align: center
+Questions, comments and corrections to westsiderobotics@verizon.net
 
-   The “Left” and “Top” boundaries of a detection box when the image is in
-   Portrait mode.
-
-If you want to use your smartphone in Landscape mode, then make sure
-that your phone is in Landscape mode when the TensorFlow object detector
-is initialized. You may find that the Landscape mode is preferable for
-this season’s game since it offers a wider field of view.
-
-.. figure:: images/tfodLandscape.png
-   :align: center
-
-   The system can also be run in Landscape mode.
-
-If the phone is in Landscape mode when the object detector is
-initialized, then the images will be interpreted in Landscape mode.
-
-.. figure:: images/tfodBoundariesLandscape.png
-   :align: center
-
-   The “Left” and “Top” boundaries of a detection box when the image is in Landscape mode.
-
-Note that Android devices can be locked into Portrait Mode so that the
-screen image will not rotate even if the phone is held in a Landscape
-orientation. If your phone is locked in Portrait Mode, then the
-TensorFlow object detector will interpret all images as Portrait images.
-If you would like to use the phone in Landscape mode, then you need to
-make sure your phone is set to “Auto-rotate” mode. In Auto-rotate mode,
-if the phone is held in a Landscape orientation, then the screen will
-auto rotate to display the contents in Landscape form.
-
-.. figure:: images/autorotate.png
-   :align: center
-
-   Auto-rotate must be enabled in order to operate in Landscape mode.
-
-Deactivating TensorFlow
-~~~~~~~~~~~~~~~~~~~~~~~
-
-When the example op mode is no longer active (i.e. when the user has
-pressed the square Stop button on the Driver Station) the op mode will
-attempt to deactivate the TensorFlow library before it’s done. It’s
-important to deactivate the library to free up system resources.
-
-.. figure:: images/080_Blocks_TFOD_webcam_deactivate.png
-   :align: center
-
-   Deactivate TensorFlow
-
-
-
-===================
-
-Updated 10/20/21

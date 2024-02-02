@@ -1,3 +1,8 @@
+.. meta::
+   :title: CAD Resources
+   :description: Computer Aided Design Resources for the FIRST Tech Challenge
+   :keywords: FTC Docs, FIRST Tech Challenge, CAD, Resources
+
 CAD Resources
 =============
 
@@ -15,7 +20,7 @@ to run. Some CAD suppliers also provide cloud-based tools, which move the proces
 onto cloud servers - these solutions often merely require an internet-connected computer 
 with a web browser.
 
-Here are a few tools commonly used by FTC teams:
+Here are a few tools commonly used by teams:
 
 Software for Beginners
 
@@ -27,7 +32,7 @@ Software for Intermediate Users
 *  :doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)
 *  :doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to *FIRST* teams) (cloud)
 *  :doc:`PTC OnShape <ptc/ptc>` (Free to *FIRST* teams) (Cloud)
-*  `Trimble SketchUp <https://www.sketchup.com/>`__ (Free plans available) (desktop)
+*  `Trimble SketchUp <https://sketchup.com/>`__ (Free plans available) (desktop)
  
 Software for Professional Users
 

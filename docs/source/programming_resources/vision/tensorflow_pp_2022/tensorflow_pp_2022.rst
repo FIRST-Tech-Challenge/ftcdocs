@@ -20,7 +20,7 @@ POWERPLAY presented by Raytheon Technologies** challenge.
    This season’s TFOD model can recognize Signal image elements
 
 TensorFlow Object Detection (TFOD) has been integrated into the control system
-software to identify these Signal images during a match. The FTC SDK (SDK
+software to identify these Signal images during a match. The SDK (SDK
 version 8.0) contains TFOD Sample Op Modes and Detection Models that can
 recognize and differentiate between the Signal images: Bolt (green lightning
 bolt), Bulb (4 yellow light bulbs), and Panel (purple solar panels).
@@ -36,7 +36,7 @@ receive technical support using the Machine Learning Toolchain through the
 
 .. note::
    TensorFlow Lite runs on Android 6.0 (Marshmallow) or higher, a requirement met
-   by all currently allowed FTC devices. If you are a Blocks programmer using an
+   by all currently allowed devices. If you are a Blocks programmer using an
    older/disallowed Android device that is not running Marshmallow or higher, TFOD
    Blocks will automatically be missing from the Blocks toolbox or design palette.
 
@@ -62,7 +62,7 @@ Challenge software or to use the game-specific default model provided. As noted
 above, the *FIRST* Machine Learning Toolchain is a streamlined tool for training
 your own TFOD models. 
 
-The FIRST Tech Challenge software (FTC Robot Controller App and Android Studio
+The FIRST Tech Challenge software (Robot Controller App and Android Studio
 Project) includes sample op modes (Blocks and Java versions) that demonstrate
 how to use **the default inference model**.  These tutorials show how to use
 the sample op modes, using examples from previous *FIRST* Tech Challenge seasons, but demonstrate
@@ -237,18 +237,18 @@ be present on a gray mat tile within the training frames. The model happened to
 gray mat tile had a significantly reduced detection rate.  
 
 In POWERPLAY, the white sticker background is always present, except the white
-color of the background can be unintentionally altered based on the lighting
+color of the background can be unintentionally altered based on the lighting 
 being used in the room; warmer lights cause the white to turn yellow or orange,
 cooler lights cause the white to turn more blue, and glare causes a gradient of
 colors to appear across the white background. Sometimes algorithms can adjust
 the color scheme to provide a "white balance" to adjust the colors correctly,
 but requiring such tools and adjustments might be beyond the grasp for the
-average user. (See :ref:`White Balance Control
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control>` and :ref:`White Balance Control Mode
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control mode>` for more information about adjusting white balance
-programmatically within the FTC SDK's Java language libraries). 
+average user. (See :doc:`White Balance Control
+</programming_resources/vision/webcam_controls/white_balance/control/control>`
+and :doc:`White Balance Control Mode
+</programming_resources/vision/webcam_controls/white_balance/mode/mode>` 
+for more information about adjusting white balance
+programmatically within the SDK's Java language libraries). 
 
 In order to get TensorFlow to become less sensitive to the need for "white
 balance" within the frame, and ignore the white altogether, a suite of
@@ -315,9 +315,9 @@ conditions used to train the model.
 
 It is recommended that teams choose a background that is more resistant to
 being "altered" by lighting conditions, and doesn't exist anywhere else on the
-game field, or try adjusting the :ref:`White Balance
-<programming_resources/vision/webcam_controls/webcam-controls:white balance
-control>` via programming if you're a Java language user.
+game field, or try adjusting the :doc:`White Balance Control
+</programming_resources/vision/webcam_controls/white_balance/control/control>` 
+via programming if you're a Java language user.
 
 Selecting Images For Signal Sleeves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -384,10 +384,8 @@ top which creates a very unique pattern for TensorFlow to recognize. Be creative
 Using Custom TensorFlow models in Blocks and Java
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructions on using Custom TensorFlow Models in 
-:ref:`Blocks <ftc_ml/implement/blocks/blocks:blocks>`,  
-:ref:`OnBot-Java <ftc_ml/implement/obj/obj:onbot java (obj)>`, 
-and :ref:`Android Studio <ftc_ml/implement/android_studios/android-studios:android studio>` can be found
+Instructions on using Custom TensorFlow Models in Blocks, OnBot-Java, 
+and Android Studio can be found
 in the :doc:`FTC-ML documentation <../../../ftc_ml/index>`, in the 
 :doc:`Implementing in Robot Code <../../../ftc_ml/implement/index>` section.
 

@@ -3,8 +3,8 @@ name: "Pull Request Docs Check"
 on: 
 - pull_request
 
-jobs:
-  build:
+jobs:           
+  build-pdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
@@ -25,19 +25,10 @@ jobs:
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
         
-      - name: Build site
+      - name: Build PDF
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
-        run: make -C docs/ official
-          
-      - name: Archive Site
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'docs/build/html'
-          retention-days: 7
-          
-      - name: Create Tag File
-        run: touch "FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}"
+        run: make -C docs/ latexpdf
         
       - name: Archive PDF
         env:
@@ -45,17 +36,47 @@ jobs:
           ID:  ${{ github.run_attempt }}
         uses: actions/upload-artifact@v3
         with:
-          name: FTCDOCS
+          name: FTCDOCS-PDF
           path: |
             docs/build/latex/*.pdf
             FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }} 
           if-no-files-found: error
-          retention-days: 7
+
+  build-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
+        
+      - name: Refresh Packages
+        run: sudo apt-fast -y update
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+        
+      - name: Build Site
+        env:
+          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+        run: make -C docs/ html
+          
+      - name: Archive Site
+        uses: actions/upload-artifact@v3
+        with:
+          name: FTCDOCS-HTML
+          path: 'docs/build/html'
+          if-no-files-found: error
+          
   spelling-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository  
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         
       - uses: reviewdog/action-misspell@v1
         with:
@@ -78,7 +99,7 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: link-check
-        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n"
+        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q"
 
       - name: Archive Log
         if: ${{ failure() }}
@@ -102,9 +123,8 @@ jobs:
         with:
           python-version: 3.8
 
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
       - name: image-check
         run: make -C docs/ imagecheck
-
-
-
-      

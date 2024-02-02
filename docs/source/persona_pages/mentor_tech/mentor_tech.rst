@@ -16,7 +16,7 @@ Just click on the panel for the resource you want to explore!
    :gutter: 2
 
    .. grid-item-card::
-      :link: ../../programming_resources/index
+      :link: ../../programming_resources/shared/control_system_intro/The-FTC-Control-System
       :link-type: doc
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body
@@ -89,13 +89,13 @@ Just click on the panel for the resource you want to explore!
       
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
+            .. button-ref:: ../../programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in POWERPLAY
+               TensorFlow in CENTERSTAGE
          
    .. grid-item-card::
       :link: ../../cad_resources/index
@@ -103,9 +103,9 @@ Just click on the panel for the resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      CAD and 3D Printing
+      CAD and Design
 
       ^^^
 
-      Look for our CAD sponsors and 3D printing resources here.
+      Look for our CAD sponsors here.
    
