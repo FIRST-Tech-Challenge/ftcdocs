@@ -1,3 +1,4 @@
 {
-    "makefile.makefilePath": "docs/"
+    "makefile.makefilePath": "docs/",
+    "iis.configDir": ""
 }
