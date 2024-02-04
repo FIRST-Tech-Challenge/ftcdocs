@@ -1,0 +1,17 @@
+{
+	"name": "Dockerfile",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"lextudio.restructuredtext",
+				"lextudio.restructuredtext-pack",
+				"trond-snekvik.simple-rst",
+				"ms-python.python"
+			]
+		}
+	}
+}

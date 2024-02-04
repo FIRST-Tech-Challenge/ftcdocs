@@ -23,6 +23,9 @@ help:
 
 .PHONY: help Makefile
 
+setup:
+	python -m pip install -r requirements.txt
+
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
 
