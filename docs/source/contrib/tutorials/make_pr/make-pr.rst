@@ -80,3 +80,6 @@ Creating a Pull Request
 
 Once you have pushed your changes, you can create a pull request. A pull request is a collection of commits that are being requested to be merged back to the main repository. 
 This is done by going to the repository on GitHub and clicking the "New pull request" button. You will then be able to select the branch that you want to merge into the main branch. 
+
+Example
+-------
