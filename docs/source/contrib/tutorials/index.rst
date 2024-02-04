@@ -6,5 +6,7 @@ in FTC Docs.
 
 .. toctree::
     
+    setup/setup
     make_page/make-page
+    make_pr/make-pr
 

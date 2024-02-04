@@ -126,17 +126,7 @@ to see why.
    FTC Docs PDF<ftc_docs/pdf/pdf>
    Dark Mode<ftc_docs/dark/dark>
    Workflow<ftc_docs/workflow/workflow>
-
-.. Add Contrib Section here when added
-
-.. toctree::
-   :caption: FTC Docs
-   :maxdepth: 1
-   :hidden:
-
    Contributing to FTC Docs<contrib/index>
-
-.. rst-class:: center
    
 **I AM A...**
 

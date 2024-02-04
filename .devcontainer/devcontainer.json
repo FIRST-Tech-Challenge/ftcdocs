@@ -1,15 +1,13 @@
 {
 	"name": "Dockerfile",
-	"build": {
-		"context": "..",
-		"dockerfile": "Dockerfile"
-	},
+	"image": "uvidyadharan/ftcdocs:0.1",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"lextudio.restructuredtext",
 				"lextudio.restructuredtext-pack",
-				"trond-snekvik.simple-rst"
+				"trond-snekvik.simple-rst",
+				"ms-python.python"
 			]
 		}
 	}

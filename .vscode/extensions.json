@@ -2,6 +2,7 @@
     "recommendations": [
         "lextudio.restructuredtext",
         "lextudio.restructuredtext-pack",
-        "trond-snekvik.simple-rst"
+        "trond-snekvik.simple-rst",
+        "ms-python.python"
     ]
 }

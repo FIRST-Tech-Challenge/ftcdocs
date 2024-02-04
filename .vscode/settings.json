@@ -1,4 +1,5 @@
 {
     "makefile.makefilePath": "docs/",
-    "iis.configDir": ""
+    "iis.configDir": "",
+    "esbonio.sphinx.confDir": ""
 }
