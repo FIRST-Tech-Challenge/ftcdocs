@@ -33,6 +33,9 @@ jobs:
           with:
             images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
+        - name: Sym link the Dockerfile
+          run: ln -s .devcontainer/Dockerfile Dockerfile
+
         - name: Build and push Docker image
           uses: docker/build-push-action@v5
           with:
