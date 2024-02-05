@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - QOL
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
@@ -13,6 +12,7 @@ env:
 jobs:
   build-push:
     runs-on: ubuntu-latest
+    if: github.repository == 'FIRST-Tech-Challenge/ftcdocs'
     permissions:
       contents: read
       packages: write
