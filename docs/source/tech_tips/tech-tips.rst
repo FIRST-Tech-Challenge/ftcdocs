@@ -379,4 +379,209 @@ Just click to expand the Tech Tip you'd like to read.
    answer contains an explanation of how servos are managed on a Control and
    Expansion Hub that you cannot get anywhere else! 
 
+.. dropdown:: Week of 12/18/2023 "Automatic Auto to Driver Control Program Switching"
 
+   Did you know that it’s possible for the Driver Station to 
+   :ref:`automatically load your Driver Controlled OpMode
+   <programming_resources/shared/auto_load_opmode/auto-load-opmode:Automatically
+   Loading a Driver Controlled Op Mode>` as soon as your Autonomous OpMode has
+   completed? Lots of teams go into panic mode immediately after Autonomous has
+   completed - they’re trying to navigate and select the proper Driver
+   Controlled OpMode, Initialize, and Run the OpMode while also picking up
+   their gamepads and preparing to drive. Skip all that panic and confusion and
+   let the Driver Station queue up your Driver Controlled OpMode for you! This
+   week’s Tech Tip of the Week focuses on how to :ref:`designate a Driver-Controlled
+   OpMode <programming_resources/shared/auto_load_opmode/auto-load-opmode:Automatically
+   Loading a Driver Controlled Op Mode>` that is to be loaded once an Autonomous OpMode has completed. You
+   still have to initialize and run the OpMode at the proper time, but at least
+   the Driver Station can do the heavy lifting of swapping and loading the
+   OpMode for you!
+
+.. dropdown:: Week of 12/25/2023 "Protect your Robot with a Password"
+
+   This week’s Tech Tip of the Week is a gentle reminder that strong passwords
+   and regular backups make for good competition. Even when competing at a
+   Scrimmage before your competition season starts, be sure to change your
+   Wi-Fi password on your Control Hub from the default password of “password”
+   to something only your team knows. Anyone who knows your password can easily
+   gain access to your robot and change or delete your programs, change
+   important settings, or even force your controller to revert to factory
+   settings! And with that said, it’s ALWAYS a good idea to keep backups of
+   your programs - it’s especially important to regularly 
+   :ref:`download all Blocks
+   <programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes:downloading an opmode>`
+   and OnBot Java programs that are normally only stored on the robot in case
+   anything happens!
+
+.. dropdown:: Week of 01/08/2024 "OnBot Java Backups"
+
+   This week’s Tech Tip of the Week is for all those who program in OnBot Java.
+   Have you ever been worried that your OnBot Java programs could suddenly
+   magically vanish? Has it ever happened to you? One lesser-known feature of
+   OnBot Java is automatic backups - each time you “compile all” in OnBot Java
+   the system saves a copy of all source code, up to 30 compilations deep. In
+   order to find these backups, you must connect to the Control Hub via USB
+   from a Windows machine and navigate to the “FIRST” folder on the device’s
+   internal storage. In this folder you’ll find a “java” folder, and within
+   that is the “srcBackups” folder. Here you’ll find zip files containing each
+   backup with a time/date stamp. Happy Programming!
+
+.. dropdown:: Week of 01/22/2024 "REV Grounding Strap"
+
+   This week’s Tech Tip of the Week is dedicated to the `REV Resistive
+   Grounding Strap <https://www.revrobotics.com/rev-31-1269/>`__; the REV
+   Resistive Grounding Strap (RGS) is the only FTC-legal means of providing a
+   grounding option for your robot frame or connected structural elements.
+   Static electricity has two basic behaviors depending on whether it’s
+   building up on a conductive or non-conductive surface; on non-conductive
+   surfaces like polycarbonate or other plastics static electricity builds up
+   in “pools”, on conductive surfaces like most metals static electricity
+   spreads and distributes across the entire surface of the material. Aluminum
+   extrusion used on robots typically has a clear non-conductive anodized layer
+   used to prevent corrosion of the aluminum but the aluminum under the layer
+   is conductive. When using the RGS, it’s important to connect the RGS to
+   surfaces where you want to mitigate static buildup. If mounting the RGS to
+   aluminum on your robot, it’s recommended to use a `multimeter
+   <https://www.amazon.com/KAIWEETS-Multimeter-Resistance-Capacitance-Temperature/dp/B07SHLS639>`__
+   to test the continuity between the ring terminal on the RGS to different
+   places on the robot to determine if the static buildup will be mitigated by
+   the RGS. If testing for resistivity, remember that the REV Grounding Strap
+   has a 470 Ohm resistor (with a ~5% tolerance) in-line in the strap - if not
+   using an auto-range multimeter, be sure to select a range above 600 Ohms to
+   ensure the resistivity is measured properly. It may be necessary to scrape
+   the aluminum to create a conductive path between multiple segments of
+   aluminum, just remember that a non-conductive oxide layer will eventually
+   form on the exposed aluminum. Remember that if you're probing aluminum
+   extrusion to check for continuity or resistivity, those areas need to be
+   scraped to expose bare metal in order to ensure electrical connectivity.
+   “Jumper wires” screwed to aluminum elements can also be added to ensure
+   conductivity between components.
+
+.. dropdown:: Week of 01/29/2024 "REV Driver Hub Tips"
+
+   Welcome to the Tech Tip of the Week! This week is a long one, filled with
+   great REV Driver Hub tips. Most everything here can be found in REV’s Driver
+   Hub Troubleshooting tips page, we’ve just annotated a few of these for the
+   most common scenarios you’ll potentially experience with the REV Driver Hub.
+   Understand that this Tip of the Week is not meant to disparage the REV
+   Driver Hub in any way - no device is perfect, but the REV Driver Hub can
+   provide you trouble-free performance if you can understand its nuances and
+   take a few additional steps to keep it running optimally.
+
+   1. Make sure your REV Driver Hub time/date is set correctly! This is the cause
+      of a number of inspection nightmares and Robot Controller log file
+      confusion, the first step should always be to check to make sure the
+      Date/Time on the Driver Hub is set correctly. This is set through the normal
+      Android System Settings by pulling down the Android Quick Settings pull-down
+      twice, tapping the Gear Icon, selecting System, and then selecting “Date &
+      Time”.  
+
+   2. USB wall chargers are all the same, right? Wrong. A/C-to-USB wall
+      chargers can range drastically in power (measured in Watts) - the REV
+      Driver Hub comes with an A/C-to-USB wall charger, and that is the
+      recommended wall charger to use to charge the REV Driver Hub. Can you
+      use another device to charge the REV Driver Hub? Maybe, but it’s best
+      to stick to either the one that ships with the REV Driver Hub or a
+      fully-charged USB Battery Pack like the `Anker 10,000mA Power Bank
+      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__
+      which can keep a Driver Hub fully charged all day without ever needing
+      to put the Driver Hub to sleep.  
+
+   3. Rechargeable Lithium batteries don’t necessarily work the same way that
+      other batteries work, they all have a slightly different usable
+      Voltage range. The REV Driver Hub needs to calibrate to the Voltage
+      range of the internal lithium battery plugged into it, and to do that
+      there’s a full `calibration process
+      <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-calibration>`__
+      that has to be followed for any new battery, along with a
+      `verification step
+      <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-verification>`__.
+      DO NOT simply “replace” a drained battery with a new charged one when
+      it gets low, the new battery is NOT guaranteed to have the same
+      calibration as the first and it is not guaranteed to perform
+      optimally. If you’re having problems keeping the REV Driver Hub
+      internal battery charged, consider a USB Battery Pack like the `Anker
+      10,000mA Power Bank
+      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__.  
+
+   4. Battery safety in any Lithium Battery system is paramount, and the REV
+      Driver Hub has battery safety features that most teams will likely run
+      into at least once. The most commonly experienced safety feature is
+      the `Battery Lockout system
+      <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-lockout-recovery>`__.
+      If a REV Battery depletes to a level below its recommended safe level,
+      or the battery is overcharged, the REV Driver Hub will enter lockout
+      mode to protect the battery. In this mode, the REV Driver Hub will not
+      power on when the battery button is held down.  The process for
+      recovering from Battery Lockout can take several minutes, but it’s
+      better than the alternative. It’s not recommended to leave a REV
+      Driver Hub on charge unattended for more than 8-10 hours, and
+      definitely NOT for multiple days.  
+
+   5. When a user puts the REV Driver Hub to sleep, or if it goes to sleep on
+      its own because the Driver Station App main screen is not actively
+      running in the foreground, it goes to sleep pretty easily. However,
+      when the REV Driver Hub returns from a sleep state, sometimes the
+      Wi-Fi and the gamepads will not reload correctly or automatically;
+      this requires you to unplug and replug the gamepads from the REV
+      Driver Hub before you can use them again, or perform a hard reboot in
+      order to bring Wi-Fi connectivity back. Many veteran teams use a
+      fully-charged USB Battery Pack, like the `Anker 10,000mA Power Bank
+      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__, 
+      and leave the Driver Station App main screen running all day without
+      putting the device to sleep.  
+
+   6. Keep the REV Driver Hub safe by using 3M Dual-Lock or hook-and-loop
+      fasteners (like those sold by Velcro Brand) to mount the Driver Hub to
+      a `Driver Station Carrier
+      <https://www.andymark.com/products/18-in-driver-station-tray>`__. This
+      prevents your REV Driver Hub from being placed on the floor (where team
+      members may step on it) and prevents you from accidentally dropping the
+      Driver Hub on the floor - dropping the Driver Hub is the #1 cause of all
+      Driver Hub damage! Some teams have designed their own 
+      `custom <https://www.thingiverse.com/thing:3386378>`__
+      `Driver <https://www.thingiverse.com/thing:5439041>`__
+      `Station <https://www.facebook.com/TeamWolfCorp/photos/a.1627476360819953/3028421417392100/?type=3>`__
+      `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__, 
+      be creative and have fun!  
+
+   7. When the REV Driver Hub is not in use (not at competitions, not in use
+      during practices) it should be turned OFF and have all sources of
+      power disconnected. Do not put the Driver Hub to sleep, but actually
+      turn it off - press the power button for 1-2 seconds and then use the
+      drop-down menu to turn off the device. The Driver Hub uses power even
+      in sleep mode, and that can lead to a dead battery and you may have to
+      perform `Battery Lockout Recovery
+      <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-lockout-recovery>`__
+      before you can turn it back on.
+      
+   8. Sometimes teams may experience “random power loss” on the REV Driver
+      Hub. This is usually due to a battery fitment issue within the battery
+      box on the device (the battery momentarily stops making a connection
+      with the power pins on the device), and can be mitigated using
+      `techniques
+      <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting#option-1-tape-quick-fix>`__
+      from the REV Troubleshooting tips. Some teams have been known to operate
+      their REV Driver Hubs without a battery inserted at all, and simply run
+      the Driver Hub using a fully-charged USB Battery Pack, like the `Anker
+      10,000mA Power Bank
+      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__.
+      The jury is still out on whether that’s a good idea, but worth
+      considering if you’re having problems that you’re desperate to solve and
+      REV Support is unable to help you resolve (because of time pressures)
+      before your big event.
+      
+   9. Ensure your REV Driver Hub is fully updated. Firmware 1.2.0 solves a
+      host of REV Driver Hub issues, and it makes sense to use the on-board
+      updater (once connected to Wi-Fi) to perform all updates on the Driver
+      Hub.  
+
+   10. This isn’t specifically a REV Driver Hub tip, but it’s a question we get
+       asked all the time. Did you know that the Robot Wi-Fi network name
+       (Robot Controller Name) and the Wi-Fi passwords can be managed
+       straight from within the Driver Station app? With the Driver Station
+       App connected via Wi-Fi to the Robot Controller, click on the three
+       dots menu on the upper-right and select “Program and Manage”, then
+       use the hamburger menu on the upper-left and select “Manage”. On this
+       page you’ll find all of the same settings as you’d find on the
+       webpage by logging in to the controller on a laptop!

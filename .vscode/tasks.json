@@ -1,0 +1,78 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "make-setup",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "args": [
+                "setup"
+            ],
+            "group": {
+                "kind": "build",
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "make-html",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "args": [
+                "html"
+            ],
+            "group": {
+                "kind": "build",
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "make-latexpdf",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "args": [
+                "latexpdf"
+            ],
+            "group": {
+                "kind": "build",
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "make-autobuild",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "args": [
+                "autobuild"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "make-clean",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "version": "2.0.0"
+}
