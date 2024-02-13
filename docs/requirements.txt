@@ -1,5 +1,5 @@
 Sphinx==6.0.0
-sphinx-autobuild==2021.3.14
+sphinx-autobuild==2024.2.4
 make==0.1.6.post2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=sphinx_rtd_dark_mode_v2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=javasphinx
