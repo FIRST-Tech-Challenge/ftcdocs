@@ -11,7 +11,6 @@ in FTC Docs.
     make_fork/make-fork
     update_fork/update-fork
     make_branch/make-branch
-    branch_multi/branch-multi
     setup/setup
     make_page/make-page
     make_rst/index
