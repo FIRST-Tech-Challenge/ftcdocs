@@ -61,7 +61,8 @@ Staging Your Changes
 Just because you have saved your files does not mean that they are ready to be committed. You must first stage your changes. This is done by using the command ``git add`` followed by the file name. 
 If you want to stage all of your changes, you can use the command ``git add .``. 
 This will stage all of the changes in the current directory and its subdirectories. If you want to stage all of the changes in the repository, you can use the command ``git add -A``. 
-If you want to unstage a file, you can use the command ``git reset HEAD <file>``. Once a file is staged, it is ready to be committed. You can think of the staging area as a place to store changes that you want to commit.
+If you want to unstage a file, you can use the command ``git reset HEAD <file>``. Once a file is staged, it is ready to be committed. You can think of the staging area as a place to store changes that you want to commit. For 
+more information on the staging area, see `here <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_staging_area>`_.
 
 Committing Your Changes
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,3 +84,5 @@ This is done by going to the repository on GitHub and clicking the "New pull req
 
 Example
 -------
+
+This example assumes you have made changes to the file ``ftc_sdk/overview/index.rst``.
