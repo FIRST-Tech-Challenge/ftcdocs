@@ -50,16 +50,3 @@ Steps to create a new page
 -----------------------------
 
 
-Local
-~~~~~~~
-
-#. Create new directory for your page. This should correspond to the name of your page and use ``_`` to separate words.
-
-#. If needed convert the parent directory to an index file. This is done by renaming the file to ``index.rst``. If done make sure to add the ``toctree`` directive to the file.
-
-#. Create a new file in the appropriate directory. The name of the file should be the name of the page with ``-`` 
-   separating words. For example, the page "Hardware" would be named ``hardware.rst``.
-
-
-GH Pages
-~~~~~~~~~~

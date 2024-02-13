@@ -71,9 +71,6 @@
             "args": [
                 "clean"
             ],
-            "group": {
-                "kind": "build",
-            },
             "problemMatcher": []
         }
     ],

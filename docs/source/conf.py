@@ -11,8 +11,8 @@ copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
-release = '0.2'
-version = '0.2.0'
+release = '0.3'
+version = '0.3.0'
 # -- General configuration
 
 extensions = [

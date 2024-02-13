@@ -6,19 +6,33 @@ Full build features are only available on Linux.
 Windows users can still build the site, but will not be able to use the full feature set. For most 
 Windows users this will not be a problem. This will only affect those adding features to PDF generation.
 
-.. note:: If you are using codespaces, you can skip this step. Codespaces comes with all the dependencies you need.
+.. note:: If you are using Codespaces, you can skip this step. Codespaces comes with all the dependencies you need.
 
 Steps
 -----
 
-1. Install Python 3.8 or later. You can download it from the `Python website <https://www.python.org/downloads/>`_.
-2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installing/>`_.
-3. Install Git from the `Git website <https://git-scm.com/downloads>`_.
-4. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
+.. warning:: In some cases, you may need to restart your computer or terminal instance between or after installing these dependencies for the changes to take effect.
 
-.. warning:: In some cases, you may need to restart your computer after installing these dependencies for the changes to take effect.
+.. tab-set::
+   .. tab-item:: Windows
 
-5. Open VS Code
+      1. Install `Chocolatey <hhttps://docs.chocolatey.org/en-us/choco/setup>`_.
+      2. Install Python 3.9 or later from the `Python website <https://www.python.org/downloads/>`_.
+      3. Install Pip. ``python -m ensurepip``
+      4. Install Git. ``choco install git``
+      5. Install Make. ``choco install make``
+      6. Install the lastest version of VS Code. ``choco install vscode``
+   
+   .. tab-item:: Linux/Mac
+
+      1. Install Python 3.9 or later. You can download it from the `Python website <https://www.python.org/downloads/>`_.
+      2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installation/>`_.
+      3. Install Git from the `Git website <https://git-scm.com/downloads>`_.
+      4. Install `Make <https://www.gnu.org/software/make/>`_ .
+      5. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
+
+
+7. Open VS Code
 
 .. figure:: images/vscode.png
    :alt: VS Code
@@ -31,13 +45,13 @@ Steps
    :align: center
 
 7. Enter the URL of your forked repository and click "Clone Repository". This will take the format of 
-   `https://github.com/<NAME>/ftcdocs.git` replacing **<NAME>** with your GitHub username.
+   `https://github.com/<NAME>/ftcdocs.git` replacing ``<NAME>`` with your GitHub username.
 
 .. figure:: images/vscode-clone-url.png
    :alt: Clone URL
    :align: center
 
-8. Chose a location on your computer to save the repository and click "Select Repository Destination".
+1. Chose a location on your computer to save the repository and click "Select Repository Destination".
 
 .. figure:: images/vscode-clone-load.png
    :alt: Clone Destination
@@ -51,5 +65,46 @@ Steps
 
    Select "Open" to open the repository in VS Code.
 
+9. Select "Yes, I trust the authors"
+
+.. figure:: images/vscode-trust.png
+   :alt: Trust
+   :align: center
+
+10. On the top ribbon of VS Code, click on "Terminal" and then "Run Task..."
+
+.. figure:: images/vscode-run-task.png
+   :alt: Task Menu
+   :align: center
+
+11. On the new menu click on "make-setup". This task will only need to be run once per environment.
+
+.. figure:: images/vscode-make-setup.png
+   :alt: Make Setup
+   :align: center
+
+12. You will see a terminal window open and run a series of commands. This will take a few minutes to complete.
+
+.. figure:: images/vscode-make-setup-result.png
+   :alt: Make Setup Run
+   :align: center
+
+13. Once you see the message "Terminal will be reused by tasks, press any key to close it." you can move to the next step.
+
+14. To test that everything is working, press `Ctrl + Shift + B` to build the site. 
+    You should see a terminal window open and run a series of commands. This will take a few minutes to complete.
+
+15. Once the build is complete, you will see "build succeeded" in the terminal window. 
+     You can now click on the url ``http://127.0.0.1:7350`` to view the site.
+
+.. figure:: images/vscode-built.png
+   :alt: Build Succeeded
+   :align: center
+
+.. figure:: images/vscode-localhost.png
+   :alt: Localhost
+   :align: center
 
 
+You are now ready to start developing! This version of the site will automagically update as you make changes to the source files.
+To stop the server, press `Ctrl + C` in the terminal window. To restart the server, press `Ctrl + Shift + B`.
