@@ -1,6 +1,6 @@
 {
 	"name": "Dockerfile",
-	"image": "uvidyadharan/ftcdocs:0.1",
+	"image": "ghcr.io/first-tech-challenge/ftcdocs:main",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -11,5 +11,4 @@
 			]
 		}
 	}
-
 }
