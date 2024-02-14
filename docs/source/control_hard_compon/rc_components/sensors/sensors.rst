@@ -274,7 +274,7 @@ voltage changes is based on the Potentiometer that is used.
 Such a device is typically attatched via the analog port of the REV Hub.
 
 
-Sensor Compatability Chart
+Sensor Compatibility Chart
 ---------------------------
 
 Thanks to the folks at REV Robotics for providing this handy chart of sensor compatibility.
