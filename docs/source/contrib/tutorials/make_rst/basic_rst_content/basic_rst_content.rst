@@ -55,7 +55,7 @@ ReStructured Text is based on the Python programming language (yes, the name
 was inspired after reading scripts from "Monty Python's Flying Circus", a
 comedy series from the 1970's). In Python, text indentation is incredibly
 important - normal text should start in the first column of the line, and
-anything that is indented (meaning whitespace preceeds the text on a line) has
+anything that is indented (meaning whitespace precedes the text on a line) has
 a specific meaning based on what was written on the preceding lines. Blank
 lines and whitespace is also very important, and rules for these must be
 followed explicitly. It will initially seem like there are a TON of rules to
@@ -305,7 +305,7 @@ There are a few important restrictions to be aware of:
   phrase that is expected to follow.
 
    * One way to avoid this is using a "forced whitespace character", or "\ "
-     without the quotes (you can tell rST to "force" a character by preceeding
+     without the quotes (you can tell rST to "force" a character by preceding
      the character with a backslash (\\). For example, we can have Bold and
      Italics right next to each other without requiring spaces by "injecting"
      the forced whitespace character that will remain unseen - \*\*Alien\*\*\\

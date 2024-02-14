@@ -62,7 +62,7 @@ Just because you have saved your files does not mean that they are ready to be c
 If you want to stage all of your changes, you can use the command ``git add .``. 
 This will stage all of the changes in the current directory and its subdirectories. If you want to stage all of the changes in the repository, you can use the command ``git add -A``. 
 If you want to unstage a file, you can use the command ``git reset HEAD <file>``. Once a file is staged, it is ready to be committed. You can think of the staging area as a place to store changes that you want to commit. For 
-more information on the staging area, see `here <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_staging_area>`_.
+more information on the staging area, see `here <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>`_.
 
 Committing Your Changes
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -73,7 +73,7 @@ a collection of commits each describing incremental changes relative to the prev
 Pushing Your Changes
 ~~~~~~~~~~~~~~~~~~~~
 
-Once you have commited your changes, you can push them to your fork of the repository. This is done by using the command ``git push origin <branch>``. This will push your local changes to the remote repository. 
+Once you have committed your changes, you can push them to your fork of the repository. This is done by using the command ``git push origin <branch>``. This will push your local changes to the remote repository. 
 This means it will be accessible to others. After this change is pushed, you can create a pull request.
 
 Creating a Pull Request

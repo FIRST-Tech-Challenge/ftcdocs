@@ -46,7 +46,8 @@ Steps
    :align: center
 
 3. Enter the URL of your forked repository and click "Clone Repository". This will take the format of 
-   `https://github.com/<NAME>/ftcdocs.git` replacing ``<NAME>`` with your GitHub username.
+   `https://github.com/<NAME>/ftcdocs.git` replacing ``<NAME>`` with your GitHub username. If you changed 
+   the name of your fork to something other than ``ftcdocs``, replace ``ftcdocs`` with the name of your fork.
 
 .. figure:: images/vscode-clone-url.png
    :alt: Clone URL

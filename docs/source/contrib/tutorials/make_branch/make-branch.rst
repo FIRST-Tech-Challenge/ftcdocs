@@ -4,8 +4,8 @@ Creating a New Branch
 What are branches and why do we need them?
 ------------------------------------------
 
-Branches are a way of creating seperate versions of a given codebase. 
-This is useful in our case for maintaing a clean and stable version of FTC Docs 
+Branches are a way of creating separate versions of a given codebase. 
+This is useful in our case for maintaining a clean and stable version of FTC Docs 
 while also allowing for new features to be developed without affecting the main branch. 
 What this means is that your fork of the repository will have a copy of the main branch, 
 which you should keep as a copy of main branch on the main repository. Off of that branch 
