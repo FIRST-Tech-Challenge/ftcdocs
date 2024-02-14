@@ -205,6 +205,9 @@ is available at some online retailers, including
   low-distortion lens making it perfect for object tracking and motion detection.
 * The Arducam required a patch to the SDK and EasyOpenCV to work properly at high 
   speeds, so it is not guaranteed to work properly with the FTC SDK prior to SDK 9.0.
+* The FTC software have been observed to not function properly with more than one Arducam OV9281 at a time.
+  If you encounter this issue please refer to the `Serial Number Tool <https://docs.arducam.com/UVC-Camera/Serial-Number-Tool-Guide/>`
+  to reassign at least one of the Arducam serial numbers.
 
 **Supported Resolutions** in YUY2 format: 1280x720, 1280x800. Note frame
 rate limitations.
