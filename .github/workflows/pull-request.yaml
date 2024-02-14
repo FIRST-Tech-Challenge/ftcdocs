@@ -19,7 +19,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
@@ -54,7 +54,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
@@ -92,7 +92,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
@@ -121,7 +121,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
