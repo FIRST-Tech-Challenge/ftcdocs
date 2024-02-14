@@ -1,5 +1,19 @@
 Creating a New Branch
----------------------
+=====================
+
+What are branches and why do we need them?
+------------------------------------------
+
+Branches are a way of creating seperate versions of a given codebase. 
+This is useful in our case for maintaing a clean and stable version of FTC Docs 
+while also allowing for new features to be developed without affecting the main branch. 
+What this means is that your fork of the repository will have a copy of the main branch, 
+which you should keep as a copy of main branch on the main repository. Off of that branch 
+you will want to create a new branch for each new feature or bug fix that you want to work on. 
+Each branch will start off as a copy of your main branch, but you can make changes to it without 
+affecting the main branch. While it is possible to make changes to the main branch, it is not 
+recommended as it can prevent you from being able to work on multiple features at once. You should have 
+one branch for every Pull Request that you want to submit. 
 
 On the ``< > Code`` tab, we can see the Branch information below:
 

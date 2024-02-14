@@ -11,6 +11,7 @@ Windows users this will not be a problem. This will only affect those adding fea
 Steps
 -----
 
+.. warning:: Make sure you have forked the repository before starting this process. If you have not, please do so now.
 .. warning:: In some cases, you may need to restart your computer or terminal instance between or after installing these dependencies for the changes to take effect.
 
 .. tab-set::
@@ -32,26 +33,26 @@ Steps
       5. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
 
 
-7. Open VS Code
+1. Open VS Code
 
 .. figure:: images/vscode.png
    :alt: VS Code
    :align: center
 
-6. Under Start in the welcome screen, click on "Clone Repository"
+2. Under Start in the welcome screen, click on "Clone Repository"
 
 .. figure:: images/vscode-clone.png
    :alt: Clone
    :align: center
 
-7. Enter the URL of your forked repository and click "Clone Repository". This will take the format of 
+3. Enter the URL of your forked repository and click "Clone Repository". This will take the format of 
    `https://github.com/<NAME>/ftcdocs.git` replacing ``<NAME>`` with your GitHub username.
 
 .. figure:: images/vscode-clone-url.png
    :alt: Clone URL
    :align: center
 
-1. Chose a location on your computer to save the repository and click "Select Repository Destination".
+4. Chose a location on your computer to save the repository and click "Select Repository Destination".
 
 .. figure:: images/vscode-clone-load.png
    :alt: Clone Destination
@@ -65,36 +66,36 @@ Steps
 
    Select "Open" to open the repository in VS Code.
 
-9. Select "Yes, I trust the authors"
+5. Select "Yes, I trust the authors"
 
 .. figure:: images/vscode-trust.png
    :alt: Trust
    :align: center
 
-10. On the top ribbon of VS Code, click on "Terminal" and then "Run Task..."
+6. On the top ribbon of VS Code, click on "Terminal" and then "Run Task..."
 
 .. figure:: images/vscode-run-task.png
    :alt: Task Menu
    :align: center
 
-11. On the new menu click on "make-setup". This task will only need to be run once per environment.
+7. On the new menu click on "make-setup". This task will only need to be run once per environment.
 
 .. figure:: images/vscode-make-setup.png
    :alt: Make Setup
    :align: center
 
-12. You will see a terminal window open and run a series of commands. This will take a few minutes to complete.
+8. You will see a terminal window open and run a series of commands. This will take a few minutes to complete.
 
 .. figure:: images/vscode-make-setup-result.png
    :alt: Make Setup Run
    :align: center
 
-13. Once you see the message "Terminal will be reused by tasks, press any key to close it." you can move to the next step.
+9. Once you see the message "Terminal will be reused by tasks, press any key to close it." you can move to the next step.
 
-14. To test that everything is working, press `Ctrl + Shift + B` to build the site. 
+10. To test that everything is working, press `Ctrl + Shift + B` to build the site. 
     You should see a terminal window open and run a series of commands. This will take a few minutes to complete.
 
-15. Once the build is complete, you will see "build succeeded" in the terminal window. 
+11. Once the build is complete, you will see "build succeeded" in the terminal window. 
      You can now click on the url ``http://127.0.0.1:7350`` to view the site.
 
 .. figure:: images/vscode-built.png

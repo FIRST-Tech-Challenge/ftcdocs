@@ -6,12 +6,14 @@ in FTC Docs.
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
     
+    overview/overview
     github_repo/github-repo
     make_fork/make-fork
     update_fork/update-fork
-    make_branch/make-branch
     setup/setup
+    make_branch/make-branch
     make_page/make-page
     make_rst/index
     make_pr/make-pr

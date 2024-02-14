@@ -46,7 +46,3 @@ Sphinx on build. Each tree is a different section of FTC Docs. Most content you 
 already there but you may need to add a section depending on the scenario.
 
 
-Steps to create a new page
------------------------------
-
-

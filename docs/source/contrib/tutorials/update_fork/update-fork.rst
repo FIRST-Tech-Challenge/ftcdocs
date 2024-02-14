@@ -12,12 +12,15 @@ Steps
 
 .. figure:: images/fork-update.png
     :align: center
+
 2. Follow the steps outlined in the 
    `GitHub Documentation <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-web-ui>`_ to update your fork.
 
 .. figure:: images/fork-update-popup.png
     :align: center
+
 |
+
 .. figure:: images/fork-update-fin.png
     :align: center
     
