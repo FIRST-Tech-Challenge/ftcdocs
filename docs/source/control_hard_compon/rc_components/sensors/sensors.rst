@@ -276,6 +276,9 @@ Such a device is typically attatched via the analog port of the REV Hub.
 
 Sensor Compatability Chart
 ---------------------------
+
+Thanks to the folks at REV Robotics for providing this handy chart of sensor compatibility.
+
 .. list-table::
    :header-rows: 1
    :class: longtable
