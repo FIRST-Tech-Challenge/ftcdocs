@@ -9,6 +9,7 @@ in FTC Docs.
     :numbered:
     
     overview/overview
+    codespaces/codespaces
     github_repo/github-repo
     make_fork/make-fork
     update_fork/update-fork

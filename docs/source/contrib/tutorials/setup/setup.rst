@@ -17,7 +17,7 @@ Steps
 .. tab-set::
    .. tab-item:: Windows
 
-      1. Install `Chocolatey <hhttps://docs.chocolatey.org/en-us/choco/setup>`_.
+      1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_.
       2. Install Python 3.9 or later from the `Python website <https://www.python.org/downloads/>`_.
       3. Install Pip. ``python -m ensurepip``
       4. Install Git. ``choco install git``
