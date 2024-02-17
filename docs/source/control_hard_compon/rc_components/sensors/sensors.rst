@@ -274,6 +274,131 @@ voltage changes is based on the Potentiometer that is used.
 Such a device is typically attatched via the analog port of the REV Hub.
 
 
+Sensor Compatibility Chart
+---------------------------
+
+Thanks to the folks at REV Robotics for providing this handy chart of sensor compatibility.
+
+.. list-table::
+   :header-rows: 1
+   :class: longtable
+
+   * - Sensor
+     - Type
+     - Compatible
+     - Adapters Needed
+
+   * - Absolute Orientation IMU Fusion Breakout - BNO0552472Adafruit
+     - I2C
+     - Yes
+     - | 3.3V Compatible
+       | Custom Wiring Harness Needed
+
+   * - RGB Color Sensor with IR filter and White LED - TCS347251334AdaFruit
+     - I2C
+     - Yes
+     - | 3.3V Compatible
+       | Custom Wiring Harness Needed
+
+   * - ColorSensor45-2018Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_3_3.png
+          :align: center
+   * - Compass45-2003Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_4_3.png
+          :align: center
+   * - Integrating Gyro45-2005Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_5_3.png
+          :align: center
+   * - IR Locator 36045-2009Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_6_3.png
+          :align: center
+   * - IR Seeker V345-2017Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_7_3.png
+          :align: center
+   * - Ranger Sensor45-2008Modern Robotics
+     - I2C
+     - Yes
+     - .. figure:: images/image_8_3.png
+          :align: center
+   * - NeveRest MotorAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104AndyMark
+     - Quad Encoder
+     - Yes
+     - .. figure:: images/image_9_3.png
+          :align: center
+   * - HD Hex MotorREV-41-1301REV Robotics
+     - Quad Encoder
+     - Yes
+     - | Directly Compatible 
+       | No Custom Adapters Needed
+
+   * - Core Hex MotorREV-41-1301REV Robotics
+     - Quad Encoder
+     - Yes
+     - | Directly Compatible
+       | No Custom Adapters Needed
+
+   * - 12v 4mm Motor Kit50-0119MATRIX
+     - Quad Encoder
+     - Yes
+     - .. figure:: images/image_12_3.png
+          :align: center
+   * - 12v 6mm Motor Kit50-0120MATRIX
+     - Quad Encoder
+     - Yes
+     - .. figure:: images/image_13_3.png
+          :align: center
+   * - Standard Motor Kit50-0001MATRIX
+     - Quad Encoder
+     - Yes
+     - .. figure:: images/image_14_3.png
+          :align: center
+   * - Max Motor Shaft Encoder KitW38000Tetrix
+     - Quad Encoder
+     - Yes
+     - .. figure:: images/image_15_3.png
+          :align: center
+   * - Limit Switch45-2401Modern Robotics
+     - Digital
+     - Yes
+     - | No Adapter Needed
+       | Custom Wiring Harness Required.
+
+   * - Rate Gyro45-2004Modern Robotics
+     - Analog
+     - No
+     - Not Officially Supported
+
+   * - Optical Distance Sensor45-2006Modern Robotics
+     - Analog
+     - No
+     - Not Officially Supported
+
+   * - Touch Sensor45-2007Modern Robotics
+     - Analog
+     - Yes
+     - | No Adapter Needed
+       | Custom Wiring Harness Required
+
+   * - Light Sensor45-2015Modern Robotics
+     - Analog
+     - No
+     - Not Officially Supported
+
+   * - Magnetic Sensor45-2020Modern Robotics
+     - Analog
+     - No
+     - Not Officially Supported
+
 Additional Resources
 ---------------------
 
