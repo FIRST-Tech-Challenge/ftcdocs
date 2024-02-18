@@ -11,7 +11,7 @@ Below is an overview of the process of contributing to FTC Docs.
 
     * This will update your fork with the latest changes from the FTC Docs repository. This is important to do before you start working on a new contribution.
 
-3. :doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only`:bdg-warning:`Local`
+3. :doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
     * This will set up your local environment to work on FTC Docs. This step can be skipped for Codespaces users.
 
@@ -25,7 +25,9 @@ Below is an overview of the process of contributing to FTC Docs.
 
 6. :doc:`Make your changes <../make_rst/index>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-7. Test your changes :bdg-warning:`WIP` :bdg-info:`Codespaces` :bdg-warning:`Local`
+7. :doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-danger:`One Time Only` :bdg-warning:`Local`
+
+    * This will set up your Git credentials so you can push your changes.
 
 8. :doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
