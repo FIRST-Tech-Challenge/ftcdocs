@@ -15,7 +15,9 @@ in FTC Docs.
     update_fork/update-fork
     setup/setup
     make_branch/make-branch
+    create_codespace/create-codespace
     make_page/make-page
     make_rst/index
+    setup_credentials/setup-credentials
     make_pr/make-pr
 

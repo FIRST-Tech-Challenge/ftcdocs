@@ -17,12 +17,12 @@ one branch for every Pull Request that you want to submit.
 
 On the ``< > Code`` tab, we can see the Branch information below:
 
-.. figure:: images/rst-primer_branch1.png
+.. figure:: images/demo_branch1.png
    :width: 80%
    :align: center
    :alt: Figure 3 rst-primer branch information
 
-   Figure 3: rst-primer branch information
+   Figure 3: Example Fork branch information
 
 Here we can see, circled in red, the Branch information for the repo. We can see that
 the branch we're currently viewing is the ``main`` branch, and there is only one 
@@ -37,32 +37,28 @@ list.  If you want to create a new branch, you can just type in the new name
 for the new branch and click the "Create branch <NAME> from 'main'" item that 
 will appear. This is the "quick branch" way of creating branches.
 
-.. figure:: images/rst-primer_branch2.png
+.. figure:: images/demo_branch2.png
    :width: 50%
    :align: center
    :alt: Figure 4 rst-primer branch selection
 
-   Figure 4: rst-primer branch selection
+   Figure 4: Example Fork branch selection
 
 In order to make any changes to the content, we need to create ourselves a new
 branch so that we have our own workspace in which to make changes. To create a
 new branch duplicated from ``main``, we need to ensure ``main`` is the
 currently selected branch (if there's only one branch then it's got to be
 ``main``) and then we can type a new name in the box and click the "create"
-selection that will appear. Let's call this new branch ``test`` but let's also
-put your name in front of it, like ``danny-test``. When you create it, make
-sure to use **YOUR** name instead of mine (all branches need to be uniquely
-named, so if someone is doing this tutorial at the same time as you let's make
-sure this branch is uniquely yours). It's okay if you want to use a space in
-the name of your branch, all spaces will ultimately be replaced with a dash
-``-``.
+selection that will appear. Let's call this new branch ``demo``. For real 
+work you should use a more descriptive name, like ``feature-<FEATURE_NAME>``, 
+``bugfix-<BUG_NUMBER>``, or ``<YOUR_NAME>-<FEATURE_NAME>``.
 
-.. figure:: images/rst-primer_branch3.png
+.. figure:: images/demo_branch3.png
    :width: 50%
    :align: center
    :alt: Figure 5 rst-primer create new branch
 
-   Figure 5: rst-primer create new branch
+   Figure 5: Example Fork create new branch
 
 After clicking the "Create branch" button from Figure 5, your new branch should
 be created and the branch is automatically selected in the branch selection
@@ -82,11 +78,11 @@ right of each branch.  You can only perform actions on *YOUR* own branches
 unless you're an administrator (like me).  You can also switch to another
 branch by clicking on the name of the branch.
 
-.. figure:: images/rst-primer_branch4.png
+.. figure:: images/demo_branch4.png
    :width: 80%
    :align: center
    :alt: Figure 6 rst-primer view all branches
 
-   Figure 6: rst-primer view all branches
+   Figure 6: Example Fork view all branches
 
 Congratulations, you've created a new branch!

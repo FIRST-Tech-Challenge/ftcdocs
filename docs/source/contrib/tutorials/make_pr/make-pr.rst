@@ -81,8 +81,44 @@ Creating a Pull Request
 
 Once you have pushed your changes, you can create a pull request. A pull request is a collection of commits that are being requested to be merged back to the main repository. 
 This is done by going to the repository on GitHub and clicking the "New pull request" button. You will then be able to select the branch that you want to merge into the main branch. 
+Follow the instructions `here <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_ for 
+more information on creating a pull request. 
 
 Example
 -------
+.. warning:: Make 
 
-This example assumes you have made changes to the file ``ftc_sdk/overview/index.rst``.
+
+1. Navigate to the directory of the repository on your local machine.
+
+.. code-block:: bash
+
+    cd docs
+
+2. Ensure that you are on the correct branch. In this case we are on the branch "demo". If you are not on the correct branch, you can switch to it using the command ``git checkout <branch>``.
+
+.. code-block:: bash
+
+    git branch
+
+3. Stage your changes. In this case we need to stage the new file, the images we use in it, as well as the changes to the table of contents.
+
+.. code-block:: bash
+
+    git add demo
+    git add demo/images/demo.png
+    git add index.rst
+
+4. Commit your changes. In this case we are adding a new section called "Demo" so we will use the commit message "Add demo section".
+
+.. code-block:: bash
+
+    git commit -m "Add demo section"
+
+5. Push your changes to your fork of the repository.
+
+.. code-block:: bash
+
+    git push origin demo
+
+6. Create a pull request following the instructions `here <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_.

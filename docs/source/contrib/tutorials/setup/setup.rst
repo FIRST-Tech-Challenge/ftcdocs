@@ -2,11 +2,8 @@ Setting Up Your Development Environment (One Time Only)
 =======================================================
 
 FTC Docs has a few dependencies that you'll need to install before you can start developing. 
-Full build features are only available on Linux. 
-Windows users can still build the site, but will not be able to use the full feature set. For most 
-Windows users this will not be a problem. This will only affect those adding features to PDF generation.
-
-.. note:: If you are using Codespaces, you can skip this step. Codespaces comes with all the dependencies you need.
+Full build features are only available on Linux. This will only effect those who 
+are looking to build PDFs locally.
 
 Steps
 -----
@@ -18,7 +15,7 @@ Steps
    .. tab-item:: Windows
 
       1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_.
-      2. Install Python 3.9 or later from the `Python website <https://www.python.org/downloads/>`_.
+      2. Install Python 3.9 or later from the `Python website <https://www.python.org/downloads/>`_. **Make sure to check the box that says "Add Python to PATH".**
       3. Install Pip. ``python -m ensurepip``
       4. Install Git. ``choco install git``
       5. Install Make. ``choco install make``
