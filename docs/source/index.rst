@@ -25,6 +25,7 @@ to see why.
 
    /overview/ftcoverview
    gracious_professionalism/gp
+   demo_section/demo-section
 
 .. toctree::
    :caption: Getting Started
