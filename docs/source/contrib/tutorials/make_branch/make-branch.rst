@@ -1,5 +1,6 @@
 Creating a New Branch
 =====================
+:bdg-success:`Repeat`
 
 What are branches and why do we need them?
 ------------------------------------------

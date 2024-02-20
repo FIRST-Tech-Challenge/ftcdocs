@@ -1,5 +1,7 @@
-Forking FTC Docs (One Time)
-============================
+Forking FTC Docs
+================
+:bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`
+
 .. note::
     This following assumes you have already created a GitHub account. If you have not, please `create one <https://github.com/join>`_
 

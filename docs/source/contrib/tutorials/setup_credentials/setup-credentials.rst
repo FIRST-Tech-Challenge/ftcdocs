@@ -1,5 +1,6 @@
 Setup Git Credentials
 ======================
+:bdg-danger:`One Time Only` :bdg-warning:`Local`
 
 .. note:: This is a one-time setup that is only necessary for local development. Codespace users may skip this step.
 

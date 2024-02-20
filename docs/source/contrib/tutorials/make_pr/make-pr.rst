@@ -1,5 +1,6 @@
 Submitting Your Changes for Review
 ==================================
+:bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
 Workflows
 ---------
@@ -52,8 +53,6 @@ Traditional Local Development
 Steps
 ------
 
-.. note::
-    The following assumes that you have already forked the repository and cloned it to your local machine as well as created a new branch for your changes.
 
 Staging Your Changes
 ~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +61,7 @@ Just because you have saved your files does not mean that they are ready to be c
 If you want to stage all of your changes, you can use the command ``git add .``. 
 This will stage all of the changes in the current directory and its subdirectories. If you want to stage all of the changes in the repository, you can use the command ``git add -A``. 
 If you want to unstage a file, you can use the command ``git reset HEAD <file>``. Once a file is staged, it is ready to be committed. You can think of the staging area as a place to store changes that you want to commit. For 
-more information on the staging area, see `here <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>`_.
+more information on the staging area, see `Git SCM <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>`_.
 
 Committing Your Changes
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,16 +85,15 @@ more information on creating a pull request.
 
 Example
 -------
-.. warning:: Make 
 
 
 1. Navigate to the directory of the repository on your local machine.
 
 .. code-block:: bash
 
-    cd docs
+    cd docs/source
 
-2. Ensure that you are on the correct branch. In this case we are on the branch "demo". If you are not on the correct branch, you can switch to it using the command ``git checkout <branch>``.
+2. Ensure that you are on the correct branch. In this case we are on the branch "demo". If you are not on the correct branch, follow the :doc:`previous step <../switch_branch/switch-branch>`.
 
 .. code-block:: bash
 
@@ -105,20 +103,104 @@ Example
 
 .. code-block:: bash
 
-    git add demo
-    git add demo/images/demo.png
+    git add demo_section/demo-section.rst
+    git add demo_section/images/demo.png
     git add index.rst
 
-4. Commit your changes. In this case we are adding a new section called "Demo" so we will use the commit message "Add demo section".
+4. For the **first time** you commit changes, you will need to set your name and email.
+
+.. code-block:: bash
+
+    git config --global user.email "<INSERT YOUR EMAIL HERE>"
+    git config --global user.name "<INSERT YOUR NAME HERE>"
+
+5. Commit your changes. In this case we are adding a new section called "Demo" so we will use the commit message "Add demo section".
+
 
 .. code-block:: bash
 
     git commit -m "Add demo section"
 
-5. Push your changes to your fork of the repository.
+6. Push your changes to your fork of the repository.
 
 .. code-block:: bash
 
-    git push origin demo
+    git push
 
-6. Create a pull request following the instructions `here <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_.
+7. Navigate to the `official FTC Docs repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ on GitHub
+
+8.  Click ``Compare & Pull Request``. 
+
+.. note:: This option is also available by clicking the "Pull Request" tab and then clicking the "New pull request" button. 
+    Then click ``compare across forks``. Select ```<USERNAME>/ftcdocs``` for the head repository and the branch you want to merge. 
+    Select `FIRST-Tech-Challenge/ftcdocs` for the base repository and the branch you want to merge into. Then click ``Create Pull Request``.
+
+.. figure:: images/compare_and_pr.png
+    :alt: Compare & Pull Request
+    :align: center
+
+|
+
+9. Fill out the pull request title and description. For more information on creating a pull request, see our :doc:`Contribution Guide </contrib/guidelines/guidelines>`.
+
+.. figure:: images/pr_desc.png
+    :alt: Pull Request Description
+    :align: center
+
+|
+
+10. Scroll down to see a preview of the changes you are proposing. 
+    Make sure that everything looks correct and that no files or changes have been ommited. 
+    Also make sure no erroneous changes are included.
+
+.. figure:: images/preview_changes.png
+    :alt: Preview Changes
+    :align: center
+
+|
+
+11. If everything looks good, click ``Create Pull Request``.
+
+.. figure:: images/create_pr.png
+    :alt: Create Pull Request
+    :align: center
+
+|
+
+12. After this you will be able to see your pull request and the status of the checks. 
+    First time contributors will have to wait for a maintainer approval before the checks are run.
+
+.. figure:: images/checks_standby.png
+    :alt: Pull Request Page
+    :align: center
+
+|
+
+13. After approval the checks will run. In this case the Link Checker failed. When checks fail 
+    the FTC Docs maintainers will be notified and will help you fix the issue. In this case the 
+    problem was because our branch is no longer up to date with the main branch. This can easily 
+    be fixed by clicking the "Update branch" button. Generally the FTC Docs team will help you 
+    with the process of passing the checks and updating your branch. 
+
+.. figure:: images/check_result.png
+    :alt: Checks Result
+    :align: center
+
+|
+
+.. figure:: images/update_branch.png
+    :alt: Update Branch
+    :align: center
+
+.. note:: It can take several minutes for the checks to fully run. 
+
+14. Once the checks have passed, the FTC Docs maintainers will review your pull request. 
+    They will provide feedback and help you make any necessary changes. Once the pull request is approved, 
+    it will be merged into the main branch.
+
+.. figure:: images/all_checks.png
+    :alt: All Checks Passed
+    :align: center
+
+
+

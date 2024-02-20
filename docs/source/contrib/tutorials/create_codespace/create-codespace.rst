@@ -1,5 +1,6 @@
 Creating a Codespace
 =====================
+:bdg-success:`Repeat` :bdg-info:`Codespaces`
 
 For every new branch you make in your repository, you must create a new codespace. 
 This is a virtual environment that will allow you to run your code and test it before merging it into the main branch. 

@@ -1,5 +1,6 @@
 Codespaces
 ==========
+:bdg-secondary:`Information`
 
 What is Codespaces?
 -------------------

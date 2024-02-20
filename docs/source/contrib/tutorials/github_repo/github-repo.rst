@@ -1,5 +1,6 @@
 Getting to know the GitHub Repo
 ===============================
+:bdg-secondary:`Information`
 
 .. note::
    It is assumed that you have created a GitHub account and been given the proper 

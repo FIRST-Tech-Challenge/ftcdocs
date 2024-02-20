@@ -1,5 +1,7 @@
-Setting Up Your Development Environment (One Time Only)
-=======================================================
+Setting Up Your Development Environment 
+=======================================
+
+:bdg-danger:`One Time Only` :bdg-warning:`Local`
 
 FTC Docs has a few dependencies that you'll need to install before you can start developing. 
 Full build features are only available on Linux. This will only effect those who 

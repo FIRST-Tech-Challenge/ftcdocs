@@ -124,7 +124,6 @@ to see why.
    Booklets<booklets/index>
    Site Feedback Form<ftc_docs/form/form>
    FTC Docs PDF<ftc_docs/pdf/pdf>
-   Dark Mode<ftc_docs/dark/dark>
    Contributing to FTC Docs<contrib/index>
    
 **I AM A...**
