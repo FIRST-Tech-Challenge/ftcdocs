@@ -279,6 +279,13 @@ linkcheck_request_headers = {
         "Cache-Control": "no-cache",
         "Pragma":"no-cache",
         "Upgrade-Insecure-Requests":"1",
+        "Sec-Ch-Ua": "\"Not A(Brand\"\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
     },
     "*": {
         "Accept": "text/html,application/xhtml+xml",
