@@ -289,7 +289,7 @@ linkcheck_ignore = [
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
    r'https://www.3dflow.net/',
-   r'https://www.stackoverflow.com/',
+   r'https://www.stackoverflow.com/.*',
 ]
 
 latex_documents = [
