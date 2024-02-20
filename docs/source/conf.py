@@ -268,6 +268,15 @@ linkcheck_request_headers = {
         "Accept-Encoding": "gzip,deflate",
         "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
     },
+    "https://www.stackoverflow.com/": {
+        "Origin": "https://www.stackoverflow.com",
+        "Referer": "https://www.stackoverflow.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Accept-Encoding": "gzip,deflate",
+        "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+    },
     "*": {
         "Accept": "text/html,application/xhtml+xml",
     },
