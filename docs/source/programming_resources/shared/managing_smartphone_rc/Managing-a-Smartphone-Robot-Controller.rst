@@ -193,7 +193,7 @@ Driver Station (DS) connected to a Robot Controller phone with Expansion
 Hub plugged in via USB. The Manage page allows you to upload an
 Expansion Hub's firmware, or to update it using the included or uploaded
 version. New firmware images can be obtained from the 
-`REV Robotics website <https://www.revrobotics.com/software/>`__.
+`REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__.
 
 Also, included or uploaded Expansion Hub firmware can be updated in
 Robot Controller Advanced Settings, from a paired Driver Station (DS)
