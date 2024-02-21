@@ -50,13 +50,17 @@ Below is an overview of the process of contributing to FTC Docs.
 9. :doc:`Switch to your branch <../switch_branch/switch-branch>` :bdg-success:`Repeat` :bdg-warning:`Local`
 
     * This will switch to the branch you created in step 7. You should switch to the branch you created for each change you work on.
+  
+10. :doc:`VS Code Tasks <../tasks/tasks>` :bdg-secondary:`Information`
 
-10. :doc:`Make your changes <../make_rst/index>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
+    * This will provide an overview of the tasks for FTC Docs available in VS Code. This is important to understand before you start working on a contribution.
 
-11. :doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-danger:`One Time Only` :bdg-warning:`Local`
+11. :doc:`Make your changes <../make_rst/index>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
+
+12. :doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
     * This will set up your Git credentials so you can push your changes.
 
-12. :doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
+13. :doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
     * Commit your changes and submit a pull request to the FTC Docs repository.

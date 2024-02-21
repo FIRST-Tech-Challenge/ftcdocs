@@ -17,6 +17,7 @@ in FTC Docs.
     make_branch/make-branch
     create_codespace/create-codespace
     switch_branch/switch-branch
+    tasks/tasks
     make_rst/index
     setup_credentials/setup-credentials
     make_pr/make-pr
