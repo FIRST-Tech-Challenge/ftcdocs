@@ -35,7 +35,7 @@ task by pressing `Ctrl+C` in the terminal.
 ``make-clean``
 ~~~~~~~~~~~~~~~
 This task will remove all of the build artifacts. This is useful if you want to start from a clean slate. 
-This is sometimes necessary if you are not seeing your changes reflected in the output as will somtimes happen 
+This is sometimes necessary if you are not seeing your changes reflected in the output as will sometimes happen 
 with images and other static files.
 
 
