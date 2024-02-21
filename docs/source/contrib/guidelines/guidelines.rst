@@ -1,14 +1,14 @@
 Contribution Guidelines
 =======================
 
-Contributors are the life blood of the project. We welcome contributions but remind everyone to 
+Contributors are the lifeblood of the project. We welcome contributions but remind everyone to 
 be a :doc:`Gracious Professional </gracious_professionalism/gp>`.
 
 Creating a PR
 --------------
 
 PRs should be made to the `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ repo on GitHub. Your 
-title should aim to desrcribe the purpose of your pr in a *concise* manner. For more information on creating a 
+title should aim to describe the purpose of your PR in a *concise* manner. For more information on creating a 
 PR, see 
 `this <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_
 
