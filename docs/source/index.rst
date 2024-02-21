@@ -35,6 +35,7 @@ to see why.
    persona_pages/veteran_teams/veteran_teams
    persona_pages/coach_admin/coach_admin
    persona_pages/mentor_tech/mentor_tech
+   glossary/glossary
    
 .. toctree::
    :caption: Game and Season-Specific Resources

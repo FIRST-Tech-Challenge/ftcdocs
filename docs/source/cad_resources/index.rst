@@ -5,9 +5,8 @@
 
 CAD Resources
 =============
-
-`Computer Aided Design (CAD)
-<https://en.wikipedia.org/wiki/Computer-aided_design>`__ and 3D animation
+:term:`Computer Aided Design (CAD)
+<CAD>` and 3D animation
 software is used in *FIRST* Tech Challenge by teams to design and visualize
 complex systems prior to manufacturing. There are many software options for CAD 
 and there's no way to list them all. Some software is provided free of charge, 
