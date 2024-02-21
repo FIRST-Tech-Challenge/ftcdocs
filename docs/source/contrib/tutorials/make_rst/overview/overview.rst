@@ -16,7 +16,7 @@ final document. ReStructured Text is used to generate *minimally-interactive
 web pages*, PDF documents, and other forms of output in such a way that no
 actual web programming or PDF publishing experience is necessary AND is still
 human-readable. In this way, reStructured Text can literally be written once
-and then exported to lots of different formats and platforms. Comprable web
+and then exported to lots of different formats and platforms. Comparable web
 programming and PDF authoring tools are not, in the opinion of this author,
 readable by the average person and cannot be easily translated between output
 formats whereas "reStructured Text" is. 

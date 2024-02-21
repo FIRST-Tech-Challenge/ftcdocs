@@ -150,7 +150,7 @@ Example
 |
 
 10. Scroll down to see a preview of the changes you are proposing. 
-    Make sure that everything looks correct and that no files or changes have been ommited. 
+    Make sure that everything looks correct and that no files or changes have been omitted. 
     Also make sure no erroneous changes are included.
 
 .. figure:: images/preview_changes.png

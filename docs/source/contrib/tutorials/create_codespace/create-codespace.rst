@@ -4,7 +4,7 @@ Creating a Codespace
 
 For every new branch you make in your repository, you must create a new codespace. 
 This is a virtual environment that will allow you to run your code and test it before merging it into the main branch. 
-It may take a few minutes to create the codespace, but once it is created, you can access it from the browser and subsquent access will be much faster.
+It may take a few minutes to create the codespace, but once it is created, you can access it from the browser and subsequent access will be much faster.
 
 Steps
 -----

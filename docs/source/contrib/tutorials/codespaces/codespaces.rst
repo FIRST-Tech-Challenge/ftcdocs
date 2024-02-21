@@ -22,7 +22,7 @@ Who should use Codespaces?
 ---------------------------
 
 Codespaces is our recommended development environment for all developers. It is especially 
-useful for developers who need to work on multiple machines, or who are not confortable with 
+useful for developers who need to work on multiple machines, or who are not comfortable with 
 setting up their development environment and the troubleshooting that comes with it.
 
 Downside of Codespaces
