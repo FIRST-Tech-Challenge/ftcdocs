@@ -124,12 +124,7 @@ to see why.
    Booklets<booklets/index>
    Site Feedback Form<ftc_docs/form/form>
    FTC Docs PDF<ftc_docs/pdf/pdf>
-   Dark Mode<ftc_docs/dark/dark>
-   Workflow<ftc_docs/workflow/workflow>
-
-.. Add Contrib Section here when added
-
-.. rst-class:: center
+   Contributing to FTC Docs<contrib/index>
    
 **I AM A...**
 
