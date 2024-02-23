@@ -202,7 +202,7 @@ Expansion Hub.
 As an alternate, you can use the *Manage* interface from a connected
 laptop or Driver Station (DS) app to upload a Control Hub's firmware, or
 to update it using the included or uploaded version. New firmware images
-can be obtained from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
+can be obtained from the `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__.
 
 Also, included or uploaded Control Hub firmware can be updated in Robot
 Controller Advanced Settings, from a paired Driver Station (DS) app as
@@ -428,7 +428,7 @@ the update of the OS.
 Updating the Control Hub OS Instructions
 ----------------------------------------
 
-1. Download the new Control Hub OS update file from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
+1. Download the new Control Hub OS update file from the `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__.
 
 2. On the *Manage* page, click on the *Select Update File* button to select the OS update file that you would like to upload.
 
