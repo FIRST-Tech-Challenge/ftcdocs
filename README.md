@@ -11,6 +11,12 @@ This GitHub project is a work-in-progress for FTC documentation.
 - GitHub Account
 - Git Installed on Local Machine (for local method)
 
+### Windows software dependencies (typically preinstalled on a Linux distro)
+
+- GitForWindows: https://gitforwindows.org/
+- Chocolatey for installing make: https://chocolatey.org/install#individual
+- make: https://community.chocolatey.org/packages/make
+
 ## Local Method
 
 1. Create fork of FtcDocs Project as shown [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo) keeping the name of the repo the same
