@@ -585,3 +585,70 @@ Just click to expand the Tech Tip you'd like to read.
        use the hamburger menu on the upper-left and select “Manage”. On this
        page you’ll find all of the same settings as you’d find on the
        webpage by logging in to the controller on a laptop!
+
+.. dropdown:: Week of 06/10/2024 "Updating the SDK Manifest"
+   :open: 
+
+   .. sdkmanifest:
+
+   This week’s Tech Tip of the Week comes to us from an amalgamation of emailed
+   questions asking about allowed ways to update an FtcRobotController SDK
+   project. An approximate summary of the emailed questions along this topic is
+   as follows:
+
+   - *“Is merely editing the Android Manifest file in the TeamCode directory of
+     the FtcRobotController SDK project an acceptable way of easily updating the
+     SDK? And would this violate RS08 in Game Manual Part 1?”*
+
+   Manually editing the Android Manifest file in the TeamCode Directory of the
+   FtcRobotController SDK software is not a violation of RS08, merely because
+   RS08(b) only protects the binary .AAR files. The manifest file is not part
+   of the .AAR binary, and thus it’s not protected.
+
+   Even though it’s not forbidden, that doesn’t mean you should do it – like
+   putting pineapple on pizza (sorry, the door was open, I couldn’t stop
+   myself). Seriously, though, 4 times out of 5 you can likely get away with
+   updating the SDK through editing the Android Manifest to point to the latest
+   version of the SDK libraries. However, that assumes that all the Tech Team
+   does is update the SDK libraries, which is never ever the case. In addition
+   to also updating programming samples, often enough the Tech Team must also
+   update tooling, dependencies, and other build items in addition to the SDK
+   libraries, and simply updating the Android Manifest is going to get you into
+   real trouble (things will appear to work, until they don’t, and you won’t
+   know why). As a corollary, you can choose to simply only put gas in your car
+   and ignore all the other fluids, but eventually you’re going to wish you
+   hadn’t.
+
+   The proper way of updating your SDK is to use Git/GitHub to update your
+   robot source each time the SDK software updates. The Tech Team always
+   updates the FtcRobotController in-place (meaning the same repo is always
+   updated each version), so if you’re using Git you can easily pull the
+   changes made upstream and accept the changes within your code. You should
+   never be manually updating files, like the Android Manifest file, because
+   Git can tell you all of the files you need to update and can do that for
+   you. If you use Git or GitHub, we highly recommend reading our guide on
+   ftc-docs for :ref:`managing your Android Studio project repositories
+   <programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub:forks vs. clones>`.  
+
+   For example, check out these changelists. The `FtcRobotController v9.0
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController/pull/674/files>`__
+   commit/change is everything that needs to be changed to upgrade from version
+   8.2 to 9.0 – there are 75 changed files there, which include samples, a core
+   interface module change, gradle dependencies, and in that changelist the
+   Tech Team also rearchitected the asset structure. However, the
+   `FtcRobotController v9.0.1
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController/pull/731/files>`__
+   and `FtcRobotController v9.1
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController/pull/941/files>`__
+   pull requests only changed a handful of files (mostly samples), and the core
+   changes are in the AndroidManifest.xml and build.dependencies.gradle files.
+   In general our major version releases (where we increase the first number in
+   the version string) are the big ones, and then the dot-releases are almost
+   always fairly small targeted releases. The Tech Team tries very hard not to
+   make big-scale changes to build systems or major dependencies during the
+   season.  In summary, teams should never simply change the Android Manifest,
+   they should be updating the software appropriately – as Voltaire warned,
+   with great “Android Studio” power comes great “GitHub” responsibility.
+
+
+
