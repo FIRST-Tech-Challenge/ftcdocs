@@ -31,8 +31,5 @@ Programming Resources
 - `Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_
 - `FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_
 
-Robot Building
---------------
 
-- `Part 1 - Basic 'Bot Guide for REV <https://ftc-docs-cdn.ftclive.org/booklets/en/rob_building_rev_p1.pdf>`_
 
