@@ -1,15 +1,16 @@
 *FIRST* Tech Challenge Blog
 ===========================
 
-The official `FIRST Tech Challenge Blog <http://firsttechchallenge.blogspot.com/>`__ 
-is an information resource for *FIRST* Tech Challenge teams. The Blog hosts articles 
-that go in-depth on topics that the 
-`Team Email Blasts <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__ 
-just can't fully cover.
+The `FIRST Community Blog <https://community.firstinspires.org/>`__  hosts the blogs for all *FIRST* programs. 
+
+*FIRST* Tech Challenge program specific information can be found on the  
+`FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__. The blog hosts articles 
+that go beyond what can be covered in the 
+`Team Email Blasts <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__ .
 
 .. only:: html
 
    .. raw:: html
 
-       <iframe id="iframeweb" src="https://firsttechchallenge.blogspot.com/" width="100%" height="700"></iframe>
+       <iframe id="iframeweb" src="https://community.firstinspires.org/topic/ftc" width="100%" height="700"></iframe>
 

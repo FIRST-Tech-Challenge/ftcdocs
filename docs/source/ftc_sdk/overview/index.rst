@@ -94,10 +94,9 @@ specifically defined:
    breaking changes or to provide a technology preview for new features in the
    upcoming season.
 
-Software SDK updates are announced via the |blog|_ and on social media.
+Software SDK updates are announced via the `FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__ and  
+`Team Email Blasts <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__ .
 
-.. _blog: https://firsttechchallenge.blogspot.com/ 
-.. |blog| replace:: *FIRST* Tech Challenge Blog 
 
 SDK Release Notes
 -----------------
