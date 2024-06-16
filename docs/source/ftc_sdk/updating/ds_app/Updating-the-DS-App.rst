@@ -1,5 +1,5 @@
-Updating the Driver Station (DS) App
-====================================
+Updating the Driver Station App
+===============================
 
 The Driver Station App is one of the Apps provided with the *FIRST* Tech
 Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`.  The Driver

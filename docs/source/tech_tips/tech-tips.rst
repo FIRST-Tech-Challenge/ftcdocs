@@ -462,9 +462,8 @@ Just click to expand the Tech Tip you'd like to read.
   housing which easily identifies it as a 20A fuse. If you find that your
   battery’s voltage suddenly drops to zero (when tested using a `battery tester
   <https://www.andymark.com/products/battery-beak-frc-ftc-usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__
-  or `multimeter
-  <https://www.harborfreight.com/7-function-digital-multimeter-59434.html>`__)
-  it’s probably because you’ve blown your battery’s in-line fuse.
+  or multimeter) it’s probably because you’ve blown your battery’s in-line
+  fuse.
 
   A fuse is a short span of specially-designed electrical wire intended to
   carry electrical loads up to a very specific amount of current. When the
@@ -664,14 +663,12 @@ Just click to expand the Tech Tip you'd like to read.
    stronger and clearer the signal and the faster the communications.
 
 
-   **NOTE:** The `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ has a
-   `known bug
-   <https://github.com/REVrobotics/REV-DriverHub-Samples/issues/12>`__ where
-   the Link Speed indicator only shows the initially negotiated link speed, and
-   the link speed indicated does not change when the Wi-Fi device renegotiates
-   different link speeds. This means the Link Speed indicator and the Bar graph
-   are not represented accurately on Driver Hubs, but are represented
-   accurately on all legal phones.
+   **NOTE:** The `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ has
+   a known bug where the Link Speed indicator only shows the initially
+   negotiated link speed, and the link speed indicated does not change when the
+   Wi-Fi device renegotiates different link speeds. This means the Link Speed
+   indicator and the Bar graph are not represented accurately on Driver Hubs,
+   but are represented accurately on all legal phones.
 
 .. dropdown:: Week of 02/12/2024 "Robot Wi-Fi Signal Strength"
 
