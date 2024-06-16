@@ -1353,6 +1353,3 @@ Just click to expand the Tech Tip you'd like to read.
    using the 1.8A charge rate setting. To ensure safety, proper charging, and a
    long battery life, make sure you’re charging your batteries at the
    manufacturer’s recommended charge rates!
-
-
-
