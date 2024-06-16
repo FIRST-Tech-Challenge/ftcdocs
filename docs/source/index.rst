@@ -62,7 +62,6 @@ to see why.
    :maxdepth: 1
    :hidden:
 
-   Basic ‘Bot Guide for REV <robot_building/rev/index>
 
 .. toctree::
    :caption: Control System Resources
