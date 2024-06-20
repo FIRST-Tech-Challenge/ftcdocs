@@ -11,8 +11,8 @@ copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
-release = '0.2'
-version = '0.2.0'
+release = '0.3'
+version = '0.3.0'
 # -- General configuration
 
 extensions = [
@@ -278,6 +278,7 @@ linkcheck_request_headers = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
