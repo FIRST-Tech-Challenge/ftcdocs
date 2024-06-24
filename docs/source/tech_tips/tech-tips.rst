@@ -101,21 +101,6 @@ Just click to expand the Tech Tip you'd like to read.
    calculate Servo Mechanical Power (*Thank you to Orion DeYoe for providing
    this tool*). 
 
-   .. tip::
-
-      - For Speed, use the radio button to choose the unit type that the vendor
-        has provided - for most servos this will be listed in a period of time
-        per 60 degrees (such as with the REV Smart Servo example) or perhaps
-        the manufacturer may provide an angular velocity, such as
-        rotations-per-minute (RPM). Enter the no-load speed value and unit as
-        the manufacturer has provided. 
-
-      - For stall torque, provide the value and select the unit as specified by
-        the manufacturer. If the manufacturer merely provides kg, assume kg*cm. 
-
-      The calculator automatically recalculates on any
-      changes, there is no button to press in order to trigger a calculation.
-
    .. raw:: html
    
       <head>
@@ -126,8 +111,6 @@ Just click to expand the Tech Tip you'd like to read.
                background-color: white;
                margin: 0px;
            }
-
-           
            
            .ODToolContainer {
                display: flex;
@@ -324,9 +307,9 @@ Just click to expand the Tech Tip you'd like to read.
                               <option value="9.80665">kg*m</option>
                               <option value="0.0980665">kg*cm</option>
                               <option value="0.00980665">kg*mm</option>
-                              <option value="1.35581795">ft*lb</option>
-                              <option value="0.11298483">in*lb</option>
-                              <option value="0.00706155">in*oz</option>
+                              <option value="1.35581795">lb*ft</option>
+                              <option value="0.11298483">lb*in</option>
+                              <option value="0.00706155">oz*in</option>
                           </select>
                       </div>
                   </div>
@@ -345,8 +328,133 @@ Just click to expand the Tech Tip you'd like to read.
               </div>
               
           </div>
-          
+          <br>
       </body>
+
+   .. tip::
+
+      - For Speed, use the radio button to choose the unit type that the
+        manufacturer has provided - for most servos this will be listed in a
+        period of time per 60 degrees (such as with the REV Smart Servo
+        example) or perhaps the manufacturer may provide an angular velocity,
+        such as rotations-per-minute (RPM). Enter the no-load speed value and
+        unit as the manufacturer has provided. 
+
+      - For stall torque, provide the value and select the unit as specified by
+        the manufacturer. If the manufacturer merely provides kg, assume kg*cm. 
+
+      The calculator automatically recalculates on any
+      changes, there is no button to press in order to trigger a calculation.
+
+   Here is a handy table of some common servo mechanical power values:
+   
+   .. list-table:: Common Servo Mechanical Power Values ( @6V )
+      :widths: 50 20 20 20 20 20
+      :header-rows: 1
+      :align: center
+
+      * - Description
+        - Speed
+        - Torque
+        - Stall Current
+        - Power
+        - Cost ($USD)
+      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/TETRIX-MAX-Standard-Scale-Servo-Motor>`__
+        - 0.18 s/60°
+        - 6 kg-cm
+        - 1.2 A
+        - 0.86 W
+        - $29.50
+      * - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`__
+        - 0.14 s/60°
+        - 13.5 kg-cm
+        - 2.0 A
+        - 2.48 W
+        - $30.00
+      * - `goBILDA 2000 Series Speed Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`__
+        - 0.09 s/60°
+        - 9.3 kg-cm
+        - 2.5 A
+        - 2.65 W
+        - $33.99
+      * - `Axon Robotics Micro+ <https://axon-robotics.com/products/micro>`__
+        - 0.075 s/60°
+        - 7.8 kg-cm
+        - 2.2 A
+        - 2.67 W
+        - $63.79
+      * - `goBILDA 2000 Series Torque Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/>`__
+        - 0.20 s/60°
+        - 300 oz-in
+        - 2.5 A
+        - 2.77W
+        - $33.99
+      * - `Studica Multi-Mode Smart Servo 200 <https://www.studica.com/studica-robotics-brand/multi-mode-smart-servo-200>`__
+        - 0.046 s/60°
+        - 5 kg-cm
+        - 2.7 A
+        - 2.79 W
+        - $24.99
+      * - `goBILDA 2000 Series Super Speed Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-4-super-speed/>`__
+        - 0.043 s/60°
+        - 4.7 kg-cm
+        - 2.5 A
+        - 2.81 W
+        - $33.99
+      * - `AndyMark am-4954 High Torque Servos <https://www.andymark.com/products/programmable-servos>`__
+        - 0.20 s/60°
+        - 22 kg-cm
+        - 1.7 A
+        - 2.82 W
+        - $34.00
+      * - `Studica Multi-Mode Smart Servo <https://www.studica.com/studica-robotics-brand/multi-mode-smart-servo>`__
+        - 62 RPM
+        - 20 kg-cm
+        - ??
+        - 3.18 W
+        - $23.99
+      * - `AndyMark am-4955 High Speed Servos <https://www.andymark.com/products/programmable-servos>`__
+        - 0.05 s/60°
+        - 7 kg-cm
+        - 2.7 A
+        - 3.59 W
+        - $30.00
+      * - `FeeTech FT5335M-FB <https://www.pololu.com/product/3446>`__
+        - 0.20 s/60°
+        - 35 kg-cm
+        - 4.0 A
+        - 4.49 W
+        - $52.95
+      * - `HiTec HS-805BB <https://hitecrcd.com/products/servos/analog/giant-analog/hs-805bb/product>`__
+        - 0.14 s/60°
+        - 24.7 kg-cm
+        - 6.0 A
+        - 4.53 W
+        - $49.99
+      * - `HiTec HSR-M9382TH <https://www.servocity.com/hsr-m9382th-servo/>`__
+        - 0.17 s/60°
+        - 34 kg-cm
+        - 2.7 A
+        - 5.13 W
+        - $199.99
+      * - `Power HD GTS3 <https://www.rcmart.com/power-hd-30kg-gts-series-brushless-high-voltage-servo-for-1-10-1-8-rc-car-gts3-00126675>`__
+        - 0.083 s/60°
+        - 20 kg-cm
+        - 4.0 A
+        - 6.19 W
+        - $120.00
+      * - `Axon Robotics MINI+ <https://axon-robotics.com/products/mini>`__
+        - 0.09 s/60°
+        - 25 kg-cm
+        - 3.8 A
+        - 7.13 W
+        - $79.99
+      * - `Axon Robotics MAX+ <https://axon-robotics.com/products/max>`__
+        - 0.115 s/60°
+        - 34 kg-cm
+        - 4.0 A
+        - 7.59 W
+        - $79.99
 
 .. dropdown:: Week of 06/10/2024 "Updating the SDK Manifest"
 
