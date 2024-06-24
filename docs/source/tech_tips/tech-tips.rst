@@ -51,7 +51,7 @@ Just click to expand the Tech Tip you'd like to read.
    **no-load speed** reflecting their ability to hold a position against a force
    and how fast they move when unloaded. While electrical power is calculated
    generally the same for both types of devices, these design and use
-   differences have a big impact on how mechanical power is calculated.
+   differences have an impact on how mechanical power is determined.
 
    Both motors and servos calculate **electrical power** the same, using the
    standard electrical power formula: 
@@ -68,14 +68,14 @@ Just click to expand the Tech Tip you'd like to read.
    power, so the maximum number of fully-stalled REV Smart Servos the SPM can
    supply full power to is 7 (90W divided by 12W, ignoring the remainder).
 
-   Motors and servos also calculate mechanical power similarly. 
+   Motors and servos also generally calculate mechanical power similarly. 
 
    - *Mechanical Power(W) = torque (N-m) x angular speed (rad/s)*
 
-   Mechanical Power for a DC motor generally follows a very specific curve, 
-   based on its efficiency, its stall current and stall torque, how efficient
-   the motor is, and a bunch of other factors. The general performance curve
-   of a DC motor can be seen in Figure 1.
+   Mechanical Power for a DC motor generally follows a very specific curve,
+   based on its efficiency, stall current, stall torque, speed, and a bunch of
+   other factors. The general performance curve of a DC motor can be seen in
+   Figure 1.
 
    .. figure:: images/dc-motor-curve.*
       :width: 75%
@@ -87,8 +87,7 @@ Just click to expand the Tech Tip you'd like to read.
    From this we can see that the Peak Power is found at the intersection of 1/2
    Stall Torque and 1/2 Speed. Even though a servo is used different than a
    generic motor, this approximation is still good for calculating the maximum
-   servo mechanical power. Simplified, we can therefore use this formula for
-   approximating the maximum mechanical power for a servo:
+   mechanical power of a servo. Simplified, we can use this formula:
 
    - *Servo Max Mechanical Power(W) = 0.25 x stall torque(N-m) x no-load speed(rad/s)*
 
