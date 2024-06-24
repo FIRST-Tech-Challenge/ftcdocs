@@ -387,7 +387,7 @@ Just click to expand the Tech Tip you'd like to read.
         - 0.20 s/60°
         - 300 oz-in
         - 2.5 A
-        - 2.77W
+        - 2.77 W
         - $33.99
       * - `Studica Multi-Mode Smart Servo 200 <https://www.studica.com/studica-robotics-brand/multi-mode-smart-servo-200>`__
         - 0.046 s/60°
