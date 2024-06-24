@@ -257,7 +257,7 @@ Just click to expand the Tech Tip you'd like to read.
 
       </head>
 
-      <body onload="onLoad()" title="Servo Peak Power Calculator">
+      <body onload="onLoad()">
 
           <div class="ODToolContainer">
               <div class="ODToolCard">
