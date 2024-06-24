@@ -77,7 +77,7 @@ Just click to expand the Tech Tip you'd like to read.
    the motor is, and a bunch of other factors. The general performance curve
    of a DC motor can be seen in Figure 1.
 
-   .. figure:: images/dc-motor-curve.png
+   .. figure:: images/dc-motor-curve.*
       :width: 75%
       :align: center
       :alt: DC Motor Performance Curves
