@@ -9,7 +9,7 @@ jobs:
   delete-artifacts:
     runs-on: ubuntu-latest
     steps:
-      - uses: dscaba/purge-artifacts-action@v2
+      - uses:  dscabsa/purge-artifacts-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           expire-in: 7days
