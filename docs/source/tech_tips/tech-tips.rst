@@ -279,8 +279,8 @@ Just click to expand the Tech Tip you'd like to read.
                       <div class="ODUnitControl" id="timeUnitControl" >
                           <label class="ODInsetUnitLabel">Time per 60°</label>
                           <div class="ODUnitControlValueLine">
-                              <input type="number" value="1.0" onchange="">
-                              <select onchange="">
+                              <input type="number" value="1.0" onchange="calculate()">
+                              <select onchange="calculate()">
                                   <option value="1.0" selected="selected">sec</option><!--base unit-->
                                   <option value="60.0">min</option>
                                   <option value="3600.0">hr</option>
