@@ -66,7 +66,7 @@ containing information and designed for easy recognition.
 The above samples represent different formats, or **families**. A
 project typically uses a single AprilTag family.
 
-This year, *FIRST* Tech Challenge nuses a common family called **36h11**. A PDF
+This year, *FIRST* Tech Challenge uses a common family called **36h11**. A PDF
 showing the numbers 0 through 20 from the 36h11 family can be downloaded here:
 
 - :download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`
