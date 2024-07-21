@@ -157,18 +157,6 @@ resource you want to explore!
       ^^^
 
       Links to team management resources.
-
-   .. grid-item-card::
-      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/prematch-checklist.pdf
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
- 
-      Pre-Match Checklist
-
-      ^^^
-
-      Pre-Match Checklist to ensure you're ready for each match!
       
    .. grid-item-card:: 
       :link: ../../cad_resources/index
