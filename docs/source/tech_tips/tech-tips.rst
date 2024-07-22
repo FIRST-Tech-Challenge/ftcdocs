@@ -1197,8 +1197,9 @@ Just click to expand the Tech Tip you'd like to read.
    replugged, the gamepad will again read the current analog stick value as
    “center” and correct the drift.
 
-   Other gamepads, like the Sony DualShock (PS4) or Sony DualSense (PS5), 
-   don't have easy user-serviceable means to correct for drift. 
+   Other gamepads, like the Sony DualShock 4 (PS4) or Sony DualSense (PS5), 
+   can be calibrated using online tools such as https://dualshock-tools.github.io/ 
+   (this is not an official Sony calibration method). 
 
 .. dropdown:: Week of 01/29/2024 "REV Driver Hub Tips"
 
