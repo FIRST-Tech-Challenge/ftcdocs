@@ -11,7 +11,7 @@ want their robot to follow a white line on the competition floor and
 then score a game element into a goal autonomously during a match. Teams
 write programs called *op modes* (which stands for "operational modes")
 to specify the behavior for their robot. These op modes run on the Robot
-Controller after being selected on the Driver Station.
+Controller after being selected on the Operator Console.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
@@ -166,7 +166,7 @@ you create. They create the basic structure for your op mode.
 In the figure shown above, the main body of the op mode is defined by
 the outer purple bracket that has the words "to runOpMode" at the top.
 As the help tip indicates, this function is executed when this op mode
-("MyFIRSTOpMode" in this example) is selected from the Driver Station.
+("MyFIRSTOpMode" in this example) is selected from the Operator Console.
 
 It can be helpful to think of an op mode as a list of tasks for the
 Robot Controller to perform. The Robot Controller will process this list
@@ -198,12 +198,12 @@ human user. The robot will ignore any comments in an op mode.
 Any programming blocks that are placed after the "Put initialization
 blocks here" comment (and before the "call MyFIRSTOpMode.waitForStart"
 block) will be executed when the op mode is first selected by a user at
-the Driver Station.
+the Operator Console.
 
 When the Robot Controller reaches the block labeled "call
 MyFIRSTOpMode.waitForStart" it will stop and wait until it receives a
-Start command from the Driver Station. A Start command will not be sent
-until the user pushes the Start button on the Driver Station. Any code
+Start command from the Operator Console. A Start command will not be sent
+until the user pushes the Start button on the Operator Console. Any code
 after the "call MyFIRSTOpMode.waitForStart" block will get executed
 after the Start button has been pressed.
 
@@ -396,11 +396,11 @@ Inserting Telemetry Statements
 
 Your op mode is just about ready to run. However, before continuing, you
 will add a couple of telemetry statements that will send information
-from the Robot Controller to the Driver Station for display on the
-Driver Station user interface. This telemetry mechanism is a useful way
-to display status information from the robot on the Driver Station. You
+from the Robot Controller to the Operator Console for display on the
+Operator Console user interface. This telemetry mechanism is a useful way
+to display status information from the robot on the Operator Console. You
 can use this mechanism to display sensor data, motor status, gamepad
-state, etc. from the Robot Controller to the Driver Station.
+state, etc. from the Robot Controller to the Operator Console.
 
 Note that you will need an estimated 15 minutes to complete this task.
 
@@ -425,7 +425,7 @@ below the "set motor1.Power to" block. Click on the green text block
 
 |
 
-   Note that the "call telemetry.update" block is an important block.  Data that is added to the telemetry buffer will not be sent to the Driver Station until the "telemetry.update" method is called.
+   Note that the "call telemetry.update" block is an important block.  Data that is added to the telemetry buffer will not be sent to the Operator Console until the "telemetry.update" method is called.
 
 3. Click on the "Variables" block category and select the "tgtPower"  
 block. Drag the block so it clicks into place next to the "number"    
@@ -436,7 +436,7 @@ parameter on the telemetry programming block.
 
 |
 
-   The Robot Controller will send the value of the variable tgtPower to the Driver Station with a key or label of "Target Power".  The key will be displayed to the left of the value on the Driver Station.
+   The Robot Controller will send the value of the variable tgtPower to the Operator Console with a key or label of "Target Power".  The key will be displayed to the left of the value on the Operator Console.
 
 4. Repeat this process and name the new key "Motor Power".            
 
@@ -461,7 +461,7 @@ second telemetry block.
 
 |
 
-   Your op mode will now also send the motor power information from the Robot Controller to be displayed on the Driver Station.
+   Your op mode will now also send the motor power information from the Robot Controller to be displayed on the Operator Console.
 
 Saving Your Op Mode
 ~~~~~~~~~~~~~~~~~~~
@@ -487,9 +487,9 @@ Controller. If your save was successful, you should see the words
 Exiting Program & Manage Screen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After you have modified and saved your op mode, if your Driver Station
+After you have modified and saved your op mode, if your Operator Console
 is still in the Program & Manage screen, then you should exit this
-screen and return to the Main Driver Station screen.
+screen and return to the Main Operator Console screen.
 
 Note it will take an estimated 1 minute to complete this task.
 

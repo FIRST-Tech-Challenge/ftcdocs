@@ -12,7 +12,7 @@ ports.
 
 This document describes how to connect and configure two Expansion Hubs
 for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
-Game Manual Part 1 (rule <RE07>, part f) limits the maximum number of
+Competition Manual limits the maximum number of
 Expansion Hubs on a single robot to two.
 
 **Important Note:** This document describes the process for setting up a
@@ -82,7 +82,7 @@ first Expansion Hub before connecting the second Expansion Hub.
 
 With your first Expansion Hub connected to the 12V battery and to the Robot
 Controller, launch the Settings menu from the Robot Controller app (note you
-can also do this from the Driver Station app, if the Driver Station is
+can also do this from the Driver Station app, if the Operator Console is
 paired to the Robot Controller).
 
 1. Select the Advanced Settings item to display the Advanced Settings menu.

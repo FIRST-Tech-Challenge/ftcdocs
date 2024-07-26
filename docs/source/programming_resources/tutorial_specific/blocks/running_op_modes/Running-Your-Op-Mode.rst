@@ -2,8 +2,8 @@ Running Your OpMode (All Languages)
 -----------------------------------
 
 If your op mode requires input from a gamepad, then you will need to
-connect a Logitech F310 gamepad to the Driver Station. Note that you can
-have up to two gamepads connected through a USB hub to a Driver Station.
+connect a Logitech F310 gamepad to the Operator Console. Note that you can
+have up to two gamepads connected through a USB hub to an Operator Console.
 However, in this example, we will only have a solitary gamepad
 connected.
 
@@ -20,7 +20,7 @@ switch on the bottom of the gamepad is set to the "X" position.
 
 |
 
-2. Connect the gamepad to the Driver Station using the Micro USB OTG  
+2. Connect the gamepad to the Operator Console using the Micro USB OTG  
 adapter cable.                                                        
 
 .. image:: images/RunningOpModeStep2.jpg
@@ -40,7 +40,7 @@ controller to designate your gamepad as user #1.
 
    Note that pushing the Start button and the B button simultaneously would designate the gamepad as user #2.
 
-4. On the Driver Station screen, touch the triangular-shaped,         
+4. On the Operator Console screen, touch the triangular-shaped,         
 "TeleOp" dropdown list button to display a list available op modes.   
 You should see your recently saved op mode among the list of          
 available op modes that reside on your Robot Controller.              
@@ -60,7 +60,7 @@ Controller.
 
 |
 
-   Note that even though you are using the Driver Station to select the op mode, the actual op mode instructions will be executed on the Robot Controller phone.
+   Note that even though you are using the Operator Console to select the op mode, the actual op mode instructions will be executed on the Robot Controller phone.
 
 6. Press the INIT button to initialize your op mode.                  
 
@@ -87,5 +87,5 @@ left hand corner of the screen.
 
 |
 
-   If you want to stop your op mode, press the square-shaped Stop button on the Driver Station.
+   If you want to stop your op mode, press the square-shaped Stop button on the Operator Console.
 

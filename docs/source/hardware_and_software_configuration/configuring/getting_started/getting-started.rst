@@ -17,7 +17,7 @@ Connecting an Android Smartphone to an Expansion Hub
 If you are using an Android smartphone as a Robot Controller, you must
 physically connect the Robot Controller smartphone to the Expansion Hub
 using a USB cable and an On-The-Go (OTG) adapter. Also, you should
-verify that the Driver Station is currently paired to the Robot
+verify that the Operator Console is currently paired to the Robot
 Controller.
 
 Connecting an Android Smartphone to an Expansion Hub Instructions
@@ -80,19 +80,19 @@ Getting the Control Hub Ready
 
 If you are using a Control Hub, you do not need to make any additional
 connections. You simply need to make sure that the Control Hub is
-powered on and paired to the Driver Station.
+powered on and paired to the Operator Console.
 
-Creating a Configuration File Using the Driver Station
+Creating a Configuration File Using the Operator Console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Although the configuration file needs to reside on the Robot Controller,
-for this tutorial we will use the Driver Station app to create the
-configuration file remotely. The Driver Station can be used to create a
+for this tutorial we will use the Operator Console app to create the
+configuration file remotely. The Operator Console can be used to create a
 configuration file for a Control Hub or for an Android smartphone Robot
 Controller.
 
 
-Creating a Configuration File on the Robot Controller using the Driver Station Instructions
+Creating a Configuration File on the Robot Controller using the Operator Console Instructions
 -------------------------------------------------------------------------------------------
 
 1. Touch the three vertical dots in the upper right hand corner of    

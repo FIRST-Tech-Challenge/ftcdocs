@@ -26,7 +26,7 @@ robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
 programs called *op modes* (which stands for "operational modes") to
 specify the behavior for their robot. These op modes run on the Robot
-Controller phone after being selected on the Driver Station phone.
+Controller phone after being selected on the Operator Console phone.
 
 Teams who are participating in the FIRST Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
@@ -314,8 +314,8 @@ In the next few statements of the example, the op mode prompts the user
 to push the start button to continue. It uses another object that is
 available in the runOpMode method. This object is called telemetry and
 the op mode uses the addData method to add a message to be sent to the
-Driver Station. The op mode then calls the update method to send the
-message to the Driver Station. Then it calls the waitForStart method, to
+Operator Console. The op mode then calls the update method to send the
+message to the Operator Console. Then it calls the waitForStart method, to
 wait until the user pushes the start button on the driver station to
 begin the op mode run.
 
@@ -332,7 +332,7 @@ driver pushes the start button.
 
 After a start command has been received, the op mode enters a while loop
 and keeps iterating in this loop until the op mode is no longer active
-(i.e., until the user pushes the stop button on the Driver Station):
+(i.e., until the user pushes the stop button on the Operator Console):
 
 .. code-block:: java
 
@@ -345,7 +345,7 @@ and keeps iterating in this loop until the op mode is no longer active
 
 As the op mode iterates in the while loop, it will continue to send
 telemetry messages with the index of "Status" and the message of
-"Running" to be displayed on the Driver Station.
+"Running" to be displayed on the Operator Console.
 
 Building Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~~
@@ -461,8 +461,8 @@ the build button and verify that the op mode gets built properly.
 Running Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~
 
-*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the Driver Station is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
-*  On the Driver Station, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
+*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the Operator Console is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
+*  On the Operator Console, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
 
 .. image:: images/OnBotDoc_SelectMyFIRSTOpMode.jpg
    :align: center
@@ -487,7 +487,7 @@ continue.
 |
 
 Once you press the start button, the op mode will continue to iterate
-and send the "Status: Running" message to the Driver Station. To stop
+and send the "Status: Running" message to the Operator Console. To stop
 the op mode, press the square-shaped stop button.
 
 .. image:: images/OnBotDoc_PressStop.jpg
@@ -533,7 +533,7 @@ negative value of the gamepad1's left joystick:
    tgtPower = -this.gamepad1.left_stick_y;
 
 The object gamepad1 is available for you to access in the runOpMode
-method. It represents the state of gamepad #1 on your Driver Station.
+method. It represents the state of gamepad #1 on your Operator Console.
 Note that for the F310 gamepads that are used during the competition,
 the Y value of a joystick ranges from -1, when a joystick is in its
 topmost position, to +1, when a joystick is in its bottommost position.
@@ -551,7 +551,7 @@ negating the joystick y value can be very useful in practice.
 The next set of statements sets the power of motorTest to the value
 represented by the variable tgtPower. The values for target power and
 actual motor power are then added to the set of data that will be sent
-via the telemetry mechanism to the Driver Station.
+via the telemetry mechanism to the Operator Console.
 
 .. code-block:: java
 
@@ -569,7 +569,7 @@ Running Your Op Mode with a Gamepad Connected
 
 *  Your op mode takes input from a gamepad and uses this input to control
    a DC motor. To run your op mode, you will need to connect a Logitech
-   F310 gamepad to the Driver Station.
+   F310 gamepad to the Operator Console.
 *  Before you connect your gamepad to the phone, verify that the switch
    on the bottom of the gamepad is set to the "X" position.
 
@@ -578,7 +578,7 @@ Running Your Op Mode with a Gamepad Connected
 
 |
 
-Connect the gamepad to the Driver Station using the Micro USB OTG
+Connect the gamepad to the Operator Console using the Micro USB OTG
 adapter cable.
 
 .. image:: images/RunningOpModeStep2.jpg
@@ -599,7 +599,7 @@ simultaneously would designate the gamepad as user #2.
 
 If you successfully designated the gamepad to be user #1, you should see
 a little gamepad icon above the text "User 1" in the upper right hand
-corner of the Driver Station Screen. Whenever there is activity on
+corner of the Operator Console Screen. Whenever there is activity on
 gamepad #1, the little icon should be highlighted in green. If the icon
 is missing or if it does not highlight in green when you use your
 gamepad, then there is a problem with the connection to the gamepad.
@@ -614,7 +614,7 @@ control the motion of the motor. As you run your op mode, be careful and
 make sure you do not get anything caught in the turning motor. Note that
 the User #1 gamepad icon should highlight green each time you move the
 joystick. Also note that the target power and actual motor power values
-should be displayed in the telemetry area on the Driver Station.
+should be displayed in the telemetry area on the Operator Console.
 
 .. image:: images/OnBotDoc_RunOpModeDCMotor.jpg
    :align: center
