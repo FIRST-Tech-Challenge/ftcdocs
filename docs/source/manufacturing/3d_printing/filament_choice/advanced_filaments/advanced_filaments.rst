@@ -35,7 +35,7 @@ often found near the same price as PLA or even cheaper.
 * ABS bed temperatures: 100-120° C
 * ABS enclosure temperature: 30-40° C
 
-.. note:: It is important to properly vent/filter fumes emitting from ABS/ASA, as prolonged exposure to either can lead to poisoning. Typically it's reccomended to use an activated carbon air filter, however most enclosures aren't airtight, and therefore it's also important to leave your printer somewhere safe if you plan on printing large or numerous parts.
+.. note:: It is important to properly vent/filter fumes emitting from ABS/ASA, as prolonged exposure to either can lead to poisoning. Typically it's recommended to use an activated carbon air filter, however most enclosures aren't airtight, and therefore it's also important to leave your printer somewhere safe if you plan on printing large or numerous parts.
 
 Polyamide Filaments
 -------------------
