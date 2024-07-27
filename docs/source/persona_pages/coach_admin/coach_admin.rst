@@ -61,7 +61,7 @@ link for the resource you want to explore!
                Youth Registration
  
    .. grid-item-card::
-      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/sample-team-budget.pdf
+      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/sample-budget.xlsx
       :link-type: url
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
