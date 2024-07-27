@@ -3,31 +3,27 @@ Getting to know the GitHub Repo
 :bdg-secondary:`Information`
 
 .. note::
-   It is assumed that you have created a GitHub account and been given the proper 
-   permissions to work within this repository for training. If you can read this,
-   you probably have, but double-check with your friendly FTC Support person.
+   It is assumed that you have already created a GitHub account.
 
 GitHub is a website where people and organizations can store projects in what's
 known as a "repository". Some repositories can be public, meaning anyone can
-see the content within it, and some are private. The ftcdocs repo you're working on
-is a public repository. *FIRST* Tech Challenge has several public and
-private repositories for software projects within the organization.
+see the content within it, and some are private. The ftcdocs repository you're working on
+is a public repository, which means that anyone can access it.
 
-Understanding the rST-Primer Repo
+Understanding the ftcdocs Repo
 ---------------------------------
 
 The GitHub ``ftcdocs`` repository can be found on GitHub at the following address:
 
--  https://github.com/FIRST-Tech-Challenge/ftcdocs
+-  https://github.com/FIRST-Tech-Challenge/ftcdocs/
 
-The GitHub repository is where all of our documentation source files and
-project content is kept. Figure 1 shows what the main code page for the
+The GitHub repository is where all of the source files for this website are kept. Figure 1 shows what the main code page for the
 ``ftcdocs`` repository looks like. 
 
-.. figure:: images/rst-primer_repo.png
+.. figure:: images/ftcdocs_repo.png
    :width: 80%
    :align: center
-   :alt: Figure 1 rst-primer GitHub Repo
+   :alt: Figure 1 ftcdocs GitHub Repo
 
    Figure 1: ftcdocs GitHub Repository
 
@@ -52,7 +48,7 @@ first four:
 
 4. ``Discussions`` - The **Discussions page** is where users can visit and ask 
    questions or get help on topics. This is meant to be an open discussion area for the
-   repository. This area is similar to a forum, but specifically for ``rst-primer``.
+   repository. This area is similar to a forum, but specifically for ``ftcdocs``.
 
 The ``< > Code`` tab will be the tab that we will spend most our time in, as this 
 is where we manage *branches*, view and edit files, and perform most of our basic
