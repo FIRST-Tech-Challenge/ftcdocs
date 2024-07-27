@@ -18,6 +18,7 @@ Those commands will be covered by intermediate and advanced content tutorials.
 
 This tutorial covers these basic building blocks of simple documents (these are quick links within the document):
 
+* `Simple Table of Contents`_
 * `Simple Paragraph Content`_
 * `Transitions`_
 * `Document Title`_
@@ -47,6 +48,41 @@ This tutorial covers these basic building blocks of simple documents (these are 
 Okay, so now let's cover these topics one by one. 
 
 ----
+
+Simple Table of Contents
+------------------------
+
+The first thing you'll want to do when creating a document is to add or update
+the Table of Contents (TOC). The TOC is what creates the connections between 
+all the documents in a project. If you are creating a subcategory that resides
+in the `docs/source/contrib` directory, you will need to add the document to the
+`toctree` directive in the `docs/source/index.rst` file. Generally speaking, the 
+toctree that you will add the document to is the one that is one layer above the
+document you are creating. 
+
+Adding a document to the TOC is done by simply adding the relative 
+path to the document in the `toctree` directive as shown below:
+
+**Before**
+
+.. code:: rst
+
+   .. toctree::
+      :maxdepth: 2
+      :caption: Contents:
+
+      previous-doc/source.rst
+
+**After**
+
+.. code:: rst
+
+   .. toctree::
+      :maxdepth: 2
+      :caption: Contents:
+
+      previous-doc/source.rst
+      Demo/7350.rst
 
 Simple Paragraph Content
 ------------------------
@@ -196,16 +232,25 @@ resolution image):
    Example of Editing a Document with a Title
 
 Great! So what will this document ACTUALLY look like on the web or in print?
-For all these "basic" ReStructured Text features we can actually Preview what
-the document looks like within the Preview area. You can click on the Preview
-tab to see a real-time preview of what the document will actually render to.
+This is where the auto-rendering of ReStructured Text comes in. When you press
+`ctrl-shift-b` in the VS Code editor, the autobuild will render the document. 
+You only need to press `ctrl-shift-b` once, and all future changes to any documents
+will automatically render when you save the document. To see what the document
+will look like, you can navigate `http://127.0.0.1:7350/` in your browser for 
+local users or click the button shown below for codespaces users.
 
-.. figure:: images/TitlePreview.png
+.. figure:: images/preview-changes.png
    :width: 80%
    :align: center
    :alt: Previewing a Document with a Title
 
    Example of Previewing a Document with a Title
+
+.. warning::
+   Remember that inorder to see the rendered document, you must have the
+   document added to the `toctree` directive in the `index.rst` file. If you
+   don't add the document to the `toctree` directive, the document will not
+   be rendered in the preview.
 
 .. note::
    Realize that the special character you use could be almost any special
@@ -252,12 +297,20 @@ special characters that can be used beyond these levels (in case they are
 needed) are Pound Signs (#) and Asterisks (*). Here's what using Sections
 looks like:
 
-.. figure:: images/Sections.png
-   :width: 80%
-   :align: center
-   :alt: Using Sections in a Document
+Titles
+======
 
-   Example of using Sections in a Document
+Sections
+--------
+
+SubSection
+^^^^^^^^^^
+
+SubSubSection
+"""""""""""""
+
+SubSubSubSection
+++++++++++++++++
 
 The great thing about sections is that each section gets an automatic
 anchor that can be used to reference that section within the document. Just
@@ -318,12 +371,25 @@ italicize. This gives you context of what is happening as you do it.
 
 Here are a few examples:
 
-.. figure:: images/TextFormat.png
-   :width: 80%
-   :align: center
-   :alt: Text Formatting in a Document
+.. code:: rst
+   
+      This is **bold** text in **this document**.
+   
+      This is *italic* text in *this document*.
+   
+      This is ``literal`` text in ``this document``.
+   
+      This is a fun way using "\\ " to smash styles without 
+      spaces: \*\*Bold\*\*\\ \*Italic\* will render as **Bold**\ *Italic*.
 
-   Example of using Text Formatting in a Document
+This is **bold** text in **this document**.
+
+This is *italic* text in *this document*.
+
+This is ``literal`` text in ``this document``.
+
+This is a fun way using "\\ " to smash styles without 
+spaces: \*\*Bold\*\*\\ \*Italic\* will render as **Bold**\ *Italic*.
 
 ----
 

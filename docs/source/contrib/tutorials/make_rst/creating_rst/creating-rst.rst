@@ -11,10 +11,10 @@ changes to our branch - i.e. adding or modifying content. Remember, our branch
 is our place to make any kinds of changes we want, we just have to understand 
 *where* and *how* to make those changes.
 
-Understanding the rst-primer Structure
+Understanding the ftcdocs Structure
 --------------------------------------
 
-The rst-primer repository is a "map" of the files and how they'll be presented
+The ftcdocs repository is a "map" of the files and how they'll be presented
 to users on the website. Filenames and where they're located in the folder 
 structure of the repository define the ultimate web experience users will have
 interacting with your final documentation.
@@ -33,7 +33,7 @@ structure listing, here's a quick introduction:
    GitHub Folder Listing Info
 
 1. Branch Indicator and Selection - Here you can see which branch you're viewing,
-   and select another branch if you want to view a different one.
+   and select another branch if you want to view a different one. Test 123
 2. Repository Path Location of the currently viewed folder - This helps you 
    understand where you are within the Repository. On the main page of the 
    repository there is no path shown, but on all other locations within the 
@@ -67,12 +67,14 @@ can get important information regarding what the repo is for, what license the
 repository is managed by, and so on. As a contributor of this repository, most
 of the content here will not be important to you.
 
-.. figure:: images/repo-main-directory.png
+
+
+.. figure:: images/vscode-main-directory.png
    :width: 80%
    :alt: Repo Main Folder
    :align: center
 
-   Repository Main folder for rst-primer
+   Repository Main folder for rst-primer the quick brown fox
 
 Docs Folder
 ^^^^^^^^^^^
@@ -83,11 +85,10 @@ repository, that folder is the ``docs/`` folder. The ``docs/`` folder
 is where the top-level build definitions are for building the documentation. 
 
 .. figure:: images/docs-directory.png
-   :width: 80%
    :alt: docs folder
    :align: center
 
-   rST-Primer Docs Folder
+   Docs Folder
 
 Again, as a documentation contributor the contents of this folder will
 likely not be of interest to you right now, but for project builders and 
@@ -105,11 +106,10 @@ repository *path* of where these files and folders are within the repository;
 we are currently viewing the current contents of ``rst-primer/docs/source``. 
 
 .. figure:: images/source-directory.png
-   :width: 80%
    :alt: source Folder
    :align: center
 
-   rST-Primer Source Folder 
+   Source Folder 
 
 When we work on documentation, it's important to understand that there are TWO 
 related paths that we must keep track of: 
@@ -161,13 +161,6 @@ special files and folders:
   this isn't likely something a document contributor should need to edit (other
   than possibly adding content if you feel the need) but please work with an
   administrator to coordinate any updates to the HTML site templates.
-
-:octicon:`file-directory;1em;sd-text-info` *tutorial*
-  The *tutorial* folder is *NOT* a special folder, this is simply a 
-  content folder for the rST-Primer tutorial. All content must be within a
-  content folder of some kind, and the content folde are the primary 
-  way to organize content. The folder structure is also used by the HTML 
-  formatter to list files on the HTML site. More about this later.
 
 :octicon:`file;1em;sd-text-info` *conf.py*
   The **conf.py** file is a special file for sphinx that defines all of the
@@ -242,7 +235,7 @@ our own content.
 #. The site's ``/source`` root for ``ftcdocs``, similar to ``rST-Primer``, is
    in the ``ftcdocs/docs/source`` repository folder. 
 #. The main content file is named ``gp.rst`` and lives within the
-   ``/gracious_professionalism`` folder within the ``/source`` folder.
+   ``/gracious_professionalism`` fol der within the ``/source`` folder.
    Files and folder names cannot include spaces, so the general site-wide style
    is to use underscores ``_`` for folders and dashes ``-`` for filenames 
    where spaces would otherwise be used. You can see this is more of a "guideline"
@@ -259,6 +252,10 @@ on the ftcdocs github repo.
 
 Creating a New Content Document
 -------------------------------
+
+.. note:: The process of creating a new content document is the same whether
+   you're doing it locally or via codespaces as they both use vscode as the
+   editor.
 
 We're now going to create our first document. Let's have our document follow a
 similar structure as the *Gracious Professionalism* document above. Let's follow
@@ -282,54 +279,17 @@ Step 1: Create the initial content file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Our first step in creating content is to create the core document. We're just 
-going to create a "stub" file initially that we'll edit later. It's important
-to understand that GitHub only manages *files*, it doesn't really care much 
-about *folders*, so when we create files we create them *within* folders.
+going to create a "stub" file initially that we'll edit later. 
 
-#. To create our core document file, we first must browse to the **source**
-   folder within the rst-primer repository (MAKE SURE that your branch is 
-   selected within the branch drop-down). You can do this by clicking on the
-   "docs" and then the "source" folders from the root repository folder. Be
-   sure to click on the *name* of the folder instead of the *last commit
-   description* or else you'll accidentally browse to a commit window. 
+#. Navigate to the ``/rst-primer/docs/source`` folder in VS Code.
 
-#. Use the **Add file** tool within GitHub and select *Create new file* (as
-   shown below):
+#. Create a new folder with your name (or a unique name) within the ``/source``
+   folder. You can do this by right-clicking on the ``source`` folder and selecting
+   "New Folder" and then typing in your name. E.g. "Demo".
 
-   .. figure:: images/create-new-file.png
-      :width: 80%
-      :alt: Create new File option
-      :align: center
-
-      Create New File Option
-
-#. Now we create our file, but we add that we want the file to be created
-   within a new folder. We do this by typing the name of our folder in the 
-   "Name your file..." area, and then press the ``/`` (forward slash) key - 
-   this will cause GitHub to create a folder, and then continue asking
-   what filename you want. You then want to provide a filename.
-
-   In the example below, I typed in a folder name of "danny_docs", pressed
-   the ``/`` (forward slash) key, and then typed in the name "danny1.rst" for
-   my file name.
-
-   .. figure:: images/danny1.png
-      :width: 80%
-      :alt: Creating new danny1.rst file
-      :align: center
-
-      Creating new danny1.rst file
-
-#. We're not done yet though! We still need to commit this change to our 
-   branch. Remember, each "action" we take to our branch requires a "commit".
-
-   Let's scroll to the bottom of the page below the edit window, and we'll 
-   see the commit information. If we don't want to provide any additional 
-   information about the file we're creating, we can leave "Commit directly
-   to the <branch> branch" and simply click "Commit new file". This will save
-   the new file to your branch.
-
-   Congratulations, we created a new file (even though it's empty).
+#. Create a new file within the folder you just created. You can do this by 
+   right-clicking on the folder you just created and selecting "New File" and 
+   then typing in the name of the file. E.g. "7350.rst".
 
 Step 2: Upload image file to use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -342,88 +302,22 @@ we need an image to use. I downloaded this file locally:
 
 `https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg <https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg>`_
 
-You can right-click on the link and select "Save link as..." to save the
-image locally for us to upload to your branch. To upload the file to the
-branch, we need to upload it within an ``images/`` folder in the same
-folder (we use the name "images" to correctly identify what's in the folder,
-and "images" is our standard name for that - we use a folder to store the
-images in order to keep things neat and tidy). 
+#. Navigate to the folder you created in the previous step.
 
-So let's upload the image. GitHub unfortunately doesn't let you create
-folders while uploading files, so when we're using the web client we have
-to trick GitHub into creating a new folder with an empty file, upload
-our images to the new folder, and then delete the unnecessary file. 
+#. Create a new folder within your folder called ``images``. E.g. ``/source/Demo/images``.
+   This can be done by right-clicking on your folder (`Demo`) and selecting "New Folder" and
+   then typing in "images".
 
-#. First make sure you've navigated to the same repository location as
-   your **.rst** file. This will make more sense *why* later once we 
-   start adding content to the **.rst** file. (When we created the previous
-   file, the GitHub repo automatically navigated to the folder, so you 
-   should be in the correct location already)
+#. Add the image file you downloaded to the ``images`` folder you just created. You can do this by 
+   opening the downloaded image file in your file explorer, and then dragging and dropping the file
+   into the ``images`` folder you just created.
 
-#. Use **Add file** and select **Create new file**. Just like in the
-   previous step, we will create a new folder called "images" by typing 
-   "images" and then the ``/`` (forward slash) character, and then 
-   we'll name the file "delete_me.rst" (as a reminder that we will 
-   eventually delete this file).
+.. figure:: images/demo-folder.png
+   :width: 30%
+   :alt: Completed Demo
+   :align: center
 
-   .. figure:: images/danny2.png
-      :width: 80%
-      :alt: Creating new dummy file for folder
-      :align: center
-
-      Creating new dummy file to create folder 
-
-   Scroll to the bottom of the page, then click the green "Commit new file"
-   button to create the folder and file.
-
-#. Now use **Add file** and select **Upload files** to upload files.
-
-   .. figure:: images/upload-files.png
-      :width: 80%
-      :alt: Use Upload Files
-      :align: center
-
-      Upload Files action
-
-#. Either drag-and-drop files to the upload window, or use the "choose your
-   files" link to browse your local computer for a file to upload. I've 
-   uploaded the file I downloaded, "event-experience.jpg", below:
-
-   .. figure:: images/upload-image.png
-      :width: 80%
-      :alt: Upload image
-      :align: center
-
-      Upload image
-
-   Click the green "Commit changes" button once you've included all of the 
-   files that need to be uploaded. Once you do this, GitHub changes the 
-   navigated location after an upload back to the repository main folder.
-
-#. Navigate back to the images folder in ``/rst-primer/docs/source/<folder name>/images``. 
-
-#. Click on the ``deleteme.rst`` file. This should open the file for editing, 
-   and the trash can icon is shown - click on the trash can icon to delete the
-   file as shown below:
-
-   .. figure:: images/delete-stub.png
-      :width: 80%
-      :alt: delete file
-      :align: center
-
-      Delete stub file
-
-   Once you click the trash can icon, the next screen provides a green 
-   commit changes button, press "Commit changes." The dummy file is now
-   deleted, and the image is in the ``/images`` folder as expected as 
-   shown below:
-
-   .. figure:: images/final-image.png
-      :width: 80%
-      :alt: correct final images folder
-      :align: center
-
-      Final /images folder with image
+   Completed Demo Folder
 
 Congrats! Now we're ready to add content to our reStructured Text document!
    

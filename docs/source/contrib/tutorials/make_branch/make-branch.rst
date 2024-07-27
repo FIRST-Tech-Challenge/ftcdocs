@@ -1,6 +1,6 @@
 Creating a New Branch
 =====================
-:bdg-success:`Repeat`
+:bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
 What are branches and why do we need them?
 ------------------------------------------

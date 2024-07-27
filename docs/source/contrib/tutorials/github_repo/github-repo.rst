@@ -9,28 +9,27 @@ Getting to know the GitHub Repo
 
 GitHub is a website where people and organizations can store projects in what's
 known as a "repository". Some repositories can be public, meaning anyone can
-see the content within it, and some are private. The rST-Primer you're working on
-is a private repository, which can only be seen and accessed by those given
-access within the organization. *FIRST* Tech Challenge has several public and
+see the content within it, and some are private. The ftcdocs repo you're working on
+is a public repository. *FIRST* Tech Challenge has several public and
 private repositories for software projects within the organization.
 
 Understanding the rST-Primer Repo
 ---------------------------------
 
-The GitHub ``rst-primer`` repository can be found on GitHub at the following address:
+The GitHub ``ftcdocs`` repository can be found on GitHub at the following address:
 
--  https://github.com/FIRST-Tech-Challenge/rst-primer/
+-  https://github.com/FIRST-Tech-Challenge/ftcdocs
 
 The GitHub repository is where all of our documentation source files and
 project content is kept. Figure 1 shows what the main code page for the
-``rst-primer`` repository looks like. 
+``ftcdocs`` repository looks like. 
 
 .. figure:: images/rst-primer_repo.png
    :width: 80%
    :align: center
    :alt: Figure 1 rst-primer GitHub Repo
 
-   Figure 1: rst-primer GitHub Repository
+   Figure 1: ftcdocs GitHub Repository
 
 This main **code page** is where you'll do most of your work. It's called a **code
 page** because by default the ``< > Code`` tab of the repository is selected,

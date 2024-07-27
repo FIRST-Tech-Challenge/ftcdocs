@@ -3,6 +3,12 @@ Overview
 
 Below is an overview of the process of contributing to FTC Docs.
 
+.. warning::
+
+    Using **Codespace** and working **Locally** are two different ways to contribute to FTC Docs. 
+    The steps for each are similar, but there are key differences in setup. After reading step 2, you should choose whether you want to use Codespaces or work locally.
+    For the purposes of this guide, Local and Codespaces use will be mutually exclusive.
+
 .. admonition:: Key 
 
     .. list-table::
@@ -39,7 +45,7 @@ Below is an overview of the process of contributing to FTC Docs.
 
     * This will set up your local environment to work on FTC Docs. This step can be skipped for Codespaces users.
 
-7. :doc:`Create a new branch <../make_branch/make-branch>` :bdg-success:`Repeat`
+7. :doc:`Create a new branch <../make_branch/make-branch>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
     * This will create a new branch for your change. You should create a new branch for each change you work on.
 
