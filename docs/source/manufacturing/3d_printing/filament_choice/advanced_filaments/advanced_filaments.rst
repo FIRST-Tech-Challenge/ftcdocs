@@ -8,8 +8,8 @@ Advanced Filaments
              listed here), and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
 
-ABS (Acrylonitrile Butadiene Styrene)/ ASA (Acrylonitrile Styrene Acrylate)
--------------------------------------
+ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene Acrylate)
+----------------------------------------------------------------------------
 .. figure:: images/legoabsparts.png
   :align: center
   :width: 55%
