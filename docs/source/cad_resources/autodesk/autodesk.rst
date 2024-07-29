@@ -28,7 +28,7 @@ AUTODESK Training Videos
 
 A few resources for training:
 
-*  `Autodesk Fusion 360 Self-paced Learning Courses <https://help.autodesk.com/view/fusion360/ENU/courses/>`__
+*  `Autodesk Fusion 360 Self-paced Learning Courses <https://www.autodesk.com/learn/ondemand/collection/self-paced-learning-for-fusion>`__
 *  `Autodesk Inventor Self-paced Learning Courses <https://knowledge.autodesk.com/support/inventor/learn>`__
 *  `Tinkercad Self-paced Learning Courses <https://www.tinkercad.com/learn>`__
 *  `3ds Max Self-paced Learning Courses <https://knowledge.autodesk.com/support/3ds-max/learn>`__

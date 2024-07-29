@@ -8,8 +8,8 @@ Advanced Filaments
              listed here), and you have a PTFE lined hotend, you can look at upgrading to an all-metal hotend.
 
 
-ABS (Acrylonitrile Butadiene Styrene)
--------------------------------------
+ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene Acrylate)
+----------------------------------------------------------------------------
 .. figure:: images/legoabsparts.png
   :align: center
   :width: 55%
@@ -25,15 +25,17 @@ shock loads well. These strengths come with major difficulties, however, as an e
 ambient temperature in order to prevent severe part warping. This enclosure is also a good idea due to ABS's production of
 styrene when it melts, a carcinogenic gas that can cause headaches. ABS should only be printed within filtered enclosures
 or in extremely well ventilated areas. If you have a proper setup with a heated enclosure, ABS can be very worth your time,
-but if you don't have a setup for it, it's not worth the pain to try and pring it. Notably, ABS can be very inexpensive and 
-often found near the same price as PLA or even cheaper. 
+but if you don't have a setup for it, it's not worth the pain to try and print it. Notably, ABS can be very inexpensive and 
+often found near the same price as PLA or even cheaper.
 
 .. note:: ASA, a slightly more expensive but similar material, prints at approximately the same temperatures but prints 
-          slightly easier without an enclosure and produces considerably less styrene, making it safer to use.
+          slightly easier and produces considerably less styrene. It also may not require an enclosure for smaller prints. Alongside that, it's UV Resistant and typically offers slightly better mechanical properties compared to most ABS plastics.
 
 * ABS hotend temperatures: 230-250° C
 * ABS bed temperatures: 100-120° C
 * ABS enclosure temperature: 30-40° C
+
+.. note:: It is important to properly vent/filter fumes emitting from ABS/ASA, as prolonged exposure to either can lead to poisoning. Typically it's recommended to use an activated carbon air filter, however most enclosures aren't airtight, and therefore it's also important to leave your printer somewhere safe if you plan on printing large or numerous parts.
 
 Polyamide Filaments
 -------------------
@@ -54,7 +56,7 @@ pulleys if you can safely print them. Common filaments in this category include 
 and PA-CF (carbon fiber filled polyamide). Polyamide filaments will commonly require printing temperatures in excess of 250° C, 
 making an all-metal hotend necessary, and require heated bed temperatures in the range of 80-100° C. Some of these 
 filaments are abrasive, requiring a hardened steel nozzle on your hotend to avoid damage. These filaments are also 
-**extremely** hygroscopic, making proper storage a necessity.
+**extremely** hygroscopic, making proper storage a necessity even while actively printing. Nylon prints also tend to shrink when cooling.
 
 Carbon Fiber Filaments
 ----------------------
@@ -72,6 +74,8 @@ light. You can find PLA-CF, PETG-CF, PA-CF, CF-ASA, PC-CF, and many others. CF f
 properties from the filament they are based on, including how hygroscopic the filament is, the printing temperatures, and 
 the ease of printing. The one large difference is the abrasion of the filament, meaning that you need a hardened steel nozzle
 or other abrasion resistant nozzle for your hotend.
+
+.. note:: Carbon Fiber reinforced PLA is one of the most commonly used CF Filaments, but comes with a notable drawback that it becomes incredibly brittle. It's important to to keep these kinds of trade-offs in mind, as while it's seen as "stronger", it doesn't hold up as well as most regular PLAs when it comes to dealing with impacts and may suffer from poor layer adhesion.
 
 
 TPU/TPE (Thermoplastic Polyurethane/Elastomer)
