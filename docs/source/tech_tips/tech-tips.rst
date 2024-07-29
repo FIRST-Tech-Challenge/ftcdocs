@@ -424,7 +424,7 @@ Just click to expand the Tech Tip you'd like to read.
       * - `Studica Multi-Mode Smart Servo <https://www.studica.com/studica-robotics-brand/multi-mode-smart-servo>`__
         - 62 RPM
         - 20 kg-cm
-        - ??
+        - 1.8 A
         - 3.18 W
         - $23.99
       * - `AndyMark am-4955 High Speed Servos <https://www.andymark.com/products/programmable-servos>`__
