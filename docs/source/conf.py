@@ -45,12 +45,12 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 javadoc_url_map = {
-    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/8.2.0/', 'javadoc'),
-    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/8.2.0/', 'javadoc'),
-    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/8.2.0/', 'javadoc'),
-    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/8.2.0/', 'javadoc'),
-    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/8.2.0/', 'javadoc'),
-    'org.firstinspires.ftc.vision': ('https://javadoc.io/static/org.firstinspires.ftc/Vision/8.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.ftccommon': ('https://javadoc.io/static/org.firstinspires.ftc/FtcCommon/9.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.hardware': ('https://javadoc.io/static/org.firstinspires.ftc/Hardware/9.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.inspection': ('https://javadoc.io/static/org.firstinspires.ftc/Inspection/9.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.onbotjava': ('https://javadoc.io/static/org.firstinspires.ftc/OnBotJava/9.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.robotcore': ('https://javadoc.io/static/org.firstinspires.ftc/RobotCore/9.2.0/', 'javadoc'),
+    'org.firstinspires.ftc.vision': ('https://javadoc.io/static/org.firstinspires.ftc/Vision/9.2.0/', 'javadoc'),
 }
 
 templates_path = ['_templates']

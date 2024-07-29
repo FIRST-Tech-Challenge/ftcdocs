@@ -6,11 +6,7 @@ described so far: ExposureControl and GainControl.
 
 These 2 examples assume you are already using TensorFlow Object
 Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
-model and OpMode that are working reasonably well. The model may have
-been supplied with the SDK, or created with the **Machine
-Learning toolchain** `[forum] <https://ftc-community.firstinspires.org/>`__
-:ref:`[manual] <ftc_ml/index:*first* machine learning toolchain>`
-
+model and OpMode that are working reasonably well.
 Here we will discuss only the Duck game element. **Can the exposure
 and/or gain controls improve the chance of a fast, accurate TFOD
 detection?**

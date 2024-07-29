@@ -25,8 +25,6 @@ of a REV Control Hub or REV Expansion Hub.
 
 HuskyLens is **not a USB webcam**, and **does not use** the FTC
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software or the 
-:ref:`FTC Machine Learning <ftc_ml/index:*FIRST* Machine Learning Toolchain>`
 software.
 
 Electrical Connection

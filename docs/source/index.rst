@@ -98,13 +98,6 @@ to see why.
    :hidden:
 
    Manufacturing Methods <manufacturing/index>
-
-.. toctree::
-   :caption: Additional Tools
-   :maxdepth: 1
-   :hidden:    
-   
-   ftc_ml/index
    
 .. toctree::
    :caption: Team Resources

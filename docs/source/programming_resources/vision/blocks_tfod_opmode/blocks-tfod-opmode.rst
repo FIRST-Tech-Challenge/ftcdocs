@@ -11,8 +11,7 @@ game elements and provide their visible size and position.
 
 For the 2023-2024 game CENTERSTAGE, the game element is a hexagonal
 white **Pixel**. The FTC SDK software contains a TFOD model of this
-object, ready for recognition. That model was created with the 
-:doc:`Machine Learning Toolchain <../../../ftc_ml/index>`.
+object, ready for recognition.
 
 For extra points, teams may instead use their own custom TFOD models of
 **Team Props**. That option is described here:
