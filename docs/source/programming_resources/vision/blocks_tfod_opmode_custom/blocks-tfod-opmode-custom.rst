@@ -11,12 +11,6 @@ This tutorial uses an FTC Blocks Sample OpMode to load and recognize a
   model of the 2023-2024 CENTERSTAGE game element called a **Pixel**. This
   does not affect the process described for a custom model.
 
-- For competition, teams would instead use their own custom models of
-  **Team Props**, such as ``myTeamProp_Red`` and ``myTeamProp_Blue``,
-  developed using the FIRST Machine Learning Toolchain here:
-
-  - :doc:`FIRST Machine Learning Toolchain <../../../ftc_ml/index>`.
-
 Downloading the Model
 ---------------------
 
@@ -28,9 +22,6 @@ Here we use the standard FTC ``.tflite`` file from CENTERSTAGE
 
 - `CENTERSTAGE TFLite File <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/CenterStage.tflite>`__
 
-For competition, teams can use the 
-:doc:`FIRST Machine Learning Toolchain <../../../ftc_ml/index>`
-to train their own custom models of Team Props.
 
 .. note::
    Very advanced teams could use Google's TensorFlow Object Detection API 

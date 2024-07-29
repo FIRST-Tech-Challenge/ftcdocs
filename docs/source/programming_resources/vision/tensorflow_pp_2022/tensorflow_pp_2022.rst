@@ -25,15 +25,6 @@ version 8.0) contains TFOD Sample Op Modes and Detection Models that can
 recognize and differentiate between the Signal images: Bolt (green lightning
 bolt), Bulb (4 yellow light bulbs), and Panel (purple solar panels).
 
-Also, *FIRST* Tech Challenge Teams can use the :doc:`Machine Learning Toolchain
-<../../../ftc_ml/index>` tool to train their own TFOD models. This allows teams
-to recognize custom images they place on their own customized Team Signal
-Sleeve and place over the Signals to use instead of the default images. This
-training should take into account certain conditions such as distance from
-camera to target, angle, lighting, and especially backgrounds. Teams can
-receive technical support using the Machine Learning Toolchain through the
-`Machine Learning Forum <https://ftc-community.firstinspires.org/>`__.
-
 .. note::
    TensorFlow Lite runs on Android 6.0 (Marshmallow) or higher, a requirement met
    by all currently allowed devices. If you are a Blocks programmer using an
@@ -380,12 +371,3 @@ When selecting images for use with TensorFlow, keep in mind the elements of patt
 color, and size. For example, a donut can be a great image for use by TensorFlow;
 not because of the circular shape, but because of the frosting and the sprinkles on 
 top which creates a very unique pattern for TensorFlow to recognize. Be creative!
-
-Using Custom TensorFlow models in Blocks and Java
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Instructions on using Custom TensorFlow Models in Blocks, OnBot-Java, 
-and Android Studio can be found
-in the :doc:`FTC-ML documentation <../../../ftc_ml/index>`, in the 
-:doc:`Implementing in Robot Code <../../../ftc_ml/implement/index>` section.
-

@@ -76,16 +76,6 @@ Just click on the panel for the resource you want to explore!
       +++
 
       .. div:: container-fluid p-0
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ../../ftc_ml/index
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               FTC-ML
       
          .. div:: col-sm pl-1 pr-1
 

@@ -24,16 +24,6 @@ a match. The software (SDK version 7.0) contains TFOD Sample Op
 Modes that can recognize the Freight elements Duck, Box (or Cube), and
 Cargo (or Ball).
 
-Also, teams can use a new tool to train their own TFOD models, to
-recognize their custom Team Shipping Element (TSE) and/or to improve
-recognition of Freight elements. This training could take into account
-certain conditions of distance, angle, lighting and background.
-
-This new tool is the **Machine Learning Toolchain**, `announced
-10/7/2021 <http://firsttechchallenge.blogspot.com/2021/10/new-machine-learning-tool-beta-testing.html>`__.
-Learn more at these links: `[forum] <https://ftc-community.firstinspires.org/>`__
-:doc:`[manual] <../../../ftc_ml/index>`
-
 How Might a Team Use TensorFlow in Freight Frenzy?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
