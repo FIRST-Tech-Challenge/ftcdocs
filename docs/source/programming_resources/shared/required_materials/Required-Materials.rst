@@ -53,7 +53,7 @@ tutorials, you will need to have the following materials available:
    * - Wireless Internet access.
      - |wifi|
 
-   * - Laptop with Microsoft Windows 7, 8 or 10 and Wi-Fi capability. Note that your laptop should have the most current service packs and systemu pdates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on howto connect to a Wi-Fi network.
+   * - Laptop with Microsoft Windows 7, 8 or 10 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on howto connect to a Wi-Fi network.
      - |laptop|
 
    * - Javascript-enabled web browser (Google Chrome is the recommended browser).
