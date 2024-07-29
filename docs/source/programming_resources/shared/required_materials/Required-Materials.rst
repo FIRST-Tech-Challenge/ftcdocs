@@ -47,7 +47,7 @@ tutorials, you will need to have the following materials available:
    * - Required Item(s)
      - Image
 
-   * - Two (2) FIRST-approved* Android devices OR One (1) Control Hub and one (1) FIRST-approved* Android device for the Operator Console
+   * - Two (2) FIRST-approved* Android devices OR One (1) Control Hub and one (1) FIRST-approved* Android device for the DRIVER STATION
      - |androidphones|   Or |chandphones|
 
    * - Wireless Internet access.

@@ -47,11 +47,11 @@ There are two hardware options currently being used: REV Robotics
 Expansion Hub or the REV Robotics Control Hub.
 
 A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the *Operator Console*.
-The Operator Console is sort of like a remote control that you might use
-to control your television. The Operator Console allows a team to
+gamepads connected. This second device is known as the DRIVER STATION.
+The DRIVER STATION is sort of like a remote control that you might use
+to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
-Controller and to issue commands to the Robot Controller. The Operator Console consists of an Android device running an Driver Station app.
+Controller and to issue commands to the Robot Controller. The DRIVER STATION consists of an Android device running an Driver Station app.
 
 REV Robotics Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

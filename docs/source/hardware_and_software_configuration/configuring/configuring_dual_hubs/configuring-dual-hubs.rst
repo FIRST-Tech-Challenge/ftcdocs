@@ -82,7 +82,7 @@ first Expansion Hub before connecting the second Expansion Hub.
 
 With your first Expansion Hub connected to the 12V battery and to the Robot
 Controller, launch the Settings menu from the Robot Controller app (note you
-can also do this from the Driver Station app, if the Operator Console is
+can also do this from the Driver Station app, if the DRIVER STATION is
 paired to the Robot Controller).
 
 1. Select the Advanced Settings item to display the Advanced Settings menu.

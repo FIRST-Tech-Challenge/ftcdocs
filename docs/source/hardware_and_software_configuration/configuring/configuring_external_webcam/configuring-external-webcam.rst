@@ -50,7 +50,7 @@ Camera Configuration
 Before using the external camera, it must be added to the active
 configuration file as a USB-connected device.
 
-Use the Configure Robot menu item on the paired Operator Console phone to
+Use the Configure Robot menu item on the paired DRIVER STATION device to
 add the webcam as a USB-connected device to an existing or newly created
 configuration file. Note that the Scan operation for the Configure Robot
 activity should detect the webcam and give it a default name of “Webcam
@@ -85,7 +85,7 @@ Image Preview
 The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
 Modes using Vuforia or TensorFlow Object Detection (TFOD).
 
-On a paired Operator Console phone, with the camera connected and
+On a paired DRIVER STATION device, with the camera connected and
 configured, select a stream-enabled Op Mode. Press the INIT button, and
 wait briefly for streaming software to initialize; do not press the
 START button. Instead open the main menu (the 3 dots in upper right hand
@@ -95,7 +95,7 @@ for safety.
 
 .. image:: images/DS-webcam-preview-CH-1.jpg
 
-The camera image will appear on the Operator Console screen. Manually
+The camera image will appear on the DRIVER STATION screen. Manually
 touch the image to refresh it. To preserve bandwidth, only one frame is
 sent at a time.
 
@@ -117,7 +117,7 @@ command:
 .. image:: images/activateBeforeWaitForStart.jpg
 
 If you do not see the Camera Stream option in your main menu on your
-Operator Console, then verify that the Vuforia function is activated
+DRIVER STATION, then verify that the Vuforia function is activated
 before the waitForStart command in your Op Mode. Also make sure you’ve
 given the system enough time to initialize the Vuforia software before
 you check to see if Camera Stream is available.
