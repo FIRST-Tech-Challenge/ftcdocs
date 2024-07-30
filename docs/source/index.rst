@@ -98,13 +98,6 @@ to see why.
    :hidden:
 
    Manufacturing Methods <manufacturing/index>
-
-.. toctree::
-   :caption: Additional Tools
-   :maxdepth: 1
-   :hidden:    
-   
-   ftc_ml/index
    
 .. toctree::
    :caption: Team Resources
@@ -121,9 +114,8 @@ to see why.
    :hidden:
 
    Booklets<booklets/index>
+   Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
    Site Feedback Form<ftc_docs/form/form>
-   FTC Docs PDF<ftc_docs/pdf/pdf>
-   Dark Mode<ftc_docs/dark/dark>
    Workflow<ftc_docs/workflow/workflow>
 
 .. Add Contrib Section here when added

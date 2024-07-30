@@ -12,10 +12,6 @@ Control System
 
 - `Control System <https://ftc-docs-cdn.ftclive.org/booklets/en/control_system.pdf>`_
 
-FTC Machine Learning
---------------------
-- `FTC ML Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/ftc_ml.pdf>`_
-
 Manufacturing
 ---------------
 - `3D Printing Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_

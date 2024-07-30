@@ -13,10 +13,7 @@ position. It uses standard/default TFOD settings.
 
 For the 2023-2024 game CENTERSTAGE, the game element is a hexagonal
 white **Pixel**. The FTC SDK software contains a TFOD model of this
-object, ready for recognition. That model was created with a Machine
-Learning process described here:
-
-- :ref:`FIRST Machine Learning Toolchain <ftc_ml/index:*first* machine learning toolchain>`.
+object, ready for recognition.
 
 .. figure:: images/010-TFOD-recognition.png
    :align: center

@@ -35,12 +35,6 @@ System FAQs
 
         Lead Coach 1 & 2  
 
-    .. grid-item-card:: Who can log into the FTC-ML toolchain?
-
-        All team members, registered mentors and Lead Coach 1 and 2 can login although only Lead Coach 1 and 2 can upload videos. 
-
-        :doc:`FTC-ML Manual </ftc_ml/index>`
-
     .. grid-item-card:: Where can I find events and event results in my region?
 
         https://ftc-events.firstinspires.org/ is the source for FIRST-official team, events and event results information for *FIRST* Tech Challenge

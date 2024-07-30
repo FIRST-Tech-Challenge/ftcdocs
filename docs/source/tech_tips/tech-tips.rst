@@ -104,6 +104,8 @@ Just click to expand the Tech Tip you'd like to read.
       maximum mechanical power by operating the motor at the max power
       point.
 
+   .. _powercalculator:
+
    One of the most difficult parts of calculating Servo Mechanical Power is
    working with unit conversions, especially since servo manufacturers use lots
    of different units. In order to calculate servo mechanical power correctly
