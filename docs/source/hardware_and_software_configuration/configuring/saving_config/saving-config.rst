@@ -56,7 +56,7 @@ back-arrow button to return to the main screen of the app.
 |
 
 7. Verify that the configuration file is the active configuration     
-file on the main Driver Station screen.                               
+file on the main DRIVER STATION screen.                               
 
 .. image:: images/SavingConfigurationInformationNewStep7.jpg
    :align: center

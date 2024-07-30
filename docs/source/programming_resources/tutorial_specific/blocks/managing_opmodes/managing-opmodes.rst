@@ -59,7 +59,7 @@ Downloading an OpMode
 ---------------------
 
 Once an OpMode has been saved to a device, the OpMode can be selected via the
-Driver Station or edited again via the programming interfaces. However, that
+DRIVER STATION or edited again via the programming interfaces. However, that
 Blocks program only exists as a Blocks File (**.blk**) on the device. Often it
 is desirable to save a copy of the program on your laptop (or on another
 device, or in some other safe location) or provide the program for use by

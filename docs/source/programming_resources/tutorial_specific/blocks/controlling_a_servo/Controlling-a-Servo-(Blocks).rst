@@ -286,7 +286,7 @@ field.
 
 |
 
-   This set of blocks will send the current servo position value to the Driver Station while the op mode is running.
+   This set of blocks will send the current servo position value to the DRIVER STATION while the op mode is running.
 
 25. Save your op mode and verify that it was saved successfully to    
 the Robot Controller.                                                 
@@ -306,6 +306,6 @@ designated as User #1 before running your op mode.
 
 |
 
-   You should now be able to control the servo position with the colored buttons.  The servo position should be displayed on the Driver Station.
+   You should now be able to control the servo position with the colored buttons.  The servo position should be displayed on the DRIVER STATION.
 
 
