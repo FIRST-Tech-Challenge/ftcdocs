@@ -17,13 +17,10 @@ Just click to expand the Tech Tip you'd like to read.
    .. _servopowerinjectors:
 
    This week’s Tech Tip of the Week is intended to be a short treatise on Servo 
-   Power Injectors. The Competition Manual Preview provides for two Servo Power 
-   Injectors for use in the upcoming competition season: the REV Servo Power 
-   Module (https://www.revrobotics.com/rev-11-1144/) which has been a staple for 
-   several years and the new Studica Servo Power Block 
-   (https://www.studica.com/studica-robotics-brand/servo-power-block). 
-   What is a Servo Power Injector and how might servos behave differently when 
-   used with one?
+   Power Injectors. Servo Power Injectors have been used in FIRST Tech Challenge
+   for several years now, but do you really understand what they are and how they 
+   work? What is a Servo Power Injector and how might servos behave differently 
+   when used with one?
 
    A servo connection is a 3-wire combination that combines power, ground, and 
    a signal. The actual command signal for the servo travels on the signal wire, 
