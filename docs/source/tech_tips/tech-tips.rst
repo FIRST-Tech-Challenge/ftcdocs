@@ -11,7 +11,7 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
-.. dropdown:: Week of 06/24/2024 "Calculating Motor and Servo Power"
+.. dropdown:: Week of 07/29/2024 "Servo Power Injectors"
    :open: 
 
    .. _servopowerinjectors:
