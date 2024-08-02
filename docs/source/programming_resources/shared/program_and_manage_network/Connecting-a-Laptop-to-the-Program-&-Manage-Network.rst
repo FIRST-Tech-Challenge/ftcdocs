@@ -19,7 +19,7 @@ documentation for details on how to connect to a Wi-Fi network.
 Connecting Your Laptop to the Program & Manage Network Instructions
 -------------------------------------------------------------------
 
-1. On the Driver Station, touch the three dots in the upper right     
+1. On the DRIVER STATION, touch the three dots in the upper right     
 hand corner of the screen to launch the pop-up menu. Select **Program 
 & Manage** from the pop-up menu to display the **Program & Manage**   
 access information.                                                   
@@ -129,7 +129,7 @@ available networks, or, if you are having problems connecting your
 laptop to the Program & Manage wireless network, make sure you answer
 the following questions:
 
-1. Is the Robot Controller running and connected to the Driver Station?
+1. Is the Robot Controller running and connected to the DRIVER STATION?
 2. Is your Windows laptop updated with the most current system updates
    and service packs? Older versions of Windows 8 and 10, for example,
    had issues that could prevent the laptop from displaying the Program
