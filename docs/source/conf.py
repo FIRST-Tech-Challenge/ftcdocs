@@ -29,6 +29,7 @@ extensions = [
     'sphinxcontrib.googleanalytics',
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
+    'hoverxref.extension',
 ]
 
 autosectionlabel_prefix_document = True
@@ -62,6 +63,10 @@ IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg
                         "source/control_hard_compon/rc_components/images/A2.svg",
                         "source/control_hard_compon/rc_components/images/B2.svg",
                         "source/control_hard_compon/ds_components/images/C1.svg",]
+
+# Options for HoverXRef extension
+
+hoverxref_roles = ['term']
 
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
