@@ -145,7 +145,7 @@ Comercial USB Battery Pack
 
 A commercial USB battery pack is an auxiliary power source that can be used in
 specific situations in accordance with the
-:ref:`Game Manuals<manuals/game_manuals/game_manuals:game manuals>`. A USB 
+:ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>`. A USB 
 battery pack is permitted to be used to charge your Android Device. Only the
 REV Driver Hub can be charged while in use, through its USB-C port.
 
@@ -257,7 +257,7 @@ Gamepads
 
       Quadstick FPS
 
-:ref:`Game Manual 1 <manuals/game_manuals/game_manuals:game manuals>` defines
+The :ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>` defines
 the gamepads that are allowed in competition play. Up to two gamepads, in any
 combination, of the allowed types of gamepads may be used. All gamepads MUST be
 used in wired mode only, no wireless of any kind is allowed. Special features of

@@ -2,7 +2,7 @@ Sensors
 =========
 
 .. note:: 
-   As per :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
+   As per the :ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>` 
    a UVC Webcam is not considered a sensor.
 
 Listed below are some examples of common robot sensors. This is not
