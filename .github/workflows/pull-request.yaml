@@ -128,3 +128,21 @@ jobs:
 
       - name: image-check
         run: make -C docs/ imagecheck
+
+  check-rename:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
+      - name: link-check
+        run: make -C docs/ rediraffecheckdiff
