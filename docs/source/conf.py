@@ -29,6 +29,7 @@ extensions = [
     'sphinxcontrib.googleanalytics',
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
+    "sphinxext.rediraffe",
 ]
 
 autosectionlabel_prefix_document = True
@@ -356,3 +357,6 @@ autosectionlabel_maxdepth = 2
 # Add support for translations
 gettext_compact = False
 locale_dirs = ["locale/"]
+
+rediraffe_redirects = "redirects.txt"
+rediraffe_branch = "origin/main"
