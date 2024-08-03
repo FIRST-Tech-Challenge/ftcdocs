@@ -128,3 +128,24 @@ jobs:
 
       - name: image-check
         run: make -C docs/ imagecheck
+
+  check-redirect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
+
+      - name: Fetch origin/main
+        run: git fetch origin main --depth=1
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
+      - name: check-redirect
+        run: make -C docs/ rediraffecheckdiff
