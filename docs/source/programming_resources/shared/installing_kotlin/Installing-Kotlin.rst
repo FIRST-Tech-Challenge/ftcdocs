@@ -43,9 +43,7 @@ Using Kotlin in *FIRST* Tech Challenge
 
 
 While there is no rule (as of the writing of this document) prohibiting Kotlin as a programming 
-option in *FIRST* Tech Challenge, it is not one of the recommended tools as listed in **<RS02>** 
-"Recommended Programming Tools" portion of the *FIRST* Tech Challenge 
-:doc:`Game Manual Part 1 <../../../manuals/game_manuals/game_manuals>`.
+option in *FIRST* Tech Challenge, it is not one of the officially recommended or supported tools.
 Teams that use Kotlin do so at their own risk and should expect that there will not be technical
 help/support available at events in the case of software issues.
 

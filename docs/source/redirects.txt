@@ -1,0 +1,1 @@
+"manuals/game_manuals/game_manuals.rst" "manuals/competition_manual/competition_manual.rst"

@@ -60,7 +60,7 @@ Robot Main Battery
 
 The main power of a robot comes from one 12v battery. The battery may be one of
 the batteries shown above. Refer to the 
-:ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>` 
+:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>` 
 for exact information on allowed batteries. Note that it is typically allowed
 to replace the connector on the batteries, provided the in-line
 fuse on the battery is preserved.
@@ -147,7 +147,7 @@ Main Power Switch
 
 One Main Power Switch must control all power provided by the Main Battery. It
 along with its label should be placed in accordance to the
-:ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>`. 
+:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. 
 The legal power switches are shown above.
 
 :download:`Power Switch Label <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-button-labels.pdf>`
@@ -195,7 +195,7 @@ Power Distribution Block
 
 Power Distribution Blocks help to distribute the power to devices such as
 Control Hubs, SPARKminis, and more.  
-See the :ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>` 
+See the :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>` 
 for a description of legal Power Distribution methods. The Power
 Distribution Blocks shown are not the only legal devices for power distribution.
 
@@ -252,7 +252,7 @@ COTS USB Battery Pack
       Anker Battery Pack
 
 A Commercial Off The Shelf (COTS) USB battery pack is an auxiliary power source
-that can be used in specific situations in accordance with the :ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>`. In the 2023-2024
+that can be used in specific situations in accordance with the :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. In the 2023-2024
 season, these batteries were deemed permissible to power LEDs and, by extension, COTS light controller sources like the `REV
 Blinkin <https://www.revrobotics.com/rev-11-1105/>`_.
 However, having a COTS USB External Battery on the Robot carries additional

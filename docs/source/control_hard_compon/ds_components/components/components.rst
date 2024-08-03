@@ -45,11 +45,11 @@ The heart of the Driver Station is the Android Device that runs the
 Driver Station App. This Android Device requirement can be fulfilled
 either through the use of a 
 `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ 
-or one of the approved Android Smartphones listed in
-:doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`. It is of
+or one of the approved Android Smartphones listed in the
+:doc:`Competition Manual <../../../manuals/competition_manual/competition_manual>`. It is of
 vital importance that the Driver Station App be updated to a version
 that meets or exceeds the minimum Driver Station App version as
-defined in :doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`.
+defined in the :doc:`Competition Manual <../../../manuals/competition_manual/competition_manual>`.
 
 USB-OTG Adapter / Hubs
 ----------------------
@@ -145,7 +145,7 @@ Comercial USB Battery Pack
 
 A commercial USB battery pack is an auxiliary power source that can be used in
 specific situations in accordance with the
-:ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>`. A USB 
+:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. A USB 
 battery pack is permitted to be used to charge your Android Device. Only the
 REV Driver Hub can be charged while in use, through its USB-C port.
 
@@ -257,7 +257,7 @@ Gamepads
 
       Quadstick FPS
 
-The :ref:`Competition Manual <manuals/game_manuals/game_manuals:competition manual>` defines
+The :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>` defines
 the gamepads that are allowed in competition play. Up to two gamepads, in any
 combination, of the allowed types of gamepads may be used. All gamepads MUST be
 used in wired mode only, no wireless of any kind is allowed. Special features of
