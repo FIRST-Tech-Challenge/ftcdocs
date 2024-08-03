@@ -144,5 +144,5 @@ jobs:
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
 
-      - name: link-check
+      - name: check-rename
         run: make -C docs/ rediraffecheckdiff
