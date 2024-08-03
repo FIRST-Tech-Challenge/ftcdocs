@@ -358,5 +358,5 @@ autosectionlabel_maxdepth = 2
 gettext_compact = False
 locale_dirs = ["locale/"]
 
-rediraffe_redirects = {}
-rediraffe_branch = "main"
+rediraffe_redirects = "redirects.txt"
+rediraffe_branch = "origin/main"
