@@ -84,24 +84,81 @@ jobs:
           reporter: "github-check"
 
   link-check:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout Repository  
-      uses: actions/checkout@v3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
 
-    - name: Python Setup
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.9
-        cache: 'pip'
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip'
 
-    - name: Python Install Dependencies
-      run: pip install -r docs/requirements.txt
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
 
-    - name: Install additional dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y jq unzip
+      - name: Install additional dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq unzip
+
+      - name: Download previous artifact
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
+          
+          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--")) | .archive_download_url' artifacts.json | head -n 1)
+          
+          if [ -z "$DOWNLOAD_URL" ]; then
+              echo "No previous LINKCHECK artifact found"
+              exit 0
+          fi
+          
+          curl -L -o linkcheck.zip "$DOWNLOAD_URL"
+          
+          if [ $? -ne 0 ]; then
+              echo "Failed to download the zip file"
+              exit 1
+          fi
+          
+          unzip -q linkcheck.zip -d linkcheck_contents
+          
+          if [ $? -ne 0 ]; then
+              echo "Failed to unzip the file"
+              exit 1
+          fi
+          
+          echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
+
+      - name: link-check
+        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q" || true
+
+      - name: Compare outputs
+        run: |
+          if [ -f linkcheck_contents/output.txt ]; then
+            new_errors=$(comm -13 linkcheck_contents/output.txt docs/build/linkcheck/output.txt)
+            if [ -n "$new_errors" ]; then
+              echo "New errors found:"
+              echo "$new_errors"
+              exit 1
+            else
+              echo "No new errors found."
+            fi
+          else
+            echo "No previous output.txt found. Treating all current errors as new."
+            cat docs/build/linkcheck/output.txt
+            [ -s docs/build/linkcheck/output.txt ] && exit 1 || exit 0
+          fi
+
+      - name: Archive Log
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: LINKCHECK-PR
+          path: docs/build/linkcheck/output.txt
+          retention-days: 7
 
   image-check:
     runs-on: ubuntu-latest
