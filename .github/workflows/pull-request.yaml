@@ -145,6 +145,11 @@ jobs:
         
       - name: Compare outputs
         run: |
+          echo "Archived Errors"
+          cat linkcheck_contents/output.txt
+          echo "PR Errors"
+          cat docs/build/linkcheck/output.txt
+          
           if [ -f linkcheck_contents/output.txt ]; then
             sort linkcheck_contents/output.txt > old_sorted.txt
             sort docs/build/linkcheck/output.txt > new_sorted.txt
