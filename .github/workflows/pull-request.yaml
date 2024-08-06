@@ -107,37 +107,42 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -s "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
+          curl -s -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
           
-          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--1")) | .archive_download_url' artifacts.json | head -n 1)
+          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--")) | .archive_download_url' artifacts.json | head -n 1)
           
           if [ -z "$DOWNLOAD_URL" ]; then
               echo "No previous LINKCHECK artifact found"
               exit 0
           fi
-
-          # Print the URL so that it's easier to debug if something goes wrong
-          echo "Downloading $DOWNLOAD_URL"
           
-          curl -L -o linkcheck.zip "$DOWNLOAD_URL"
+          curl -L \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -o linkcheck.zip "$DOWNLOAD_URL"
           
           if [ $? -ne 0 ]; then
               echo "Failed to download the zip file"
-              exit 1
+              exit 0
           fi
           
-          unzip -q linkcheck.zip -d linkcheck_contents
-          
-          if [ $? -ne 0 ]; then
-              echo "Failed to unzip the file"
-              exit 1
+          if unzip -t linkcheck.zip >/dev/null 2>&1; then
+              unzip -q linkcheck.zip -d linkcheck_contents
+              echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
+          else
+              echo "Downloaded file is not a valid zip. Skipping unzip."
+              rm linkcheck.zip
+              mkdir -p linkcheck_contents
           fi
-          
-          echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
 
       - name: link-check
-        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q" || true
-
+        run: |
+          make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q" || true
+        
       - name: Compare outputs
         run: |
           if [ -f linkcheck_contents/output.txt ]; then
@@ -158,8 +163,11 @@ jobs:
       - name: Archive Log
         if: always()
         uses: actions/upload-artifact@v2
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+          ID: ${{ github.run_attempt }}
         with:
-          name: LINKCHECK-PR
+          name: LINKCHECK--${{ github.run_attempt }}
           path: docs/build/linkcheck/output.txt
           retention-days: 7
 
