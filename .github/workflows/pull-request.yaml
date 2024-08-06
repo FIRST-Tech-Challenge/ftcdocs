@@ -109,12 +109,15 @@ jobs:
         run: |
           curl -s "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
           
-          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--")) | .archive_download_url' artifacts.json | head -n 1)
+          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--1")) | .archive_download_url' artifacts.json | head -n 1)
           
           if [ -z "$DOWNLOAD_URL" ]; then
               echo "No previous LINKCHECK artifact found"
               exit 0
           fi
+
+          # Print the URL so that it's easier to debug if something goes wrong
+          echo "Downloading $DOWNLOAD_URL"
           
           curl -L -o linkcheck.zip "$DOWNLOAD_URL"
           
