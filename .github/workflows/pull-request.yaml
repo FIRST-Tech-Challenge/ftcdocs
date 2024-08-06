@@ -169,7 +169,7 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
           ID: ${{ github.run_attempt }}
         with:
-          name: LINKCHECK--${{ github.run_attempt }}
+          name: LINKCHECK-PR-${{ github.event.number }}-${{ github.run_attempt }}
           path: docs/build/linkcheck/output.txt
           retention-days: 7
 
