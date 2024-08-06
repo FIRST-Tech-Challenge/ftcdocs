@@ -146,7 +146,9 @@ jobs:
       - name: Compare outputs
         run: |
           if [ -f linkcheck_contents/output.txt ]; then
-            new_errors=$(comm -13 linkcheck_contents/output.txt docs/build/linkcheck/output.txt)
+            sort linkcheck_contents/output.txt > old_sorted.txt
+            sort docs/build/linkcheck/output.txt > new_sorted.txt
+            new_errors=$(comm -13 old_sorted.txt new_sorted.txt)
             if [ -n "$new_errors" ]; then
               echo "New errors found:"
               echo "$new_errors"
