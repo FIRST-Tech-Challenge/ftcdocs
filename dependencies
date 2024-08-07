@@ -1,4 +1,5 @@
 texlive-xetex
 latexmk
 jq
+unzip
 fonts-roboto
