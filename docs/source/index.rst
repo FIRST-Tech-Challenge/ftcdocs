@@ -398,7 +398,7 @@ to see why.
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://ftc-qa.firstinspires.org/
+            .. button-link:: https://ftcqa.firstinspires.org/
                :color: black
                :outline:
                :expand:
