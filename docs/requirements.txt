@@ -9,5 +9,4 @@ git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=coo
 sphinx-sitemap==2.3.0
 python-git-info==0.8.3
 sphinxcontrib-mermaid==0.9.2
-sphinxext-linkcheckdiff==0.1.0
 sphinxext-rediraffe==0.2.7
