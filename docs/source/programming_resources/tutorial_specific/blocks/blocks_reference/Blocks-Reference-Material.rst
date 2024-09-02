@@ -39,8 +39,20 @@ The technology forum can be found at the following address:
 
 - https://ftc-community.firstinspires.org
 
+REV Robotics Control Hub Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`REV Robotics Control Hub Getting Started
+Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
+
 REV Robotics Expansion Hub Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `REV Robotics Expansion Hub Getting Started
 Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
+
+REV Robotics Driver Hub Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`REV Robotics Driver Hub Getting Started
+Guide <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__
