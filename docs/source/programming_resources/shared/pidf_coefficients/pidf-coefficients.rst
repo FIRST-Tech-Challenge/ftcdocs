@@ -14,7 +14,7 @@ values. This method is not available with the standard DcMotor class.
 Note that changes made to the PIDF coefficients do not persist if you
 power cycle the REV Robotics Control Hub or REV Robotics Expansion Hub. If you need your changes to
 persist, consider modifying your OpMode to store state information on
-the Control Hub Android phone. The Android Developer website has a tutorial on how
+the Control Hub or Android phone. The Android Developer website has a tutorial on how
 to save data from your app onto an Android device 
 `here <https://developer.android.com/training/data-storage>`__
 
