@@ -27,10 +27,7 @@ jobs:
       - name: Arhive Log
         if: ${{ failure() }}
         uses: actions/upload-artifact@v2
-        env:
-          PR_NUMBER: ${{ github.event.number }}
-          ID:  ${{ github.run_attempt }}
         with:
-          name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
+          name: LINKCHECK--1
           path: docs/build/linkcheck/output.txt
           retention-days: 7

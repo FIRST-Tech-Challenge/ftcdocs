@@ -11,8 +11,79 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
+.. dropdown:: Week of 08/19/2024 "REV Driver Hub Batteries"
+   :open:
+
+   .. _driverhubbatteries:
+
+   **REV Driver Hub Batteries**
+
+   This week’s Tech Tip of the Week focuses on the REV Driver Hub. Sure, we
+   already did a pretty thorough deep dive on the REV Driver Hub in the
+   11/06/2023 Tech Tip "Driver Hub or Smartphone?", but we never really covered
+   the batteries used in the Driver Hub themselves - and, of course, this topic
+   was recently brought up in a team question. The question was, “Why aren’t
+   batteries for the REV Driver Hub interchangeable?”
+
+   Well, that wasn’t the actual question, as the team didn’t know the question
+   they SHOULD have been asking, but that was the root of the issue. The team
+   in question had purchased an extra REV Driver Hub battery, charged it, and
+   was using it as a spare. We’ve also heard anecdotes from teams who attended
+   events where FTAs would also purchase spare batteries (or pull batteries
+   from spare Driver Hubs)  and let teams with depleted batteries use their
+   charged batteries. However, in each case the teams noted that the spare
+   battery never lasted as long as their “regular” batteries, often
+   significantly shorter (half or less). The issue is actually not specific to
+   the REV Driver Hub, but in the batteries themselves.
+
+   I noticed the same thing a few years ago when I owned a smartphone that had
+   user-replaceable batteries. My phone battery stopped holding a charge, so I
+   bought a battery online to replace it. However, I noticed that the
+   replacement battery had a significantly lower “lifespan”, meaning it would
+   go from full charge to near-dead in a shorter period of time versus the
+   original battery. Over time the battery seemed to “last longer”, until after
+   about a dozen charge cycles it was very close to the original battery’s
+   performance. Did the battery get better, or did my phone adapt to the
+   battery?
+
+   What I didn’t know was that minor variances in how batteries are
+   manufactured, especially in lower-voltage Li-Ion batteries, can affect the
+   voltage stability of the battery as it depletes (how the voltage of a
+   battery changes as it’s used). In order to know how much battery power is
+   left, the device needs to know the “charged” voltage, the “depleted”
+   voltage, and generally needs to understand how the battery voltage changes
+   from one extreme to the other. Unfortunately this isn’t linear, and
+   differences in a battery’s specific internal resistance and other factors
+   will cause each battery to have different behavior (this occurs in all
+   batteries, but higher capacity batteries with low internal resistance tend
+   to show this difference less). The REV Driver Hub performs a
+   `calibration <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-calibration>`__
+   phase as it charges a battery, and stores the battery charge characteristics
+   - that helps it know how the battery should behave when it’s being depleted.
+   In this way the Driver Hub “learns” how to interpret the battery it’s
+   charging so that it can create an accurate charge profile for the battery
+   as it’s used by the device.
+
+   When a team replaces the primary battery with a spare, the Driver Hub
+   doesn’t necessarily know that this has happened, and can only apply the
+   stored discharge characteristics for the primary battery to the new battery.
+   Unfortunately this often leads to the device misinterpreting the battery and
+   shutting down before the battery has fully depleted, or thinking there’s
+   more battery left when there really isn’t. If the new battery is then
+   charged, the Driver Hub will calibrate to the new battery, and changing the
+   battery again will cause the Driver Hub to mischaracterize the original
+   battery if replaced.
+
+   It is highly recommended that all teams use an 
+   `external USB Battery Pack <https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y?th=1>`__
+   connected to the USB-C port on the Driver Hub to provide consistent power
+   (use USB-A to USB-C cables only). The battery pack will sustain your Driver
+   Hub and keep it from being additionally depleted by any high-power-drain
+   gamepads (such as the Sony DualShock and Sony DualSense gamepads) that your
+   team may be using.
+
+
 .. dropdown:: Week of 07/29/2024 "Servo Power Injectors"
-   :open: 
 
    .. _servopowerinjectors:
 
@@ -1543,6 +1614,8 @@ Just click to expand the Tech Tip you'd like to read.
 .. dropdown:: Week of 11/06/2023 "Driver Hub or Smartphone?"
 
    .. _huborphone:
+
+   **REV Driver Hub or Smartphone?**
 
    This week's Tech Tip of the Week briefly discusses the pros and cons of 
    Smartphones versus the Driver Hub. Which one should you use? Are there 
