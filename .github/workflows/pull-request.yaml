@@ -133,6 +133,7 @@ jobs:
           if unzip -t linkcheck.zip >/dev/null 2>&1; then
               unzip -q linkcheck.zip -d linkcheck_contents
               echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
+              mv linkcheck_contents/output.json docs/main-output.json
           else
               echo "Downloaded file is not a valid zip. Skipping unzip."
               rm linkcheck.zip
@@ -141,38 +142,14 @@ jobs:
 
       - name: link-check
         run: |
-          make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q" || true
-        
-      - name: Compare outputs
-        run: |
-          echo "Archived Errors"
-          cat linkcheck_contents/output.txt
-          echo "PR Errors"
-          cat docs/build/linkcheck/output.txt
-
-          if [ -f linkcheck_contents/output.txt ]; then
-            sort linkcheck_contents/output.txt > old_sorted.txt
-            sort docs/build/linkcheck/output.txt > new_sorted.txt
-            new_errors=$(comm -13 old_sorted.txt new_sorted.txt)
-            if [ -n "$new_errors" ]; then
-              echo "New errors found:"
-              echo "$new_errors"
-              exit 1
-            else
-              echo "No new errors found."
-            fi
-          else
-            echo "No previous output.txt found. Treating all current errors as new."
-            cat docs/build/linkcheck/output.txt
-            [ -s docs/build/linkcheck/output.txt ] && exit 1 || exit 0
-          fi
+          make -C docs/ linkcheckdiff SPHINXOPTS="-W --keep-going -n -q"
 
       - name: Archive Log
         if: always()
         uses: actions/upload-artifact@v2
         with:
           name: LINKCHECK-PR-${{ github.event.number }}-${{ github.run_attempt }}
-          path: docs/build/linkcheck/output.txt
+          path: docs/build/linkcheckdiff/output.json
           retention-days: 7
 
   image-check:
