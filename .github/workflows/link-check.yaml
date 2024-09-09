@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: LINKCHECK--1
-          path: docs/build/linkcheckdiff/main-output.json
+          path: docs/build/linkcheckdiff/output.json
           retention-days: 7
