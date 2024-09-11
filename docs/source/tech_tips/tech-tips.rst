@@ -11,8 +11,46 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
-.. dropdown:: Week of 08/19/2024 "REV Driver Hub Batteries"
+.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
    :open:
+
+   .. _googleAIstudio:
+
+   **AI Innovation Corner - Google AI Studio**
+
+   This week’s Tech Tip of the Week launches a new initiative in *FIRST* Tech 
+   Challenge, an AI Innovation Corner. Generative AI has taken the world by 
+   storm, becoming commonplace now in everything from personal assistants, 
+   search engines, recipe curation, music innovation, and vehicle maintenance! 
+   Machine Learning AI has been a part of *FIRST* Tech Challenge in some way for 
+   the past six years, and we’re now transitioning to help teams learn how to 
+   use and incorporate Generative AI in their *FIRST* Tech Challenge experience 
+   (while we’re learning ourselves!).
+
+   The first step (or *FIRST* step?) to getting the most out of AI is choosing a 
+   model. What do I mean by model? Every AI is a neural network that has been 
+   trained with specific knowledge with the ability to do specific things based 
+   on that knowledge. Each version of this neural network is stored in a “model”. 
+   Each different company has different models available for different purposes, 
+   though most models are variations on their flagship model (Gemini from Google, 
+   ChatGPT 4-o from OpenAI, Claude from Anthropic, and so on). Each company has 
+   different web-based and API interfaces for interacting with their models, and 
+   everyone has their favorite. In *FIRST* Tech Challenge, the standard tool we use 
+   is `Google AI Studio <https://ai.google.dev/aistudio>`__ to interact with Gemini. 
+
+   Google AI Studio is free to use, but requires a Google account to access - 
+   virtually all models require a login or API token of some kind to use. Google 
+   AI Studio is our favorite for its list of examples (Prompt Gallery) and its 
+   easy to use interface to save prompt sessions and resume them later. With 
+   Google AI Studio, you also can select the specific model you want to use, and 
+   when available you can choose to use preview versions of up and coming models. 
+
+   Future AI articles will be released not under the “Tech Tip of the Week” headline 
+   but under the “AI Innovation Corner” headline. Keep an eye out for future AI tips 
+   via the Team Blast and `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ 
+   website!
+
+.. dropdown:: Week of 08/19/2024 "REV Driver Hub Batteries"
 
    .. _driverhubbatteries:
 
