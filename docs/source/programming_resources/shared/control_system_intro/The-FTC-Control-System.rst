@@ -42,7 +42,7 @@ During a competition, each team has two Android devices.
 One Android device is mounted onto the robot and is called the *Robot
 Controller*. The Robot Controller acts as the “brains” of the robot. It
 does all of the thinking for the robot and tells the robot what to do.
-It consists of an Android device running an Robot Controller app.
+It consists of an Android device running a Robot Controller app.
 There are two hardware options currently being used: REV Robotics
 Expansion Hub or the REV Robotics Control Hub.
 
@@ -102,7 +102,7 @@ Controller and the I/O module.
 What’s an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-During a typical FIRST Tech Challenge match, a team’s robot has to
+During a typical *FIRST* Tech Challenge match, a team’s robot has to
 perform a variety of tasks in an effort to score points. For example, a
 team might want their robot to follow a white line on the competition
 floor and then score a game element (such as a ball) into a goal
