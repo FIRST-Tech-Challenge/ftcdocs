@@ -57,7 +57,7 @@ are two ports on each hub. These connectors can be used for a limited range of
 applications in FIRST Tech Challenge, such as powering powered USB hubs. For more
 information on this port please see 
 `REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ and the
-:ref:`Competion Manual <manuals/competition_manual/competition_manual:competition manual>`.
+:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`.
 
 Analog Ports
 --------------
