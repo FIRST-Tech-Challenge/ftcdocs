@@ -55,7 +55,7 @@ smartphone for use as an DRIVER STATION. The process is as follows,
 Renaming Your Smartphones
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The official rules of the FIRST Tech Challenge (see <RS01>) require that
+The official rules of the *FIRST* Tech Challenge (see <RS01>) require that
 you change the Wi-Fi name of your smartphones to include your team
 number and "-RC" if the phone is a Robot Controller or "-DS" if it is a DRIVER STATION. A team can insert an additional dash and a letter ("A",
 "B", "C", etc.) if the team has more than one set of Android phones.
@@ -120,7 +120,7 @@ level, as described below.
    * - 7. Select **Configure Device** from the pop-up menu.
      - |rename7|
 
-   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the Wi-Fi Direct inactivity timeout to *Never disconnect* and then hit the\ **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
+   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the Wi-Fi Direct inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
      - |rename8|
 
    * - 9. After renaming phone, power cycle thedevice.
@@ -194,7 +194,7 @@ follows:
    * - Step
      - Image
 
-   * - 1. Go to "Settings", then tap "About device"or "About phone".
+   * - 1. Go to "Settings", then tap "About device" or "About phone".
      - |devop1|
 
    * - 2. Scroll down, then tap Build number seven times. Depending on your device and operating system, you may need to tap Software information, then tap Build number seven times.
@@ -213,7 +213,7 @@ follows:
 Placing Phones into Airplane Mode with Wi-Fi On
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For the FIRST Tech Challenge competitions, it is important that you
+For the *FIRST* Tech Challenge competitions, it is important that you
 place your Robot Controller and DRIVER STATION devices into Airplane mode
 but keep their Wi-Fi radios turned on. This is important because you do
 not want any of the cellular telephone functions to be enabled during a
