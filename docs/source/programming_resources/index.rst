@@ -110,6 +110,7 @@ Learning more about using vision
    vision/vision_overview/vision-overview
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
+   FTC Color Processing <../color_processing/color-processing-introduction/color-processing-introduction>
 
 Advanced Topics
 ~~~~~~~~~~~~~~~~
