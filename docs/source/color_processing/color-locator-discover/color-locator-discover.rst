@@ -322,7 +322,7 @@ More Documentation
 This tutorial's next page called :doc:`Explore <../color-locator-explore/color-locator-explore>` covers
 **editing the OpMode's existing default settings**.
 
-After that, the following page called :doc:`Explore
+After that, the following page called :doc:`Challenge
 <../color-locator-challenge/color-locator-challenge>` shows how to **access
 more OpenCV features** not covered in the Sample OpMode.
 
