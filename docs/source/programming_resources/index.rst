@@ -111,10 +111,10 @@ Learning more about using vision
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
 
-Webcam Color Processing
+Camera Color Processing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Learn more about using a simple webcam to perform Color Processing
+Learn more about using a simple webcam or smartphone camera to perform Color Processing
 
 .. toctree::
    :maxdepth: 1
