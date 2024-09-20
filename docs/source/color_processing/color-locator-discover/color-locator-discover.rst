@@ -16,7 +16,7 @@ better chance of finding the desired color.
 OpenCV will form **"Blobs"** of that color.  As described in the Concepts page
 here, a Blob is a contiguous cluster of similar-colored pixels.
 
-Blobs often have an complex, irregular shape or **contour**\ , so they are
+Blobs often have a complex, irregular shape or **contour**, so they are
 represented here by a best-fit rectangle called **"boxFit"**.
 
 .. figure:: images/20-blob-zoom.png
@@ -170,9 +170,9 @@ This is full video, and is shown automatically on the screen of an RC phone.
 .. figure:: images/32-LiveView.png
    :align: center
    :width: 75%
-   :alt: Image of a Live View stream
+   :alt: Image of a LiveView stream
 
-   Live View stream
+   LiveView stream
 
 The above preview is from a REV Control Hub.
 

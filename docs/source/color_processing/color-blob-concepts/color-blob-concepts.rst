@@ -51,9 +51,9 @@ Now let's point the camera at an INTO THE DEEP game element called a
 .. figure:: images/30-Blobs-blue-basic.png
    :width: 75%
    :align: center
-   :alt: Detecting Blobs from a Blue SAMPLE
+   :alt: Detecting Blob from a Blue SAMPLE
 
-   Blobs from a Blue SAMPLE
+   Blob from a Blue SAMPLE
 
 Here the software was told to seek shades of blue.  The orange rectangle
 encloses a Blob of blue color.
@@ -95,9 +95,9 @@ But here's another case:
 .. figure:: images/50-Blobs-tilted.png
    :width: 75%
    :align: center
-   :alt: Showing Boxfit and Outline
+   :alt: Showing Boxfit position
 
-   New ROI position
+   New boxFit position
 
 Look very closely for the teal outline of the Blob, with its very rough lower
 edge.

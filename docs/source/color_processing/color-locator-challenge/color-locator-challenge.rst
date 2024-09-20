@@ -442,9 +442,9 @@ Select and read the Blocks **or** Java section below:
       .. figure:: images/60-box-size.png
          :width: 75%
          :align: center
-         :alt: Box fit properties
+         :alt: boxFit properties
 
-         Box fit properties
+         boxFit properties
 
    .. tab-item:: Java
       :sync: java

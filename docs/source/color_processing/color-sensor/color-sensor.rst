@@ -15,7 +15,7 @@ Below, the small central rectangle is the region being evaluated:
    :align: center
    :alt: INTO THE DEEP game pieces
 
-   Color Sensor Introduction
+   Color sensor detection zone 
 
 A key benefit is that the camera can be much further away from the object than,
 for example, a REV Color Sensor or others like it.
@@ -135,9 +135,7 @@ Before describing how to modify the OpMode, this page offers two sections
 showing how to view the OpenCV results with **previews**.  Previewing is
 essential for working with vision code.
 
-Opening the DS Preview
-++++++++++++++++++++++
-
+**Opening the DS Preview**
 1. On the Driver Station (DS), remain in INIT -- don't touch the Start button.
 2. At the top right corner, touch the 3-dots menu, then ``Camera Stream``.
    This shows the camera's view; tap the image to refresh it.
@@ -170,9 +168,9 @@ This is full video, and is shown automatically on the screen of an RC phone.
 .. figure:: images/38-LiveView.png
    :width: 75%
    :align: center
-   :alt: RC Phone Live View
+   :alt: Control Hub LiveView
 
-   RC Phone Live View
+   Control Hub LiveView
 
 The above preview is from a REV Control Hub.
 
@@ -220,7 +218,7 @@ VisionPortal.
 How does OpenCV determine the "predominant color" of the ROI?  An algorithm
 called `"k-means" <https://en.wikipedia.org/wiki/K-means_clustering>`_
 determines clusters of similar colors.  The color of the cluster with the most
-pixels is called "predominant" here. *(This will NOT be on the final).*
+pixels is called "predominant" here. *(This will NOT be on the final.)*
 
 Testing the Result
 ------------------
@@ -293,11 +291,11 @@ If so, select and read the Blocks **or** Java section below:
       Beginners often try this first:
 
       .. figure:: images/55-IFclosestSwatchWrongWay.png
-         :alt: Wrong Way to find closest Swatch
+         :alt: Wrong way to act upon match result
          :width: 75%
          :align: center
 
-         Wrong way to find closest swatch
+         Wrong way to act upon match result
 
       The problem is, after the robot does the action for RED, the OpMode is
       still inside the vision loop.  Very messy and unpredictable.
@@ -306,11 +304,11 @@ If so, select and read the Blocks **or** Java section below:
       retrieve the stored result to take the desired RED action.
 
       .. figure:: images/58-IFclosestSwatchRightWay.png
-         :alt: Right Way to find closest Swatch
+         :alt: Right way to act upon match result
          :width: 75%
          :align: center
 
-         Right way to find closest swatch
+         Right way to act upon match result
 
       How to exit the vision loop?  It could be based on `time
       <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-FTC-Blocks>`_
