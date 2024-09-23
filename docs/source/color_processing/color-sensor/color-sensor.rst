@@ -136,6 +136,7 @@ showing how to view the OpenCV results with **previews**.  Previewing is
 essential for working with vision code.
 
 **Opening the DS Preview**
+
 1. On the Driver Station (DS), remain in INIT -- don't touch the Start button.
 2. At the top right corner, touch the 3-dots menu, then ``Camera Stream``.
    This shows the camera's view; tap the image to refresh it.
