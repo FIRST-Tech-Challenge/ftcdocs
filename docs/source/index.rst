@@ -43,7 +43,7 @@ to see why.
 
    game_specific_resources/blog/blog
    tech_tips/tech-tips
-   manuals/game_manuals/game_manuals
+   manuals/competition_manual/competition_manual
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
    Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
@@ -378,13 +378,13 @@ to see why.
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-ref:: manuals/game_manuals/game_manuals
+            .. button-ref:: manuals/competition_manual/competition_manual
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Game Manuals
+               Competition Manual
 
          .. div:: col-sm pl-1 pr-1
       

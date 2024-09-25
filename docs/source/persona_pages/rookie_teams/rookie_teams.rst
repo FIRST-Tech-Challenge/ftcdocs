@@ -109,13 +109,13 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-ref:: ../../manuals/game_manuals/game_manuals
+            .. button-ref:: ../../manuals/competition_manual/competition_manual
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Game Manuals
+               Competition Manual
 
          .. div:: col-sm pl-1 pr-1
       
