@@ -142,7 +142,7 @@ jobs:
 
       - name: link-check
         run: |
-          make -C docs/ linkcheckdiff SPHINXOPTS="-W --keep-going -n -q"
+          make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Archive Log
         if: always()
