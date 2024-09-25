@@ -111,6 +111,23 @@ Learning more about using vision
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
 
+Camera Color Processing
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Learn more about using a simple webcam or smartphone camera to perform Color Processing
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../color_processing/index
+   ../color_processing/color-sensor/color-sensor
+   ../color_processing/color-blob-concepts/color-blob-concepts
+   ../color_processing/color-locator-discover/color-locator-discover
+   ../color_processing/color-locator-explore/color-locator-explore
+   ../color_processing/color-locator-challenge/color-locator-challenge
+   ../color_processing/color-spaces/color-spaces
+
 Advanced Topics
 ~~~~~~~~~~~~~~~~
 
