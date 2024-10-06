@@ -43,6 +43,7 @@ to see why.
 
    game_specific_resources/blog/blog
    tech_tips/tech-tips
+   ai/innovation_corner/innovation-corner
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
