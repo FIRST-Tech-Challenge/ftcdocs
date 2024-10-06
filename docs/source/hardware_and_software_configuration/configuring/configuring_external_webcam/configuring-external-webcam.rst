@@ -135,7 +135,7 @@ Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com
 Once connected, use `these instruction <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__
 to install and run scrcpy on your computer.
 
-.. image:: images/webcamWithScrcpy.png
+.. image:: images/webcamWithScrcpy.jpg
    :alt: The camera output viewed with scrcpy.
 
 **Important Note:** While scrcpy is a great way to view the camera output
