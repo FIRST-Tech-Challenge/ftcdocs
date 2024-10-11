@@ -323,9 +323,10 @@ def setup(app):
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
 
+html_context = dict()
+
 # Configure for local official-esque builds
 if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
-    html_context = dict()
     html_context['display_lower_left'] = True
 
     html_context['current_version'] = version
