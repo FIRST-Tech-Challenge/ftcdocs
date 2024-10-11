@@ -346,6 +346,11 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     cookiebanner_enabled = True
     extensions.append('sphinx_sitemap')
     html_baseurl = os.environ.get("FTCDOCS_URL", default="")
+    html_context['display_github'] = True
+    html_context['github_user'] = 'FIRST-Tech-Challenge'
+    html_context['github_repo'] = 'ftcdocs'
+    html_context['github_version'] = 'main/docs/source/'
+    
 
 # Configure RTD Theme
 html_theme_options = {
