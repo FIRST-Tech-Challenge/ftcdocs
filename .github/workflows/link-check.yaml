@@ -22,7 +22,7 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: link-check
-        run: make -C docs/ linkcheckdiff SPHINXOPTS="-W --keep-going -n -q"
+        run: make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Arhive Log
         if: ${{ failure() }}

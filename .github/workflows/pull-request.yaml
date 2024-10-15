@@ -62,7 +62,7 @@ jobs:
         
       - name: Build Site
         env:
-          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+          SPHINXOPTS: "-W --keep-going -n -D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: make -C docs/ html
           
       - name: Archive Site
@@ -142,7 +142,7 @@ jobs:
 
       - name: link-check
         run: |
-          make -C docs/ linkcheckdiff SPHINXOPTS="-W --keep-going -n -q"
+          make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Archive Log
         if: always()
