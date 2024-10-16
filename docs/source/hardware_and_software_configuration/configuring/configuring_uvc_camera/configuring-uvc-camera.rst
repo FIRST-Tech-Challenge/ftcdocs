@@ -4,11 +4,11 @@ Configuring an External UVC Camera and a Powered USB Hub
 Introduction
 ------------
 
-Game rules and in the Game Manual Part 1 have been modified to allow the
-use of USB Video Class (UVC) Compatible Cameras for computer
-vision-related tasks. Teams have the option of using an externally
-connected camera instead of the Android smartphone’s built-in camera for
-computer vision tasks.
+The Competition Manual allows the use of USB Video Class (UVC) compatible
+cameras for computer vision-related tasks. See rule R715 for the full details.
+Teams who are using an Android smartphone as their ROBOT CONTROLLER have the
+option of using an externally connected camera instead of the built-in camera
+for computer vision tasks.
 
 The advantage of using an external camera is that the camera can be
 mounted in a location that is convenient for vision-related tasks while
@@ -56,11 +56,13 @@ Note that the Modern Robotics Core Power Distribution Module cannot be
 used for this task since its data transfer speed is not fast enough to
 work with the USB-connected webcam.
 
-Also note that rule c(iii) permits the use of a powered USB hub to make
-this connection. If a team uses a powered USB hub, the power to operate
-the USB hub can only come from either of the following sources:
+Also note that the Competition Manual permits the use of a powered USB
+hub to make this connection. See rule R617 for the full details. If a
+team uses a powered USB hub, the power to operate the USB hub can only
+come from either of the following sources:
 
-1. An externally connected USB 5V Battery Pack.
+1. An externally connected COTS USB Battery Pack in compliance with the
+   Competition Manual. See rule R602 for the full details.
 2. The 5V DC Aux power port of a REV Robotics Expansion Hub (note that
    this requires advanced skills to implement).
 
