@@ -28,11 +28,27 @@ Java Development Kit
 ~~~~~~~~~~~~~~~~~~~~
 
 Earlier versions of Android Studio required that the user install the
-Java Development Kit software separately. Current versions of Android
-Studio incorporate the Java development software as part of the entire
-install package. It is no longer necessary (or recommended) to install
-the Java Development Kit separately. Instead, it is recommended that you
+Java Development Kit software separately. Versions of Android
+Studio up to, and including, Koala incorporate a compatible JDK (Java Development Kit)
+as part of the entire install package. It is not necessary, or recommended, 
+to install the Java Development Kit separately if you are using an Android Studio
+version between Chipmunk and Koala. Instead, it is recommended that you
 use the Java Development Kit that is included with Android Studio.
+
+.. caution:: Android Studio Ladybug
+
+   With the introduction of Android Studio Ladybug, the JDK that is packaged with
+   Android Studio is incompatible with the FtcRobotController workspace.  If you install
+   or update an existing installation to Android Studio Ladybug, you will need to install
+   JDK 17 separately.
+
+   Upon initial load of the FtcRobotController workspace using Android Studio Ladybug, 
+   an error will be displayed during the Gradle sync and Android Studio will recommend that
+   you upgrade Gradle.  Do not upgrade Gradle.
+
+   For more detailed instructions see: https://ftc-community.firstinspires.org/t/unable-to-connect-to-control-hub-in-android-studio-ladybug/1132/3
+
+
 
 Downloading and Installing Android Studio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
