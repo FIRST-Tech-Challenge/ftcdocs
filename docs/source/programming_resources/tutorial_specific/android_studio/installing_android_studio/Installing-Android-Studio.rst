@@ -35,9 +35,9 @@ to install the Java Development Kit separately if you are using an Android Studi
 version between Chipmunk and Koala. Instead, it is recommended that you
 use the Java Development Kit that is included with Android Studio.
 
-.. caution:: Android Studio Ladybug
+.. caution:: 
 
-   With the introduction of Android Studio Ladybug, the JDK that is packaged with
+   With the introduction of **Android Studio Ladybug**, the JDK that is packaged with
    Android Studio is incompatible with the FtcRobotController workspace.  If you install
    or update an existing installation to Android Studio Ladybug, you will need to install
    JDK 17 separately.
