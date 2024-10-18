@@ -73,12 +73,17 @@ the on-screen instructions to install Android Studio.
 Configuring Android Studio (Ladybug and later)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See the Caution above for why this is necessary.
+.. note:: 
+   
+   See the Caution above for why this is necessary.
 
-Android Studio Ladybug updates the underlying JetBrains IntelliJ version such that 
-the interface is a VSCode look alike.  The screenshots in this documentation use the
-JetBrains/Android Studio Classic UI which is no longer supported natively by JetBrains.
-To follow along, users should install the `Classic UI <https://plugins.jetbrains.com/plugin/24468-classic-ui>`__ plugin.
+.. note:: 
+   
+   Android Studio Ladybug updates the underlying JetBrains IntelliJ version such that 
+   the interface is a VSCode look alike.  The screenshots in this documentation use the
+   JetBrains/Android Studio Classic UI which is no longer supported natively by JetBrains.
+   To follow along, users should install the `Classic UI <https://plugins.jetbrains.com/plugin/24468-classic-ui>`__ plugin.
+
 
 #. `Install JDK 17 <https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html>`__
    If you did not already have this installed independently of Android Studio. 
