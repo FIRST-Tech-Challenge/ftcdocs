@@ -323,9 +323,10 @@ def setup(app):
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
 
+html_context = dict()
+
 # Configure for local official-esque builds
 if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
-    html_context = dict()
     html_context['display_lower_left'] = True
 
     html_context['current_version'] = version
@@ -346,6 +347,11 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     cookiebanner_enabled = True
     extensions.append('sphinx_sitemap')
     html_baseurl = os.environ.get("FTCDOCS_URL", default="")
+    html_context['display_github'] = True
+    html_context['github_user'] = 'FIRST-Tech-Challenge'
+    html_context['github_repo'] = 'ftcdocs'
+    html_context['github_version'] = 'main/docs/source/'
+    
 
 # Configure RTD Theme
 html_theme_options = {
