@@ -93,7 +93,7 @@ Configuring Android Studio (Ladybug and later)
 
 #. Go to File -> Settings and under Build, Execution, Deployment -> Build Tools -> Gradle use the Add JDK from disk option 
    to select the newly installed JDK 17. In the image below take careful note of the directory paths 
-   for the options labelled jbr-17 and jbr-21. Note that they are the same. This is the aforementioned UI bug, 
+   for the options labeled jbr-17 and jbr-21. Note that they are the same. This is the aforementioned UI bug, 
    and that is Android Studio overwriting your old JDK. In this image you’ll see I’ve selected the JDK that 
    was installed independently.
 
