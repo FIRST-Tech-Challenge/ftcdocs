@@ -60,20 +60,23 @@ Rotation About Axes
 ^^^^^^^^^^^^^^^^^^^
 
 When considering rotations about an axis, consider yourself looking down the
-positive axis of rotation from the positive towards the origin. Positive
-rotations are then counterclockwise, and negative rotations clockwise.
+axis from the positive end towards the origin. Positive
+rotations are then counterclockwise and negative rotations clockwise.
 
 .. figure:: images/image1.jpg
    :width: 35%
    :align: center
+   :class: no-scaled-link
    :alt: Illustration showing the counterclockwise rotations about each axis            
    
    Figure 1: Coordinate Axes Rotations 
 
-A rotation example: consider looking down the positive Z axis towards the origin. This
-would be like standing in the middle of the field, looking down. A positive
-rotation about Z (i.e. a rotation parallel to the X-Y plane) is then counterclockwise.
-This comes from the `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ of classic geometry.
+A rotation example: consider looking down the positive Z axis towards the origin. 
+This would be like standing in the middle of the field
+looking down at the intersection of the tiles in the very center of the field.
+A positive rotation about the Z axis is then counterclockwise.
+Therefore a robot spinning counterclockwise on the field is making a positive rotation about the Z axis. 
+This rotation convention comes from the `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ of classic geometry.
 
 Field Configuration Examples
 ----------------------------
@@ -90,6 +93,7 @@ the Blue Alliance on the right side of the field.
 .. figure:: images/image2.jpg
    :width: 75%
    :align: center
+   :class: no-scaled-link
    :alt: FIRST Tech Challenge RES-Q game field
 
    Figure 2: Illustration of a diamond field configuration
@@ -101,7 +105,8 @@ to the right side of the field, away from the audience.
 
 .. figure:: images/image3.jpg
    :width: 75%
-   :align: center  
+   :align: center
+   :class: no-scaled-link
    :alt: FIRST Tech Challenge Cascade Effect game
 
    Figure 3: Illustration of a square field configuration
