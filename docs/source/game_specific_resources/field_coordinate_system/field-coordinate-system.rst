@@ -1,15 +1,20 @@
-*FIRST* Tech Challenge Field “Coordinate System" Definition
-===========================================================
+*FIRST* Tech Challenge Field Coordinate System Definition
+=========================================================
 
 Scope
 -----
 
-This document defines the “standard” Coordinate System (orthogonal axes)
-definition for a *FIRST* Tech Challenge playing field. This definition can be
+This document defines the Field Coordinate System 
+for a *FIRST* Tech Challenge playing field. This definition can be
 used for consistent field-centric navigation, target localization and path
 planning.
 
-Reference frame
+The Field Coordinate System is a 
+`three-dimensional Cartesian coordinate system <https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Three_dimensions>`__ 
+which means that the three axes are at right angles to each other. 
+The X and Y axes will refer to a position on the field and Z axis a height above the field. 
+
+Reference Frame
 ---------------
 
 The reference frame for this definition is the field perimeter wall, adjacent
@@ -51,52 +56,63 @@ Looking at the origin from the RED WALL, the Z axis extends through the origin
 point and runs up and down in a vertical line. Increasing Z values extend
 upwards.
 
-Rotation about Axes
+Rotation About Axes
 ^^^^^^^^^^^^^^^^^^^
 
 When considering rotations about an axis, consider yourself looking down the
-(positive) axis of rotation from the positive towards the origin. Positive
-rotations are then CCW, and negative rotations CW.
+positive axis of rotation from the positive towards the origin. Positive
+rotations are then counterclockwise, and negative rotations clockwise.
 
 .. figure:: images/image1.jpg
    :width: 35%
    :align: center
-   :alt: Coordinate Axes
+   :alt: Illustration showing the counterclockwise rotations about each axis            
+   
+   Figure 1: Coordinate Axes Rotations 
 
-   Figure 1: Coordinate Axes
-
-An example: consider looking down the positive Z axis towards the origin. This
+A rotation example: consider looking down the positive Z axis towards the origin. This
 would be like standing in the middle of the field, looking down. A positive
-rotation about Z (i.e. a rotation parallel to the X-Y plane) is then CCW, as
-one would normally expect from the usual classic 2D geometry.
+rotation about Z (i.e. a rotation parallel to the X-Y plane) is then counterclockwise.
+This comes from the `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ of classic geometry.
 
-Examples
---------
+Field Configuration Examples
+----------------------------
 
-Below are two examples illustrating this Axes definition.
-
-.. note::
-   Note that in both cases the Red Alliance members are facing out,
-   along the positive Y axis.
-
-   However, in the “Diamond” field configuration, the X axis is pointing
-   towards the Blue Alliance, but in the “Square” field configuration
-   the Y axis is pointing towards the Blue Alliance.
-
+Below are two examples illustrating the Field Coordinate System for different
+*FIRST* Tech Challenge field configurations.
+ 
+In a diamond field configuration the two alliance walls are adjacent. 
+The field is rotated 45 degrees such that both alliances face the audience.
+The red alliance will be on the right as seen from the audience.
+The Y axis points across the field from the RED WALL and the X axis points to 
+the Blue Alliance on the right side of the field.
 
 .. figure:: images/image2.jpg
    :width: 75%
    :align: center
-   :alt: RES-Q
+   :alt: FIRST Tech Challenge RES-Q game field
 
-   Figure 2: FIRST Tech Challenge RES-Q game field orientation
+   Figure 2: Illustration of a diamond field configuration
+
+In a square field configuration the two alliances face each other across the field.
+The field is oriented such that the red alliance is on the right as seen from the audience.
+The Y axis points across the field to the Blue Alliance and the X axis points 
+to the right side of the field, away from the audience.
 
 .. figure:: images/image3.jpg
    :width: 75%
-   :align: center
-   :alt: Cascade Effect
+   :align: center  
+   :alt: FIRST Tech Challenge Cascade Effect game
 
-   Figure 3: FIRST Tech Challenge Cascade Effect game field orientation
+   Figure 3: Illustration of a square field configuration
+
+.. note::
+   In both field configurations the Red Alliance team members are facing out along the positive Y axis
+   and the Z axis points up from the center of the field.
+
+   In the diamond field configuration, the X axis is pointing
+   towards the Blue Alliance, but in the square field configuration
+   the Y axis is pointing towards the Blue Alliance.
 
 Measured Values
 ---------------
@@ -109,7 +125,7 @@ representative only, and should not be assumed to be exact, or guaranteed.
 -  Polycarbonate transparencies have a visible opening height of 255 mm
 -  The top edge of transparencies is 30 mm from the top of the perimeter
 -  Total perimeter height is 313 mm
--  Tiles are 13mm thick
+-  Tiles are 13 mm thick
 
 So, for a diamond field configuration, the corner of the field closest to the
 audience, at a height equal to the top of the perimeter wall, would have a
