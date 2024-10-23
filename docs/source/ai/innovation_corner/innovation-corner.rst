@@ -13,8 +13,71 @@ Articles are ordered on this page chronologically, with the newest content
 at the top of the page expanded. Just click to expand any other articles
 you'd like to see.
 
-.. dropdown:: Week of 09/30/2024 "AI Competition Manual Assistant"
+.. dropdown:: Week of 10/21/2024 "AI for Social Media"
    :open:
+
+   .. _ai_for_social_media:
+
+   **AI for Social Media**
+
+   This week in this AI Innovation Corner we’re going to be exploring using AI
+   for helping you take the first steps that every *FIRST* Tech Challenge team
+   needs to do, which is to increase your team’s social media presence.
+   Specifically, we’re going to focus on social media campaigns and team
+   marketing, which can be a critical step to increase the visibility of your
+   team in the community. This can help you with recruitment of team members
+   and mentors, spreading awareness of yourselves and *FIRST*, and is one great
+   step towards helping you with fundraising (which we’ll cover in more detail
+   in a future article).
+
+   If you’ve never started a social media campaign for a *FIRST* Tech Challenge
+   team, you might have some ideas about how to get started but you need some
+   direction and some more “concrete” examples pertaining to where to start,
+   what to create content about, and even where to post/host your content.
+   Gemini can be a great start in your brainstorming process. This simple
+   prompt can yield loads of valuable feedback:
+   
+   * *I have a high school FIRST Tech Challenge Team. What are things I need to
+     consider when starting my first social media campaign?*
+
+   Once you’ve got a presence and start working through content, through social
+   media you’ll engage with lots of folks. It can sometimes be difficult to
+   find the right way to interact with the community at large, and responders
+   who love (or are critical of) your content. AI to the rescue! AI can help
+   you find different ways of interacting - though remember the ultimate
+   responsibility on what to post is up to you, AI should only be used as a
+   means of brainstorming and/or refining what you want to say.
+
+   * *Write a friendly, one-sentence response to the following social media
+     comment that shows appreciation for the comment and encourages the user to
+     turn on post notifications for more content from our FIRST Tech Challenge
+     team.*
+
+   Can’t think of prompts to ask/use, or are you looking for some inspiration?
+   AI can help you there as well. You can ask AI to help you with building AI
+   prompts (asking the AI what to ask the AI is a pro tip!), brainstorming ways
+   to use AI for social media, and ways to accentuate what you do on social
+   media. Be sure to keep “ *FIRST* Tech Challenge ” in your prompts so that the AI
+   relates what you’re asking it to the competition so that the suggestions it
+   makes are relevant to your team and your activities.
+
+   * *Can you tell me some common AI prompts for generating social media posts
+     for my FIRST Tech Challenge team?*
+
+   Finally, it’s important to track your social media progress in order to
+   determine what’s going well, optimize your strategy for content in the
+   future, and determining where you’re getting the most “bang” for your
+   content-production “buck.” We can use the following prompt to ask AI to give
+   us some tips on the best ways to track our online footprint:
+
+   * *How can I track my team's progress on social media?*
+
+   Remember, social media is a marathon, not a race. It requires careful
+   planning, continuous improvement, consistency in creating content, and the
+   desire to build your team’s brand. Hard work and determination can pay off,
+   and AI can help guide you along the way!
+
+.. dropdown:: Week of 09/30/2024 "AI Competition Manual Assistant"
 
    .. _competition_manual_assistant:
 
