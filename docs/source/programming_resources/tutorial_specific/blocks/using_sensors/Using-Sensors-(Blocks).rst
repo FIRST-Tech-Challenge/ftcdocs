@@ -114,14 +114,14 @@ determine if the button on the sensor is currently pressed or not.
 
 |
 
-The Expansion Hub digital ports contain two digital pins per port. When
-you use a 4-wire JST cable to connect a REV Robotics Touch sensor to an
+The Control Hub or Expansion Hub digital ports contain two digital pins per port. When
+you use a 4-wire JST cable to connect a REV Robotics Touch sensor to a Control Hub or
 Expansion Hub digital port, the Touch Sensor is wired to the second of
 the two digital pins within the port. The first digital pin of the
 4-wire cable remains disconnected.
 
 For example, if you connect a Touch Sensor to the "0,1" digital port of
-the Expansion Hub, the Touch Sensor will be connected to the second pin
+the Control Hub or Expansion Hub, the Touch Sensor will be connected to the second pin
 (labeled "1") of the port. The first pin (labeled "0") will stay
 disconnected.
 
