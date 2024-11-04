@@ -79,6 +79,7 @@ Topics for programming with AprilTags
    VisionPortal Overview <../apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Localization <../apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
 
 TensorFlow Programming

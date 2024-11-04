@@ -43,6 +43,7 @@ to see why.
 
    game_specific_resources/blog/blog
    tech_tips/tech-tips
+   ai/innovation_corner/innovation-corner
    manuals/game_manuals/game_manuals
    Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
@@ -83,6 +84,7 @@ to see why.
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
 
 .. toctree::
