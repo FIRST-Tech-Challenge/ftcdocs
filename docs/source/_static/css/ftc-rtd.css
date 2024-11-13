@@ -145,3 +145,52 @@ div.ethical-sidebar, div.ethical-footer {
 .sphinx-tab img {
 	margin-bottom: 24px;
 }
+
+/* fix link text in body content for accessibility 
+   exclude .sd-btn which are the buttons on the persona pages*/
+.document a:not(.sd-btn) {
+  color: #0000EE;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #0000EE;
+  text-underline-offset: 0.2em;
+}
+.document a:not(.sd-btn):visited  {
+  color: #551A8B;
+  text-decoration-style: dotted;  /* some browsers don't support this*/
+  text-decoration-color: #551A8B;
+}
+.document a:not(.sd-btn):focus {
+    outline: 2px solid #d71ef7;
+}
+.document a:not(.sd-btn):hover {  
+  font-weight: bold;
+}
+.document a:not(.sd-btn):active {  
+  text-decoration-line: underline overline;
+  color: #FF0000;
+}
+/*
+.document a {
+  color: #0000EE !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-color: #0000EE !important;
+  text-underline-offset: 0.2em !important;
+}
+.document a:visited  {
+  color: #551A8B !important;
+  text-decoration-style: dotted !important;
+  text-decoration-color: #551A8B !important;
+}
+.document a:focus {
+    outline: 2px solid #d71ef7 !important;
+}
+.document a:hover {  
+  font-weight: bold !important;
+}
+.document a:active {  
+  text-decoration-line: underline overline !important;
+  color: #FF0000 !important;
+}
+*/
