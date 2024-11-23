@@ -143,7 +143,7 @@ Coordinate Position Example
 Let's consider a robot on the Cascade Effect Field at coordinates 
 (60, -60, 10) in inches. So X = 60, y = -60, and Z = 10. 
 Measured in inches, the walls would be about 72 inches from the origin.
-Cascade Effect was a Sqaure Field configuration, so
+Cascade Effect was a Square Field configuration, so
 the X axis value of positive 60 would be located close to the rear field wall, away from the audience.
 The Y axis value of negative 60 would be located close to the Red Wall, away from the origin.
 Together the X and Y values (60, -60) indicate a position in the corner of the Field.
