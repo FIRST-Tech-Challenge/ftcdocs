@@ -1,7 +1,7 @@
 Choosing a Programming Tool
 ============================
 You will need to select a programming tool to be able to write op modes
-for your competition robot. FIRST strongly recommends that *all users*
+for your competition robot. *FIRST* strongly recommends that *all users*
 begin by learning how to use the :ref:`Blocks programming
 tool <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
@@ -14,7 +14,8 @@ teams to use:
    who prefer to design their op modes visually, using a drag-and-drop
    interface.
 
-.. image:: images/BlocksPicture1.jpg
+   .. image:: images/BlocksPicture1.jpg
+      :alt: Screenshot of the Blocks Programming Tool showing a graphical Blocks program.
 
 2. **The OnBot Java Programming Tool** - A text-based programming
    tool that lets programmers use a web browser to create, edit and save
@@ -22,7 +23,8 @@ teams to use:
    have basic to advanced Java skills and who would like to write
    text-based op modes.
 
-.. image:: images/onBotJavaScreen.jpg
+   .. image:: images/onBotJavaScreen.jpg
+      :alt: Screenshot of the OnBot Java Programming Tool showing some Java source code.
 
 3. **Android Studio** - An advanced integrated development environment
    for creating Android apps. This tool is the same tool that
@@ -30,7 +32,8 @@ teams to use:
    recommended for advanced users who have extensive Java programming
    experience.
 
-.. image:: images/androidStudioScreen.jpg
+   .. image:: images/androidStudioScreen.jpg
+      :alt: Screenshot of Android Studio showing some Java source code.
 
 Each tool has its own merits and weaknesses. For many users (especially
 rookies and novice programmers), **the Blocks Programming Tool is
@@ -43,6 +46,7 @@ Tool. However, OnBot Java is a text-based tool and it requires that the
 user have a sound understanding of the Java programming language.
 
 .. image:: images/ipadPhoneChromebook.jpg
+   :alt: A tablet, a phone, and a laptop each showing the programming tools in use.
 
 It is important to note that with the Blocks Programming Tool and the
 OnBot Java Programming Tool, a user only needs a web browser to create,
