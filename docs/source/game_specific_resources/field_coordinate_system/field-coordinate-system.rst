@@ -4,14 +4,8 @@
 .. meta::
    :description: This document defines the Field Coordinate System which can be used to specify position on the playing field.
 
-
 Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions.
 The X and Y axes will refer to a position on the Field and the Z axis a height above the Field.
-
-.. contents:: In This Article:
-   :local:
-   :depth: 1
-   :backlinks: none
 
 Scope
 -----
@@ -86,10 +80,10 @@ rotations are then counterclockwise and negative rotations clockwise.
    
    Rotations about each axis.
 
-   Imagine looking down the positive Z axis towards the origin.
-   This would be like standing in the middle of the Field
-   looking down at the intersection of the tiles in the very center of the Field.
-   A positive rotation about the Z axis is then counterclockwise.
+Imagine looking down the positive Z axis towards the origin.
+This would be like standing in the middle of the Field
+looking down at the intersection of the tiles in the very center of the Field.
+A positive rotation about the Z axis is then counterclockwise.
 
 Example: a robot spinning clockwise on the Field is making a negative rotation about the Z axis.
 
@@ -107,13 +101,13 @@ Diamond Field
    
    The *FIRST* RES-Q game Field with X, Y and Z axes shown.
    
-   In a diamond Field configuration the two Alliance walls are adjacent.
-   The Field is rotated 45 degrees such that both Alliances face the audience.
-   From the audience perspective the Field forms a diamond shape.
-   The Red Wall will be on the right as seen from the audience,
-   and the blue wall will be on the left.
-   The Y axis points across the Field as seen from the Red Wall.
-   The X axis points to the blue wall.
+In a diamond Field configuration the two Alliance walls are adjacent.
+The Field is rotated 45 degrees such that both Alliances face the audience.
+From the audience perspective the Field forms a diamond shape.
+The Red Wall will be on the right as seen from the audience,
+and the blue wall will be on the left.
+The Y axis points across the Field as seen from the Red Wall.
+The X axis points to the blue wall.
    
 Square Field
 ^^^^^^^^^^^^
@@ -123,11 +117,11 @@ Square Field
    
    The Cascade Effect game Field with X, Y and Z axes shown.
 
-   In a square Field configuration the two Alliances face each other across the Field.
-   The Field is oriented such that the Red Wall is on the right as seen
-   from the audience, and the blue wall will be on the left.
-   The Y axis points across the Field from the Red Wall to the blue wall.
-   The X axis points away from the audience to the rear of the Field.
+In a square Field configuration the two Alliances face each other across the Field.
+The Field is oriented such that the Red Wall is on the right as seen
+from the audience, and the blue wall will be on the left.
+The Y axis points across the Field from the Red Wall to the blue wall.
+The X axis points away from the audience to the rear of the Field.
 
 .. note::
    In both Field configurations the red Alliance is facing out along the positive Y axis,
