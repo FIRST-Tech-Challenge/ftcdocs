@@ -76,7 +76,7 @@ axis from the positive end towards the origin. Positive
 rotations are then counterclockwise and negative rotations clockwise.
    
 .. figure:: images/image1.jpg
-   :alt:   
+   :alt:
    
    Rotations about each axis.
 
@@ -92,6 +92,10 @@ Field Configuration Examples
 
 Below are two examples illustrating the Field Coordinate System for different
 *FIRST* Tech Challenge Field configurations.
+
+.. note::
+   In both Field configurations the red Alliance is facing out along the positive Y axis,
+   and the Z axis points up from the center of the Field.
 
 Diamond Field
 ^^^^^^^^^^^^^
@@ -122,14 +126,6 @@ The Field is oriented such that the Red Wall is on the right as seen
 from the audience, and the blue wall will be on the left.
 The Y axis points across the Field from the Red Wall to the blue wall.
 The X axis points away from the audience to the rear of the Field.
-
-.. note::
-   In both Field configurations the red Alliance is facing out along the positive Y axis,
-   and the Z axis points up from the center of the Field.
-
-   In the diamond Field configuration the X axis is pointing
-   towards the blue Alliance. In the square Field configuration
-   the Y axis is pointing towards the blue Alliance.
 
 Coordinate Position Example
 ---------------------------
@@ -185,33 +181,4 @@ with respect to the robot. See :ref:`IMU axes definition. <programming_resources
 The yaw value from the IMU, also known the heading, measures rotation about the Z axis
 which points up from the robot. 
 You can use the IMU to determine which direction a robot is facing.
-
-Glossary
---------
-
-.. glossary::
-
-   Alliance
-      An Alliance is a cooperative of two *FIRST* Tech Challenge teams. 
-      An Alliance in the red Alliance Area is known as the red Alliance,
-      and an Alliance in the blue Alliance Area is known as the blue Alliance.
-      
-   Alliance Area
-      A 120 inch wide by 42 inch deep (304.8 cm by 106.7 cm) by infinitely tall volume 
-      formed by placing Alliance colored tape onto the flooring surface outside of the Field.
-      The red Alliance Area will have red tape, the blue Alliance Area will have blue tape.
-      The Alliance Area includes the taped lines.
-      
-   Cartesian Coordinate System
-      A Cartesian coordinate system for three-dimensional space consists of an ordered triplet of lines 
-      (the axes) that go through a common point (the origin). The axes are pair-wise perpendicular 
-      (at right-angles to each other). A single unit of measure applies to all three axes.
-      A point P in space can then be referenced by three numbers which correspond to the three axes.
-      The Cartesian coordinates of P are those three numbers, in the chosen order.
-      
-   Field
-      A square area with walls approximately 12 feet (3.66 meters) long bounded by the
-      outside edge of the extrusion that frames the walls of the Field perimeter.
-      The flooring surface of the Field is made of 36 interlocking soft foam tiles.
-      The nominal size of a tile is 24 inches by 24 inches by 5/8 of an inch.
 
