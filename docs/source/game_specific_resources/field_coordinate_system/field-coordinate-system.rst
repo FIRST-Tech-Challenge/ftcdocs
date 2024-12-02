@@ -5,23 +5,23 @@
    :description: This document defines the Field Coordinate System which can be used to specify position on the playing field.
 
 Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions.
-The X and Y axes will refer to a position on the Field and the Z axis a height above the Field.
+The X and Y axes will refer to a position on the field and the Z axis a height above the field.
 
 Scope
 -----
   
 This document defines the Field Coordinate System 
-for a *FIRST* Tech Challenge playing Field. This definition can be
+for a *FIRST* Tech Challenge playing field. This definition can be
 used for consistent field-centric navigation, target localization and path
 planning.
 
 Reference Frame
 ---------------
 
-The reference frame for this definition is the Field perimeter wall, adjacent
+The reference frame for this definition is the field perimeter wall, adjacent
 to the red Alliance Area, known here after as the Red Wall.  The definition is
-from the perspective of a person, standing outside the Field, in the center of
-Red Wall, looking towards the center of the Field.
+from the perspective of a person, standing outside the field, in the center of
+Red Wall, looking towards the center of the field.
 
 .. note:: 
    If the red Alliance Area is ever adjacent to two perimeter walls,
@@ -43,7 +43,7 @@ Origin
 ^^^^^^
 
 The 0,0,0 origin of the *FIRST* Tech Challenge coordinate system is the point
-in the center of the Field, equidistant from all 4 perimeter walls (where the
+in the center of the field, equidistant from all 4 perimeter walls (where the
 four center tiles meet). The origin point rests on the top surface of the floor
 mat.
 
@@ -74,16 +74,17 @@ Rotation About Axes
 When considering rotations about an axis, consider yourself looking down the
 axis from the positive end towards the origin. Positive
 rotations are then counterclockwise and negative rotations clockwise.
-   
-.. figure:: images/image1.jpg
-   :alt:
-   
-   Rotations about each axis.
 
 Imagine looking down the positive Z axis towards the origin.
-This would be like standing in the middle of the Field
-looking down at the intersection of the tiles in the very center of the Field.
-A positive rotation about the Z axis is then counterclockwise.
+This would be like standing in the middle of the field
+looking down.
+A positive rotation about the Z axis would be counterclockwise.
+
+   
+.. figure:: images/image1.jpg
+   :alt: X, Y and Z coordinate axes
+   
+   Counterclockwise rotations about each axis
 
 Example: a robot spinning clockwise on the Field is making a negative rotation about the Z axis.
 
@@ -91,52 +92,53 @@ Field Configuration Examples
 ----------------------------
 
 Below are two examples illustrating the Field Coordinate System for different
-*FIRST* Tech Challenge Field configurations.
+*FIRST* Tech Challenge field configurations.
 
 .. note::
-   In both Field configurations the red Alliance is facing out along the positive Y axis,
-   and the Z axis points up from the center of the Field.
+   In both field configurations the red Alliance is facing out along the positive Y axis,
+   and the Z axis points up from the center of the field.
 
 Diamond Field
 ^^^^^^^^^^^^^
 
-.. figure:: images/image2.jpg
-   :alt: 
-   
-   The *FIRST* RES-Q game Field with X, Y and Z axes shown.
-   
-In a diamond Field configuration the two Alliance walls are adjacent.
-The Field is rotated 45 degrees such that both Alliances face the audience.
-From the audience perspective the Field forms a diamond shape.
+In a diamond field configuration the two Alliance walls are adjacent.
+The field is rotated 45 degrees such that both Alliances face the audience.
+From the audience perspective the field forms a diamond shape.
 The Red Wall will be on the right as seen from the audience,
 and the blue wall will be on the left.
-The Y axis points across the Field as seen from the Red Wall.
+The Y axis points across the field as seen from the Red Wall. 
 The X axis points to the blue wall.
+
+
+.. figure:: images/image2.jpg
+   :alt: A diamond field with X, Y and Z axes shown
+   
+   The FIRST RES-Q game field   
    
 Square Field
 ^^^^^^^^^^^^
 
-.. figure:: images/image3.jpg
-   :alt: 
-   
-   The Cascade Effect game Field with X, Y and Z axes shown.
-
-In a square Field configuration the two Alliances face each other across the Field.
-The Field is oriented such that the Red Wall is on the right as seen
+In a square field configuration the two Alliances face each other across the field.
+The field is oriented such that the Red Wall is on the right as seen
 from the audience, and the blue wall will be on the left.
-The Y axis points across the Field from the Red Wall to the blue wall.
-The X axis points away from the audience to the rear of the Field.
+The Y axis points across the field from the Red Wall to the blue wall.
+The X axis points away from the audience to the rear of the field.
+   
+.. figure:: images/image3.jpg
+   :alt: A square field with X, Y and Z axes shown
+   
+   The Cascade Effect game field
 
 Coordinate Position Example
 ---------------------------
 
-Let's consider a robot on the Cascade Effect Field at coordinates 
+Let's consider a robot on the Cascade Effect field at coordinates 
 (60, -60, 10) in inches. So X = 60, y = -60, and Z = 10. 
 Measured in inches, the walls would be about 72 inches from the origin.
-Cascade Effect was a Square Field configuration, so
+Cascade Effect was a square field configuration, so
 the X axis value of positive 60 would be located close to the rear field wall, away from the audience.
 The Y axis value of negative 60 would be located close to the Red Wall, away from the origin.
-Together the X and Y values (60, -60) indicate a position in the corner of the Field.
+Together the X and Y values (60, -60) indicate a position in the corner of the field.
 That corner is adjacent to the Red Wall and furthest from the audience. 
 The Z axis value of 10 places the robot on top of the red
 ramp that is in that corner in the Cascade Effect game. 
@@ -144,17 +146,17 @@ ramp that is in that corner in the Cascade Effect game.
 Measured Values
 ---------------
 
-The following metric values have been measured from a 2016 competition Field. They are
+The following metric values have been measured from a 2016 competition field. They are
 representative only, and should not be assumed to be exact, or guaranteed.
 
 -  Distance between opposite inside faces of panels: 3580 mm,
-   (if the Field is assembled well: the straps give some adjustment tolerance)
+   (if the field is assembled well: the straps give some adjustment tolerance)
 -  Polycarbonate transparencies have a visible opening height of 255 mm
 -  The top edge of transparencies is 30 mm from the top of the perimeter
 -  Total perimeter height is 313 mm
 -  Tiles are 13 mm thick
 
-So, for a diamond Field configuration, the corner of the Field closest to the
+So, for a diamond field configuration, the corner of the field closest to the
 audience, at a height equal to the top of the perimeter wall, would have a
 coordinate position of: (-1790, 1790, 300) in millimeters.
 
