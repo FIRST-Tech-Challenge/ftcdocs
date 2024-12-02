@@ -351,6 +351,12 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+
+    analytics = {
+    'gtag': 'G-7B5F7THY9C'
+    }
+
+
     
 
 # Configure RTD Theme
