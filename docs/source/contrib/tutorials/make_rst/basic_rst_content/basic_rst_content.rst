@@ -295,22 +295,17 @@ characters used in Python are::
 This is what should be used for different levels of sections. Additional
 special characters that can be used beyond these levels (in case they are
 needed) are Pound Signs (#) and Asterisks (*). Here's what using Sections
-looks like:
+looks like::
 
-Titles
-======
+   11.3 Titles
 
-Sections
---------
+   11.3.1 Sections
 
-SubSection
-^^^^^^^^^^
+   11.3.1.1 SubSection
 
-SubSubSection
-"""""""""""""
+   11.3.1.1.1 SubSubSection
 
-SubSubSubSection
-++++++++++++++++
+   11.3.1.1.1.1 SubSubSubSection
 
 The great thing about sections is that each section gets an automatic
 anchor that can be used to reference that section within the document. Just
