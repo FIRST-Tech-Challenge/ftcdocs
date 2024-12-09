@@ -6,6 +6,7 @@ Contributing to FTC Docs
 
     guidelines/guidelines
     style_guide/style-guide
+    reference_guide/reference-guide
     workflow/workflow
     tutorials/index
 
@@ -18,6 +19,7 @@ Mission Statement
 
 - :doc:`Contribution Guidelines <guidelines/guidelines>`
 - :doc:`Style Guide <style_guide/style-guide>`
+- :doc:`Reference Guide <reference_guide/reference-guide>`
 - :doc:`FTC Docs Workflow <workflow/workflow>`
 - :doc:`Tutorials <tutorials/index>`
 
