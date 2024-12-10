@@ -602,7 +602,7 @@ Just click to expand the Tech Tip you'd like to read.
         - Stall Current
         - Max Power
         - Cost ($USD)
-      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/TETRIX-MAX-Standard-Scale-Servo-Motor>`__
+      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/products/tetrix-max-standard-scale-servo-motor>`__
         - 0.18 s/60°
         - 6 kg-cm
         - 1.2 A
@@ -2000,7 +2000,7 @@ Just click to expand the Tech Tip you'd like to read.
    League All-Star Volunteer. AJ gives a great synopsis on many of the key
    technical updates for the CENTERSTAGE presented by RTX season and some
    background on those changes. Watch his video on the *FIRST* Tech Challenge
-   YouTube Channel here: https://youtu.be/uOcVGwdhG3E.
+   YouTube Channel here: https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be.
 
 .. dropdown:: Week of 09/11/2023 "Updating the Robot Controller App"
 
@@ -2029,7 +2029,7 @@ Just click to expand the Tech Tip you'd like to read.
    of the batteries have different battery chargers and different recommended
    charging settings for the batteries. When charging the `TETRIX MAX 12-Volt
    battery
-   <https://www.pitsco.com/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
+   <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
    on the battery the manufacturer recommends charging at the 0.9A charge rate
    (the lowest setting on most selectable battery chargers) using the `Global
    NiMH battery pack charger

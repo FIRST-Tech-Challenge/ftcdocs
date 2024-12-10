@@ -5,7 +5,7 @@ What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge teams can use `TensorFlow Lite
-<https://www.tensorflow.org/lite/>`__, a lightweight version of Google’s
+<https://ai.google.dev/edge/litert>`__, a lightweight version of Google’s
 `TensorFlow <https://www.tensorflow.org/>`__ machine learning technology that
 is designed to run on mobile devices such as an Android smartphone or the `REV
 Control Hub <https://www.revrobotics.com/rev-31-1595/>`__.  A *trained

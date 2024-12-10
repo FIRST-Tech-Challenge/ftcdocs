@@ -296,7 +296,7 @@ with the following recommended specs:
 A standard Windows laptop, like a `Dell Inspiron
 15 <https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__
 or `HP Pavilion
-Laptop <https://www.hp.com/us-en/shop/pdp/hp-pavilion-laptop-15z-eh300-794p5av-1>`__,
+Laptop <https://www.hp.com/us-en/shop/mdp/laptops/pavilion-15-344522--1>`__,
 designed for smooth performance and everyday tasks,
 
 -  Processor: Intel Core i5, AMD Ryzen 5, or better
@@ -363,7 +363,7 @@ or similar.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A standard Android Tablet, such as the `Samsung Galaxy Tab A7
-Lite <https://www.samsung.com/us/mobile/tablets/buy/?modelCode=SM-X200NIDAXAR>`__,
+Lite <https://www.samsung.com/us/tablets/galaxy-tab-a/galaxy-tab-a7-10-4-inch-gray-64gb-wi-fi-sm-t500nzaexar/>`__,
 or similar.
 
 -  8” display or larger
