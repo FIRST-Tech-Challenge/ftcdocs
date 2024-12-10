@@ -89,7 +89,7 @@ follows:
 
 Further discussion is provided here:
 
-- https://ftc-docs.firstinspires.org/apriltag-detection-values
+- `Understanding AprilTag Detection Values <https://ftc-docs.firstinspires.org/en/latest/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.html>`__
 
 Advanced CPU Management
 -----------------------
