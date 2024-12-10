@@ -294,6 +294,7 @@ linkcheck_ignore = [
    r'https://stackoverflow.com',
    r'http://192.168.43.1:\d+/',
    r'http://192.168.49.1:\d+/',
+   r'http://javadoc.io/doc/org.firstinspires.ftc/',
 ]
 
 latex_documents = [
