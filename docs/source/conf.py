@@ -294,8 +294,8 @@ linkcheck_ignore = [
    r'https://knowledge.autodesk.com/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
-   r'http://192.168.43.1:\d+/',
-   r'http://192.168.49.1:\d+/',
+   r'http://192.168.43.1',
+   r'http://192.168.49.1',
    r'https://javadoc.io/doc/org.firstinspires.ftc/',
 ]
 
