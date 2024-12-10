@@ -75,7 +75,7 @@ to verify that the page printed properly.
 For more in-depth information about AprilTag detection values, and
 better understanding what they mean, please visit the following website:
 
-- `Understanding AprilTag Detection Values <https://ftc-docs.firstinspires.org/en/latest/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.html>`__
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 - :download:`Download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`
 
 

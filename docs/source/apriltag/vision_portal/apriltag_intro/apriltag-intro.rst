@@ -276,7 +276,7 @@ positive rotation.
 
 Further discussion is provided here:
 
-- `Understanding AprilTag Detection Values <https://ftc-docs.firstinspires.org/en/latest/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.html>__`
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 Note: This article does not discuss the *FIRST* Tech Challenge 
 :ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
@@ -373,7 +373,7 @@ follows:
 
 Again, further discussion is provided here:
 
-- `Understanding AprilTag Detection Values <https://ftc-docs.firstinspires.org/en/latest/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.html>__`
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 Summary
 -------
