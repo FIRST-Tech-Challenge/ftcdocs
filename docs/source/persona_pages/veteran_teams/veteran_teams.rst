@@ -65,7 +65,7 @@ resource you want to explore!
                TensorFlow in CENTERSTAGE
 
    .. grid-item-card::
-      :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources
+      :link: https://www.firstinspires.org/resource-library/ftc/team-management-resources
       :link-type: url
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body

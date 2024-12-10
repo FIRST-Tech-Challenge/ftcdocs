@@ -55,7 +55,7 @@ Logitech C310
 
    Logitech C310 Camera
 
-The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.960-000585.html>`__
+The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.html>`__
 is available at some online retailers.
 
 **FTC Hot Take:**

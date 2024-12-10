@@ -68,7 +68,7 @@ deemed 'production ready'.
 
 Each circle represents a commit to a branch. The name of the branch always points to the most recent
 commit, also known as the `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`_.  While there may be many branches there is only one HEAD and it always,
-unless it is in a `detached state <https://www.git-scm.com/docs/git-checkout#_detached_head>`_, points to the
+unless it is in a `detached state <https://git-scm.com/docs/git-checkout#_detached_head>`_, points to the
 latest commit of the currently checked out branch.  All other commits point to their immediate parent.
 
 A commit is a `snapshot <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`_ of the entire workspace at a point in time.  Git does not store `diffs <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`_.  If you make a change to a file, and
