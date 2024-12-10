@@ -123,7 +123,7 @@ Microsoft LifeCam HD-3000 v1/v2
 
    Microsoft LifeCam HD-3000 v1/v2
 
-The `Microsoft LifeCam HD-3000 <https://www.microsoft.com/en/accessories/products/webcams/lifecam-hd-3000>`__
+The `Microsoft LifeCam HD-3000 <https://www.digitalcameraworld.com/reviews/microsoft-lifecam-hd-3000-review>`__
 is available at some online retailers.
 
 **FTC Hot Take:**
