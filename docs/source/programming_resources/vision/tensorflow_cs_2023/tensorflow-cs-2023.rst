@@ -408,7 +408,7 @@ First, it's important to note that TensorFlow has the following quirks/behaviors
 So what kinds of patterns are good for TensorFlow? Let's explore a few examples:
 
 1. Consider the shape of a `chess board Rook
-   <https://www.sciencephoto.com/media/640239/view/rook-chess-piece-illustration>`__.
+   <https://chess.fandom.com/wiki/Rook>`__.
    The Rook itself is mostly uniform all around, no matter how you rotate the
    object it more or less looks the same. Not much patterning there. However,
    the top of the Rook is very unique and patterned.  Exaggerating the
