@@ -21,24 +21,6 @@ This document can be found here: `Traditional Field Setup Guide <https://firstin
 
    .. raw:: html
 
-       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/field-assembly-and-setup-guide.pdf" width="100%" height="700"></iframe>
+       <iframe id="iframepdf" src="https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide" width="100%" height="700"></iframe>
 
 |
-
-Remote Field Setup Guide
-------------------------------------
-
-- No Remote Field Setup Guide released yet.
-
-.. comment
-   
-   .. only:: latex
-
-       `Remote Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf>`__
-
-   .. raw:: html
-
-       <iframe id="iframepdf" src="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/remote-field-requirements.pdf" width="100%" height="700"></iframe>
-
-   |
-
