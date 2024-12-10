@@ -1518,7 +1518,6 @@ Just click to expand the Tech Tip you'd like to read.
       Driver Hub damage! Some teams have designed their own 
       `custom <https://www.thingiverse.com/thing:3386378>`__
       `Driver <https://www.thingiverse.com/thing:5439041>`__
-      `Station <https://www.facebook.com/TeamWolfCorp/photos/a.1627476360819953/3028421417392100/?type=3>`__
       `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__, 
       be creative and have fun!  
 
