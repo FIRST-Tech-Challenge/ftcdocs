@@ -668,7 +668,7 @@ Just click to expand the Tech Tip you'd like to read.
         - 4.0 A
         - 4.49 W
         - $52.95
-      * - `HiTec HS-805BB <https://hitecrcd.com/products/servos/analog/giant-analog/hs-805bb/product>`__
+      * - `HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__
         - 0.14 s/60°
         - 24.7 kg-cm
         - 6.0 A
@@ -1305,7 +1305,7 @@ Just click to expand the Tech Tip you'd like to read.
    implemented. Only FIRST staff and Tech Team members have access to the
    development source. Are you interested in joining the FIRST Tech Challenge
    Tech Team? Let us know by filling out `this survey
-   <https://forms.microsoft.com/r/W9gxDvsDsj>`__!
+   <https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__!
 
 .. dropdown:: Week of 02/19/2024 "Robot Wi-Fi Link Speed"
 

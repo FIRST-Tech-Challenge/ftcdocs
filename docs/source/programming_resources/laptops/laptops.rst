@@ -267,7 +267,7 @@ recommendations for all hardware platforms, such as:
 
 A laptop designed for high graphics performance containing a high-end
 processor, like a `Dell
-G16 <https://www.dell.com/en-us/shop/gaming-laptops-pcs-and-accessories/g16-gaming-laptop/spd/g-series-16-7630-laptop/useghbts7630gghn>`__
+G16 <https://www.dell.com/en-us/shop/dell-laptops/g16-gaming-laptop/spd/g-series-16-7630-laptop>`__
 or `HP
 Omen <https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__,
 with the following recommended specs:
@@ -294,7 +294,7 @@ with the following recommended specs:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A standard Windows laptop, like a `Dell Inspiron
-15 <https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-laptop/spd/inspiron-15-3520-laptop/nn3520ghjns>`__
+15 <https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__
 or `HP Pavilion
 Laptop <https://www.hp.com/us-en/shop/pdp/hp-pavilion-laptop-15z-eh300-794p5av-1>`__,
 designed for smooth performance and everyday tasks,
@@ -322,7 +322,7 @@ designed for smooth performance and everyday tasks,
 
 A standard MacOS laptop, like a `MacBook
 Air <https://www.apple.com/shop/buy-mac/macbook-air>`__ or `MacBook
-Pro <https://www.apple.com/shop/buy-mac/macbook-pro/13-inch>`__,
+Pro <https://www.apple.com/shop/buy-mac/macbook-pro>`__,
 designed for smooth performance and everyday tasks.
 
 -  Processor: Apple M1 or better, Apple M2 preferred
