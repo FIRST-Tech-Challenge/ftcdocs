@@ -275,6 +275,10 @@ linkcheck_request_headers = {
     },
 }
 
+linkcheck_allowed_redirects = [
+    r'https://ftc-docs\.firstinspires\.org/.*': r'https://ftc-docs\.firstinspires\.org/en/latest/.*'
+]
+
 # Firstinspires redirects to login and break our link checker :)
 # ftc-ml.firstinspires.org does a redirect that linkcheck hates.
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
