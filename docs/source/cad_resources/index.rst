@@ -25,7 +25,7 @@ Here are a few tools commonly used by teams:
 Software for Beginners
 
 *  `Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (desktop)
-*  `FreeCAD <https://www.freecadweb.org/>`__ (free) (desktop)
+*  `FreeCAD <https://www.freecad.org/>`__ (free) (desktop)
 
 Software for Intermediate Users
 

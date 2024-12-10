@@ -34,7 +34,7 @@ information.
 
    .. image:: images/ftc-logo.png
       :height: 50px
-      :target: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf
+      :target: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/bom-storefront-options.pdf
       :alt: FIRST Tech Challenge Logo Onecolor
       :name: FIRST Tech Challenge Logo Onecolor
       :class: invert-img
@@ -51,7 +51,7 @@ information.
 
    **Promo Code**: N/A
 
-   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/kit-of-parts.pdf>`_
+   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/bom-storefront-options.pdf>`_
    for instructions on how to purchase discounted parts.
 
 

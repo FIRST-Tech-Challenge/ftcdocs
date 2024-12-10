@@ -512,7 +512,7 @@ Info* page when you navigate to address "192.168.43.1:8080":
 
 2. Verify that the PATH environment variable for your Windows
 computer includes the path to the adb.exe executable file. The
-`Android Developer website <https://developer.android.com/studio/command-line/adb>`__
+`Android Developer website <https://developer.android.com/tools/adb>`__
 tells you where in your Android SDK installation you can find the
 adb.exe file. This
 `post <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__

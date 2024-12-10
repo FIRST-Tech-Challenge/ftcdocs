@@ -287,11 +287,16 @@ linkcheck_ignore = [
    r'https://wiki.dfrobot.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
+   r'https://eduspace.3ds.com/',
+   r'https://www.dell.com/',
    r'https://april.eecs.umich.edu/',
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
+   r'http://192.168.43.1',
+   r'http://192.168.49.1',
+   r'https://javadoc.io/doc/org.firstinspires.ftc/',
 ]
 
 latex_documents = [

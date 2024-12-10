@@ -16,6 +16,6 @@ SOLIDWORKS® Training Videos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Learning content for both the cloud-based and desktop-based tools is managed
-through the `3DS online learning portal <https://edu.3ds.com/en/learn/eduspace>`__,
+through the `3DS online learning portal <https://eduspace.3ds.com/CompanionManager/public/#/>`__,
 which manages access through your 3DEXPERIENCE ID.
 

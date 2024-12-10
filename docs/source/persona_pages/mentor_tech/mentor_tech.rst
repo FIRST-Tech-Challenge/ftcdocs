@@ -45,18 +45,6 @@ Just click on the panel for the resource you want to explore!
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left
 
-      Programming Resources
-
-      ^^^
-
-      Look for Programming Resources for your team!
-
-   .. grid-item-card::
-      :link: http://firsttechchallenge.blogspot.com/2020/12/tips-for-your-teams-engineering.html
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
-
       Technical Writing Resources
 
       ^^^

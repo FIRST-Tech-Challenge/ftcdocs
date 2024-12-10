@@ -5,7 +5,7 @@ What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge teams can use `TensorFlow Lite
-<https://www.tensorflow.org/lite/>`__, a lightweight version of Google’s
+<https://ai.google.dev/edge/litert>`__, a lightweight version of Google’s
 `TensorFlow <https://www.tensorflow.org/>`__ machine learning technology that
 is designed to run on mobile devices such as an Android smartphone or the `REV
 Control Hub <https://www.revrobotics.com/rev-31-1595/>`__.  A *trained
@@ -408,7 +408,7 @@ First, it's important to note that TensorFlow has the following quirks/behaviors
 So what kinds of patterns are good for TensorFlow? Let's explore a few examples:
 
 1. Consider the shape of a `chess board Rook
-   <https://www.sciencephoto.com/media/640239/view/rook-chess-piece-illustration>`__.
+   <https://chess.fandom.com/wiki/Rook>`__.
    The Rook itself is mostly uniform all around, no matter how you rotate the
    object it more or less looks the same. Not much patterning there. However,
    the top of the Rook is very unique and patterned.  Exaggerating the

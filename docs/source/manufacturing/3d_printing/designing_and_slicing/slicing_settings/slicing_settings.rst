@@ -59,7 +59,7 @@ want to avoid support material by designing around it. But if not possible, it's
 control what areas you know need support. This makes cleanup after a print a lot easier. 
 
 If you want more info on supports, check out Prusa's guide `here!
-<https://help.prusa3d.com/en/article/support-material_1698>`_
+<https://help.prusa3d.com/article/support-material_1698>`_
 
 .. image:: images/prusa3dsupports.png
   :align: center

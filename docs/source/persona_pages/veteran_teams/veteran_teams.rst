@@ -65,7 +65,7 @@ resource you want to explore!
                TensorFlow in CENTERSTAGE
 
    .. grid-item-card::
-      :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources
+      :link: https://www.firstinspires.org/resource-library/ftc/team-management-resources
       :link-type: url
       :class-header: sd-bg-primary font-weight-bold sd-text-white
       :class-body: sd-text-left body
@@ -75,18 +75,6 @@ resource you want to explore!
       ^^^
 
       Links to marketing, community and industry outreach.
-
-   .. grid-item-card::
-      :link: http://firsttechchallenge.blogspot.com/2020/12/tips-for-your-teams-engineering.html
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
-
-      Engineering Notebook
-
-      ^^^
-
-      Examples and criteria for the engineering notebook and portfolio
 
    .. grid-item-card::
       :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf

@@ -24,7 +24,7 @@ computer vision technologies:
       field.
 
 2. TensorFlow Lite - `TensorFlow
-   Lite <https://www.tensorflow.org/lite/>`__ is a lightweight version
+   Lite <https://ai.google.dev/edge/litert>`__ is a lightweight version
    of Google’s `TensorFlow <https://www.tensorflow.org>`__ *machine
    learning* technology that is designed to run on mobile devices such
    as an Android smartphone.
