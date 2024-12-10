@@ -15,7 +15,7 @@ in the official field drawings. The base field stays the same for all games but 
 Traditional Field Setup Guide
 ------------------------------------
 
-This document can be found here: `Traditional Field Setup Guide <https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/field-assembly-and-setup-guide.pdf>`__
+This document can be found here: `Traditional Field Setup Guide <https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide>`__
 
 .. only:: html
 
