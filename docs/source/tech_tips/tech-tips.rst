@@ -11,8 +11,73 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
-.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
+.. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
    :open:
+
+   .. _ladybug1011:
+
+   **Android Studio 2024.2.1 LadyBug Update and the FTC SDK**
+
+   This is an important message for teams who use Android Studio to program
+   their robots. Teams who use Blocks or OnBot Java are not impacted.
+
+   On October 1, 2024 `Android Studio
+   <https://developer.android.com/studio/releases>`__ released a new version of
+   their software, 2024.2.1 codenamed “LadyBug”, which brought a major user
+   interface change as well as several other changes (bundled software and
+   tooling changes) that affects how Android Studio builds projects.
+   Unfortunately these tooling changes broke the native compatibility with the
+   *FIRST* Tech Challenge `Software Development Kit
+   (SDK) <https://ftc-docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html>`__,
+   most notably with the `FtcRobotController project
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.  *FIRST* Tech
+   Challenge teams who use Android Studio with software projects version 10.1
+   and older are not able to use Android Studio “LadyBug” without `performing
+   additional steps
+   <https://ftc-docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.html#configuring-android-studio-ladybug-and-later>`__
+   to restore compatibility.
+
+   Teams do not need to update Android Studio to “LadyBug” to continue building
+   current software, however if they do, a new version of the
+   `FtcRobotController project
+   (10.1.1) <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ has
+   been released which is designed to work with Android Studio “LadyBug.” Users
+   will be required to upgrade their Android Studio software minimally to
+   Android Studio 2024.2.1 “LadyBug” in order to use the 10.1.1 version of the
+   SDK and newer. There are no feature updates to SDK 10.1.1, it is merely a
+   compatibility update which updates the build tools used by the SDK -
+   including the underlying Gradle tools and the Android Gradle plugin - and
+   eliminates the need to perform any additional steps to use Android Studio
+   “LadyBug” and newer. It is expected that future updates of the SDK will
+   build upon this update, and will minimally require “LadyBug.” Teams who are
+   using older versions of Android Studio who upgrade to SDK 10.1.1 will
+   receive notifications within Android Studio to update the version of Android
+   Studio, which may require an internet connection to update.
+
+   Teams are encouraged to read the `Managing an Android Studio
+   Project <https://ftc-docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__
+   article on `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ for
+   tips on managing their projects using GitHub and the git version control
+   system. Teams managing software projects outside of GitHub and git may
+   re-download the project, reapply their changes, and copy over their TeamCode
+   folder. Teams who need technical assistance may use the `ftc-community
+   forums <https://ftc-community.firstinspires.org/>`__ to receive technical
+   help and advice.
+
+.. dropdown:: Week of 10/10/2024 "AprilTag Localization"
+
+   .. _apriltaglocalization:
+
+   **AprilTag Localization**
+
+   This week's Tech Tip is all about AprilTag Localization. How can your robot
+   determine where it is on the field by looking at an AprilTag? A new set of
+   APIs have been added to SDK 10.0 to provide just that information, and it
+   works for any static (immobile) AprilTag on the competition field. Check out
+   the `AprilTag Localization documentation on ftc-docs
+   <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_localization/apriltag-localization.html>`__!
+
+.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
 
    .. _googleAIstudio:
 
