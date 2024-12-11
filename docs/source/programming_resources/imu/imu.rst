@@ -195,8 +195,8 @@ pointing along the positive axis, the fingers curl in the direction of
    *Fun fact: the IMU is located approximately under the word “PROUD”, near the
    lower right corner of the Hub.*
 
-This tutorial will **not** discuss the *FIRST* Tech Challenge `Field Coordinate System
-<https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`__.
+This tutorial will **not** discuss the *FIRST* Tech Challenge 
+:ref:`Field Coordinate System <first field coordinate system>`.
 Your OpModes might relate robot orientation to the overall field or `‘global
 coordinates’
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__
