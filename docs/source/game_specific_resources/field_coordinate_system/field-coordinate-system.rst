@@ -1,3 +1,5 @@
+.. _first field coordinate system:
+
 *FIRST* Tech Challenge Field “Coordinate System" Definition
 ===========================================================
 
