@@ -159,6 +159,8 @@ re-open that OpMode to capture this updated configuration. Blocks are provided
 only for devices in the configuration that’s active*\  **upon opening**\  *an
 OpMode.*
 
+.. _imu axes def:
+
 Axes Definition
 ---------------
 
