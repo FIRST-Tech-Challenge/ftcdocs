@@ -4,6 +4,13 @@ Configuring your Android Devices
 What Needs to Be Configured for My Control System?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Driver Hub Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
+should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
+for instructions on how to set up and use the REV Robotics Driver Hub.
+
 Control Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -55,7 +62,7 @@ smartphone for use as an DRIVER STATION. The process is as follows,
 Renaming Your Smartphones
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The official rules of the *FIRST* Tech Challenge (see <RS01>) require that
+The official rules of the *FIRST* Tech Challenge (see R707) require that
 you change the Wi-Fi name of your smartphones to include your team
 number and "-RC" if the phone is a Robot Controller or "-DS" if it is a DRIVER STATION. A team can insert an additional dash and a letter ("A",
 "B", "C", etc.) if the team has more than one set of Android phones.
@@ -123,12 +130,20 @@ level, as described below.
    * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the Wi-Fi Direct inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
      - |rename8|
 
-   * - 9. After renaming phone, power cycle thedevice.
+   * - 9. After renaming your phone, power cycle the device.
      -
 
 
 Installing the *FIRST* Tech Challenge Apps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For detailed instructions on how to install and update apps, please see these
+other pages:
+
+:ref:`ROBOT CONTROLLER app <ftc_sdk/updating/rc_app/updating-the-rc-app:updating the robot controller (rc) app>`
+
+:ref:`DRIVER STATION app <ftc_sdk/updating/ds_app/updating-the-ds-app:updating the driver station app>`
+
 
 **As of 2021, the SDK apps (v 6.1 and higher) are no longer available on
 Google Play.**
@@ -146,8 +161,8 @@ Phones*). Here are some of the benefits:
 *  Install and switch between DS and RC applications on Android Devices.
 *  Access the Robot Control Console on the Control Hub.
 
-The app releases are also available on the `FTCRobotController
-Github
+The app releases are also available on the `FtcRobotController
+GitHub
 repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
 It is possible to "side-load" the apps onto the Robot Controller
 (RC) and Driver Station (DS) phones. However, this section of the document
@@ -203,7 +218,7 @@ follows:
    * - 3. Enter your pattern, PIN or password to enable the Developer options menu.
      -
 
-   * - 4. The "Developer options" menu will now appear in your Settings menu. Depending on your device, it may appear under Settings >General > Developer options.
+   * - 4. The "Developer options" menu will now appear in your Settings menu. Depending on your device, it may appear under Settings > General > Developer options.
      - |devop4|
 
    * - 5. To disable the Developer options at anytime, tap the switch.
@@ -298,7 +313,7 @@ task.
    * - 2. It takes approximately 18 seconds for the Control Hub to power on. The Control Hub is ready to pair with the Driver Station when the LED turns green. Note: the light blinks blue every ~5 seconds to indicate that the Control Hub is healthy.
      - |pairing2|
 
-   * - 3. On the Driver Station device, browse the available apps and locate the ** FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
+   * - 3. On the Driver Station device, browse the available apps and locate the **FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
      - |pairing3|
 
    * - 4. Touch the three vertical dots on the upper right hand corner of the main screen of the Driver Station app. This will launch a pop-up menu.
@@ -325,7 +340,7 @@ task.
    * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the Hub. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
      - |pairing11|
 
-   * - 12. After you successfully connected to the Hub, use the back arrow to navigate to theprevious screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
+   * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
      - |pairing12|
 
    * - 13. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Control Hub. The name of the Control Hub's WiFi network (FTC-1Ybr in this example) should be displayed in the Network field on the Driver Station.
