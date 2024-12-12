@@ -25,7 +25,7 @@ with SDK software:
 -  `Logitech C270 HD
    Webcam <https://www.logitech.com/en-us/products/webcams/c270-hd-webcam.960-000694.html>`__
 -  `Logitech C310 HD
-   Webcam <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.960-000585.html>`__
+   Webcam <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.html>`__
 -  `Logitech C920 HD
    Webcam <https://www.logitech.com/en-us/products/webcams/c920s-pro-hd-webcam.960-001257.html>`__
 
