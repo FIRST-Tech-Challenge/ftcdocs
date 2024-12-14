@@ -398,12 +398,22 @@ On the Driver Station, use the ``TeleOp`` dropdown list control to
 display the list of available op modes. Select your op mode
 ("MyFIRSTJavaOpMode") from the list.
 
+.. image:: images/OpModeSelectionDH.png
+   :align: center
+
+|
+
 .. image:: images/OnBotDoc_SelectMyFIRSTOpMode.jpg
    :align: center
 
 |
 
 Press the "INIT" button to initialize the op mode.
+
+.. image:: images/InitDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_MyFIRSTPushInit.jpg
    :align: center
@@ -415,6 +425,11 @@ the waitForStart statement. It will then wait until you press the start
 button (which is represented by the triangular shaped symbol) to
 continue.
 
+.. image:: images/RunDH.png
+   :align: center
+
+|
+
 .. image:: images/OnBotDoc_PressStart.jpg
    :align: center
 
@@ -423,6 +438,11 @@ continue.
 Once you press the start button, the op mode will continue to iterate
 and send the "Status: Running" message to the Driver Station. To stop
 the op mode, press the square-shaped stop button.
+
+.. image:: images/TelemetryDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_PressStop.jpg
    :align: center
@@ -505,17 +525,13 @@ Your op mode takes input from a gamepad and uses this input to control a
 DC motor. To run your op mode, you will need to connect a Logitech F310
 gamepad to the Driver Station.
 
-Before you connect your gamepad to the phone, verify that the switch on
-the bottom of the gamepad is set to the "X" (i.e., the "Xbox" mode)
-position.
+Connect the gamepad to the Driver Station using the Micro USB OTG
+adapter cable.
 
-.. image:: images/RunningOpModeStep1.jpg
+.. image:: images/GamepadDHConnection.jpg
    :align: center
 
 |
-
-Connect the gamepad to the Driver Station using the Micro USB OTG
-adapter cable.
 
 .. image:: images/RunningOpModeStep2.jpg
    :align: center
@@ -548,6 +564,11 @@ make sure you do not get anything caught in the turning motor. Note that
 the User #1 gamepad icon should highlight green each time you move the
 joystick. Also note that the target power and actual motor power values
 should be displayed in the telemetry area on the Driver Station.
+
+.. image:: images/TelemetryDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_RunOpModeDCMotor.jpg
    :align: center
