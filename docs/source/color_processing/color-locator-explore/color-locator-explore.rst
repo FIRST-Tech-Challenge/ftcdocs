@@ -38,7 +38,7 @@ pattern.  This includes adding the "Color Blob Locator" Processor to the
 VisionPortal.
 
 The FTC VisionPortal was introduced in 2023. More information is available
-on the `ftc-docs VisionPortal Page <https://ftc-docs.firstinspires.org/apriltag-sdk>`_.
+on the :ref:`ftc-docs VisionPortal Page <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`.
 
 Target Color Range
 ------------------

@@ -1,8 +1,10 @@
+.. _first field coordinate system:
+
 *FIRST* Tech Challenge Field Coordinate System Definition
 =========================================================
 
 .. meta::
-   :description: This document defines the Field Coordinate System which can be used to specify position on the playing field.
+   :description: This document defines the FIRST Tech Challenge Field Coordinate System which can be used to specify position on the playing field.
 
 Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions.
 The X and Y axes will refer to a position on the field and the Z axis a height above the field.
@@ -74,17 +76,15 @@ Rotation About Axes
 When considering rotations about an axis, consider yourself looking down the
 axis from the positive end towards the origin. Positive
 rotations are then counterclockwise and negative rotations clockwise.
-
-Imagine looking down the positive Z axis towards the origin.
-This would be like standing in the middle of the field
-looking down.
-A positive rotation about the Z axis would be counterclockwise.
-
    
 .. figure:: images/image1.jpg
-   :alt: X, Y and Z coordinate axes
+   :alt: X, Y and Z coordinate axes.
    
    Counterclockwise rotations about each axis
+   
+   Imagine looking down the positive Z axis towards the origin.
+   This would be like standing in the middle of the field looking down.
+   A positive rotation about the Z axis would be counterclockwise.
 
 Example: a robot spinning clockwise on the Field is making a negative rotation about the Z axis.
 
@@ -101,47 +101,43 @@ Below are two examples illustrating the Field Coordinate System for different
 Diamond Field
 ^^^^^^^^^^^^^
 
-In a diamond field configuration the two Alliance walls are adjacent.
-The field is rotated 45 degrees such that both Alliances face the audience.
-From the audience perspective the field forms a diamond shape.
-The Red Wall will be on the right as seen from the audience,
-and the blue wall will be on the left.
-The Y axis points across the field as seen from the Red Wall. 
-The X axis points to the blue wall.
-
-
-.. figure:: images/image2.jpg
-   :alt: A diamond field with X, Y and Z axes shown
+.. figure:: images/first-res-q-field.png
+   :alt: A diamond field with X, Y and Z axes shown.
    
-   The FIRST RES-Q game field   
+   The FIRST RES-Q game field
+   
+   In a diamond field configuration the two Alliance walls are adjacent.
+   The field is rotated 45 degrees such that both Alliances face the audience.
+   From the audience perspective the field forms a diamond shape.
+   The Red Wall will be on the right as seen from the audience.
+   The Y axis points across the field as seen from the Red Wall. 
+   The X axis points to the Blue Alliance.
    
 Square Field
 ^^^^^^^^^^^^
 
-In a square field configuration the two Alliances face each other across the field.
-The field is oriented such that the Red Wall is on the right as seen
-from the audience, and the blue wall will be on the left.
-The Y axis points across the field from the Red Wall to the blue wall.
-The X axis points away from the audience to the rear of the field.
+.. figure:: images/into-the-deep-field.png
+   :alt: A square field with X, Y and Z axes shown.
    
-.. figure:: images/image3.jpg
-   :alt: A square field with X, Y and Z axes shown
+   The Into The Deep game field
    
-   The Cascade Effect game field
+   In a square field configuration the two Alliances face each other across the field.
+   The field is oriented such that the Red Wall is on the right as seen from the audience.
+   The Y axis points across the field from the Red Wall towards the Blue Alliance.
+   The X axis points away from the audience to the rear of the field.
 
 Coordinate Position Example
 ---------------------------
 
-Let's consider a robot on the Cascade Effect field at coordinates 
-(60, -60, 10) in inches. So X = 60, y = -60, and Z = 10. 
-Measured in inches, the walls would be about 72 inches from the origin.
-Cascade Effect was a square field configuration, so
-the X axis value of positive 60 would be located close to the rear field wall, away from the audience.
-The Y axis value of negative 60 would be located close to the Red Wall, away from the origin.
-Together the X and Y values (60, -60) indicate a position in the corner of the field.
-That corner is adjacent to the Red Wall and furthest from the audience. 
-The Z axis value of 10 places the robot on top of the red
-ramp that is in that corner in the Cascade Effect game. 
+Let's consider the coordinates (0, -24, 26) in inches on the Into The Deep field, which is a square field.
+Given the order of coordinates then X = 0, Y = -24, and Z = 26. 
+
+The X axis value of 0 is located at the origin in the center of the field.
+The Y axis value of negative 24 would be located closer to the Red Wall, away from the origin by the width of one tile.
+This the center of the wall of the submersible structure on the red side of the field.
+
+The Z axis value of 26 indicates the coordinates refer to the center and top of the Red Alliance "high chamber"
+(which is the higher of the two red crossbars).
 
 Measured Values
 ---------------
