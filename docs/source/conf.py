@@ -30,7 +30,7 @@ extensions = [
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
     "sphinxext.rediraffe",
-#    "ftcdocs_linkcheckdiff",
+    "ftcdocs_linkcheckdiff",
 ]
 
 autosectionlabel_prefix_document = True
