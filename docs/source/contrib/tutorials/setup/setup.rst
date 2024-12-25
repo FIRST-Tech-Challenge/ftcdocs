@@ -3,13 +3,16 @@ Setting Up Your Development Environment
 
 :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
-.. warning:: 
+.. warning::
    Only complete these steps if you have chosen to develop the site locally. 
    If you are using **GitHub Codespaces** you should skip this section.
 
 FTC Docs has a few dependencies that you'll need to install before you can start developing. 
 Full build features are only available on Linux. This will only effect those who 
 are looking to build PDFs locally.
+
+Remember, this step should **ony be done for Local Development**. If you are using **GitHub Codespaces** 
+you should skip this step. Also note that these steps should only be done **once**.
 
 Steps
 -----

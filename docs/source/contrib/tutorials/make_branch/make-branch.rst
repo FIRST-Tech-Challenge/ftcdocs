@@ -5,16 +5,19 @@ Creating a New Branch
 What are branches and why do we need them?
 ------------------------------------------
 
-Branches are a way of creating separate versions of a given codebase. 
-This is useful in our case for maintaining a clean and stable version of FTC Docs 
-while also allowing for new features to be developed without affecting the main branch. 
-What this means is that your fork of the repository will have a copy of the main branch, 
-which you should keep as a copy of main branch on the main repository. Off of that branch 
-you will want to create a new branch for each new feature or bug fix that you want to work on. 
-Each branch will start off as a copy of your main branch, but you can make changes to it without 
-affecting the main branch. While it is possible to make changes to the main branch, it is not 
-recommended as it can prevent you from being able to work on multiple features at once. You should have 
-one branch for every Pull Request that you want to submit. 
+Branches can be thought of as parallel versions of a project. This is useful for 
+deveopment because it allows you to work on a feature or bug fix in an isolated 
+environment without affecting the main project. Once you've made the changes you 
+want to make, you can merge your branch back into the main branch to publish your 
+changes.
+In the case of the FTC Docs, the main branch of your fork should always be a copy 
+of the main branch of the main repository which serves as a reference point to create 
+new branches from. After we are satisfied with the changes we've made in our branch, we 
+will create a Pull Request to merge our changes back into the main branch of the 
+:term:`Main Repository <Main Repository>`. After the Pull Request is approved, the changes 
+will be merged into the main branch of the Main Repository and will be published to the 
+FTC Docs website. After the changes are merged, we will use the process described 
+in the :doc:`/contrib/tutorials/update_fork/update-fork`
 
 On the ``< > Code`` tab, we can see the Branch information below:
 

@@ -29,7 +29,12 @@ extensions = [
     'sphinxcontrib.googleanalytics',
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
+    'hoverxref.extension',
 ]
+
+# Options for HoverXRef extension
+
+hoverxref_roles = ['term']
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False

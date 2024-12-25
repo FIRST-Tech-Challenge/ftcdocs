@@ -2,6 +2,10 @@ Switching Branches
 ==================
 :bdg-success:`Repeat` :bdg-warning:`Local`
 
+.. warning::
+   Only complete these steps if you have chosen to develop the site locally. 
+   If you are using **GitHub Codespaces** you should skip this section.
+
 This step is necessary to change which branch you are working on. If you are working on a branch and want to switch to another branch, you can use the following command:
 
 .. code-block:: bash

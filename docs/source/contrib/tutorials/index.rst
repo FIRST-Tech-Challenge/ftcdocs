@@ -21,4 +21,5 @@ in FTC Docs.
     make_rst/index
     setup_credentials/setup-credentials
     make_pr/make-pr
+    glossary/glossary
 

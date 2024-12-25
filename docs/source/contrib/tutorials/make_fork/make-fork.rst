@@ -16,22 +16,24 @@ Steps
 .. figure:: images/ftcdocs-gh.png
    :alt: FTC Docs Repository
    :align: center
-   :width: 50%
+   :width: 100%
 
    The Official FTC Docs GitHub Repository
 
-2. Follow the steps outlined `here <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository>`_ to fork the repository.
+2. Follow the steps shown below to fork the repository.
 
 .. figure:: images/ftcdocs-create-fork.png
    :alt: Forking the Repository
    :align: center
-   :width: 50%
+   :width: 100%
    
    Click the "Create Fork" button to create a fork of the repository.
 
 .. figure:: images/ftcdocs-fork.png
    :alt: Forked Repository
    :align: center
-   :width: 50%
+   :width: 100%
 
    Forked Repository
+
+For more information on forking a repository, visit the `GitHub Documentation <https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_.

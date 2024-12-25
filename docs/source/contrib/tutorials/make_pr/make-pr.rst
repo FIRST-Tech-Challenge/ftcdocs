@@ -5,6 +5,10 @@ Submitting Your Changes for Review
 Workflows
 ---------
 
+The following diagram shows the workflow for submitting changes to the FTC Docs repository.
+For first time users of Git/GitHub, do not worry if this seems confusing. First focus 
+on understanding the steps and then the workflow will make more sense.
+
 Traditional Local Development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -50,18 +54,64 @@ Traditional Local Development
 
         FTCDocs_GitHub-->|Fork|Personal_FTCDocs_GitHub
 
+Overview
+--------
+
+Before getting started, it is important to understand what Git tries to accomplish. 
+As Git is an incredibly powerful(and complex) tool, this can be difficult and overwhelming. 
+This tutorial will attempt to simplify this by focusing on the most common use cases.
+
+What is Git?
+~~~~~~~~~~~~
+
+
+.. mermaid::
+
+    graph LR
+        working[Working Directory]
+        staging[Staging Area]
+        localrep[Local Repository]
+        user[Contributor]
+
+        working-->|git add|staging
+        staging-->|git commit|localrep
+        user-->|Changes|working
+
+**Simplified Local Git Repository Workflow**
+
+Git is a version control system (VCS) that allows you to track changes to your files within a repository.
+A repository is a collection of files that are being tracked by Git. You can think of a repository as a folder 
+that contains all of the files that you are working on. 
+
+However, Git does not track every change you make to a file.
+This is because it would be inefficient to track every change and often distracting. Instead Git tracks changes in 
+snapshots called commits. Each commit is a snapshot of the changes made to the files in the repository. A commit does 
+not contain the entire file but only the changes made to the file. This allows Git to be efficient and fast. You can 
+then think of each commit as a "Git save".
+
+Before you can commit your changes, we must indicate which files we want to be updated in the commit. 
+This is done by a process known as staging. Why don't we just commit all of the changes? Sometimes you may have 
+changes that you do not want to commit. For example, maybe you deleted a file that you did not mean to delete. 
+In addition, you may not want to commit build files or other temporary files that are not necessary for the repository.
+Note that we have configured Git to ignore build files so you do not have to worry about them.
+
+After you have staged and committed your changes, you can push them to the remote repository. This is the repository that you 
+see on GitHub. This allows others to see your changes and collaborate with you. You have full control over what changes you 
+want to push to the your :term:`fork <Fork>` of the :term:`main repository <Main Repository>`. In order for your changes to be reflected in the main FTC Docs 
+website you will need to add your changes to the main repository. This is done by creating a :term:`pull request <Pull Request>`.
+
 Steps
 ------
 
+.. note:: 
+    All of the following commands are typed and executed in the terminal. This can be found on the bottom 
+    of the screen in VS Code.
 
 Staging Your Changes
 ~~~~~~~~~~~~~~~~~~~~
 
-Just because you have saved your files does not mean that they are ready to be committed. You must first stage your changes. This is done by using the command ``git add`` followed by the file name. 
-If you want to stage all of your changes, you can use the command ``git add .``. 
-This will stage all of the changes in the current directory and its subdirectories. If you want to stage all of the changes in the repository, you can use the command ``git add -A``. 
-If you want to unstage a file, you can use the command ``git reset HEAD <file>``. Once a file is staged, it is ready to be committed. You can think of the staging area as a place to store changes that you want to commit. For 
-more information on the staging area, see `Git SCM <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>`_.
+As a reminder, staging is the process of indicating which files you want to be included in the next commit ("Git Save"). This 
+is done by using the command ``git add <file>``. You can add multiple files by separating them with a space.
 
 Committing Your Changes
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,10 +128,9 @@ This means it will be accessible to others. After this change is pushed, you can
 Creating a Pull Request
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have pushed your changes, you can create a pull request. A pull request is a collection of commits that are being requested to be merged back to the main repository. 
-This is done by going to the repository on GitHub and clicking the "New pull request" button. You will then be able to select the branch that you want to merge into the main branch. 
-Follow the instructions `here <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_ for 
-more information on creating a pull request. 
+Now that you have pushed your changes to your :term:`fork <Fork>` of the repository the next step is propose these changes to the :term:`main repository <Main Repository>`.
+Why dont we just push our changes to the main repository? This is because the pull request allows the maintainers of the main repository to review your changes before they are merged. 
+This is important as it allows comments and feedback to be given on your changes. For details on how to create a pull request, see the next section.
 
 Example
 -------
