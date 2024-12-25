@@ -102,7 +102,7 @@ Sample OpModes:
 
 More discussion of AprilTag pose data is available here:
 
-- https://ftc-docs.firstinspires.org/apriltag-detection-values
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 ====
 

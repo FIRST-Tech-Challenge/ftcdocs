@@ -65,7 +65,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/
+            .. button-link:: https://docs.revrobotics.com/ftc-kickoff-concepts/
                :color: black
                :outline:
                :expand:

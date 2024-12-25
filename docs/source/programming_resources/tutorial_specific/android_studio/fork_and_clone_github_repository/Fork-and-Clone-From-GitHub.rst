@@ -2,7 +2,7 @@ Fork and Clone from GitHub :bdg-success:`AS`
 ============================================
 
 .. important:: 
-   This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/quickstart/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
+   This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
    things related to git there are many different ways to satisfy any
    objective.  This documentation describes one method for Windows users.
    Users not comfortable with command line tools and git should obtain the SDK
@@ -12,26 +12,26 @@ Fork and Clone from GitHub :bdg-success:`AS`
 Forks vs. Clones 
 ----------------
 
-A `Fork <https://docs.github.com/en/get-started/quickstart/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/quickstart/github-glossary#repository>`_ on GitHub from one account
+A `Fork <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_ on GitHub from one account
 to another account. The new forked repository retains a parent-child
-relationship with the `origin <https://docs.github.com/en/get-started/quickstart/github-glossary#origin>`_ repository. Forks are typically used when software
+relationship with the `origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ repository. Forks are typically used when software
 will have an independent line of development, such as when FTC teams develop
 their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
 repository as a basis.  FTC teams should create a Fork of the
 `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
 manage their software development process. Thanks to the parent-child
 relationship, when changes are made to the parent repository those changes can
-be easily tracked and `fetched <https://docs.github.com/en/get-started/quickstart/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/quickstart/github-glossary#merge>`_ into the forked repository, keeping the
+be easily tracked and `fetched <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_ into the forked repository, keeping the
 forked repository up to date.
 
 .. warning:: 
-   Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/quickstart/github-glossary#upstream>`_ parent, the
+   Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`_ parent, the
    FIRST-Tech-Challenge/FtcRobotContoller repository. Forks of the
    FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
    should never attempt to push changes up to the repo.
 
-A `Clone <https://docs.github.com/en/get-started/quickstart/github-glossary#clone>`_ is a copy of a repository, typically on a local computer. A team
-member creates a `feature branch <https://docs.github.com/en/get-started/quickstart/github-glossary#clone>`_ of the team's repository for feature development, and
+A `Clone <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_ is a copy of a repository, typically on a local computer. A team
+member creates a `feature branch <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_ of the team's repository for feature development, and
 clones the branch to a local computer. Software development and testing then
 happens completely within their local clone. Once they're finished, or they've
 reached a checkpoint, the changes within the local clone can then be pushed
@@ -51,10 +51,10 @@ team. Multiple different developers can work seamlessly using this process.
 Branch Strategies 
 -----------------
 
-A `branch <https://docs.github.com/en/get-started/quickstart/github-glossary#branch>`_ is a series of `commits <https://docs.github.com/en/get-started/quickstart/github-glossary#commit>`_ that are independent of any other lines of development
+A `branch <https://docs.github.com/en/get-started/learning-about-github/github-glossary#branch>`_ is a series of `commits <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`_ that are independent of any other lines of development
 and is typically used to develop new features for the repository. The default branch for the
-FtcRobotController repository, and its forks and clones, is `master <https://docs.github.com/en/get-started/quickstart/github-glossary#master>`_ (though for all newer
-repositories created by GitHub the default branch is called `main <https://docs.github.com/en/get-started/quickstart/github-glossary#main>`_).  Using
+FtcRobotController repository, and its forks and clones, is `master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`_ (though for all newer
+repositories created by GitHub the default branch is called `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`_).  Using
 branches judiciously can help developers collaborate on a common set of
 software by isolating changes, keeping the default branch clean, and providing
 space for feature development to iterate independent of software that's been
@@ -67,11 +67,11 @@ deemed 'production ready'.
    A single branch with the default name of master
 
 Each circle represents a commit to a branch. The name of the branch always points to the most recent
-commit, also known as the `HEAD <https://docs.github.com/en/get-started/quickstart/github-glossary#head>`_.  While there may be many branches there is only one HEAD and it always,
-unless it is in a `detached state <https://www.git-scm.com/docs/git-checkout#_detached_head>`_, points to the
+commit, also known as the `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`_.  While there may be many branches there is only one HEAD and it always,
+unless it is in a `detached state <https://git-scm.com/docs/git-checkout#_detached_head>`_, points to the
 latest commit of the currently checked out branch.  All other commits point to their immediate parent.
 
-A commit is a `snapshot <https://docs.github.com/en/get-started/quickstart/github-glossary#snapshot>`_ of the entire workspace at a point in time.  Git does not store `diffs <https://docs.github.com/en/get-started/quickstart/github-glossary#diff>`_.  If you make a change to a file, and
+A commit is a `snapshot <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`_ of the entire workspace at a point in time.  Git does not store `diffs <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`_.  If you make a change to a file, and
 create a new commit with the changed file, it stores the entire changed file in the commit.  To avoid unnecessary
 duplication of files, if your repository consists of three files - one changed and the other two were unchanged - then the
 snapshot merely points back to the unchanged files rather than containing unchanged data.

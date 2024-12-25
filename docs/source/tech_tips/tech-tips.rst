@@ -11,8 +11,237 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
+.. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
+   :open:
+
+   .. _ladybug1011:
+
+   **Android Studio 2024.2.1 LadyBug Update and the FTC SDK**
+
+   This is an important message for teams who use Android Studio to program
+   their robots. Teams who use Blocks or OnBot Java are not impacted.
+
+   On October 1, 2024 `Android Studio
+   <https://developer.android.com/studio/releases>`__ released a new version of
+   their software, 2024.2.1 codenamed “LadyBug”, which brought a major user
+   interface change as well as several other changes (bundled software and
+   tooling changes) that affects how Android Studio builds projects.
+   Unfortunately these tooling changes broke the native compatibility with the
+   *FIRST* Tech Challenge `Software Development Kit
+   (SDK) <https://ftc-docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html>`__,
+   most notably with the `FtcRobotController project
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.  *FIRST* Tech
+   Challenge teams who use Android Studio with software projects version 10.1
+   and older are not able to use Android Studio “LadyBug” without `performing
+   additional steps
+   <https://ftc-docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.html#configuring-android-studio-ladybug-and-later>`__
+   to restore compatibility.
+
+   Teams do not need to update Android Studio to “LadyBug” to continue building
+   current software, however if they do, a new version of the
+   `FtcRobotController project
+   (10.1.1) <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ has
+   been released which is designed to work with Android Studio “LadyBug.” Users
+   will be required to upgrade their Android Studio software minimally to
+   Android Studio 2024.2.1 “LadyBug” in order to use the 10.1.1 version of the
+   SDK and newer. There are no feature updates to SDK 10.1.1, it is merely a
+   compatibility update which updates the build tools used by the SDK -
+   including the underlying Gradle tools and the Android Gradle plugin - and
+   eliminates the need to perform any additional steps to use Android Studio
+   “LadyBug” and newer. It is expected that future updates of the SDK will
+   build upon this update, and will minimally require “LadyBug.” Teams who are
+   using older versions of Android Studio who upgrade to SDK 10.1.1 will
+   receive notifications within Android Studio to update the version of Android
+   Studio, which may require an internet connection to update.
+
+   Teams are encouraged to read the `Managing an Android Studio
+   Project <https://ftc-docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__
+   article on `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ for
+   tips on managing their projects using GitHub and the git version control
+   system. Teams managing software projects outside of GitHub and git may
+   re-download the project, reapply their changes, and copy over their TeamCode
+   folder. Teams who need technical assistance may use the `ftc-community
+   forums <https://ftc-community.firstinspires.org/>`__ to receive technical
+   help and advice.
+
+.. dropdown:: Week of 10/10/2024 "AprilTag Localization"
+
+   .. _apriltaglocalization:
+
+   **AprilTag Localization**
+
+   This week's Tech Tip is all about AprilTag Localization. How can your robot
+   determine where it is on the field by looking at an AprilTag? A new set of
+   APIs have been added to SDK 10.0 to provide just that information, and it
+   works for any static (immobile) AprilTag on the competition field. Check out
+   the `AprilTag Localization documentation on ftc-docs
+   <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_localization/apriltag-localization.html>`__!
+
+.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
+
+   .. _googleAIstudio:
+
+   **AI Innovation Corner - Google AI Studio**
+
+   This week’s Tech Tip of the Week launches a new initiative in *FIRST* Tech 
+   Challenge, an AI Innovation Corner. Generative AI has taken the world by 
+   storm, becoming commonplace now in everything from personal assistants, 
+   search engines, recipe curation, music innovation, and vehicle maintenance! 
+   Machine Learning AI has been a part of *FIRST* Tech Challenge in some way for 
+   the past six years, and we’re now transitioning to help teams learn how to 
+   use and incorporate Generative AI in their *FIRST* Tech Challenge experience 
+   (while we’re learning ourselves!).
+
+   The first step (or *FIRST* step?) to getting the most out of AI is choosing a 
+   model. What do I mean by model? Every AI is a neural network that has been 
+   trained with specific knowledge with the ability to do specific things based 
+   on that knowledge. Each version of this neural network is stored in a “model”. 
+   Each different company has different models available for different purposes, 
+   though most models are variations on their flagship model (Gemini from Google, 
+   ChatGPT 4-o from OpenAI, Claude from Anthropic, and so on). Each company has 
+   different web-based and API interfaces for interacting with their models, and 
+   everyone has their favorite. In *FIRST* Tech Challenge, the standard tool we use 
+   is `Google AI Studio <https://ai.google.dev/aistudio>`__ to interact with Gemini. 
+
+   Google AI Studio is free to use, but requires a Google account to access - 
+   virtually all models require a login or API token of some kind to use. Google 
+   AI Studio is our favorite for its list of examples (Prompt Gallery) and its 
+   easy to use interface to save prompt sessions and resume them later. With 
+   Google AI Studio, you also can select the specific model you want to use, and 
+   when available you can choose to use preview versions of up and coming models. 
+
+   Future AI articles will be released not under the “Tech Tip of the Week” headline 
+   but under the “AI Innovation Corner” headline. Keep an eye out for future AI tips 
+   via the Team Blast and `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ 
+   website!
+
+.. dropdown:: Week of 08/19/2024 "REV Driver Hub Batteries"
+
+   .. _driverhubbatteries:
+
+   **REV Driver Hub Batteries**
+
+   This week’s Tech Tip of the Week focuses on the REV Driver Hub. Sure, we
+   already did a pretty thorough deep dive on the REV Driver Hub in the
+   11/06/2023 Tech Tip "Driver Hub or Smartphone?", but we never really covered
+   the batteries used in the Driver Hub themselves - and, of course, this topic
+   was recently brought up in a team question. The question was, “Why aren’t
+   batteries for the REV Driver Hub interchangeable?”
+
+   Well, that wasn’t the actual question, as the team didn’t know the question
+   they SHOULD have been asking, but that was the root of the issue. The team
+   in question had purchased an extra REV Driver Hub battery, charged it, and
+   was using it as a spare. We’ve also heard anecdotes from teams who attended
+   events where FTAs would also purchase spare batteries (or pull batteries
+   from spare Driver Hubs)  and let teams with depleted batteries use their
+   charged batteries. However, in each case the teams noted that the spare
+   battery never lasted as long as their “regular” batteries, often
+   significantly shorter (half or less). The issue is actually not specific to
+   the REV Driver Hub, but in the batteries themselves.
+
+   I noticed the same thing a few years ago when I owned a smartphone that had
+   user-replaceable batteries. My phone battery stopped holding a charge, so I
+   bought a battery online to replace it. However, I noticed that the
+   replacement battery had a significantly lower “lifespan”, meaning it would
+   go from full charge to near-dead in a shorter period of time versus the
+   original battery. Over time the battery seemed to “last longer”, until after
+   about a dozen charge cycles it was very close to the original battery’s
+   performance. Did the battery get better, or did my phone adapt to the
+   battery?
+
+   What I didn’t know was that minor variances in how batteries are
+   manufactured, especially in lower-voltage Li-Ion batteries, can affect the
+   voltage stability of the battery as it depletes (how the voltage of a
+   battery changes as it’s used). In order to know how much battery power is
+   left, the device needs to know the “charged” voltage, the “depleted”
+   voltage, and generally needs to understand how the battery voltage changes
+   from one extreme to the other. Unfortunately this isn’t linear, and
+   differences in a battery’s specific internal resistance and other factors
+   will cause each battery to have different behavior (this occurs in all
+   batteries, but higher capacity batteries with low internal resistance tend
+   to show this difference less). The REV Driver Hub performs a
+   `calibration <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/driver-hub-troubleshooting/driver-hub-battery-troubleshooting#battery-calibration>`__
+   phase as it charges a battery, and stores the battery charge characteristics
+   - that helps it know how the battery should behave when it’s being depleted.
+   In this way the Driver Hub “learns” how to interpret the battery it’s
+   charging so that it can create an accurate charge profile for the battery
+   as it’s used by the device.
+
+   When a team replaces the primary battery with a spare, the Driver Hub
+   doesn’t necessarily know that this has happened, and can only apply the
+   stored discharge characteristics for the primary battery to the new battery.
+   Unfortunately this often leads to the device misinterpreting the battery and
+   shutting down before the battery has fully depleted, or thinking there’s
+   more battery left when there really isn’t. If the new battery is then
+   charged, the Driver Hub will calibrate to the new battery, and changing the
+   battery again will cause the Driver Hub to mischaracterize the original
+   battery if replaced.
+
+   It is highly recommended that all teams use an 
+   `external USB Battery Pack <https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y?th=1>`__
+   connected to the USB-C port on the Driver Hub to provide consistent power
+   (use USB-A to USB-C cables only). The battery pack will sustain your Driver
+   Hub and keep it from being additionally depleted by any high-power-drain
+   gamepads (such as the Sony DualShock and Sony DualSense gamepads) that your
+   team may be using.
+
+
+.. dropdown:: Week of 07/29/2024 "Servo Power Injectors"
+
+   .. _servopowerinjectors:
+
+   This week’s Tech Tip of the Week is intended to be a short treatise on Servo 
+   Power Injectors. Servo Power Injectors have been used in FIRST Tech Challenge
+   for several years now, but do you really understand what they are and how they 
+   work? What is a Servo Power Injector and how might servos behave differently 
+   when used with one?
+
+   A servo connection is a 3-wire combination that combines power, ground, and 
+   a signal. The actual command signal for the servo travels on the signal wire, 
+   and the power used to power the servo travels on the other two wires. A servo 
+   power injector is a device that removes the power provided by the servo controller 
+   (REV Control Hub or REV Expansion Hub for FTC) and provides a new, usually higher 
+   wattage power source. Both the REV Servo Power Module and Studica Servo Power Block 
+   replace the 5V/10W power provided by the REV Control/Expansion Hubs with a 6V power 
+   source with a higher maximum wattage. 
+
+   So what does higher voltage do for a servo? Servos operate on a power range; the 
+   more power they get, the faster and stronger they can become, up to a certain limit. 
+   Servos operating at 5V get a noticeable boost in speed and output power when used 
+   at 6V. The same servos may seem superhuman at higher voltages!
+
+   The downside of servo power injectors is that teams are now responsible for 
+   managing their own power usage. On the REV Control Hub, for instance, each servo 
+   port pair is limited in how much power it can draw (at least there’s a limit on 
+   how long it can draw high loads). When using a servo power injector, the pool of 
+   power for a servo is much larger and less restricted since it pulls its power 
+   directly from the robot battery - using power injectors means you could consume 
+   all of the power on the robot just from the servos alone! This will result in the 
+   robot power system browning out (resulting in loss of communications or loss of 
+   power to the control system) or even blowing the 20A battery fuse.
+
+   Using a servo power injector can also expose different behaviors in servos that 
+   were not present when using the REV Control/Expansion Hub directly. The biggest 
+   behavior is the “Lost Signal” behavior. When an OpMode ends, the REV 
+   Control/Expansion hubs stop the signal and also cut power to the servo ports - 
+   this leads to the servos “going limp” as they lose power. With a servo power 
+   injector, the servos never lose power, and so “lost signal” behaviors will often 
+   then take over which may cause the servo to move to a “default” position (which 
+   is virtually never advantageous for robots but definitely advantageous for R/C 
+   planes for example). The Axon MAX+ servo and several higher-power HiTec servos 
+   have this behavior, the Axon MAX+ behavior is at least configurable with a servo 
+   programmer.
+
+   Finally, when using a servo power injector it’s of VITAL importance that you 
+   cover unused ports with tape or other debris-limiting measures to protect the 
+   ports. It’s very easy to get metal swarf in open servo ports, and that metal 
+   can short out the power output pins - especially lower-cost power injectors 
+   cannot tell when they’re being used, or don’t have protections against short 
+   circuits, but they still have all output pins powered. This can quickly turn 
+   your servo power injector into an expensive paperweight when the power 
+   regulator overloads and burns out. 
+
 .. dropdown:: Week of 06/24/2024 "Calculating Motor and Servo Power"
-   :open: 
 
    .. _calculatepower:
 
@@ -103,6 +332,8 @@ Just click to expand the Tech Tip you'd like to read.
       slower motor or servo with the same load. It's all about getting the
       maximum mechanical power by operating the motor at the max power
       point.
+
+   .. _powercalculator:
 
    One of the most difficult parts of calculating Servo Mechanical Power is
    working with unit conversions, especially since servo manufacturers use lots
@@ -371,7 +602,7 @@ Just click to expand the Tech Tip you'd like to read.
         - Stall Current
         - Max Power
         - Cost ($USD)
-      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/TETRIX-MAX-Standard-Scale-Servo-Motor>`__
+      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/products/tetrix-max-standard-scale-servo-motor>`__
         - 0.18 s/60°
         - 6 kg-cm
         - 1.2 A
@@ -422,7 +653,7 @@ Just click to expand the Tech Tip you'd like to read.
       * - `Studica Multi-Mode Smart Servo <https://www.studica.com/studica-robotics-brand/multi-mode-smart-servo>`__
         - 62 RPM
         - 20 kg-cm
-        - ??
+        - 1.8 A
         - 3.18 W
         - $23.99
       * - `AndyMark am-4955 High Speed Servos <https://www.andymark.com/products/programmable-servos>`__
@@ -437,7 +668,7 @@ Just click to expand the Tech Tip you'd like to read.
         - 4.0 A
         - 4.49 W
         - $52.95
-      * - `HiTec HS-805BB <https://hitecrcd.com/products/servos/analog/giant-analog/hs-805bb/product>`__
+      * - `HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__
         - 0.14 s/60°
         - 24.7 kg-cm
         - 6.0 A
@@ -1074,7 +1305,7 @@ Just click to expand the Tech Tip you'd like to read.
    implemented. Only FIRST staff and Tech Team members have access to the
    development source. Are you interested in joining the FIRST Tech Challenge
    Tech Team? Let us know by filling out `this survey
-   <https://forms.microsoft.com/r/W9gxDvsDsj>`__!
+   <https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__!
 
 .. dropdown:: Week of 02/19/2024 "Robot Wi-Fi Link Speed"
 
@@ -1287,7 +1518,6 @@ Just click to expand the Tech Tip you'd like to read.
       Driver Hub damage! Some teams have designed their own 
       `custom <https://www.thingiverse.com/thing:3386378>`__
       `Driver <https://www.thingiverse.com/thing:5439041>`__
-      `Station <https://www.facebook.com/TeamWolfCorp/photos/a.1627476360819953/3028421417392100/?type=3>`__
       `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__, 
       be creative and have fun!  
 
@@ -1486,6 +1716,8 @@ Just click to expand the Tech Tip you'd like to read.
 .. dropdown:: Week of 11/06/2023 "Driver Hub or Smartphone?"
 
    .. _huborphone:
+
+   **REV Driver Hub or Smartphone?**
 
    This week's Tech Tip of the Week briefly discusses the pros and cons of 
    Smartphones versus the Driver Hub. Which one should you use? Are there 
@@ -1768,7 +2000,7 @@ Just click to expand the Tech Tip you'd like to read.
    League All-Star Volunteer. AJ gives a great synopsis on many of the key
    technical updates for the CENTERSTAGE presented by RTX season and some
    background on those changes. Watch his video on the *FIRST* Tech Challenge
-   YouTube Channel here: https://youtu.be/uOcVGwdhG3E.
+   YouTube Channel here: https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be.
 
 .. dropdown:: Week of 09/11/2023 "Updating the Robot Controller App"
 
@@ -1797,7 +2029,7 @@ Just click to expand the Tech Tip you'd like to read.
    of the batteries have different battery chargers and different recommended
    charging settings for the batteries. When charging the `TETRIX MAX 12-Volt
    battery
-   <https://www.pitsco.com/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
+   <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
    on the battery the manufacturer recommends charging at the 0.9A charge rate
    (the lowest setting on most selectable battery chargers) using the `Global
    NiMH battery pack charger

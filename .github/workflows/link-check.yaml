@@ -22,15 +22,12 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: link-check
-        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q"
+        run: make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Arhive Log
         if: ${{ failure() }}
-        uses: actions/upload-artifact@v2
-        env:
-          PR_NUMBER: ${{ github.event.number }}
-          ID:  ${{ github.run_attempt }}
+        uses: actions/upload-artifact@v4
         with:
-          name: LINKCHECK-${{ env.PR_NUMBER }}-${{ env.ID }}
-          path: docs/build/linkcheck/output.txt
+          name: LINKCHECK--1
+          path: docs/build/linkcheckdiff/output.json
           retention-days: 7

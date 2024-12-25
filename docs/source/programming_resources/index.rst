@@ -79,6 +79,7 @@ Topics for programming with AprilTags
    VisionPortal Overview <../apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Localization <../apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
 
 TensorFlow Programming
@@ -110,6 +111,23 @@ Learning more about using vision
    vision/vision_overview/vision-overview
    vision/webcam_controls/index
    Camera Calibration <vision/camera_calibration/camera-calibration>
+
+Camera Color Processing
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Learn more about using a simple webcam or smartphone camera to perform Color Processing
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../color_processing/index
+   ../color_processing/color-sensor/color-sensor
+   ../color_processing/color-blob-concepts/color-blob-concepts
+   ../color_processing/color-locator-discover/color-locator-discover
+   ../color_processing/color-locator-explore/color-locator-explore
+   ../color_processing/color-locator-challenge/color-locator-challenge
+   ../color_processing/color-spaces/color-spaces
 
 Advanced Topics
 ~~~~~~~~~~~~~~~~

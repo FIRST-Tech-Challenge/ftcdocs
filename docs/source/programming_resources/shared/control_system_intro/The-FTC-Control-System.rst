@@ -19,13 +19,13 @@ robot can complete, the more points a team will earn.
 
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
-Autonomous vs. Driver-Controlled
+AUTO vs. TELEOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A *FIRST* Tech Challenge match has an *autonomous* phase and a
-*driver-controlled* or *“tele-operated”* phase. In the autonomous phase
+A *FIRST* Tech Challenge match has an AUTO phase and a
+TELEOP phase. In the AUTO phase
 of a match the robot operates without any human input or control. In the
-driver-controlled phase, the robot can receive input from up to two
+TELEOP phase, the robot can receive input from up to two
 human drivers.
 
 Point-to-Point Control System
@@ -42,17 +42,16 @@ During a competition, each team has two Android devices.
 One Android device is mounted onto the robot and is called the *Robot
 Controller*. The Robot Controller acts as the “brains” of the robot. It
 does all of the thinking for the robot and tells the robot what to do.
-It consists of an Android device running an Robot Controller app.
+It consists of an Android device running a Robot Controller app.
 There are two hardware options currently being used: REV Robotics
 Expansion Hub or the REV Robotics Control Hub.
 
 A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the *Driver Station*.
-The Driver Station is sort of like a remote control that you might use
-to control your television. The Driver Station allows a team to
+gamepads connected. This second device is known as the DRIVER STATION.
+The DRIVER STATION is sort of like a remote control that you might use
+to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
-Controller and to issue commands to the Robot Controller. The Driver
-Station consists of an Android device running an Driver Station app.
+Controller and to issue commands to the Robot Controller. The DRIVER STATION consists of an Android device running an Driver Station app.
 
 REV Robotics Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,7 +102,7 @@ Controller and the I/O module.
 What’s an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-During a typical FIRST Tech Challenge match, a team’s robot has to
+During a typical *FIRST* Tech Challenge match, a team’s robot has to
 perform a variety of tasks in an effort to score points. For example, a
 team might want their robot to follow a white line on the competition
 floor and then score a game element (such as a ball) into a goal
