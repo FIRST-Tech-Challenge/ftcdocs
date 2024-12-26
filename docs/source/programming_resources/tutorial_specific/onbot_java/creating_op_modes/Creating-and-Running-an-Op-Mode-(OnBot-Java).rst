@@ -54,15 +54,15 @@ to the Robot Controller. This Windows laptop computer has a
 Javascript-enabled web browser installed that is used to access the 
 OnBot Java Programming Tool.
 
-.. image:: images/BlocksPicture2.jpg
+.. image:: images/BlocksPicture2b.jpg
    :align: center
 
 |
 
 Note that the process used to create and edit an op mode is identical if
-you are using a Control Hub as your Robot Controller.
+you are using an Android phone as your Robot Controller.
 
-.. image:: images/BlocksPicture2b.jpg
+.. image:: images/BlocksPicture2.jpg
    :align: center
 
 |
@@ -93,14 +93,14 @@ Creating Your First Op Mode Instructions
 Google Chrome) and find the web address that is displayed on the      
 Program & Manage screen of the Robot Controller. 
 
-.. image:: images/WritingFirstOpModeStep1a.jpg
+.. image:: images/WritingFirstOpModeStep1aControlHub.jpg
    :align: center
 
 |
 
 .. important:: Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080". Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49").
 
-.. image:: images/WritingFirstOpModeStep1aControlHub.jpg
+.. image:: images/WritingFirstOpModeStep1a.jpg
    :align: center
 
 |
@@ -464,12 +464,22 @@ Running Your Op Mode
 *  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the DRIVER STATION is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
 *  On the DRIVER STATION, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
 
+.. image:: images/OpModeSelectionDH.png
+   :align: center
+
+|
+
 .. image:: images/OnBotDoc_SelectMyFIRSTOpMode.jpg
    :align: center
 
 |
 
    Press the INIT button to initialize the op mode.
+
+.. image:: images/InitDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_MyFIRSTPushInit.jpg
    :align: center
@@ -481,6 +491,11 @@ the waitForStart statement. It will then wait until you press the start
 button (which is represented by the triangular shaped symbol) to
 continue.
 
+.. image:: images/RunDH.png
+   :align: center
+
+|
+
 .. image:: images/OnBotDoc_PressStart.jpg
    :align: center
 
@@ -489,6 +504,11 @@ continue.
 Once you press the start button, the op mode will continue to iterate
 and send the "Status: Running" message to the DRIVER STATION. To stop
 the op mode, press the square-shaped stop button.
+
+.. image:: images/TelemetryDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_PressStop.jpg
    :align: center
@@ -570,16 +590,14 @@ Running Your Op Mode with a Gamepad Connected
 *  Your op mode takes input from a gamepad and uses this input to control
    a DC motor. To run your op mode, you will need to connect a Logitech
    F310 gamepad to the DRIVER STATION.
-*  Before you connect your gamepad to the phone, verify that the switch
-   on the bottom of the gamepad is set to the "X" position.
 
-.. image:: images/RunningOpModeStep1.jpg
+Connect the gamepad to the DRIVER STATION. If using a phone, you will
+need a Micro USB OTG adapter cable.
+
+.. image:: images/GamepadDHConnection.jpg
    :align: center
 
 |
-
-Connect the gamepad to the DRIVER STATION using the Micro USB OTG
-adapter cable.
 
 .. image:: images/RunningOpModeStep2.jpg
    :align: center
@@ -615,6 +633,11 @@ make sure you do not get anything caught in the turning motor. Note that
 the User #1 gamepad icon should highlight green each time you move the
 joystick. Also note that the target power and actual motor power values
 should be displayed in the telemetry area on the DRIVER STATION.
+
+.. image:: images/TelemetryDH.png
+   :align: center
+
+|
 
 .. image:: images/OnBotDoc_RunOpModeDCMotor.jpg
    :align: center
