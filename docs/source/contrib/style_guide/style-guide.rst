@@ -196,11 +196,173 @@ Text
 Links
 -----
 
-.. attention:: talk about links in FTC Docs. In page links, links between docs, links to sections, etc. Links to labels??
+.. attention:: Probably want to discuss what to use a link text.
 
    Probably want to add how to improve the accessibility of links.
    Examples: warning if the link opens in a new tab, or will download a file, or goes to an external site.
 
+Effective link text:
+
+- Avoid link text such as “click here” or "learn more." These call-to-actions do not provide any relevant information to someone using a screen reader.
+- Links should be unique and describe where it takes you. If you have multiple links that look or sound similar (but point to different sections), use different words for each link.
+- Links to files (e.g. Microsoft Word, PDF, etc.) should also indicate the file type or destination within the link text.
+- Avoid linking long URLs. Longer, less intelligible URLs used as link text might be difficult to comprehend with assistive technology.
+- Links should be clear and concise. Avoid linking entire sentences or paragraphs.
+   
+Internal Links
+^^^^^^^^^^^^^^
+
+Internal Links will be auto-generated based on the ReStructuredText filename and section title.
+For example, here are several ways to link to sections and documents.
+
+- Use this format to reference a section of the same document: ```Images`_`` Note the single underscore. This renders to the link `Images`_ which is a section further down in this document.
+
+- Use this format to reference the top-level of a document. You can use relative paths ``:doc:`image-and-figure-details``` renders to :doc:`image-and-figure-details`. Or to use absolute paths, put a forward slash at the beginning of the path ``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams``` renders to :doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams`. Note that the link text rendered is the main section title of the target page regardless of the target filename.
+
+The general way to reference a section in another document is to add a label in front of the section in that other document.
+Note the leading underscore and trailing colon that surround the label. The label must be unique across all of FTC Docs. You can also reference a Figure with the label method.
+
+.. code:: rest
+
+   .. _imu axes def:
+   
+   Axes Definition
+   ---------------
+
+Then you reference the label by using ``:ref:`` and surrounding the label with back ticks as follows:
+
+.. code:: rest
+
+   partial sentence including :ref:`imu axes def`
+   
+   another reference to :ref:`IMU or robot axes <imu axes def>`
+
+The second ``:ref:`` shows a format that lets you specify the link text, otherwise the section heading is used for the link text. This looks like the following:
+
+.. list-table:: 
+
+   * - partial sentence including :ref:`imu axes def`
+     - This shows the section heading.
+   * - another reference to :ref:`IMU or robot axes <imu axes def>`
+     - This shows custom link text.
+
+When using ``:ref:`` or ``:doc:`` you may customize the displayed text by surrounding the actual link with angle brackets ``<>`` and adding the custom text between the first backtick ````` and the first angle bracket ``<``, leaving a space between the text and bracket. 
+For example ``:ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>``` renders to :ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>`.
+This is a link to the Robot Controller Overview section of the index in the rc_components folder.
+
+Links to Files
+^^^^^^^^^^^^^^
+   
+You can directly link to files such as a PDF, but that is an accessibility problem. 
+The issue is the context switch from web browsing to suddenly having to deal with a PDF that has probably opened in a new tab/window without any warning.
+FTC Docs contains quite a few links to PDFs that should be make more accessible.
+
+The recommended approach to linking to files is to include in the link a warning that the link is actually a file, the file type, and if possible the file size.
+Ideally that information is in text and included in the link text portion of the link so that a screen reader would read that information and let the user decide if they want to follow the link.
+
+Simple example of a link to a PDF.
+
+RST Code:
+
+.. code:: rest
+   
+   `Field Setup Guide (PDF, 4.5 MB) <https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide>`__
+
+Which looks like:
+
+.. list-table:: 
+
+   * - `Field Setup Guide (PDF, 4.5 MB) <https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide>`__
+
+Generally in FTC Docs we link to file to enable them to be downloaded for printing or offline viewing. 
+In that case, the user is downloading the file, which is an action, so a button is appropriate.
+Buttons are appropriate user interface components for user actions.
+Using a button as a link will visually distinguish a file link from a regular link.
+
+The following RST example show a sentence that precedes the button to give context.
+Then the button has text that indicates that clicking it will download a PDF, the size of the PDF, and that it will open in a new browser tab.
+
+.. code:: rest
+
+   Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
+   
+   .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+      :color: primary
+
+      Download PDF, 4.5 MB, will open in a new tab
+
+This looks like:
+
+.. list-table:: 
+
+   * - Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
+   
+       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+          :color: primary
+
+          Download PDF, 4.5 MB, will open in a new tab
+
+The preferred approach when linking to files is to create what is called a gateway page.
+The gateway page would describes the file, perhaps giving a summary of the content. 
+This lets the reader decide if it's worth taking the trouble to view or download the file.
+Ideally, all references to the file elsewhere on the website link to the gateway page which then links to the file. 
+
+External reference: https://www.nngroup.com/articles/gateway-pages-prevent-pdf-shock/
+
+Here's a gateway page example for the Field Setup Guide PDF.
+
+.. list-table:: 
+
+   * - The Field Setup Guide has the official instructions for assembling and setting up a *FIRST* Tech Challenge field.
+       Typically there are assembly instructions that build structures that then have setup instructions for placing on the field.
+       There are also teardown instructions that indicate how to take apart the field for storage or transport.
+
+       The guide typically has the following sections:
+
+       - A list of all tools required for assembly and setup, some tools are only for assembly or for setup.
+       - A list all the game elements and scoring elements with the quantity of each.
+       - Instructions for setup of the field perimeter and field tiles.
+       - Step by step instructions for assembling parts and setting them on the field.
+       - Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the Alliances, and sometimes for game areas.
+       - Most games have AprilTags placed around the field that can be used for robot navigation.
+       - Finally, there are teardown instructions that indicate how to take the field down for storage or transport.
+
+       Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
+
+       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+          :color: primary
+
+          Download PDF, 4.5 MB, will open in a new tab
+
+
+External Links
+^^^^^^^^^^^^^^
+
+.. attention:: We need to resolve the issue of opening external links in new tabs. For accessibilty reasons we should not open most links in new tabs. An exception might be links to files.
+
+   Too many of our links look like they should be internal, but actually take you outside of ftc-docs or to a file. Sometimes to the FIRST Inspires main site, but that is still outside ftc-docs. This is an accessibility issue related to unexpected context switching. Use of Gateway Pages in FTC Docs might help. 
+   
+   Example: the Persona Pages are bad for this. There are grid button links that sometimes take you to a ftc-docs page but often take you to another site with no warning. All Persona pages should link to ftc-docs pages, some of which might be Gateway Pages to the main FIRST site.
+
+You can refer to external links as follows:
+
+.. code:: rest
+
+   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+
+Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+
+It's probably better to include the destination of the link in the link text if outside ftc-docs.
+Which could look like: `Game and Season Materials (FIRST website) <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+
+More commonly an icon is used to indicate external links (usually a square with a little arrow going thru the upper right corner).
+That can be styled with CSS and a span is added with has text that is only for screen readers to say "external".
+See examples here: https://www.torontomu.ca/accessibility/guides-resources/design/links/
+
+.. attention:: FTC Docs uses Javascript to force external links to open in new tabs. We should stop that and instead use CSS to add the external icon and span.
+
+   We might continue to use the Javascript function to force file links to continue to open in a new tab if that's what we want.
+   
 Images
 ------
 
