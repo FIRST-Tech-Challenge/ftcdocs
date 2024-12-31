@@ -19,19 +19,14 @@ For example, the height of a basket into which a scoring element can be placed.
 The Competition Manual can be found on the
 `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
-The Game and Season Materials page also contains downloadable PDFs for the AprilTag images that can be printed and placed on the field.
-There is also a do it yourself (DIY) Resources section that include CAD models of the game and scoring elements and DIY field and perimeter build guides.
-
 Field Setup Guide
 -----------------
 
 The Field Setup Guide has the official instructions for assembling and setting up a *FIRST* Tech Challenge field.
+Typically there are assembly instructions that build structures that then have setup instructions for placing on the field.
 There are also teardown instructions that indicate how to take apart the field for storage or transport.
-Typically assembly instructions build structures, structures then have setup instructions for placing on the field.
-For example, you assemble a game element structure that can be setup on the field and the teardown
-instruction indicates how it can be removed from the field.
 
-A guide typically has the following sections:
+The guide typically has the following sections:
 
 - A list of all tools required for assembly and setup, some tools are only for assembly or for setup.
 - Lists all the game elements and scoring elements with the quantity of each.
@@ -41,15 +36,17 @@ A guide typically has the following sections:
 - Most games have AprilTags placed around the field that can be used for robot navigation.
 - Finally, there are teardown instructions that indicate how to take the field down for storage or transport.
 
-.. note:: The Field Setup Guide has instructions for assembling an official game set as purchased from AndyMark.
-   
-   A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
-   want official game elements but don't have room to setup a full field.
-
 Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
 .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
    :color: primary
 
    Download PDF, 4.5 MB, will open in a new tab
-    
+
+.. note:: The Field Setup Guide has instructions for assembling an official game set as purchased from AndyMark.
+   
+   A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
+   want official game elements but don't have room to setup a full field.
+
+The `Game and Season Materials page (FIRST website) <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains downloadable PDFs for the AprilTag images that can be printed and placed on the field.
+There is also a do it yourself (DIY) Resources section that include CAD models of the game and scoring elements and DIY field and perimeter build guides.
