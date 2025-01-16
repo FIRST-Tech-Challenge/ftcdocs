@@ -275,6 +275,10 @@ linkcheck_request_headers = {
     },
 }
 
+linkcheck_allowed_redirects = {
+    r'https://ftc-docs\.firstinspires\.org/.*': r'https://ftc-docs\.firstinspires\.org/en/latest/.*'
+}
+
 # Firstinspires redirects to login and break our link checker :)
 # ftc-ml.firstinspires.org does a redirect that linkcheck hates.
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
@@ -287,11 +291,16 @@ linkcheck_ignore = [
    r'https://wiki.dfrobot.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
+   r'https://eduspace.3ds.com/',
+   r'https://www.dell.com/',
    r'https://april.eecs.umich.edu/',
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
+   r'http://192.168.43.1',
+   r'http://192.168.49.1',
+   r'https://javadoc.io/doc/org.firstinspires.ftc/',
 ]
 
 latex_documents = [
@@ -351,6 +360,12 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+
+    analytics = {
+    'gtag': 'G-7B5F7THY9C'
+    }
+
+
     
 
 # Configure RTD Theme

@@ -5,7 +5,7 @@ Introduction
 ------------
 
 In the 2023-2024 season, `FIRST Tech Challenge has introduced
-AprilTags <https://ftc-docs.firstinspires.org/apriltag-intro>`__ into
+AprilTags <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__ into
 the season-unique competition. AprilTags were developed by the April
 Robotics Laboratory at the University of Michigan and are a visual
 fiducial tagging system, built on a similar concept as QR codes, useful
@@ -75,7 +75,7 @@ to verify that the page printed properly.
 For more in-depth information about AprilTag detection values, and
 better understanding what they mean, please visit the following website:
 
--  https://ftc-docs.firstinspires.org/apriltag-detection-values
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 - :download:`Download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`
 
 

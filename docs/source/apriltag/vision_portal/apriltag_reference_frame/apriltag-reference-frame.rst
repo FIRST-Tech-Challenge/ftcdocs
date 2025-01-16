@@ -96,7 +96,7 @@ Related Info
 
 More discussion of the AprilTag reference frame is available here:
 
-- https://ftc-docs.firstinspires.org/apriltag-detection-values
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 This section described the SDK's default AprilTag reference frame.  Teams are
 welcome to make other calculations, such as the pose of the camera (or robot)
