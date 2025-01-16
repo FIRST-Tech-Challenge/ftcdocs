@@ -157,19 +157,18 @@ div.ethical-sidebar, div.ethical-footer {
 }
 .document a:not(.sd-btn):visited  {
   color: #551A8B;
-  text-decoration-style: dotted;  /* many browsers don't support this */
+  text-decoration-style: dotted;  /* many browsers don't support decorations on visited link */
   text-decoration-color: #551A8B;
 }
 .document a:not(.sd-btn):focus {
-    outline: 2px solid #d71ef7;
+    outline: 1px solid #0000EE;;
 }
 .document a:not(.sd-btn):hover {  
-  font-weight: bold;
-  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.25em;
 }
 .document a:not(.sd-btn):active {  
-  text-decoration-line: underline overline;
-  color: #FF0000;
+  text-decoration-style: wavy;
 }
 /* handle dark mode links */
 html[data-theme='dark'] .document a:not(.sd-btn) { 
@@ -180,18 +179,45 @@ html[data-theme='dark'] .document a:not(.sd-btn) {
   text-underline-offset: 0.2em;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):visited {
-  color: #995BD5;
+  color: #995ECF;
   text-decoration-style: dotted;
-  text-decoration-color: #995BD5;
+  text-decoration-color: #995ECF;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):focus {
-    outline: 2px solid #d71ef7;
+    outline: 1px solid #249ee8;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):hover {  
-  font-weight: bold;
-  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.25em;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):active {  
-  color: #FF0000;
-  text-decoration-line: underline overline;
+  text-decoration-style: wavy;
 }
+/* Screen Reader - No Select class */
+.sr-only-no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.icon-external-link:before { /* This is the fa-external-link icon */
+    font-family: FontAwesome;
+    content: "\f08e";
+    margin-left: .2em;
+    text-decoration-line: none;
+}
+/* FIRST wordmark CSS */
+.wordmark {
+   font-family: Roboto, Arial, sans-serif;
+   font-style: italic;
+}
+.superscript {
+   vertical-align: super;
+}
+
