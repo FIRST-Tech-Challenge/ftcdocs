@@ -67,6 +67,9 @@ Also Supported:
 
    -  LEGO\ :sup:`®` Education SPIKE™ Essential not supported
 
+- 'Ubuntu'_
+   - Other Linux Distros might work but Ubuntu is recommended
+
 It is also recommended to have an active internet connection to access
 the Google Play Store (for Chromebook Android apps), to download in-app
 content, to access teacher support materials, and to use certain
@@ -124,6 +127,8 @@ Also Supported:
       supported
 
       -  Only Blocks and OnBotJava supported
+- 'Ubuntu'_
+   - Android Studio Ladybug 2024.2.1 Patch 3 supported for Ubuntu 24.04
 
 It is also recommended to have an active internet connection during
 software development. Access to https://github.com is required by the
@@ -375,3 +380,18 @@ or similar.
 -  Bluetooth: Bluetooth 4.0 or above
 
 -  Operating System: Android 7.0 or newer
+
+**Ubuntu**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Although there are very few standards,recommendations are for FTC:
+
+- Processor: 2.20 GHz Intel Core i5-5200u dual core processor or better
+
+- Memory: 6GB RAM or better (Lower can be accomodated with swap)
+
+- Storage: 256GB SSD or better
+
+- Bluetooth: Bluetooth 4.0 or above
+
+- Operating System: Ubuntu 24.04 recommended, although others may be community supported.
