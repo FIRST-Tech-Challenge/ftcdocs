@@ -41,12 +41,12 @@ Use the following button link to download a PDF of the Field Setup Guide from th
 .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
    :color: primary
 
-   Download PDF, 4.5 MB, will open in a new tab
+   Download PDF, 4.5 MB
 
 .. note:: The Field Setup Guide has instructions for assembling an official game set as purchased from AndyMark.
    
    A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
    want official game elements but don't have room to setup a full field.
 
-The `Game and Season Materials page (FIRST website) <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains downloadable PDFs for the AprilTag images that can be printed and placed on the field.
+The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains downloadable PDFs for the AprilTag images that can be printed and placed on the field.
 There is also a do it yourself (DIY) Resources section that include CAD models of the game and scoring elements and DIY field and perimeter build guides.
