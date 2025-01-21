@@ -129,17 +129,17 @@ Scrcpy
 To view the camera output from a computer while an OpMode is running, you
 can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this,
 you will first need to obtain an ADB connection with your Control Hub.
-This can be done by connecting a USB-A - USB-c cable to the USB-C port
+This can be done by connecting a USB-A - USB-C cable to the USB-C port
 on your Control Hub. If on Windows, you may also connect to your Control
 Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__.
-Once connected, use `these instruction <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__
+Once connected, use `these instructions <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__
 to install and run scrcpy on your computer.
 
 .. image:: images/webcamWithScrcpy.jpg
    :alt: The camera output viewed with scrcpy.
 
 **Important Note:** While scrcpy is a great way to view the camera output
-outside of competitions, the Competition Manual does now allow teams to
+outside of competitions, the Competition Manual does not allow teams to
 have any devices other than the DRIVER STATION connected to your Control
 Hub during a match. See rule R708 for the full details.
 

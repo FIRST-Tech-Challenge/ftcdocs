@@ -16,14 +16,14 @@ Control Hub Configuration
 
 .. note::
    References to the DRIVER STATION smartphone may instead apply to the
-   `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
+   `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
    which is preloaded with the Driver Station (DS) app.
 
 Teams who are using a Control Hub (which has an integrated Android Device)
 will only need to configure a single smartphone for use as a DRIVER STATION. The process is as follows:
 
 *  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station (DS) app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Driver Hub.)
+*  Install the Driver Station (DS) app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
 *  Put your phone into Airplane Mode (with the WiFi radio still on).
 *  Pair (i.e., wirelessly connect) the DRIVER STATION to the Control Hub.
 
@@ -32,7 +32,7 @@ will only need to configure a single smartphone for use as a DRIVER STATION. The
 
 |
 
-.. important:: Eventually the Control Hub will need be renamed so
+.. important:: Eventually the Control Hub will need to be renamed so
    that its name complies with the Competition Manual, but for now we will
    use the Control Hub with its default name. You can learn how to manage a
    Control Hub (and modify its name, password, etc.) in
@@ -48,7 +48,7 @@ smartphone for use as an DRIVER STATION. The process is as follows,
 *  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number).
 *  Install the Robot Controller app onto the Robot Controller phone.
 *  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Driver Hub.)
+*  Install the Driver Station app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
 *  Put your phones into Airplane Mode (with the WiFi radios still on).
 *  Pair (i.e., wirelessly connect) the DRIVER STATION to the Robot Controller.
 
@@ -149,12 +149,12 @@ other pages:
 Google Play.**
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software will allow you to download the apps to devices: REV Control
-Hub, REV Expansion Hub, REV Driver Hub, and other approved Android
+software will allow you to download the apps to devices: REV Robotics Control
+Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other approved Android
 devices (*see section below, called Updating Apps on Android
 Phones*). Here are some of the benefits:
 
-*  Connect to a REV Control Hub via WiFi.
+*  Connect to a REV Robotics Control Hub via WiFi.
 *  One Click update of all software on connected devices.
 *  Pre-download software updates without a connected device.
 *  Back up and restore user data from Control Hub.
@@ -170,8 +170,8 @@ does **not** include such instructions; other document pages describe
 side-loading the :ref:`RC app <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`
 and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>`.
 
-Updating Apps and Firmware on REV Devices (REV Expansion Hub, REV Control Hub, REV Driver Hub)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Updating Apps and Firmware on REV Robotics Devices (REV Robotics Expansion Hub, REV Robotics Control Hub, REV Robotics Driver Hub)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software is used to install and update apps, firmware and/or
@@ -179,8 +179,8 @@ operating systems on devices from REV Robotics. Simply connect the
 device via USB to your PC with the REV Hardware Client installed and
 running, and the software will detect connected hardware. After
 detection, the REV Hardware Client can then
-`update the Robot Controller (RC) app on a REV Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
-`update the Driver Station (DS) app on a REV Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
+`update the Robot Controller (RC) app on a REV Robotics Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
+`update the Driver Station (DS) app on a REV Robotics Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
 or
 `update firmware <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__.
 

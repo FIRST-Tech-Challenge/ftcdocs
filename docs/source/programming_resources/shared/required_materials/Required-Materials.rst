@@ -58,7 +58,7 @@ tutorials, you will need to have the following materials available:
    
    * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
        Alternately, the Competition Manual does allow teams to instead
-       us a select list of Android phones. See rule R901 for the full
+       use a select list of Android phones. See rule R901 for the full
        details.
      - |driverhub|
 

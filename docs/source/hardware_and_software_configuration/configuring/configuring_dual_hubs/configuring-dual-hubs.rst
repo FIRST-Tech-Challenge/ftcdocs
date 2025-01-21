@@ -46,7 +46,7 @@ need the following items:
    * - REV Robotics Control Hub (REV-31-1595).
      - .. figure:: images/controlHub.jpg
 
-   * - REV Robtics Expansion Hub (REV-31-1153).
+   * - REV Robotics Expansion Hub (REV-31-1153).
      - .. figure:: images/ExpansionHub.jpg
 
    * - REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack shown but only one needed).
@@ -100,9 +100,9 @@ and pressing the "Scan" button.
 Connect your Driver Hub to the Control Hub's WiFi network and select the
 Configure Robot option from the Driver Station app. Press the New button
 to create a new configuration file. When you first scan for hardware, your
-Robot Controller should detect the empedded Control Hub. The Robot Controller
+Robot Controller should detect the embedded Control Hub. The Robot Controller
 will automatically label this device as an Control Hub “Portal”. The Robot
-Controller will talk through this portal to the individual Hubs.
+Controller will communicate through this portal to the individual Hubs.
 
 <INSERT IMAGE>
 
@@ -113,7 +113,8 @@ see both the Control Hub and the Expansion Hub listed.
 
 You can save this configuration file and return to the main screen of
 the Driver Station. After the robot has been restarted, both Hubs should
-have a solid green LED that blinks blue every ~5 seconds.
+have a solid green LED. On the Expansion Hub, the LED should blink blue
+every ~5 seconds.
 
 Congratulations, you are now ready to use your combination of Control and
 Expansion Hubs! You can configure and operate these Hubs as you would an
@@ -123,8 +124,7 @@ Using Two Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Teams without access to a Control Hub may use two Expansion Hubs on
-their robot. This is not recommended as it creates extra steps in
-order to control the robot.
+their robot.
 
 Additional Equipment Needed
 ---------------------------
@@ -151,7 +151,7 @@ using a Control Hub on their robot.
    * - Micro USB OTG adapter.
      - .. figure:: images/OTGAdapter.jpg
   
-   * - An additional REV Robtics Expansion Hub (REV-31-1153).
+   * - An additional REV Robotics Expansion Hub (REV-31-1153).
      - .. figure:: images/ExpansionHub.jpg
 
 Changing the Address of an Expansion Hub
@@ -257,7 +257,7 @@ file. When you first scan for hardware, your Robot Controller should
 detect the Expansion Hub that is immediately connected to the Robot
 Controller via the OTG adapter and USB cable. The Robot Controller will
 automatically label this device as an Expansion Hub “Portal”. The Robot
-Controller will talk through this portal to the individual Expansion
+Controller will controller through this portal to the individual Expansion
 Hubs.
 
 .. figure:: images/ExpansionHubPortal.jpg

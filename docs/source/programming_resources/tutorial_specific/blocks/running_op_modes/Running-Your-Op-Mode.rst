@@ -1,7 +1,7 @@
 Running Your OpMode (All Languages)
 -----------------------------------
 
-If your op mode requires input from a gamepad, then you will need to
+If your OpMode requires input from a gamepad, then you will need to
 connect a Logitech F310 gamepad to the DRIVER STATION. Note that you can
 have up to two gamepads connected to a DRIVER STATION. If using a phone,
 this will require a USB hub. However, in this example, we will only have
@@ -9,7 +9,7 @@ a solitary gamepad connected.
 
 Note that you will need an estimated 10 minutes to complete this task.
 
-Running Your Op Mode Instructions
+Running Your OpMode Instructions
 ---------------------------------
 
 1. Connect the gamepad to the DRIVER STATION. If using a phone, you will
@@ -25,7 +25,7 @@ need a Micro USB OTG adapter cable.
 
 |
 
-2. For the examples in this wiki, the op modes are looking for input  
+2. For the examples in this wiki, the OpModes are looking for input  
 from the gamepad designated as the user or driver #1. Press the Start 
 button and the A button simultaneously on the Logitech F310          
 controller to designate your gamepad as user #1.                      
@@ -38,9 +38,9 @@ controller to designate your gamepad as user #1.
    Note that pushing the Start button and the B button simultaneously would designate the gamepad as user #2.
 
 3. On the DRIVER STATION screen, touch the triangular-shaped,         
-"TeleOp" dropdown list button to display a list available op modes.   
-You should see your recently saved op mode among the list of          
-available op modes that reside on your Robot Controller.              
+"TeleOp" dropdown list button to display a list available OpModes.   
+You should see your recently saved OpMode among the list of          
+available OpModes that reside on your Robot Controller.              
 
 .. image:: images/TeleopRunDH.png
    :align: center
@@ -52,9 +52,9 @@ available op modes that reside on your Robot Controller.
 
 |
 
-   Note that the word "TeleOp" is short for "Tele-Operated" and it implies a driver controlled op mode (i.e., an op mode that gets input from a human driver).
+   Note that the word "TeleOp" is short for "Tele-Operated" and it implies a driver controlled OpMode (i.e., an OpMode that gets input from a human driver).
 
-4. Select "MyFIRSTOpMode" to load your op mode on the Robot           
+4. Select "MyFIRSTOpMode" to load your OpMode on the Robot           
 Controller.                                                           
 
 .. image:: images/OpModeSelectionDH.png
@@ -67,9 +67,9 @@ Controller.
 
 |
 
-   Note that even though you are using the DRIVER STATION to select the op mode, the actual op mode instructions will be executed on the Robot Controller phone.
+   Note that even though you are using the DRIVER STATION to select the OpMode, the actual OpMode instructions will be executed on the Robot Controller.
 
-5. Press the INIT button to initialize your op mode.                  
+1. Press the INIT button to initialize your OpMode.                  
 
 .. image:: images/InitDH.png
    :align: center
@@ -82,7 +82,7 @@ Controller.
 |
 
 6. Push the Start button (designated by the triangular-shaped symbol) 
-to start the op mode run.                                             
+to start the OpMode run.                                             
 
 .. image:: images/RunDH.png
    :align: center
@@ -109,5 +109,5 @@ right hand corner of the screen.
 
 |
 
-   If you want to stop your op mode, press the square-shaped Stop button on the DRIVER STATION.
+   If you want to stop your OpMode, press the square-shaped Stop button on the DRIVER STATION.
 
