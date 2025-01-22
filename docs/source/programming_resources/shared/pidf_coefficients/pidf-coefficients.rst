@@ -32,9 +32,7 @@ to save data from your app onto an Android device
     * Created by Tom on 9/26/17.  Updated 9/24/2021 for PIDF.
     * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller.  This OpMode uses the extended/enhanced
-    * PIDF-related functions of the DcMotorEx class.  The REV Robotics Control Hub or REV Robotics Expansion Hub
-    * supports the extended motor functions, but other controllers (such as the 
-    * deprecated Modern Robotics and Hitechnic DC Motor Controllers) do not.
+    * PIDF-related functions of the DcMotorEx class. 
     */
 
    @Autonomous(name="Concept: Change PIDF", group = "Concept")
@@ -102,9 +100,6 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
     * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller.  This OpMode uses the extended/enhanced
     * PIDF-related functions of the DcMotorControllerEx class.
-    * The REV Robotics Control Hub or REV Robotics Expansion Hub supports the extended motor controller
-    * functions, but other controllers (such as the deprecated Modern Robotics
-    * and Hitechnic DC Motor Controllers) do not.
     */
 
    @Autonomous(name="Concept: Change PIDF Controller", group = "Concept")
@@ -156,8 +151,5 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
        }
    }
 
-Note 1: As of SDK 7.0, the former PID-only methods are still
+Note: As of SDK 7.0, the former PID-only methods are still
 available, but deprecated.
-
-Note 2: the deprecated Modern Robotics and Hitechnic DC motor
-controllers do not support adjustable PID or PIDF coefficients.

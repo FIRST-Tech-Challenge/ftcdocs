@@ -3,9 +3,7 @@ Changing PID Coefficients
 
 The REV Robotics Control Hub and REV Robotics Expansion Hub allow a user to change the PID
 coefficients used for closed loop motor control. The PID coefficients
-are channel and mode specific. Note that the Modern Robotics and
-Hitechnic DC motor controllers do not support adjustable PID
-coefficients.
+are channel and mode specific.
 
 The following op mode uses an extended or enhanced DcMotor class (called
 “DcMotorEx”) to change the PID coefficients for the RUN_USING_ENCODER
@@ -34,9 +32,7 @@ has a tutorial on how to save data from your app onto an Android device
     * Created by tom on 9/26/17.
     * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller.  This op mode uses the extended/enhanced
-    * PID-related functions of the DcMotorEx class.  The REV Robotics Control Hub or REV Robotics Expansion Hub
-    * supports the extended motor functions, but other controllers (such as the 
-    * Modern Robotics and Hitechnic DC Motor Controllers) do not.
+    * PID-related functions of the DcMotorEx class.
     */
 
    @Autonomous(name="Concept: Change PID", group = "Concept")
@@ -100,10 +96,7 @@ methods of the DcMotorControllerEx class:
     * Created by tom on 9/26/17.
     * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller. This op mode uses the extended/enhanced
-    * PID-related functions of the DcMotorControllerEx class.  
-    * The REV Robotics Control Hub or REV Robotics Expansion Hub supports the extended motor controller
-    * functions, but other controllers (such as the Modern Robotics and 
-    * Hitechnic DC Motor Controllers) do not.
+    * PID-related functions of the DcMotorControllerEx class.
     */
 
    @Autonomous(name="Concept: Change PID Controller", group = "Examples")
