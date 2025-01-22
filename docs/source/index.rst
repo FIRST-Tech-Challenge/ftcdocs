@@ -94,6 +94,13 @@ to see why.
 
    Computer Aided Design (CAD) <cad_resources/index>
 
+.. toctree:: 
+   :caption: Electrostatic Discharge
+   :maxdepth: 1
+   :hidden:
+
+   Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+
 .. toctree::
    :caption: Manufacturing
    :maxdepth: 1

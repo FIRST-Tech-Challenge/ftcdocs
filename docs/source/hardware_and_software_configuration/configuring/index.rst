@@ -15,5 +15,4 @@ such that you may use them in your own projects.
    configuring_external_webcam/configuring-external-webcam
    configuring_uvc_camera/configuring-uvc-camera
    configuring_dual_hubs/configuring-dual-hubs
-   managing_esd/managing-esd
    saving_config/saving-config
