@@ -1,4 +1,6 @@
 :orphan:
+.. meta::
+   :robots: noindex, nofollow
 
 .. only:: latex
 
