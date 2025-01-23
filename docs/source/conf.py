@@ -321,6 +321,7 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
         ('robot_building/rev/PowerPlay/part1/index', "rob_building_rev_p1.tex", 'Part 1 - Basic \'Bot Guide for REV', author, "manual"), # REV Bot Building Power Play P1
         ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
+        ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managind Electrostatic Discharge', author, "manual"), # ESD
     ]
         
 
