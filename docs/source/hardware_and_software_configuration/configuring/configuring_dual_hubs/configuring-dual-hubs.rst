@@ -30,7 +30,7 @@ need the following items:
      - Image
 
    * - REV Robotics Driver Hub (REV-31-1596)
-     - .. figure:: images/driverHub.jpg
+     - .. figure:: images/driverHub.png
 
    * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
      - .. figure:: images/REVSwitch.jpg
