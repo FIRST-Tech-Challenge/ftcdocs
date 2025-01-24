@@ -257,7 +257,7 @@ file. When you first scan for hardware, your Robot Controller should
 detect the Expansion Hub that is immediately connected to the Robot
 Controller via the OTG adapter and USB cable. The Robot Controller will
 automatically label this device as an Expansion Hub “Portal”. The Robot
-Controller will controller through this portal to the individual Expansion
+Controller will communicate through this portal to the individual Expansion
 Hubs.
 
 .. figure:: images/ExpansionHubPortal.jpg

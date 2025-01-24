@@ -2,7 +2,7 @@ Running Your OpMode (All Languages)
 -----------------------------------
 
 If your OpMode requires input from a gamepad, then you will need to
-connect a Logitech F310 gamepad to the DRIVER STATION. Note that you can
+connect a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that you can
 have up to two gamepads connected to a DRIVER STATION. If using a phone,
 this will require a USB hub. However, in this example, we will only have
 a solitary gamepad connected.
@@ -28,7 +28,9 @@ need a Micro USB OTG adapter cable.
 2. For the examples in this wiki, the OpModes are looking for input  
 from the gamepad designated as the user or driver #1. Press the Start 
 button and the A button simultaneously on the Logitech F310          
-controller to designate your gamepad as user #1.                      
+controller to designate your gamepad as user #1. If using a PS4-style
+gamepad, use the Options and Cross buttons to designate your gamepad
+as user #1.
 
 .. image:: images/RunningOpModeStep3.jpg
    :align: center
@@ -52,7 +54,7 @@ available OpModes that reside on your Robot Controller.
 
 |
 
-   Note that the word "TeleOp" is short for "Tele-Operated" and it implies a driver controlled OpMode (i.e., an OpMode that gets input from a human driver).
+   Note that the word "TeleOp" is short for "Tele-Operated" and it implies a driver controlled OpMode (i.e. an OpMode that gets input from a human driver).
 
 4. Select "MyFIRSTOpMode" to load your OpMode on the Robot           
 Controller.                                                           

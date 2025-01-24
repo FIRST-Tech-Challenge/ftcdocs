@@ -45,11 +45,11 @@ REV Robotics Control Hub. The Robot Controller acts as the “brains” of the
 robot. It does all of the thinking for the robot and tells the robot what
 to do. It consists of an Android device running a Robot Controller app. Many
 Teams will also connect a REV Robotics Expansion Hub for additional ports to
-connect motors, servos, and sensors to the ROBOT.
+connect motors, servos and sensors to the ROBOT.
 
 A second Android device sits with the team drivers and has one or two
 gamepads connected. This second device is known as the DRIVER STATION.
-The DRIVER STATION is sort of like a remote control that you might use
+The DRIVER STATION is like a remote control that you might use
 to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The DRIVER STATION
@@ -79,8 +79,8 @@ will have its own independent battery.
 Android Smartphones
 ~~~~~~~~~~~~~~~~~~~
 
-While not reccomended, teams may opt to use an Android smartphone as either their
-DRIVER STATION or ROBOT CONTROLLER. DRIVER STATION phones should have the FTC Driver
+Teams may opt to use an Android smartphone as their
+DRIVER STATION, ROBOT CONTROLLER or both. DRIVER STATION phones should have the FTC Driver
 Station app installed, and will need an OTG adaptor USB hub to connect gamepads.
 
 .. image:: images/ControlHubEquals.jpg
@@ -104,15 +104,15 @@ During a typical *FIRST* Tech Challenge match, a team’s robot has to
 perform a variety of tasks in an effort to score points. For example, a
 team might want their robot to follow a white line on the competition
 floor and then score a game element (such as a ball) into a goal
-autonomously during a match. Teams write “op modes” (which stand for
+autonomously during a match. Teams write “OpModes” (which stand for
 “operational modes”) to specify the behavior for their robot.
 
-*OpModes* are computer programs that are used to customize the behavior
-of a competition robot. The Robot Controller can *execute* a selected op
-mode to perform certain tasks during a match.
+An *OpMode* is a computer program that is used to customize the behavior
+of a competition robot. The Robot Controller can *execute* a selected OpMode
+to perform certain tasks during a match.
 
 Teams who are participating in *FIRST* Tech Challenge have a variety
-of programming tools that they can use to create their own OpModes.
+of programming tools that they can use to create their own OpMode.
 Teams can use a visual (“drag and drop”) programming tool called the
 *Blocks Programming Tool* to create their op modes. Teams can also
 use a text-based Java tool known as the *OnBot Java Programming

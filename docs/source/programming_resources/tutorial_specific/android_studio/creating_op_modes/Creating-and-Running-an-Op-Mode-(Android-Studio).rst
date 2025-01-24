@@ -449,13 +449,13 @@ the OpMode, press the square-shaped stop button.
 
 |
 
-Congratulations! You ran your first java OpMode!
+Congratulations! You ran your first Java OpMode!
 
 Modifying Your OpMode to Control a Motor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's modify your OpMode to control the DC motor that you connected and
-configured for your REV Control Hub or REV Expansion Hub. Modify the code for the program
+configured for your REV Robotics Control Hub or REV Robotics Expansion Hub. Modify the code for the program
 loop so that it looks like the following:
 
 .. code-block:: java
@@ -523,7 +523,7 @@ Running Your OpMode with a Gamepad Connected
 
 Your OpMode takes input from a gamepad and uses this input to control a
 DC motor. To run your OpMode, you will need to connect a Logitech F310
-gamepad to the Driver Station.
+or other approved gamepad to the Driver Station.
 
 Connect the gamepad to the Driver Station. If using a REV Robotics Driver
 Hub, you can directly connect the gamepad to one of the USB-A ports. On a
@@ -541,9 +541,11 @@ DRIVER STATION phone, you will need a Micro USB OTG adapter cable.
 
 Your example OpMode is looking for input from the gamepad designated as
 the user or driver #1. Press the Start button and the A button
-simultaneously on the Logictech F310 controller to designate your
+simultaneously on the Logitech F310 controller to designate your
 gamepad as user #1. Note that pushing the Start button and the B button
-simultaneously would designate the gamepad as user #2.
+simultaneously would designate the gamepad as user #2. On a PS4-style
+gamepad, use the Options button and Cross for user #1, or Options and
+Circle for user #2.
 
 .. image:: images/RunningOpModeStep3.jpg
    :align: center

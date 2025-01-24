@@ -205,7 +205,7 @@ of the programming language/environment used to program robot Team Code.
          :width: 80%
          :align: center
 
-         Update Status of Phone
+         Update Status of Smartphone
 
       Simply click the blue Update rectangle (green arrow) – done!
 
