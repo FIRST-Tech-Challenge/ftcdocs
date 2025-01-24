@@ -39,7 +39,7 @@ tutorials, you will need to have the following materials available:
 
 .. |f310| image:: images/LogitechF310.jpg
 
-.. |driverhub| image:: images/DriverHub.jpg
+.. |driverhub| image:: images/driverHub.png
 
 
 .. list-table::
