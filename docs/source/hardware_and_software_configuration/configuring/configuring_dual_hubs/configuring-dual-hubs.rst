@@ -44,7 +44,7 @@ need the following items:
      - .. figure:: images/Battery.jpg
 
    * - REV Robotics Control Hub (REV-31-1595).
-     - .. figure:: images/controlHub.jpg
+     - .. figure:: images/controlHub.png
 
    * - REV Robotics Expansion Hub (REV-31-1153).
      - .. figure:: images/ExpansionHub.jpg
