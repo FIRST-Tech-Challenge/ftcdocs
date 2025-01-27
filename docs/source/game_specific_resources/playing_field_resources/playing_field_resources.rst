@@ -39,7 +39,7 @@ The guide typically has the following sections:
 Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
 .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-   :color: primary
+   :color: secondary
 
    Download PDF, 4.5 MB
 
@@ -48,5 +48,5 @@ Use the following button link to download a PDF of the Field Setup Guide from th
    A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
    want official game elements but don't have room to setup a full field.
 
-The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains downloadable PDFs for the AprilTag images that can be printed and placed on the field.
-There is also a do it yourself (DIY) Resources section that include CAD models of the game and scoring elements and DIY field and perimeter build guides.
+The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains a downloadable PDF for the AprilTag images that can be printed and placed on the field.
+There is a Do It Yourself (DIY) Resources section that include CAD models of scoring elements and DIY field and perimeter build guides.
