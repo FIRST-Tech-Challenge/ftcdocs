@@ -37,3 +37,15 @@ Feature Requests
 * Why you think this feature should be added
 * Screenshots (If applicable)
 
+Colophon
+--------
+
+FTC Docs is built with `Sphinx <https://www.sphinx-doc.org/>`__ using a `theme <https://github.com/readthedocs/sphinx_rtd_theme>`__ provided by `Read the Docs <https://readthedocs.org/>`__.
+
+The `Dark theme <https://github.com/FIRST-Tech-Challenge/ftcdocs-helper/tree/main/sphinx_rtd_dark_mode_v2>`__ is provided by the FTC Docs development team.
+
+.. We might wish to state what version of Sphinx we use and other version info.
+   This is also where we could declare what versions of HTML, XML, CSS we target. Perhaps what browsers we target. 
+   (X)HTML, CSS, or usability standards compliance information and links to website validation tests. This used to be a thing, not so much anymore.
+   Perhaps that we are WCAG compliant someday.
+

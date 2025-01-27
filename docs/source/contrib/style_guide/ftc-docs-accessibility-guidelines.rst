@@ -46,8 +46,7 @@ For FTC Docs this should be all content images, plus any user interface images (
 
 - All content images require Alt text. Some pages do not have alt text for images.  For those page switch alt text the text should be reviewed as the alt text for many is not appropriate. For Example, a single word is not a description.
 - FTC Docs needs to provide text alternatives to the theme switch icon. 
-- We need to fix the alt text link to the FTC Logo, it should read "FTC Docs Home" as it is a functional link to take users back to the home page. 
-- We need to fix the Read the Docs icon.
+- We need to fix the alt text link to the FTC Logo which says "logo". It should read "FTC Docs Home" or just "Home" as it is a functional link to take users back to the home page. 
 
 Guideline 1.2 – Time-based Media
 """"""""""""""""""""""""""""""""
@@ -59,7 +58,8 @@ Those videos have Closed Captioning which is good for those persons who cannot h
 
 **FTC Docs To Do**
 
-- We do not have a a Described Video narrator which would would describe the action in our videos for the visually impaired. This is more of a main FIRST Inspires website issue.
+- We do not have a a Described Video narrator which would would describe the action in our videos for the visually impaired. This is more of a main *FIRST* Inspires website issue.
+- The one video linked is the About FTC video. We've added a ARIA note that indicates how to start the video and offers a brief description of the video content. e.g. that students and mentors are talking about FTC (not exactly Described Video, but it does give some indication of the relevant visual content).
 
 Guideline 1.3 – Adaptable
 """""""""""""""""""""""""
@@ -83,7 +83,7 @@ Make it easier for users to see and hear content including separating foreground
 - FTC Docs uses color alone to mark links, it really needs to underline links, and provide for all the link features like Hover and Visited.
 - For FTC Docs we need to review our use of color for both the light and dark themes. 
   Grey text on dark or light backgrounds may not be of sufficient contrast for those person with vision problems.
-  Admonitions like Notes also have this issue.
+  RST "Admonitions" like Notes also have contrast issues due to the colors of the background and text.
 - The footer (as of Dec. 2024) also has a problem with contrast.
 
 Principle 2 – Operable
@@ -97,11 +97,21 @@ Some things like link spacing and how we link to things are under our control.
 
 **FTC Docs To Do**
 
-- The Read the Docs overlay needs to be keyboard accessible.
 - Do not make use of Access Keys, or make them adjustable. FTC Docs sets Next and Previous keys. We have N=next and P=prev accesskey shortcuts that can't be modified and are active when the next previous buttons DO NOT have focus.
 - The footer links are too close together, making them a touch target problem (making it more likely a person would press the wrong link by accident).
 - We do not have a skip-to-main-content link. Or a way to skip or bypass the sidebar nav links.
 - We link to some PDF's without warning the user. We might need to warn/indicate links external to ftc-docs. I have been surprised a few times when links I thought would be an ftcdocs page actually took me to a PDF or to the FIRST Inspires main site.
+- FTC Docs has choosen to open links to external sites in new tabs. This is done with Javascript.
+
+   This does preserve your current location in FTC Docs and may be convienient for sighted users.
+   This is an accessibility issue related to unexpected context switching,
+   and creates a new browser tab that some users might have trouble noticing or closing and the back browser command doesn't work.
+   We mitigate this somewhat by adding an icon that indicates the link is to an external site.
+   That can be styled with CSS and a span is added with has text that is only for screen readers to say "external". 
+   For FTC Docs we also add "link opens in a new tab" to warn screen reader users that the link will open a new tab.
+
+   The Persona Pages are bad for this. There are grid button links that sometimes take you to a ftc-docs page but often take you to another site with no warning.
+   Ideally all Persona pages should link to ftc-docs pages, some of which might be Gateway Pages to the main FIRST site.
 
 Principle 3 – Understandable
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -117,9 +127,8 @@ Make Web pages appear and operate in predictable ways.
 **FTC Docs To Do**
 
 - Some pages (like the old Field Coordinate System page) had acronyms and excess punctuation that screen readers had trouble with. Revising the text to make it more accessible would make it more readable and understandable for all users. See the Plain Language guide.
-- The sidebar is not predicable to an inexperienced user or a visually impaired person. When a link is clicked the sidebar redraws itself and grabs focus. The focus should be on the content of the link destination.
-- FTC Docs should not open external links in new tabs by default. This is an unexpected context switch that a user cannot recover from by just using the back feature of a browser. If we really want an external link to open in a new tab, there should be text like "(opens in a new tab)" in the link text to tell users it will open in a new tab before it is clicked.
-- We also have a weird CAPTCHA that pops up unexpectedly and with a complete context switch. I've noticed it in the search box. There is also a CAPTCHA related to the submit feedback form.
+- The sidebar is not predicable to an inexperienced user or a visually impaired person. When a link is clicked the sidebar redraws itself and grabs focus. I think the focus should be on the content of the link destination.
+- We also have a weird CAPTCHA that pops up unexpectedly and with a complete context switch. I've noticed it in the search box. There is also a CAPTCHA related to the submit feedback form. There may not be much we can do about that except verify it works with screen readers and keyboard only users.
 
 Principle 4 – Robust
 ^^^^^^^^^^^^^^^^^^^^
@@ -131,5 +140,5 @@ This success criterion is primarily for Web authors who develop or script their 
 
 **FTC Docs To Do**
 
-- We probably need to change the fake buttons used in the persona grid pages to real buttons.
+- We probably need to change the fake buttons used in the primary grid pages to real buttons.
 

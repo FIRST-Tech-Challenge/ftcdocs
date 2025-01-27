@@ -250,6 +250,25 @@ When using ``:ref:`` or ``:doc:`` you may customize the displayed text by surrou
 For example ``:ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>``` renders to :ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>`.
 This is a link to the Robot Controller Overview section of the index in the rc_components folder.
 
+External Links
+^^^^^^^^^^^^^^
+
+Links to other websites and even to the main *FIRST* Inspires site are call *external links*.
+It's possible to create a link by entering the URL in the text https://www.firstinspires.org/resource-library/ftc/game-and-season-info.
+Sphinx will build a link when it encounters a URL. But that is not the preferred approach.
+
+Use descriptive link text rather than just embedding a URL.
+Use the following RST syntax:
+
+.. code:: rest
+
+   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+
+Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+
+FTC Docs has choosen to open links to external sites in new tabs. This is done with Javascript.
+We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
+
 Links to Files
 ^^^^^^^^^^^^^^
    
@@ -260,7 +279,7 @@ FTC Docs contains quite a few links to PDFs that should be make more accessible.
 The recommended approach to linking to files is to include in the link a warning that the link is actually a file, the file type, and if possible the file size.
 Ideally that information is in text and included in the link text portion of the link so that a screen reader would read that information and let the user decide if they want to follow the link.
 
-Simple example of a link to a PDF.
+Simple example of a link to a PDF. 
 
 RST Code:
 
@@ -281,15 +300,16 @@ Using a button as a link will visually distinguish a file link from a regular li
 
 The following RST example show a sentence that precedes the button to give context.
 Then the button has text that indicates that clicking it will download a PDF, the size of the PDF, and that it will open in a new browser tab.
+Using the *secondary* color will make color the button FTC orange.
 
 .. code:: rest
 
    Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
    .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-      :color: primary
+      :color: secondary
 
-      Download PDF, 4.5 MB, will open in a new tab
+      Download PDF, 4.5 MB
 
 This looks like:
 
@@ -298,9 +318,9 @@ This looks like:
    * - Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
        .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-          :color: primary
+          :color: secondary
 
-          Download PDF, 4.5 MB, will open in a new tab
+          Download PDF, 4.5 MB
 
 The preferred approach when linking to files is to create what is called a gateway page.
 The gateway page would describes the file, perhaps giving a summary of the content. 
@@ -330,39 +350,10 @@ Here's a gateway page example for the Field Setup Guide PDF.
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
        .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-          :color: primary
+          :color: secondary
 
-          Download PDF, 4.5 MB, will open in a new tab
+          Download PDF, 4.5 MB
 
-
-External Links
-^^^^^^^^^^^^^^
-
-.. attention:: We need to resolve the issue of opening external links in new tabs. For accessibilty reasons we should not open most links in new tabs. An exception might be links to files.
-
-   Too many of our links look like they should be internal, but actually take you outside of ftc-docs or to a file. Sometimes to the FIRST Inspires main site, but that is still outside ftc-docs. This is an accessibility issue related to unexpected context switching. Use of Gateway Pages in FTC Docs might help. 
-   
-   Example: the Persona Pages are bad for this. There are grid button links that sometimes take you to a ftc-docs page but often take you to another site with no warning. All Persona pages should link to ftc-docs pages, some of which might be Gateway Pages to the main FIRST site.
-
-You can refer to external links as follows:
-
-.. code:: rest
-
-   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
-
-Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
-
-It's probably better to include the destination of the link in the link text if outside ftc-docs.
-Which could look like: `Game and Season Materials (FIRST website) <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
-
-More commonly an icon is used to indicate external links (usually a square with a little arrow going thru the upper right corner).
-That can be styled with CSS and a span is added with has text that is only for screen readers to say "external".
-See examples here: https://www.torontomu.ca/accessibility/guides-resources/design/links/
-
-.. attention:: FTC Docs uses Javascript to force external links to open in new tabs. We should stop that and instead use CSS to add the external icon and span.
-
-   We might continue to use the Javascript function to force file links to continue to open in a new tab if that's what we want.
-   
 Images
 ------
 
