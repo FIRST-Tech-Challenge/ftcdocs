@@ -327,7 +327,12 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
     #app.add_css_file("css/ftc-rtl.css")
+<<<<<<< HEAD
     #app.add_js_file("js/external-links-new-tab.js")
+=======
+    app.add_js_file("js/external-links-new-tab.js")
+    app.add_js_file("js/adjust-css-vars.js")
+>>>>>>> main
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
