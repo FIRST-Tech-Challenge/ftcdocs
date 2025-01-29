@@ -61,7 +61,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
 
     buildscript {
 
-        ext.kotlin_version = '1.8.20' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
+        ext.kotlin_version = '1.9.22' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
 
         repositories {
             mavenCentral()
@@ -69,7 +69,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
         }
 
         dependencies {
-            classpath 'com.android.tools.build:gradle:7.2.0'
+            classpath 'com.android.tools.build:gradle:8.7.0'
             classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" <----- ADD THIS LINE
         }
     }
