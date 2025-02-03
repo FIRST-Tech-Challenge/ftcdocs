@@ -329,6 +329,7 @@ def setup(app):
     app.add_css_file("css/ftc-rtd.css")
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
+    app.add_js_file("js/adjust-css-vars.js")
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
