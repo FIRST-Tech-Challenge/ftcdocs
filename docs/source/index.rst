@@ -39,7 +39,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    game_specific_resources/blog/blog
    tech_tips/tech-tips
    ai/innovation_corner/innovation-corner
-   Competition Manual <manuals/game_manuals/game_manuals>
+   Competition Manual <manuals/competition_manual/competition_manual>
    Game Q&A System <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
    Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
@@ -327,7 +327,7 @@ The main menu contains links to the top level content. The following are quick l
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-ref:: manuals/game_manuals/game_manuals
+            .. button-ref:: manuals/competition_manual/competition_manual
                :ref-type: doc
                :color: black
                :outline:
