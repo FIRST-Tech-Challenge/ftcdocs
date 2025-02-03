@@ -15,6 +15,7 @@ Control System
 Manufacturing
 ---------------
 - `3D Printing Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_
+- `Electrostatic Discharge <https://ftc-docs-cdn.ftclive.org/booklets/en/esd.pdf>`_
 
 Programming Resources
 ---------------------
