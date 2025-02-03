@@ -1,5 +1,8 @@
 :orphan:
 
+.. meta::
+   :robots: noindex, nofollow
+
 .. only:: latex
 
     April Tags in *FIRST* Tech Challenge

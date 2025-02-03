@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-booklets:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     if: github.repository == 'FIRST-Tech-Challenge/ftcdocs'
     permissions:
       id-token: write

@@ -11,8 +11,73 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
-.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
+.. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
    :open:
+
+   .. _ladybug1011:
+
+   **Android Studio 2024.2.1 LadyBug Update and the FTC SDK**
+
+   This is an important message for teams who use Android Studio to program
+   their robots. Teams who use Blocks or OnBot Java are not impacted.
+
+   On October 1, 2024 `Android Studio
+   <https://developer.android.com/studio/releases>`__ released a new version of
+   their software, 2024.2.1 codenamed “LadyBug”, which brought a major user
+   interface change as well as several other changes (bundled software and
+   tooling changes) that affects how Android Studio builds projects.
+   Unfortunately these tooling changes broke the native compatibility with the
+   *FIRST* Tech Challenge `Software Development Kit
+   (SDK) <https://ftc-docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html>`__,
+   most notably with the `FtcRobotController project
+   <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.  *FIRST* Tech
+   Challenge teams who use Android Studio with software projects version 10.1
+   and older are not able to use Android Studio “LadyBug” without `performing
+   additional steps
+   <https://ftc-docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.html#configuring-android-studio-ladybug-and-later>`__
+   to restore compatibility.
+
+   Teams do not need to update Android Studio to “LadyBug” to continue building
+   current software, however if they do, a new version of the
+   `FtcRobotController project
+   (10.1.1) <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ has
+   been released which is designed to work with Android Studio “LadyBug.” Users
+   will be required to upgrade their Android Studio software minimally to
+   Android Studio 2024.2.1 “LadyBug” in order to use the 10.1.1 version of the
+   SDK and newer. There are no feature updates to SDK 10.1.1, it is merely a
+   compatibility update which updates the build tools used by the SDK -
+   including the underlying Gradle tools and the Android Gradle plugin - and
+   eliminates the need to perform any additional steps to use Android Studio
+   “LadyBug” and newer. It is expected that future updates of the SDK will
+   build upon this update, and will minimally require “LadyBug.” Teams who are
+   using older versions of Android Studio who upgrade to SDK 10.1.1 will
+   receive notifications within Android Studio to update the version of Android
+   Studio, which may require an internet connection to update.
+
+   Teams are encouraged to read the `Managing an Android Studio
+   Project <https://ftc-docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__
+   article on `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ for
+   tips on managing their projects using GitHub and the git version control
+   system. Teams managing software projects outside of GitHub and git may
+   re-download the project, reapply their changes, and copy over their TeamCode
+   folder. Teams who need technical assistance may use the `ftc-community
+   forums <https://ftc-community.firstinspires.org/>`__ to receive technical
+   help and advice.
+
+.. dropdown:: Week of 10/10/2024 "AprilTag Localization"
+
+   .. _apriltaglocalization:
+
+   **AprilTag Localization**
+
+   This week's Tech Tip is all about AprilTag Localization. How can your robot
+   determine where it is on the field by looking at an AprilTag? A new set of
+   APIs have been added to SDK 10.0 to provide just that information, and it
+   works for any static (immobile) AprilTag on the competition field. Check out
+   the `AprilTag Localization documentation on ftc-docs
+   <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_localization/apriltag-localization.html>`__!
+
+.. dropdown:: Week of 09/09/2024 "AI Innovation Corner - Google AI Studio"
 
    .. _googleAIstudio:
 
@@ -537,7 +602,7 @@ Just click to expand the Tech Tip you'd like to read.
         - Stall Current
         - Max Power
         - Cost ($USD)
-      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/TETRIX-MAX-Standard-Scale-Servo-Motor>`__
+      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/products/tetrix-max-standard-scale-servo-motor>`__
         - 0.18 s/60°
         - 6 kg-cm
         - 1.2 A
@@ -603,7 +668,7 @@ Just click to expand the Tech Tip you'd like to read.
         - 4.0 A
         - 4.49 W
         - $52.95
-      * - `HiTec HS-805BB <https://hitecrcd.com/products/servos/analog/giant-analog/hs-805bb/product>`__
+      * - `HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__
         - 0.14 s/60°
         - 24.7 kg-cm
         - 6.0 A
@@ -1240,7 +1305,7 @@ Just click to expand the Tech Tip you'd like to read.
    implemented. Only FIRST staff and Tech Team members have access to the
    development source. Are you interested in joining the FIRST Tech Challenge
    Tech Team? Let us know by filling out `this survey
-   <https://forms.microsoft.com/r/W9gxDvsDsj>`__!
+   <https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__!
 
 .. dropdown:: Week of 02/19/2024 "Robot Wi-Fi Link Speed"
 
@@ -1453,7 +1518,6 @@ Just click to expand the Tech Tip you'd like to read.
       Driver Hub damage! Some teams have designed their own 
       `custom <https://www.thingiverse.com/thing:3386378>`__
       `Driver <https://www.thingiverse.com/thing:5439041>`__
-      `Station <https://www.facebook.com/TeamWolfCorp/photos/a.1627476360819953/3028421417392100/?type=3>`__
       `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__, 
       be creative and have fun!  
 
@@ -1936,7 +2000,7 @@ Just click to expand the Tech Tip you'd like to read.
    League All-Star Volunteer. AJ gives a great synopsis on many of the key
    technical updates for the CENTERSTAGE presented by RTX season and some
    background on those changes. Watch his video on the *FIRST* Tech Challenge
-   YouTube Channel here: https://youtu.be/uOcVGwdhG3E.
+   YouTube Channel here: https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be.
 
 .. dropdown:: Week of 09/11/2023 "Updating the Robot Controller App"
 
@@ -1965,7 +2029,7 @@ Just click to expand the Tech Tip you'd like to read.
    of the batteries have different battery chargers and different recommended
    charging settings for the batteries. When charging the `TETRIX MAX 12-Volt
    battery
-   <https://www.pitsco.com/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
+   <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
    on the battery the manufacturer recommends charging at the 0.9A charge rate
    (the lowest setting on most selectable battery chargers) using the `Global
    NiMH battery pack charger

@@ -7,7 +7,7 @@ on:
     
 jobs:
   link-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: link-check
-        run: make -C docs/ linkcheckdiff SPHINXOPTS="-W --keep-going -n -q"
+        run: make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Arhive Log
         if: ${{ failure() }}

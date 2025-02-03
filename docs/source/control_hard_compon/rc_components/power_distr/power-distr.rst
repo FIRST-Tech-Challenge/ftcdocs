@@ -281,8 +281,8 @@ brands are reputable and which ones are not? That's not always an easy thing to
 determine, however brands such as 
 `Anker <https://www.anker.com/collections/power-banks>`__, 
 `Belkin <https://www.belkin.com/products/chargers/portable-chargers-power-banks/>`__,
-`Otterbox <https://www.otterbox.com/en-us/power-packs>`__, and 
-`BioLite <https://www.bioliteenergy.com/collections/usb-battery-banks>`__ 
+`Otterbox <https://www.otterbox.com/en-us/portable-chargers>`__, and 
+`BioLite <https://www.bioliteenergy.com/collections/portable-battery-banks>`__ 
 are among the most-used brands in the world. *FIRST* Tech Challenge recommends
 choosing an internationally reputable brand, even if the brand is more
 expensive than a lesser-known brand, as these batteries will be more apt to
