@@ -202,7 +202,7 @@ Expansion Hub.
 As an alternate, you can use the *Manage* interface from a connected
 laptop or Driver Station (DS) app to upload a Control Hub's firmware, or
 to update it using the included or uploaded version. New firmware images
-can be obtained from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
+can be obtained from the `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__.
 
 Also, included or uploaded Control Hub firmware can be updated in Robot
 Controller Advanced Settings, from a paired Driver Station (DS) app as
@@ -428,7 +428,7 @@ the update of the OS.
 Updating the Control Hub OS Instructions
 ----------------------------------------
 
-1. Download the new Control Hub OS update file from the `REV Robotics website <https://www.revrobotics.com/software/>`__.
+1. Download the new Control Hub OS update file from the `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__.
 
 2. On the *Manage* page, click on the *Select Update File* button to select the OS update file that you would like to upload.
 
@@ -512,12 +512,12 @@ Info* page when you navigate to address "192.168.43.1:8080":
 
 2. Verify that the PATH environment variable for your Windows
 computer includes the path to the adb.exe executable file. The
-`Android Developer website <https://developer.android.com/studio/command-line/adb>`__
+`Android Developer website <https://developer.android.com/tools/adb>`__
 tells you where in your Android SDK installation you can find the
 adb.exe file. This
-`post <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__
+`post <https://helpdeskgeek.com/add-windows-path-environment-variable/>`__
 from
-`HelpDeskGeek.com <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__
+`HelpDeskGeek.com <https://helpdeskgeek.com/add-windows-path-environment-variable/>`__
 shows how to add a directory to your Windows PATH environment
 variable.
 

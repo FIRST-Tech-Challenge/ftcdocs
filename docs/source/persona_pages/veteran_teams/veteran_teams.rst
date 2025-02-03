@@ -1,112 +1,140 @@
 Returning Teams
 ===============
 
-Welcome back to FIRST Tech Challenge returning teams! Resources have been
+Welcome back to *FIRST* Tech Challenge! Resources have been
 organized by type to help your team stay organized and be successful throughout
 the season. These resources are tailored to teams with experience in robotics
 looking to elevate their skills.  The technical resources are a stepping stone
-towards industry standard certifications. Just click on the panel for the
+towards industry standard certifications. Just click on the button for the
 resource you want to explore!
-
-.. rst-class:: center
-   
-**I AM A RETURNING TEAM**
 
 .. grid:: 1 2 2 3
    :gutter: 2
 
    .. grid-item-card::
-      :link: ../../programming_resources/index
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left body
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left
 
-      Java and Android Studio
+      Programming Resources
 
       ^^^
 
       Look for Java programming resources here.
-
-   .. grid-item-card::
-      :link: ../../cad_resources/index
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
-
-      CAD and Design
-
-      ^^^
-
-      Look for our CAD sponsors here.
-
-
-   .. grid-item-card::
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
-      :class-body: sd-text-left
-
-      Machine Learning Toolchain
-
-      ^^^
-
-      Machine Learning (TensorFlow) Toolchain
-
+      
       +++
 
       .. div:: container-fluid p-0
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../ftc_ml/index
+            .. button-ref:: ../../programming_resources/onbot_java/OnBot-Java-Tutorial
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               FTC-ML
+               OnBot Java Tutorial
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
+            .. button-ref:: ../../programming_resources/android_studio_java/Android-Studio-Tutorial
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               TensorFlow in CENTERSTAGE
+               Android Studio Tutorial
 
-   .. grid-item-card::
-      :link: https://www.firstinspires.org/resource-library/ftc/team-outreach-and-marketing-resources
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left body
+         .. div:: col-sm pl-1 pr-1
 
-      Outreach
+            .. button-ref:: ../../apriltag/vision_portal/apriltag_intro/apriltag-intro
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               AprilTag Introduction
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Programming Resources
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
+
+      CAD Resources 
 
       ^^^
 
-      Links to marketing, community and industry outreach.
+      Look for resources for Computer-Aided Design (CAD) software.
+      
+      +++
+      
+      .. div:: container-fluid p-0
 
-   .. grid-item-card::
-      :link: http://firsttechchallenge.blogspot.com/2020/12/tips-for-your-teams-engineering.html
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: ../../cad_resources/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
-      Engineering Notebook
+               CAD Resources
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
+
+      Team Management
 
       ^^^
 
-      Examples and criteria for the engineering notebook and portfolio
+      Team management resources including marketing, community and industry outreach.
+      
+      +++
+      
+      .. div:: container-fluid p-0
 
-   .. grid-item-card::
-      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://www.firstinspires.org/node/5226
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
 
-      Awards Criteria
+               Team Management (external)
+
+   .. grid-item-card:: 
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
+
+      Awards
 
       ^^^
 
       Know the awards criteria before the event.
+      
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/manual-06
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FTC Awards (external PDF)
+
 

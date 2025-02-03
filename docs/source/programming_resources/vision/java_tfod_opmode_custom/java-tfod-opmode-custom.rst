@@ -19,10 +19,7 @@ settings and official/built-in TFOD model(s), described here:
 
 For the 2023-2024 game CENTERSTAGE, the official game element is a
 hexagonal white **Pixel**. The FTC SDK software contains a TFOD model of
-this object, ready for recognition. That default model was created with
-a Machine Learning process described here:
-
--  :ref:`FIRST Machine Learning Toolchain<ftc_ml/index:*FIRST* Machine Learning Toolchain>`
+this object, ready for recognition.
 
 .. figure:: images/010-TFOD-recognition.png
    :align: center
@@ -32,12 +29,7 @@ a Machine Learning process described here:
    Example Pixel Recognition using TFOD
 
 For extra points, FTC teams may instead use their own custom TFOD models
-of game elements, called **Team Props** in CENTERSTAGE. That option is
-covered in this tutorial, after showing how to use the default model.
-Custom TFOD models are created by teams using the same Machine
-Learning process:
-
--  :ref:`FIRST Machine Learning Toolchain<ftc_ml/index:*FIRST* Machine Learning Toolchain>`
+of game elements, called **Team Props** in CENTERSTAGE.
 
 .. figure:: images/020-team-props.png
    :align: center
@@ -192,11 +184,6 @@ the following link:
 - CENTERSTAGE TFLite File (https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/CenterStage.tflite)
 
 .. note::
-   For competition, teams can use the 
-   :ref:`FIRST Machine Learning Toolchain<ftc_ml/index:*FIRST* Machine Learning Toolchain>`
-   to train their own custom models of Team Props.  Then use the process
-   described here; simply specify your custom model filename and labels.
-
    Very advanced teams could use Google's TensorFlow Object Detection
    API (https://github.com/tensorflow/models/tree/master/research/object_detection)
    to create their own custom inference model.

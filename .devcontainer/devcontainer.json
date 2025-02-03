@@ -1,6 +1,9 @@
 {
 	"name": "Dockerfile",
-	"image": "FIRST-Tech-Challenge/ftcdocs:main",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [

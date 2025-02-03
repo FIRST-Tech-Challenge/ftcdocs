@@ -19,13 +19,13 @@ robot can complete, the more points a team will earn.
 
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
-Autonomous vs. Driver-Controlled
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AUTO vs. TELEOP
+~~~~~~~~~~~~~~~
 
-A *FIRST* Tech Challenge match has an *autonomous* phase and a
-*driver-controlled* or *“tele-operated”* phase. In the autonomous phase
+A *FIRST* Tech Challenge match has an AUTO phase and a
+TELEOP phase. In the AUTO phase
 of a match the robot operates without any human input or control. In the
-driver-controlled phase, the robot can receive input from up to two
+TELEOP phase, the robot can receive input from up to two
 human drivers.
 
 Point-to-Point Control System
@@ -40,84 +40,81 @@ During a competition, each team has two Android devices.
 |
 
 One Android device is mounted onto the robot and is called the *Robot
-Controller*. The Robot Controller acts as the “brains” of the robot. It
-does all of the thinking for the robot and tells the robot what to do.
-It consists of an Android device running an Robot Controller app.
-There are two hardware options currently being used: REV Robotics
-Expansion Hub or the REV Robotics Control Hub.
+Controller*. In most cases, the ROBOT CONTROLLER is integrated into the
+REV Robotics Control Hub. The Robot Controller acts as the “brains” of the
+robot. It does all of the thinking for the robot and tells the robot what
+to do. It consists of an Android device running a Robot Controller app. Many
+Teams will also connect a REV Robotics Expansion Hub for additional ports to
+connect motors, servos and sensors to the ROBOT.
 
 A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the *Driver Station*.
-The Driver Station is sort of like a remote control that you might use
-to control your television. The Driver Station allows a team to
+gamepads connected. This second device is known as the DRIVER STATION.
+The DRIVER STATION is like a remote control that you might use
+to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
-Controller and to issue commands to the Robot Controller. The Driver
-Station consists of an Android device running an Driver Station app.
+Controller and to issue commands to the Robot Controller. The DRIVER STATION
+consists of an Android device running an Driver Station app. Most teams use
+a REV Robotics Driver Hub, but select Android smartphones are also supported.
 
-REV Robotics Expansion Hub
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+REV Robotics Control Hub and Expansion Hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The REV Robotics Expansion Hub is the electronic input/output (or “I/O”)
+The REV Robotics Control Hub or Expansion Hub is the electronic input/output (or “I/O”)
 module that lets the Robot Controller talk to the robot’s motors,
-servos, and sensors. The Robot Controller communicates with the
+servos, and sensors. The Robot Controller is integrated into the Control Hub, and communicates with the
 Expansion Hub through a serial connection. For the situation where an
 Android smartphone is used as the Robot Controller, a USB cable is used
-to establish the serial connection. For the situation where a REV
-Robotics Control Hub is used, an internal serial connection exists
-between the built-in Android device and the Expansion Hub.
+to establish the serial connection.
 
-The Expansion Hub is also connected to a 12V battery which is used to
-power the Expansion Hub, the motors, the servos and sensors. If an
+The Control Hub and Expansion Hub are also connected to a 12V battery which is used to
+power the Control Hub, the Expansion Hub, the motors, the servos and sensors. If an
 Android smartphone is used as the Robot Controller, then the smartphone
-will have its own independent battery. If a REV Robotics Control Hub is
-used as the Robot Controller, then the Control Hub will use the main 12V
-battery to power its internal Android device.
+will have its own independent battery.
 
-.. image:: images/REVExpansionHubLayout.jpg
+.. image:: images/REVControlHubLayout.png
    :align: center
 
 |
 
-REV Robotics Control Hub
-~~~~~~~~~~~~~~~~~~~~~~~~
+Android Smartphones
+~~~~~~~~~~~~~~~~~~~
 
-The REV Robotics Control Hub is an integrated version of the Robot Controller.
-It combines an Android device built into the same case as a REV Robotics
-Expansion Hub.
+Teams may opt to use an Android smartphone as their
+DRIVER STATION, ROBOT CONTROLLER or both. DRIVER STATION phones should have the FTC Driver
+Station app installed, and will need an OTG adaptor USB hub to connect gamepads.
 
 .. image:: images/ControlHubEquals.jpg
    :align: center
 
 |
 
-The Control Hub, which has its built-in Android device connected
-directly to the Expansion Hub using an internal serial bus, eliminates
-the need for an external USB connection between the Android Robot
-Controller and the I/O module.
+Teams who use an Android smartphone as their ROBOT CONTROLLER will want an additional
+REV Robotics Expansion Hub to connect motors, servos and sensors. The smartphone is
+connected to the Expansion Hub via a USB-A to USB-Mini cable and an OTG adaptor.
 
-.. image:: images/REVControlHubLayout.jpg
+.. image:: images/REVExpansionHubLayout.jpg
    :align: center
 
 |
 
-What’s an Op Mode?
-~~~~~~~~~~~~~~~~~~
+What’s an OpMode?
+~~~~~~~~~~~~~~~~~
 
-During a typical FIRST Tech Challenge match, a team’s robot has to
+During a typical *FIRST* Tech Challenge match, a team’s robot has to
 perform a variety of tasks in an effort to score points. For example, a
 team might want their robot to follow a white line on the competition
 floor and then score a game element (such as a ball) into a goal
-autonomously during a match. Teams write “op modes” (which stand for
+autonomously during a match. Teams write “OpModes” (which stand for
 “operational modes”) to specify the behavior for their robot.
 
-*Op modes* are computer programs that are used to customize the behavior
-of a competition robot. The Robot Controller can *execute* a selected op
-mode to perform certain tasks during a match.
+An *OpMode* is a computer program that is used to customize the behavior
+of a competition robot. The Robot Controller can *execute* a selected OpMode
+to perform certain tasks during a match.
 
 Teams who are participating in *FIRST* Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
+of programming tools that they can use to create their own OpMode.
 Teams can use a visual (“drag and drop”) programming tool called the
 *Blocks Programming Tool* to create their op modes. Teams can also
 use a text-based Java tool known as the *OnBot Java Programming
 Tool* or Google’s *Android Studio* integrated development environment
-(also known as an “IDE”) to create their op modes.
+(also known as an “IDE”) to create their OpModes.

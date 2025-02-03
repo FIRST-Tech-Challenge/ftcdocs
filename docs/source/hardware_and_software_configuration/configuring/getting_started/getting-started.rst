@@ -1,9 +1,8 @@
 Getting Started
 ===============
 
-
-Getting a Smartphone Robot Controller Ready
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before you can communicate with the motor, servo and sensors that are
 connected to the Control Hub or Expansion Hub, you first must create a
@@ -11,13 +10,20 @@ configuration file on your Robot Controller, so that the Robot
 Controller will know what hardware is available on the Control Hub's or
 Expansion Hub's external ports.
 
+Getting the Control Hub Ready
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you are using a Control Hub, you do not need to make any additional
+connections. You simply need to make sure that the Control Hub is
+powered on and paired to the DRIVER STATION.
+
 Connecting an Android Smartphone to an Expansion Hub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are using an Android smartphone as a Robot Controller, you must
 physically connect the Robot Controller smartphone to the Expansion Hub
 using a USB cable and an On-The-Go (OTG) adapter. Also, you should
-verify that the Driver Station is currently paired to the Robot
+verify that the DRIVER STATION is currently paired to the Robot
 Controller.
 
 Connecting an Android Smartphone to an Expansion Hub Instructions
@@ -75,24 +81,18 @@ Expansion Hub) with the Robot Controller app.
    Controller app might not reliably connect to this Expansion Hub the next
    time you turn your system on.
 
-Getting the Control Hub Ready
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are using a Control Hub, you do not need to make any additional
-connections. You simply need to make sure that the Control Hub is
-powered on and paired to the Driver Station.
-
-Creating a Configuration File Using the Driver Station
+Creating a Configuration File Using the DRIVER STATION
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Although the configuration file needs to reside on the Robot Controller,
-for this tutorial we will use the Driver Station app to create the
-configuration file remotely. The Driver Station can be used to create a
+for this tutorial we will use the DRIVER STATION app to create the
+configuration file remotely. The DRIVER STATION can be used to create a
 configuration file for a Control Hub or for an Android smartphone Robot
 Controller.
 
 
-Creating a Configuration File on the Robot Controller using the Driver Station Instructions
+Creating a Configuration File on the Robot Controller using the DRIVER STATION Instructions
 -------------------------------------------------------------------------------------------
 
 1. Touch the three vertical dots in the upper right hand corner of    

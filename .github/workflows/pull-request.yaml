@@ -5,7 +5,7 @@ on:
 
 jobs:           
   build-pdf:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -19,7 +19,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
@@ -34,7 +34,7 @@ jobs:
         env:
           PR_NUMBER: ${{ github.event.number }}
           ID:  ${{ github.run_attempt }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: FTCDOCS-PDF
           path: |
@@ -43,7 +43,7 @@ jobs:
           if-no-files-found: error
 
   build-html:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -54,7 +54,7 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
@@ -62,18 +62,18 @@ jobs:
         
       - name: Build Site
         env:
-          SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
+          SPHINXOPTS: "-W --keep-going -n -D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: make -C docs/ html
           
       - name: Archive Site
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: FTCDOCS-HTML
           path: 'docs/build/html'
           if-no-files-found: error
           
   spelling-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -84,7 +84,7 @@ jobs:
           reporter: "github-check"
 
   link-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -92,28 +92,68 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
           cache: 'pip'
 
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
 
+      - name: Install additional dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq unzip
+
+      - name: Download previous artifact
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
+          
+          DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--")) | .archive_download_url' artifacts.json | head -n 1)
+          
+          if [ -z "$DOWNLOAD_URL" ]; then
+              echo "No previous LINKCHECK artifact found"
+              exit 0
+          fi
+          
+          curl -L \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -o linkcheck.zip "$DOWNLOAD_URL"
+          
+          if [ $? -ne 0 ]; then
+              echo "Failed to download the zip file"
+              exit 0
+          fi
+          
+          if unzip -t linkcheck.zip >/dev/null 2>&1; then
+              unzip -q linkcheck.zip -d linkcheck_contents
+              echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
+              mv linkcheck_contents/output.json docs/main-output.json
+          else
+              echo "Downloaded file is not a valid zip. Skipping unzip."
+              rm linkcheck.zip
+              mkdir -p linkcheck_contents
+          fi
+
       - name: link-check
-        run: make -C docs/ linkcheck SPHINXOPTS="-W --keep-going -n -q"
+        run: |
+          make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Archive Log
-        if: ${{ failure() }}
-        uses: actions/upload-artifact@v2
-        env:
-          PR_NUMBER: ${{ github.event.number }}
-          ID:  ${{ github.run_attempt }}
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: LINKCHECK
-          path: docs/build/linkcheck/output.txt
+          name: LINKCHECK-PR-${{ github.event.number }}-${{ github.run_attempt }}
+          path: docs/build/linkcheckdiff/output.json
           retention-days: 7
 
   image-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository  
         uses: actions/checkout@v3
@@ -121,10 +161,31 @@ jobs:
       - name: Python Setup
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: Python Install Dependencies
         run: pip install -r docs/requirements.txt
 
       - name: image-check
         run: make -C docs/ imagecheck
+
+  check-redirect:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Repository  
+        uses: actions/checkout@v3
+
+      - name: Fetch origin/main
+        run: git fetch origin main --depth=1
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip'
+
+      - name: Python Install Dependencies
+        run: pip install -r docs/requirements.txt
+
+      - name: check-redirect
+        run: make -C docs/ rediraffecheckdiff

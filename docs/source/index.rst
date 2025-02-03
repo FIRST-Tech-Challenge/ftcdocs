@@ -1,23 +1,18 @@
 .. meta::
    :title: FIRST Tech Challenge Documentation
    :description: The official home of FIRST Tech Challenge Documentation.
-   :keywords: FTC Control System, Control Hub, TensorFlow, CENTERSTAGE, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, ftc-ml, IMU, Water Game
+   :keywords: FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, IMU, Water Game
 
 *FIRST* Tech Challenge documentation
 ====================================
 
-*FIRST* Tech Challenge is a robotics program for middle and high school
-students. It’s way more than building robots, see 
-:doc:`About the 𝘍𝘐𝘙𝘚𝘛 Tech Challenge <overview/ftcoverview>`
-to see why.
+Welcome to the *FIRST®* Tech Challenge Documentation! This website contains everything you need to know to create a competition robot!
+There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.
+There is also information for coaches and mentors.
 
-.. note::
-
-   This project is under active development. Anything contained herein is for 
-   informational purposes only; while this documentation is intended to support 
-   teams and in some way provide context to game rules, the game rules supercede 
-   all documentation found here. If you have feedback about this project, 
-   please use our :doc:`feedback form <ftc_docs/form/form>`.
+*FIRST* Tech Challenge is a robotics program for middle and high school students.
+It’s way more than building robots, see :doc:`About the FIRST Tech Challenge <overview/ftcoverview>`
+and :doc:`gracious_professionalism/gp` to see why.
 
 .. toctree::
    :hidden:
@@ -43,8 +38,9 @@ to see why.
 
    game_specific_resources/blog/blog
    tech_tips/tech-tips
-   manuals/game_manuals/game_manuals
-   Game Q&A Forum <game_specific_resources/ftcqa/ftcqa>
+   ai/innovation_corner/innovation-corner
+   Competition Manual <manuals/game_manuals/game_manuals>
+   Game Q&A System <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
    Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
 
@@ -62,7 +58,6 @@ to see why.
    :maxdepth: 1
    :hidden:
 
-   Basic ‘Bot Guide for REV <robot_building/rev/index>
 
 .. toctree::
    :caption: Control System Resources
@@ -84,6 +79,7 @@ to see why.
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
 
 .. toctree::
@@ -93,19 +89,19 @@ to see why.
 
    Computer Aided Design (CAD) <cad_resources/index>
 
+.. toctree:: 
+   :caption: Electrostatic Discharge
+   :maxdepth: 1
+   :hidden:
+
+   Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+
 .. toctree::
    :caption: Manufacturing
    :maxdepth: 1
    :hidden:
 
    Manufacturing Methods <manufacturing/index>
-
-.. toctree::
-   :caption: Additional Tools
-   :maxdepth: 1
-   :hidden:    
-   
-   ftc_ml/index
    
 .. toctree::
    :caption: Team Resources
@@ -122,78 +118,32 @@ to see why.
    :hidden:
 
    Booklets<booklets/index>
+   Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
    Site Feedback Form<ftc_docs/form/form>
-   FTC Docs PDF<ftc_docs/pdf/pdf>
-   Dark Mode<ftc_docs/dark/dark>
    Workflow<ftc_docs/workflow/workflow>
 
 .. Add Contrib Section here when added
 
-.. rst-class:: center
-   
-**I AM A...**
+**I am a...**
 
-.. grid:: 1 2 2 4
-   :gutter: 2 
+- :doc:`New Team <persona_pages/rookie_teams/rookie_teams>` - New Teams may not know where to start. This is the way!
 
-   .. grid-item-card:: New Team Resources
-      :link: persona_pages/rookie_teams/rookie_teams
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white 
-      :class-body: sd-text-left body
+- :doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` - Returning Teams looking for resources can look here.
 
-      New Team 
-   
-      ^^^
+- :doc:`Coach <persona_pages/coach_admin/coach_admin>` - Coaches looking for help or Team Administrative Resources can look here.
 
-      New Teams may not know where to start. This is the way!
+- :doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` - Technical Mentors looking for Technical Resources should look here first!
 
-   .. grid-item-card:: Returning Team Resources
-      :link: persona_pages/veteran_teams/veteran_teams
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white 
-      :class-body: sd-text-left
-
-      Returning Team 
-   
-      ^^^
-
-      Returning Teams looking for resources can look here.
-   
-   .. grid-item-card:: Coach Resources
-      :link: persona_pages/coach_admin/coach_admin
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white 
-      :class-body: sd-text-left
-
-      Coach (Admin)
-   
-      ^^^
-
-      Coaches looking for Team Administrative Resources can 
-      look here for help.
-
-   .. grid-item-card:: Mentor Resources
-      :link: persona_pages/mentor_tech/mentor_tech
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white 
-      :class-body: sd-text-left
-
-      Mentor (Technical)
-   
-      ^^^
-
-      Technical Mentors looking for Technical Resources 
-      should look here first!
+The main menu contains links to the top level content. The following are quick links organized by topic.
 
 .. grid:: 1 2 2 2
    :gutter: 2
 
    .. grid-item-card:: 
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Programming Quick Links
+      Programming Links
    
       ^^^
 
@@ -244,16 +194,6 @@ to see why.
                AprilTags
 
          .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               TensorFlow
-
-         .. div:: col-sm pl-1 pr-1
  
             .. button-ref:: programming_resources/index
                :ref-type: doc
@@ -264,7 +204,7 @@ to see why.
                All Resources
 
    .. grid-item-card:: 
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
       Control System Links
@@ -318,7 +258,7 @@ to see why.
                Hardware Configuration
 
    .. grid-item-card:: 
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
       Software Development Kit (SDK)
@@ -350,7 +290,7 @@ to see why.
                :outline:
                :expand:
 
-               SDK GitHub Repository
+               SDK GitHub Repository (external)
 
          .. div:: col-sm pl-1 pr-1
       
@@ -359,7 +299,7 @@ to see why.
                :outline:
                :expand:
 
-               SDK Releases
+               SDK Releases (external)
 
          .. div:: col-sm pl-1 pr-1
 
@@ -368,18 +308,18 @@ to see why.
                :outline:
                :expand:
 
-               Javadoc Documentation
+               Javadoc Documentation (external)
 
    .. grid-item-card:: 
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Game Manual Links
+      Game Links
    
       ^^^
 
       Be sure you're following all of the rules of the competition! 
-      Game Manuals and Q&A are essential documents.
+      The Competition Manual is an essential document.
 
       +++
  
@@ -393,7 +333,7 @@ to see why.
                :outline:
                :expand:
 
-               Game Manuals
+               Competition Manual
 
          .. div:: col-sm pl-1 pr-1
       
@@ -403,8 +343,6 @@ to see why.
                :outline:
                :expand:
 
-               Field Manuals
-
          .. div:: col-sm pl-1 pr-1
 
             .. button-link:: https://ftc-qa.firstinspires.org/
@@ -412,5 +350,13 @@ to see why.
                :outline:
                :expand:
 
-               Game Q&A System
+               Game Question and Answer System (external)
+
+.. note::
+
+   This project is under active development. Anything contained herein is for 
+   informational purposes only; while this documentation is intended to support 
+   teams and in some way provide context to game rules, the game rules supercede 
+   all documentation found here. If you have feedback about this project, 
+   please use our :doc:`feedback form <ftc_docs/form/form>`.
 

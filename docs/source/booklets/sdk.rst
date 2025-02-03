@@ -1,5 +1,8 @@
 :orphan:
 
+.. meta::
+   :robots: noindex, nofollow
+
 .. only:: latex
 
     *FIRST* Tech Challenge SDK

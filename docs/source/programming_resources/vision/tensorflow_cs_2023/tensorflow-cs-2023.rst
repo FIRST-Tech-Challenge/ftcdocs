@@ -5,7 +5,7 @@ What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge teams can use `TensorFlow Lite
-<https://www.tensorflow.org/lite/>`__, a lightweight version of Google’s
+<https://ai.google.dev/edge/litert>`__, a lightweight version of Google’s
 `TensorFlow <https://www.tensorflow.org/>`__ machine learning technology that
 is designed to run on mobile devices such as an Android smartphone or the `REV
 Control Hub <https://www.revrobotics.com/rev-31-1595/>`__.  A *trained
@@ -23,15 +23,6 @@ TensorFlow Object Detection (TFOD) has been integrated into the control system
 software to identify a white ``Pixel`` during a match. The SDK (SDK
 version 9.0) contains TFOD Sample OpModes and Detection Models that can
 recognize the white ``Pixel`` at various poses (but not all).
-
-Also, *FIRST* Tech Challenge Teams can use the :doc:`Machine Learning Toolchain
-<../../../ftc_ml/index>` tool to train their own TFOD models. This allows teams
-to recognize custom objects they place on Spike Marks in place of white ``Pixels``
-prior to the start of the match (also known as *Team Game Elements*). This
-training should take into account certain conditions such as distance from
-camera to target, angle, lighting, and especially backgrounds. Teams can
-receive technical support using the Machine Learning Toolchain through the
-`Machine Learning Forum <https://ftc-community.firstinspires.org/>`__.
 
 How Might a Team Use TensorFlow this season?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -417,7 +408,7 @@ First, it's important to note that TensorFlow has the following quirks/behaviors
 So what kinds of patterns are good for TensorFlow? Let's explore a few examples:
 
 1. Consider the shape of a `chess board Rook
-   <https://www.sciencephoto.com/media/640239/view/rook-chess-piece-illustration>`__.
+   <https://chess.fandom.com/wiki/Rook>`__.
    The Rook itself is mostly uniform all around, no matter how you rotate the
    object it more or less looks the same. Not much patterning there. However,
    the top of the Rook is very unique and patterned.  Exaggerating the
@@ -449,11 +440,4 @@ So what kinds of patterns are good for TensorFlow? Let's explore a few examples:
    can be detected and differentiated from other objects on the game field.
 
 Hopefully this gives you quite a few ideas for how to approach this challenge!
-
-Using Custom TensorFlow models in Blocks and Java
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Instructions on using Custom TensorFlow Models in Blocks, OnBot-Java, and 
-Android Studio can be found in the :doc:`FTC-ML documentation <../../../ftc_ml/index>`, 
-in the :doc:`Implementing in Robot Code <../../../ftc_ml/implement/index>` section.
 

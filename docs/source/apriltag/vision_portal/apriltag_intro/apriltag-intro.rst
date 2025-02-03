@@ -66,7 +66,7 @@ containing information and designed for easy recognition.
 The above samples represent different formats, or **families**. A
 project typically uses a single AprilTag family.
 
-This year, *FIRST* Tech Challenge nuses a common family called **36h11**. A PDF
+This year, *FIRST* Tech Challenge uses a common family called **36h11**. A PDF
 showing the numbers 0 through 20 from the 36h11 family can be downloaded here:
 
 - :download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`
@@ -276,7 +276,7 @@ positive rotation.
 
 Further discussion is provided here:
 
-- https://ftc-docs.firstinspires.org/apriltag-detection-values
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 Note: This article does not discuss the *FIRST* Tech Challenge 
 :ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
@@ -373,7 +373,7 @@ follows:
 
 Again, further discussion is provided here:
 
-- https://ftc-docs.firstinspires.org/apriltag-detection-values
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
 Summary
 -------

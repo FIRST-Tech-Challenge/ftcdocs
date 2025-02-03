@@ -5,7 +5,7 @@ What is TensorFlow?
 ~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge teams can use `TensorFlow
-Lite <https://www.tensorflow.org/lite/>`__, a lightweight version of
+Lite <https://ai.google.dev/edge/litert>`__, a lightweight version of
 Google’s `TensorFlow <https://www.tensorflow.org/>`__ machine learning
 technology that is designed to run on mobile devices such as an Android
 smartphone. A *trained TensorFlow model* was developed to recognize game
@@ -23,16 +23,6 @@ control system software, to identify and track these game pieces during
 a match. The software (SDK version 7.0) contains TFOD Sample Op
 Modes that can recognize the Freight elements Duck, Box (or Cube), and
 Cargo (or Ball).
-
-Also, teams can use a new tool to train their own TFOD models, to
-recognize their custom Team Shipping Element (TSE) and/or to improve
-recognition of Freight elements. This training could take into account
-certain conditions of distance, angle, lighting and background.
-
-This new tool is the **Machine Learning Toolchain**, `announced
-10/7/2021 <http://firsttechchallenge.blogspot.com/2021/10/new-machine-learning-tool-beta-testing.html>`__.
-Learn more at these links: `[forum] <https://ftc-community.firstinspires.org/>`__
-:doc:`[manual] <../../../ftc_ml/index>`
 
 How Might a Team Use TensorFlow in Freight Frenzy?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

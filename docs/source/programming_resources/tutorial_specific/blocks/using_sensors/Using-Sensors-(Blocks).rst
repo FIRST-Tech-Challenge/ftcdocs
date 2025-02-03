@@ -7,7 +7,7 @@ Color-Distance Sensor
 A sensor is a device that lets the Robot Controller get information
 about its environment. In this example, you will use a REV Robotics
 Color-Distance sensor to display range (distance from an object) info to
-the driver station.
+the DRIVER STATION.
 
 The Color-Range sensor uses reflected light to determine the distance
 from the sensor to the target object. It can be used to measure close
@@ -80,7 +80,7 @@ the "number" field of the "call telemetry.addData" programming block.
 
 |
 
-   This will send the measured distance to the target in centimeters back to the Driver Station.
+   This will send the measured distance to the target in centimeters back to the DRIVER STATION.
 
 8. Save your op mode and verify that it was saved successfully to the 
 Robot Controller.                                                     
@@ -99,7 +99,7 @@ to run your updated op mode.
 
 |
 
-   As you run the op mode, if you move your hand above the color light sensor, you should see the measured distance change on the Driver Station screen.  If the expression "NaN" (not a number) is displayed on the Driver Station, the target is most likely out of range (and the sensor does not detect any reflected light).
+   As you run the op mode, if you move your hand above the color light sensor, you should see the measured distance change on the DRIVER STATION screen.  If the expression "NaN" (not a number) is displayed on the DRIVER STATION, the target is most likely out of range (and the sensor does not detect any reflected light).
 
 Touch Sensor
 ~~~~~~~~~~~~
@@ -114,14 +114,14 @@ determine if the button on the sensor is currently pressed or not.
 
 |
 
-The Expansion Hub digital ports contain two digital pins per port. When
-you use a 4-wire JST cable to connect a REV Robotics Touch sensor to an
+The Control Hub or Expansion Hub digital ports contain two digital pins per port. When
+you use a 4-wire JST cable to connect a REV Robotics Touch sensor to a Control Hub or
 Expansion Hub digital port, the Touch Sensor is wired to the second of
 the two digital pins within the port. The first digital pin of the
 4-wire cable remains disconnected.
 
 For example, if you connect a Touch Sensor to the "0,1" digital port of
-the Expansion Hub, the Touch Sensor will be connected to the second pin
+the Control Hub or Expansion Hub, the Touch Sensor will be connected to the second pin
 (labeled "1") of the port. The first pin (labeled "0") will stay
 disconnected.
 
@@ -222,5 +222,5 @@ to run your updated op mode.
 
 |
 
-   As you run the op mode and push or release the button, the telemetry message on the Driver Station should update to reflect the current state of the digital Touch Sensor.
+   As you run the op mode and push or release the button, the telemetry message on the DRIVER STATION should update to reflect the current state of the digital Touch Sensor.
 

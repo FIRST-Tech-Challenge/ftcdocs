@@ -46,7 +46,7 @@ previous run’s results.
 Mac OSX users may need special software for Android file transfer.
 
 Next, read and follow the calibration instructions posted at
-`ftc-docs <https://ftc-docs.firstinspires.org/camera-calibration>`__.
+`ftc-docs <https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/camera_calibration/camera-calibration.html>`__.
 Other calibration programs are widely available online.
 
 Existing Warnings

@@ -1,5 +1,5 @@
-Using Two Expansion Hubs
-========================
+Adding an Expansion Hub
+=======================
 
 Introduction
 ~~~~~~~~~~~~
@@ -7,19 +7,13 @@ Introduction
 A single REV Robotics Control or Expansion Hub has a limited amount of input/output
 (I/O) ports available. In some instances, you might want to use more
 devices than there are ports available. For these instances you might
-need to connect a second Expansion Hub to your first Hub to add more I/O
+need to connect an Expansion Hub to your first Hub to add more I/O
 ports.
 
-This document describes how to connect and configure two Expansion Hubs
-for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
-Game Manual Part 1 (rule <RE07>, part f) limits the maximum number of
-Expansion Hubs on a single robot to two.
-
-**Important Note:** This document describes the process for setting up a
-smartphone Robot Controller with two Expansion Hubs. Control Hubs have a
-reserved address, so you do not need to worry about an Expansion Hub's
-address when it is the only Expansion Hub connected to a Control Hub.
-However, the process for physically connecting and configuring them is the same.
+This document describes how to connect and configure an additional Expansion
+Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
+Competition Manual limits the maximum number of Control or Expansion Hubs on
+a single robot to two. See rule R701 for the full details.
 
 Equipment Needed
 ~~~~~~~~~~~~~~~~
@@ -35,17 +29,8 @@ need the following items:
    * - Required Item(s)
      - Image
 
-   * - Two (2) FIRST-approved Android smartphones. One should have the Robot
-       Controller app installed and the other should have the Driver Station
-       app installed. For a list of FIRST-approved Android  smartphones, refer
-       to the current Game Manual Part 1, rule <RE06>.
-     - .. figure:: images/twoAndroidPhones.jpg
-
-   * -  USB Type A male to type mini-B male cable.
-     -  .. figure:: images/USBTypeACable.jpg
-
-   * - Micro USB OTG adapter.
-     - .. figure:: images/OTGAdapter.jpg
+   * - REV Robotics Driver Hub (REV-31-1596)
+     - .. figure:: images/driverHub.jpg
 
    * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
      - .. figure:: images/REVSwitch.jpg
@@ -54,13 +39,15 @@ need the following items:
      - .. figure:: images/TamiyaAdapter.jpg
 
    * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of
-       FIRST-approved 12V batteries, refer to the current Game Manual
-       Part 1, rule <RE03>.
+       FIRST-approved 12V batteries, refer to the current Competition Manual,
+       rule R601.
      - .. figure:: images/Battery.jpg
 
-   * - Two(2) REV Robotics Expansion Hubs (REV-31-1153).
+   * - REV Robotics Control Hub (REV-31-1595).
+     - .. figure:: images/controlHub.jpg
+
+   * - REV Robotics Expansion Hub (REV-31-1153).
      - .. figure:: images/ExpansionHub.jpg
-       .. figure:: images/ExpansionHub.jpg
 
    * - REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack shown but only one needed).
      - .. figure:: images/3PinJSTPH.jpg
@@ -68,8 +55,107 @@ need the following items:
    * - REV Robotics XT30 Extension Cable (REV-31-1394).
      - .. figure:: images/xt30Extension.jpg
 
+Connecting the Expansion Hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. The first step is to use the 3-pin JST PH cable and the XT30 cable
+to daisy chain the two Hubs together. Before you do this, ensure that
+neither Hub is powered on.
+
+Use the XT30 extension cable to connect an XT30 power port on the Control
+Hubs to an XT30 power port on the other Expansion Hub.
+
+<INSET IMAGE>
+
+2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
+to communicate between devices. You can use the 3-pin JST PH cable to
+connect one of the ports labeled “RS485” on the Control Hub to one of
+the ports labeled “RS485” on the Expansion Hub.
+
+<INSERT IMAGE>
+
+Note that it is not important which “RS485” port that you select on the
+Expansion Hub or Control Hub. Either port should work.
+
+.. figure:: images/RS485Port.jpg
+   :align: center
+
+3. Once you have the two devices daisy chained together (12V power and
+RS-485 signal) you can connect the battery and power switch, and power
+on the devices.
+
+<INSERT IMAGE>
+
+Configuring Both devices
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you successfully daisy chained your Expansion Hub and Control Hub,
+then you should be able to create a new configuration file that includes
+both devices.
+
+**Note:** If you already have a configuration that contains just the
+Control Hub, you can add the Expansion Hub by editing the configuration
+and pressing the "Scan" button.
+
+Connect your Driver Hub to the Control Hub's WiFi network and select the
+Configure Robot option from the Driver Station app. Press the New button
+to create a new configuration file. When you first scan for hardware, your
+Robot Controller should detect the embedded Control Hub. The Robot Controller
+will automatically label this device as an Control Hub “Portal”. The Robot
+Controller will communicate through this portal to the individual Hubs.
+
+<INSERT IMAGE>
+
+If you click on the Portal item in the configuration screen, you should
+see both the Control Hub and the Expansion Hub listed.
+
+<INSERT IMAGE>
+
+You can save this configuration file and return to the main screen of
+the Driver Station. After the robot has been restarted, both Hubs should
+have a solid green LED. On the Expansion Hub, the LED should blink blue
+every ~5 seconds.
+
+Congratulations, you are now ready to use your combination of Control and
+Expansion Hubs! You can configure and operate these Hubs as you would an
+individual Hub.
+
+Using Two Expansion Hubs
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Teams without access to a Control Hub may use two Expansion Hubs on
+their robot.
+
+Additional Equipment Needed
+---------------------------
+
+There is some additional equipment required for teams who aren't
+using a Control Hub on their robot.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+   :class: longtable
+
+   * - Required Item(s)
+     - Image
+
+   * - A FIRST-approved Android smartphone with the FTC Robot Controller
+       app installed. For a list of FIRST-approved Android smartphones,
+       refer to the current Competition Manual, rule R704.
+     - .. figure:: images/oneAndroidPhone.jpg
+
+   * -  USB Type A male to type mini-B male cable.
+     -  .. figure:: images/USBTypeACable.jpg
+
+   * - Micro USB OTG adapter.
+     - .. figure:: images/OTGAdapter.jpg
+  
+   * - An additional REV Robotics Expansion Hub (REV-31-1153).
+     - .. figure:: images/ExpansionHub.jpg
+
 Changing the Address of an Expansion Hub
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 You can use the Advanced Settings menu of the Robot Controller App
 to change the address of any connected Expansion Hubs.
@@ -82,7 +168,7 @@ first Expansion Hub before connecting the second Expansion Hub.
 
 With your first Expansion Hub connected to the 12V battery and to the Robot
 Controller, launch the Settings menu from the Robot Controller app (note you
-can also do this from the Driver Station app, if the Driver Station is
+can also do this from the Driver Station app, if the DRIVER STATION is
 paired to the Robot Controller).
 
 1. Select the Advanced Settings item to display the Advanced Settings menu.
@@ -120,9 +206,9 @@ indicating that the Expansion Hub’s address has been changed.
    :align: center
 
 Connecting the Two Expansion Hubs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
-1. After you have changed the address of one of the Hubs, you can use the
+5. After you have changed the address of one of the Hubs, you can use the
 3-pin JST PH cable and the XT30 cable to daisy chain the two Hubs
 together. Before you do this, disconnect the 12V battery and power
 switch from the first Expansion Hub.
@@ -133,7 +219,7 @@ Expansion Hubs to an XT30 power port on the other Hub.
 .. figure:: images/XT30ExtensionConnected.jpg
    :align: center
 
-2. The Expansion Hubs use the RS-485 serial bus standard to communicate
+6. The Expansion Hubs use the RS-485 serial bus standard to communicate
 between devices. You can use the 3-pin JST PH cable to connect one of
 the ports labeled “RS485” on one Expansion Hub to one of the ports
 labeled “RS485” on the other Expansion Hub.
@@ -147,7 +233,7 @@ Expansion Hub. Either port should work.
 .. figure:: images/RS485Port.jpg
    :align: center
 
-3. Once you have the two devices daisy chained together (12V power and
+7. Once you have the two devices daisy chained together (12V power and
 RS-485 signal) you can reconnect the battery and power switch, and then
 connect the Robot Controller and power on the devices.
 
@@ -155,7 +241,7 @@ connect the Robot Controller and power on the devices.
    :align: center
 
 Configuring Your Expansion Hubs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 If you successfully daisy chained your two Expansion Hubs,
 then you should be able to create a new configuration file that includes
@@ -171,7 +257,7 @@ file. When you first scan for hardware, your Robot Controller should
 detect the Expansion Hub that is immediately connected to the Robot
 Controller via the OTG adapter and USB cable. The Robot Controller will
 automatically label this device as an Expansion Hub “Portal”. The Robot
-Controller will talk through this portal to the individual Expansion
+Controller will communicate through this portal to the individual Expansion
 Hubs.
 
 .. figure:: images/ExpansionHubPortal.jpg
