@@ -1,32 +1,23 @@
 FTC Docs Style Guide
 ====================
 
-.. attention:: The following is loosely modeled after the `FRC Docs Style Guide <https://docs.wpilib.org/en/stable/docs/contributing/frc-docs/style-guide.html>`_.
-   It's formatted slightly differently, and has a section on accessibility.
-   
-   All the "Attention" notes will be removed when this is no longer a rough draft.
-
 This guide contains the various reStructuredText (RST) and Sphinx specific guidelines for the FTC Docs project.
 reStructuredText is the default plaintext markup language used by Sphinx.
 Sphinx is a documentation generator.
 Sphinx converts reStructuredText files into HTML web pages. 
-
-In addition to the FTC Docs website, there is a 
-PDF version of FTC Docs that can downloaded for viewing when one doesn't have access to the internet.
+Read the Docs is a documentation hosting platform and provides the base Sphinx theme for FTC Docs.
 
 .. contents:: Contents
    :local:
    :depth: 1
    :backlinks: none
 
-.. attention:: This will be a long page. I think we need in-page links. See guidance here: https://www.nngroup.com/articles/formatting-long-form-content/
+..  This will be a long page. I think we need in-page links. See guidance here: https://www.nngroup.com/articles/formatting-long-form-content/
    In-page links are also an accessibility improvement (imagine having to listen to this entire long page to find the one section near the end that you wanted).
    I'll probably add sub-pages for some things (like detailed image guidance).
    
    The goal being that most users should find the style guide sufficient.
    But the sub-pages will have more detail and guidance for complicated directives like image and figure.
-   
-   This note will be removed when this is no longer a rough draft.
 
 Accessibility
 -------------
@@ -123,7 +114,7 @@ This success criterion is primarily for Web authors who develop or script their 
 reStructuredText Documents
 --------------------------
 
-.. attention:: talk about RST documents, directives, and general structure issues.
+.. should talk about RST documents, directives, and general structure issues.
 
 Example Document
 ^^^^^^^^^^^^^^^^
@@ -164,7 +155,8 @@ Example Document
    
    This is a sub-section!
 
-.. note:: If you are having issues editing files with the ``.rst`` extension, the recommended text editor is VS Code with the [reStructuredText extension](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext).
+.. note:: If you are having issues editing files with the ``.rst`` extension, the recommended text editor is VS Code with the
+    `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
 
 Document Filenames
 ^^^^^^^^^^^^^^^^^^
@@ -176,30 +168,21 @@ For documents that will have an identical software/hardware name, append “-har
 
 Suffix filenames with the ``.rst`` extension.
 
-
 Titles and Headings
 -------------------
 
-.. attention:: talk about things related to document structure and how we want FTC Docs headings.
+.. attention:: We should also mention things related to document structure and how we want FTC Docs headings.
 
 Text
 ----
 
-.. attention:: talk about FTC Docs text, paragraphs, lists, tables, admonitions etc.
-
+.. attention::  talk about FTC Docs text, paragraphs, lists, tables, admonitions etc.
    This is where we just have guidelines and don't repeat info in the tutorials or reference guide.
-
    Example: we can encourage use of the list style of RST table and avoid the ascii box style of table.
-   
    Also talk about plain language: https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024
 
 Links
 -----
-
-.. attention:: Probably want to discuss what to use a link text.
-
-   Probably want to add how to improve the accessibility of links.
-   Examples: warning if the link opens in a new tab, or will download a file, or goes to an external site.
 
 Effective link text:
 
@@ -208,6 +191,8 @@ Effective link text:
 - Links to files (e.g. Microsoft Word, PDF, etc.) should also indicate the file type or destination within the link text.
 - Avoid linking long URLs. Longer, less intelligible URLs used as link text might be difficult to comprehend with assistive technology.
 - Links should be clear and concise. Avoid linking entire sentences or paragraphs.
+
+.. tip:: See this guide on `writing hyperlinks <https://www.nngroup.com/articles/writing-links/>`_ for more information.
    
 Internal Links
 ^^^^^^^^^^^^^^
@@ -262,9 +247,9 @@ Use the following RST syntax:
 
 .. code:: rest
 
-   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
 
-Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
 
 FTC Docs has choosen to open links to external sites in new tabs. This is done with Javascript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
@@ -299,17 +284,17 @@ Buttons are appropriate user interface components for user actions.
 Using a button as a link will visually distinguish a file link from a regular link.
 
 The following RST example show a sentence that precedes the button to give context.
-Then the button has text that indicates that clicking it will download a PDF, the size of the PDF, and that it will open in a new browser tab.
-Using the *secondary* color will make color the button FTC orange.
+We include the document name as screen readers and keyboard only users might tab to the link
+so we need to indicate in the link what file will be downloadable.
 
 .. code:: rest
 
    Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
    .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-      :color: secondary
+      :color: primary
 
-      Download PDF, 4.5 MB
+      Download Field Setup Guide PDF, 4.5 MB
 
 This looks like:
 
@@ -318,9 +303,9 @@ This looks like:
    * - Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
        .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-          :color: secondary
+          :color: primary
 
-          Download PDF, 4.5 MB
+          Download Field Setup Guide PDF, 4.5 MB
 
 The preferred approach when linking to files is to create what is called a gateway page.
 The gateway page would describes the file, perhaps giving a summary of the content. 
@@ -350,9 +335,9 @@ Here's a gateway page example for the Field Setup Guide PDF.
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
        .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
-          :color: secondary
+          :color: primary
 
-          Download PDF, 4.5 MB
+          Download Field Setup Guide PDF, 4.5 MB
 
 Images
 ------
@@ -369,8 +354,8 @@ See `Image Files`_ for file formats, size, and where to place images the FTC Doc
 Simple Images
 ^^^^^^^^^^^^^
 
-Use the following **image** directive when the image does not require a visible text caption.
-For accessibility, please add an **:alt:** option to the **image** directive with a description of the image.
+Use the following ``.. image`` directive when the image does not require a visible text caption.
+For accessibility, please add an ``:alt:`` option to the image directive with a functional description of the image.
 This description will not be visible on a web page or PDF, but will be spoken out loud by 
 screen reader software. 
 
@@ -379,11 +364,9 @@ screen reader software.
    .. image:: images/BlocksPicture1.jpg
       :alt: Blocks Programming Tool showing a graphical Blocks program.
       
-The **:alt:** line is indented three spaces. 
-For assistance with alt text descriptions, see :ref:`alt-text-label`.
+The ``:alt:`` line is indented three spaces. 
 
 The description should be functional. Describe the image for someone who cannot see it.
-If you need more than a sentence or two to describe the image, see `Complex Images`_.
 
 Here's what the web page for an image looks like (but reduced in size for this example).
 The image is a screen shot of the Blocks programming tool on a page that talks about the various programming tools available.
@@ -395,10 +378,10 @@ The image is a screen shot of the Blocks programming tool on a page that talks a
           :width: 40%
           :class: no-scaled-link  
 
-The alt text reads ``Blocks Programming Tool showing a graphical Blocks program.``
-
-The alt text is not visible in HTML or PDF, but would be displayed in the browser if the image failed to load 
-or the user had selected to not load images (perhaps they are on a low bandwidth internet connection).
+The alt text reads *Blocks Programming Tool showing a graphical Blocks program.*
+The alt text is not visible in HTML or PDF, but would be spoken aloud by screen reading software.
+Alt text is displayed in the browser if the image failed to load or the user had selected to not load images
+because they are on a low bandwidth internet connection.
 
 FTC Docs has many diagrams. Some are simple like this one for a control system diagram on a page that introduces the control system. 
 
@@ -409,7 +392,7 @@ FTC Docs has many diagrams. Some are simple like this one for a control system d
           :width: 40%
           :class: no-scaled-link
 
-The alt text reads ``Two gamepads are connected to a phone, the phone is connected by WiFi Direct to another phone on the robot.``
+The alt text reads *Two gamepads are connected to a phone, the phone is connected by WiFi Direct to another phone on the robot.*
 
 FTC Docs also has photographs. These also need alt text to describe the image.
 This next example is on a page discussing hardware tradeoffs including stiff and flexible printer beds.
@@ -421,7 +404,7 @@ This next example is on a page discussing hardware tradeoffs including stiff and
           :width: 40%
           :class: no-scaled-link
 
-The alt text reads ``An image showing how flexible beds peel off of the bed.``
+The alt text reads *An image showing how flexible beds peel off of the bed.*
 
 Alt Text Guidelines
 """""""""""""""""""
@@ -438,29 +421,31 @@ Alt Text Guidelines
 
 - Avoid technical jargon and abbreviations unless users are certain to understand them.
 
+If you need more than a sentence or two to describe the image, see `Complex Images`_.
+
 .. tip:: For assistance with alt text descriptions, see :ref:`alt-text-label`.
 
-.. important:: If you are editting an existing page that has an **image** or **figure** directive with no **:alt:** option,
-   please take a moment to add the **:alt:** option with a functional description of the image.
+.. important:: If you are editting an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
+   please take a moment to add the ``:alt:`` option with a functional description of the image.
 
 Images With Captions
 ^^^^^^^^^^^^^^^^^^^^
 
-Use the **figure** directive when the image requires a visible text caption. 
+Use the ``..figure`` directive when the image requires a visible text caption. 
 Sphinx place the caption text below the image. The caption text is in italic font.
 
 Photo credits are an example of when you need a caption. 
 You should also use a caption when you need editorial or illustrative text to highlight something 
 about the image to the reader or to connect the image to the surrounding text content.
+This could include the who, what, when, where, and/or why of an image.
 You might draw the readers attention to some detail of the image, or what is important in the image.
-Captions can be longer than one line if needed, but like alt text probably should be no more than one sentence.
+Captions can be longer than one line if needed, but should generally be kept short.
 
 Please create alt text even though there is a caption. 
 The alt text and caption should be different because a screen reader will read both.
 One way to think about this is the alt text should be functional and the caption should editorial or illustrative.
-If you need more than a sentence or two to describe the image, see `Complex Images`_.
 
-Do not add the word "Figure" to the caption, or Figure 1, 2 etc. 
+Do not add the word "Figure" to the caption, or "Figure 1", etc. 
 The PDF writer will automatically add "Fig." and a number to all captions.
 
 If you need to reference the figure in the text of the page, use the leading text of the caption if possible, or
@@ -468,7 +453,6 @@ some unique short identifier or description of the image.
 Try not to reference the figure by position (such as "see the image above") as visually impaired persons cannot see the position.
 Also, the PDF writer might move the figure out of context with the surrounding text.
 
-If the caption is just a functional description of the image, maybe you don't need a caption and can use the **image** directive instead.
 The following example is on a page about 3D printed parts in a section about Robot Aesthetics.
 
 .. code:: ReST
@@ -478,8 +462,8 @@ The following example is on a page about 3D printed parts in a section about Rob
 
       This FTC Team printed their sponsors logos in multiple colors to represent them!   
 
-Note that **:alt:** and caption are both indented 3 spaces.
-A blank line is required between **:alt:** and the caption.
+Note that ``:alt:`` and caption are both indented 3 spaces.
+A blank line is required between ``:alt:`` and the caption.
 
 Here's what this looks like (with image reduced in size for this example).
 
@@ -492,14 +476,10 @@ Here's what this looks like (with image reduced in size for this example).
           
           This FTC Team printed their sponsors logos in multiple colors to represent them!
           
-The alt text for the image reads ``6 multicolor square 3d printed logos.``
+The alt text for the image reads *6 multicolor square 3d printed logos.*
 
 This is a good example of a functional alt text description for a screen reader followed by
 an editorial caption that is visible.
-
-.. attention:: we need more examples of alt text with captions. I'm not sure this is trivial, so more examples would be nice.
-   or maybe link to the detailed style-guide-images page with more examples there.
-   This page has more info: https://thoughtbot.com/blog/alt-vs-figcaption
 
 Complex Images
 ^^^^^^^^^^^^^^
@@ -508,16 +488,16 @@ To make images accessible for the visually impaired, we need to provide a text d
 For complex images, you might need a whole paragraph to describe the image.
 Alt text is not supposed to be more than a sentence or two, we need to provide something short in the alt text knowing that a long description follows.
 
-To include a complex image use the **figure** directive.
-Set the **alt** text to a short functional description, perhaps a summary of the long description.
+To include a complex image use the figure directive.
+Set the ``:alt:`` text to a short functional description, perhaps a summary of the long description.
 Set the caption to be an editorial or illustrative comment on the image.
 See the guidance about alt text and captions in the preceding section.
-The long description is then added as a paragraph after the caption in the **figure** directive.
+The long description is then added as a paragraph after the caption in the figure directive.
 
 Try to adjust the alt text, caption, and long description so that the text flows such
 that it would make sense if read aloud by a screen reader.
 
-In the following reStructuredText source example the **figure** directive has alt text, followed by a one line caption.
+In the following reStructuredText source example the figure directive has alt text, followed by a one line caption.
 A descriptive paragraph is added after the caption. It is indented the same as the caption.
 There is a blank line before and after the caption.
 
@@ -551,7 +531,7 @@ Here's what a complex image looks like (with image reduced in size for this exam
           The Y axis points across the field from the Red Wall to the blue wall.
           The X axis points away from the audience to the rear of the field. 
 
-The alt text for the example image reads ``A square field with X, Y and Z axes shown.``
+The alt text for the example image reads *A square field with X, Y and Z axes shown.*
 This is a short functional description that a screen reader would say.
 
 The caption is an editorial comment that this field is from the Cascade Effect game.
@@ -560,6 +540,8 @@ It is not the same as the alt text.
 The paragraph after the caption completely describes the image for those who cannot see it.
 A complete text description is also important for those persons who have trouble processing or understanding visual information.
 It can help them understand the image they are seeing.
+
+For another example of a complex image see :ref:`complex-image-label`.
 
 Image Files
 ^^^^^^^^^^^

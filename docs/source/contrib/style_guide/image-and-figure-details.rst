@@ -21,9 +21,9 @@ If the image is not directly related to the content and is only there for visual
    This is not a marketing web site or a visual design website.
 
 Decorative images are also an accessibility problem. The screen reader has to process them.
-If the image has alt text it is not likely related to the content so it may just cause confusion.
+If the image has alt text it may not be related to the content so it may just cause confusion.
 
-If you really need a decorative image, use the **.. image** directive and include the **:alt:** option with blank text.  
+If you really need a decorative image, use the ``.. image`` directive and include the **:alt:** option with blank text.  
 Blank alt text will cause screen readers to ignore the image, which is appropriate when the image is just there for visual presentation.
 
 Example
@@ -40,8 +40,8 @@ Use the ``.. image`` directive to include an image that does **not** need a capt
 Determine if the image needs a caption. Photo credits need a caption. Complex images probably need a caption. 
 Anything that requires an editorial or illustrative description to tie the image to the content of the page requires a caption. 
 
-If no caption is required then the ``.. image`` directive can be used. 
-Add the **alt** option and provide text that describes the image. 
+If no caption is required then the image directive can be used. 
+Add the ``:alt:`` option and provide text that describes the image. 
 This is all you need for basic images.
 
 .. code:: ReST
@@ -53,16 +53,16 @@ The alt text should have a functional description. A functional description expl
 These descriptions should be thorough but brief, one or two sentences.
 If a long description is required, use the `figure directive`_ and provide a long description.
 
-.. tip:: insert reference to further guidance on alt text writing - or better yet more examples
+See `Alt Text`_ for more information about alt text.
 
-.. warning:: Sphinx will set alt text set to the path and file name of the image if you don't specify the **:alt:** option.
-   The HTML looks like `<img alt="../_images/GoodStuff.png" src="../_images/GoodStuff.png">`.
-   A screen reader will read out loud the alt text `../_images/GoodStuff.png`.
+.. warning:: Sphinx will set alt text set to the path and file name of the image if you don't specify the ``:alt:`` option.
+   The HTML will look like ``<img alt="../_images/GoodStuff.png" src="../_images/GoodStuff.png">``.
+   A screen reader will read out loud the alt text **../_images/GoodStuff.png**.
    
-   This is not good accessibility. If you are editting an existing page that has an **image** or **figure** directive with no **:alt:** option,
-   please take a moment to add the **:alt:** option with a functional description of the image.
+   This is not good accessibility. If you are editting an existing page that has an image or figure directive with no ``:alt:`` option,
+   please take a moment to add the ``:alt:`` option with a functional description of the image.
 
-The ``image`` directive has many options, but we don't recommend most of them for FTC Docs. 
+The image directive has many options, but we don't recommend most of them for FTC Docs. 
 This is new guidance, many existing pages specify **width** and **align**.
 It maybe worth removing those if you are changing the content on that page anyway.
 
@@ -130,7 +130,7 @@ width, height, scale
    Then provide a separate PDF download that they can print to get accurately sized AprilTags.
    
    If you want to keep the **width** option (perhaps the image size is too big for the page), 
-   then for accessibility we recommend you add the **class** option with **no-scaled-link**.
+   then for accessibility we recommend you add the **class** option with **no-scaled-link** e.g. ``:class: no-scaled-link``
    This tells Sphinx to not create the link, but the images will have the width you want.
    Though a better option might be to change the resolution of the image if relevant detail can be preserved.
 
@@ -139,7 +139,7 @@ External Images
 
 It is possible to include images that are external to FTC Docs, but we don't recommend that.
 There is no way to know if the image will still be there in the future.
-There is also the issue that external images may be copyrighted so we would not have permission to use.
+There is also the issue that external images may be copyrighted and we might not have permission to use.
 
 Including an external image using a web address:
 
@@ -223,7 +223,7 @@ The alt text is added to the HTML img tag.
 .. Note::
    1. An alternative technique would be to provide the instructions within the main content rather than as a text alternative to the image. This technique makes all information available in text for everyone while providing an illustration for people who prefer to view the information visually.
 
-   2. If more information than that of the diagram is intended to be conveyed by the image, it may be better to follow one of the approaches described in `Complex Images`_. For example, if the fact that this diagram appears on a bottle or if the shape and size of the bottle were relevant pieces of information, use a more detailed alternative text.
+   2. If more information than that of the diagram is intended to be conveyed by the image, it may be better to follow one of the approaches described in `Complex Image Example`_. For example, if the fact that this diagram appears on a bottle or if the shape and size of the bottle were relevant pieces of information, use a more detailed alternative text.
 
 Alt Text and Captions
 ^^^^^^^^^^^^^^^^^^^^^
@@ -237,8 +237,11 @@ While both the alt attribute and the figcaption element provide a way to describ
    - alt descriptions should be functional; 
    - figcaption descriptions should be editorial or illustrative.
 
-external reference: https://thoughtbot.com/blog/alt-vs-figcaption
+If the caption is just a functional description of the image, maybe you don't need a caption and can use the image directive instead.
 
+See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughbot blog post.
+
+.. We probably need more examples of alt text with captions. I'm not sure this is trivial, so more examples would be nice.
 
 Figure Directive
 ----------------
@@ -267,13 +270,13 @@ with a travel article about Machu Picchu.
 Note that the ``:alt:`` line and caption are both indented 3 spaces after the directive.
 A blank line is required between the ``:alt:`` and the caption.
 
-We don't want the ``:alt:`` line to be blank. 
+We don't want the ``:alt:`` line to be blank for a figure.
 A screen reader will have probably spoken that there is a figure, without alt text the screen reader will skip over announcing the image and read the caption
 leaving the user wondering what the caption is referring to.
 
-The **figure** directive supports all options of the **image** directive. These options (except align) are passed on to the contained image.
+The ``.. figure`` directive supports all options of the ``.. image`` directive. These options (except align) are passed on to the contained image.
 
-* **:align:**  "left", "center", or "right". 
+* ``:align:``  "left", "center", or "right". 
    The horizontal alignment of the figure, allowing the image to float and have the text flow around it. The specific behavior depends upon the browser or rendering software used.
    
    Avoid using **align**. In PDF it tends to float the figure to another area of the page,
@@ -309,10 +312,13 @@ There must be blank lines before the caption paragraph and before the legend.
 To specify a legend without a caption, use an empty comment ("..") in place of the caption.
 
 A table might be useful for charts or complex images that might need descriptions of various parts of the image. 
-Note: we do not recommend using the ascii art form of a table as shown above, use a list style table instead.
-      
-Complex Images
-^^^^^^^^^^^^^^
+
+.. caution:: We do not recommend using the ascii art form of a table as shown above, use a list style table instead.
+
+.. _complex-image-label:
+
+Complex Image Example
+^^^^^^^^^^^^^^^^^^^^^
 
 FTC Docs has some images that are very complex. Usually there is some surrounding text that relates to the image.
 However, we usually don't actually describe the image as we assume the reader is not impaired visually.
@@ -320,12 +326,12 @@ However, we usually don't actually describe the image as we assume the reader is
 If you are editing an existing page, you may need to adjust what text surrounds the image, and what text describes the image.
 If the surrounding text describes part of the image, it should probably be moved into the long description of the image.
 
-The FTC Docs guidance is to use the legend of a **figure** directive when a long description is required.
+The FTC Docs guidance is to use the legend of a ``.. figure`` directive when a long description is required.
 This paragraph should be placed after after the caption, leaving a single blank line in between.
 Instead of a paragraph, you can include a table or list if that would better describe the image.
 
 The following example is how we might describe a complex diagram.
-We use a **figure** directive with alt text, caption and long description.
+We use a ``.. figure`` directive with alt text, caption and long description.
 This diagram is located on the Control System Introduction page.
 
 .. code:: ReST
@@ -388,14 +394,14 @@ This HTML is from the square field image of the Field Coordinate System page.
      </figcaption>
    </figure>
 
-A screen reader encountering the HTML above will normally announce that there is a **figure**. It would then speak the alt text and indicate there was an **image**.
-It would continue by reading the caption followed by the long description. Finally the screen reader would announce **end figure**.
+A screen reader encountering the HTML above will normally announce that there is a *figure*. It would then speak the alt text and indicate there was an *image*.
+It would continue by reading the caption followed by the long description. Finally the screen reader would announce *end figure*.
 
-Using the **figure** directive for complex images nicely surrounds the image with a complete text description that is useful for all users as we clearly 
+Using the ``.. figure`` directive for complex images nicely surrounds the image with a complete text description that is useful for all users as we clearly 
 indicate what the image is about and what is important.
    
-.. note:: if you ever find that you need a long description, but the image really does not need a visible text caption, you can enter a blank comment as the caption.
-   This looks like two periods .. placed where the caption would be and at the same indent as the long description. 
+.. note:: If you ever find that you need a long description, but the image really does not need a visible text caption, you can enter a blank comment as the caption.
+   This looks like two periods ``..`` placed where the caption would be and at the same indent as the long description. 
     
    .. code:: rest
    
