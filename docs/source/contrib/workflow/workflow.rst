@@ -8,7 +8,16 @@ FTC Docs Workflows
 
 Overview
 --------
+
+The following diagram shows the various GitHub repositories and the actions and flow between them and the build artifacts.
+
+In a web browser this diagram can be zoomed and panned by using a mouse. 
+Use the scroll wheel to zoom in and out. Right click and hold then drag to pan.
+The diagram is not keyboard accessible.
+A screen reader will read the various nodes and actions in the diagram, but starts at the Translation sub-graph whicn is in the middle of the diagram.
+
 .. mermaid::
+   :zoom:
 
     flowchart LR
         private[Private Github Repo]
