@@ -4,8 +4,22 @@ Using Your Android Device
 Before you get started with your control system, it is helpful if you
 familiarize yourself with the basic operation of your Android device.
 
+REV Robotics Driver Hub
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
+should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
+for instructions on how to set up and use the REV Robotics Driver Hub.
+
+Android Smartphone
+~~~~~~~~~~~~~~~~~~
+
+While not recommended, the Competition Manual does allow select Android
+smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
+R704 for the full details.
+
 Unlocking Your Screen
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 When you first power on an Android phone, it usually starts off with the
 screen in a "locked" state. For the Motorola smartphones that are used
@@ -29,7 +43,7 @@ PIN value and tap on the check mark to log into the device.
 |
 
 Navigating in Android
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 Your phone should display its home screen if you just powered it on and
 unlocked it. Note that the actual screens on your smartphone might
@@ -75,36 +89,7 @@ has this feature, you might need to swipe up from the bottom of the
 screen to display the navigation buttons.
 
 Displaying Available Apps on your Android Phone
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Android Marshmallow Users
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you are using a device with Android Marshmallow (6.x) or earlier, you
-can display the available apps using the *Android App Drawer* button
-that is available on the home screen.
-
-There should be another row of buttons visible above the "Back", "Home"
-and "Recent Apps" buttons. In the center of this row of buttons is a
-button that has an array of dots or squares.
-
-.. image:: images/android_nextToBottomButtons.jpg
-   :align: center
-
-|
-
-Tapping on this button will launch the *Android App Drawer*. The App
-Drawer displays a list of all of the apps that are available on your
-Android device. You can scroll through the App Drawer screens to find
-and launch an app.
-
-.. image:: images/android_appDrawer.jpg
-   :align: center
-
-|
-
-Android Nougat Users
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are using a device with Android Nougat (7.x) or newer, you can
 display the available apps by simply swiping upwards from the bottom of
