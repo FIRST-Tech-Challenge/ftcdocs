@@ -37,8 +37,10 @@ produce extremely high electrical currents as the charge that was
 accumulated on one object flows through a conductive path to the neutral
 or oppositely charged object.
 
-.. image:: images/positivelyChargedRobot.png
-   :alt: Positively charged robot next to neutral field wall.
+.. figure:: images/positivelyChargedRobot.png
+   :alt: A positively charged robot touching a neutral field wall.
+
+   Example of an ESD event, current will flow from the robot to the field wall.
 
 How Robots Become Charged
 ~~~~~~~~~~~~~~~~~~~~~~~~~
