@@ -11,12 +11,11 @@ will disable or damage a robot’s control system.
 
 Note that this section only provides a brief overview of the physical
 phenomenon that causes ESD disruptions. You can use the following link
-to view an in-depth white paper, written by Mr. Eric Chin (a FIRST
+to view an in-depth white paper, written by Mr. Eric Chin (a *FIRST*
 alumnus and a 2018 summer engineering intern), which examines and
 quantifies the efficacy of various ESD mitigation techniques:
 
-`Eric Chin’s White Paper on ESD Mitigation Techniques and their
-Efficacy <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`__
+`ESD Mitigation Techniques For FTC (PDF 1.7MB) <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`__
 
 Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work they
 did to model the problems caused by ESD and to evaluate different techniques to
@@ -38,10 +37,8 @@ produce extremely high electrical currents as the charge that was
 accumulated on one object flows through a conductive path to the neutral
 or oppositely charged object.
 
-.. figure:: images/positivelyChargedRobot.png
-   :align: center
-
-   Positively charged robot next to neutral field wall.
+.. image:: images/positivelyChargedRobot.png
+   :alt: Positively charged robot next to neutral field wall.
 
 How Robots Become Charged
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -55,7 +52,7 @@ uneven. When the surfaces are taken apart, they can become charged. This
 is called the triboelectric effect.
 
 .. figure:: images/triboelectric.png
-   :align: center
+   :alt: Illustration of a wheel on a floor with a close up portion showing how electrons in the floor can become attached to the wheel.
 
    Robots become charged due to the triboelectric effect.
 
@@ -86,13 +83,13 @@ If the potential difference is high enough, it is also possible for
 current to flow through the air in the form of an electrical arc. Arcing
 occurs when the air between two differently charged conductors becomes
 ionized and allows current to flow from one conductor to the other. Arcs
-at voltages seen on FIRST Tech Challenge robots can jump air gaps of
+at voltages seen on *FIRST* Tech Challenge robots can jump air gaps of
 more than 3/8” (1 cm). Arcs behave almost like direct contact, so they
 can carry a significant amount of current. Visible sparks go with large
 electrostatic arcs.
 
 .. figure:: images/discharging.png
-   :align: center
+   :alt: Illustration showing two circles and the current flow from positive to negative. 
 
    Electric arc between two spheres of opposite charge.
 
@@ -109,7 +106,7 @@ of the surface of the tiles. This helps prevent the build-up of
 electrostatic charge on the robots as the move across the tile floor.
 
 .. figure:: images/heavydutystaticide.jpg
-   :align: center
+   :alt: A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide.
 
 *FIRST* recommends the use of `ACL Heavy Duty
 Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__
@@ -130,10 +127,8 @@ ESD event. This can reduce the risk of damage to or disruption of
 electrical components when a sensor or other peripheral device receives
 a shock.
 
-.. figure:: images/ferritechoke.jpg
-   :align: center
-
-   A snap-on ferrite choke.
+.. image:: images/ferritechoke.jpg
+   :alt: A snap-on ferrite choke.  
 
 Using ferrite chokes can be a very effective method for mitigating the
 effects of ESD:
@@ -148,7 +143,7 @@ effects of ESD:
 Step 3: Electrically Isolating the Electronics from the Metal Frame of the Robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As a robot moves back and forth across the tile floor during a FIRST
+As a robot moves back and forth across the tile floor during a *FIRST*
 Tech Challenge match, charge can accumulate on the metallic frame of the
 robot due to the triboelectric effect. If a charge builds up on the
 frame of the robot, but the electronics that make up the Control System
@@ -169,7 +164,9 @@ Using a non-conductive, rigid panel can also help with wire management
 and strain relieving.
 
 .. figure:: images/mountonplywood.jpg
-   :align: center
+   :alt: An expansion hub mounted on a plywood sheet.
+
+   The plywood sheet has holes drilled in it and wires are secured with cable ties to the plywood.
 
 Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -179,7 +176,7 @@ are poorly insulated. If these parts are placed too close to the metal
 frame, a shock can occur if a charge accumulates on the frame.
 
 .. figure:: images/poorlyinsulated.jpg
-   :align: center
+   :alt: A sensor with 4-wire connector and a servo wire extension connection.
 
    Electrostatic shocks can occur at poorly insulated or exposed portions
    of the electronics.
@@ -194,19 +191,19 @@ Similarly, some servo extension cables (see figure above) have exposed
 portions of metal that could be vulnerable to ESD unless properly
 isolated or insulated.
 
-.. figure:: images/keepawayfromframe.jpg
-   :align: center
-
-   Keep exposed portions of the electronics more than 3/8” (10mm) away from
-   the frame.
-
 Moving these vulnerable areas of the electronics system away from the
 frame (with an air gap greater than 3/8” or 10mm) can help reduce the
-risk of an ESD disruption. Using electrical tape to insulate these areas
-can be equally effective and may be easier to implement.
+risk of an ESD disruption.
+
+.. figure:: images/keepawayfromframe.jpg
+   :alt: A sensor with an air gap between the frame and the 4-wireconnector.
+
+   Keep exposed portions of the electronics away from the frame.
+
+Using electrical tape to insulate these areas can be equally effective and may be easier to implement.
 
 .. figure:: images/tapepoorlyinsulated.jpg
-   :align: center
+   :alt: A servo wire extension connection wrapped in electrical tape and a sensor mounted on a frame where the frame is wrapped in electrical tape.
 
    Electrical tape can be used to insulate exposed or poorly insulated
    metal.
@@ -222,7 +219,7 @@ electrical potential and trigger an ESD event. Wooden bumpers,
 electrical tape, and other non-conductive coatings are all effective.
 
 .. figure:: images/coverwithtape.jpg
-   :align: center
+   :alt: A robot claw mechanism where the metal claws are wrapped in electrical tape.
 
    Insulating portions of the robot that touch other metallic objects on
    the field can help.
@@ -240,14 +237,15 @@ the electronics. Doing this can help reduce the risk that a shock can
 occur between the frame of a robot and the Control System electronics.
 
 .. figure:: images/REV-31-1269-ResistiveGroundingStrap.jpg
-   :align: center
+   :alt: The REV Resistive Grounding Strap has a XT30 connection on one end and an eye loop connector on the other end.
 
    The REV Resistive Grounding Strap (REV-31-1269) is an approved grounding
    cable.
 
 It is important that the grounding **only be done using a
-FIRST-approved, commercially manufactured cable** (i.e., the REV-31-1269
-Resistive Grounding Strap). A FIRST-approved cable has an appropriately
+FIRST-approved, commercially manufactured cable** 
+(see the competition manual for the currently approved cables). 
+A *FIRST*-approved cable has an appropriately
 sized inline resistor. This resistor is critical because it acts as a
 safeguard to prevent excessive current from flowing through the frame of
 the robot if a “hot” (positive) wire of the electronics system is
@@ -261,18 +259,17 @@ need to use the REV Robotics Anderson Powerpole to XT30 Adapter cable in
 conjunction with REV Robotics’ Resistive Grounding Strap:
 
 .. figure:: images/REV-31-1385-AndersonPowerPoleToXT30.png
-   :align: center
+   :alt: REV Robotics Anderson Powerpole to XT30 Adapter cable
 
    The REV-31-1385 adapter is approved for use with REV’s Resistive
    Grounding Strap.
 
-
-To ground the electronics, plug one end of the FIRST-approved cable into
+To ground the electronics, plug one end of the *FIRST*-approved cable into
 a spare XT30 port on the Control System electronics. Then bolt the other
 end using a conductive (i.e., metal) bolt to the frame of the robot.
 
 .. figure:: images/groundtheelectronics.png
-   :align: center
+   :alt: An expansion hub with a ground strap connected to the XT30 port and bolted to the metal frame of the robot.
 
    Ground the electronics to the frame using a FIRST-approved cable.
 
