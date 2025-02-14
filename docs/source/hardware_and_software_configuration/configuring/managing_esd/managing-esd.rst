@@ -271,7 +271,7 @@ a spare XT30 port on the Control System electronics. Then bolt the other
 end using a conductive (i.e., metal) bolt to the frame of the robot.
 
 .. figure:: images/groundtheelectronics.png
-   :alt: An expansion hub with a ground strap connected to the XT30 port and bolted to the metal frame of the robot.
+   :alt: An expansion hub with a grounding cable connected to the XT30 port and bolted to the metal frame of the robot.
 
    Ground the electronics to the frame using a FIRST-approved cable.
 
