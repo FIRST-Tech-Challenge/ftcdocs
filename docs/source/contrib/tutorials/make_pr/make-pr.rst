@@ -9,10 +9,13 @@ The following diagram shows the workflow for submitting changes to the FTC Docs 
 For first time users of Git/GitHub, do not worry if this seems confusing. First focus 
 on understanding the steps and then the workflow will make more sense.
 
-Traditional Local Development
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You can use a mouse scroll wheel to zoom the diagram in and out.
+If you right-click and hold you can move the diagram within it's image box.
+
+:bdg-info:`Codespaces` are part of your personal FTC Docs GitHub project.
 
 .. mermaid::
+   :zoom:
 
     flowchart TD
 
@@ -111,19 +114,41 @@ Staging Your Changes
 ~~~~~~~~~~~~~~~~~~~~
 
 As a reminder, staging is the process of indicating which files you want to be included in the next commit ("Git Save"). This 
-is done by using the command ``git add <file>``. You can add multiple files by separating them with a space.
+is done by using the :bdg-warning:`Local` command ``git add <file>``. You can add multiple files by separating them with a space.
 
+In :bdg-info:`Codespaces` click on the source control icon which will display the source control panel.
+
+.. image:: images/source-control-icon.png
+   :alt: Source control icon
+
+Click on the + symbol next to each changed or new file in the source control panel to stage that file.
+
+.. image:: images/stage-changes.png
+   :alt: Screenshot showing the source control panel with a file to be staged.
+   
 Committing Your Changes
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have staged your changes, you can commit them. This is done by using the command ``git commit -m "Your commit message"``. You can think of a commit as a snapshot of your changes. Each repository is 
+Once you have staged your changes, you can commit them. This is done by using the :bdg-warning:`Local` command ``git commit -m "Your commit message"``. 
+You can think of a commit as a snapshot of your changes. Each repository is 
 a collection of commits each describing incremental changes relative to the previous commit. 
+
+In :bdg-info:`Codespaces` enter a commit message in the source control panel and click the Commit button.
+
+.. image:: images/commit-changes.png
+   :alt: Screenshot showing the source control panel with a message to be committed.
 
 Pushing Your Changes
 ~~~~~~~~~~~~~~~~~~~~
 
-Once you have committed your changes, you can push them to your fork of the repository. This is done by using the command ``git push origin <branch>``. This will push your local changes to the remote repository. 
+Once you have committed your changes, you can push them to your fork of the repository. This is done by using the :bdg-warning:`Local` command ``git push origin <branch>``. 
+This will push your local changes to the remote repository. 
 This means it will be accessible to others. After this change is pushed, you can create a pull request.
+
+In :bdg-info:`Codespaces` click the Sync Changes button.
+
+.. image:: images/sync-changes.png
+   :alt: Screenshot showing the source control panel with the Sync Changes icon.
 
 Creating a Pull Request
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -135,6 +160,9 @@ This is important as it allows comments and feedback to be given on your changes
 Example
 -------
 
+The following is a :bdg-warning:`Local` example of all the Git commands. The pull request commands are done in GitHub starting at step 7.
+
+If you are using :bdg-info:`Codespaces` just skip to step 7.
 
 1. Navigate to the directory of the repository on your local machine.
 
@@ -176,80 +204,61 @@ Example
 
     git push
 
-7. Navigate to the `official FTC Docs repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ on GitHub
+7. Navigate to the `official FTC Docs repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ on GitHub.
+8. Click ``Compare & Pull Request``. 
 
-8.  Click ``Compare & Pull Request``. 
+   .. note:: This option is also available by clicking the "Pull Request" tab and then clicking the "New pull request" button. 
+       Then click ``compare across forks``. Select ```<USERNAME>/ftcdocs``` for the head repository and the branch you want to merge. 
+       Select `FIRST-Tech-Challenge/ftcdocs` for the base repository and the branch you want to merge into. Then click ``Create Pull Request``.
 
-.. note:: This option is also available by clicking the "Pull Request" tab and then clicking the "New pull request" button. 
-    Then click ``compare across forks``. Select ```<USERNAME>/ftcdocs``` for the head repository and the branch you want to merge. 
-    Select `FIRST-Tech-Challenge/ftcdocs` for the base repository and the branch you want to merge into. Then click ``Create Pull Request``.
-
-.. figure:: images/compare_and_pr.png
-    :alt: Compare & Pull Request
-    :align: center
-
-|
+   .. image:: images/compare_and_pr.png
+       :alt: Screenshot showing the Compare & Pull Request button highlighted.
 
 9. Fill out the pull request title and description. For more information on creating a pull request, see our :doc:`Contribution Guide </contrib/guidelines/guidelines>`.
 
-.. figure:: images/pr_desc.png
-    :alt: Pull Request Description
-    :align: center
-
-|
+   .. image:: images/pr_desc.png
+       :alt: Screenshot showing the pull request title and description.
 
 10. Scroll down to see a preview of the changes you are proposing. 
     Make sure that everything looks correct and that no files or changes have been omitted. 
     Also make sure no erroneous changes are included.
 
-.. figure:: images/preview_changes.png
-    :alt: Preview Changes
-    :align: center
+    .. image:: images/preview_changes.png
+       :alt: Screenshot showing the changes in this pull request.
 
-|
+11. If everything looks good, click the ``Create Pull Request`` button.
 
-11. If everything looks good, click ``Create Pull Request``.
+    .. image:: images/create_pr.png
+       :alt: Screenshot showing the Create Pull Request button highlighted.
 
-.. figure:: images/create_pr.png
-    :alt: Create Pull Request
-    :align: center
-
-|
-
-12. After this you will be able to see your pull request and the status of the checks. 
+12. After this you will be able to see your pull request and the status of the automated checks. 
     First time contributors will have to wait for a maintainer approval before the checks are run.
 
-.. figure:: images/checks_standby.png
-    :alt: Pull Request Page
-    :align: center
-
-|
+    .. image:: images/checks_standby.png
+       :alt: Screenshot of the Pull Request Page showing review required and check status.
 
 13. After approval the checks will run. In this case the Link Checker failed. When checks fail 
-    the FTC Docs maintainers will be notified and will help you fix the issue. In this case the 
-    problem was because our branch is no longer up to date with the main branch. This can easily 
-    be fixed by clicking the "Update branch" button. Generally the FTC Docs team will help you 
+    the FTC Docs maintainers will be notified and will help you fix the issue. 
+    Generally the FTC Docs team will help you 
     with the process of passing the checks and updating your branch. 
 
-.. figure:: images/check_result.png
-    :alt: Checks Result
-    :align: center
+    .. figure:: images/check_result.png
+       :alt: Screenshot of the Pull Request Page showing all checks passed except link check.
+    
+    Another problem was because our branch is no longer up to date with the main branch. This can easily 
+    be fixed by clicking the "Update branch" button.
+    
+    .. figure:: images/update_branch.png
+       :alt: Update Branch
 
-|
-
-.. figure:: images/update_branch.png
-    :alt: Update Branch
-    :align: center
-
-.. note:: It can take several minutes for the checks to fully run. 
+    .. note:: It can take several minutes for the checks to fully run. 
 
 14. Once the checks have passed, the FTC Docs maintainers will review your pull request. 
     They will provide feedback and help you make any necessary changes. Once the pull request is approved, 
     it will be merged into the main branch.
 
-.. figure:: images/all_checks.png
-    :alt: All Checks Passed
-    :align: center
-
-
+    .. figure:: images/all_checks.png
+       :alt: Screenshot showing all checks passed.
+       
+       This pull request still has a Review Required and Merging is Blocked until there is an approving review.
 
