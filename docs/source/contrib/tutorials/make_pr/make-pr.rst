@@ -9,10 +9,20 @@ The following diagram shows the workflow for submitting changes to the FTC Docs 
 For first time users of Git/GitHub, do not worry if this seems confusing. First focus 
 on understanding the steps and then the workflow will make more sense.
 
-You can use a mouse scroll wheel to zoom the diagram in and out.
-If you right-click and hold you can move the diagram within it's image box.
+:bdg-warning:`Local` changes start in your local copy of the project. 
+They move from the working directory to local Git staging and are then committed to the local repository.
+From there they are pushed to your personal FTC Docs repository.
 
-:bdg-info:`Codespaces` are part of your personal FTC Docs GitHub project.
+:bdg-info:`Codespaces` are part of your personal FTC Docs GitHub project. 
+In a similar manner to local changes, Codespace changes are staged and committed to your personal FTC Docs repository.
+Once any changes are in your personal FTC Docs repository they can be submitted as a Pull Request to the FTC Docs repository.
+
+In the FTC Docs repository changes arrive as Pull Requests that are reviewed and approved.
+They are then merged with the Main branch and the changes are published.
+
+In a web browser this diagram can be zoomed and panned by using a mouse. Use the scroll wheel to zoom in and out. 
+Right click and hold then drag to pan. The diagram is not keyboard accessible. 
+A screen reader will read the various nodes and actions in the diagram and starts in the Local section of the diagram.
 
 .. mermaid::
    :zoom:
@@ -154,7 +164,7 @@ Creating a Pull Request
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Now that you have pushed your changes to your :term:`fork <Fork>` of the repository the next step is propose these changes to the :term:`main repository <Main Repository>`.
-Why dont we just push our changes to the main repository? This is because the pull request allows the maintainers of the main repository to review your changes before they are merged. 
+Why don't we just push our changes to the main repository? This is because the pull request allows the maintainers of the main repository to review your changes before they are merged. 
 This is important as it allows comments and feedback to be given on your changes. For details on how to create a pull request, see the next section.
 
 Example
