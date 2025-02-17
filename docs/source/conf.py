@@ -254,6 +254,10 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 linkcheck_timeout = 60
 
+# Configure linkcheck errors
+
+linkcheckdiff_errors = set(['broken'])
+
 # Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
 
 linkcheck_request_headers = {
@@ -373,7 +377,6 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     }
 
 
-    
 
 # Configure RTD Theme
 html_theme_options = {
