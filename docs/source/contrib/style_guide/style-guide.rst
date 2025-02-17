@@ -518,7 +518,7 @@ Here's what a complex image looks like (with image reduced in size for this exam
 
 .. list-table:: 
 
-   * - .. figure:: ../../game_specific_resources/field_coordinate_system/images/image3.jpg
+   * - .. figure:: /game_specific_resources/field_coordinate_system/images/image1.jpg
           :alt: A square field with X, Y and Z axes shown. 
           :width: 25%
           :class: no-scaled-link
