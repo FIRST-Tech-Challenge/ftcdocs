@@ -148,9 +148,8 @@ calibration values** for the FTC VisionPortal default resolution of
 Other Webcams
 -------------
 
-Many other webcams are available online, with and without published `UVC
-compatibility <https://en.wikipedia.org/wiki/List_of_USB_video_class_devices>`__.
-The FTC SDK supports **only** UVC compatible webcams. Many modern
+Many other webcams are available online, with and without published UVC
+compatibility.  The FTC SDK supports **only** UVC compatible webcams. Many modern
 webcams are UVC compatible without specifically advertising it; often
 indicated by “no drivers needed”.
 

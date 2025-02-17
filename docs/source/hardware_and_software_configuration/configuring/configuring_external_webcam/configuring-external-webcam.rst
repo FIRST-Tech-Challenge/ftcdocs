@@ -4,8 +4,9 @@ Configuring an External Webcam with a Control Hub
 Introduction
 ------------
 
-The Game Manual Part 1 allows USB Video Class (UVC) cameras for
-robot vision tasks. If you are using a REV Robotics Control Hub, then
+The Competition Manual allows the use of USB Video Class (UVC) compatible
+cameras for computer vision-related tasks. See rule R715 for the full details.
+If you are using a REV Robotics Control Hub, then
 you will need to use an external webcam, since the Control Hub does not
 include a built-in camera. This document describes how to connect,
 configure and use an external webcam with a Control Hub.
@@ -69,10 +70,10 @@ When the configuration has been saved and activated, the external UVC
 camera can be programmed for robot vision tasks.
 
 The SDK software offers “webcam” versions of its sample Blocks and Java
-Op Modes, showing how to use the external UVC camera for Vuforia or
-TensorFlow operations.
+Op Modes, showing how to use the external UVC camera for VisionPortal operations.
 
-.. image:: images/blockswebcam.jpg
+.. image:: images/blockswebcam.png
+   :alt: Blocks code for initializing a webcam.
 
 Before opening and editing an Op Mode, verify that the intended
 configuration (with camera) is active. Also verify that the name
@@ -83,7 +84,7 @@ Image Preview
 -------------
 
 The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
-Modes using Vuforia or TensorFlow Object Detection (TFOD).
+Modes using VisionPortal.
 
 On a paired DRIVER STATION device, with the camera connected and
 configured, select a stream-enabled Op Mode. Press the INIT button, and
@@ -110,17 +111,37 @@ pressed to continue running the Op Mode.
 .. image:: images/DS-webcam-preview-CH-3.jpg
 
 **Important Note:** Because the Camera Stream feature is only available
-during the INIT phase of an Op Mode, you must ensure that the Vuforia
-library is activated in your Op Mode **before** the waitForStart
-command:
+during the INIT phase of an Op Mode, you must ensure that the VisionPortal
+is activated in your Op Mode **before** the waitForStart command:
 
-.. image:: images/activateBeforeWaitForStart.jpg
+.. image:: images/activateBeforeWaitForStart.png
+   :alt: The init code for the webcam must be called before waitForStart.
 
 If you do not see the Camera Stream option in your main menu on your
-DRIVER STATION, then verify that the Vuforia function is activated
+DRIVER STATION, then verify that the VisionPortal is activated
 before the waitForStart command in your Op Mode. Also make sure you’ve
 given the system enough time to initialize the Vuforia software before
 you check to see if Camera Stream is available.
+
+Scrcpy
+------
+
+To view the camera output from a computer while an OpMode is running, you
+can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this,
+you will first need to obtain an ADB connection with your Control Hub.
+This can be done by connecting a USB-A - USB-C cable to the USB-C port
+on your Control Hub. If on Windows, you may also connect to your Control
+Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__.
+Once connected, use `these instructions <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__
+to install and run scrcpy on your computer.
+
+.. image:: images/webcamWithScrcpy.jpg
+   :alt: The camera output viewed with scrcpy.
+
+**Important Note:** While scrcpy is a great way to view the camera output
+outside of competitions, the Competition Manual does not allow teams to
+have any devices other than the DRIVER STATION connected to your Control
+Hub during a match. See rule R708 for the full details.
 
 External HDMI Monitor
 ---------------------

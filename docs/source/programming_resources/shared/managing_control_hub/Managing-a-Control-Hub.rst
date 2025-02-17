@@ -515,9 +515,9 @@ computer includes the path to the adb.exe executable file. The
 `Android Developer website <https://developer.android.com/tools/adb>`__
 tells you where in your Android SDK installation you can find the
 adb.exe file. This
-`post <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__
+`post <https://helpdeskgeek.com/add-windows-path-environment-variable/>`__
 from
-`HelpDeskGeek.com <https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/>`__
+`HelpDeskGeek.com <https://helpdeskgeek.com/add-windows-path-environment-variable/>`__
 shows how to add a directory to your Windows PATH environment
 variable.
 

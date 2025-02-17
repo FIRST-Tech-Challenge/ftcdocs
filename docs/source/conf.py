@@ -317,14 +317,24 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
         ('contrib/index', "contrib.tex", "Contributing to FTC Docs", author, "manual"), # Contributing
-	   
+        ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
+        ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
+        ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
+        ('programming_resources/blocks/Blocks-Tutorial', "blocks.tex", 'Blocks Guide', author, "manual"), # Blocks
+        ('booklets/apriltags', "april_tags.tex", 'April Tags Guide', author, "manual"), # April Tags
+        ('booklets/control_system', "control_system.tex", 'Control System Guide', author, "manual"), # Control System
+        ('booklets/advanced', "advanced.tex", 'Advanced Topics, Programming Resources', author, "manual"), # Advanced Topics
+        ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
+        ('robot_building/rev/PowerPlay/part1/index', "rob_building_rev_p1.tex", 'Part 1 - Basic \'Bot Guide for REV', author, "manual"), # REV Bot Building Power Play P1
+        ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
+        ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managing Electrostatic Discharge', author, "manual"), # ESD
     ]
-        
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
+    app.add_js_file("js/adjust-css-vars.js")
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
