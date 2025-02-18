@@ -101,9 +101,9 @@ Some things like link spacing and how we link to things are under our control.
 - The footer links are too close together, making them a touch target problem (making it more likely a person would press the wrong link by accident).
 - We do not have a skip-to-main-content link. Or a way to skip or bypass the sidebar nav links.
 - We link to some PDF's without warning the user. We might need to warn/indicate links external to ftc-docs. I have been surprised a few times when links I thought would be an ftcdocs page actually took me to a PDF or to the FIRST Inspires main site.
-- FTC Docs has choosen to open links to external sites in new tabs. This is done with Javascript.
+- FTC Docs has chosen to open links to external sites in new tabs. This is done with Javascript.
 
-   This does preserve your current location in FTC Docs and may be convienient for sighted users.
+   This does preserve your current location in FTC Docs and may be convenient for sighted users.
    This is an accessibility issue related to unexpected context switching,
    and creates a new browser tab that some users might have trouble noticing or closing and the back browser command doesn't work.
    We mitigate this somewhat by adding an icon that indicates the link is to an external site.

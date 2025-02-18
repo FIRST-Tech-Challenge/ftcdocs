@@ -251,7 +251,7 @@ Use the following RST syntax:
 
 Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
 
-FTC Docs has choosen to open links to external sites in new tabs. This is done with Javascript.
+FTC Docs has chosen to open links to external sites in new tabs. This is done with Javascript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
 
 Links to Files

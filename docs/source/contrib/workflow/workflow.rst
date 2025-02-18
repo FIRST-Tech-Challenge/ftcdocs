@@ -1,7 +1,7 @@
 FTC Docs Workflows
 ===================
 .. note::
-    Please note that this flowchart is meant only for refernce for 
+    Please note that this flowchart is meant only for reference for 
     *maintainers* of the FTC Docs repository. For those looking 
     only to contribute to the FTC Docs documents please refer to 
     the :doc:`Contributing to FTC Docs </contrib/tutorials/index>` document.
