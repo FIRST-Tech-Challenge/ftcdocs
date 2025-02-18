@@ -25,7 +25,7 @@ Camera Calibration Methods
 There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL
 etc. 
 
--  For advanced teams, using `MRCAL <http://mrcal.secretsauce.net/>`__ is
+-  For advanced teams, using `MRCAL <https://mrcal.secretsauce.net/>`__ is
    likely the best option - it is a tool developed by NASA JPL that provides
    extensive data on how good your calibration is and what goes into the numerical
    optimization to arrive at the optimal parameters. 

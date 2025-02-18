@@ -237,8 +237,8 @@ Reference Frames
 
 In the above example. the yaw angle is given as (approximately) -90 degrees.
 But the camera is facing in the negative X direction, thus has a heading or yaw
-angle of -180 degrees in the official FTC `field coordinate system
-<https://ftc-docs.firstinspires.org/en/latest/game_specific_resources/field_coordinate_system/field-coordinate-system.html>`_
+angle of -180 degrees in the official FTC 
+:ref:`field coordinate system <first field coordinate system>`
 :
 
 .. figure:: images/50-field-axes.png
@@ -250,8 +250,7 @@ angle of -180 degrees in the official FTC `field coordinate system
 
 This sample OpMode uses a reference frame (coordinate system) that may be
 different than what you expect from other FTC navigation applications,
-including `IMU or robot axes
-<https://ftc-docs.firstinspires.org/en/latest/programming_resources/imu/imu.html?highlight=field%20coordinates#axes-definition>`_\
+including :ref:`IMU or robot axes <imu axes def>`
 , odometry device axes, and the FTC field system (shown above).  These
 differences typically result in basic and obvious changes in axis direction,
 axis swapping, and orthogonal angles (90-degree increments).

@@ -5,18 +5,63 @@ Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help
 your team stay organized and be successful throughout the season. Get started
 by exploring our robot building resources, control system and the game.  You
 may also find the Coach's Playbook, a weekly schedule of activities, helpful to
-organize the whole team under Team Management. Just click on the panel for the
+organize the whole team under Team Management. Just click on the button for the
 resource you want to explore!
-
-.. rst-class:: center
-   
-**I AM A NEW TEAM**
 
 .. grid:: 1 2 2 3
    :gutter: 2
-   
+
    .. grid-item-card::
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left
+
+      *FIRST* Core Values
+
+      ^^^
+
+      We express the *FIRST* philosophies of Gracious Professionalism 
+      and Coopertition through our Core Values.
+      
+      +++
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: ../../gracious_professionalism/gp
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Gracious Professionalism
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://www.firstinspires.org/node/20896
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Coopertition (external)
+
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://www.firstinspires.org/robotics/fll/core-values
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Core Values (external)
+
+   .. grid-item-card::
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
       Programming Resources
@@ -31,57 +76,59 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
+            .. button-ref:: ../../programming_resources/shared/choosing_program_lang/choosing-program-lang
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Choosing a Programming Tool
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../programming_resources/blocks/Blocks-Tutorial
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Blocks Programmming Tutorial
+         
+         .. div:: col-sm pl-1 pr-1
+
             .. button-ref:: ../../programming_resources/index
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Programming
+               Programming Resources
 
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ../../programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023
-               :ref-type: doc
-               :color: black
-               :outline:
-               :expand:
-
-               TensorFlow in CENTERSTAGE
 
    .. grid-item-card::
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
       Robot Building and Control
 
       ^^^
 
-      Look for programming and control system resources here.
+      Look for robot and control system resources here.
 
       +++
 
       .. div:: container-fluid p-0
 
          .. div:: col-sm pl-1 pr-1
-
-            .. button-link:: https://docs.revrobotics.com/kickoff-concepts/
-               :color: black
-               :outline:
-               :expand:
-
-               REV Kickoff Concepts
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-ref:: ../../control_hard_compon/ds_components/index
+         
+            .. button-ref:: ../../programming_resources/shared/control_system_intro/The-FTC-Control-System
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Driver Station
-
+               The FTC Control System
+            
          .. div:: col-sm pl-1 pr-1
 
             .. button-ref:: ../../control_hard_compon/rc_components/index
@@ -92,16 +139,44 @@ resource you want to explore!
 
                Robot Controller
 
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../control_hard_compon/ds_components/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Driver Station
+               
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-ref:: ../../control_hard_compon/index
+               :color: black
+               :outline:
+               :expand:
+
+               Hardware Component Overview
+
+         .. div:: col-sm pl-1 pr-1
+
+            .. button-link:: https://www.firstinspires.org/node/5181
+               :color: black
+               :outline:
+               :expand:
+
+               Robot Building Resources (external) 
+
    .. grid-item-card:: 
-      :class-header: sd-bg-secondary font-weight-bold sd-text-white
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Game Manual Links
+      Competition Manual
    
       ^^^
 
       Be sure you're following all of the rules of the competition! 
-      Game Manuals and Q&A are essential documents.
+      The Competition Manual is an essential document.
 
       +++
  
@@ -115,7 +190,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Game Manuals
+               Competition Manual
 
          .. div:: col-sm pl-1 pr-1
       
@@ -125,7 +200,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Field Manuals
+               Playing Field Resources
 
          .. div:: col-sm pl-1 pr-1
 
@@ -134,65 +209,125 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Game Q&A System
+               Game Question and Answer System (external)
 
    .. grid-item-card:: 
-      :link: https://www.firstinspires.org/node/5226
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
 
       Team Management
 
       ^^^
 
-      Links to team management resources.
+      Links to team management resources like team registration, mentor training/resources, team budget and fundraising, preparing for a competition, and more.
+      
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://www.firstinspires.org/node/5226
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Team Management (external)
       
    .. grid-item-card:: 
-      :link: ../../cad_resources/index
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left body
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
 
       CAD Resources 
 
       ^^^
 
-      Look for resources for Computer-Aided Design software and tutorials.
+      Look for resources for Computer-Aided Design (CAD) software.
+      
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: ../../cad_resources/index
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               CAD Resources
 
    .. grid-item-card:: 
-      :link: https://ftc-events.firstinspires.org/
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
 
       Event Info
 
       ^^^
 
-      Links to event management, events and event results.
+      FTC events and event results.
+            
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://ftc-events.firstinspires.org/
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FTC Events (external)
 
    .. grid-item-card:: 
-      :link: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf      
-      :link-type: url
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
 
       Awards
 
       ^^^
 
       Know the awards criteria before the event.
+      
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/manual-06
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               FTC Awards (external PDF)
 
    .. grid-item-card:: 
-      :link: /faq/faqs
-      :link-type: doc
-      :class-header: sd-bg-primary font-weight-bold sd-text-white
-      :class-body: sd-text-left
+      :class-header: sd-bg-secondary font-weight-bold sd-text-black
+      :class-body: sd-text-left 
 
       Frequently Asked Questions
 
       ^^^
 
-      Commonly asked team FAQs
+      Commonly asked team questions.
+      
+      +++
+      
+      .. div:: container-fluid p-0
+
+         .. div:: col-sm pl-1 pr-1
+      
+            .. button-ref:: /faq/faqs
+               :ref-type: doc
+               :color: black
+               :outline:
+               :expand:
+
+               Frequently Asked Questions
 

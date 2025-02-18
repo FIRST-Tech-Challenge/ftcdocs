@@ -55,7 +55,7 @@ Logitech C310
 
    Logitech C310 Camera
 
-The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.960-000585.html>`__
+The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.html>`__
 is available at some online retailers.
 
 **FTC Hot Take:**
@@ -123,7 +123,7 @@ Microsoft LifeCam HD-3000 v1/v2
 
    Microsoft LifeCam HD-3000 v1/v2
 
-The `Microsoft LifeCam HD-3000 <https://www.microsoft.com/en/accessories/products/webcams/lifecam-hd-3000>`__
+The `Microsoft LifeCam HD-3000 <https://www.digitalcameraworld.com/reviews/microsoft-lifecam-hd-3000-review>`__
 is available at some online retailers.
 
 **FTC Hot Take:**
@@ -148,9 +148,8 @@ calibration values** for the FTC VisionPortal default resolution of
 Other Webcams
 -------------
 
-Many other webcams are available online, with and without published `UVC
-compatibility <https://en.wikipedia.org/wiki/List_of_USB_video_class_devices>`__.
-The FTC SDK supports **only** UVC compatible webcams. Many modern
+Many other webcams are available online, with and without published UVC
+compatibility.  The FTC SDK supports **only** UVC compatible webcams. Many modern
 webcams are UVC compatible without specifically advertising it; often
 indicated by “no drivers needed”.
 
@@ -190,7 +189,7 @@ Arducam Global Shutter 120 FPS
    Arducam GS 120 Camera
 
 The `Arducam Global Shutter 120
-FPS <https://www.arducam.com/product/arducam-120fps-global-shutter-usb-camera-board-1mp-720p-ov9281-uvc-webcam-module-with-low-distortion-m12-lens-without-microphones-for-computer-laptop-android-device-and-raspberry-pi/>`__
+FPS <https://www.arducam.com/product/arducam-100fps-global-shutter-usb-camera-board-1mp-720p-ov9281-uvc-webcam-module-with-low-distortion-m12-lens-without-microphones-for-computer-laptop-android-device-and-raspberry-pi/>`__
 is available at some online retailers, including
 `Amazon <https://www.amazon.com/Arducam-Distortion-Microphones-Computer-Raspberry/dp/B096M5DKY6>`__.
 
