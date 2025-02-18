@@ -135,40 +135,50 @@ latex_elements = {
             [
             ] % after-code
 
-        \addtolength{\topmargin}{-23.80643pt}
         \setlength{\footskip}{36pt}
+        \setlength{\headheight}{45pt}  % Increase header height slightly more
+        \setlength{\topmargin}{-20pt}  % Adjust top margin to avoid content being cut off
+        \setlength{\headsep}{10pt}     % Increase space between header and body text
+
         \makeatletter
             \fancypagestyle{normal}{
-                \fancyhf{}
+                \fancyhf{} % Clear header and footer
                 \fancyfoot[LE]{{
                         \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
-                \fancyfoot[RE]{
-                    \py@HeaderFamily \py@release \hspace{4mm} \today
-                    }
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
-                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
-                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
-                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+                \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
+                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                }
+
+                % Single-line header layout
+                \fancyhead[C]{\makebox[\textwidth]{%
+                    \py@HeaderFamily FTC Docs % Left (document name)
+                    \hfill \@title, \thepage % Right (doc name & page number)
+                }}
 
             }
+
             \fancypagestyle{plain}{
                 \fancyhf{}
                 \fancyfoot[LE]{{
                         \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
-                \fancyfoot[RE]{
-                    \py@HeaderFamily \py@release \hspace{4mm} \today
-                    }
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
-                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
-                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
-                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
-            }
+                \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
+                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                }
 
+                % Ensure same header format for plain pages
+                \fancyhead[C]{\makebox[\textwidth]{%
+                    \py@HeaderFamily FTC Docs
+                    \hfill \@title, \thepage
+                }}
+            }
         \makeatother
+
 	""",
     "maketitle": r"""
         \newgeometry{left=0.5in,
@@ -212,7 +222,6 @@ latex_elements = {
     'atendofbody': rf"""
             \newpage
             \chapter{{Version Information}}
-            \section{{Document Information}}
             \large \textbf{{Author:}} \theauthor
             \\
             \large \textbf{{Version:}} {release}
@@ -221,16 +230,10 @@ latex_elements = {
             \\
             \large \textbf{{Generation Time:}} \DTMcurrenttime
             \\
-            \section{{Git Information}}
-            \large \textbf{{Git Hash: }} {gitInfo['commit']}
-            \\
-            \large \textbf{{Git Branch: }} {gitInfo['refs']}
-            \\
-            \large \textbf{{Git Commit Date: }} {gitInfo['author_date']}
-            \\
-            \large \textbf{{Git Commit Author:}} {gitInfo['author']}
-            \section{{Document License}}
             \large \textbf{{License:}} {license}
+            \\
+            \large \textbf{{Git Hash: }} {gitInfo['commit']}
+            
         """,
     "printindex": r"\footnotesize\raggedright\printindex",
 }
@@ -314,7 +317,6 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
-	('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
         ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
         ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
         ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
