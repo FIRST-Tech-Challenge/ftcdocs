@@ -518,12 +518,12 @@ Here's what a complex image looks like (with image reduced in size for this exam
 
 .. list-table:: 
 
-   * - .. figure:: /game_specific_resources/field_coordinate_system/images/image1.jpg
+   * - .. figure:: /game_specific_resources/field_coordinate_system/images/into-the-deep-field.png
           :alt: A square field with X, Y and Z axes shown. 
           :width: 25%
           :class: no-scaled-link
           
-          The Cascade Effect game field
+          Into The Deep game field
 
           In a square field configuration the two Alliances face each other across the field.
           The field is oriented such that the Red Wall is on the right as seen

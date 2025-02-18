@@ -23,11 +23,12 @@ Mission Statement
 
 ====
 
-FTC Docs is maintained by:
+FTC Docs is brought to you by:
 
-- Daniel Alfredo Diaz, Jr.
-- Elizabeth Gilibert
-- Chris Johannesen, Westside Robotics
-- Uday Vidyadharan, MFW Team 7350 Watt's NXT?
-
+- Daniel Alfredo Diaz, Jr — Maintainer.
+- Elizabeth Gilibert — Project Manager
+- Uday Vidyadharan, 7350 Watt's NXT? — Maintainer
+- Chris Johannesen, Westside Robotics — Contributor
+- Mike Silversides, BC FTA — Contributor
+- Miriam Sinton-Remes, 7182 Mechanical Paradox — Contributor
 A special thanks to everyone who has contributed to this project.

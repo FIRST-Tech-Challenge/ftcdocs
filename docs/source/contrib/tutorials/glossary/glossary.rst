@@ -23,7 +23,7 @@ FTC Docs Contributor Glossary
 
     Main Repository
         The main repository is the GitHub repository found at `github.com/FIRST-Tech-Challenge/ftcdocs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_. The files in this repository are the official documentation 
-        for the FIRST Tech Challenge and the ones that are built and deployed to the `FTC Docs website <https://docs.first-tech-challenge.org>`_. This should not be confused 
+        for the FIRST Tech Challenge and the ones that are built and deployed to the `FTC Docs website <https://ftc-docs.firstinspires.org/en/latest/>`_. This should not be confused 
         with the main branch of a repository, which is the default branch of a repository.
 
     Main
