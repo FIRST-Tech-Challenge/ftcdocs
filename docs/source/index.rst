@@ -120,7 +120,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    Booklets<booklets/index>
    Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
    Site Feedback Form<ftc_docs/form/form>
-   Workflow<ftc_docs/workflow/workflow>
+   Contributing to FTC Docs<contrib/index>
 
 .. Add Contrib Section here when added
 

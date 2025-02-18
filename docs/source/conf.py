@@ -11,8 +11,8 @@ copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
-release = '0.2'
-version = '0.2.0'
+release = '0.3'
+version = '0.3.0'
 # -- General configuration
 
 extensions = [
@@ -29,9 +29,18 @@ extensions = [
     'sphinxcontrib.googleanalytics',
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
+    'hoverxref.extension',
     "sphinxext.rediraffe",
     "ftcdocs_linkcheckdiff",
 ]
+
+# Options for HoverXRef extension
+
+hoverxref_roles = ['term']
+
+hoverxref_role_types = {
+    'term': 'tooltip'
+}
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False
@@ -295,6 +304,7 @@ linkcheck_allowed_redirects = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
@@ -321,6 +331,7 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
+        ('contrib/index', "contrib.tex", "Contributing to FTC Docs", author, "manual"), # Contributing
         ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
         ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
         ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
@@ -333,7 +344,6 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
         ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managing Electrostatic Discharge', author, "manual"), # ESD
     ]
-        
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
