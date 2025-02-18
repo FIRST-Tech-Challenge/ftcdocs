@@ -38,6 +38,10 @@ extensions = [
 
 hoverxref_roles = ['term']
 
+hoverxref_role_types = {
+    'term': 'tooltip'
+}
+
 autosectionlabel_prefix_document = True
 default_dark_mode = False
 todo_include_todos = False
