@@ -31,4 +31,5 @@ FTC Docs is brought to you by:
 - Chris Johannesen, Westside Robotics — Contributor
 - Mike Silversides, BC FTA — Contributor
 - Miriam Sinton-Remes, 7182 Mechanical Paradox — Contributor
+
 A special thanks to everyone who has contributed to this project.
