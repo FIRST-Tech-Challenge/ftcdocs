@@ -278,6 +278,10 @@ linkcheck_request_headers = {
     },
 }
 
+linkcheck_allowed_redirects = {
+    r'https://ftc-docs\.firstinspires\.org/.*': r'https://ftc-docs\.firstinspires\.org/en/latest/.*'
+}
+
 # Firstinspires redirects to login and break our link checker :)
 # ftc-ml.firstinspires.org does a redirect that linkcheck hates.
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
@@ -290,11 +294,16 @@ linkcheck_ignore = [
    r'https://wiki.dfrobot.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
+   r'https://eduspace.3ds.com/',
+   r'https://www.dell.com/',
    r'https://april.eecs.umich.edu/',
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
+   r'http://192.168.43.1',
+   r'http://192.168.49.1',
+   r'https://javadoc.io/doc/org.firstinspires.ftc/',
 ]
 
 latex_documents = [
@@ -314,6 +323,7 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('booklets/sdk', "sdk.tex", 'SDK Guide', author, "manual"), # SDK
         ('robot_building/rev/PowerPlay/part1/index', "rob_building_rev_p1.tex", 'Part 1 - Basic \'Bot Guide for REV', author, "manual"), # REV Bot Building Power Play P1
         ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
+        ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managing Electrostatic Discharge', author, "manual"), # ESD
     ]
         
 
@@ -321,6 +331,7 @@ def setup(app):
     app.add_css_file("css/ftc-rtd.css")
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
+    app.add_js_file("js/adjust-css-vars.js")
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
@@ -353,6 +364,12 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     html_context['github_user'] = 'FIRST-Tech-Challenge'
     html_context['github_repo'] = 'ftcdocs'
     html_context['github_version'] = 'main/docs/source/'
+
+    analytics = {
+    'gtag': 'G-7B5F7THY9C'
+    }
+
+
     
 
 # Configure RTD Theme

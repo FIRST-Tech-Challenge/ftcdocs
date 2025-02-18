@@ -602,7 +602,7 @@ Just click to expand the Tech Tip you'd like to read.
         - Stall Current
         - Max Power
         - Cost ($USD)
-      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/TETRIX-MAX-Standard-Scale-Servo-Motor>`__
+      * - `Tetrix MAX Standard (HiTec HS-485HB) <https://www.pitsco.com/products/tetrix-max-standard-scale-servo-motor>`__
         - 0.18 s/60°
         - 6 kg-cm
         - 1.2 A
@@ -668,7 +668,7 @@ Just click to expand the Tech Tip you'd like to read.
         - 4.0 A
         - 4.49 W
         - $52.95
-      * - `HiTec HS-805BB <https://hitecrcd.com/products/servos/analog/giant-analog/hs-805bb/product>`__
+      * - `HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__
         - 0.14 s/60°
         - 24.7 kg-cm
         - 6.0 A
@@ -1305,7 +1305,7 @@ Just click to expand the Tech Tip you'd like to read.
    implemented. Only FIRST staff and Tech Team members have access to the
    development source. Are you interested in joining the FIRST Tech Challenge
    Tech Team? Let us know by filling out `this survey
-   <https://forms.microsoft.com/r/W9gxDvsDsj>`__!
+   <https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__!
 
 .. dropdown:: Week of 02/19/2024 "Robot Wi-Fi Link Speed"
 
@@ -1518,7 +1518,6 @@ Just click to expand the Tech Tip you'd like to read.
       Driver Hub damage! Some teams have designed their own 
       `custom <https://www.thingiverse.com/thing:3386378>`__
       `Driver <https://www.thingiverse.com/thing:5439041>`__
-      `Station <https://www.facebook.com/TeamWolfCorp/photos/a.1627476360819953/3028421417392100/?type=3>`__
       `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__, 
       be creative and have fun!  
 
@@ -2001,7 +2000,7 @@ Just click to expand the Tech Tip you'd like to read.
    League All-Star Volunteer. AJ gives a great synopsis on many of the key
    technical updates for the CENTERSTAGE presented by RTX season and some
    background on those changes. Watch his video on the *FIRST* Tech Challenge
-   YouTube Channel here: https://youtu.be/uOcVGwdhG3E.
+   YouTube Channel here: https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be.
 
 .. dropdown:: Week of 09/11/2023 "Updating the Robot Controller App"
 
@@ -2030,7 +2029,7 @@ Just click to expand the Tech Tip you'd like to read.
    of the batteries have different battery chargers and different recommended
    charging settings for the batteries. When charging the `TETRIX MAX 12-Volt
    battery
-   <https://www.pitsco.com/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
+   <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__,
    on the battery the manufacturer recommends charging at the 0.9A charge rate
    (the lowest setting on most selectable battery chargers) using the `Global
    NiMH battery pack charger
