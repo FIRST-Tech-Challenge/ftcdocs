@@ -326,7 +326,7 @@ linkcheck_ignore = [
 ]
 
 latex_documents = [
-    (master_doc, output_name + '.tex', project, author, "manual"),
+    # (master_doc, output_name + '.tex', project, author, "manual"),
 ]
 
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
@@ -358,7 +358,7 @@ cookiebanner_enabled = False
 html_context = dict()
 
 # Configure for local official-esque builds
-if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
+if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['display_lower_left'] = True
 
     html_context['current_version'] = version
