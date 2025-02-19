@@ -322,6 +322,7 @@ linkcheck_ignore = [
    r'http://192.168.43.1',
    r'http://192.168.49.1',
    r'https://javadoc.io/doc/org.firstinspires.ftc/',
+   r"https://www\.gnu\.org(?:/.*)?",
 ]
 
 latex_documents = [
