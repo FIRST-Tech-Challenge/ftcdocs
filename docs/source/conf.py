@@ -11,8 +11,8 @@ copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
-release = '0.2'
-version = '0.2.0'
+release = '0.3'
+version = '0.3.0'
 # -- General configuration
 
 extensions = [
@@ -29,9 +29,18 @@ extensions = [
     'sphinxcontrib.googleanalytics',
     'sphinxcontrib.cookiebanner',
     'sphinxcontrib.mermaid',
+    'hoverxref.extension',
     "sphinxext.rediraffe",
     "ftcdocs_linkcheckdiff",
 ]
+
+# Options for HoverXRef extension
+
+hoverxref_roles = ['term']
+
+hoverxref_role_types = {
+    'term': 'tooltip'
+}
 
 autosectionlabel_prefix_document = True
 default_dark_mode = False
@@ -135,40 +144,50 @@ latex_elements = {
             [
             ] % after-code
 
-        \addtolength{\topmargin}{-23.80643pt}
         \setlength{\footskip}{36pt}
+        \setlength{\headheight}{45pt}  % Increase header height slightly more
+        \setlength{\topmargin}{-20pt}  % Adjust top margin to avoid content being cut off
+        \setlength{\headsep}{10pt}     % Increase space between header and body text
+
         \makeatletter
             \fancypagestyle{normal}{
-                \fancyhf{}
+                \fancyhf{} % Clear header and footer
                 \fancyfoot[LE]{{
                         \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
-                \fancyfoot[RE]{
-                    \py@HeaderFamily \py@release \hspace{4mm} \today
-                    }
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
-                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
-                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
-                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
+                \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
+                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                }
+
+                % Single-line header layout
+                \fancyhead[C]{\makebox[\textwidth]{%
+                    \py@HeaderFamily FTC Docs % Left (document name)
+                    \hfill \@title, \thepage % Right (doc name & page number)
+                }}
 
             }
+
             \fancypagestyle{plain}{
                 \fancyhf{}
                 \fancyfoot[LE]{{
                         \vspace{-5mm}
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
-                \fancyfoot[RE]{
-                    \py@HeaderFamily \py@release \hspace{4mm} \today
-                    }
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}}
-                \fancyhead[R]{{\vspace{5mm} \py@HeaderFamily \@title, \thepage}}
-                \fancyhead[L]{{\vspace{5mm} FTC Docs}}
-                \fancyhead[C]{{\vspace{5mm} \begin{center}\py@HeaderFamily \thechapter \end{center}}}
-            }
+                \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
+                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                }
 
+                % Ensure same header format for plain pages
+                \fancyhead[C]{\makebox[\textwidth]{%
+                    \py@HeaderFamily FTC Docs
+                    \hfill \@title, \thepage
+                }}
+            }
         \makeatother
+
 	""",
     "maketitle": r"""
         \newgeometry{left=0.5in,
@@ -212,7 +231,6 @@ latex_elements = {
     'atendofbody': rf"""
             \newpage
             \chapter{{Version Information}}
-            \section{{Document Information}}
             \large \textbf{{Author:}} \theauthor
             \\
             \large \textbf{{Version:}} {release}
@@ -221,16 +239,10 @@ latex_elements = {
             \\
             \large \textbf{{Generation Time:}} \DTMcurrenttime
             \\
-            \section{{Git Information}}
-            \large \textbf{{Git Hash: }} {gitInfo['commit']}
-            \\
-            \large \textbf{{Git Branch: }} {gitInfo['refs']}
-            \\
-            \large \textbf{{Git Commit Date: }} {gitInfo['author_date']}
-            \\
-            \large \textbf{{Git Commit Author:}} {gitInfo['author']}
-            \section{{Document License}}
             \large \textbf{{License:}} {license}
+            \\
+            \large \textbf{{Git Hash: }} {gitInfo['commit']}
+            
         """,
     "printindex": r"\footnotesize\raggedright\printindex",
 }
@@ -248,6 +260,10 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # Add a timeout to linkcheck to prevent check from simply hanging on poor websites
 
 linkcheck_timeout = 60
+
+# Configure linkcheck errors
+
+linkcheckdiff_errors = set(['broken'])
 
 # Change request header to avoid timeout errors with SOLIDWORKS/Autodesk because they are great like that
 
@@ -272,6 +288,10 @@ linkcheck_request_headers = {
     },
     "*": {
         "Accept": "text/html,application/xhtml+xml",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.google.com/",
+        "Accept-Encoding": "gzip, deflate",
     },
 }
 
@@ -284,6 +304,7 @@ linkcheck_allowed_redirects = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/', 
    "https://ftc-ml.firstinspires.org",
@@ -310,7 +331,7 @@ latex_documents = [
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
     print('Building booklets')
     latex_documents = [
-	('ftc_ml/index', "ftc_ml.tex", "FTC Machine Learning", author, "manual"), # FTC ML
+        ('contrib/index', "contrib.tex", "Contributing to FTC Docs", author, "manual"), # Contributing
         ('programming_resources/index', "prgrm_res.tex", "FTC Programming Resources", author, "manual"), # Programming Resources
         ('programming_resources/android_studio_java/Android-Studio-Tutorial', 'android_studios.tex', 'Android Studio Guide', author, "manual"), # Android Studio
         ('programming_resources/onbot_java/OnBot-Java-Tutorial', "onbot_java.tex", 'OnBot Java Guide', author, "manual"), # OnBot Java
@@ -323,7 +344,6 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
         ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managing Electrostatic Discharge', author, "manual"), # ESD
     ]
-        
 
 def setup(app):
     app.add_css_file("css/ftc-rtd.css")
@@ -368,7 +388,6 @@ if(os.environ.get("RTD_DOCS_BUILD") == "true"):
     }
 
 
-    
 
 # Configure RTD Theme
 html_theme_options = {

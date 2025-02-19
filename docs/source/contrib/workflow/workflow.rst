@@ -1,9 +1,25 @@
 FTC Docs Workflows
 ===================
+.. note::
+    Please note that this flowchart is meant only for reference for 
+    *maintainers* of the FTC Docs repository. For those looking 
+    only to contribute to the FTC Docs documents please refer to 
+    the :doc:`Contributing to FTC Docs </contrib/tutorials/index>` document.
 
 Overview
 --------
+
+The following diagram shows the various GitHub repositories and the actions and flow between them and the build artifacts.
+Pull Requests to the FTC Docs repository result in GitHub actions that build HTML pages and PDF files.
+The HTML pages ultimately end up on the ftc-docs.firstinspires.org website and the PDF files in AWS S3 file storage.
+
+In a web browser this diagram can be zoomed and panned by using a mouse. 
+Use the scroll wheel to zoom in and out. Right click and hold then drag to pan.
+The diagram is not keyboard accessible.
+A screen reader will read the various nodes and actions in the diagram and starts in the Translation section of the diagram.
+
 .. mermaid::
+   :zoom:
 
     flowchart LR
         private[Private Github Repo]
