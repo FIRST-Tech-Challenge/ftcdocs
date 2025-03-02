@@ -89,6 +89,13 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    Computer Aided Design (CAD) <cad_resources/index>
 
+.. toctree:: 
+   :caption: Electrostatic Discharge
+   :maxdepth: 1
+   :hidden:
+
+   Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+
 .. toctree::
    :caption: Manufacturing
    :maxdepth: 1
@@ -113,7 +120,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    Booklets<booklets/index>
    Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
    Site Feedback Form<ftc_docs/form/form>
-   Workflow<ftc_docs/workflow/workflow>
+   Contributing to FTC Docs<contrib/index>
 
 .. Add Contrib Section here when added
 

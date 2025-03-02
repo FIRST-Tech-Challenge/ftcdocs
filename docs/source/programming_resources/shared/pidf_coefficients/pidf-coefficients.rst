@@ -1,7 +1,7 @@
 Changing PIDF Coefficients
 ===========================
 
-The REV Robotics Expansion Hub allows a user to change the PIDF
+The REV Robotics Control Hub or REV Robotics Expansion Hub allows a user to change the PIDF
 coefficients used for closed loop motor control. The PIDF coefficients
 are specific to each channel (motor port) and to each RunMode.
 
@@ -12,9 +12,9 @@ uses the setPIDFCoefficients method of the DcMotorEx class to change the
 values. This method is not available with the standard DcMotor class.
 
 Note that changes made to the PIDF coefficients do not persist if you
-power cycle the REV Robotics Expansion Hub. If you need your changes to
+power cycle the REV Robotics Control Hub or REV Robotics Expansion Hub. If you need your changes to
 persist, consider modifying your OpMode to store state information on
-the Android phone. The Android Developer website has a tutorial on how
+the Control Hub or Android phone. The Android Developer website has a tutorial on how
 to save data from your app onto an Android device 
 `here <https://developer.android.com/training/data-storage>`__
 
@@ -30,11 +30,9 @@ to save data from your app onto an Android device
 
    /**
     * Created by Tom on 9/26/17.  Updated 9/24/2021 for PIDF.
-    * This assumes that you are using a REV Robotics Expansion Hub
+    * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller.  This OpMode uses the extended/enhanced
-    * PIDF-related functions of the DcMotorEx class.  The REV Robotics Expansion Hub
-    * supports the extended motor functions, but other controllers (such as the 
-    * deprecated Modern Robotics and Hitechnic DC Motor Controllers) do not.
+    * PIDF-related functions of the DcMotorEx class. 
     */
 
    @Autonomous(name="Concept: Change PIDF", group = "Concept")
@@ -52,7 +50,7 @@ to save data from your app onto an Android device
 
        public void runOpMode() {
            // Get reference to DC motor.
-           // Since we are using the Expansion Hub,
+           // Since we are using the Control Hub or Expansion Hub,
            // cast this motor to a DcMotorEx object.
            motorExLeft = (DcMotorEx)hardwareMap.get(DcMotor.class, "left_drive");
 
@@ -99,12 +97,9 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
 
    /**
     * Created by Tom on 9/26/17.  Updated 9/24/2021 for PIDF.
-    * This assumes that you are using a REV Robotics Expansion Hub
+    * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
     * as your DC motor controller.  This OpMode uses the extended/enhanced
     * PIDF-related functions of the DcMotorControllerEx class.
-    * The REV Robotics Expansion Hub supports the extended motor controller
-    * functions, but other controllers (such as the deprecated Modern Robotics
-    * and Hitechnic DC Motor Controllers) do not.
     */
 
    @Autonomous(name="Concept: Change PIDF Controller", group = "Concept")
@@ -128,7 +123,7 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
            waitForStart();
 
            // Get a reference to the motor controller and cast it as an extended functionality controller.
-           // We assume it's a REV Robotics Expansion Hub, which supports the extended controller functions.
+           // We assume it's a REV Robotics Control Hub or REV Robotics Expansion Hub, which supports the extended controller functions.
            DcMotorControllerEx motorControllerEx = (DcMotorControllerEx)motorLeft.getController();
 
            // Get the port number of our configured motor.
@@ -156,8 +151,5 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
        }
    }
 
-Note 1: As of SDK 7.0, the former PID-only methods are still
+Note: As of SDK 7.0, the former PID-only methods are still
 available, but deprecated.
-
-Note 2: the deprecated Modern Robotics and Hitechnic DC motor
-controllers do not support adjustable PID or PIDF coefficients.

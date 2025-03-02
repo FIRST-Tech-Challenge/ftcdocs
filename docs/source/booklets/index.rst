@@ -15,6 +15,7 @@ Control System
 Manufacturing
 ---------------
 - `3D Printing Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_
+- `Electrostatic Discharge <https://ftc-docs-cdn.ftclive.org/booklets/en/esd.pdf>`_
 
 Programming Resources
 ---------------------
@@ -26,6 +27,11 @@ Programming Resources
 - `April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_
 - `Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_
 - `FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_
+
+Contributing
+--------------
+
+- `Contributor Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/contrib.pdf>`_
 
 
 
