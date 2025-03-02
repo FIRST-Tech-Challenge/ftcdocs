@@ -179,9 +179,9 @@ html[data-theme='dark'] .document a:not(.sd-btn) {
   text-underline-offset: 0.2em;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):visited {
-  color: #995ECF;
+  color: #bb7feF;
   text-decoration-style: dotted;
-  text-decoration-color: #995ECF;
+  text-decoration-color: #bb7feF;
 }
 html[data-theme='dark'] .document a:not(.sd-btn):focus {
     outline: 1px solid #249ee8;
@@ -212,12 +212,3 @@ html[data-theme='dark'] .document a:not(.sd-btn):active {
     margin-left: .2em;
     text-decoration-line: none;
 }
-/* FIRST wordmark CSS */
-.wordmark {
-   font-family: Roboto, Arial, sans-serif;
-   font-style: italic;
-}
-.superscript {
-   vertical-align: super;
-}
-
