@@ -210,6 +210,14 @@ Using electrical tape to insulate these areas can be equally effective and may b
    Electrical tape can be used to insulate exposed or poorly insulated
    metal.
 
+.. warning:: An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+
+   The REV Control Hub has a 
+   `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
+   with devices plugged into the USB 2.0 port. 
+   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
+
 Step 3: Covering Exterior Metal Features with Electrically Insulated Material
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
