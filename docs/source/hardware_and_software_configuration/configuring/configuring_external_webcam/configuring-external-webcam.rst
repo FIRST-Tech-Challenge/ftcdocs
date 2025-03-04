@@ -39,11 +39,20 @@ for an online copy of the file).
 Connecting the Camera
 ---------------------
 
-The UVC camera plugs directly into the USB 2.0 port on the REV Control
+The UVC camera can plug directly into the USB 3.0 port on the REV Control
 Hub. Unlike the REV Expansion Hub, there is no need for an external
 powered USB hub.
 
 .. image:: images/USB-camera-Control-Hub.jpg
+   :alt: Control Hub with UVC camera connected.
+   
+.. warning:: An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+
+   The REV Control Hub has a 
+   `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
+   with devices plugged into the USB 2.0 port. 
+   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
 
 Camera Configuration
 --------------------
@@ -58,6 +67,7 @@ activity should detect the webcam and give it a default name of “Webcam
 1”.
 
 .. image:: images/webcam-config-CH.jpg
+   :alt: Screen shot showing the Scan button circled in yellow and the resulting USB device listed as Webcam 1.
 
 You can keep this default name (the sample Op Modes reference this name)
 or change it. If you change the webcam name, make sure your Op Modes
@@ -95,12 +105,14 @@ at this time, during which the game pads and START button are disabled
 for safety.
 
 .. image:: images/DS-webcam-preview-CH-1.jpg
+   :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
 The camera image will appear on the DRIVER STATION screen. Manually
 touch the image to refresh it. To preserve bandwidth, only one frame is
 sent at a time.
 
 .. image:: images/DS-webcam-preview-CH-2.jpg
+   :alt: Driver Station screen shot showing the camera image. 
 
 This option may be used to adjust the camera, with frequent manual image
 refreshing as needed. When finished, open the main menu and select
@@ -109,13 +121,14 @@ close, the game pads will be enabled, and the START button may be
 pressed to continue running the Op Mode.
 
 .. image:: images/DS-webcam-preview-CH-3.jpg
+   :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
 **Important Note:** Because the Camera Stream feature is only available
 during the INIT phase of an Op Mode, you must ensure that the VisionPortal
 is activated in your Op Mode **before** the waitForStart command:
 
 .. image:: images/activateBeforeWaitForStart.png
-   :alt: The init code for the webcam must be called before waitForStart.
+   :alt: Blocks code showing the INIT code for the webcam is called before wait for start.
 
 If you do not see the Camera Stream option in your main menu on your
 DRIVER STATION, then verify that the VisionPortal is activated
@@ -136,7 +149,7 @@ Once connected, use `these instructions <https://github.com/Genymobile/scrcpy?ta
 to install and run scrcpy on your computer.
 
 .. image:: images/webcamWithScrcpy.jpg
-   :alt: The camera output viewed with scrcpy.
+   :alt: Screen shot showing the camera output viewed with scrcpy.
 
 **Important Note:** While scrcpy is a great way to view the camera output
 outside of competitions, the Competition Manual does not allow teams to
@@ -150,6 +163,7 @@ Alternatively, camera output can be viewed on a display monitor or other
 device plugged into the HDMI port on the REV Control Hub.
 
 .. image:: images/HDMIMonitor.jpg
+   :alt: Photo showing an external HDMI monitor displaying the camera output from a connected control hub.
 
 **Important Note:** While a portable display monitor can be used to view
 or troubleshoot the camera stream on your Control Hub, teams are not
