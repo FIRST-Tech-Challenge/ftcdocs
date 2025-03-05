@@ -19,7 +19,7 @@ Example use cases for a webcam are:
 
 - :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
 - determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
-- using OpenCV to :doc:`detect colours or shapes <../../../color_processing/index>` of game elements.
+- using OpenCV to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
 
 Additional Resources
 --------------------

@@ -26,7 +26,7 @@ USB Type-A and USB-C and USB Mini-B refer to the type of connector.
 
 - USB Type-A is a larger rectangular connector.
 - USB-C is a smaller oval connector.
-- USB Mini-B is a smaller rectangular connector with a bevelled edge.
+- USB Mini-B is a smaller rectangular connector with a beveled edge.
 
 USB 2.0
 ^^^^^^^
