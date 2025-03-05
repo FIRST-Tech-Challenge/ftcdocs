@@ -133,7 +133,7 @@ is activated in your Op Mode **before** the waitForStart command:
 If you do not see the Camera Stream option in your main menu on your
 DRIVER STATION, then verify that the VisionPortal is activated
 before the waitForStart command in your Op Mode. Also make sure you’ve
-given the system enough time to initialize the Vuforia software before
+given the system enough time to initialize the VisionPortal software before
 you check to see if Camera Stream is available.
 
 Scrcpy
@@ -142,7 +142,7 @@ Scrcpy
 To view the camera output from a computer while an OpMode is running, you
 can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this,
 you will first need to obtain an ADB connection with your Control Hub.
-This can be done by connecting a USB-A - USB-C cable to the USB-C port
+This can be done by connecting a USB-A to USB-C cable to the USB-C port
 on your Control Hub. If on Windows, you may also connect to your Control
 Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__.
 Once connected, use `these instructions <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__

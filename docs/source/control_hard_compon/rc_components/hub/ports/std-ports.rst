@@ -7,13 +7,18 @@ Battery Ports
 
 These `XT-30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ 
 connectors are used to power your REV Hub as well as all the devices connected to it. 
-As the connector is known for its fragility it is highly recommended you be careful when using it.
-It is also recommended that you expand your connector prongs periodically. For more information on this 
-process please watch this `video <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. While this video features an XT60, a larger version 
-of the XT-30, and a drone the advice is much the same. This port may also be used 
-to connect a grounding strap. For more information on legal grounding straps see ``<RE15>``, 
-:ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. For more information on this port please see 
+For more information on this port please see the
 `REV Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#input-power-specifications>`_.
+This port may also be used to connect a grounding strap. For more information on legal grounding straps see 
+the Power Distribution section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_.
+
+As the XT30 connector is known for its fragility it is highly recommended you be careful when using it.
+It is also recommended that you expand your connector prongs periodically. 
+REV has a `troubleshooting article <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ 
+specific to expanding the pins on the XT30 connector.
+For more information on this 
+process please watch this `video <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. While this video features an XT60, a larger version 
+of the XT-30, and a drone, the advice is much the same. 
 
 Motor Ports
 -------------
@@ -45,8 +50,9 @@ Servo Ports
 
 These 0.1” Header pins are used to power and control your servos. There are 6 ports on each hub and they are numbered from 0-5. 
 Be mindful of matching the polarity of the device attached to this port as it is possible to flip the connector. 
-For increasing the power supplied to these servos it is possible to use a Servo Power Module that is in compliance with 
-``<RE05>``, :ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. For more information on this port 
+For increasing the power supplied to these servos it is possible to use a Servo Power Module. 
+See the Motors & Actuators section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ for approved servo power devices.
+For more information on this port 
 please see `REV Servo Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#servo-port-specifications>`_.
 
 +5V Power Ports
@@ -54,17 +60,17 @@ please see `REV Servo Port Documentation <https://docs.revrobotics.com/duo-contr
 
 These 0.1” Header pins are used to power and control various appliances. There
 are two ports on each hub. These connectors can be used for a limited range of
-applications in FIRST Tech Challenge, such as powering powered USB hubs. For more
+applications in *FIRST* Tech Challenge, such as powering powered USB hubs. For more
 information on this port please see 
 `REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ and 
-:ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`.
+the Power Distribution section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_.
 
 Analog Ports
 --------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for your analog inputs. There are 2 of these ports on each hub. These ports 
-have 4 channels labeled from 0-4. This port can be used to connect to a standalone analog sensor. A common example of an 
+have 4 channels labelled from 0-4. This port can be used to connect to a standalone analog sensor. A common example of an 
 analog sensor is a `potentiometer <https://www.revrobotics.com/rev-31-1155/>`_. An analog sensor is one that outputs a range 
 of values rather than digital which alternates between one of two states. For more information on this port please see 
 `REV Analog Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#analog-port-specifications>`_.
@@ -73,7 +79,7 @@ Digital Ports
 ---------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
+style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labelled from `0-7`. 
 A device attached to a digital port alternates between one of two states (e.g., on and off). One such device would be a button. It is important
 to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one channel (N+1).
 
@@ -87,8 +93,8 @@ I2C Ports
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for connecting I2C sensors. Each port is a single I2C bus where multiple sensors can be 
-attached. Using sensors with identical addresses on the same bus can cause problems. The range of I2C sensors that can be connected is limited 
-by :ref:`Game Manual Part 1 <manuals/game_manuals/game_manuals:game manuals>`. While it is possible to use a large range of 
+attached. Using sensors with identical addresses on the same bus can cause problems. 
+While it is possible to use a large range of 
 sensors, the vast majority of I2C sensors do not have drivers built into the SDK. It is possible to use community drivers 
 or create your own. For more information on this port please see 
 `REV I2C Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#i2c-port-specifications>`_.
@@ -106,5 +112,5 @@ UART
 -----
 
 This connector is used only for **Developer** (non end user) debugging. Its use is not supported 
-by FIRST.
+by *FIRST*.
 

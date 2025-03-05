@@ -26,7 +26,7 @@ USB Type-A and USB-C and USB Mini-B refer to the type of connector.
 
 - USB Type-A is a larger rectangular connector.
 - USB-C is a smaller oval connector.
-- USB Mini-B is a smaller rectagular connector with a beveled edge.
+- USB Mini-B is a smaller rectangular connector with a bevelled edge.
 
 USB 2.0
 ^^^^^^^
@@ -55,14 +55,14 @@ laptop for loading the SDK but can also be used with a UVC Camera.
 MINI USB
 ^^^^^^^^
 
-This is a female USB Mini-B port that implements USB 2.0. Iis used only to communicate directly to
+This is a female USB Mini-B port that implements USB 2.0. It is used only to communicate directly to
 the I/O system. In this case, it is only for the purpose of uploading firmware
 to the device.
 
 HDMI
 -----
 
-The Control Hub lacks a display of its own even though it is a fully-fledged
+The Control Hub lacks a display of its own even though it is an
 Android device. The Control Hub has an HDMI port that provides video output for
 the device; this HDMI port can be used to connect to an external display.
 
