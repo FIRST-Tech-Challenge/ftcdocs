@@ -69,7 +69,7 @@ Analog Ports
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for your analog inputs. There are 2 of these ports on each hub. These ports 
-have 4 channels labelled from 0-4. This port can be used to connect to a standalone analog sensor. A common example of an 
+have 4 channels labeled from 0-4. This port can be used to connect to a standalone analog sensor. A common example of an 
 analog sensor is a `potentiometer <https://www.revrobotics.com/rev-31-1155/>`_. An analog sensor is one that outputs a range 
 of values rather than digital which alternates between one of two states. For more information on this port please see 
 `REV Analog Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#analog-port-specifications>`_.
@@ -78,7 +78,7 @@ Digital Ports
 ---------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labelled from `0-7`. 
+style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
 A device attached to a digital port alternates between one of two states (e.g., on and off). One such device would be a button. It is important
 to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one channel (N+1).
 
