@@ -18,7 +18,7 @@ Type of External Camera
 -----------------------
 
 Theoretically, any USB Video Class (UVC) camera should work with the 
-system. However, FIRST recommends using UVC web cameras from Logitech.
+system. However, *FIRST* recommends using UVC web cameras from Logitech.
 The following cameras have been tested and calibrated to work accurately
 with SDK software:
 
@@ -53,6 +53,8 @@ powered USB hub.
    with devices plugged into the USB 2.0 port. 
    Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
+   
+If you wish to connect two webcams see `Cameras and USB Hubs`_.
 
 Camera Configuration
 --------------------
@@ -180,3 +182,56 @@ For custom streams, advanced users of Android Studio may consult the
 and
 `CameraStreamSource <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__
 classes.
+
+Cameras and USB Hubs 
+^^^^^^^^^^^^^^^^^^^^
+
+You can already connect a UVC webcam into the USB 3.0 port of a Control Hub.
+But what if you want to use two webcams?
+Perhaps you want the robot to be able to look forward and/or behind without having to spin the robot. 
+In order to use two webcams on the Control Hub's USB 3.0 port you can add a USB Hub.
+This avoid the ESD issue with devices on the USB 2.0 port.
+
+.. note:: If you're using two standard UVC webcams you are not required to use a powered USB hub.
+
+Another use case for a USB hub is if you have a `Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ camera. 
+This device has its own processor on board and one drawback of this is that the camera always draws power, even when an opMode is not running.
+By adding a powered USB hub the Limelight will not drain your robot's battery.
+
+One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. 
+It provides USB 3.0 data speeds to all ports and it has a USB C port that can supply power to all connected devices.
+
+.. note:: At the time this was written, the Acer ODK350 hub was not listed on Acer's website, but was available on Amazon's website.
+   
+   Not all USB hubs are powered hubs.
+   Typically, you can't just plug a power bank into any of the USB hub's ports. It must be a port that is designed to supply power.
+   So if you looking for a powered USB hub there should be a note in the specifications something like the following:
+   *Note: This USB C port (with IN 5V printed) can not be used for data transfer and charge other devices. It can only supply power for the other 4 USB ports.*
+
+.. figure:: images/two-webcams.jpg
+   :alt: A USB hub with two webcams is connected to a REV Control Hub.
+   
+   Acer ODK350 USB hub
+   
+   The USB Hub is connected to the USB 3.0 port of the Control Hub.
+   A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
+   Two Logitech 920 webcams are connected to the USB hub.
+
+See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ sample program that demonstrates swapping between the two cameras to detect AprilTags.
+
+The other use case is using a Limelight a with a powered USB hub to reduce robot battery drain.
+This example shows both a Limelight and a webcam.
+
+.. figure:: images/webcam-and-limelight-3a.jpg
+   :alt: A USB hub with a webcam and a Limelight 3A connected to a REV Control Hub.
+
+   Acer ODK350 USB hub
+     
+   The USB Hub is connected to the USB 3.0 port of the Control Hub.
+   A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
+   A Logitech 270 webcam and a Limelight 3A are connected to the USB hub.
+
+The Limelight 3A is not a compatible VisionPortal device. So you can't use the AprilTag switchable camera sample code.
+But you can still get results from either the Limelight and/or the VisionPortal webcam and use them as required.
+
+
