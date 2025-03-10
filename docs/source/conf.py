@@ -102,7 +102,7 @@ latex_engine = "xelatex"
 
 latex_logo = "assets/Latex_Logo_FTC.png"
 
-latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Center_Stage_Title.pdf']
+latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Into_The_Deep_Title.pdf']
 
 # Disable xindy support
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
@@ -197,7 +197,7 @@ latex_elements = {
         \pagenumbering{Roman}
         \begin{titlepage}
 
-            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}}
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Into_The_Deep_Title.pdf}}
             \vspace*{113mm}
             \begin{flushright}
                 \begin{center}
@@ -326,7 +326,7 @@ linkcheck_ignore = [
 ]
 
 latex_documents = [
-    # (master_doc, output_name + '.tex', project, author, "manual"),
+    (master_doc, output_name + '.tex', project, author, "manual"),
 ]
 
 if(os.environ.get("BOOKLETS_BUILD") == "true"):
