@@ -201,7 +201,7 @@ latex_elements = {
             \vspace*{113mm}
             \begin{flushright}
                 \begin{center}
-                    \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
+                    \textbf{\Large {2024-2025 \emph{FIRST} Tech Challenge}}
                     \\
                     \vspace{4mm}
                     \textbf{\Huge {\thetitle}}
