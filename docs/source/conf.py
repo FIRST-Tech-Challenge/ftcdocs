@@ -102,7 +102,7 @@ latex_engine = "xelatex"
 
 latex_logo = "assets/Latex_Logo_FTC.png"
 
-latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Center_Stage_Title.pdf']
+latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Into_The_Deep_Title.pdf']
 
 # Disable xindy support
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
@@ -197,11 +197,11 @@ latex_elements = {
         \pagenumbering{Roman}
         \begin{titlepage}
 
-            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Center_Stage_Title.pdf}}
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Into_The_Deep_Title.pdf}}
             \vspace*{113mm}
             \begin{flushright}
                 \begin{center}
-                    \textbf{\Large {2023-2024 \emph{FIRST} Tech Challenge}}
+                    \textbf{\Large {2024-2025 \emph{FIRST} Tech Challenge}}
                     \\
                     \vspace{4mm}
                     \textbf{\Huge {\thetitle}}
@@ -358,7 +358,7 @@ cookiebanner_enabled = False
 html_context = dict()
 
 # Configure for local official-esque builds
-if(os.environ.get("LOCAL_DOCS_BUILD") == "true"):
+if(os.environ.get("DOCS_BUILD") == "true"):
     html_context['display_lower_left'] = True
 
     html_context['current_version'] = version
