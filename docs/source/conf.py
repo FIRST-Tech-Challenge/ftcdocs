@@ -31,7 +31,7 @@ extensions = [
     'sphinxcontrib.mermaid',
     'hoverxref.extension',
     "sphinxext.rediraffe",
-#    "ftcdocs_linkcheckdiff",
+    "ftcdocs_linkcheckdiff",
 ]
 
 # Options for HoverXRef extension
