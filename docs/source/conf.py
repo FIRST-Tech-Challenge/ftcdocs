@@ -6,8 +6,8 @@ import sys
 import urllib.parse as urlparse
 import gitinfo
 
-project = 'FIRST Tech Challenge Docs'
-copyright = 'FIRST'
+project = '<span class="wordmark">FIRST</span> Tech Challenge Docs'
+copyright = 'For Inspiration and Recognition of Science and Technology'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
@@ -31,7 +31,7 @@ extensions = [
     'sphinxcontrib.mermaid',
     'hoverxref.extension',
     "sphinxext.rediraffe",
-    "ftcdocs_linkcheckdiff",
+#    "ftcdocs_linkcheckdiff",
 ]
 
 # Options for HoverXRef extension
