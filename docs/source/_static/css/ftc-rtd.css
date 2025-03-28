@@ -145,3 +145,23 @@ div.ethical-sidebar, div.ethical-footer {
 .sphinx-tab img {
 	margin-bottom: 24px;
 }
+
+.wordmark {
+   font-family: Roboto, Arial, sans-serif;
+   font-style: italic;
+}
+.superscript {
+   vertical-align: super;
+}
+.sr-only-no-select {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+  -webkit-user-select: none; /* Safari no select*/
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
