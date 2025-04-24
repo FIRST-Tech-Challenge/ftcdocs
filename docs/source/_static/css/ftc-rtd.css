@@ -151,7 +151,10 @@ div.ethical-sidebar, div.ethical-footer {
    font-style: italic;
 }
 .superscript {
+   font-family: Roboto, Arial, sans-serif;
    vertical-align: super;
+   font-size: 60%;
+   padding-left: 2px;
 }
 .sr-only-no-select {
 position:absolute;
