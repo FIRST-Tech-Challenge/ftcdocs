@@ -149,7 +149,7 @@ div.ethical-sidebar, div.ethical-footer {
 .wordmark {
    font-family: Roboto, Arial, sans-serif;
    font-style: italic;
-   display: inline-block;
+   padding-right: 2px;
 }
 .superscript {
    font-family: Roboto, Arial, sans-serif;
