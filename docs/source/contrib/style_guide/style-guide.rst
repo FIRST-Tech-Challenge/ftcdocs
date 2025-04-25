@@ -184,7 +184,7 @@ The standard text formatting markup is quite simple - use:
 
 * One Asterisk: \*text\* for emphasis (italics) - like *text*
 * Two Asterisks: \*\*text\*\* for strong emphasis (boldface) - like **text**
-* Two Backquotes: \`\`text\`\` for literals - like ``text``
+* Two Backticks: \`\`text\`\` for literals - like ``text``
 
 Use literals for filenames, function, and variable names.
 
@@ -211,7 +211,7 @@ Use one space between sentences.
 Tables
 ------
 
-There are many ways to create tables, FTC Docs perfers the `list <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ 
+There are many ways to create tables, FTC Docs prefers the `list <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ 
 or `CSV <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table-1>`_ style of RST table. 
 Please avoid the ASCII art form of table.
 
@@ -240,7 +240,7 @@ Which creates the following:
 Admonitions
 -----------
 
-Admonitions are RST directives that provide special formating to the admonition text.
+Admonitions are RST directives that provide special formatting to the admonition text.
 In FTC docs admonitions have a color heading, followed by a color shaded block with the admonition text.
 The list of admonitions is: "attention", "caution", "danger", "error", "hint", "important", "note", "tip", "warning".
 FTC Docs has lots of "note" and "warning" admonitions.

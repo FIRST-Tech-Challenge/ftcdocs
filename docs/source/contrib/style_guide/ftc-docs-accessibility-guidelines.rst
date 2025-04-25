@@ -89,9 +89,9 @@ Success Criterion 2.4.4 Link Purpose (In Context) - Level A
 
 The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
 
-- FTC Docs has intentially choosen to open links to external sites in new tabs. This is done with Javascript.
+- FTC Docs has intentionally chosen to open links to external sites in new tabs. This is done with JavaScript.
 
-  This does preserve your current location in FTC Docs and may be convienient for sighted users who can easily close the new tab.
+  This does preserve your current location in FTC Docs and may be convenient for sighted users who can easily close the new tab.
   This is an accessibility issue related to unexpected context switching, it also creates a new browser tab that some users might have trouble noticing or closing.
   It also prevents the *back* browser command from working.
   
@@ -104,7 +104,7 @@ The purpose of each link can be determined from the link text alone or from the 
 **FTC Docs To Do**
 
 - We link to some files like a PDF without warning the user. PDFs often result in a context switch to a PDF viewer.
-- I have been surpised a few times when links I thought would be a FTC Docs page actually took me to a PDF or to *FIRST* Inspires web page.
+- I have been surprised a few times when links I thought would be a FTC Docs page actually took me to a PDF or to *FIRST* Inspires web page.
   The Persona Pages are bad for this. There are grid button links that sometimes take you to a ftc-docs page but often take you to another site with no warning.
   Ideally all Persona pages should link to FTC Docs pages, some of which might be Gateway Pages to the main *FIRST* site.
 - See the :ref:`contrib/style_guide/style-guide:links` section of the Style Guide.
@@ -119,7 +119,7 @@ Make it easier for users to operate functionality through various inputs beyond 
 
 - We might want to enhance functionality for mobile users and other forms of input.
   But we need to be careful not to introduce problems. 
-  For example, important content in a tooltip that only shows with mouse hover and is not keyboard accessible or accessbile on a mobile device.
+  For example, important content in a tooltip that only shows with mouse hover and is not keyboard accessible or accessible on a mobile device.
 
 Principle 3 – Understandable
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -135,7 +135,7 @@ Make text content readable and understandable.
 
 - Plain language means communicating in a way that’s clear, straightforward, and easy to understand. It helps audiences “get” what you’re saying immediately. See https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024.
 - Some FTC Docs pages have acronyms and excess punctuation that screen readers had trouble with. Revising the text to make it more accessible would make it more readable and understandable for all users.
-- It's ok to discuss a complex subject, but given the wide audience for FTC Docs content authors should consider perhaps a simplified introduction or summary that builds in complexity and/or add links to background information.
+- It's OK to discuss a complex subject, but given the wide audience for FTC Docs content authors should consider perhaps a simplified introduction or summary that builds in complexity and/or add links to background information.
 
 Principle 4 – Robust
 ^^^^^^^^^^^^^^^^^^^^
