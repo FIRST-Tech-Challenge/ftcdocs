@@ -581,7 +581,7 @@ There is a blank line before and after the caption.
 
 .. code:: ReST
 
-   .. figure:: images/into-the-deep-field.png.jpg
+   .. figure:: images/into-the-deep-field.png
       :alt: A square field with X, Y and Z axes shown.
    
       The Into The Deep game field
