@@ -18,7 +18,7 @@ many new features and syntax that can make it easier to write code and less pron
 the features of Kotlin include:
 
 * Full interoperability with Java; you can use Java classes and libraries from Kotlin and vice versa.
-* Dynamic typing; Kotlin allows you to use dynamic typing when needed, that is, you don't need
+* Type inference; Kotlin allows you to use type inference when needed, that is, you don't need
   to specify the type of a variable when it can be inferred from the context
   (``var myString = "Hi!"``).
 * No semicolons; Kotlin does not require semicolons to end statements.
