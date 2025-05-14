@@ -6,7 +6,7 @@ import sys
 import urllib.parse as urlparse
 import gitinfo
 
-project = '<span class="wordmark">FIRST</span> Tech Challenge Docs'
+project = 'FIRST Tech Challenge Docs'
 copyright = 'For Inspiration and Recognition of Science and Technology'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'

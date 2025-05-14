@@ -139,13 +139,7 @@ div.ethical-sidebar, div.ethical-footer {
     left: -99999px;
 }
 
-/* ===================================== */
-/* ====== START SPHINX TABS CSS ======== */
-
-.sphinx-tab img {
-	margin-bottom: 24px;
-}
-
+/* FIRST branding */
 .wordmark {
    font-family: Roboto, Arial, sans-serif;
    font-style: italic;
@@ -168,4 +162,13 @@ overflow:hidden;
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+/* ===================================== */
+/* ====== START SPHINX TABS CSS ======== */
+
+.sphinx-tab img {
+	margin-bottom: 24px;
+}
+
+
 
