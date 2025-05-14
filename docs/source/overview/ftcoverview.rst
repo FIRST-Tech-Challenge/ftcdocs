@@ -1,18 +1,4 @@
-.. role:: wordmark
-
-.. role:: superscript
-
-.. |FIRST| replace:: :wordmark:`FIRST`
-
-.. |FTC| replace:: :wordmark:`FIRST` Tech Challenge
-
-.. |reg| replace:: :superscript:`®`
-
-.. |FIRSTreg| replace:: :wordmark:`FIRST`\ :superscript:`®`
-
-.. |FTCreg| replace:: :wordmark:`FIRST`\ :superscript:`®` Tech Challenge
-
-About the |FTCreg|
+About the |FTC|
 ====================================
 
 It’s way more than building robots. |FTCreg| teams (up to 15 team
@@ -48,8 +34,8 @@ Teams compete at regional events leading up to an exciting |text|_ that conclude
 
 |
 
-Start a |FIRST| Tech Challenge Team
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Start a |FTC| Team
+^^^^^^^^^^^^^^^^^^
 
 |FTC| teams design and build a robot using a reusable kit of
 parts and compete within a common set of game rules to play an exciting field
@@ -58,7 +44,7 @@ season and is always a blast!
 
 Student and adult team members are encouraged to bring any skills they already
 have, like programming, electronics, metalworking, graphic design, web
-creation, public speaking, videography, and many more. |FIRST| Tech Challenge
+creation, public speaking, videography, and many more. |FTC|
 welcomes every student, with or without special skills.
 
 If you are looking to incorporate |FIRST| into your classroom or after-school
@@ -73,8 +59,8 @@ Visit |text2|_ to learn about the essential steps to starting a team!
 .. _text2: https://www.firstinspires.org/robotics/ftc/start-a-team
 .. |text2| replace:: start a |FIRST| Tech Challenge Team
 
-About |FIRST| Tech Challenge Kahoot
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+About |FTC| Kahoot
+^^^^^^^^^^^^^^^^^^
 
 A Kahoot is a self-led learning game to build and test your knowledge.
 |FIRST| has created a series of Kahoots in the areas of |FTC|, robots, game play, events and awards. 
