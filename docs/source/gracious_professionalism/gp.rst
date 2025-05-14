@@ -24,7 +24,7 @@ the end, *Gracious Professionalism* is part of pursuing a meaningful life. When
 professionals use knowledge in a gracious manner and individuals act with
 integrity and sensitivity, everyone wins and society benefits.
 
-.. figure:: images/GoodStuff.png
+.. image:: images/GoodStuff.png
    :alt: A photo of Dr. Woodie Flowers with the words Gracious Professionalism, Feelings, Knoweledge, Good Stuff.
    
 |
@@ -55,6 +55,7 @@ gracious nature of our community and our ongoing commitment to empowering
 educators and building global citizens.
 
 .. figure:: images/wf_fireworks.jpg
+   :alt: Dr. Woodie Flowers with fireworks in the background.
 
    Dr. Woodie Flowers, (1943 - 2019)
 
