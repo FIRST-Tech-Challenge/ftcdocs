@@ -10,7 +10,7 @@ About the Playing Field
 -----------------------
 There are multiple configurations of the playing field that can be used. For traditional games, the playing field is a part of the ARENA that includes the 12 ft. x 12 ft. (3.66 m x 3.66 m) field and all
 the elements described in the official field drawings. For remote games, the playing field is a part of the ARENA that includes the 12 ft. x 8 ft. (3.66 m x 2.44 m) field and all the elements described 
-in the official field drawings. The base field stays the same for all games but the game elements are subject to change as per the :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`.
+in the official field drawings. The base field stays the same for all games but the game elements are subject to change as per the :ref:`Competition Manual <team_resources/team_resources:team resources>`.
 
 There are multiple configurations of the playing field that can be used. For traditional games, the playing field is a part of the Arena that includes the 12 ft. x 12 ft. (3.66 m x 3.66 m) field and all
 the elements described in the official field drawings. For remote games, the playing field is a part of the Arena that includes a 12 ft. x 8 ft. (3.66 m x 2.44 m) field and all the elements described 

@@ -15,7 +15,7 @@ images also do not represent using a
 `Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_, 
 which is recommended for teams to use for component management and
 transportation. See the 
-:doc:`Competition Manual <../../manuals/competition_manual/competition_manual>` for more information 
+:doc:`Competition Manual <../../team_resources/team_resources>` for more information 
 on Driver Station Carriers.
 
 .. tab-set::

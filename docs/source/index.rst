@@ -327,13 +327,13 @@ The main menu contains links to the top level content. The following are quick l
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-ref:: manuals/competition_manual/competition_manual
+            .. button-ref:: team_resources/team_resources
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Competition Manual
+               All Team Resources
 
          .. div:: col-sm pl-1 pr-1
       

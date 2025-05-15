@@ -60,7 +60,7 @@ Robot Main Battery
 
 The main power of a robot comes from one 12v battery. The battery may be one of
 the batteries shown above. Refer to the 
-:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>` 
+:ref:`Competition Manual <team_resources/team_resources:team resources>` 
 for exact information on allowed batteries. Note that it is typically allowed
 to replace the connector on the batteries, provided the in-line
 fuse on the battery is preserved.
@@ -146,8 +146,7 @@ Main Power Switch
 
 
 One Main Power Switch must control all power provided by the Main Battery. It
-along with its label should be placed in accordance to the
-:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. 
+along with its label should be placed in accordance to the Competition manual. 
 The legal power switches are shown above.
 
 :download:`Power Switch Label <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-button-labels.pdf>`
@@ -194,8 +193,7 @@ Power Distribution Block
       goBILDA (SKU: 3108-2833-0801)
 
 Power Distribution Blocks help to distribute the power to devices such as
-Control Hubs, SPARKminis, and more.  
-See the :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>` 
+Control Hubs, SPARKminis, and more. See the Competition Manual 
 for a description of legal Power Distribution methods. The Power
 Distribution Blocks shown are not the only legal devices for power distribution.
 
@@ -252,9 +250,7 @@ COTS USB Battery Pack
       Anker Battery Pack
 
 A Commercial Off The Shelf (COTS) USB battery pack is an auxiliary power source
-that can be used in specific situations in accordance with the :ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. In the 2023-2024
-season, these batteries were deemed permissible to power LEDs and, by extension, COTS light controller sources like the `REV
-Blinkin <https://www.revrobotics.com/rev-11-1105/>`_.
+that can be used in specific situations in accordance with the Competition Manual.
 However, having a COTS USB External Battery on the Robot carries additional
 considerations.  All teams must ensure their COTS USB Battery Pack:
 

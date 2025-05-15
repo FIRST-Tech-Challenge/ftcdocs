@@ -1,5 +1,5 @@
 Team Resources
-=====================
+==============
 
 There are several resources that teams might want to access throughout the *FIRST* Tech Challenge
 season.

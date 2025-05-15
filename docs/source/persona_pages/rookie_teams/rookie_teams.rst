@@ -184,13 +184,13 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-ref:: ../../manuals/competition_manual/competition_manual
+            .. button-ref:: ../../team_resources/team_resources
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Competition Manual
+               General Team Resources
 
          .. div:: col-sm pl-1 pr-1
       

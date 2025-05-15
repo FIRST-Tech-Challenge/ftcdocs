@@ -90,7 +90,7 @@ Motors
       REV Robotics Core Hex 12V DC Motor
     
 Motors are the primary drivers of a robot. All motors are 12v brushed DC motors and are enumerated in the
-:ref:`Competition Manual <manuals/competition_manual/competition_manual:competition manual>`. They may only be controlled
+:ref:`Competition Manual <team_resources/team_resources:team resources>`. They may only be controlled
 via a REV Expansion Hub, REV Control Hub, REV SPARKmini Motor Controller, or VEX Motor
 Controller 29.
 
