@@ -39,7 +39,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    game_specific_resources/blog/blog
    tech_tips/tech-tips
    ai/innovation_corner/innovation-corner
-   Competition Manual <manuals/competition_manual/competition_manual>
+   Team Resources <team_resources/team_resources>
    Game Q&A System <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
    Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>

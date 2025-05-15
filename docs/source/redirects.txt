@@ -1,2 +1,2 @@
-"manuals/game_manuals/game_manuals.rst" "manuals/competition_manual/competition_manual.rst"
+"manuals/game_manuals/game_manuals.rst" "team_resources/team_resources.rst"
 ftc_docs/workflow/workflow.rst contrib/workflow/workflow.rst
