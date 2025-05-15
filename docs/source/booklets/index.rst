@@ -28,5 +28,10 @@ Programming Resources
 - `Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_
 - `FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_
 
+Contributing
+--------------
+
+- `Contributor Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/contrib.pdf>`_
+
 
 
