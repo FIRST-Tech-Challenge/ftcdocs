@@ -25,7 +25,7 @@ professionals use knowledge in a gracious manner and individuals act with
 integrity and sensitivity, everyone wins and society benefits.
 
 .. image:: images/GoodStuff.png
-   :alt: A photo of Dr. Woodie Flowers with the words Gracious Professionalism, Feelings, Knoweledge, Good Stuff.
+   :alt: A photo of Dr. Woodie Flowers with the words Gracious Professionalism, Feelings, Knowledge, Good Stuff.
    
 |
 
