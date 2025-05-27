@@ -47,22 +47,19 @@ Judging FAQs
 
     .. grid-item-card:: What do I need to bring to my Judging Appointment?
 
-        Teams should bring their robot, their engineering portfolio, their control award 
-        submission, and their request for feedback form. Please note that at some events, 
-        the engineering portfolio, control award submission and feedback request form are 
-        collected when the team checks in for the event.
+        Teams should bring their robot, Portfolio and as many members of the team who want to participate in the presentation. Please note that at some events, 
+        the Portfolio is collected when the team checks in for the event.
 
     .. grid-item-card:: What feedback will we receive from the judges?
 
-        Judges complete the feedback form after the team has completed their formal interview, and after the 
-        Judges have reviewed the Engineering Portfolio. Feedback is limited to the initial interview and 
-        Engineering Portfolio only.
+        Judges complete the feedback form immediately after the team has completed their formal interview. Feedback is limited to the initial formal interview and does 
+        not include the team's performance in follow-up Pit interviews or their Portfolio.
 
     .. grid-item-card:: Is my team required to prepare a 5 minute presentation?
 
-        Teams are not required to prepare a 5 minute presentation. Teams should let the judges know they do 
-        not have a formal presentation. The judges will begin to ask the team questions at the beginning of 
-        the interview. Teams are not penalized in any way if they do not have a prepared presentation.
+        Teams are not required to prepare a 5 minute presentation, but teams should let the judges know they do 
+        not have a formal presentation when they enter the room. The judges will begin to ask the team questions at the beginning of 
+        the interview. 
 
 
 Competition FAQs
@@ -82,8 +79,9 @@ Competition FAQs
         
     .. grid-item-card:: Why aren’t you going to replay that match?
 
-        There are only certain situations that warrant replaying a match. Unless we can prove that it was a 
-        field fault or Wi-Fi interference, we cannot replay a match.
+        There are only certain situations that warrant replaying a match. Consult the Competition Manual to understand what conditions and processes can result in a replay. 
+        Typically unless something went wrong with the field or field staff there will not be grounds for a replay. A malfunctioning robot typically does not provide grounds
+        for a replay. 
 
     .. grid-item-card:: Why did you replay a match for someone else, but not us?
 
@@ -91,18 +89,17 @@ Competition FAQs
 
     .. grid-item-card:: Why won’t you fix that score? We have video (or photographs) to prove the score is wrong!
 
-        Teams can go the question box so they can discuss this issue with the head referee. No photographs or videos wil be reviewed per GM1 <C02>.
+        Teams can go the Question Box so they can discuss this issue with the head referee. No photographs or videos will be reviewed.
 
     .. grid-item-card:: Why don’t you fix/cleanup the wireless environment? It’s obvious the wireless environment is disruptive and causing disconnects.
 
-        WiFi is observed throughout the event.
+        Teams can work with the event FTA or Event Director if they have questions about the WiFi environment. 
 
     .. grid-item-card:: What do we do if we think the scoring referees scored our match wrong or the scorekeeper put the wrong score into the computer.
 
-        Teams may formally protest a match for a period of time not to exceed three matches following the match in question. If a team wants to dispute a score, 
-        one student representative should wait patiently in the designated Question Box area for the head referee (do not interrupt matches for this conversation). 
-        If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that decision. 
-        Refer to  GM1 <C02>.
+        If a team has questions about a match outcome, they should send one student representative to the Question Box to talk to the Head Referee (do not interrupt matches for 
+        this conversation). If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that 
+        decision. Check the Competition Manual for more information about key volunteer roles, tournament operations, and how to use the Question Box.
 
 Technology FAQs
 --------------------
