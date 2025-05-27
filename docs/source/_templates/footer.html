@@ -16,14 +16,15 @@
   <div role="contentinfo" style="display: flex">
   {%- block contentinfo %}
   
-    <div id="container" style="width: 50%; white-space:nowrap;">
+    <div id="container" style="width: 75%;">
 
       <div>
         {%- if show_copyright %}
         {%- if hasdoc('copyright') %}
         {%- trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
         {%- else %}
-        &#169; 2023 <i>{%- trans copyright=copyright|e %}{{ copyright }}{% endtrans %}</i>
+          &#169; 2025&nbsp; {%- trans copyright=copyright|e %}{{ copyright }}{% endtrans %} (<span class="wordmark">FIRST</span>)<br />
+          A 501(c)(3) nonprofit organization
         {%- endif %}
         {%- endif %}
       </div>

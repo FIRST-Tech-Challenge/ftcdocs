@@ -1,7 +1,7 @@
-*Gracious Professionalism®*
-===========================
+Gracious Professionalism
+========================
 
-*Gracious Professionalism®* is part of the ethos of *FIRST*. It’s a way of doing
+*Gracious Professionalism*\ |reg| is part of the ethos of |FIRSTreg|. It’s a way of doing
 things that encourages high quality work, emphasizes the value of others, and
 respects individuals and the community.  *Gracious Professionalism* is not
 clearly defined for a reason. It can and should mean different things to
@@ -14,7 +14,7 @@ Some possible meanings of *Gracious Professionalism* include:
 *  professionals possess special knowledge and are trusted by society to use that knowledge responsibly, and
 *  gracious professionals make a valued contribution in a manner pleasing to others and to themselves.
 
-In the context of *FIRST*, this means that all teams and participants should:
+In the context of |FIRST|, this means that all teams and participants should:
 
 *  learn to be strong competitors, but also treat one another with respect and kindness in the process, and 
 *  avoid leaving anyone feeling as if they are excluded or unappreciated.
@@ -25,8 +25,8 @@ professionals use knowledge in a gracious manner and individuals act with
 integrity and sensitivity, everyone wins and society benefits.
 
 .. image:: images/GoodStuff.png
-   :align: center
-
+   :alt: A photo of Dr. Woodie Flowers with the words Gracious Professionalism, Feelings, Knowledge, Good Stuff.
+   
 |
 
    *The FIRST spirit encourages doing high-quality, well-informed work in a
@@ -48,13 +48,14 @@ In Memoriam
 ^^^^^^^^^^^
 
 In October 2019, Dr. Woodie Flowers, an innovator in design and engineering
-education and a Distinguished Advisor to *FIRST* and supporter of our mission,
+education and a Distinguished Advisor to |FIRST| and supporter of our mission,
 passed away. As thousands of heartfelt tributes to Woodie have poured in from
 around the world, it is clear his legacy will live on indefinitely through the
 gracious nature of our community and our ongoing commitment to empowering
 educators and building global citizens.
 
 .. figure:: images/wf_fireworks.jpg
+   :alt: Dr. Woodie Flowers with fireworks in the background.
 
    Dr. Woodie Flowers, (1943 - 2019)
 

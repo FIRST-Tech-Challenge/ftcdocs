@@ -139,9 +139,36 @@ div.ethical-sidebar, div.ethical-footer {
     left: -99999px;
 }
 
+/* FIRST branding */
+.wordmark {
+   font-family: Roboto, Arial, sans-serif;
+   font-style: italic;
+   padding-right: 2px;
+}
+.superscript {
+   font-family: Roboto, Arial, sans-serif;
+   vertical-align: super;
+   font-size: 60%;
+   padding-left: 2px;
+}
+.sr-only-no-select {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+  -webkit-user-select: none; /* Safari no select*/
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 /* ===================================== */
 /* ====== START SPHINX TABS CSS ======== */
 
 .sphinx-tab img {
 	margin-bottom: 24px;
 }
+
+
+
