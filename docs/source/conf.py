@@ -7,7 +7,7 @@ import urllib.parse as urlparse
 import gitinfo
 
 project = 'FIRST Tech Challenge Docs'
-copyright = 'FIRST'
+copyright = 'For Inspiration and Recognition of Science and Technology'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
@@ -404,3 +404,20 @@ locale_dirs = ["locale/"]
 
 rediraffe_redirects = "redirects.txt"
 rediraffe_branch = "origin/main"
+
+rst_epilog = """
+.. role:: wordmark
+
+.. role:: superscript
+
+.. |FIRST| replace:: :wordmark:`FIRST`
+
+.. |FTC| replace:: :wordmark:`FIRST` Tech Challenge
+
+.. |reg| replace:: :superscript:`®`
+
+.. |FIRSTreg| replace:: :wordmark:`FIRST`\ :superscript:`®`
+
+.. |FTCreg| replace:: :wordmark:`FIRST`\ :superscript:`®` Tech Challenge
+"""
+
