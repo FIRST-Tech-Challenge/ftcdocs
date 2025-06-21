@@ -5,7 +5,7 @@ Introduction
 ------------
 
 The Competition Manual allows the use of USB Video Class (UVC) compatible
-cameras for computer vision-related tasks. See rule R715 for the full details.
+cameras for computer vision-related tasks. 
 If you are using a REV Robotics Control Hub, then
 you will need to use an external webcam, since the Control Hub does not
 include a built-in camera. This document describes how to connect,
@@ -46,7 +46,7 @@ powered USB hub.
 .. image:: images/USB-camera-Control-Hub.jpg
    :alt: Control Hub with UVC camera connected.
    
-.. warning:: An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+.. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
 
    The REV Control Hub has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
@@ -156,7 +156,7 @@ to install and run scrcpy on your computer.
 **Important Note:** While scrcpy is a great way to view the camera output
 outside of competitions, the Competition Manual does not allow teams to
 have any devices other than the DRIVER STATION connected to your Control
-Hub during a match. See rule R708 for the full details.
+Hub during a match.
 
 External HDMI Monitor
 ---------------------
@@ -199,7 +199,7 @@ This device has its own processor on board and one drawback of this is that the 
 By adding a powered USB hub the Limelight will not drain your robot's battery.
 
 One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. 
-It provides USB 3.0 data speeds to all ports and it has a USB C port that can supply power to all connected devices.
+It has a USB C port that can supply power to all connected devices.
 
 .. note:: At the time this was written, the Acer ODK350 hub was not listed on Acer's website, but was available on Amazon's website.
    

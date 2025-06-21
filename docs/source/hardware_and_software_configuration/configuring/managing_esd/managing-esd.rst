@@ -39,7 +39,8 @@ or oppositely charged object.
 
 .. figure:: images/positivelyChargedRobot.png
    :alt: A positively charged robot touching a neutral field wall.
-
+   :align: center
+   
    Example of an ESD event, current will flow from the robot to the field wall.
 
 How Robots Become Charged
@@ -55,7 +56,8 @@ is called the triboelectric effect.
 
 .. figure:: images/triboelectric.png
    :alt: Illustration of a wheel on a floor with a close up portion showing how electrons in the floor can become attached to the wheel.
-
+   :align: center
+   
    Robots become charged due to the triboelectric effect.
 
 A robot’s wheels moving on field tiles build charge on the robot frame just
@@ -92,7 +94,8 @@ electrostatic arcs.
 
 .. figure:: images/discharging.png
    :alt: Illustration showing two circles and the current flow from positive to negative. 
-
+   :align: center
+   
    Electric arc between two spheres of opposite charge.
 
 What Steps can be Taken to Mitigate the Risk of an ESD Disruption?
@@ -107,8 +110,9 @@ anti-static spray. Anti-static spray increases electrical conductivity
 of the surface of the tiles. This helps prevent the build-up of
 electrostatic charge on the robots as the move across the tile floor.
 
-.. figure:: images/heavydutystaticide.jpg
+.. image:: images/heavydutystaticide.jpg
    :alt: A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide.
+   :align: center
 
 *FIRST* recommends the use of `ACL Heavy Duty
 Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__
@@ -131,6 +135,7 @@ a shock.
 
 .. image:: images/ferritechoke.jpg
    :alt: A snap-on ferrite choke.  
+   :align: center
 
 Using ferrite chokes can be a very effective method for mitigating the
 effects of ESD:
@@ -167,6 +172,7 @@ and strain relieving.
 
 .. figure:: images/mountonplywood.jpg
    :alt: An expansion hub mounted on a plywood sheet.
+   :align: center
 
    The plywood sheet has holes drilled in it and wires are secured with cable ties to the plywood.
 
@@ -178,8 +184,9 @@ are poorly insulated. If these parts are placed too close to the metal
 frame, a shock can occur if a charge accumulates on the frame.
 
 .. figure:: images/poorlyinsulated.jpg
-   :alt: A sensor with 4-wire connector and a servo wire extension connection.
-
+   :alt: A sensor with 4-wire connector and a servo wire extension connection, the 4-wire connector and extension connection are are circled in red.
+   :align: center
+   
    Electrostatic shocks can occur at poorly insulated or exposed portions
    of the electronics.
 
@@ -189,7 +196,7 @@ charge accumulates on the metal frame of the robot, and the end of
 sensor cable is placed close to the frame, a shock can occur and this
 shock can disrupt or even damage the I2C port of an Expansion Hub.
 
-Similarly, some servo extension cables (see figure above) have exposed
+Similarly, some servo extension cables have exposed
 portions of metal that could be vulnerable to ESD unless properly
 isolated or insulated.
 
@@ -198,15 +205,17 @@ frame (with an air gap greater than 3/8” or 10mm) can help reduce the
 risk of an ESD disruption.
 
 .. figure:: images/keepawayfromframe.jpg
-   :alt: A sensor with an air gap between the frame and the 4-wireconnector.
-
+   :alt: A sensor with an air gap between the frame and the 4-wire connector.
+   :align: center
+   
    Keep exposed portions of the electronics away from the frame.
 
 Using electrical tape to insulate these areas can be equally effective and may be easier to implement.
 
 .. figure:: images/tapepoorlyinsulated.jpg
    :alt: A servo wire extension connection wrapped in electrical tape and a sensor mounted on a frame where the frame is wrapped in electrical tape.
-
+   :align: center
+   
    Electrical tape can be used to insulate exposed or poorly insulated
    metal.
 
@@ -216,6 +225,7 @@ Using electrical tape to insulate these areas can be equally effective and may b
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
    Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
 
 Step 3: Covering Exterior Metal Features with Electrically Insulated Material
@@ -230,7 +240,8 @@ electrical tape, and other non-conductive coatings are all effective.
 
 .. figure:: images/coverwithtape.jpg
    :alt: A robot claw mechanism where the metal claws are wrapped in electrical tape.
-
+   :align: center
+   
    Insulating portions of the robot that touch other metallic objects on
    the field can help.
 
@@ -248,6 +259,7 @@ occur between the frame of a robot and the Control System electronics.
 
 .. figure:: images/REV-31-1269-ResistiveGroundingStrap.jpg
    :alt: The REV Resistive Grounding Strap has a XT30 connection on one end and an eye loop connector on the other end.
+   :align: center
 
    The REV Resistive Grounding Strap (REV-31-1269) is an approved grounding
    cable.
@@ -270,7 +282,8 @@ conjunction with REV Robotics’ Resistive Grounding Strap:
 
 .. figure:: images/REV-31-1385-AndersonPowerPoleToXT30.png
    :alt: REV Robotics Anderson Powerpole to XT30 Adapter cable
-
+   :align: center
+   
    The REV-31-1385 adapter is approved for use with REV’s Resistive
    Grounding Strap.
 
@@ -280,7 +293,8 @@ end using a conductive (i.e., metal) bolt to the frame of the robot.
 
 .. figure:: images/groundtheelectronics.png
    :alt: An expansion hub with a grounding cable connected to the XT30 port and bolted to the metal frame of the robot.
-
+   :align: center
+   
    Ground the electronics to the frame using a FIRST-approved cable.
 
 It might initially seem contradictory to both insulate the electronic

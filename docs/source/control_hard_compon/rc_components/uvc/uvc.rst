@@ -8,7 +8,8 @@ compatible camera. This device can be connected directly to
 the REV Control Hub or to the Robot Control system via a USB hub.
 
 .. figure:: images/C270.jpg
-   :width: 25%
+   :width: 33%
+   :align: center
    :class: no-scaled-link
    :alt: Example UVC camera
    

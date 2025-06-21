@@ -5,7 +5,7 @@ Introduction
 ------------
 
 The Competition Manual allows the use of USB Video Class (UVC) compatible
-cameras for computer vision-related tasks. See rule R715 for the full details.
+cameras for computer vision-related tasks.
 Teams who are using an Android smartphone as their ROBOT CONTROLLER have the
 option of using an externally connected camera instead of the built-in camera
 for computer vision tasks.
@@ -23,7 +23,7 @@ run properly.
 What type of External Camera can be Used?
 -----------------------------------------
 
-The system supports a UVC cameras.
+The system supports UVC cameras.
 Theoretically, if a camera is UVC compliant, then it should work with
 the system. However, there are a couple of recommended web cameras that
 have been tested with the *FIRST* Tech Challenge software and have been
@@ -66,12 +66,12 @@ used for this task since its data transfer speed is not fast enough to
 work with the USB-connected webcam.
 
 Also note that the Competition Manual permits the use of a powered USB
-hub to make this connection. See rule R617 for the full details. If a
+hub to make this connection. If a
 team uses a powered USB hub, the power to operate the USB hub can only
 come from either of the following sources:
 
-1. An externally connected COTS USB Battery Pack in compliance with the
-   Competition Manual. See rule R602 for the full details.
+1. An externally connected commercially available off-the-shelf (COTS) USB Battery Pack in compliance with the
+   Competition Manual. 
 2. The 5V DC Aux power port of a REV Robotics Expansion Hub (note that
    this requires advanced skills to implement).
 
