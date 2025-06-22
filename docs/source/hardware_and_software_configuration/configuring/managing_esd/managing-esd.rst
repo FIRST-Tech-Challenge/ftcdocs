@@ -113,6 +113,8 @@ electrostatic charge on the robots as the move across the tile floor.
 .. image:: images/heavydutystaticide.jpg
    :alt: A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide.
    :align: center
+   
+|
 
 *FIRST* recommends the use of `ACL Heavy Duty
 Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__

@@ -1,19 +1,51 @@
 UVC Webcam
 ===========
 
-A webcam is a device that provides visual images of the surrounding
-environment. For use as part of *FIRST* Tech Challenge teams must use a commercially available off-the-shelf (COTS)
+A webcam is a device that provides visual images of the surrounding environment. 
+UVC, or USB Video Class, is a standard that allows USB devices, like webcams and digital cameras, to stream video to computers without needing special drivers. 
+For use as part of *FIRST* Tech Challenge teams must use a commercially available off-the-shelf (COTS)
 USB Video Class `(UVC) <https://www.usb.org/document-library/video-class-v15-document-set>`_ 
 compatible camera. This device can be connected directly to
 the REV Control Hub or to the Robot Control system via a USB hub.
 
-.. figure:: images/C270.jpg
-   :width: 33%
-   :align: center
-   :class: no-scaled-link
-   :alt: Example UVC camera
-   
-   Logitech C270 Webcam
+.. grid:: 1 2 2 2
+   :gutter: 2
+
+   .. grid-item-card::
+      :class-header: sd-bg-dark font-weight-bold sd-text-white
+      :class-body: sd-text-left body
+
+      Budget Webcam
+
+      ^^^
+
+      .. figure:: images/C270.jpg
+         :align: center
+         :width: 50 %
+         :class: no-scaled-link
+         :alt: Example UVC webcam
+        
+      +++
+
+      :ref:`logitech_c270_label`
+
+   .. grid-item-card::
+      :class-header: sd-bg-dark font-weight-bold sd-text-white
+      :class-body: sd-text-left body
+
+      Mid-range Webcam
+
+      ^^^
+
+      .. figure:: images/C920.jpg
+         :align: center
+         :width: 50 %
+         :class: no-scaled-link
+         :alt: Example UVC webcam
+        
+      +++
+
+      :ref:`logitech_c920_label`
 
 Webcams are intended to be used in computer vision related tasks.
 Example use cases for a webcam are:
