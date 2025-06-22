@@ -22,12 +22,9 @@ system. However, *FIRST* recommends using UVC web cameras from Logitech.
 The following cameras have been tested and calibrated to work accurately
 with SDK software:
 
--  `Logitech C270 HD
-   Webcam <https://www.logitech.com/en-us/products/webcams/c270-hd-webcam.960-000694.html>`__
--  `Logitech C310 HD
-   Webcam <https://www.logitech.com/en-us/products/webcams/c310-hd-webcam.html>`__
--  `Logitech C920 HD
-   Webcam <https://www.logitech.com/en-us/products/webcams/c920s-pro-hd-webcam.960-001257.html>`__
+- :ref:`logitech_c270_label`
+- :ref:`logitech_c310_label`
+- :ref:`logitech_c920_label`
 
 Calibrating a UVC camera is an optional, advanced task. Instructions for
 creating a calibration file are in the comments of the
@@ -209,7 +206,7 @@ It has a USB C port that can supply power to all connected devices.
    *Note: This USB C port (with IN 5V printed) can not be used for data transfer and charge other devices. It can only supply power for the other 4 USB ports.*
 
 .. figure:: images/two-webcams.jpg
-   :alt: A USB hub with two webcams is connected to a REV Control Hub.
+   :alt: A REV Control Hub with a powered USB hub and two webcams.
    
    Acer ODK350 USB hub
    

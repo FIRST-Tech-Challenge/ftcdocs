@@ -52,6 +52,8 @@ The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and no others. Learn more at
 :ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
 
+.. _logitech_c310_label:
+
 Logitech C310
 -------------
 
