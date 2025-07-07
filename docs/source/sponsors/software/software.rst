@@ -118,7 +118,7 @@ requirement. Read details below for each product for more information.
    *  Atlassian Trello brings all your tasks, teammates, and tools together
 
       * Boards, Lists, and Cards help organize and keep team on task
-      * Free Workspaces can have 10 open boards
+      * Free Workspaces can have 10 open boards (limited to 10 collaborators)
       * Invite viewers to the boards
 
    **Expires**: N/A

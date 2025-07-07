@@ -145,3 +145,70 @@ div.ethical-sidebar, div.ethical-footer {
 .sphinx-tab img {
 	margin-bottom: 24px;
 }
+
+/* fix link text in body content for accessibility 
+   exclude .sd-btn which are the buttons on the persona pages*/
+.document a:not(.sd-btn) {
+  color: #0000EE;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #0000EE;
+  text-underline-offset: 0.2em;
+}
+.document a:not(.sd-btn):visited  {
+  color: #551A8B;
+  text-decoration-style: dotted;  /* many browsers don't support decorations on visited link */
+  text-decoration-color: #551A8B;
+}
+.document a:not(.sd-btn):focus {
+    outline: 1px solid #0000EE;;
+}
+.document a:not(.sd-btn):hover {  
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.25em;
+}
+.document a:not(.sd-btn):active {  
+  text-decoration-style: wavy;
+}
+/* handle dark mode links */
+html[data-theme='dark'] .document a:not(.sd-btn) { 
+  color: #249ee8;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #249ee8;
+  text-underline-offset: 0.2em;
+}
+html[data-theme='dark'] .document a:not(.sd-btn):visited {
+  color: #bb7feF;
+  text-decoration-style: dotted;
+  text-decoration-color: #bb7feF;
+}
+html[data-theme='dark'] .document a:not(.sd-btn):focus {
+    outline: 1px solid #249ee8;
+}
+html[data-theme='dark'] .document a:not(.sd-btn):hover {  
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.25em;
+}
+html[data-theme='dark'] .document a:not(.sd-btn):active {  
+  text-decoration-style: wavy;
+}
+/* Screen Reader - No Select class */
+.sr-only-no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.icon-external-link:before { /* This is the fa-external-link icon */
+    font-family: FontAwesome;
+    content: "\f08e";
+    margin-left: .2em;
+    text-decoration-line: none;
+}
