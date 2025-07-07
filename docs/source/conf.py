@@ -102,7 +102,7 @@ latex_engine = "xelatex"
 
 latex_logo = "assets/Latex_Logo_FTC.png"
 
-latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Into_The_Deep_Title.pdf']
+latex_additional_files = ["assets/Latex_Footer_FTC.png", "_static/RTX.png", 'assets/FTC_Evergreen_Title.pdf']
 
 # Disable xindy support
 # See: https://github.com/readthedocs/readthedocs.org/issues/5476
@@ -194,20 +194,19 @@ latex_elements = {
             right=0.5in,
             top=0.5in,
             bottom=0.5in}
+        \definecolor{customTitleColor}{RGB}{223,131,68}
         \pagenumbering{Roman}
         \begin{titlepage}
 
-            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Into_The_Deep_Title.pdf}}
-            \vspace*{113mm}
+            \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{FTC_Evergreen_Title.pdf}}
+            \vspace*{100mm}
             \begin{flushright}
                 \begin{center}
                     \textbf{\Large {2024-2025 \emph{FIRST} Tech Challenge}}
                     \\
                     \vspace{4mm}
-                    \textbf{\Huge {\thetitle}}
-                    \\
-                    \vspace*{\fill}
                     \textbf{\Large {\emph{FIRST} Tech Challenge Documentation}}
+                    \vspace*{\fill}
                 \end{center}
             \end{flushright}
         \end{titlepage}
