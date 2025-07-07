@@ -202,7 +202,7 @@ latex_elements = {
             \vspace*{100mm}
             \begin{flushright}
                 \begin{center}
-                    \textbf{\Large {2024-2025 \emph{FIRST} Tech Challenge}}
+                    {\fontsize{40pt}{48pt}\selectfont \textbf{\textcolor{customTitleColor}{\thetitle}}}
                     \\
                     \vspace{4mm}
                     \textbf{\Large {\emph{FIRST} Tech Challenge Documentation}}
