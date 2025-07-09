@@ -1709,7 +1709,7 @@ Just click to expand the Tech Tip you'd like to read.
    your hardware configuration the Self-Inspect screens may be formatted
    differently or have different options listed, so :ref:`there is a handy
    reference on ftc-docs
-   <hardware_and_software_configuration/self_inspect/self-inspect:*FIRST* Tech Challenge Self-Inspect>`
+   <hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* Tech Challenge Self-Inspect>`
    that can help you understand the Self-Inspect tool. Make sure you’re ready
    for inspection!
 
