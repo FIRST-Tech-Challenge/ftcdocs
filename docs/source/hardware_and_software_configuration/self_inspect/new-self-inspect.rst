@@ -26,11 +26,6 @@ The challenge is to maximize useful information in a small screen. The
 Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
-.. note::
-  The images in this page show Version 10.3 of the FTC apps. Please refer to the Competition Manual for allowed software system versions. 
-  This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
-  See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
-
 Field Inspection
 ----------------
 
@@ -48,8 +43,13 @@ Version Information
 The Competition Manual lists the minimum recommended versions of firmware, Android Operating System, and FTC Apps.
 Teams may choose to run older versions without affecting their ROBOT inspection status. 
 This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
-   
-*FIRST* recommends but does not require that teams use the most recent versions of firmware, OS and FTC Apps.
+
+.. note::
+  The images in this page show Version 10.3 of the FTC apps.
+  This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
+  See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
+
+*FIRST* recommends but does not require that teams use the most recent versions of firmware, Android Operating System, and FTC Apps.
 Current versions have the latest bug fixes and enhancements. For example, version 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi.
  
 Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP major version is 10, and the DECODE major version is 11.

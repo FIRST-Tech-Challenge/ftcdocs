@@ -12,7 +12,9 @@ A Self Inspect screen provides a snapshot of device status, as it
 relates to FTC rules for the control system. 
 These rules are described in the Competition Manual which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
-That page also links to the **Inspection Checklist** PDF which summarizes the inspection process.
+
+.. tip:: An `Inspection Checklist PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/inspection-checklist.pdf>`_ 
+   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
