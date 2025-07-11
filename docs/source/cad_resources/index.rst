@@ -24,21 +24,20 @@ Here are a few tools commonly used by teams:
 
 Software for Beginners
 
-*  `Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (desktop)
-*  `FreeCAD <https://www.freecad.org/>`__ (free) (desktop)
+*  `Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (Web)
 
 Software for Intermediate Users
 
-*  :doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)
-*  :doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to *FIRST* teams) (cloud)
-*  :doc:`PTC OnShape <ptc/ptc>` (Free to *FIRST* teams) (Cloud)
-*  `Trimble SketchUp <https://sketchup.com/>`__ (Free plans available) (desktop)
+*  :doc:`PTC Onshape <ptc/ptc>` (Free to *FIRST* teams) (Web, iOS, iPadOS, Android)
+*  :doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) (Windows, macOS, Web)
+*  :doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to *FIRST* teams) (Web)
+*  `FreeCAD <https://www.freecad.org/>`__ (free) (Windows, macOS, Linux)
  
 Software for Professional Users
 
-*  :doc:`Autodesk Inventor <autodesk/autodesk>` (Free to *FIRST* teams) (desktop)
-*  :doc:`Dassault Systemes Solidworks <solidworks/solidworks>` (Free to *FIRST* teams) (desktop)
-*  :doc:`PTC Creo <ptc/ptc>` (Free to *FIRST* teams) (desktop)
+*  :doc:`Dassault Systèmes Solidworks <solidworks/solidworks>` (Free to *FIRST* teams) (Windows)
+*  :doc:`Autodesk Inventor <autodesk/autodesk>` (Free to *FIRST* teams) (Windows)
+*  :doc:`PTC Creo <ptc/ptc>` (Free to *FIRST* teams) (Windows)
 
 .. toctree::
    :hidden:
