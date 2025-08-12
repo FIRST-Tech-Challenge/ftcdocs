@@ -90,29 +90,6 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :expand:
 
                Youth Registration (external)
- 
-   .. grid-item-card::
-      :class-header: sd-bg-secondary font-weight-bold sd-text-black
-      :class-body: sd-text-left
-
-      Business Plan and Budget
-
-      ^^^
-
-      A simple guide to managing your team's budget.
-      
-      +++
-
-      .. div:: container-fluid p-0
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-link:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/sample-budget.xlsx
-               :color: black
-               :outline:
-               :expand:
-
-               Sample Budget (External Excel Spreadsheet)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
