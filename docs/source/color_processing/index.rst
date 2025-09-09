@@ -23,6 +23,7 @@ Here's the outline of this tutorial's main pages:
    color-locator-discover/color-locator-discover 
    color-locator-explore/color-locator-explore
    color-locator-challenge/color-locator-challenge
+   color-locator-round-blobs/color-locator-round-blobs
    color-spaces/color-spaces
 
 Much credit to developer and Sample OpMode author `@gearsincorg <https://github.com/gearsincorg>`_, EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`_, FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`_, and the open-source team at `OpenCV <https://opencv.org/>`_.

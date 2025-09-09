@@ -560,6 +560,7 @@ This ends the tutorial's 3 pages on ColorLocator:
 * :doc:`Discover <../color-locator-discover/color-locator-discover>`, 
 * :doc:`Explore <../color-locator-explore/color-locator-explore>`, 
 * **Challenge** 
+* :doc:`Round Color Blobs <../color-locator-round-blobs/color-locator-round-blobs>`, 
 
 The final page of this tutorial provides optional info on :doc:`Color Spaces
 <../color-spaces/color-spaces>`.
