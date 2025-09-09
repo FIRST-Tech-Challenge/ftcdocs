@@ -75,15 +75,17 @@ Java section below:
 
       2. Click ``Create New OpMode``\ , enter a new name such as
          "ColorLocator_Monica_v01", and select the Sample OpMode
-         ``ConceptVisionColorLocator``.
+         ``ConceptVisionColorLocator_Rectangle``.
 
-      3. At the top of the Blocks screen, you can change the type from "TeleOp"
+      3. Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`.
+
+      4. At the top of the Blocks screen, you can change the type from "TeleOp"
          to "Autonomous", since this Sample OpMode does not use gamepads.
 
-      4. If using the built-in camera of an RC phone, drag out the relevant
+      5. If using the built-in camera of an RC phone, drag out the relevant
          Block from the left-side ``VisionPortal.Builder`` toolbox.
 
-      5. Save the OpMode, time to try it!
+      6. Save the OpMode, time to try it!
 
    .. tab-item:: Java
       :sync: java
@@ -92,15 +94,17 @@ Java section below:
 
       2. In the ``teamcode`` folder, add/create a new OpMode with a name such
          as "ColorLocator_Javier_v01.java", and select the Sample OpMode
-         ``ConceptVisionColorLocator.java``.
+         ``ConceptVisionColorLocator_Rectangle.java``.
 
-      3. At about Line 63, you can change ``@TeleOp`` to ``@Autonomous``\ ,
+      3. Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`.
+
+      4. At about Line 63, you can change ``@TeleOp`` to ``@Autonomous``\ ,
          since this Sample OpMode does not use gamepads.
 
-      4. If using the built-in camera of an RC phone, follow the OpMode
+      5. If using the built-in camera of an RC phone, follow the OpMode
          comments to specify that camera.
 
-      5. Click "Build", time to try it!
+      6. Click "Build", time to try it!
 
 Running the Sample OpMode
 +++++++++++++++++++++++++
@@ -197,12 +201,12 @@ In this example, the Region of Interest (ROI) contains only one Blob of the
 default target color BLUE.  You could probably move your camera to achieve the
 same result - with the help of previews.
 
-The **first column** shows the **Area**, in pixels, of the Blob (contour, not
+The **second column** shows the **Area**, in pixels, of the Blob (contour, not
 boxFit).  By default, the Sample OpMode uses a **filter** to show Blobs between
 50 and 20,000 pixels.  Also by default, the Sample uses a **sort** tool to
 display multiple Blobs in descending order of Area (largest is first).
 
-The **second column** shows the **Density** of the Blob contour.  From the
+The **third column** shows the **Density** of the Blob contour.  From the
 Sample comments:
 
 ..
@@ -212,7 +216,7 @@ Sample comments:
     contour.  The density is the ratio of Contour-area to Convex Hull-area.*
 
 
-The **third column** shows the **Aspect Ratio of the boxFit**, the best-fit
+The **fourth column** shows the **Aspect Ratio of the boxFit**, the best-fit
 rectangle around the contour:
 
 ..
@@ -226,9 +230,12 @@ rectangle around the contour:
    **tilted** at some angle, namely not horizontal.  This will be discussed
    more in a later page.
 
-The **fourth column** shows the (X, Y) position of the **Center** of the boxFit
+The **fifth column** shows the (X, Y) position of the **Center** of the boxFit
 rectangle.  With the origin at the full image's top left corner, X increases to
 the right and Y increases downward.
+
+The fifth and sixth columns are described in a later page called 
+:doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-blobs>`.
 
 Blob Formation
 --------------
@@ -325,6 +332,9 @@ This tutorial's next page called :doc:`Explore <../color-locator-explore/color-l
 After that, the following page called :doc:`Challenge
 <../color-locator-challenge/color-locator-challenge>` shows how to **access
 more OpenCV features** not covered in the Sample OpMode.
+
+Then a page called :doc:`Color Locator (Round Blobs)
+<../color-locator-round-blobs/color-locator-round-blobs>` covers detection of round objects.
 
 ============
 
