@@ -59,7 +59,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
 
     buildscript {
 
-        ext.kotlin_version = '2.2.0' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
+        ext.kotlin_version = '2.2.20' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
 
         repositories {
             mavenCentral()
@@ -77,7 +77,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
             the one in the FtcRobotController module.
 
 .. note:: The exact kotlin version can be changed/updated if desired per new releases. The latest version as
-        of this writing is 2.2.0 but you should check the Kotlin website to see if a newer version (one that is
+        of this writing is 2.2.20 but you should check the Kotlin website to see if a newer version (one that is
         compatible with the current Gradle version) is available
         (see table `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin>`__).
 
