@@ -127,6 +127,7 @@ Learn more about using a simple webcam or smartphone camera to perform Color Pro
    ../color_processing/color-locator-discover/color-locator-discover
    ../color_processing/color-locator-explore/color-locator-explore
    ../color_processing/color-locator-challenge/color-locator-challenge
+   ../color_processing/color-locator-round-blobs/color-locator-round-blobs
    ../color_processing/color-spaces/color-spaces
 
 Advanced Topics
