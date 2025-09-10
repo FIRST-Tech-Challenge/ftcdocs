@@ -58,7 +58,7 @@ to use the Sample OpMode called ``ConceptVisionColorSensor``.
 
 For the **Color Locator** processor, the color "clusters" are called **Blobs**.
 As listed above, this tutorial offers one page on Color Blob Concepts, and
-four pages covering the Sample OpMode called ``ConceptVisionColorLocator_Rectangle`` 
+four pages covering the Sample OpModes called ``ConceptVisionColorLocator_Rectangle`` 
 and ``ConceptVisionColorLocator_Circle``.
 
 The Sample OpModes are available in **FTC Blocks**\ , and in **Java** for use
@@ -74,7 +74,7 @@ Following this tutorial in order, first try the Sample OpModes for :doc:`Color
 Sensor <color-sensor/color-sensor>`.
 
 Then read about **Color Blob Concepts**\ , and try the **Color Locator** Sample
-OpMode.
+OpModes.
 
 Soon you'll be ready to add one or both features to your Autonomous OpModes --
 perhaps even to help automate your TeleOp!

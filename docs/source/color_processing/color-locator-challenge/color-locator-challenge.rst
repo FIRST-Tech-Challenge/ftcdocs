@@ -556,7 +556,7 @@ example, that can overlap if desired.
    Using two processors
 
 
-The next ColorLocator page called :doc:`Round Color Blobs <../color-locator-round-blobs/color-locator-round-blobs>` 
+The next ColorLocator page called :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-blobs>` 
 covers detection of round objects.
 
 ============

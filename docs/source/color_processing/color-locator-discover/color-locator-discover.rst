@@ -201,6 +201,10 @@ In this example, the Region of Interest (ROI) contains only one Blob of the
 default target color BLUE.  You could probably move your camera to achieve the
 same result - with the help of previews.
 
+The **first column** shows the (X, Y) position of the **Center** of the boxFit
+rectangle.  With the origin at the full image's top left corner, X increases to
+the right and Y increases downward.
+
 The **second column** shows the **Area**, in pixels, of the Blob (contour, not
 boxFit).  By default, the Sample OpMode uses a **filter** to show Blobs between
 50 and 20,000 pixels.  Also by default, the Sample uses a **sort** tool to
@@ -229,10 +233,6 @@ rectangle around the contour:
    The boxFit is not required to stay inside the ROI.  Also the boxFit may be
    **tilted** at some angle, namely not horizontal.  This will be discussed
    more in a later page.
-
-The **fifth column** shows the (X, Y) position of the **Center** of the boxFit
-rectangle.  With the origin at the full image's top left corner, X increases to
-the right and Y increases downward.
 
 The fifth and sixth columns are described in a later page called 
 :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-blobs>`.
