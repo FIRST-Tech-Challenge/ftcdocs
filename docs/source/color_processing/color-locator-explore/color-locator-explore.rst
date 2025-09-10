@@ -46,12 +46,13 @@ Target Color Range
 The "target color" is actually a **range** of numerical color values, for a
 better chance of finding the desired color.
 
-Each **Swatch** name (BLUE, RED, YELLOW, GREEN) has been pre-programmed with a
+Each **Swatch** name (BLUE, RED, YELLOW, GREEN, ARTIFACT_PURPLE, ARTIFACT_GREEN) has been pre-programmed with a
 range of color values to detect most shades of that color, in most lighting
 conditions.
 
 The values for Red, Blue and Yellow were tuned for the plastic game pieces
-(called Samples) from INTO THE DEEP.
+(called Samples) from INTO THE DEEP. The values for ARTIFACT_PURPLE and ARTIFACT_GREEN
+were tuned for the plastic game pieces from DECODE.
 
 Select and read the Blocks **or** Java section below:
 
@@ -495,6 +496,8 @@ Here's a conceptual note from co-developer `@Windwoes <https://github.com/Windwo
 
 Next, this tutorial's :doc:`Challenge <../color-locator-challenge/color-locator-challenge>` page shows how to
 **access more OpenCV features** not covered in the Sample OpMode.
+
+Then a page called :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-blobs>` covers detection of round objects.
 
 ============
 
