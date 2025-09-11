@@ -43,9 +43,7 @@ Using Kotlin in *FIRST* Tech Challenge
 
 
 While there is no rule (as of the writing of this document) prohibiting Kotlin as a programming 
-option in *FIRST* Tech Challenge, it is not one of the recommended tools as listed in **<RS02>** 
-"Recommended Programming Tools" portion of the *FIRST* Tech Challenge 
-:doc:`Game Manual Part 1 <../../../manuals/game_manuals/game_manuals>`.
+option in *FIRST* Tech Challenge, it is not an officially supported or recommended language.
 Teams that use Kotlin do so at their own risk and should expect that there will not be technical
 help/support available at events in the case of software issues.
 
@@ -61,7 +59,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
 
     buildscript {
 
-        ext.kotlin_version = '1.9.22' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
+        ext.kotlin_version = '2.2.20' <----- ADD THIS LINE, UPDATE VERSION TO LATEST IF NEEDED
 
         repositories {
             mavenCentral()
@@ -79,7 +77,7 @@ done by adding the following lines to the root ``build.gradle`` file in the ``bu
             the one in the FtcRobotController module.
 
 .. note:: The exact kotlin version can be changed/updated if desired per new releases. The latest version as
-        of this writing is 1.8.20 but you should check the Kotlin website to see if a newer version (one that is
+        of this writing is 2.2.20 but you should check the Kotlin website to see if a newer version (one that is
         compatible with the current Gradle version) is available
         (see table `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin>`__).
 
