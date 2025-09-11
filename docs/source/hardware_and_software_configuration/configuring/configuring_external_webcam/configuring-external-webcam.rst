@@ -122,9 +122,9 @@ pressed to continue running the Op Mode.
 .. image:: images/DS-webcam-preview-CH-3.jpg
    :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
-**Important Note:** Because the Camera Stream feature is only available
-during the INIT phase of an Op Mode, you must ensure that the VisionPortal
-is activated in your Op Mode **before** the waitForStart command:
+.. note:: Because the Camera Stream feature is only available
+   during the INIT phase of an Op Mode, you must ensure that the VisionPortal
+   is activated in your Op Mode **before** the waitForStart command:
 
 .. image:: images/activateBeforeWaitForStart.png
    :alt: Blocks code showing the INIT code for the webcam is called before wait for start.
@@ -150,10 +150,10 @@ to install and run scrcpy on your computer.
 .. image:: images/webcamWithScrcpy.jpg
    :alt: Screen shot showing the camera output viewed with scrcpy.
 
-**Important Note:** While scrcpy is a great way to view the camera output
-outside of competitions, the Competition Manual does not allow teams to
-have any devices other than the DRIVER STATION connected to your Control
-Hub during a match.
+.. warning:: While scrcpy is a great way to view the camera output,
+   the Competition Manual does not allow teams to
+   have any devices other than the DRIVER STATION connected to your Control
+   Hub during a match.
 
 External HDMI Monitor
 ---------------------
@@ -164,10 +164,10 @@ device plugged into the HDMI port on the REV Control Hub.
 .. image:: images/HDMIMonitor.jpg
    :alt: Photo showing an external HDMI monitor displaying the camera output from a connected control hub.
 
-**Important Note:** While a portable display monitor can be used to view
-or troubleshoot the camera stream on your Control Hub, teams are not
-allowed to have a portable display monitor connected to their Control
-Hub during a match.
+.. warning:: While a portable display monitor can be used to view
+   or troubleshoot the camera stream on your Control Hub, teams are not
+   allowed to have a portable display monitor connected to their Control
+   Hub during a match.
 
 Advanced Users
 --------------
@@ -191,6 +191,9 @@ This avoid the ESD issue with devices on the USB 2.0 port.
 
 .. note:: If you're using two standard UVC webcams you are not required to use a powered USB hub.
 
+   However, some webcams like the Logitech C920 draw more power than others and there are reports of them drawing too much power from the USB port when used at the same time.
+   Therefore, you should probably use a powered USB hub for the C920.
+
 Another use case for a USB hub is if you have a `Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ camera. 
 This device has its own processor on board and one drawback of this is that the camera always draws power, even when an opMode is not running.
 By adding a powered USB hub the Limelight will not drain your robot's battery.
@@ -212,7 +215,7 @@ It has a USB C port that can supply power to all connected devices.
    
    The USB Hub is connected to the USB 3.0 port of the Control Hub.
    A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
-   Two Logitech 920 webcams are connected to the USB hub.
+   Two Logitech C920 webcams are connected to the USB hub.
 
 See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ sample program that demonstrates swapping between the two cameras to detect AprilTags.
 
@@ -226,7 +229,7 @@ This example shows both a Limelight and a webcam.
      
    The USB Hub is connected to the USB 3.0 port of the Control Hub.
    A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
-   A Logitech 270 webcam and a Limelight 3A are connected to the USB hub.
+   A Logitech C270 webcam and a Limelight 3A are connected to the USB hub.
 
 The Limelight 3A is not a compatible VisionPortal device. So you can't use the AprilTag switchable camera sample code.
 But you can still get results from either the Limelight and/or the VisionPortal webcam and use them as required.

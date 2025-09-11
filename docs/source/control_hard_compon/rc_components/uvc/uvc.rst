@@ -23,7 +23,7 @@ the REV Control Hub or to the Robot Control system via a USB hub.
          :align: center
          :width: 50 %
          :class: no-scaled-link
-         :alt: Example UVC webcam
+         :alt: Example budget UVC webcam
         
       +++
 
@@ -41,7 +41,7 @@ the REV Control Hub or to the Robot Control system via a USB hub.
          :align: center
          :width: 50 %
          :class: no-scaled-link
-         :alt: Example UVC webcam
+         :alt: Example mid-range UVC webcam
         
       +++
 
