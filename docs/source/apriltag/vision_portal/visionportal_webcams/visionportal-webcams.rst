@@ -6,12 +6,18 @@ This is a short list of common webcams that are known to work with the
 and the 
 :ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
 
-VisionPortal is a comprehensive new interface for FTC vision processing,
-including AprilTag and TensorFlow Object Detection (TFOD).
+VisionPortal is a comprehensive interface for FTC vision processing.
+Example use cases for a webcam are:
+
+- :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
+- determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
+- using OpenCV to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
 
 Many more webcams can work with the FTC VisionPortal; this is a short
 list of models with built-in calibrations suitable for AprilTag 
 :ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:aprilTag pose>`.
+
+.. _logitech_c270_label:
 
 Logitech C270
 -------------
@@ -19,12 +25,13 @@ Logitech C270
 .. figure:: images/010-C270.png
    :align: center
    :width: 55%
+   :class: no-scaled-link
    :alt: C270 Camera
 
    Logitech C270 Camera
 
 The `Logitech C270 <https://www.logitech.com/en-us/products/webcams/c270-hd-webcam.960-000694.html>`__
-is available at the FIRST Storefront for new FTC teams, and at many
+is available at the *FIRST* Storefront for new FTC teams, and at many
 online retailers.
 
 **FTC Hot Take:**
@@ -45,12 +52,15 @@ The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and no others. Learn more at
 :ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
 
+.. _logitech_c310_label:
+
 Logitech C310
 -------------
 
 .. figure:: images/030-C310.png
    :align: center
    :width: 55%
+   :class: no-scaled-link
    :alt: C310 Camera
 
    Logitech C310 Camera
@@ -77,12 +87,15 @@ The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and for 640x360. Learn more at
 :ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
 
+.. _logitech_c920_label:
+
 Logitech C920
 -------------
 
 .. figure:: images/020-C920.png
    :align: center
    :width: 55%
+   :class: no-scaled-link
    :alt: C920 Camera
 
    Logitech C920 Camera
@@ -119,6 +132,7 @@ Microsoft LifeCam HD-3000 v1/v2
 .. figure:: images/040-LifeCam-3000.png
    :align: center
    :width: 55%
+   :class: no-scaled-link
    :alt: LifeCam-3000 Camera
 
    Microsoft LifeCam HD-3000 v1/v2
@@ -184,6 +198,7 @@ Arducam Global Shutter 120 FPS
 .. figure:: images/050-Arducam.png
    :align: center
    :width: 55%
+   :class: no-scaled-link
    :alt: Arducam GS 120 Camera
 
    Arducam GS 120 Camera
