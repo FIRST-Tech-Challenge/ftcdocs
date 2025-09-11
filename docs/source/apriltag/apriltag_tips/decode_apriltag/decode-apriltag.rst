@@ -210,7 +210,7 @@ possibility that the ROBOT's camera will see and process multiple AprilTags.
 
    View of AprilTags on OBELISK from BLUE GOAL
 
-The only reliable way to determine which AprilTag is truly showing on the FIELD
+A reliable way to determine which AprilTag is truly showing on the FIELD
 is to move the ROBOT into a position where the AprilTag on the front face of
 the OBELISK is the only tag that can be viewed. 
 
