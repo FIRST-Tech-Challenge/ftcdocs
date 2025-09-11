@@ -1,17 +1,20 @@
-*FIRST* Tech Challenge Self-Inspect
-===================================
+Old Self-Inspect
+================
 
 Introduction
 ------------
 
-This page describes the Self Inspect screens in the FTC Driver Station
+This page describes the older Self Inspect screens in the FTC Driver Station
 (DS) app and the FTC Robot Controller (RC) app.
+See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. These rules are described
-in each season’s `Game Manual
-1 <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__,
-and many are summarized in that manual’s **Field Inspection Checklist**.
+relates to FTC rules for the control system. 
+These rules are described in the Competition Manual which can be found on the
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+
+.. tip:: An `Inspection Checklist PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/inspection-checklist.pdf>`_ 
+   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
@@ -27,8 +30,9 @@ Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
 .. note::
-  These images show Version 7.0 of the FTC apps. Please refer to Game Manual 
-  Part 1 for the correct allowed software system versions.
+  These images show Version 7.0 of the FTC apps. Please refer to Competition Manual 
+  for allowed software system versions. These images are valid up to version 10.2 of the FTC apps.
+  See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 Device Pairing
 --------------
