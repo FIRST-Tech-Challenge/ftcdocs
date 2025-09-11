@@ -81,6 +81,7 @@ Topics for programming with AprilTags
    Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Localization <../apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
+   ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
 
 TensorFlow Programming
 ~~~~~~~~~~~~~~~~~~~~~~
