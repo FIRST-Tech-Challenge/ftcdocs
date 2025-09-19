@@ -12,8 +12,11 @@ relates to FTC rules for the control system.
 These rules are described in the Competition Manual which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
-.. tip:: An `Inspection Checklist PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/inspection-checklist.pdf>`_ 
+.. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-check>`_ 
    is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
+   
+   There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-reference>`_ 
+   with some examples of legal and illegal parts (though it is not a subsitute for the Competition Manual.
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
@@ -26,14 +29,11 @@ The challenge is to maximize useful information in a small screen. The
 Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
-Field Inspection
+Robot Inspection
 ----------------
 
-Field inspection is concerned with software app versions and configuration, as will as robot operation on the field.
-Teams must bring both their driver station (with gamepads) and robot (with battery) to field inspection and be prepared to turn them on, connect the devices, and operate the robot on a field.
-
-The Self Inspection reports may be reviewed in Field Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules.
-With the robot and driver station turned on and connected the field inspector will likely go through the **Inspection Checklist** form (on paper or a tablet)
+The Self Inspection reports may be reviewed in Robot Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules.
+With the robot and driver station turned on and connected the inspector may go through the **Inspection Checklist** form (on paper or a tablet).
 They will check both the **Driver Station Inspection Report** and the **Robot Controller Inspection Report**, both of which can be displayed from the DS.
 Many FTC events will scan the QR Code that is displayed on the RC Inspection Report.
 
@@ -41,11 +41,11 @@ Version Information
 -------------------
 
 The Competition Manual lists the minimum recommended versions of firmware, Android Operating System, and FTC Apps.
-Teams may choose to run older versions without affecting their ROBOT inspection status. 
+Teams may choose to run older versions without affecting their ROBOT inspection status.
 This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
 
 .. note::
-  The images in this page show Version 10.3 of the FTC apps.
+  The images in this page show Version 10.3 or newer of the FTC apps.
   This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
   See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
 
@@ -167,14 +167,14 @@ FYI - if you connect an external monitor to the Control Hub's HDMI port and a mo
 -  Item 14 ``Matches DS Version`` should be **Yes**, though a minor version difference is probably OK such as 10.1 vs 10.2.
 -  Item 15 Apps Installed ``Driver Station`` should be **Not installed**, this verifies that the Robot Controller device does **not** also have a Driver Station app installed.
    Only one FTC app should be installed on each device. It's possible to accidentally install both apps, but this usually causes the apps to not work properly.
--  Item 16 At the bottom of the RC inspection report is a QR Code that can be scanned during field inspection to fill in many of the field inspection checklist items.
+-  Item 16 At the bottom of the RC inspection report is a QR Code that can be scanned during inspection to fill in many of the inspection checklist items if the inspector is using a tablet.
 
 .. figure:: images/newRcQrCode.png   
    :align: center
    :width: 85%
    :alt: Self Inspect QR code
 
-   The field inspector may scan the QR Code during field inspection
+   The robot inspector may scan the QR Code during inspection
 
 Summary
 -------
@@ -183,7 +183,7 @@ The Self Inspect screen is a quick, handy reference to help teams
 confirm that certain control system elements are up-to-date and properly
 configured.
 
-Self Inspect may be reviewed in Field Inspection at an FTC tournament,
+Self Inspect may be reviewed in Robot Inspection at an FTC tournament,
 but is **not** a comprehensive or official standard of compliance with
 FTC rules.
 
