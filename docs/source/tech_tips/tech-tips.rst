@@ -710,12 +710,12 @@ Just click to expand the Tech Tip you'd like to read.
 
    - *“Is merely editing the Android Manifest file in the TeamCode directory of
      the FtcRobotController SDK project an acceptable way of easily updating the
-     SDK? And would this violate RS08 in Game Manual Part 1?”*
+     SDK? And would this violate the Competition Manual?”*
 
    Manually editing the Android Manifest file in the TeamCode Directory of the
-   FtcRobotController SDK software is not a violation of RS08, merely because
-   RS08(b) only protects the binary .AAR files. The manifest file is not part
-   of the .AAR binary, and thus it’s not protected.
+   FtcRobotController SDK software is not a violation of the Competition
+   Manual, merely because RS08(b) only protects the binary .AAR files. The
+   manifest file is not part of the .AAR binary, and thus it’s not protected.
 
    Even though it’s not forbidden, that doesn’t mean you should do it – like
    putting pineapple on pizza (sorry, the door was open, I couldn’t stop

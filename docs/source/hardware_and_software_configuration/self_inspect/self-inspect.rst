@@ -219,7 +219,7 @@ DS Self Inspect 3, on Driver Hub paired to RC phone
 
 -  Item 4 appears only on the Driver Hub. The check-mark indicates the
    Operating System meets the minimum version requirement in the FTC
-   Game Manual.
+   Competition Manual.
 -  Note that ``Airplane Mode`` has been omitted from the DS inspection,
    only for Driver Hub. FTC rules exclude the Driver Hub and Control Hub
    from the Airplane Mode requirement.
