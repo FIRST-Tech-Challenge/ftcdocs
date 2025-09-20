@@ -53,7 +53,7 @@ tutorials, you will need to have the following materials available:
    * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
        Alternately, the Competition Manual does allow teams to instead
        use a REV Robotics Expansion Hub and a select list of Android
-       phones. See rules R701 and R704 for the full details.
+       phones. 
      - |chandphones| |exhub|
    
    * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
@@ -77,7 +77,7 @@ tutorials, you will need to have the following materials available:
    * - *FIRST*-approved\* 12V Battery (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current Competition Manual.**\
      - |battery|   Or |slimbattery|
 
-   * - *FIRST*-approved\* 12V DC Motor (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors,refer to the current Competition Manual.**\
+   * - *FIRST*-approved\* 12V DC Motor (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
      - |motor|
 
 
@@ -99,7 +99,7 @@ tutorials, you will need to have the following materials available:
    * - Logitech F310 USB Gamepad.
      - |f310|
 
-   * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users donot need this cable.
+   * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
    * - If you are using a smartphone as your Robot Controller, you will need two (2) micro USB OTG adapters. If you are using a Control Hub as your Robot Controller, you will need one(1) micro USB OTG adapter.

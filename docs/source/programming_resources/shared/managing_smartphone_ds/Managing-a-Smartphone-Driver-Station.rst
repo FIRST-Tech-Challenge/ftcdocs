@@ -11,7 +11,7 @@ described below for a DS phone, also apply to a REV Driver Hub.
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
-In order to comply with game manual rule <RS01>, the name of the Driver
+In order to comply with the Competition Manual, the name of the Driver
 Station (DS) smartphone should be changed.
 
 This can be done in the DS app, as described below.

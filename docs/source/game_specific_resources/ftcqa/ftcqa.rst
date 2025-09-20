@@ -8,9 +8,7 @@ FIRST Tech Challenge Game Q&A
 The `Game Q&A <https://ftc-qa.firstinspires.org/>`_ is a forum/tool that
 provides teams an opportunity to receive clarifications from the Game Design
 Committee about the current season's challenge. Rulings on the Q&A are final
-and binding, so all teams must make sure to check back and review the Q&A
-often. Game rulings made within the Q&A system are NOT guaranteed to be
-reflected in the appropriate Game Manual.
+and binding, and will be reflected in the Competition Manual. 
 
 How to Ask Questions
 ~~~~~~~~~~~~~~~~~~~~
