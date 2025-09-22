@@ -710,12 +710,7 @@ Just click to expand the Tech Tip you'd like to read.
 
    - *“Is merely editing the Android Manifest file in the TeamCode directory of
      the FtcRobotController SDK project an acceptable way of easily updating the
-     SDK? And would this violate RS08 in Game Manual Part 1?”*
-
-   Manually editing the Android Manifest file in the TeamCode Directory of the
-   FtcRobotController SDK software is not a violation of RS08, merely because
-   RS08(b) only protects the binary .AAR files. The manifest file is not part
-   of the .AAR binary, and thus it’s not protected.
+     SDK?”*
 
    Even though it’s not forbidden, that doesn’t mean you should do it – like
    putting pineapple on pizza (sorry, the door was open, I couldn’t stop
@@ -1709,7 +1704,7 @@ Just click to expand the Tech Tip you'd like to read.
    your hardware configuration the Self-Inspect screens may be formatted
    differently or have different options listed, so :ref:`there is a handy
    reference on ftc-docs
-   <hardware_and_software_configuration/self_inspect/self-inspect:*FIRST* Tech Challenge Self-Inspect>`
+   <hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* Tech Challenge Self-Inspect>`
    that can help you understand the Self-Inspect tool. Make sure you’re ready
    for inspection!
 

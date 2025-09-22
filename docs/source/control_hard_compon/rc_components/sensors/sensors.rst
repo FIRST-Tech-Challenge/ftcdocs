@@ -1,14 +1,8 @@
 Sensors
 =========
 
-.. note:: 
-   As per :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
-   a UVC Webcam is not considered a sensor.
-
-Listed below are some examples of common robot sensors. This is not
-intended to limit or extend in any way the scope of sensors as established in
-``<RE12>``. While the *FIRST* Tech Challenge SDK supports many sensors not all
-are natively supported.
+Listed below are some examples of common robot sensors. While the *FIRST* Tech
+Challenge SDK supports many sensors not all are natively supported.
 
 Examples
 ----------

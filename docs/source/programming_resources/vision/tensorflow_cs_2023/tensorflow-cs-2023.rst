@@ -37,14 +37,14 @@ a white ``Pixel`` is present. Once the robot has correctly identified which Spik
 Mark the white ``Pixel`` is present on, the robot can then perform additional
 actions based on that position that will yield additional points.
 
-Teams also have the opportunity to replace the white ``Pixel`` with an object of
-their own creation, within a few guidelines specified in the Game Manual. This
-object, or Team Game Element, can be optimized to help the team identify it
-more easily and custom TensorFlow inference models can be created to facilitate
-recognition. As the field is randomized, the team's Team Game Element will be
-placed on the Spike Marks as the white ``Pixel`` would have, and the team must 
-identify and use the Team Game Element the same as if it were a white ``Pixel`` on
-a Spike Mark.
+Teams also have the opportunity to replace the white ``Pixel`` with an object
+of their own creation, within a few guidelines specified in the Game
+Competition. This object, or Team Game Element, can be optimized to help the
+team identify it more easily and custom TensorFlow inference models can be
+created to facilitate recognition. As the field is randomized, the team's Team
+Game Element will be placed on the Spike Marks as the white ``Pixel`` would
+have, and the team must identify and use the Team Game Element the same as if
+it were a white ``Pixel`` on a Spike Mark.
 
 Sample OpModes
 ~~~~~~~~~~~~~~
