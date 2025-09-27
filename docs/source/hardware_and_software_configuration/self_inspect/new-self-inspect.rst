@@ -16,7 +16,7 @@ These rules are described in the Competition Manual which can be found on the
    is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
    
    There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-reference>`_ 
-   with some examples of legal and illegal parts (though it is not a subsitute for the Competition Manual.
+   with some examples of legal and illegal parts (though it is not a substitute for the Competition Manual).
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
@@ -40,7 +40,7 @@ Many FTC events will scan the QR Code that is displayed on the RC Inspection Rep
 Version Information
 -------------------
 
-The Competition Manual lists the minimum recommended versions of firmware, Android Operating System, and FTC Apps.
+The Competition Manual lists the minimum recommended versions of device firmware, Android operating system, and FTC Apps.
 Teams may choose to run older versions without affecting their ROBOT inspection status.
 This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
 
@@ -60,7 +60,11 @@ Regardless of the versions selected, it is highly recommended that the installed
 App and DRIVER STATION App versions match major and minor values to ensure compatibility as not
 all software versions are compatible with each other.
 
+Teams may choose to run older versions without affecting their ROBOT inspection status. 
+
 .. caution::
+   Some FTC App versions have a different robot communication protocol and are unable to connect with each other.
+   
    FIELD STAFF will not be able to provide comprehensive support to teams with software older than the recommended version. 
 
 Driver Station Self Inspection Report
@@ -92,6 +96,7 @@ The following is a screen shot of a DS Self Inspection Report with the Driver Hu
 -  Item 9 ``Wi-Fi Enabled`` must be **Yes** as it means the DS device’s Wi-Fi radio is **ON**.
 -  Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the Driver Hub is connected to a standard Wi-Fi source, such as a Control Hub.
 -  Item 11 shows the ``Driver Station Name`` meets FTC format requirements. It should be your team number plus -DS, example 99999-DS.
+   If a spare device is configured, a letter designator may be added <team number>-<letter>-DS (e.g., 12345-A-DS, 12345-B-DS).
    See the Competition Manual for device naming rules.
 -  Item 12 shows the ``Robot Controller Name``. It will show **None** if not connected. It will show an error if team number portion of the Robot Controller and Driver Station names do not match.
    It does not check whether the RC name matches FTC format requirements. See the Robot Controller Self Inspection Report.
@@ -159,12 +164,13 @@ FYI - if you connect an external monitor to the Control Hub's HDMI port and a mo
 -  Item 9 ``RC Password`` appears only in RC Self Inspect. This inspection item has failed the FTC requirement for a Control Hub
    password different than the factory default (“password”). Go to the Program and Manage page, select Manage and then update the RC password.
    You will have to re-pair the DS to the RC and enter the new password to reconnect.
--  Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the DS device’s Wi-Fi radio is **ON**.
+-  Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s Wi-Fi radio is **ON**.
 -  Item 11 ``Standard Wi-Fi Connected`` must be **Yes**.
 -  Item 12 shows the ``Robot Controller Name`` meets FTC format requirements. It should be your team number plus -RC, example 99999-RC.
+   If a spare device is configured, a letter designator may be added <team number>-<letter>-RC (e.g., 12345-A-RC, 12345-B-RC).
    See the Competition Manual for device naming rules.
 -  Item 13 Apps Installed ``Robot Controller`` should show the RC app version. *FIRST* recommends but does not require that teams use the currently available version.
--  Item 14 ``Matches DS Version`` should be **Yes**, though a minor version difference is probably OK such as 10.1 vs 10.2.
+-  Item 14 ``Matches DS Version`` should be **Yes**. A **No** can show up here and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches are now allowed, but not recommended.
 -  Item 15 Apps Installed ``Driver Station`` should be **Not installed**, this verifies that the Robot Controller device does **not** also have a Driver Station app installed.
    Only one FTC app should be installed on each device. It's possible to accidentally install both apps, but this usually causes the apps to not work properly.
 -  Item 16 At the bottom of the RC inspection report is a QR Code that can be scanned during inspection to fill in many of the inspection checklist items if the inspector is using a tablet.
