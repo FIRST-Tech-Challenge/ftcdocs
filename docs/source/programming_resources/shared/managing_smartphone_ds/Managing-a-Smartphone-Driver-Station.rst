@@ -1,18 +1,18 @@
-Managing a Smartphone Driver Station
-====================================
+Managing a Driver Station
+=========================
 
 REV Driver Hub
 ~~~~~~~~~~~~~~
 
 The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__
 is preloaded with the Driver Station (DS) app. The procedures
-described below for a DS phone, also apply to a REV Driver Hub.
+described below for a REV Driver Hub, also apply to a using an Android phone as a DS.
 
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
 In order to comply with the Competition Manual, the name of the Driver
-Station (DS) smartphone should be changed.
+Station (DS) should be changed.
 
 This can be done in the DS app, as described below.
 
@@ -23,34 +23,38 @@ the phone.
 Changing the Name of a Driver Station Instructions
 --------------------------------------------------
 
-1. On the Driver Station phone, touch the three dots in the upper     
+1. On the Driver Station, touch the three dots in the upper     
 right hand corner to display a pop-up menu.                           
 
-.. image:: images/touchThreeDots.jpg
+.. image:: images/touchThreeDots1.png
    :align: center
+   :alt: Driver Station main screen showing the 3 dots highlighted with an orange circle.
 
 |
 
 2. Select the *Settings* menu item from the pop-up menu. 
 
-.. image:: images/selectSettings.jpg
+.. image:: images/selectSettings.png
    :align: center
+   :alt: Driver Station main pop-up menu showing the Settings option highlighted with an orange circle.
 
 |   
 
 3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS*    
 page.                                                                 
 
-.. image:: images/clickDriverStationName.jpg
+.. image:: images/clickDriverStationName.png
    :align: center
+   :alt: Driver Station settings screen showing the Driver Station Name highlighted with an orange circle.
 
 |
 
 4. Specify the new Driver Station Name and press *OK* to accept the   
 changes.                                                              
 
-.. image:: images/specifyNewDriverStationName.jpg
+.. image:: images/specifyNewDriverStationName.png
    :align: center
+   :alt: Driver Station Name pop-up screen that allows you to enter or change the name.
 
 |
 
@@ -59,7 +63,7 @@ Updating the Driver Station App
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is important to know how to update the Driver Station app that is
-installed on your smartphone. FIRST periodically releases new versions
+installed on your device. *FIRST* periodically releases new versions
 of this app, which contain improvements and fixes, as well as
 season-specific data and features.
 
@@ -68,8 +72,9 @@ Driver Station user interface. Select the *About* menu option on the
 Driver Station and note the App Version number under the *ABOUT DRIVER
 STATION* section.
 
-.. image:: images/aboutDriverStation.jpg
+.. image:: images/aboutDriverStation.png
    :align: center
+   :alt: Driver Station About screen showing the App Version highlighted with an orange circle.
 
 |
 
