@@ -1694,8 +1694,8 @@ Just click to expand the Tech Tip you'd like to read.
    This Week’s Tech Tip of the Week is here to help teams prepare for
    inspection at their events. Aside from making sure that your robot is within
    the Maximum Starting Size, ensuring that your robot code can correctly pass
-   Field Inspection, and other tasks in the `Robot Inspection Checklist
-   <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`__,
+   Robot Inspection, and other tasks in the `Robot Inspection Checklist
+   <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-check>`__,
    teams need to make sure their robot software and hardware apps are updated
    to the latest and greatest versions and that their hardware is configured
    correctly. There is a tool within the Driver Station App 3-dot menu called

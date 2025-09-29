@@ -70,12 +70,12 @@ Competition FAQs
 
     .. grid-item-card:: Who on my team needs to be with the robot for inspection?
 
-        It depends on which inspection station you're visiting and how your event is configured. 
-        The inspectors at Field Inspection like to see the Drive Team, Human Player (if there is 
-        one), and Drive Coach. The inspectors at Robot Inspection really just want to see team 
-        members who have the best idea of what's going on with the robot (mechanically and 
-        electrically). Look at your inspection sheets, you can generally determine what you're 
-        doing based on the checklist.
+        At least one student must be present during inspection per the Competition Manual.
+        However, inspectors will ask questions about the mechanical and electrical components of your robot.
+        Ideally, you have one or more team members who can answer such questions.
+        In addition, you may need to turn your robot and driver station on and demonstrate your robot complies with a particular rule like sizing.
+        That may involve someone from the drive team if you need to use a gamepad to operate a mechanism or place the robot in its starting configuration.
+        Look at the self inspection checklist, you can generally determine what you're doing based on the checklist.
         
     .. grid-item-card:: Why aren’t you going to replay that match?
 
