@@ -93,13 +93,13 @@ Color Processing Disadvantages
    returns location information on where the target object is within its
    field of view.
 
-.. figure:: images/tfodIndirect.jpg
+.. figure:: images/82-targeting.png
    :align: center
    :width: 75%
 
    Color Processing can recognize actual objects (and not just 2D image targets).
 
-.. figure:: images/tfodDual.jpg
+.. figure:: images/33-circleFit-LiveView.png
    :align: center
    :width: 75%
 
