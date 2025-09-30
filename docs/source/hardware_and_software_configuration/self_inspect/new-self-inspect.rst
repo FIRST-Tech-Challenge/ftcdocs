@@ -12,10 +12,10 @@ relates to FTC rules for the control system.
 These rules are described in the Competition Manual which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
-.. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-check>`_ 
+.. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
    is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
    
-   There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-reference>`_ 
+   There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ 
    with some examples of legal and illegal parts (though it is not a substitute for the Competition Manual).
 
 The Self Inspect screen is provided only as a quick, handy reference to
