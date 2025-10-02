@@ -804,8 +804,7 @@ Just click to expand the Tech Tip you'd like to read.
 
    But how do you know for sure how well your robot’s Wi-Fi is performing? You
    can monitor the Wi-Fi signal’s strength through the Driver Station App.
-   Check out the `2024/02/15 Team Blast Tech Tip
-   <https://info.firstinspires.org/team-blast-new-tech-tip-of-the-week-wi-fi-signal-strength>`__
+   Check out the **2024/02/12 Team Blast Tech Tip**
    for info on how to view and understand Wi-Fi Signal Strength. If your signal
    is strong when using 5GHz at maximum field range (from the Driver Hub) and
    in all robot orientations, you should be good to go on 5GHz! Feel free to

@@ -95,7 +95,7 @@ specifically defined:
    upcoming season.
 
 Software SDK updates are announced via the `FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__ and  
-`Team Email Blasts <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__ .
+`Team Email Blasts <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ .
 
 
 SDK Release Notes
