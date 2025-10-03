@@ -51,7 +51,7 @@ Just click on the button for the resource you want to explore!
       
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/node/5181
+            .. button-link:: https://ftc-resources.firstinspires.org/ftc/team
                :color: black
                :outline:
                :expand:
