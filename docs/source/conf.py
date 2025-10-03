@@ -157,8 +157,8 @@ latex_elements = {
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
                 \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
-                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{®}} - 
+                    \textcolor[rgb]{.96, .49, .15}{\small{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST\textsuperscript{®}, first.”}}
                 }
 
                 % Single-line header layout
@@ -176,8 +176,8 @@ latex_elements = {
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
                 \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism®} - 
-                    \textcolor[rgb]{.96, .49, .15}{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST, first.”}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{®}} - 
+                    \textcolor[rgb]{.96, .49, .15}{\small{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST\textsuperscript{®}, first.”}}
                 }
 
                 % Ensure same header format for plain pages
