@@ -17,7 +17,7 @@ Android Device
 
       .. figure:: images/REV-31-1596.png
          :align: center
-         :alt: REV-31-1596
+         :alt: REV Driver Hub
          :width: 75 %
 
       +++
@@ -34,7 +34,7 @@ Android Device
 
       .. figure:: images/motoe5.png
          :align: center
-         :alt: MotoE5
+         :alt: Moto E5
          :width: 50 %
 
       +++
@@ -82,7 +82,7 @@ USB-OTG Adapter / Hubs
 
       .. figure:: images/usbhub.png
          :align: center
-         :alt: USBHub
+         :alt: Anker USB Hub
          :width: 100 %
 
       +++
@@ -99,7 +99,7 @@ USB-OTG Adapter / Hubs
 
       .. figure:: images/REV-31-1592.png
          :align: center
-         :alt: REV-31-1592
+         :alt: REV UltraUSB
          :width: 50 %
 
       +++
@@ -112,7 +112,7 @@ USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter
 Cable must be used. This cable provides a USB Type A port for the Gamepad or peripherals
 (like a USB Hub, to allow more than one Gamepad to be used). If available, it
 is instead recommended to use a USB Hub with OTG cable built in, like the 
-`REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/rev-31-1592/>`_ - 
+`REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - 
 this reduces the number of connections and failure points in the system.
 
 When using a REV Driver Hub, no OTG adapters are necessary - gamepads may 
@@ -134,7 +134,7 @@ Comercial USB Battery Pack
 
       .. figure:: images/ankerbattery.png
          :align: center
-         :alt: REV-31-1387
+         :alt: Anker Battery Pack
          :width: 50 %
 
       +++
@@ -162,7 +162,7 @@ Gamepads
 
       .. figure:: images/f310.png
          :align: center
-         :alt: LogitechF310
+         :alt: Logitech F310
          :width: 75 %
 
       +++
@@ -196,7 +196,7 @@ Gamepads
 
       .. figure:: images/dualshock.png
          :align: center
-         :alt: DualShock4
+         :alt: Dual Shock 4
          :width: 75 %
 
       +++
@@ -247,7 +247,7 @@ Gamepads
 
       .. figure:: images/quadstick.png
          :align: center
-         :alt: quadstick
+         :alt: Quadstick
          :width: 75 %
 
       +++
