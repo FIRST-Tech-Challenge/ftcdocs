@@ -54,6 +54,7 @@ download process.
 
 .. image:: images/DownloadAndroidStudio.jpg
    :align: center
+   :alt: Screenshot of the Android Studio web page
 
 |
 
@@ -61,14 +62,14 @@ Accept the license terms and then push the blue "DOWNLOAD ANDROID
 STUDIO" button on the Android Developer webpage to download the
 software.
 
-.. image:: images/AndroidStudioWelcomeSetup.jpg
-   :align: center
-
-|
-
 Once the setup package has downloaded, launch the application and follow
 the on-screen instructions to install Android Studio.
 
+.. image:: images/AndroidStudioWelcomeSetup.jpg
+   :align: center
+   :alt: Android Studio Setup screen
+
+|
 
 Configuring Android Studio (Ladybug and later)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,7 +89,7 @@ Configuring Android Studio (Ladybug and later)
 #. `Install JDK 17 <https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html>`__
    If you did not already have this installed independently of Android Studio. 
    e.g. If you were using Android Studio’s bundled JDK, then when Ladybug is installed Android Studio 
-   will unhelpfully overwrite your old bundled JDK version. Note there’s a bug in the Settings → Build Tools → Gradle dialog 
+   will unhelpfully overwrite your old bundled JDK version. Note there’s a bug in the Settings -> Build Tools -> Gradle dialog 
    that may make you think your old version of the JDK is there, but it is not. You must use an unbundled version of the JDK.
 
 #. Go to File -> Settings and under Build, Execution, Deployment -> Build Tools -> Gradle use the Add JDK from disk option 
@@ -99,6 +100,7 @@ Configuring Android Studio (Ladybug and later)
 
 .. image:: images/AndroidStudioSelectJdk.png
    :align: center
+   :alt: Gradle setting screenshot
 
 |
 
@@ -111,10 +113,11 @@ error and recommend that you upgrade Gradle.
 
 .. image:: images/AndroidStudioUpgradeGradle.png
    :align: center
+   :alt: Screenshot showing Gradle upgrade messages.
 
 |
 
-Do not do this.  The FtcRobotController build is incompatible with upgraded Gradle.  If you do, you
+Do not upgrade Gradle.  The FtcRobotController build is incompatible with upgraded Gradle.  If you do, you
 will presented with another, even more, indecipherable error.
 
 To recover, you need to rollback the changes that Android Studio made upon that click.
@@ -122,16 +125,18 @@ To do that select Git -> Uncommitted Changes -> Show Shelf
 
 .. image:: images/AndroidStudioRecoverUpgrade.png
    :align: center
+   :alt: Screenshot showing the Show Shelf messages.
 
 |
 
-That will show the changes you have in your workspace. You want to rollback the 4 gradle files shown in the 
+That will show the changes you have in your workspace. You want to rollback the 4 Gradle files shown in the 
 following image. You can either select the Changes checkbox to select all files, or individually select the 
-gradle files. Note that if you have changes in your workspace that haven’t been committed, you want to be 
+Gradle files. Note that if you have changes in your workspace that haven’t been committed, you want to be 
 careful not to select those files or you may lose work.
 
 .. image:: images/AndroidStudioRollback.png
    :align: center
+   :alt: Screenshot showing the four files to be rolled back.
 
 |
 

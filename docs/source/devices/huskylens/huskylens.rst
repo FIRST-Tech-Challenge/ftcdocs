@@ -6,7 +6,7 @@ Introduction
 
 This is a simple tutorial to introduce the use of
 `HuskyLens <https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech
-Challenge (`FTC <https://www.firstinspires.org/robotics/ftc>`__), for
+Challenge, for
 teams that **already decided** to explore its potential.
 
 .. figure:: images/020-HuskyLens-dual.png
