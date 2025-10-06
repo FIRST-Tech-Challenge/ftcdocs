@@ -47,7 +47,7 @@ Control System Supporting Documentation
 -  :doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network <shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
 -  :doc:`Installing a Javascript Enabled Browser <shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`
 -  :doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`
--  :doc:`Managing a Smartphone Driver Station (DS) <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
+-  :doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
 -  :doc:`Managing a Smartphone Robot Controller (RC) <shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`
 
 .. toctree::
