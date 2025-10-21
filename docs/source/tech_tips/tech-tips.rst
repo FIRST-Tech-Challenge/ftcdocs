@@ -11,8 +11,14 @@ on this page chronologically, with the newest content at the top of the page.
 
 Just click to expand the Tech Tip you'd like to read.
 
+Additional Tech Tips:
+
+.. toctree::
+   :maxdepth: 1
+
+   tech-tips/tech-tip-practice-timer/tech-tip-practice-timer
+
 .. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
-   :open:
 
    .. _ladybug1011:
 
