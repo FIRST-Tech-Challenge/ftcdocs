@@ -9,14 +9,19 @@ there is more content than is reasonable in the email blast so partial content
 is included in the blast with the rest of the content here. Blasts are ordered
 on this page chronologically, with the newest content at the top of the page.
 
-Just click to expand the Tech Tip you'd like to read.
+Just click on the tech tip to read (in the "Updated Tech Tips" list below), or 
+expand the Tech Tip (in the "Legacy Tech Tips" list) you'd like to read.
 
-Additional Tech Tips:
+Updated Tech Tips:
+------------------
 
 .. toctree::
    :maxdepth: 1
 
    tech-tips/tech-tip-practice-timer/tech-tip-practice-timer
+
+Legacy Tech Tips:
+-----------------
 
 .. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
 
