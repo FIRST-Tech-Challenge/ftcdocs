@@ -12,10 +12,23 @@ is included in the blast with the rest of the content here.
 
 **FTC Driver Station Practice Timer**
 
-Did you know that there's a full-blown practice timer built into the Driver
-Station App on your REV Driver Hub? The practice timer helps you practice full
-matches - or just parts - and helps you understand and practice the timing of
-full matches or just specific parts of the match.
+Did you know there's a powerful tool lurking within your FTC Driver Station App, 
+designed to help your team dominate match timing? Forget the need for complex 
+event software – your Driver Station has a built-in Practice Match timer that 
+simulates the entire match flow, or any part of it! 
+Imagine perfecting your autonomous routine, nailing the Auto-TeleOp transition, 
+or optimizing your endgame strategy, all without the pressure of a real 
+competition. This (not so) hidden gem allows teams to practice match timing for 
+every critical phase: 
+
+* Autonomous - Fine-tune your robot's pre-programmed actions. 
+* Auto-TeleOp Transition - Seamlessly swap control from autonomous to TeleOp. 
+* TeleOp - Maximize your scoring potential during the main TeleOp period. 
+* Endgame - Strategize and execute your final, high-scoring moves. 
+
+This feature is a game-changer for practice sessions, allowing your team to build 
+muscle memory and confidence in a realistic, simulated environment. 
+Ready to unlock your team's full potential?
 
 *How does it work?* In the upper-left corner of the Driver Station App you will
 see the "Practice Timer Window". This has the heading "Practice Timer" and has
