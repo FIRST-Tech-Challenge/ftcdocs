@@ -36,7 +36,7 @@ the remaining time (in a possible practice match) as well as a "PLAY" button.
 This Practice Timer area is always visible regardless of what OpModes are
 running or any other activities (on the same screen). This Practice Timer also
 runs independently of other activities, therefore OpModes can be selected,
-started, stopped, selected, and so on while the Practice Timer is running
+started, stopped, reselected, and so on while the Practice Timer is running
 without affecting the timer.
 
 .. figure:: images/practice-timer.png
