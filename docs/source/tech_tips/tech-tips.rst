@@ -3,7 +3,7 @@
 
 Started in the 2023-2024 season, Tech Tips are a weekly segment released in the
 *FIRST* Tech Challenge `Team E-mail Blast
-<https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__.
+<https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__.
 Sometimes the Tech Tips are included in whole in the email blast, but sometimes
 there is more content than is reasonable in the email blast so partial content
 is included in the blast with the rest of the content here. Blasts are ordered
