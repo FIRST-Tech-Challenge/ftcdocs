@@ -45,20 +45,20 @@ Judging FAQs
 .. grid:: 1
     :gutter: 3
 
-    .. grid-item-card:: What do I need to bring to my Judging Appointment?
+    .. grid-item-card:: What do I need to bring to my Structured Judging Appointment?
 
         Teams should bring their robot, Portfolio and as many members of the team who want to participate in the presentation. Please note that at some events, 
         the Portfolio is collected when the team checks in for the event.
 
     .. grid-item-card:: What feedback will we receive from the judges?
 
-        Judges complete the feedback form immediately after the team has completed their formal interview. Feedback is limited to the initial formal interview and does 
+        Judges complete the feedback form immediately after the team has completed their Structured interview. Feedback is limited to the initial Structured interview and does 
         not include the team's performance in follow-up Pit interviews or their Portfolio.
 
     .. grid-item-card:: Is my team required to prepare a 5 minute presentation?
 
         Teams are not required to prepare a 5 minute presentation, but teams should let the judges know they do 
-        not have a formal presentation when they enter the room. The judges will begin to ask the team questions at the beginning of 
+        not have a presentation when they enter the room. The judges will begin to ask the team questions at the beginning of 
         the interview. 
 
 
@@ -70,12 +70,12 @@ Competition FAQs
 
     .. grid-item-card:: Who on my team needs to be with the robot for inspection?
 
-        It depends on which inspection station you're visiting and how your event is configured. 
-        The inspectors at Field Inspection like to see the Drive Team, Human Player (if there is 
-        one), and Drive Coach. The inspectors at Robot Inspection really just want to see team 
-        members who have the best idea of what's going on with the robot (mechanically and 
-        electrically). Look at your inspection sheets, you can generally determine what you're 
-        doing based on the checklist.
+        At least one student must be present during inspection per the Competition Manual.
+        However, inspectors will ask questions about the mechanical and electrical components of your robot.
+        Ideally, you have one or more team members who can answer such questions.
+        In addition, you may need to turn your robot and driver station on and demonstrate your robot complies with a particular rule like sizing.
+        That may involve someone from the drive team if you need to use a gamepad to operate a mechanism or place the robot in its starting configuration.
+        Look at the self inspection checklist, you can generally determine what you're doing based on the checklist.
         
     .. grid-item-card:: Why aren’t you going to replay that match?
 

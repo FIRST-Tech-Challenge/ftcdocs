@@ -17,7 +17,7 @@ Android Device
 
       .. figure:: images/REV-31-1596.png
          :align: center
-         :alt: REV-31-1596
+         :alt: REV Driver Hub
          :width: 75 %
 
       +++
@@ -34,22 +34,20 @@ Android Device
 
       .. figure:: images/motoe5.png
          :align: center
-         :alt: MotoE5
+         :alt: Moto E5
          :width: 50 %
 
       +++
 
       Moto E5
 
-The heart of the Driver Station is the Android Device that runs the
-Driver Station App. This Android Device requirement can be fulfilled
-either through the use of a 
-`REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ 
-or one of the approved Android Smartphones listed in
-:doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`. It is of
-vital importance that the Driver Station App be updated to a version
-that meets or exceeds the minimum Driver Station App version as
-defined in :doc:`Game Manual 1 <../../../manuals/game_manuals/game_manuals>`.
+The heart of the Driver Station is the Android Device that runs the Driver
+Station App. This Android Device requirement can be fulfilled either through
+the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or
+one of the approved Android Smartphones listed in the Competition Manual. It is
+of vital importance that the Driver Station App be updated to a version that
+meets or exceeds the minimum Driver Station App version as defined in the
+Competition Manual.
 
 USB-OTG Adapter / Hubs
 ----------------------
@@ -84,7 +82,7 @@ USB-OTG Adapter / Hubs
 
       .. figure:: images/usbhub.png
          :align: center
-         :alt: USBHub
+         :alt: Anker USB Hub
          :width: 100 %
 
       +++
@@ -101,7 +99,7 @@ USB-OTG Adapter / Hubs
 
       .. figure:: images/REV-31-1592.png
          :align: center
-         :alt: REV-31-1592
+         :alt: REV UltraUSB
          :width: 50 %
 
       +++
@@ -114,7 +112,7 @@ USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter
 Cable must be used. This cable provides a USB Type A port for the Gamepad or peripherals
 (like a USB Hub, to allow more than one Gamepad to be used). If available, it
 is instead recommended to use a USB Hub with OTG cable built in, like the 
-`REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/rev-31-1592/>`_ - 
+`REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - 
 this reduces the number of connections and failure points in the system.
 
 When using a REV Driver Hub, no OTG adapters are necessary - gamepads may 
@@ -136,7 +134,7 @@ Comercial USB Battery Pack
 
       .. figure:: images/ankerbattery.png
          :align: center
-         :alt: REV-31-1387
+         :alt: Anker Battery Pack
          :width: 50 %
 
       +++
@@ -144,10 +142,9 @@ Comercial USB Battery Pack
       Anker Battery Pack
 
 A commercial USB battery pack is an auxiliary power source that can be used in
-specific situations in accordance with the
-:ref:`Game Manuals<manuals/game_manuals/game_manuals:game manuals>`. A USB 
-battery pack is permitted to be used to charge your Android Device. Only the
-REV Driver Hub can be charged while in use, through its USB-C port.
+specific situations in accordance with the Competition Manual. A USB battery
+pack is permitted to be used to charge your Android Device. Only the REV Driver
+Hub can be charged while in use, through its USB-C port.
 
 Gamepads
 --------
@@ -165,7 +162,7 @@ Gamepads
 
       .. figure:: images/f310.png
          :align: center
-         :alt: LogitechF310
+         :alt: Logitech F310
          :width: 75 %
 
       +++
@@ -199,7 +196,7 @@ Gamepads
 
       .. figure:: images/dualshock.png
          :align: center
-         :alt: DualShock4
+         :alt: Dual Shock 4
          :width: 75 %
 
       +++
@@ -250,17 +247,17 @@ Gamepads
 
       .. figure:: images/quadstick.png
          :align: center
-         :alt: quadstick
+         :alt: Quadstick
          :width: 75 %
 
       +++
 
       Quadstick FPS
 
-:ref:`Game Manual 1 <manuals/game_manuals/game_manuals:game manuals>` defines
-the gamepads that are allowed in competition play. Up to two gamepads, in any
-combination, of the allowed types of gamepads may be used. All gamepads MUST be
-used in wired mode only, no wireless of any kind is allowed. Special features of
-some gamepads (Rumble, Lighting) may be programmed and used by teams for
-notifications and signaling to the drivers of the robot.
+The Competition Manual defines the gamepads that are allowed in competition
+play. Up to two gamepads, in any combination, of the allowed types of gamepads
+may be used. All gamepads MUST be used in wired mode only, no wireless of any
+kind is allowed. Special features of some gamepads (Rumble, Lighting) may be
+programmed and used by teams for notifications and signaling to the drivers of
+the robot.
 

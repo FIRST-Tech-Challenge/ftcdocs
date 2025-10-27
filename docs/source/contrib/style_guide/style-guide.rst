@@ -358,13 +358,13 @@ RST Code:
 
 .. code:: rest
    
-   `Field Setup Guide (PDF, 4.5 MB) <https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide>`__
+   `Field Setup Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide>`__
 
 Which looks like:
 
 .. list-table:: 
 
-   * - `Field Setup Guide (PDF, 4.5 MB) <https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide>`__
+   * - `Field Setup Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide>`__
 
 Generally in FTC Docs we link to file to enable them to be downloaded for printing or offline viewing. 
 In that case, the user is downloading the file, which is an action, so a button is appropriate.

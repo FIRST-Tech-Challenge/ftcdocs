@@ -9,10 +9,21 @@ there is more content than is reasonable in the email blast so partial content
 is included in the blast with the rest of the content here. Blasts are ordered
 on this page chronologically, with the newest content at the top of the page.
 
-Just click to expand the Tech Tip you'd like to read.
+Just click on the tech tip to read (in the "Updated Tech Tips" list below), or 
+expand the Tech Tip (in the "Legacy Tech Tips" list) you'd like to read.
+
+Updated Tech Tips:
+------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   tech-tips/tech-tip-practice-timer/tech-tip-practice-timer
+
+Legacy Tech Tips:
+-----------------
 
 .. dropdown:: Week of 11/06/2024 "Android Studio 2024.2.1 LadyBug Update and the FTC SDK"
-   :open:
 
    .. _ladybug1011:
 
@@ -710,12 +721,7 @@ Just click to expand the Tech Tip you'd like to read.
 
    - *“Is merely editing the Android Manifest file in the TeamCode directory of
      the FtcRobotController SDK project an acceptable way of easily updating the
-     SDK? And would this violate RS08 in Game Manual Part 1?”*
-
-   Manually editing the Android Manifest file in the TeamCode Directory of the
-   FtcRobotController SDK software is not a violation of RS08, merely because
-   RS08(b) only protects the binary .AAR files. The manifest file is not part
-   of the .AAR binary, and thus it’s not protected.
+     SDK?”*
 
    Even though it’s not forbidden, that doesn’t mean you should do it – like
    putting pineapple on pizza (sorry, the door was open, I couldn’t stop
@@ -809,8 +815,7 @@ Just click to expand the Tech Tip you'd like to read.
 
    But how do you know for sure how well your robot’s Wi-Fi is performing? You
    can monitor the Wi-Fi signal’s strength through the Driver Station App.
-   Check out the `2024/02/15 Team Blast Tech Tip
-   <https://info.firstinspires.org/team-blast-new-tech-tip-of-the-week-wi-fi-signal-strength>`__
+   Check out the **2024/02/12 Team Blast Tech Tip**
    for info on how to view and understand Wi-Fi Signal Strength. If your signal
    is strong when using 5GHz at maximum field range (from the Driver Hub) and
    in all robot orientations, you should be good to go on 5GHz! Feel free to
@@ -1699,8 +1704,8 @@ Just click to expand the Tech Tip you'd like to read.
    This Week’s Tech Tip of the Week is here to help teams prepare for
    inspection at their events. Aside from making sure that your robot is within
    the Maximum Starting Size, ensuring that your robot code can correctly pass
-   Field Inspection, and other tasks in the `Robot Inspection Checklist
-   <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf>`__,
+   Robot Inspection, and other tasks in the `Robot Inspection Checklist
+   <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-check>`__,
    teams need to make sure their robot software and hardware apps are updated
    to the latest and greatest versions and that their hardware is configured
    correctly. There is a tool within the Driver Station App 3-dot menu called
@@ -1709,7 +1714,7 @@ Just click to expand the Tech Tip you'd like to read.
    your hardware configuration the Self-Inspect screens may be formatted
    differently or have different options listed, so :ref:`there is a handy
    reference on ftc-docs
-   <hardware_and_software_configuration/self_inspect/self-inspect:*FIRST* Tech Challenge Self-Inspect>`
+   <hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* Tech Challenge Self-Inspect>`
    that can help you understand the Self-Inspect tool. Make sure you’re ready
    for inspection!
 

@@ -300,7 +300,7 @@ images can be local images (saved/stored in the repository) or remote
 images (using HTTP links). We're going to use both in our document, but 
 we need an image to use. I downloaded this file locally:
 
-`https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg <https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg>`_
+   https://ftc-docs.firstinspires.org/en/latest/_images/HoustonMatchPlay.jpg
 
 #. Navigate to the folder you created in the previous step.
 
