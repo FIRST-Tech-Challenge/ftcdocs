@@ -1,7 +1,7 @@
 .. meta::
    :title: Programming Resources, FTC Docs
    :description: Official Programming Resources for FIRST Tech Challenge
-   :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studios, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
+   :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studio, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
 
 Programming Resources
 =====================
@@ -83,23 +83,6 @@ Topics for programming with AprilTags
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
    ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
 
-TensorFlow Programming
-~~~~~~~~~~~~~~~~~~~~~~
-
-Topics for programming with TensorFlow Object Detection (TFOD)
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   vision/tensorflow_cs_2023/tensorflow-cs-2023
-   vision/tensorflow_pp_2022/tensorflow_pp_2022
-   vision/tensorflow_ff_2021/tensorflow-ff-2021
-   vision/blocks_tfod_opmode/blocks-tfod-opmode
-   vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom
-   vision/java_tfod_opmode/java-tfod-opmode
-   vision/java_tfod_opmode_custom/java-tfod-opmode-custom
-
 Vision Programming
 ~~~~~~~~~~~~~~~~~~~
 
@@ -152,5 +135,5 @@ Advanced Topics for Programmers
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`__
+-  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resources/library/ffc/programming-resources>`__
 
