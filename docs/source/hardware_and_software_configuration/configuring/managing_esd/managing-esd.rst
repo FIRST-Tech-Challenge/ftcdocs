@@ -15,7 +15,7 @@ to view an in-depth white paper, written by Mr. Eric Chin (a *FIRST*
 alumnus and a 2018 summer engineering intern), which examines and
 quantifies the efficacy of various ESD mitigation techniques:
 
-`ESD Mitigation Techniques For FTC (PDF 1.7MB) <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/analysis-esd-mitigation-echin.pdf>`__
+* :download:`ESD Mitigation Techniques For FTC (PDF 1.7MB) <files/analysis-esd-mitigation-echin.pdf>`
 
 Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work they
 did to model the problems caused by ESD and to evaluate different techniques to
