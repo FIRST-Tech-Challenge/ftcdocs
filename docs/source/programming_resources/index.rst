@@ -148,6 +148,17 @@ Advanced Topics for Programmers
    imu/imu.rst
    shared/installing_kotlin/Installing-Kotlin
    ../devices/huskylens/huskylens
+
+Java Tutorials
+~~~~~~~~~~~~~~
+
+Advanced tutorials for Java programmers
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   java_tutorials/subsystem-classes.rst
    
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
