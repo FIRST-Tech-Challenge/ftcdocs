@@ -25,16 +25,16 @@ several resources:
    image processing library 
 -  myBlocks: custom Blocks created in OnBot Java (OBJ)
 
-Now these three areas are provided, or bundled, in the new *FIRST* **Tech Challenge
-Software Development Kit (SDK), version 8.2**.
+Now these three areas are provided, or bundled, in the *FIRST* **Tech Challenge
+Software Development Kit (SDK), starting with version 8.2**.
 
 Namely, key capabilities of **AprilTag** and **EasyOpenCV** are
 available to the Robot Controller (RC) and Driver Station (DS) apps,
 without special downloads. And AprilTag features are included in **FTC
 Blocks**, without needing custom myBlocks.
 
-The AprilTag features work on Android RC phone cameras, and on webcams.
-A single OpMode can use AprilTag and TensorFlow Object Detection (TFOD).
+The AprilTag features work on webcams and on Android RC phone cameras.
+A single OpMode can use AprilTag and Color Processing.
 
 In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!
 
@@ -66,7 +66,7 @@ containing information and designed for easy recognition.
 The above samples represent different formats, or **families**. A
 project typically uses a single AprilTag family.
 
-This year, *FIRST* Tech Challenge uses a common family called **36h11**. A PDF
+*FIRST* Tech Challenge uses a common family called **36h11**. A PDF
 showing the numbers 0 through 20 from the 36h11 family can be downloaded here:
 
 - :download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`
@@ -175,9 +175,9 @@ remains within the camera’s field of view. Namely, an OpMode “**while() loop
 should regularly read the updated pose data, to guide the robot’s driving
 actions.
 
-The new SDK supports **multiple cameras**, switchable or simultaneous.  This
+The SDK supports **multiple cameras**, switchable or simultaneous.  This
 can help if the robot changes direction, or you wish to navigate using another
-AprilTag (or TensorFlow object).
+AprilTag (or Color Processing).
 
 Other sensors can also be used for navigation, such as drive motor encoders,
 REV Hub IMU, deadwheel encoders, color/distance sensors, ultrasonic sensors,
@@ -185,7 +185,7 @@ and more.
 
 It’s also possible to evaluate **non-AprilTag images** from the same camera
 and/or a second camera. For example, the SDK can estimate the horizontal angle
-(or Bearing) of an object detected with **TensorFlow**, another vision
+(or Bearing) of an object detected with **Color Processing**, another vision
 technology employed in *FIRST* Tech Challenge. Advanced teams might consider
 active camera pointing control, to keep an AprilTag or other object in view.
 
@@ -215,7 +215,7 @@ tags are **not** annotated by default with a colored border.
 
 Note: **Camera Stream** displays a snapshot of the camera’s view, on the Driver
 Station device. It’s available only during the INIT phase of an OpMode, and
-also shows any AprilTag (or TFOD) annotations. Instructions are posted here:
+also shows any AprilTag (or Color Processing) annotations. Instructions are posted here:
 
 - :ref:`Camera Stream Image Preview Documentation <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`
 
@@ -301,12 +301,12 @@ pose data in real-time to navigate to the desired location on the field.
 Vision processing can consume significant **CPU resources** and USB
 communications **bandwidth**. *FIRST* Tech Challenge teams may balance the
 benefits of higher resolution and speed (frames-per-second) against the risk of
-overloading CPU and bandwidth resources. The 8.2 SDK provides numerous tools to
+overloading CPU and bandwidth resources. The SDK 8.2 or later provides numerous tools to
 manage this balance: 
 
 - select the camera resolution 
 - disable and enable the RC preview (called LiveView) 
-- disable and enable the AprilTag (or TFOD) processor 
+- disable and enable the AprilTag (or Color Processing) processor 
 - close the camera stream 
 - select a compressed video streaming format 
 - measure frames-per-second 
@@ -315,18 +315,18 @@ manage this balance:
 
 **Option 3**
 
-Clearer camera images can improve AprilTag (and TFOD) vision processing.
+Clearer camera images can improve AprilTag (and Color Processing) vision processing.
 The SDK offers powerful **webcam controls** (Exposure, Gain, Focus,
-and more), now available in FTC Blocks! These controls can be applied
+and more), also available in FTC Blocks! These controls can be applied
 under various lighting conditions.
 
-Exposure and Gain are adjusted together. The new SDK offers Java Sample
+Exposure and Gain are adjusted together. The SDK offers Java Sample
 OpMode ``ConceptAprilTagOptimizeExposure.java``.
 
 **Option 4**
 
 The frame of reference described above in **AprilTag Axes** is
-calculated and provided by default in the new 8.2 SDK. Advanced teams
+calculated and provided by default in the 8.2 SDK or later. Advanced teams
 may prefer to perform their own pose calculations, based on **raw
 values** from the AprilTag/EasyOpenCV pipeline.
 
@@ -381,7 +381,7 @@ Summary
 AprilTag is a popular camera-based technology, using a scanned image
 similar to a QR Code.
 
-The new SDK version 8.2 now includes key capabilities of AprilTag and
+The SDK version 8.2 or later includes key capabilities of AprilTag and
 EasyOpenCV, a *FIRST* Tech Challenge-optimized interface with OpenCV for image
 processing. These methods are packaged for convenient use by **Java and Blocks
 programmers**.
@@ -399,8 +399,8 @@ Each camera requires **calibration data**, for a specific resolution, to
 provide good pose estimates.
 
 Multiple cameras are supported, and a single OpMode can use AprilTag and
-TensorFlow Object Detection (TFOD). AprilTag detection is improved with
-webcam Camera Controls, now available also in FTC Blocks.
+Color Processing. AprilTag detection is improved with
+webcam Camera Controls, available also in FTC Blocks.
 
 **In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**
 
