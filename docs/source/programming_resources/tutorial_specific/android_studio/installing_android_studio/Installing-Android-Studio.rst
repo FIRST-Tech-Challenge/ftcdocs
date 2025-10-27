@@ -49,7 +49,7 @@ and install Android Studio:
 
 *  https://developer.android.com/studio
 
-Click on the green "DOWNLOAD ANDROID STUDIO" button to start the
+Click on the white "Download Android Studio <latest version>" button to start the
 download process.
 
 .. image:: images/DownloadAndroidStudio.jpg
@@ -58,9 +58,9 @@ download process.
 
 |
 
-Accept the license terms and then push the blue "DOWNLOAD ANDROID
-STUDIO" button on the Android Developer webpage to download the
-software.
+Accept the license terms and then push the white "Download Android
+Studio <latest version> for <operating system>" button on the Android
+Developer webpage to download the software.
 
 Once the setup package has downloaded, launch the application and follow
 the on-screen instructions to install Android Studio.
@@ -70,81 +70,3 @@ the on-screen instructions to install Android Studio.
    :alt: Android Studio Setup screen
 
 |
-
-Configuring Android Studio (Ladybug and later)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. note:: 
-   
-   See the Caution above for why this is necessary.
-
-.. note:: 
-   
-   Android Studio Ladybug updates the underlying JetBrains IntelliJ version such that 
-   the interface is a VSCode look alike.  The screenshots in this documentation use the
-   JetBrains/Android Studio Classic UI which is no longer supported natively by JetBrains.
-   To follow along, users should install the `Classic UI <https://plugins.jetbrains.com/plugin/24468-classic-ui>`__ plugin.
-
-
-#. `Install JDK 17 <https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html>`__
-   If you did not already have this installed independently of Android Studio. 
-   e.g. If you were using Android Studio’s bundled JDK, then when Ladybug is installed Android Studio 
-   will unhelpfully overwrite your old bundled JDK version. Note there’s a bug in the Settings -> Build Tools -> Gradle dialog 
-   that may make you think your old version of the JDK is there, but it is not. You must use an unbundled version of the JDK.
-
-#. Go to File -> Settings and under Build, Execution, Deployment -> Build Tools -> Gradle use the Add JDK from disk option 
-   to select the newly installed JDK 17. In the image below take careful note of the directory paths 
-   for the options labeled jbr-17 and jbr-21. Note that they are the same. This is the aforementioned UI bug, 
-   and that is Android Studio overwriting your old JDK. In this image you’ll see I’ve selected the JDK that 
-   was installed independently.
-
-.. image:: images/AndroidStudioSelectJdk.png
-   :align: center
-   :alt: Gradle setting screenshot
-
-|
-
-Do Not Upgrade Gradle
-~~~~~~~~~~~~~~~~~~~~~
-
-If you have upgraded Android Studio from an earlier version to Ladybug, or you did not install and
-configure the JDK prior to loading a FtcRobotController workspace, then Android Studio may present an 
-error and recommend that you upgrade Gradle.
-
-.. image:: images/AndroidStudioUpgradeGradle.png
-   :align: center
-   :alt: Screenshot showing Gradle upgrade messages.
-
-|
-
-Do not upgrade Gradle.  The FtcRobotController build is incompatible with upgraded Gradle.  If you do, you
-will presented with another, even more, indecipherable error.
-
-To recover, you need to rollback the changes that Android Studio made upon that click.
-To do that select Git -> Uncommitted Changes -> Show Shelf
-
-.. image:: images/AndroidStudioRecoverUpgrade.png
-   :align: center
-   :alt: Screenshot showing the Show Shelf messages.
-
-|
-
-That will show the changes you have in your workspace. You want to rollback the 4 Gradle files shown in the 
-following image. You can either select the Changes checkbox to select all files, or individually select the 
-Gradle files. Note that if you have changes in your workspace that haven’t been committed, you want to be 
-careful not to select those files or you may lose work.
-
-.. image:: images/AndroidStudioRollback.png
-   :align: center
-   :alt: Screenshot showing the four files to be rolled back.
-
-|
-
-Once you have the proper files selected, click the Rollback button.
-
-Resync and that should revert you to the error that prompted you to upgrade Gradle in the first place. 
-From there follow the instructions above to install JDK 17.
-
-
-
-
