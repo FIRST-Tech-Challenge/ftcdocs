@@ -31,6 +31,7 @@ extensions = [
     'sphinxcontrib.mermaid',
     'hoverxref.extension',
     "sphinxext.rediraffe",
+    'notfound.extension',
     "ftcdocs_linkcheckdiff",
 ]
 
