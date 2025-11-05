@@ -1,0 +1,12 @@
+.. meta::
+   :title: Page not found
+   :description: The official home of FIRST Tech Challenge Documentation.
+   :orphan:
+
+Page not found
+==============
+
+Unfortunately we couldn't find the content you were looking for.
+
+Possibly the content was moved to the `FTC Docs Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>`__.
+
