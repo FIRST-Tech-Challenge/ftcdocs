@@ -112,6 +112,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    faq/faqs
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
+   team_resources/team_resources
 
 .. toctree::
    :caption: FTC Docs
