@@ -1,5 +1,5 @@
-Downloading the Android Studio Project Folder :bdg-success:`AS` :bdg-warning:`Legacy`
-=====================================================================================
+Downloading the Android Studio Project Folder :bdg-success:`AS`
+===============================================================
 
 The SDK can be downloaded from a GitHub repository. GitHub is a web-based
 version control company that lets individuals and organizations host content
@@ -100,8 +100,7 @@ Importing the Project into Android Studio
 
 In order to import the Project, you will need to launch the Android
 Studio software on your computer. On the main Android Studio Welcome
-screen, select the option to "Import project (Gradle, Eclipse, ADT,
-etc.)" to begin the import process.
+screen, select the option to "Open" to begin the import process.
 
 .. image:: images/SelectImport.jpg
    :align: center
@@ -110,10 +109,10 @@ etc.)" to begin the import process.
 
 Android Studio should prompt you to select the project folder that you
 would like to import. Use the file browser in the pop up dialog box to
-locate and then select the folder that you extracted in an earlier
+locate and then navigate into the folder that you extracted in an earlier
 section of this document. Make sure you select the extracted project
 folder (and not the .ZIP file which might have a similar name to the
-extracted folder). Hit the "OK" button to import the selected project
+extracted folder). Hit the "Select Folder" button to import the selected project
 into Android Studio.
 
 .. image:: images/SelectProjectFolder.jpg
@@ -121,11 +120,22 @@ into Android Studio.
 
 |
 
-In the figure above the project folder called “FtcRobotController-6.0”
+You may get a popup about trusting the project. If this happens, clilck the
+blue "Trust Project" button and continue.
+
+.. image:: images/TrustProject.jpg
+   :align: center
+
+|
+
+In the figure above the project folder called “FtcRobotController”
 is selected to be imported into Android Studio. It might take Android
 Studio several minutes to import the project. Once the project has been
 successfully imported, the screen should look similar to the one
-depicted in the image below.
+depicted in the image below. If you see a popup asking you to update the
+Android Gradle Plugin (AGP), ignore it. Do not attempt to update AGP as
+newer versions may not be compatible with the current *FIRST* Tech
+Challenge SDK.
 
 .. image:: images/SuccessfullyImported.jpg
    :align: center
