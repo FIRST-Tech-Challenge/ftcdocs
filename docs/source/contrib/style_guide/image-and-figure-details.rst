@@ -383,7 +383,7 @@ This HTML is from the square field image of the Field Coordinate System page.
    <figure class="align-default" id="id2">
      <img alt="A square field with X, Y and Z axes shown" src="../../_images/image3.jpg">
      <figcaption>
-       <p><span class="caption-text">The Cascade Effect game field</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+       <p><span class="caption-text">The Cascade Effect game field</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
        <div class="legend">
          <p>In a square field configuration the two Alliances face each other across the field.
          The field is oriented such that the Red Wall is on the right as seen
