@@ -77,9 +77,7 @@ Creating Your First OpMode
 
 Right mouse click on the ``org.firstinspires.ftc.teamcode`` package and
 select New->Java Class from the pop-up menu. The Create New Class dialog
-box appear. Specify the name of the new class as ``MyFIRSTJavaOpMode`` and
-specify as its superclass the class LinearOpMode which is in the package
-``com.qualcomm.robotcore.eventloop.opmode``.
+box appear. Specify the name of the new class as ``MyFIRSTJavaOpMode``.
 
 .. image:: images/CreateLinearOpMode.jpg
    :align: center
@@ -329,26 +327,14 @@ development laptop.
 
 Look towards the top of the Android Studio user interface and find the
 little green Play or Run button (which is represented by a green
-triangle) next to the words ``Team Code``. Press this green button to
-build the Robot Controller app and to install it onto your phone.
+circular arrow) next to the words ``TeamCode``. Verify that the correct
+device is selected, then press this green button to build the Robot
+Controller app and to install it onto your Control Hub (or RC phone).
 
 .. image:: images/RunTeamCode.jpg
    :align: center
 
 |
-
-Android Studio should prompt you to select a target device to install
-the Robot Controller app. Your screen might look something like the
-image shown below.
-
-.. image:: images/SelectDeploymentTarget.jpg
-   :align: center
-
-|
-
-Make sure that you select the correct target device. In the figure above
-the Motorola phone is selected as the target device. Hit OK to build the
-APK file and install it on the target device.
 
 Note that if you previously installed a copy of the Robot Controller
 app from the Google Play store, the installation of your newly built app
