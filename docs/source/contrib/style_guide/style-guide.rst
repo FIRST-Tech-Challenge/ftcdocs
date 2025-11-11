@@ -2,18 +2,15 @@ FTC Docs Style Guide
 ====================
 
 This guide contains the various reStructuredText (RST) and Sphinx specific guidelines for the FTC Docs project.
-reStructuredText is the default plaintext markup language used by Sphinx.
-Sphinx is a documentation generator.
-Sphinx converts reStructuredText files into HTML web pages. 
-Read the Docs is a documentation hosting platform and provides the base Sphinx theme for FTC Docs.
+reStructuredText is the default plain text markup language used by Sphinx.
 
 .. contents:: Contents
    :local:
    :depth: 1
    :backlinks: none
 
-..  This will be a long page. I think we need in-page links. See guidance here: https://www.nngroup.com/articles/formatting-long-form-content/
-   In-page links are also an accessibility improvement (imagine having to listen to this entire long page to find the one section near the end that you wanted).
+..  This will be a long page. I think we need in page links. See guidance here: https://www.nngroup.com/articles/formatting-long-form-content/
+   In page links are also an accessibility improvement (imagine having to listen to this entire long page to find the one section near the end that you wanted).
    I'll probably add sub-pages for some things (like detailed image guidance).
    
    The goal being that most users should find the style guide sufficient.
@@ -59,74 +56,49 @@ Web Content Accessibility Guidelines
 Web Content Accessibility Guidelines (WCAG) are 
 a set of recommendations for making Web content more accessible, primarily for people with disabilities.
 
-FTC Docs is not completely compliant with WCAG. 
-Our goal to address the Level A success criteria to remove accessibility barriers.
-Then move to meet the level AA criteria to improve that accessibility.
-See https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2
-
-The `WCAG documents <https://www.w3.org/WAI/standards-guidelines/wcag/>`_
-explain how to make web content more accessible to people with disabilities. 
-Web 'content' generally refers to the information in a web page or web application,
-
 Please refer to the :doc:`ftc-docs-accessibility-guidelines` section of FTC Docs for how to 
 improve the accessibility of content created for FTC Docs.
 
-The following section provide the WCAG principles that the accessibility guidelines are based on.
-   
-Principle 1 – Perceivable
-"""""""""""""""""""""""""
+Plain Language
+--------------
 
-Information and user interface components must be presentable to users in ways they can perceive.
-For the vision impaired this includes providing text alternative for non-text content like images.
-It could include Closed captioning which is a form of subtitling, a process of displaying text on a television, 
-video screen, or other visual display to provide additional or interpretive information, where the viewer is given the choice of whether the text is displayed. 
+Plain language means communicating in a way that’s clear, straightforward, and easy to understand. It helps audiences “get” what you’re saying immediately. 
 
-Create content that can be presented in different ways (for example simpler layout) without losing information or structure.
+Writing in plain language ensures that users can:
 
-Make it easier for users to see and hear content including separating foreground from background.
+- Find the information they need
+- Understand what they find
+- Use the information to fulfill their needs
 
-Principle 2 – Operable
-""""""""""""""""""""""
 
-User interface components and navigation must be operable.
-Make all functionality available from a keyboard.
-Provide users enough time to read and use content.
-Do not design content in a way that is known to cause seizures or physical reactions. Example: flashing content.
-Provide ways to help users navigate, find content, and determine where they are.
-
-Make it easier for users to operate functionality through various inputs beyond keyboard.
-
-Principle 3 – Understandable
-""""""""""""""""""""""""""""
-
-Information and the operation of the user interface must be understandable.
-Make text content readable and understandable.
-Make Web pages appear and operate in predictable ways.
-
-Principle 4 – Robust
-""""""""""""""""""""
-
-Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
-Help users avoid and correct mistakes.
-
-This success criterion is primarily for Web authors who develop or script their own user interface components. For example, standard HTML controls already meet this success criterion when used according to specification.
+This article talks about plain language and contains `tips with examples <https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024#how>`_.
+These are similar to the tips on `Writing for Web Accessibility <https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise>`_.
+Finally, you can explore the `Federal plain language guidelines <https://www.plainlanguage.gov/guidelines/>`_.
 
 reStructuredText Documents
 --------------------------
 
-.. should talk about RST documents, directives, and general structure issues.
+reStructuredText (RST) is the default plaintext `markup language <https://en.wikipedia.org/wiki/Markup_language>`_ used by Sphinx. 
+See the `reStructuredText primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ for a short introduction.
+There is also a `RST cheatsheet <https://sphinx-tutorial.readthedocs.io/cheatsheet/>`_ that can be helpful to remind you of the basics.
+
+The following sections illustrate how to write RST for FTC Docs. They are not a tutorial or reference guide for RST. 
 
 Example Document
 ^^^^^^^^^^^^^^^^
 
+The following example shows how content is mixed with RST markup.
+The RST markup indicates titles, paragraphs, code samples, images and document sections.
+
 .. code:: ReST
 
-   Title
-   =====
+   Article Title
+   =============
 
    This is an example article.
-   This is a paragraph.
-
+   A paragraph is a collection of lines. You can have multiple sentances per line.
+   
+   Leave a blank line to start a new paragraph.
    Here is some code:
 
    .. code:: java
@@ -157,6 +129,8 @@ Example Document
 
 .. note:: If you are having issues editing files with the ``.rst`` extension, the recommended text editor is VS Code with the
     `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
+    
+    However, a plain text editor works just fine. Though you would need to generate the HTML to see what the document will look like.
 
 Document Filenames
 ^^^^^^^^^^^^^^^^^^
@@ -171,38 +145,152 @@ Suffix filenames with the ``.rst`` extension.
 Titles and Headings
 -------------------
 
-.. attention:: We should also mention things related to document structure and how we want FTC Docs headings.
+Titles and Section Headers are both related, and are treated the exact same way. 
+
+In order to create a new Section, SubSection, SubSubSection, and so on, we just
+use a special character that we will define for each level. FTC Docs uses the following:
+
+.. code:: ReST
+
+   Titles
+   ====== (Equals)
+
+   Sections
+   -------- (Dash)
+
+   SubSection
+   ^^^^^^^^^^ (Carrot)
+
+   SubSubSection
+   """"""""""""" (Double Quotes)
+
+   SubSubSubSection
+   ++++++++++++++++ (Plus Sign)
+
+This is what should be used for different levels of sections.
+Please nest the sections in order. For example, use SubSection to add something to a Section (not a SubSubSection).
+
+.. warning:: Titles, Sections, SubSections, etc. must all be uniquely named within the same document.
 
 Text
 ----
 
-.. attention::  talk about FTC Docs text, paragraphs, lists, tables, admonitions etc.
-   This is where we just have guidelines and don't repeat info in the tutorials or reference guide.
-   Example: we can encourage use of the list style of RST table and avoid the ascii box style of table.
-   Also talk about plain language: https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024
+Use the ASCII character set for English text. For special characters (e.g. Greek symbols) use the `standard character entity sets <https://docutils.sourceforge.io/docs/ref/rst/definitions.html#character-entity-sets>`_.
+
+Use ``.. math::`` for standalone equations and ``:math:`` for inline equations. 
+The ``.. math::`` directive uses Latex markup, see this `LaTeX equation cheat sheet (PDF) <https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ for more information.
+
+The standard text formatting markup is quite simple - use:
+
+* One Asterisk: \*text\* for emphasis (italics) - like *text*
+* Two Asterisks: \*\*text\*\* for strong emphasis (boldface) - like **text**
+* Two Backticks: \`\`text\`\` for literals - like ``text``
+
+Use literals for filenames, function, and variable names.
+
+Whitespace
+----------
+
+Indentation
+^^^^^^^^^^^
+
+Indentation should *always* match the previous level of indentation *unless* you are creating a new content block.
+
+Indentation of content directives as new line ``.. toctree::``  should be `3` spaces.
+
+Blank Lines
+^^^^^^^^^^^
+
+There should be one blank line separating basic text blocks and section titles. There should be one blank line separating text blocks and content directives.
+
+Interior Whitespace
+^^^^^^^^^^^^^^^^^^^
+
+Use one space between sentences.
+
+Tables
+------
+
+There are many ways to create tables, FTC Docs prefers the `list <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ 
+or `CSV <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table-1>`_ style of RST table. 
+Please avoid the ASCII art form of table.
+
+.. code:: ReST
+
+   .. csv-table:: Frozen Delights!
+      :header: "Treat", "Quantity", "Description"
+      :widths: 15, 10, 30
+
+      "Albatross", 2.99, "On a stick!"
+      "Crunchy Frog", 1.49, "If we took the bones out,
+      it wouldn't be crunchy, now would it?"
+      "Gannet Ripple", 1.99, "On a stick!"
+      
+Which creates the following:
+
+.. csv-table:: Frozen Delights!
+   :header: "Treat", "Quantity", "Description"
+   :widths: 15, 10, 30
+
+   "Albatross", 2.99, "On a stick!"
+   "Crunchy Frog", 1.49, "If we took the bones out,
+   it wouldn't be crunchy, now would it?"
+   "Gannet Ripple", 1.99, "On a stick!"
+
+Admonitions
+-----------
+
+Admonitions are RST directives that provide special formatting to the admonition text.
+In FTC docs admonitions have a color heading, followed by a color shaded block with the admonition text.
+The list of admonitions is: "attention", "caution", "danger", "error", "hint", "important", "note", "tip", "warning".
+FTC Docs has lots of "note" and "warning" admonitions.
+
+In RST an admonition looks like:
+
+.. code:: ReST
+
+   .. note:: This is a note admonition.
+      This is the second line of the first paragraph.
+
+      - The note contains all indented body elements
+        following.
+      - It includes this bullet list.
+   
+Which results in the following:
+
+.. note:: This is a note admonition.
+   This is the second line of the first paragraph.
+
+   - The note contains all indented body elements
+     following.
+   - It includes this bullet list.
+   
+Please use admonitions to highlight important information. 
+
+.. tip:: Admonitions should usually should be short.
 
 Links
 -----
 
 Effective link text:
 
-- Avoid link text such as “click here” or "learn more." These call-to-actions do not provide any relevant information to someone using a screen reader.
+- Avoid link text such as “click here” or "learn more." These call to actions do not provide any relevant information.
 - Links should be unique and describe where it takes you. If you have multiple links that look or sound similar (but point to different sections), use different words for each link.
 - Links to files (e.g. Microsoft Word, PDF, etc.) should also indicate the file type or destination within the link text.
-- Avoid linking long URLs. Longer, less intelligible URLs used as link text might be difficult to comprehend with assistive technology.
-- Links should be clear and concise. Avoid linking entire sentences or paragraphs.
+- Avoid using long URLs as link text. Longer, less intelligible URLs used as link text might be difficult to comprehend with assistive technology.
+- Link text should be clear and concise. Avoid linking entire sentences or paragraphs.
 
 .. tip:: See this guide on `writing hyperlinks <https://www.nngroup.com/articles/writing-links/>`_ for more information.
    
 Internal Links
 ^^^^^^^^^^^^^^
 
-Internal Links will be auto-generated based on the ReStructuredText filename and section title.
+Internal Links will be automatically generated based on the ReStructuredText filename and section title.
 For example, here are several ways to link to sections and documents.
 
 - Use this format to reference a section of the same document: ```Images`_`` Note the single underscore. This renders to the link `Images`_ which is a section further down in this document.
 
-- Use this format to reference the top-level of a document. You can use relative paths ``:doc:`image-and-figure-details``` renders to :doc:`image-and-figure-details`. Or to use absolute paths, put a forward slash at the beginning of the path ``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams``` renders to :doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams`. Note that the link text rendered is the main section title of the target page regardless of the target filename.
+- Use this format to reference the top level of a document. You can use relative paths ``:doc:`image-and-figure-details``` renders to :doc:`image-and-figure-details`. Or to use absolute paths, put a forward slash at the beginning of the path ``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams``` renders to :doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams`. Note that the link text rendered is the main section title of the target page regardless of the target filename.
 
 The general way to reference a section in another document is to add a label in front of the section in that other document.
 Note the leading underscore and trailing colon that surround the label. The label must be unique across all of FTC Docs. You can also reference a Figure with the label method.
@@ -231,7 +319,7 @@ The second ``:ref:`` shows a format that lets you specify the link text, otherwi
    * - another reference to :ref:`IMU or robot axes <imu axes def>`
      - This shows custom link text.
 
-When using ``:ref:`` or ``:doc:`` you may customize the displayed text by surrounding the actual link with angle brackets ``<>`` and adding the custom text between the first backtick ````` and the first angle bracket ``<``, leaving a space between the text and bracket. 
+When using ``:ref:`` or ``:doc:`` you may customize the displayed text by surrounding the actual link with angle brackets ``<>`` and adding the custom text between the first back tick ````` and the first angle bracket ``<``, leaving a space between the text and bracket. 
 For example ``:ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>``` renders to :ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>`.
 This is a link to the Robot Controller Overview section of the index in the rc_components folder.
 
@@ -251,7 +339,7 @@ Use the following RST syntax:
 
 Which looks like: `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`_
 
-FTC Docs has chosen to open links to external sites in new tabs. This is done with Javascript.
+FTC Docs has chosen to open links to external sites in new tabs. This is done with JavaScript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
 
 Links to Files
@@ -320,7 +408,7 @@ Here's a gateway page example for the Field Setup Guide PDF.
 
    * - The Field Setup Guide has the official instructions for assembling and setting up a *FIRST* Tech Challenge field.
        Typically there are assembly instructions that build structures that then have setup instructions for placing on the field.
-       There are also teardown instructions that indicate how to take apart the field for storage or transport.
+       There are also tear down instructions that indicate how to take apart the field for storage or transport.
 
        The guide typically has the following sections:
 
@@ -330,7 +418,7 @@ Here's a gateway page example for the Field Setup Guide PDF.
        - Step by step instructions for assembling parts and setting them on the field.
        - Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the Alliances, and sometimes for game areas.
        - Most games have AprilTags placed around the field that can be used for robot navigation.
-       - Finally, there are teardown instructions that indicate how to take the field down for storage or transport.
+       - Finally, there are tear down instructions that indicate how to take the field down for storage or transport.
 
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
@@ -388,23 +476,13 @@ FTC Docs has many diagrams. Some are simple like this one for a control system d
 .. list-table::
 
    * - .. image:: ../../programming_resources/shared/control_system_intro/images/PointToPointControl.jpg
-          :alt: Two gamepads are connected to a phone, the phone is connected by WiFi Direct to another phone on the robot.
+          :alt: Two gamepads are connected to a Rev Driver Hub, which is connected by WiFi to a Rev Control Hub on the robot.
           :width: 40%
           :class: no-scaled-link
 
-The alt text reads *Two gamepads are connected to a phone, the phone is connected by WiFi Direct to another phone on the robot.*
+The alt text reads *Two gamepads are connected to a Rev Driver Hub, which is connected by WiFi to a Rev Control Hub on the robot.*
 
 FTC Docs also has photographs. These also need alt text to describe the image.
-This next example is on a page discussing hardware tradeoffs including stiff and flexible printer beds.
-
-.. list-table::
-
-   * - .. image:: ../../manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/images/flexiblebeds.png
-          :alt: An image showing how flexible beds peel off of the bed.
-          :width: 40%
-          :class: no-scaled-link
-
-The alt text reads *An image showing how flexible beds peel off of the bed.*
 
 Alt Text Guidelines
 """""""""""""""""""
@@ -506,7 +584,7 @@ There is a blank line before and after the caption.
    .. figure:: images/into-the-deep-field.png
       :alt: A square field with X, Y and Z axes shown.
    
-      The Cascade Effect game field
+      The Into The Deep game field
       
       In a square field configuration the two Alliances face each other across the field.
       The field is oriented such that the Red Wall is on the right as seen
@@ -523,7 +601,7 @@ Here's what a complex image looks like (with image reduced in size for this exam
           :width: 25%
           :class: no-scaled-link
           
-          Into The Deep game field
+          The Into The Deep game field
 
           In a square field configuration the two Alliances face each other across the field.
           The field is oriented such that the Red Wall is on the right as seen
@@ -567,7 +645,7 @@ Our HTML documents have a maximum width of 1000 pixels for desktop browsing so i
 
 An exception to image size is images like the control system diagrams in the 
 :ref:`Robot Controller Overview <control_hard_compon/rc_components/index:Robot Controller Overview>`. 
-Those diagrams are over 2500 pixels wide and greater than 500kb in size.
+Those diagrams are over 2500 pixels wide and greater than 500 KB in size.
 However, that extra resolution is required to properly view the details of all the components and the connections.
 If those were reduced in resolution, or too heavily compressed as a jpg, relevant details might be lost or hard to see.
 
