@@ -327,7 +327,7 @@ External Links
 ^^^^^^^^^^^^^^
 
 Links to other websites and even to the main *FIRST* Inspires site are call *external links*.
-It's possible to create a link by entering the URL in the text https://www.firstinspires.org/resource-library/ftc/game-and-season-info.
+It's possible to create a link by entering the URL in the text https://ftc-resources.firstinspires.org/ftc/game.
 Sphinx will build a link when it encounters a URL. But that is not the preferred approach.
 
 Use descriptive link text rather than just embedding a URL.
@@ -335,9 +335,9 @@ Use the following RST syntax:
 
 .. code:: rest
 
-   `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
+   `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`_
 
-Which looks like: `Game and Season Materials <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`_
+Which looks like: `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`_
 
 FTC Docs has chosen to open links to external sites in new tabs. This is done with JavaScript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
