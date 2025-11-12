@@ -20,7 +20,7 @@ and software is essential to prevent common issues caused by aging components.
   These only hide an unstable connection between the metal contacts, which can
   lead to intermittent power loss under shock. Instead, the metal pins on the
   device's XT30 connectors likely need to be uncompressed. Refer to `REV
-  Robotics XT30 troubleshooting <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>` for proper maintenance of these pins.
+  Robotics XT30 troubleshooting <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ for proper maintenance of these pins.
 
 * Battery Rejuvenation (Charge Cycling): Older NiMH batteries can develop
   crystalline structures, increasing internal resistance and reducing power
