@@ -8,7 +8,7 @@ Sometimes the Tech Tips are included in whole in the email blast, but sometimes
 there is more content than is reasonable in the email blast so partial content
 is included in the blast with the rest of the content here. 
 
-.. _annualMaintenance
+.. _annualMaintenance:
 
 **Robot Annual Maintenance Tips**
 
