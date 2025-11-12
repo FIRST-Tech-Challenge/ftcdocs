@@ -19,8 +19,8 @@ and software is essential to prevent common issues caused by aging components.
   Hub or Expansion Hub's XT30 connectors, avoid using glues like hot glue.
   These only hide an unstable connection between the metal contacts, which can
   lead to intermittent power loss under shock. Instead, the metal pins on the
-  device's XT30 connectors likely need to be uncompressed. Refer to REV
-  Robotics tutorials for proper maintenance of these pins.
+  device's XT30 connectors likely need to be uncompressed. Refer to `REV
+  Robotics XT30 troubleshooting <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>` for proper maintenance of these pins.
 
 * Battery Rejuvenation (Charge Cycling): Older NiMH batteries can develop
   crystalline structures, increasing internal resistance and reducing power
