@@ -32,7 +32,9 @@ and software is essential to prevent common issues caused by aging components.
   (e.g., Toolkit Q4AC, Hitec RDX2, Tektite Charge 2B) for batteries older than
   one season or those with an internal resistance exceeding 150% of their new
   value. Charge cycling shouldn't be done often, remember batteries only have
-  between 100-200 charge cycles before they naturally begin to deteriorate.
+  between 300-400 charge cycles before they naturally begin to deteriorate. 
+  However, draining a battery below 10V or charging a battery over 2A too often
+  can greatly decrease the expected life of a battery by up to 40%!
 
 * Continuous Wiring Inspection: Make wiring inspection an ongoing task, not
   just an annual one. Regularly check for frayed insulation, loose connections,
