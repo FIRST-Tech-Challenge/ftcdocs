@@ -40,7 +40,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/node/20896
+            .. button-link:: https://help.firstinspires.org/s/article/What-is-Coopertition
                :ref-type: doc
                :color: black
                :outline:
@@ -52,7 +52,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/robotics/fll/core-values
+            .. button-link:: https://help.firstinspires.org/s/article/What-are-the-FIRST-Core-Values
                :ref-type: doc
                :color: black
                :outline:
@@ -160,12 +160,12 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/node/5181
+            .. button-link:: https://ftc-resources.firstinspires.org/ftc/team
                :color: black
                :outline:
                :expand:
 
-               Robot Building Resources (external) 
+               Team Resources (external) 
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
@@ -227,7 +227,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/node/5226
+            .. button-link:: https://www.firstinspires.org/resources/library/ftc/team-management-resources
                :ref-type: doc
                :color: black
                :outline:
