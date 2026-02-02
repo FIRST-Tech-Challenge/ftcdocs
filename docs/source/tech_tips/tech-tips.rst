@@ -18,6 +18,7 @@ Updated Tech Tips:
 .. toctree::
    :maxdepth: 1
 
+   tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance
    tech-tips/tech-tip-practice-timer/tech-tip-practice-timer
 
 Legacy Tech Tips:
