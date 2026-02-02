@@ -33,6 +33,6 @@ The methods described here can be used in Android Studio or OnBot Java.
 They can also be provided to Blocks programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
-These CameraControl interfacees can be used to improve performace of AprilTag
+These CameraControl interfacees can be used to improve performance of AprilTag
 detection and color processing. Some settings, such as resolution and frame
 rate, are not covered here because they are part of VisionPortal and not the webcam.
