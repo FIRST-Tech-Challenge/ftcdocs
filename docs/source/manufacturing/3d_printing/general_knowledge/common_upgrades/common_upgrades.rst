@@ -4,8 +4,8 @@ Common 3D Printing Upgrades
 A pretty common thing to do with 3D Printers is upgrade them over time, here's a few of the most 
 common upgrades for any printer.
 
-Removeable/Flexible Beds
-------------------------
+Removable/Flexible Beds
+-----------------------
 
 A lot of printers come with cheap "BuildTak" (typical stickers) beds that work just fine, but some people
 desire more removeable prints with better adhesion and more customizability, which is fulfilled by removable 
