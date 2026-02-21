@@ -220,7 +220,7 @@ functionality such as filament guides and belt tensioners. These upgrades are de
 .. figure:: images/scottyuender3.png
   :align: center
   :width: 55%
-  :alt:  A heavily upgraded Ender 3 using 3d prints.
+  :alt:  A heavily upgraded Ender 3 using 3D prints.
 
   Scott Yu-Jan's heavily upgraded Ender 3
 
