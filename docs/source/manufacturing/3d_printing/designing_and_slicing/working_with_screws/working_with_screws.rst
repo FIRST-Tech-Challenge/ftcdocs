@@ -8,7 +8,7 @@ parts without much effort:
 .. image:: images/variousscrewmounting.png
   :align: center
   :width: 55%
-  :alt: An image showing various screw interactions with 3d prints.
+  :alt: An image showing various screw interactions with 3D prints.
 
 |
 
@@ -31,14 +31,14 @@ inside)
 .. image:: images/embeddednuts.png
   :align: center
   :width: 55%
-  :alt: An exterior embedded nut on a 3d print.
+  :alt: An exterior embedded nut on a 3D print.
 
 |
 
 Heat Set Inserts
 ----------------
 
-An increasingly common solution to securing screws to 3d printed parts, heat set inserts are small brass components that can be melted into a 3d printed part using 
+An increasingly common solution to securing screws to 3D printed parts, heat set inserts are small brass components that can be melted into a 3D printed part using 
 a soldering iron. There are custom soldering iron tips specifically for this purpose. There's lots of sizes available for whatever purpose you need (Amazon, 
 Aliexpress, whatever storefront you prefer), but keep in mind that inserts with a "chamfer" will be a lot easier to put in. 
 

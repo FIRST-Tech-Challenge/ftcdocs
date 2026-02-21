@@ -11,7 +11,7 @@ Prusa MK3S+ ($649-$899)
 
 If you're looking to buy a printer that just works every time, the Prusa MK3S+ is amazing. Prusa has had millions 
 of hours running these machines, and just about every issue with this printer has been found, patched, and pushed 
-to the consumer. If it's any testament to their consistency, the 3d printed parts used on the Mk3s+ are printed 
+to the consumer. If it's any testament to their consistency, the 3D printed parts used on the Mk3s+ are printed 
 mostly on Mk3s+ printers. This is Prusa's previous flagship printer and is more tested and cheaper than the Mk4, 
 but if you are looking at Prusa make sure to explore the Mk4 as well due to it's more updated features. 
 
@@ -28,7 +28,7 @@ Mk3s+ Drawbacks
 ^^^^^^^^^^^^^^^
 * Slow printing speed
 * Dated technology (such as lack of WiFi)
-* Last generation 3d printer, Mk4 improves on issues
+* Last generation 3D printer, Mk4 improves on issues
 
 .. image:: images/prusamk3.png
   :align: center
@@ -71,7 +71,7 @@ Mk4 Drawbacks
 BambuLab X1C ($1199-$1449)
 --------------------------
 
-This printer is for you want a no-compromises 3d printer that can handle pretty much anything you throw at 
+This printer is for you want a no-compromises 3D printer that can handle pretty much anything you throw at 
 it with incredible speed and reliability while using engineering-grade filaments. This printer comes at $1199 
 for just the printer and $1449 for the combo that includes BambuLab's multimaterial system which can handle 4 
 filament rolls at once.
@@ -146,7 +146,7 @@ P1S Drawbacks
 AnkerMake M5 ($699)
 -------------------
 
-Anker's new entry into the 3d printer market, the AnkerMake M5, is a very reasonably priced printer for the features it
+Anker's new entry into the 3D printer market, the AnkerMake M5, is a very reasonably priced printer for the features it
 brings. With print failure detection, speed printing capabilities, and an extremely friendly interface with almost no setup, 
 the M5 is a great option.
 

@@ -113,7 +113,7 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
    This is how to include an image with caption:
    
    .. figure:: images/examplemulticolorplates.png  
-      :alt: 6 multicolor square 3d printed logos. 
+      :alt: 6 multicolor square 3D printed logos. 
 
       This FTC Team printed their sponsors logos in multiple colors to represent them!  
    
@@ -536,7 +536,7 @@ The following example is on a page about 3D printed parts in a section about Rob
 .. code:: ReST
 
    .. figure:: images/examplemulticolorplates.png  
-      :alt: 6 multicolor square 3d printed logos. 
+      :alt: 6 multicolor square 3D printed logos. 
 
       This FTC Team printed their sponsors logos in multiple colors to represent them!   
 
@@ -548,13 +548,13 @@ Here's what this looks like (with image reduced in size for this example).
 .. list-table:: 
 
    * - .. figure:: ../../manufacturing/3d_printing/3d_printed_parts/images/examplemulticolorplates.png
-          :alt: 6 multicolor square 3d printed logos. 
+          :alt: 6 multicolor square 3D printed logos. 
           :width: 40%
           :class: no-scaled-link
           
           This FTC Team printed their sponsors logos in multiple colors to represent them!
           
-The alt text for the image reads *6 multicolor square 3d printed logos.*
+The alt text for the image reads *6 multicolor square 3D printed logos.*
 
 This is a good example of a functional alt text description for a screen reader followed by
 an editorial caption that is visible.

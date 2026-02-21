@@ -40,9 +40,9 @@ relatively easy to damage or scrape.
 PTFE Lined vs All-Metal Hotends
 -------------------------------- 
 
-PTFE tubing is a common low friction tubing used in 3d printing. PTFE lined hotends have a section of this tubing 
+PTFE tubing is a common low friction tubing used in 3D printing. PTFE lined hotends have a section of this tubing 
 that goes right up to the heated area. These are typically the cheaper option, but it is not recommend to use
-them whatsover if you plan on 3d printing anything beyond PLA/PETG. PTFE at temperatures over standard printing temps 
+them whatsover if you plan on 3D printing anything beyond PLA/PETG. PTFE at temperatures over standard printing temps 
 (normally ~250C is the limit) can "off-gas", putting off dangerous VOCs (Volatile Organic Compounds). All-Metal 
 hotends are more expensive, but remove this dangerous PTFE tube placement. Safety should always be your top priority,
 so look at All-Metal as long as you're planning on printing at higher temperatures. Notably, Ender series printers come 
@@ -60,7 +60,7 @@ Cartesian vs CoreXY
 
 Cartesian motion 3D printers, otherwise known colloquially as "bed-slingers" have been the standard for most consumer 
 level printers and are practically everywhere, with one stepper controlling each axis, and a moving bed with not much 
-complexity. An alternate form of 3d printer movement taking the is called CoreXY. These methods of control use a 
+complexity. An alternate form of 3D printer movement taking the is called CoreXY. These methods of control use a 
 differential to control both X and Y axes with variable quantities of energy from 2 motors. This increases power 
 and speed while decreasing gantry weight. Some of the most notable CoreXY printers include Vorons, BambuLab printers, 
 and the Creality K1. Due to a lot of engineering effort, CoreXY is now considered the faster of the two kinematic, 
