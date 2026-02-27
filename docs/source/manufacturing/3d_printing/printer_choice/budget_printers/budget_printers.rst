@@ -20,7 +20,7 @@ A1 mini Features
 * High speed (up to 500 mm/s) and acceleration (up to 10,000 mm/s²)
 * All-metal hot end; max hot end temperature: 300 °C
 * Textured PEI build plate included; max build plate temperature: 80 °C
-* Monitoring camera (up to 1080p, low framerate) with timelapse support
+* Low-FPS basic monitoring camera with timelapse support
 * Sensors: filament run out sensor, filament odometry, filament tangle sensor
 * Easy-to-use colour touchscreen interface
 * Power loss recovery
@@ -77,7 +77,6 @@ Centauri Carbon Drawbacks
 |
 
 
-
 Bambu Lab P1S ($399)
 ------------------------
 
@@ -96,6 +95,7 @@ P1S Features
 * WiFi Printing capabilities and remote print monitoring
 * 256mm x 256mm x 256mm Print Volume
 * Heated chamber allows for more advanced engineering materials
+* Low-FPS basic monitoring camera with timelapse support
 * Automatic print failure detection
 * Easy to set up and use
 
@@ -105,7 +105,6 @@ P1S Drawbacks
 * Carbon Fiber rods can wear out over time
 * No easy-change hotends (you need tools to change the hotend)
 * Monochrome screen with no touchscreen capabilities
-* Poor quality & low FPS camera
 * No local AI capabilities, leading to more potential print failures compared to newer Bambu Lab printers
 * Reliant on Bambu Lab for future firmware/software updates
 
@@ -121,16 +120,14 @@ P1S Drawbacks
 
 |
 
-Other Budget Printers/Ender Clones ($120-$250)
+Other Budget Printers/Ender Clones ($120-$200)
 ----------------------------------------------
 
 If you're ok with forgoing the huge knowledge base behind the Ender-3 series in exchange for a lower price and a few more features 
-out of the box, some Ender-3 clones can be a good option. Notable ones include the Elegoo Neptune, Anycubic Vyper, Sovol SV06 ACE series,
-and Voxelab Aquila. It's notable that while these are more or less "Ender 3 Clones", all of the companies and printer
+out of the box, some Ender-3 clones can be a good option. Notable ones include the Elegoo Neptune and Sovol SV06 ACE series. It's notable that while these are more or less "Ender 3 Clones", all of the companies and printer
 models listed here are still established companies with community trust and acceptable customer service.
 These printers can be a great buy and are often cheaper but **make sure to do research** before purchasing.
-Don't spend over $250 on an Ender 3 clone, as you can get a lot more features, an enclosure, and better quality software for just a bit more money with printers like the A1 Mini or Centauri Carbon.
-
+Don't spend over $200 on an Ender 3 clone, as you can get a lot more features, an enclosure, and better quality software for just a bit more money with printers like the A1 Mini or Centauri Carbon.
 
 Common Features
 ^^^^^^^^^^^^^^^
