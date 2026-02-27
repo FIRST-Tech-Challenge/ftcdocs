@@ -35,7 +35,7 @@ Core One+ Drawbacks
 * Wi-Fi uses the ESP module (confirm what is included with your region/config)
 * Lead times and regional availability can vary
 
-.. image:: images/prusa_core_one_plus.png
+.. image:: images/prusacoreoneplus.png
   :align: center
   :width: 55%
   :alt: Picture of a Prusa Core One+

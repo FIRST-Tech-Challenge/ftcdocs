@@ -12,9 +12,9 @@ Here are a few important guidelines to follow when looking for a printer, regard
 
 This is important to check for safety reasons, as well as to make sure you are not buying a printer that has a known issue that could cause it to break down or pose a safety hazard.
 
-Early model Bambu A1 printers (**manufactured and sold before Jan 30, 2024**) had [a recall](https://blog.bambulab.com/a1-recall-update/) due to a fire hazard from the heatbed cable.
+Early model Bambu A1 printers (**manufactured and sold before Jan 30, 2024**) had `a recall <https://blog.bambulab.com/a1-recall-update/>`_ due to a fire hazard from the heatbed cable.
 
-There are also reports of [NTC thermistors melting](https://all3dp.com/4/bambu-lab-confirms-a1-components-on-older-machines-can-burn-out/) on certain Bambu Lab A1 models as well, which could cause the printer plastic to melt.
+There are also reports of `NTC thermistors melting <https://all3dp.com/4/bambu-lab-confirms-a1-components-on-older-machines-can-burn-out/>`_ on certain Bambu Lab A1 models as well, which could cause the printer plastic to melt.
 
 Bambu Lab has fixed the issue in Q3 2025, but if you have an older model, it is important to check if your printer has the affected components and to contact Bambu Lab for a replacement if it does.
 
@@ -42,6 +42,7 @@ However, if your team is on a tight budget, buying last generation printers that
 .. toctree::
     :maxdepth: 1
 
-    Budget Printers (Under $300 USD) <budget_printers/budget_printers>
-    Mid-Range Printers ($300-$600 USD) <mid_range_printers/mid_range_printers>
-    High-End Printers ($600+ USD) <high_end_printers/high_end_printers>
+    Budget Printers (Under $400 USD) <budget_printers/budget_printers>
+    Mid-Range Printers ($300-$800 USD) <mid_range_printers/mid_range_printers>
+    High-End Printers ($800+ USD) <high_end_printers/high_end_printers>
+    Discontinued 3D Printers <discontinued_printers/discontinued_printers>
