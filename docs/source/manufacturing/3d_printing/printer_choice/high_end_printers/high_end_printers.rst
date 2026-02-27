@@ -1,4 +1,4 @@
-High-End Printers ($600+ USD)
+High-End Printers ($800+ USD)
 =============================
 
 .. note:: Tip for both of the Prusa printers listed on this page. You can now order Prusa printers from either their 
@@ -6,38 +6,44 @@ High-End Printers ($600+ USD)
           If you live in the USA and plan to order a Prusa printer, save yourself the headache of customs and long shipping 
           times and order from their USA subsidiary.
 
-Prusa MK4S
+          Also, if you want a Prusa printer, assembling it yourself is a great way to learn about how the printer works and can save you some money, but if you want to skip the assembly process, you can also order it pre-assembled for an additional cost.
+
+
+Prusa Core One+ ($1099 non-assembled, $1319 assembled)
 ----------------
 
-The Prusa MK4S is the latest Prusa bed-slinger aimed at teams that want consistent prints with minimal manual calibration.
-If your team values repeatability and ease of use over absolute maximum speed, the MK4S is a strong fit: it combines a Nextruder direct-drive toolhead,
-automatic mesh bed leveling (print area), and Prusa Connect printing so students can spend more time designing parts and less time troubleshooting.
+The Prusa Core One+ is aimed at teams that want a higher-speed, CoreXY-style printer while staying in the Prusa ecosystem.
+Since product configurations can change over time, confirm the exact build volume, enclosure status, and included hardware options before purchasing.
 
-MK4S Features
-^^^^^^^^^^^^^
-* Build volume: 250 x 210 x 220 mm (9.84 x 8.3 x 8.6 in)
-* Automatic mesh bed leveling (print area)
-* Nextruder direct-drive extruder and removable PEI spring steel sheets
+Core One+ Features
+^^^^^^^^^^^^^^^^^
+* Build volume: 250 x 220 x 270 mm
+* CoreXY-style motion system (typically enables higher speeds than bed-slingers)
+* Fully automatic first layer calibration (load cell) and automatic mesh bed leveling (print area)
+* Nextruder direct-drive extruder with quick-swap nozzle system
+* Enclosed chamber with max chamber temperature: 55 °C
 * Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
-* Printing via USB drive / LAN / internet via Prusa Connect
-* Sensors and safety features: filament sensor, loadcell sensor, and power panic
-* Supported materials: PLA, PETG, Flex, PVA, PC, PP, CPE, PVB (ABS/ASA/HIPS/PA with Original Prusa Enclosure + filtration add-on)
+* Networking and remote monitoring: Ethernet, Prusa Connect + mobile app support; NFC receiver + optional ESP Wi-Fi module (delivered with the printer)
+* MMU3 support
 
-MK4S Drawbacks
-^^^^^^^^^^^^^^
-* Some materials (ABS/ASA/HIPS/PA) require using the Original Prusa Enclosure with a filtration add-on
+Core One+ Drawbacks
+^^^^^^^^^^^^^^^^^^
+* Higher upfront cost than many mid-range options
+* CoreXY machines tend to be more mechanically complex to tune and maintain (belts, idlers, etc.)
 * Max nozzle temperature (290 °C) may be limiting for some high-temp materials
-* Wi-Fi uses the ESP module (delivered with the printer; confirm what is included with your region/config)
+* Large/heavy printer (22.5 kg; 415 x 444 x 555 mm)
+* Wi-Fi uses the ESP module (confirm what is included with your region/config)
+* Lead times and regional availability can vary
 
-.. image:: images/prusamk4s.png
+.. image:: images/prusa_core_one_plus.png
   :align: center
   :width: 55%
-  :alt: Picture of a Prusa MK4S
+  :alt: Picture of a Prusa Core One+
 
 |
 
-Bambu Lab H2S
------------------
+Bambu Lab H2S ($1299)
+---------------------
 
 The H2S is positioned as Bambu Lab's higher-end offering. It is a good choice for teams that want a large, feature-rich printer with a streamlined user experience,
 but it is usually more expensive than other Bambu Lab models.
@@ -70,39 +76,6 @@ H2S Drawbacks
   :align: center
   :width: 55%
   :alt: Picture of a Bambu Lab H2S
-
-|
-
-Prusa Core One+
-----------------
-
-The Prusa Core One+ is aimed at teams that want a higher-speed, CoreXY-style printer while staying in the Prusa ecosystem.
-Since product configurations can change over time, confirm the exact build volume, enclosure status, and included hardware options before purchasing.
-
-Core One+ Features
-^^^^^^^^^^^^^^^^^
-* Build volume: 250 x 220 x 270 mm
-* CoreXY-style motion system (typically enables higher speeds than bed-slingers)
-* Fully automatic first layer calibration (load cell) and automatic mesh bed leveling (print area)
-* Nextruder direct-drive extruder with quick-swap nozzle system
-* Enclosed chamber with max chamber temperature: 55 °C
-* Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
-* Networking and remote monitoring: Ethernet, Prusa Connect + mobile app support; NFC receiver + optional ESP Wi-Fi module (delivered with the printer)
-* MMU3 support
-
-Core One+ Drawbacks
-^^^^^^^^^^^^^^^^^^
-* Higher upfront cost than many mid-range options
-* CoreXY machines tend to be more mechanically complex to tune and maintain (belts, idlers, etc.)
-* Max nozzle temperature (290 °C) may be limiting for some high-temp materials
-* Large/heavy printer (22.5 kg; 415 x 444 x 555 mm)
-* Wi-Fi uses the ESP module (confirm what is included with your region/config)
-* Lead times and regional availability can vary
-
-.. image:: images/prusa_core_one_plus.png
-  :align: center
-  :width: 55%
-  :alt: Picture of a Prusa Core One+
 
 |
 

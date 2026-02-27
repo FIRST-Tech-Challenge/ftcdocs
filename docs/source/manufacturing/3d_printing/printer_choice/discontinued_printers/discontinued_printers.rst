@@ -3,45 +3,15 @@ Discontinued 3D Printers
 
 These are printers that were formerly recommended by FTCdocs but have been discontinued by the manufacturer.
 
-However, they may still be found on the used market.
+However, they may still be found on the used market, but **don't pay too much for them**.
 
-These printers may still be good options for teams on a budget (unless stated otherwise), but it is important to check if they have the features listed above and to be aware of any potential issues that may arise from buying a discontinued printer.
+These last-generation printers may still be good options for teams on a budget (unless stated otherwise), but it is important to check if they have the features listed above and to be aware of any potential issues that may arise from buying a discontinued printer.
 
 Software and firmware updates are less frequent for discontinued printers, so it is important to check if the manufacturer will continue to support the printer with updates and replacement parts.
 
 Third-party parts may be available for some discontinued printers (on Aliexpress for example), but it is important to check the quality, safety, and reliability of these parts before purchasing.
 
 Most of the prices and printer descriptions below are an archive copied from the time when they were still recommended, but some notes have been added to the descriptions to reflect the fact that they are now discontinued and to warn teams of any potential issues that may arise from buying a discontinued printer.
-
-Prusa MK4 ($799-$1099)
-----------------------
-
-This printer is for anyone interested in consistency with an improved featureset. The Prusa MK4 
-is the successor to the MK3S+ with the same reliability and consistency hallmarks but adds newer 
-features such as WiFi as well as being much faster and more user friendly. This machine is still 
-in it's early stages of development and improvement as of 2023, and will surely make leaps and 
-bounds in consistency, features, and software optimization as Prusa finds more issues and patches 
-them.
-
-Mk4 Features
-^^^^^^^^^^^^
-* High Speed (Nearing comparison to BambuLab printers)
-* Auto Bed Leveling
-* Removable Spring Steel Sheets
-* All-Metal Direct Drive Extruder with a planetary gearbox
-* WiFi Printing capabilities and remote print monitoring
-* 250mm x 210mm x 210mm Print Volume
-
-Mk4 Drawbacks
-^^^^^^^^^^^^^
-* Cartesian kinematics make matching the speed of CoreXY printers difficult
-
-.. image:: images/prusamk4.png
-  :align: center
-  :width: 55%
-  :alt: Picture of a Prusa Mk4
-
-|
 
 Prusa MK3S+ ($649-$899)
 -----------------------
@@ -71,6 +41,36 @@ Mk3s+ Drawbacks
   :align: center
   :width: 55%
   :alt: Picture of a Prusa Mk3
+
+|
+
+Prusa MK4 ($799-$1099)
+----------------------
+
+This printer is for anyone interested in consistency with an improved featureset. The Prusa MK4 
+is the successor to the MK3S+ with the same reliability and consistency hallmarks but adds newer 
+features such as WiFi as well as being much faster and more user friendly. This machine is still 
+in it's early stages of development and improvement as of 2023, and will surely make leaps and 
+bounds in consistency, features, and software optimization as Prusa finds more issues and patches 
+them.
+
+Mk4 Features
+^^^^^^^^^^^^
+* High Speed (Nearing comparison to BambuLab printers)
+* Auto Bed Leveling
+* Removable Spring Steel Sheets
+* All-Metal Direct Drive Extruder with a planetary gearbox
+* WiFi Printing capabilities and remote print monitoring
+* 250mm x 210mm x 210mm Print Volume
+
+Mk4 Drawbacks
+^^^^^^^^^^^^^
+* Cartesian kinematics make matching the speed of CoreXY printers difficult
+
+.. image:: images/prusamk4.png
+  :align: center
+  :width: 55%
+  :alt: Picture of a Prusa Mk4
 
 |
 
@@ -155,7 +155,7 @@ X1C Drawbacks
 
 |
 
-.. warning:: **All printers below this line should be avoided.** They are either unreliable, require parts that are no longer available, or have other significant issues that make them unsuitable for FTC teams.
+.. warning:: **All printers below this line should be avoided.** They are either unreliable, poor value in 2026, require parts that are no longer available, or have other significant issues that make them unsuitable for FTC teams.
 
 |
 
