@@ -1,4 +1,4 @@
-Budget Printers (Under $300 USD)
+Budget Printers (Under $400 USD)
 ================================
 
 .. note:: Just because you buy a budget printer doesn't mean you can't upgrade it later to be even better! 
@@ -6,80 +6,80 @@ Budget Printers (Under $300 USD)
 
 |
 
-Creality Ender-3/Pro/V2 ($100-$250)
------------------------------------
+Bambu Lab A1 Mini ($219)
+-------------------
 
-If you're looking for the most cost effective printer that will still do a great job, this is a great option. 
-The Ender-3 series is an open source classic in the FTC and 3D printing community. It has a huge support network 
-and despite it's low cost, has proven itself to be a very capable printer. 
+The A1 mini is Bambu Lab's entry-level printer, and is increasingly popular. It is a good option for teams that want a reliable, easy-to-use printer with a small footprint,
+and it can be a great first printer for PLA/PETG robot parts.
 
-Ender 3 Features
+The smaller build volume should be fine for most robot parts, but it may be limiting for larger parts or for printing multiple parts at once.
+The A1 mini is also not recommended for printing with ABS/ASA/PC/PA or carbon/glass fiber reinforced filaments, so if your team wants to print with those materials, you may want to consider a slightly more high-end printer.
+
+A1 mini Features
 ^^^^^^^^^^^^^^^^
-All Ender 3s have:
+* Build volume: 180 x 180 x 180 mm
+* High speed (up to 500 mm/s) and acceleration (up to 10,000 mm/s²)
+* All-metal hot end; max hot end temperature: 300 °C
+* Textured PEI build plate included; max build plate temperature: 80 °C
+* Monitoring camera (up to 1080p, low framerate) with timelapse support
+* Sensors: filament run out sensor, filament odometry, filament tangle sensor
+* Power loss recovery
+* Best suited filaments: PLA, PETG, TPU, PVA
 
-* A huge support network
-* Tons of printable and purchasable upgrades
-* Open Source Hardware
-* 220mm x 220mm x 250mm Print Volume
-
-The Ender 3 Pro has:
-
-* A more stable Y axis
-* A more powerful power supply
-* A flexible bed
-
-The Ender 3 v2 has: 
-
-* A glass bed
-* Built in belt tensioners
-* The power supply and Y axis from the Pro
-
-.. note:: The V2 and Pro can often be found on sale for the same price as the base model, making them very good options.
-
-Ender 3 Drawbacks
+A1 mini Drawbacks
 ^^^^^^^^^^^^^^^^^
-* Technology is dated due to initial release in 2018 (Lack of Auto Bed Leveling)
-* PTFE Lined Hotend 
-* Bowden Style Extruder 
-* V-Roller Motion system and singular lead screw setup causes frame flexing.
-* Can take a bit of tweaking/upgrading to work consistently.
+* Smaller build volume limits larger robot parts
+* ABS/ASA/PC/PA and carbon/glass fiber reinforced filaments are not recommended
+* Lower max bed temperature (80 °C) can limit adhesion for some higher-temp materials
 
-.. figure:: images/ender3.png
+.. image:: images/bambulaba1mini.png
   :align: center
   :width: 55%
-  :alt: Picture of a Creality Ender 3
-
-  Creality Ender 3 Base Model
+  :alt: Picture of a Bambu Lab A1 mini
 
 |
 
-Sovol SV06 ($259)
------------------
 
-If you're willing to spend just a little bit more money for more quality of life features out of the box, 
-the Sovol SV06 is a good option. It maintains an Ender-like frame but adds in modern features that 
-the Ender lacks which can save tinkering and maintenance time down the road.
 
-SV06 Features
-^^^^^^^^^^^^^
+Bambu Lab P1S ($399)
+------------------------
+
+If the frills on higher-end Bambu machines such as LIDAR, touchscreen, and a hardened extruder didn't sound all that useful to you, the P1S
+could be a good option, especially considering the price has dropped significantly over the past few months. You still get an enclosure and auxiliary cooling, while the P1P doesn't, which allows you to
+print filaments like ABS/ASA without difficulty, but this printer needs a fair few upgrades to print filled filaments
+and more advanced engineering filaments safely.
+
+P1S Features
+^^^^^^^^^^^^
+* Good value, especially since the P1S has been superseded by the P2S, which has made the P1S price lower
+* Extremely fast CoreXY motion system
 * Auto Bed Leveling
-* Flexible Bed
+* Removable Beds of All Surfaces
 * All-Metal Direct Drive Extruder
-* Built in Belt Tensioners
-* Dual Z-Axis
-* 220mm x 220mm x 250mm Print Volume
+* WiFi Printing capabilities and remote print monitoring
+* 256mm x 256mm x 256mm Print Volume
+* Heated chamber allows for more advanced engineering materials
+* Automatic print failure detection
+* Easy to set up and use
 
-SV06 Drawbacks
-^^^^^^^^^^^^^^
-* Known Quality Control Issues from factory (X-Axis not flat)
-* Not many slicer profiles available (Slowly being solved)
+P1S Drawbacks
+^^^^^^^^^^^^^
+* Replacement parts are proprietary from Bambu Lab (albeit well-priced). For some components, third-party replacements are available, but for others, you are reliant on Bambu Lab for replacements.
+* Carbon Fiber rods can wear out over time
+* No easy-change hotends (you need tools to change the hotend)
+* Monochrome screen with no touchscreen capabilities
+* Poor quality & low FPS camera
+* No local AI capabilities, leading to more potential print failures compared to newer Bambu Lab printers
+* Reliant on Bambu Lab for future firmware/software updates
 
-.. image:: images/sovolsv06.png
+.. image:: images/bambulabp1s.png
   :align: center
   :width: 55%
-  :alt: Picture of a Sovol SV06
+  :alt: Picture of a Bambu Lab P1S
 
-|
+|      
+
+Centauri Carbon ($289-$300)
 
 Other Budget Printers/Ender Clones ($150-$300)
 ----------------------------------------------
@@ -102,6 +102,8 @@ Ender 3 Clones typically have at least a couple of the following...
 Common Drawbacks
 ^^^^^^^^^^^^^^^^
 * Less troubleshooting help/knowledge base compared to the Ender 3
+* Potentially outdated technology compared to more modern printers
+* Quality control issues can be more common on some models/brands
 * Any drawbacks of the individual printer. Make sure you keep an eye out for things you want in a printer when researching.
 
 .. figure:: images/anycubicviper.png
