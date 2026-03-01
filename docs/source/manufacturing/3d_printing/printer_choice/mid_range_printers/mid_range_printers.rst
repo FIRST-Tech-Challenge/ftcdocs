@@ -102,7 +102,7 @@ MK4S Drawbacks
 ^^^^^^^^^^^^^^
 * Some materials (ABS/ASA/HIPS/PA) require using the Original Prusa Enclosure with a filtration add-on
 * Max nozzle temperature (290 °C) may be limiting for some high-temp materials
-* Wi-Fi uses the ESP module (delivered with the printer; confirm what is included with your region/config)
+* Wi-Fi uses the ESP module which can be slow (delivered with the printer; confirm what is included with your region/config)
 
 .. image:: images/prusamk4s.png
   :align: center

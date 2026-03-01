@@ -3,7 +3,6 @@ Budget Printers (Under $400 USD)
 
 .. note:: In general, you get what you pay for with 3D printers, and budget printers will have more limitations and potential issues than higher-end printers.
   However, there are some good options in the budget range that can be a great starting point for teams on a tight budget or those new to 3D printing.
-|
 
 Bambu Lab A1 Mini ($219)
 -------------------
