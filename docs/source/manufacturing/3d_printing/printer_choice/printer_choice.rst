@@ -2,11 +2,7 @@ Printer Choice
 ==============
 
 This section will focus on printers from each budget range that could be useful for FTC teams.
-There will be many features listed and drawbacks listed for every budget range, but there is one 
-feature that we would like to note that teams should not buy a printer without note of it being
-included.
-
-Here are a few important guidelines to follow when looking for a printer, regardless of the budget range:
+As you compare features and drawbacks across each budget range, there is one must-have feature no team should buy a printer without, along with a few other important guidelines to keep in mind:
 
 **Product Recalls**: It is important to check if the printer you intend on buying has had any product recalls or other known safety issues.
 
@@ -38,6 +34,8 @@ This is important to check for a few reasons.
 4. It may be more difficult to find software updates or firmware updates for the printer, which could lead to compatibility issues with newer software or hardware.
 
 However, if your team is on a tight budget, buying last generation printers that are now discontinued may be a good option, as long as you check that they have the features listed above, reasonable spare parts availability, and are aware of any potential issues that may arise from buying a discontinued printer.
+
+The list of printers below is not exhaustive, but it is a good starting point for teams to compare different printers from different brands across different price ranges and to get an idea of what features are available at each price point.
 
 .. toctree::
     :maxdepth: 1
