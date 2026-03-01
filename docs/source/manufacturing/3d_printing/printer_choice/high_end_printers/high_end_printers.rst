@@ -1,4 +1,4 @@
-High-End Printers ($600+ USD)
+High-End Printers ($800+ USD)
 =============================
 
 .. note:: Tip for both of the Prusa printers listed on this page. You can now order Prusa printers from either their 
@@ -6,177 +6,78 @@ High-End Printers ($600+ USD)
           If you live in the USA and plan to order a Prusa printer, save yourself the headache of customs and long shipping 
           times and order from their USA subsidiary.
 
-Prusa MK3S+ ($649-$899)
------------------------
+          Also, if you want a Prusa printer, assembling it yourself is a great way to learn about how the printer works and can save you some money, but if you want to skip the assembly process, you can also order it pre-assembled for an additional cost.
 
-If you're looking to buy a printer that just works every time, the Prusa MK3S+ is amazing. Prusa has had millions 
-of hours running these machines, and just about every issue with this printer has been found, patched, and pushed 
-to the consumer. If it's any testament to their consistency, the 3D printed parts used on the Mk3s+ are printed 
-mostly on Mk3s+ printers. This is Prusa's previous flagship printer and is more tested and cheaper than the Mk4, 
-but if you are looking at Prusa make sure to explore the Mk4 as well due to it's more updated features. 
 
-Mk3s+ Features
-^^^^^^^^^^^^^^
-* Easy to Repair
-* Auto Bed Leveling
-* Removable Spring Steel Sheets
-* All-Metal Direct Drive Extruder
-* 250mm x 210mm x 210mm Print Volume
-* Unrivaled consistency as a workhorse
+Prusa Core One+ ($1099 non-assembled, $1319 assembled)
+----------------
 
-Mk3s+ Drawbacks
-^^^^^^^^^^^^^^^
-* Slow printing speed
-* Dated technology (such as lack of WiFi)
-* Last generation 3D printer, Mk4 improves on issues
+The Prusa Core One+ is aimed at teams that want a higher-speed, CoreXY-style printer while staying in the Prusa ecosystem.
+Since product configurations can change over time, confirm the exact build volume, enclosure status, and included hardware options before purchasing.
 
-.. image:: images/prusamk3.png
+Core One+ Features
+^^^^^^^^^^^^^^^^^
+* Build volume: 250 x 220 x 270 mm
+* CoreXY-style motion system (typically enables higher speeds than bed-slingers)
+* Fully automatic first layer calibration (load cell) and automatic mesh bed leveling (print area)
+* Nextruder direct-drive extruder with quick-swap nozzle system
+* Enclosed chamber with max chamber temperature: 55 °C
+* Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
+* Networking and remote monitoring: Ethernet, Prusa Connect + mobile app support; NFC receiver + optional ESP Wi-Fi module (delivered with the printer)
+* MMU3 support
+
+Core One+ Drawbacks
+^^^^^^^^^^^^^^^^^^
+* Higher upfront cost than many mid-range options
+* CoreXY machines tend to be more mechanically complex to tune and maintain (belts, idlers, etc.)
+* Max nozzle temperature (290 °C) may be limiting for some high-temp materials
+* Large/heavy printer (22.5 kg; 415 x 444 x 555 mm)
+* Wi-Fi uses the ESP module (confirm what is included with your region/config)
+* Lead times and regional availability can vary
+
+.. image:: images/prusacoreoneplus.png
   :align: center
   :width: 55%
-  :alt: Picture of a Prusa Mk3
+  :alt: Picture of a Prusa Core One+
 
 |
 
-Prusa MK4 ($799-$1099)
-----------------------
+Bambu Lab H2S ($1299)
+---------------------
 
-This printer is for anyone interested in consistency with an improved featureset. The Prusa MK4 
-is the successor to the MK3S+ with the same reliability and consistency hallmarks but adds newer 
-features such as WiFi as well as being much faster and more user friendly. This machine is still 
-in it's early stages of development and improvement as of 2023, and will surely make leaps and 
-bounds in consistency, features, and software optimization as Prusa finds more issues and patches 
-them.
+The H2S is positioned as Bambu Lab's higher-end offering. It is a good choice for teams that want a large, feature-rich printer with a streamlined user experience,
+but it is usually more expensive than other Bambu Lab models.
 
-Mk4 Features
+For FTC teams, the main reason to choose the H2S is faster design iteration with fewer failed prints: its high-speed CoreXY motion system helps you go from CAD to a usable part quickly,
+while the enclosed, actively heated chamber expands the range of materials you can print reliably. The large build volume also makes it easier to print bigger robot parts (or multiple smaller parts)
+in fewer runs, and the built-in monitoring/failure-detection features help reduce wasted time during long prints.
+
+H2S Features
 ^^^^^^^^^^^^
-* High Speed (Nearing comparison to BambuLab printers)
+* Fast CoreXY motion system for rapid iteration
 * Auto Bed Leveling
-* Removable Spring Steel Sheets
-* All-Metal Direct Drive Extruder with a planetary gearbox
-* WiFi Printing capabilities and remote print monitoring
-* 250mm x 210mm x 210mm Print Volume
+* Large build volume: 340 x 320 x 340 mm
+* Enclosure with active chamber heating (up to 65 °C) for more reliable prints with engineering materials
+* All-metal hotend; max nozzle temperature: 350 °C
+* Hardened extruder gear/nozzle for abrasive filaments (carbon/glass fiber reinforced)
+* Built-in camera monitoring and automatic print failure detection/monitoring
+* Air purification/filtration (G3 pre-filter, H12 HEPA, and activated carbon, per manufacturer spec)
+* Wi-Fi printing and app/PC remote monitoring
 
-Mk4 Drawbacks
+H2S Drawbacks
 ^^^^^^^^^^^^^
-* Cartesian kinematics make matching the speed of CoreXY printers difficult
+* Reliant on Bambu Lab for firmware/software updates and long-term support
+* Replacement parts are largely proprietary (availability and pricing depend on region); some third party parts are available but others need to be purchased from Bambu Lab
+* Expensive compared to other Bambu Lab models, and some features may be unnecessary for teams new to 3D printing
+* High peak power requirements (up to 2050 W @ 220 V / 1170 W @ 110 V)
+* Large, so may not fit in all workspaces
 
-.. image:: images/prusamk4.png
+.. image:: images/bambulabh2s.png
   :align: center
   :width: 55%
-  :alt: Picture of a Prusa Mk4
+  :alt: Picture of a Bambu Lab H2S
 
 |
-
-
-BambuLab X1C ($1199-$1449)
---------------------------
-
-This printer is for you want a no-compromises 3D printer that can handle pretty much anything you throw at 
-it with incredible speed and reliability while using engineering-grade filaments. This printer comes at $1199 
-for just the printer and $1449 for the combo that includes BambuLab's multimaterial system which can handle 4 
-filament rolls at once.
-
-.. note:: This printer is **expensive** and is targeted towards advanced filaments. The P1P can print basic filaments
-          such as PLA/PETG about as fast and well as the BambuLab X1C at half the price. If you have the budget for 
-          an X1C, it may be worth considering buying 2 P1Ps instead if you don't need all the bells and whistles the 
-          X1C has and plan to only print PLA/PETG.
-
-
-X1C Features
-^^^^^^^^^^^^
-* Extremely fast CoreXY motion system
-* Auto Bed Leveling
-* Full Color Touchscreen
-* Removable Beds of All Surfaces
-* All-Metal Direct Drive Extruder
-* WiFi Printing capabilities and remote print monitoring
-* 256mm x 256mm x 256mm Print Volume
-* Heated chamber allows for more advanced engineering materials
-* LIDAR sensor for flow calibration and first layer quality checking
-* Stock hardened hotend capable of most filled and abrasive filaments
-* Automatic print failure detection
-
-X1C Drawbacks
-^^^^^^^^^^^^^
-* Replacement parts are proprietary from Bambu Lab (albeit well-priced)
-* Carbon Fiber rods can wear out over time
-* Reliant on Bambu Lab for future firmware/software updates
-* This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to
-
-.. image:: images/bambulabx1c.png
-  :align: center
-  :width: 55%
-  :alt: Picture of a BambuLabs X1C
-
-|   
-
-BambuLab P1S ($699-$949)
-------------------------
-
-If the X1C's frills such as LIDAR, touchscreen, and a hardened extruder didn't sound all that useful to you, the P1S
-could be a good option. You still get an enclosure and auxiliary cooling, while the P1P doesn't, which allows you to
-print filaments like ABS/ASA without difficulty, but this printer needs a fair few upgrades to print filled filaments
-and more advanced engineering filaments safely.
-
-
-P1S Features
-^^^^^^^^^^^^
-* Extremely fast CoreXY motion system
-* Auto Bed Leveling
-* Removable Beds of All Surfaces
-* All-Metal Direct Drive Extruder
-* WiFi Printing capabilities and remote print monitoring
-* 256mm x 256mm x 256mm Print Volume
-* Heated chamber allows for more advanced engineering materials
-* Automatic print failure detection
-
-P1S Drawbacks
-^^^^^^^^^^^^^
-* Replacement parts are proprietary from Bambu Lab (albeit well-priced)
-* Carbon Fiber rods can wear out over time
-* Reliant on Bambu Lab for future firmware/software updates
-
-.. image:: images/bambulabp1s.png
-  :align: center
-  :width: 55%
-  :alt: Picture of a BambuLabs P1S
-
-|   
-
-AnkerMake M5 ($699)
--------------------
-
-Anker's new entry into the 3D printer market, the AnkerMake M5, is a very reasonably priced printer for the features it
-brings. With print failure detection, speed printing capabilities, and an extremely friendly interface with almost no setup, 
-the M5 is a great option.
-
-
-M5 Features
-^^^^^^^^^^^
-* Cartesian Motion System optimized for speed
-* Auto Bed Leveling
-* Removable Bed
-* Direct Drive Extruder
-* WiFi Printing capabilities and remote print monitoring
-* 235mm x 235mm x 250mm Print Volume
-* Automatic print failure detection
-* Extremely friendly software and setup for new users
-
-M5 Drawbacks
-^^^^^^^^^^^^
-* Replacement parts are proprietary from AnkerMake (albeit well-priced)
-* Reliant on Anker for future firmware/software updates
-* Cartesian motion system limits speed, still doesn't match CoreXY machines at a similar price range
-* PTFE Lined Hotend
-* V wheel motion system can wear after long extended use
-
-.. image:: images/ankerm5.png
-  :align: center
-  :width: 55%
-  :alt: Picture of a AnkerMake M5
-
-|   
-
 
 DIY Printers (Voron, HevOrt, VZBot)
 -----------------------------------
@@ -198,7 +99,7 @@ Most well-documented DIY Printers feature...
 * Auto Bed Leveling
 * Removable Spring Steel Sheets
 * Direct Drive Extruders with All Metal Hotends
-* Large Build Volumes (250mm^3 or more)
+* Large build volumes (often ~250 mm or larger in X/Y/Z, depending on the build)
 * Klipper Firmware and live dashboards for print monitoring
 * High customizability and a strong community that creates modifications
 

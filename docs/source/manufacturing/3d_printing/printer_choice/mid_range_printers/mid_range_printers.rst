@@ -1,46 +1,59 @@
-Mid-Range Printers ($300-$600 USD)
+Mid-Range Printers ($300-$800 USD)
 ==================================
 
-AnkerMake M5C ($399)
---------------------
+.. note:: Tip for both of the Prusa printers listed on this page. You can now order Prusa printers from either their 
+          headquarters in Czechia or their subsidiary and sole authorized reseller **PrintedSolid**, based in Delaware. 
+          If you live in the USA and plan to order a Prusa printer, save yourself the headache of customs and long shipping 
+          times and order from their USA subsidiary.
 
-Anker's budget 3D printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. 
-This printer has speed printing capabilities and an extremely friendly interface with almost no setup. This is one of
-the cheapest printers that can reach 0.5m/s speeds while printing, which alone makes it stand out.
+          Also, if you want a Prusa printer, assembling it yourself is a great way to learn about how the printer works and can save you some money, but if you want to skip the assembly process, you can also order it pre-assembled for an additional cost.
 
-M5C Features
-^^^^^^^^^^^^
-* Cartesian Motion System optimized for speed
-* Auto Bed Leveling
-* Removable Bed
-* All-Metal Direct Drive Extruder
-* WiFi Printing capabilities
-* 220mm x 220mm x 250mm Print Volume
-* Extremely friendly software and setup for new users
+Elegoo Centauri Carbon 2 Combo ($449)
+--------------------------------------
 
-M5C Drawbacks
-^^^^^^^^^^^^^
-* Replacement parts are proprietary from AnkerMake (albeit well-priced)
-* Reliant on Anker for future firmware/software updates
-* Limited on speed compared to CoreXY, but still has unrivaled speed at this price and availability
-* No screen on the printer, all monitoring must be done digitally
-* V wheel motion system can wear after long extended use
+The Centauri Carbon 2 Combo is a newer CoreXY printer aimed at teams that want high speed, multicolor capability, and stronger material support without stepping into premium flagship pricing.
+It keeps the same 256 x 256 x 256 mm build volume as many popular FTC-friendly printers, but adds higher maximum nozzle temperature, AI-assisted monitoring, and a larger touchscreen.
+For teams printing both fast PLA parts and occasional engineering-grade components, it offers a strong feature set at this price point.
 
-.. image:: images/ankerm5c.png
+Centauri Carbon 2 Combo Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Build volume: 256 x 256 x 256 mm
+* High speed (up to 500 mm/s; 250 mm/s recommended) and high acceleration (up to 20,000 mm/s²; 10,000 mm/s² default)
+* Print accuracy up to ±0.1 mm with recommended layer height of 0.2 mm (range: 0.1-0.4 mm)
+* 4-colour multicolour capability included
+* Broad material support (ideal: PLA, PETG, TPU, ABS, ASA, PLA-CF; capable: PETG-CF, ABS-CF, ASA-CF, PET-CF, PA-CF, PET, PC, PA)
+* Dual-gear direct drive extruder with 0.4 mm brass-hardened steel nozzle
+* Max hot end temperature: 350 °C
+* Max heated bed temperature: 110 °C
+* 121-point auto bed leveling and full-auto calibration
+* Camera with AI intelligent detection and timelapse support, filament runout sensor, and clog detection
+* Power loss recovery and auto filament unloading
+* 5-inch color capacitive touchscreen with USB and Wi-Fi connectivity
+* Quiet operation (up to 45 dB)
+
+Centauri Carbon 2 Combo Drawbacks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Newer platform with a smaller long-term FTC-specific troubleshooting knowledge base than older, widely adopted models
+* Larger machine footprint and higher weight can be harder to fit in compact workspaces
+* Advanced and fiber-filled materials still require good drying, ventilation, and tuned profiles for reliable printing
+* Multicolour workflows generally add setup complexity and can increase print time/material waste depending on part design
+* Ecosystem maturity and long-term parts/support experience are still developing compared to the most established platforms
+
+.. image:: images/centauricarbon2.png
   :align: center
   :width: 55%
-  :alt: Picture of a AnkerMake M5C
+  :alt: Picture of an Elegoo Centauri Carbon 2 Combo
 
-|   
+|
 
-Prusa Mini ($429)
+Prusa Mini+ ($559)
 -----------------
 
 If you're ok with paying a premium and getting a smaller build volume in exchange for a printer that just works
-every time, the Prusa Mini is a great option, as Prusa has had millions of hours running these machines. Just 
+every time, the Prusa Mini+ is a great option, as Prusa has had millions of hours running these machines. Just 
 about every issue with this printer has been found, patched, and pushed to the consumer.
 
-Prusa Mini Features
+Prusa Mini+ Features
 ^^^^^^^^^^^^^^^^^^^
 * Auto Bed Leveling
 * Removable Spring Steel Sheets
@@ -49,10 +62,11 @@ Prusa Mini Features
 * Easily Transportable
 * 180mm x 180mm x 180mm Print Volume
 
-Prusa Mini Drawbacks
+Prusa Mini+ Drawbacks
 ^^^^^^^^^^^^^^^^^^^^
 * Premium price
 * Cantilever/unsupported X axis
+* Slightly obsolete technology
 * Lead times due to printer desirability
 * No stock network capability
 
@@ -67,82 +81,66 @@ Prusa Mini Drawbacks
 
 |
 
-BambuLab P1P ($599)
--------------------
+Prusa MK4S ($719 non assembled, $1009 assembled)
+-------------------------------------------------
 
-Built for speed by BambuLab, the P1P is a CoreXY machine with well engineered proprietary hardware and software. 
-A machine that is proving very reliable for many despite BambuLab's short time in the 3D printer marketplace so
-far, the P1P is an amazing mid range option with a lot of manufacturing capability for it's cost. This printer is 
-also compatible with BambuLab's multimaterial system, and can be upgraded to their new offering, the P1S, for just
-150$ if your needs eventually outgrow the P1P. 
+The Prusa MK4S is the latest Prusa bed-slinger aimed at teams that want consistent prints with minimal manual calibration.
+If your team values repeatability and ease of use over absolute maximum speed, the MK4S is a strong fit: it combines a Nextruder direct-drive toolhead,
+automatic mesh bed leveling (print area), and Prusa Connect printing so students can spend more time designing parts and less time troubleshooting.
 
-.. note:: This printer is a PLA workhorse, being able to print it about as fast and well as the BambuLab X1C at half the 
-          price. Even if you have the budget for an X1C, it may be worth considering buying 2 P1Ps instead if you don't 
-          need all the bells and whistles the X1C has and plan to only print PLA/PETG.
-
-P1P Features
-^^^^^^^^^^^^
-* Extremely fast CoreXY motion system
-* Auto Bed Leveling
-* Removable Beds of All Surfaces
-* All-Metal Direct Drive Extruder
-* WiFi Printing capabilities and remote print monitoring
-* 256mm x 256mm x 256mm Print Volume
-* Automatic print failure detection
-
-P1P Drawbacks
+MK4S Features
 ^^^^^^^^^^^^^
-* Replacement parts are proprietary from Bambu Lab (albeit well-priced)
-* Carbon Fiber rods can wear out over time
-* Reliant on Bambu Lab for future firmware/software updates
+* Build volume: 250 x 210 x 220 mm (9.84 x 8.3 x 8.6 in)
+* Automatic mesh bed leveling (print area)
+* Nextruder direct-drive extruder and removable PEI spring steel sheets
+* Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
+* Printing via USB drive / LAN / internet via Prusa Connect
+* Sensors and safety features: filament sensor, loadcell sensor, and power panic
+* Supported materials: PLA, PETG, Flex, PVA, PC, PP, CPE, PVB (ABS/ASA/HIPS/PA with Original Prusa Enclosure + filtration add-on)
 
-.. image:: images/bambup1p.png
+MK4S Drawbacks
+^^^^^^^^^^^^^^
+* Some materials (ABS/ASA/HIPS/PA) require using the Original Prusa Enclosure with a filtration add-on
+* Max nozzle temperature (290 °C) may be limiting for some high-temp materials
+* Wi-Fi uses the ESP module which can be slow (delivered with the printer; confirm what is included with your region/config)
+
+.. image:: images/prusamk4s.png
   :align: center
   :width: 55%
-  :alt: Picture of a BambuLabs P1P
+  :alt: Picture of a Prusa MK4S
 
-|   
+|
 
-Creality Ender-3 S1/Pro/Plus ($379-$549)
-----------------------------------------
+Bambu Lab P2S ($799)
+------------------------
 
-If you want a printer that can do most things well at a reasonable price, the Ender-3 S1 is 
-a good fit for you. It has a standard build volume but is packed with pretty much every modern 
-and quality of life upgrade installed out of the box, although you are paying for this premium. 
-Additionally, it has a similar community backing to that of the original Ender-3 series due to
-similarities between the S1s and the originals.
+For FTC teams that want fast iteration, reliable first layers, and stronger enclosed-material support, the P2S is a high-performance option with a familiar 256 x 256 x 256 mm build volume.
+Its motion system, high flow capability, and mature software stack make it well-suited for quickly producing drivetrain parts, mechanisms, and repeated spare prints during build season.
+Teams that plan to run many prints per week or want broader engineering filament support may find the P2S worth considering despite the higher price.
 
-S1 Features
-^^^^^^^^^^^
-All Ender 3 S1s have at least:
-
-* Auto Bed Leveling
-* Removable Spring Steel Sheets
-* Direct Drive Extruder
-* Built in Belt Tensioners
-* Dual Z-Axis
-* 220mm x 220mm x 270mm Print Volume
-
-The S1 Pro also has:
-
-* All-Metal Direct Drive Extruder
-
-The S1 Plus has: 
-
-* 300mm x 300mm x 300mm Print Volume
-
-S1 Drawbacks
+P2S Features
 ^^^^^^^^^^^^
-* PTFE Lined Hotend on Normal and Plus Versions
-* No stock network capability
-* Speed limited compared to other printers at this price range
+* Build volume: 256 x 256 x 256 mm
+* Very high speed (up to 600 mm/s) and acceleration (up to 20,000 mm/s²)
+* High hotend flow rate (up to 40 mm³/s)
+* Hardened steel extruder gears and hardened steel nozzle (0.4 mm included; supports 0.2/0.4/0.6/0.8 mm)
+* Max hot end temperature: 300 °C
+* Flexible steel build plate with textured PEI included; max heated bed temperature: 110 °C
+* Broad filament support including PLA, PETG, ABS, ASA, TPU, PA, PC, PVA, and multiple CF/GF-reinforced materials
+* Built-in camera (1080p/30 fps), door sensor, filament runout sensor, filament tangle sensor, and power loss recovery
+* 5-inch touchscreen with app/PC control and dual-band Wi-Fi
+* Activated carbon VOC filtration and particulate filtration support
 
-.. figure:: images/ender3s1.png
+P2S Drawbacks
+^^^^^^^^^^^^^
+* Slightly Higher price than many mid-range alternatives
+* Advanced features and high-speed tuning can increase setup complexity for newer teams
+* Ethernet and several enterprise/network-security features are not available
+* Replacement parts and long-term ecosystem are more vendor-dependent than open-platform printers
+
+.. image:: images/bambulabp2s.png
   :align: center
   :width: 55%
-  :alt: Picture of an Ender 3 S1
+  :alt: Picture of a Bambu Lab P2S
 
-  This is the Ender 3 S1 base model.
-
-|   
-
+|
