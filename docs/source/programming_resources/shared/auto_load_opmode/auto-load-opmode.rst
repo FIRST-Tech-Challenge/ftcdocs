@@ -20,10 +20,15 @@ translucent and have no text adjacent to it, indicating the feature is
 inactive.
 
 
+.. figure:: images/translucentPreselectLandscape.png   
+   :align: center
+
+   The preselect button will appear once an autonomous OpMode has been selected in landscape mode.
+
 .. figure:: images/translucentPreselect.png   
    :align: center
 
-   The preselect button will appear once an autonomous op mode has been selected.
+   The preselect button will appear once an autonomous OpMode has been selected in portrait mode.
 
 
 Note that in order for the preselect button to be visible, the selected
@@ -43,10 +48,15 @@ mode. The button will then become fully opaque and the name of the
 preselected op mode will appear adjacent to the button. This indicates
 the feature is active.
 
+.. figure:: images/selectTeleOpLandscape.png
+   :align: center
+
+   The driver controlled OpMode to be auto-loaded in landscape mode.
+
 .. figure:: images/selectTeleOp.png   
    :align: center
 
-   The driver controlled op mode to be auto-loaded.
+   The driver controlled OpMode to be auto-loaded in portrait mode.
 
 Should you then wish to disable it, simply long press the preselect
 button. It will become translucent again and the text adjacent to it
@@ -90,11 +100,17 @@ automatically load the preselected teleop op mode. If the “Op Mode Auto
 Queue” option is disabled, a team can still select a teleop op mode by
 using the preselect button on the main Driver Station activity.
 
+.. figure:: images/AutoQueueEnabledLandscape.png   
+   :align: center
+
+   If the OpMode Auto Queue option is enabled, the Driver Station will
+   automatically load the preselectTeleOp op mode in landscape mode.
+
 .. figure:: images/AutoQueueEnabled.png   
    :align: center
 
    If the OpMode Auto Queue option is enabled, the Driver Station will
-   automatically load the preselectTeleOp op mode.
+   automatically load the preselectTeleOp op mode in portrait mode.
 
 .. raw:: html
 

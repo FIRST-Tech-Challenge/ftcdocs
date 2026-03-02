@@ -1,21 +1,24 @@
-*FIRST* Tech Challenge Self-Inspect
-===================================
+Old Self-Inspect
+================
 
 Introduction
 ------------
 
-This page describes the Self Inspect screens in the FTC Driver Station
+This page describes the older Self Inspect screens in the FTC Driver Station
 (DS) app and the FTC Robot Controller (RC) app.
+See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. These rules are described
-in each season’s `Game Manual
-1 <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__,
-and many are summarized in that manual’s **Field Inspection Checklist**.
+relates to FTC rules for the control system. 
+These rules are described in the Competition Manual which can be found on the
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+
+.. tip:: An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
+   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
-and properly configured. Self Inspect may be reviewed in Field
+and properly configured. Self Inspect may be reviewed in Robot
 Inspection at an FTC tournament, but is **not** a comprehensive or
 official standard of compliance with FTC rules.
 
@@ -27,8 +30,9 @@ Self Inspect layout and graphics evolve with FTC requirements; this page
 clarifies some of the brief but meaningful captions.
 
 .. note::
-  These images show Version 7.0 of the FTC apps. Please refer to Game Manual 
-  Part 1 for the correct allowed software system versions.
+  These images show Version 7.0 of the FTC apps. Please refer to Competition Manual 
+  for allowed software system versions. These images are valid up to version 10.2 of the FTC apps.
+  See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 Device Pairing
 --------------
@@ -201,7 +205,7 @@ except:
   device (Control Hub) and has a correctly formatted name. This does **not**
   check that the DS and RC names match (team number). In fact, this phone is
   2468-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be
-  flagged by the FTC team or the Field Inspector.
+  flagged by the FTC team or the Robot Inspector.
 
 DS Self Inspect 3, on Driver Hub paired to RC phone
 ---------------------------------------------------
@@ -215,7 +219,7 @@ DS Self Inspect 3, on Driver Hub paired to RC phone
 
 -  Item 4 appears only on the Driver Hub. The check-mark indicates the
    Operating System meets the minimum version requirement in the FTC
-   Game Manual.
+   Competition Manual.
 -  Note that ``Airplane Mode`` has been omitted from the DS inspection,
    only for Driver Hub. FTC rules exclude the Driver Hub and Control Hub
    from the Airplane Mode requirement.
@@ -280,7 +284,7 @@ DS Self Inspect 4, on Driver Hub paired to Control Hub
    formatted name. This does **not** check that the DS and RC names
    match (team number). In fact, this Driver Hub is 1234-A-DS and this
    Control Hub is 9999-A-RC, an **illegal combination** to be flagged by
-   the FTC team or the Field Inspector.
+   the FTC team or the Robot Inspector.
 
 .. figure:: images/tDS-4a.png   
    :align: center
@@ -444,7 +448,7 @@ differences. In this example, the robot is configured with **two** Hubs.
    the AP has a correctly formatted FTC name. This does **not** check
    that the DS and RC names match (team number). In fact, this DS phone
    is 2468-A-DS and this Control Hub is 9999-A-RC, an **illegal
-   combination** to be flagged by the FTC team or the Field Inspector.
+   combination** to be flagged by the FTC team or the Robot Inspector.
 -  Item 14 appears only on DS displays of RC Self Inspect. Here is the
    check for matching versions of DS app and RC app; in this case both
    apps are version 7.0. Any “Point mismatch” (e.g. 7.0 vs. 7.0.1) is
@@ -490,7 +494,7 @@ The Self Inspect screen is a quick, handy reference to help teams
 confirm that certain control system elements are up-to-date and properly
 configured.
 
-Self Inspect may be reviewed in Field Inspection at an FTC tournament,
+Self Inspect may be reviewed in Robot Inspection at an FTC tournament,
 but is **not** a comprehensive or official standard of compliance with
 FTC rules.
 

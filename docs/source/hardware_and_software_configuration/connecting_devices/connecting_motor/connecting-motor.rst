@@ -3,15 +3,15 @@ Connecting a Motor to the Hub
 
 The Hub can drive up to four (4) 12V DC motors per Hub. The Hub uses a
 type of electrical connector known as a 2-pin JST VH connector. Many of
-the FIRST-approved 12V DC motors are equipped with Anderson Powerpole
+the *FIRST* approved 12V DC motors are equipped with Anderson Powerpole
 connectors. An adapter cable can be used to connect the Anderson
 Powerpole connectors to the Hub motor port (see `FIRST Tech Challenge
-Robot Wiring
-Guide <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-wiring-guide.pdf>`__
+Robot Wiring Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`__
 for more information).
 
 .. image:: images/MotorRig.jpg
    :align: center
+   :alt: Simple test rig with motor mounted to some Tetrix channel
 
 |
 
@@ -33,13 +33,18 @@ the Powerpole end of the Anderson to JST VH adapter cable.
 
 .. image:: images/ConnectingMotorStep1.jpg
    :align: center
+   :alt: Connecting the adapter cable
 
 |
 
-2. Connect the other end of the Anderson to JST VH adapter cable into 
-the motor port labeled "0" on the Hub.                                
+.. note:: Motors from different vendors can have different cabling requirments. 
+   Adjust this as needed for your motor.
+   One end needs to be a JST VH two pin connector (white).
+
+2. Connect the JST VH white connector into the motor port labeled "0" on the Hub.                                
 
 .. image:: images/ConnectingMotorStep2.jpg
    :align: center
+   :alt: Shows the JST VH white connector of the cable plugged into the Control Hub
 
 |

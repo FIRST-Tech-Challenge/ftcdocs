@@ -14,7 +14,7 @@ computer vision technologies:
    points for autonomous navigation and for assisted navigation and
    identification of points of interest on a game field.
 
-   -  Each season, FIRST provides 2D image tagets that can be used as
+   -  Each season, *FIRST* provides 2D image tagets that can be used as
       navigational reference points.
    -  If the AprilTag system recognizes an AprilTag image, it provides 
       very accurate pose information (assuming the camera used has 
@@ -23,21 +23,20 @@ computer vision technologies:
    -  A robot can use this information to navigate autonomously on the
       field.
 
-2. TensorFlow Lite - `TensorFlow
-   Lite <https://ai.google.dev/edge/litert>`__ is a lightweight version
-   of Google’s `TensorFlow <https://www.tensorflow.org>`__ *machine
-   learning* technology that is designed to run on mobile devices such
-   as an Android smartphone.
+2. Color Processing - 
+   :doc:`Color Processing </color_processing/index>` is a
+   feature in the *FIRST* Tech Challenge SDK that provides the ability
+   to process colors using `OpenCV <https://opencv.org/>`__.
 
-   -  Each season FIRST creates a TensorFlow *inference model* that can
-      be used to “look” for specific game elements.
-   -  If TensorFlow recognizes an object, it returns location info about
-      the identified object.
-   -  A robot can use this location information to navigate to the
+   -  Color Sensor can detect the exact color in an image, which can
+      help determine what is in front of a robot.
+   -  Color Locator can look for a specific color and return information
+      about the size, shape and location of the color in the camera frame.
+   -  A robot can use this information to navigate to the
       recognized object.
 
-TensorFlow vs AprilTags
------------------------
+AprilTags vs Color Processing
+-----------------------------
 
 AprilTag Advantages
 ~~~~~~~~~~~~~~~~~~~
@@ -73,53 +72,48 @@ AprilTag Disadvantages
 
    AprilTags not in Tag Library detected, but no pose data available
 
-TensorFlow Advantages
-~~~~~~~~~~~~~~~~~~~~~
+Color Processing Advantages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  TensorFlow learns how to recognize target objects, not just specific
-   images.
+-  Color Processing looks for colors, not specific images.
 
    -  Recognizes objects in spite of different backgrounds.
-   -  Recognizes objects in varied lighting conditions.
+   -  Recognizes objects both up close and further away.
    -  Recognizes objects even when objects are oriented in different
       positions.
 
--  TensorFlow can be taught how to distinguish between similar looking
-   (but still distinct) objects, such as a Stone and a Skystone from the
-   2019-2020 challenge.
+-  Pre-defined colors are included in the *FIRST* Tech Challenge SDK
+   that have already been tested on season-specific game elements.
 
-TensorFlow Disadvantages
-~~~~~~~~~~~~~~~~~~~~~~~~
+Color Processing Disadvantages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Training a TensorFlow model can be daunting at first. It requires a
-   lot of understanding of the TensorFlow training metrics and behaviors.
--  TensorFlow is computationally intensive and has a low detection rate
-   (an estimated 1 to 2 detections per second).
--  If TensorFlow recognizes an object in its field of view, it only
+-  Color Processing can be sensitive to different lighting conditions.
+-  If Color Processing recognizes an object in its field of view, it only
    returns location information on where the target object is within its
    field of view.
 
-.. figure:: images/tfodIndirect.jpg
+.. figure:: images/82-targeting.png
    :align: center
    :width: 75%
 
-   TensorFlow can recognize actual objects (and not just 2D image targets).
+   Color Processing can recognize actual objects (and not just 2D image targets).
 
-.. figure:: images/tfodDual.jpg
+.. figure:: images/33-circleFit-LiveView.png
    :align: center
    :width: 75%
 
-   TensorFlow can be taught to distinguish between similar looking objects.
+   Color Processing can recognize the shape of the object.
 
 Which Should I Use?
 ~~~~~~~~~~~~~~~~~~~
 
-The choice of whether to use TensorFlow Lite or AprilTags will be
+The choice of whether to use AprilTags or Color Processing will be
 influenced by factors such as distance-to-target, lighting, accuracy
 required, camera placement and etc.. 
 
 If the object and tag can always be guaranteed to be in a specific orientation
 and the tag fully visible, AprilTags are likely the best solution. However,
 if the object does not belong to you or a tag is not able to be physically 
-placed on the object, TensorFlow can be a good solution.
+placed on the object, Color Processing can be a good solution.
 

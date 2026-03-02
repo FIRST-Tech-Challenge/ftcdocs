@@ -4,7 +4,7 @@ Managing a Smartphone Robot Controller
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
-In order to comply with game manual rule <RS01>, the name of the Robot
+In order to comply with the Competition Manual, the name of the Robot
 Controller (RC) smartphone should be changed.
 
 This can be done in the RC app or in a paired DS app, as described
@@ -67,7 +67,7 @@ You can change the operating channel using the Advanced Settings menu on
 the Robot Controller or Driver Station.
 
 .. warning:: Not every Android phone supports channel changing
-   through the software. Refer to rule <RE06> in the game manual for a
+   through the software. Refer to the Competition Manual for a
    list of *FIRST*-approved phones that support channel changing through
    the software.
 

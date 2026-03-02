@@ -1,7 +1,7 @@
 Example 3D Printed Parts
 ========================
 
-Here are some example parts that your team could make with a 3d printer to either save funds or improve on customizability.
+Here are some example parts that your team could make with a 3D printer to either save funds or improve on customizability.
 
 Mounting Brackets
 -----------------
@@ -13,7 +13,7 @@ of precision over how they mount things, and a decreased part count over commerc
 .. figure:: images/powerswitchmounting.png
   :align: center
   :width: 55%
-  :alt: 3d printed Power Switch Mounting Bracket
+  :alt: 3D printed Power Switch Mounting Bracket
 
   A Power Switch Mounting Bracket.
 
@@ -27,9 +27,9 @@ typically costs around $10, while a printed one can be as low as 20 cents.
 .. figure:: images/deadaxlemecanum.png
   :align: center
   :width: 55%
-  :alt: 3d printed Pulley with a custom bearing mount on a mecanum wheel
+  :alt: 3D printed Pulley with a custom bearing mount on a mecanum wheel
 
-  An example Deadaxle Mecanum setup with a custom 3d printed pulley.
+  An example Deadaxle Mecanum setup with a custom 3D printed pulley.
 
 
 Spacers and Shims
@@ -42,9 +42,9 @@ preferred!) than using collars or clamping mounts.
 .. figure:: images/intakespacers.png
   :align: center
   :width: 55%
-  :alt: An Intake with example 3d printed spacers
+  :alt: An Intake with example 3D printed spacers
 
-  An FTC FREIGHT FRENZY intake utilizing 3d printed spacers to space out intake wheels.
+  An FTC FREIGHT FRENZY intake utilizing 3D printed spacers to space out intake wheels.
     
     
 
@@ -57,9 +57,9 @@ A common way to do this is a custom shaped claw.
 .. figure:: images/wobblegoalclaw.png
   :align: center
   :width: 55%
-  :alt: An render of a 3d printed claw.
+  :alt: An render of a 3D printed claw.
 
-  Rendered FTC ULTIMATE GOAL Wobble Goal arm with 3d printed claw parts.
+  Rendered FTC ULTIMATE GOAL Wobble Goal arm with 3D printed claw parts.
 
 Another common method of using 3D Prints is for creating custom intakes, primarily surgical tubing.  
 
@@ -80,6 +80,6 @@ robots look good!
 .. figure:: images/examplemulticolorplates.png
   :align: center
   :width: 55%
-  :alt: 6 multicolor square 3d printed logos.
+  :alt: 6 multicolor square 3D printed logos.
 
   This FTC Team printed their sponsors logos in multiple colors to represent them!

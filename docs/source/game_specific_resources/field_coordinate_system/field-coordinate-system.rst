@@ -122,22 +122,41 @@ Square Field
    The Into The Deep game field
    
    In a square field configuration the two Alliances face each other across the field.
-   The field is oriented such that the Red Wall is on the right as seen from the audience.
-   The Y axis points across the field from the Red Wall towards the Blue Alliance.
-   The X axis points away from the audience to the rear of the field.
+   
+   * The field is oriented such that the Red Wall is on the right as seen from the audience.
+   * The Y axis points across the field from the Red Wall towards the Blue Alliance.
+   * The X axis points away from the audience to the rear of the field.
+
+Square Field (Inverted ALLIANCE AREA)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/decode-field.png
+   :alt: A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA.
+   
+   The DECODE game field
+   
+   The DECODE game field is essentially a square field, but the red and blue ALLIANCE
+   AREAS are swapped from their typical configuration (red ALLIANCE AREA on the left 
+   when viewed from the audience). In this configuration, the X and Y axes are "inverted"
+   in which direction the positive axis points. This is still consistent with the field
+   coordinate system definition, but the field is inverted.
+   
+   * The field is oriented such that the Red Wall is on the left as seen from the audience.
+   * The Y axis points across the field from the Red Wall towards the Blue Alliance.
+   * The X axis points towards the audience to the front of the field.
+
 
 Coordinate Position Example
 ---------------------------
 
-Let's consider the coordinates (0, -24, 26) in inches on the Into The Deep field, which is a square field.
-Given the order of coordinates then X = 0, Y = -24, and Z = 26. 
+Let's consider the coordinates (-58.3727, 55.6425, 29.5) in inches on the DECODE field, which is a square field with inverted red/blue.
+Given the order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5. 
 
-The X axis value of 0 is located at the origin in the center of the field.
-The Y axis value of negative 24 would be located closer to the Red Wall, away from the origin by the width of one tile.
-This the center of the wall of the submersible structure on the red side of the field.
+* The X axis value of -58.3727 is located deep in the back (away from the Audience Wall) of the field.
+* The Y axis value of 55.6425 would be located closer to the Blue Wall, about a 3/4 tile length from the Blue wall.
+* The Z axis value of 29.5 is 29.5 inches above the field tiles.
 
-The Z axis value of 26 indicates the coordinates refer to the center and top of the Red Alliance "high chamber"
-(which is the higher of the two red crossbars).
+This set of coordinates is the center of the Red Goal AprilTag on the Red Goal. 
 
 Measured Values
 ---------------

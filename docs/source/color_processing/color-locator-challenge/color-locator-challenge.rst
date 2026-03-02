@@ -555,16 +555,9 @@ example, that can overlap if desired.
 
    Using two processors
 
-This ends the tutorial's 3 pages on ColorLocator: 
 
-* :doc:`Discover <../color-locator-discover/color-locator-discover>`, 
-* :doc:`Explore <../color-locator-explore/color-locator-explore>`, 
-* **Challenge** 
-
-The final page of this tutorial provides optional info on :doc:`Color Spaces
-<../color-spaces/color-spaces>`.
-
-Best of luck as you apply these tools to your Autonomous and TeleOp OpModes!
+The next ColorLocator page called :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-blobs>` 
+covers detection of round objects.
 
 ============
 

@@ -95,7 +95,7 @@ specifically defined:
    upcoming season.
 
 Software SDK updates are announced via the `FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__ and  
-`Team Email Blasts <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__ .
+`Team Email Blasts <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ .
 
 
 SDK Release Notes
@@ -137,11 +137,11 @@ no longer necessary.
 Updating SDK Software
 ---------------------
 
-It is important for teams to update the SDK software. Updates
-mid-season may not be required. Teams can check  the minimum software version
-required for a game in Game Manual 1.  It is recommended to use the REV Hardware 
-Client to update hardware, if a 64-bit Windows computer is available. If not, then alternate
-methods provided can be used to update the software.
+It is important for teams to update the SDK software. Updates mid-season may
+not be required. Teams can check  the minimum software version required for a
+game in the Competition Manual.  It is recommended to use the REV Hardware
+Client to update hardware, if a 64-bit Windows computer is available. If not,
+then alternate methods provided can be used to update the software.
 
 -  :doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
 -  :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`

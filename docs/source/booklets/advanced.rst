@@ -13,10 +13,6 @@
         :titlesonly:
 
         /programming_resources/vision/vision_overview/vision-overview
-        /programming_resources/vision/tensorflow_pp_2022/tensorflow_pp_2022
-        /programming_resources/vision/blocks_tfod_opmode/blocks-tfod-opmode
-        /programming_resources/vision/java_tfod_opmode/java-tfod-opmode
-        /programming_resources/vision/tensorflow_ff_2021/tensorflow-ff-2021
         /programming_resources/vision/webcam_controls/index
         Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
 

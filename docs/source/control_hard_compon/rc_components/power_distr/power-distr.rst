@@ -58,12 +58,11 @@ Robot Main Battery
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v battery. The battery may be one of
-the batteries shown above. Refer to section ``<RE03>`` in the 
-:ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
-for exact information on allowed batteries. Note that it is typically allowed
-by ``<RE15>`` to replace the connector on the batteries, provided the in-line
-fuse on the battery is preserved.
+The main power of a robot comes from one 12v battery. The batterys above are
+samples of these batteries, check the Competition Manual for the full list of
+batteries. Note that it is typically allowed to replace the connector on the
+batteries, provided the in-line fuse on the battery is preserved, again check
+the Competition Manual for full details.
 
 .. warning:: 
    Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting
@@ -145,12 +144,9 @@ Main Power Switch
 
 
 
-One Main Power Switch must control all power provided by the Main Battery. It
-along with its label should be placed in accordance to 
-:ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>`. 
-The legal power switches are shown above. ``<RE01>``
-
-:download:`Power Switch Label <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/power-button-labels.pdf>`
+One Main Power Switch must control all power provided by the Main Battery. The
+legal power switches above are representative examples, check the Competition
+Manual for the full list. 
 
 Power Distribution Block
 -------------------------
@@ -194,10 +190,9 @@ Power Distribution Block
       goBILDA (SKU: 3108-2833-0801)
 
 Power Distribution Blocks help to distribute the power to devices such as
-Control Hubs, SPARKminis, and more.  
-See :ref:`Game Manual Part 1<manuals/game_manuals/game_manuals:game manuals>` 
-for a description of legal Power Distribution methods. The Power
-Distribution Blocks shown are not the only legal devices for power distribution.
+Control Hubs, SPARKminis, and more.  See the Competition Manual for a
+description of legal Power Distribution methods. The Power Distribution Blocks
+shown are not the only legal devices for power distribution.
 
 REV Servo Power Module
 ----------------------
@@ -222,11 +217,13 @@ REV Servo Power Module
 
       REV (REV-11-1144)
 
-This is an electronic device that boosts the power supplied to 3-wire servos. A REV
-Servo Power Module has 6 input servo ports and 6 matching output ports. It
-draws power from a 12V source and provides 6V power to each output servo port.
-A REV Servo Power Module can provide up to 15A of current across all output
-servo ports for a total of 90 Watts of power per module.
+This is an electronic device (also known as a Servo Power Injector) that boosts
+the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
+ports and 6 matching output ports. It draws power from a 12V source and
+provides 6V power to each output servo port.  A REV Servo Power Module can
+provide up to 15A of current across all output servo ports for a total of 90
+Watts of power per module. There are more Servo Power Injectors allowed by the
+Competition Manual.
 
 COTS USB Battery Pack
 ---------------------
@@ -252,13 +249,12 @@ COTS USB Battery Pack
       Anker Battery Pack
 
 A Commercial Off The Shelf (COTS) USB battery pack is an auxiliary power source
-that can be used in specific situations in accordance with the :ref:`Game
-Manuals<manuals/game_manuals/game_manuals:game manuals>`. In the 2023-2024
-season, these batteries were deemed permissible to power LEDs (per
-``<RE12>f.ii``) and, by extension, COTS light controller sources like the `REV
-Blinkin <https://www.revrobotics.com/rev-11-1105/>`__ (per ``<RE12>e``).
-However, having a COTS USB External Battery on the Robot carries additional
-considerations.  All teams must ensure their COTS USB Battery Pack:
+that can be used in specific situations in accordance with the Competition
+Manual. In the 2023-2024 season, these batteries were deemed permissible to
+power LEDs and, by extension, COTS light controller sources like the `REV
+Blinkin <https://www.revrobotics.com/rev-11-1105/>`__.  However, having a COTS
+USB External Battery on the Robot carries additional considerations.  All teams
+must ensure their COTS USB Battery Pack:
 
 - Is manufactured by a reputable brand.
 - Is within allowed Watt-hour capacity limits.
@@ -370,8 +366,9 @@ excessive heat, fire, or explosion and all reasonable efforts should be taken
 to prevent them.
 
 .. warning::
-   Never get a COTS USB Battery Pack wet. If it gets wet, follow the manufacturer's
-   recommended procedure to clean and dry the battery before continuing use.
+   Never get a COTS USB Battery Pack wet. If it gets wet, follow the
+   manufacturer's recommended procedure to clean and dry the battery before
+   continuing use.
 
 Charge COTS USB Battery Packs properly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -400,27 +397,27 @@ to protect and package the battery cell(s) within. Therefore it can be
 difficult to determine if the battery is showing signs of failure and distress.
 Here are several tips for identifying a failing battery:
 
-- Check for Leaking Power Cells. Similar to an acid leak in an alkaline battery,
-  check to see if there are any signs of corrosion or acid leak from the 
-  battery pack. This might be difficult to determine, so stay vigilent. If signs
-  of acid or corrosion are present, dispose of the battery per the manufacturer's
-  recommendations immediately with extreme prejudice.
-- Look for bulging within the battery casing. When Lithium batteries fail, often 
-  they will begin to bulge like a balloon. If the case of the battery shows any
-  signs of pressure from within, dispose of the battery per the manufacturer's 
-  recommendations immediately with extreme prejudice.
+- Check for Leaking Power Cells. Similar to an acid leak in an alkaline
+  battery, check to see if there are any signs of corrosion or acid leak from
+  the battery pack. This might be difficult to determine, so stay vigilent. If
+  signs of acid or corrosion are present, dispose of the battery per the
+  manufacturer's recommendations immediately with extreme prejudice.
+- Look for bulging within the battery casing. When Lithium batteries fail,
+  often they will begin to bulge like a balloon. If the case of the battery
+  shows any signs of pressure from within, dispose of the battery per the
+  manufacturer's recommendations immediately with extreme prejudice.
 - Test the battery pack for any non-functional ports. Sometimes non-functional
-  ports can be an early sign of internal damage. DO NOT use batteries that 
-  are suspected of being damaged - dispose of the battery per the manufacturer's
+  ports can be an early sign of internal damage. DO NOT use batteries that are
+  suspected of being damaged - dispose of the battery per the manufacturer's
   recommendations immediately.
 
 Isolate COTS USB Battery Packs from the Robot Power
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Great care must be take to NEVER allow the COTS USB Battery Pack to be connected 
-to the main (or any) power system in use by the robot. The COTS USB Battery Pack 
-and connected devices must be completely isolated from the robot electrical system, 
-with the exception of controlling signals provided by the Game Manual 
-(per rule ``<RE12>.d``). When using a COTS USB Battery Pack, controlling signals
-for LEDs powered by the Pack should ONLY connect to compatible devices listed in 
-rule ``<RE12>.e``.
+Great care must be take to NEVER allow the COTS USB Battery Pack to be
+connected to the main (or any) power system in use by the robot. The COTS USB
+Battery Pack and connected devices must be completely isolated from the robot
+electrical system, with the exception of controlling signals provided by the
+Competition Manual.  When using a COTS USB Battery Pack, controlling signals
+for LEDs powered by the Pack should ONLY connect to allowed compatible devices.
+

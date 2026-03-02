@@ -6,7 +6,7 @@ Introduction
 
 This is a simple tutorial to introduce the use of
 `HuskyLens <https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech
-Challenge (`FTC <https://www.firstinspires.org/robotics/ftc>`__), for
+Challenge, for
 teams that **already decided** to explore its potential.
 
 .. figure:: images/020-HuskyLens-dual.png
@@ -49,9 +49,8 @@ This tutorial does **not** cover the (many) ways to:
    -  crimped connectors
    -  lever nuts (example below)
 
-FTC `Game Manual 1 <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
-allows this work, but teams must ensure high quality for robot competition all
-season.
+FTC Competition Manual allows this work, but teams must ensure high quality for
+robot competition all season.
 
 .. figure:: images/060-adapter.png
    :align: center
@@ -405,8 +404,7 @@ Competition Notes
 ~~~~~~~~~~~~
 
 Now you are ready to experiment with color recognition of an actual Team
-Prop, also called a Team Game Element. Study `Game Manual
-1 <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
+Prop, also called a Team Game Element. Study the Competition Manual
 and the `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ for the Team
 Prop requirements. Choose your shades of “red” and “blue” (see note
 below), and follow the same steps as above.
@@ -418,19 +416,9 @@ The above trained **blue object** is not the same shade of blue as the
 blue Spike Mark. This difference increases the chance of a distinct and
 correct recognition of the object color.
 
-`Game Manual
-1 <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
-(Rule TE2) specifically allows the Team Prop to be a different shade of
-Red or Blue, compared to the official tape color of Spike Marks:
-
-   *“The Team Game Element may include multiple shades of the assigned
-   color.”*
-
-…and emphasized in the `FTC
-Q&A <https://ftc-qa.firstinspires.org/qa/15>`__:
-
-   *“Light blue and pink are acceptable colors providing it is obvious to
-   the field personnel which alliance the Team Prop belongs to.”*
+In this game, the Competition Manual specifically allowed the Team Prop to be a
+different shade of Red or Blue, compared to the official tape color of Spike
+Marks.
 
 3. Lighting
 ~~~~~~~~~~~

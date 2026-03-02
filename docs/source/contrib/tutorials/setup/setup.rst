@@ -24,7 +24,7 @@ Steps
    .. tab-item:: Windows
 
       1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_.
-      2. Install Python 3.9 or later from the `Python website <https://www.python.org/downloads/>`_. **Make sure to check the box that says "Add Python to PATH".**
+      2. Install Python 3.9-3.12 from the `Python website <https://www.python.org/downloads/windows/>`_. **Make sure to check the box that says "Add Python to PATH".**
       3. Install Pip. ``python -m ensurepip``
       4. Install Git. ``choco install git``
       5. Install Make. ``choco install make``
@@ -32,7 +32,7 @@ Steps
    
    .. tab-item:: Linux/Mac
 
-      1. Install Python 3.9 or later. You can download it from the `Python website <https://www.python.org/downloads/>`_.
+      1. Install Python 3.9-3.12. You can download it from the Python website: `macOS <https://www.python.org/downloads/macos/>`_, `Linux <https://www.python.org/downloads/source/>`_.
       2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installation/>`_.
       3. Install Git from the `Git website <https://git-scm.com/downloads>`_.
       4. Install `Make <https://www.gnu.org/software/make/>`_ .

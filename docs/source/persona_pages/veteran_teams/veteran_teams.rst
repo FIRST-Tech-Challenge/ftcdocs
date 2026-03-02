@@ -105,7 +105,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/node/5226
+            .. button-link:: https://www.firstinspires.org/resources/library/ftc/team-management-resources
                :ref-type: doc
                :color: black
                :outline:

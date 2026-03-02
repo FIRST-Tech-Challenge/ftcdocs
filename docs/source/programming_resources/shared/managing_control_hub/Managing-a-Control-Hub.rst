@@ -6,7 +6,7 @@ Changing the Name
 
 By default, the Control Hub has a name that begins with the phrase
 "FTC-" and ends with four characters that are assigned at the factory.
-In order to comply with game manual rule <RS01>, the name should be
+In order to comply with the Competition Manual, the name should be
 changed.
 
 The name of a Control Hub (or Robot Controller phone) can be changed

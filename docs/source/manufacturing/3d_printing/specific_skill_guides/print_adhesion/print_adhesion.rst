@@ -1,7 +1,7 @@
 Print Adhesion
 ==============
 
-There's a lot of ways that print adhesion can go wrong, and it's one of the biggest things that people new to 3d printing struggle with. Bed Leveling is 
+There's a lot of ways that print adhesion can go wrong, and it's one of the biggest things that people new to 3D printing struggle with. Bed Leveling is 
 often the biggest, but if you just can't get that one part to stick even after a perfect bed level, try some of the things below depending on your build 
 surface!
 

@@ -1,4 +1,4 @@
-3d Printing Terminology
+3D Printing Terminology
 =======================
 
 3D Printing terminology can often feel overwhelming and complex, to simplify here's a list of some terms to know!

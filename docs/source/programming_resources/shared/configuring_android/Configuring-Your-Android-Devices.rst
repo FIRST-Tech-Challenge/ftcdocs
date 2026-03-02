@@ -250,7 +250,7 @@ the robot during a match.
    * - Step
      - Image
 
-   * - 1. On the main Android screen of each smartphone, use your finger to slide from the top of the screen down towards the bottom ofthe screen to display the quick configuration screen. Note that for some smartphones you might have to swipe down more than once to display the quick configuration screen, particularly if there are messages or notifications displayed at the top of your screen. Look for the Airplane mode icon (which is shaped like an airplane) and if the icon is not activated, touch the icon to put the phone into airplane mode.
+   * - 1. On the main Android screen of each smartphone, use your finger to slide from the top of the screen down towards the bottom of the screen to display the quick configuration screen. Note that for some smartphones you might have to swipe down more than once to display the quick configuration screen, particularly if there are messages or notifications displayed at the top of your screen. Look for the Airplane mode icon (which is shaped like an airplane) and if the icon is not activated, touch the icon to put the phone into airplane mode.
      - |airplane1|
 
    * - 2. Placing the phone into airplane mode will turn off the Wi-Fi radio. If the Wi-Fi icon has a diagonal line through it (see Step 1 above), then the Wi-Fi radio is disabled. You will need to touch the **Wi-Fi** icon on the quick configuration screen to turn the Wi-Fi radio back on.
@@ -331,7 +331,7 @@ task.
    * - 8. From the **Settings** screen, look for and select \ **Pair with Robot Controller** to launch the **Pair** \ **with Robot Controller** screen.
      - |pairing8|
 
-   * - 9. From **Pair with Robot Controller** screen,look for and press the **Wifi Settings** button to launch the device's Android WifiSettings screen.
+   * - 9. From **Pair with Robot Controller** screen, look for and press the **Wifi Settings** button to launch the device's Android WifiSettings screen.
      - |pairing9|
 
    * - 10. Find the name of your Control Hub's wireless network from the list of available WiFi networks. Click on the network name to select the network. If this is the first time you are connecting to the Control Hub, then the default network name should begin with the prefix FTC- (FTC-1Ybr in this example). The default network name should be listed on a sticker attached to the bottom side of the Control Hub.
@@ -426,8 +426,8 @@ Note that it will take an estimated 10 minutes to complete this task.
    * - 10. When the DRIVER STATION returns to its main screen, the first time you attempt to connect to the Robot Controller a prompt should appear on the Robot Controller screen. Click on the **ACCEPT** button to accept the connection request from the DRIVER STATION.
      - |pairingns10|
 
-   * - 11. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Robot Controller. The name ofthe Robot Controller's remote network (9999-C-RC in this example) should be displayed in the Network field on the DRIVER STATION.
+   * - 11. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Robot Controller. The name of the Robot Controller's remote network (9999-C-RC in this example) should be displayed in the Network field on the DRIVER STATION.
      - |pairingns11|
 
-   * - 12. Verify that the Robot Controller screen has changed and that it now indicates that it is connected to the DRIVER STATION.The Network status should read active, connected on the Robot Controller's main screen.
+   * - 12. Verify that the Robot Controller screen has changed and that it now indicates that it is connected to the DRIVER STATION. The Network status should read active, connected on the Robot Controller's main screen.
      - |pairingns12|

@@ -1,14 +1,14 @@
-General Design for 3d Printed Parts
+General Design for 3D Printed Parts
 ===================================
 
-Gradually as you 3d print more you will acquire a general design sense. You will have a good sense of what you should and shouldn't print, 
+Gradually as you 3D print more you will acquire a general design sense. You will have a good sense of what you should and shouldn't print, 
 know what your printer is capable of, and know what won't break. A lot of this comes with experience, but there are some general tips that 
 can be given.
 
 Large Prints
 ------------
 If you're using your entire build plate, you generally should not be printing that part continuously. Design the part to be connected in 
-various places with hardware, or even better, design it to have metal reinforcement and use 3d prints for only the unique/specific geometry.
+various places with hardware, or even better, design it to have metal reinforcement and use 3D prints for only the unique/specific geometry.
 
 |
 

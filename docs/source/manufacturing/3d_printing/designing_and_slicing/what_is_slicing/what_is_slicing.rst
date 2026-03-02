@@ -7,11 +7,11 @@ This is done in a software called a slicer, which turns CAD files, into machine-
 .. image:: images/slicinggraphic.jpg
   :align: center
   :width: 55%
-  :alt: A graphic showing the steps of creating a 3d printable file.
+  :alt: A graphic showing the steps of creating a 3D printable file.
 
 |
 
-The basis of this software is that it takes a mesh file, normally an STL file, and splits it into layers and lines that the 3d
+The basis of this software is that it takes a mesh file, normally an STL file, and splits it into layers and lines that the 3D
 printer can digest. You get to select various parameters about how it will instruct the printer to follow this data, such as the
 speed, thickness of lines, temperatures, thickness of the slices, amount of walls, the patterns on the inside of the part, and 
 even more. Most slicers will have over 200 options available to you if fine-tuning is something you're interested in, but there's

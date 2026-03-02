@@ -1,7 +1,7 @@
 .. meta::
    :title: Programming Resources, FTC Docs
    :description: Official Programming Resources for FIRST Tech Challenge
-   :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studios, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
+   :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studio, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
 
 Programming Resources
 =====================
@@ -47,7 +47,7 @@ Control System Supporting Documentation
 -  :doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network <shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
 -  :doc:`Installing a Javascript Enabled Browser <shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`
 -  :doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`
--  :doc:`Managing a Smartphone Driver Station (DS) <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
+-  :doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
 -  :doc:`Managing a Smartphone Robot Controller (RC) <shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`
 
 .. toctree::
@@ -81,23 +81,7 @@ Topics for programming with AprilTags
    Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Localization <../apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
-
-TensorFlow Programming
-~~~~~~~~~~~~~~~~~~~~~~
-
-Topics for programming with TensorFlow Object Detection (TFOD)
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   vision/tensorflow_cs_2023/tensorflow-cs-2023
-   vision/tensorflow_pp_2022/tensorflow_pp_2022
-   vision/tensorflow_ff_2021/tensorflow-ff-2021
-   vision/blocks_tfod_opmode/blocks-tfod-opmode
-   vision/blocks_tfod_opmode_custom/blocks-tfod-opmode-custom
-   vision/java_tfod_opmode/java-tfod-opmode
-   vision/java_tfod_opmode_custom/java-tfod-opmode-custom
+   ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
 
 Vision Programming
 ~~~~~~~~~~~~~~~~~~~
@@ -127,6 +111,7 @@ Learn more about using a simple webcam or smartphone camera to perform Color Pro
    ../color_processing/color-locator-discover/color-locator-discover
    ../color_processing/color-locator-explore/color-locator-explore
    ../color_processing/color-locator-challenge/color-locator-challenge
+   ../color_processing/color-locator-round-blobs/color-locator-round-blobs
    ../color_processing/color-spaces/color-spaces
 
 Advanced Topics
@@ -150,5 +135,5 @@ Advanced Topics for Programmers
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resource-library/ftc/technology-information-and-resources>`__
+-  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resources/library/ffc/programming-resources>`__
 

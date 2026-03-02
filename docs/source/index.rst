@@ -67,6 +67,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    programming_resources/shared/control_system_intro/The-FTC-Control-System 
    control_hard_compon/index
    hardware_and_software_configuration/index
+   hardware_and_software_configuration/self_inspect/new-self-inspect
    hardware_and_software_configuration/self_inspect/self-inspect
    programming_resources/index
 
@@ -111,6 +112,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    faq/faqs
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
+   team_resources/team_resources
 
 .. toctree::
    :caption: FTC Docs
@@ -126,13 +128,13 @@ and :doc:`gracious_professionalism/gp` to see why.
 
 **I am a...**
 
-- :doc:`New Team <persona_pages/rookie_teams/rookie_teams>` - New Teams may not know where to start. This is the way!
+- :doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may not know where to start. This is the way!
 
-- :doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` - Returning Teams looking for resources can look here.
+- :doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` Returning Teams looking for resources can look here.
 
-- :doc:`Coach <persona_pages/coach_admin/coach_admin>` - Coaches looking for help or Team Administrative Resources can look here.
+- :doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for help or Team Administrative Resources can look here.
 
-- :doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` - Technical Mentors looking for Technical Resources should look here first!
+- :doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors looking for Technical Resources should look here first!
 
 The main menu contains links to the top level content. The following are quick links organized by topic.
 
@@ -290,7 +292,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               SDK GitHub Repository (external)
+               SDK GitHub Repository
 
          .. div:: col-sm pl-1 pr-1
       
@@ -299,7 +301,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               SDK Releases (external)
+               SDK Releases
 
          .. div:: col-sm pl-1 pr-1
 
@@ -308,7 +310,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Javadoc Documentation (external)
+               Javadoc Documentation
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
@@ -350,7 +352,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Game Question and Answer System (external)
+               Game Question and Answer System
 
 .. note::
 

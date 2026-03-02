@@ -2,7 +2,7 @@ Design to Make Easy-To-Print Parts
 ==================================
 
 A major problem teams sometimes encounter is that their parts are difficult to print without extreme amounts of supports or precarious overhangs. 
-This issue can and should be solved during the design process in a practice sometimes called DFAM (Designing for Additive Manufacturing). 3d Printers
+This issue can and should be solved during the design process in a practice sometimes called DFAM (Designing for Additive Manufacturing). 3D printers
 have limits, and these can be taken into account while initially creating a part, making those manufacturing limitations just as much of a consideration
 as what the function of the part you're creating is.
 

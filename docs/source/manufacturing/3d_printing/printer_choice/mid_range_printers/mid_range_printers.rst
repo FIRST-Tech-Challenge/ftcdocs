@@ -4,7 +4,7 @@ Mid-Range Printers ($300-$600 USD)
 AnkerMake M5C ($399)
 --------------------
 
-Anker's budget 3d printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. 
+Anker's budget 3D printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. 
 This printer has speed printing capabilities and an extremely friendly interface with almost no setup. This is one of
 the cheapest printers that can reach 0.5m/s speeds while printing, which alone makes it stand out.
 
@@ -71,7 +71,7 @@ BambuLab P1P ($599)
 -------------------
 
 Built for speed by BambuLab, the P1P is a CoreXY machine with well engineered proprietary hardware and software. 
-A machine that is proving very reliable for many despite BambuLab's short time in the 3d printer marketplace so
+A machine that is proving very reliable for many despite BambuLab's short time in the 3D printer marketplace so
 far, the P1P is an amazing mid range option with a lot of manufacturing capability for it's cost. This printer is 
 also compatible with BambuLab's multimaterial system, and can be upgraded to their new offering, the P1S, for just
 150$ if your needs eventually outgrow the P1P. 

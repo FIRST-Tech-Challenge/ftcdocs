@@ -4,7 +4,7 @@ Color Processing Introduction
 Overview
 --------
 
-The *FIRST* Tech Challenge SDK v10.1 software now includes some **Color
+The *FIRST* Tech Challenge SDK software (as of v10.1) includes some **Color
 Processing** features from OpenCV, a popular and powerful open-source library
 for vision processing.
 
@@ -23,6 +23,7 @@ Here's the outline of this tutorial's main pages:
    color-locator-discover/color-locator-discover 
    color-locator-explore/color-locator-explore
    color-locator-challenge/color-locator-challenge
+   color-locator-round-blobs/color-locator-round-blobs
    color-spaces/color-spaces
 
 Much credit to developer and Sample OpMode author `@gearsincorg <https://github.com/gearsincorg>`_, EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`_, FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`_, and the open-source team at `OpenCV <https://opencv.org/>`_.
@@ -57,7 +58,8 @@ to use the Sample OpMode called ``ConceptVisionColorSensor``.
 
 For the **Color Locator** processor, the color "clusters" are called **Blobs**.
 As listed above, this tutorial offers one page on Color Blob Concepts, and
-three pages covering the Sample OpMode called ``ConceptVisionColorLocator``.
+four pages covering the Sample OpModes called ``ConceptVisionColorLocator_Rectangle`` 
+and ``ConceptVisionColorLocator_Circle``.
 
 The Sample OpModes are available in **FTC Blocks**\ , and in **Java** for use
 in OnBot Java or Android Studio.  Each programming section of this tutorial has
@@ -68,11 +70,11 @@ Next Steps
 
 Time to get started!
 
-Following this tutorial in order, first try the Sample OpMode for :doc:`Color
+Following this tutorial in order, first try the Sample OpModes for :doc:`Color
 Sensor <color-sensor/color-sensor>`.
 
 Then read about **Color Blob Concepts**\ , and try the **Color Locator** Sample
-OpMode.
+OpModes.
 
 Soon you'll be ready to add one or both features to your Autonomous OpModes --
 perhaps even to help automate your TeleOp!

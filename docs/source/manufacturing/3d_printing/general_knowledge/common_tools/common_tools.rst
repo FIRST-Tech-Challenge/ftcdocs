@@ -23,7 +23,7 @@ Screwdrivers
 Screwdrivers are another tool to keep handy for repairing your printer especially for operating in spots 
 hard to reach with allen keys and for screws other than hex key. It's suggested to get a kit with many 
 small bits such as the one pictured below for easy maintenance, unless you already know exactly what type 
-and size screws are utilized on all your 3d printers.
+and size screws are utilized on all your 3D printers.
 
 .. figure:: images/screwdriverkit.png
   :align: center

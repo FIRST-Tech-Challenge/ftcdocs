@@ -13,7 +13,7 @@ ports.
 This document describes how to connect and configure an additional Expansion
 Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
 Competition Manual limits the maximum number of Control or Expansion Hubs on
-a single robot to two. See rule R701 for the full details.
+a single robot to two. 
 
 Equipment Needed
 ~~~~~~~~~~~~~~~~
@@ -39,8 +39,7 @@ need the following items:
      - .. figure:: images/TamiyaAdapter.jpg
 
    * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of
-       FIRST-approved 12V batteries, refer to the current Competition Manual,
-       rule R601.
+       FIRST-approved 12V batteries, refer to the current Competition Manual.
      - .. figure:: images/Battery.jpg
 
    * - REV Robotics Control Hub (REV-31-1595).
@@ -142,7 +141,7 @@ using a Control Hub on their robot.
 
    * - A FIRST-approved Android smartphone with the FTC Robot Controller
        app installed. For a list of FIRST-approved Android smartphones,
-       refer to the current Competition Manual, rule R704.
+       refer to the current Competition Manual.
      - .. figure:: images/oneAndroidPhone.jpg
 
    * -  USB Type A male to type mini-B male cable.

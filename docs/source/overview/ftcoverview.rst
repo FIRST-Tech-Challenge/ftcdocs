@@ -56,8 +56,8 @@ option for up to 24 students.
 
 Visit |text2|_ to learn about the essential steps to starting a team!
 
-.. _text2: https://www.firstinspires.org/robotics/ftc/start-a-team
-.. |text2| replace:: start a |FIRST| Tech Challenge Team
+.. _text2: https://www.firstinspires.org/programs/ftc/get-started
+.. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team
 
 About |FTC| Kahoot
 ^^^^^^^^^^^^^^^^^^

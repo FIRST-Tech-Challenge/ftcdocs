@@ -1,9 +1,9 @@
 Tolerancing Prints
 ==================
 
-Tolerances are everything when it comes to 3d printing- we're not precision machining parts here, we're laying down plastic and hoping it forms a shape. 
+Tolerances are everything when it comes to 3D printing- we're not precision machining parts here, we're laying down plastic and hoping it forms a shape. 
 Differences in temperature, nozzle quality, and airflow can vastly change the size a hole actually is despite what the printers instructions tell it to 
-do. A 4mm hole when printed could end up as actually being 3.6mm. Below are detailed two ways to deal with these tolerance issues for 3d printing.
+do. A 4mm hole when printed could end up as actually being 3.6mm. Below are detailed two ways to deal with these tolerance issues for 3D printing.
 
 Designing Tolerances
 --------------------

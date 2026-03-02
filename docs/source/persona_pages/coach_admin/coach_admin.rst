@@ -38,7 +38,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/node/20896
+            .. button-link:: https://help.firstinspires.org/s/article/What-is-Coopertition
                :ref-type: doc
                :color: black
                :outline:
@@ -50,7 +50,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
          .. div:: col-sm pl-1 pr-1
       
-            .. button-link:: https://www.firstinspires.org/robotics/fll/core-values
+            .. button-link:: https://help.firstinspires.org/s/article/What-are-the-FIRST-Core-Values
                :ref-type: doc
                :color: black
                :outline:
@@ -84,35 +84,12 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
  
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/resource-library/youth-registration-system
+            .. button-link:: https://www.firstinspires.org/programs/youth-registration
                :color: black
                :outline:
                :expand:
 
                Youth Registration (external)
- 
-   .. grid-item-card::
-      :class-header: sd-bg-secondary font-weight-bold sd-text-black
-      :class-body: sd-text-left
-
-      Business Plan and Budget
-
-      ^^^
-
-      A simple guide to managing your team's budget.
-      
-      +++
-
-      .. div:: container-fluid p-0
-
-         .. div:: col-sm pl-1 pr-1
-
-            .. button-link:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/sample-budget.xlsx
-               :color: black
-               :outline:
-               :expand:
-
-               Sample Budget (External Excel Spreadsheet)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
@@ -130,7 +107,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/node/5226
+            .. button-link:: https://www.firstinspires.org/resources/library/ftc/team-management-resources
                :color: black
                :outline:
                :expand:
@@ -153,7 +130,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/mentor-manual.pdf
+            .. button-link:: https://www.firstinspires.org/hubfs/web/program/ftc/ftc-mentor-manual.pdf
                :color: black
                :outline:
                :expand:
@@ -168,7 +145,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
       ^^^
 
-      Simple checklists to prepare for competition.
+      Simple checklists to prepare for competition. See the Preparing for Competition heading on the linked page.
 
       +++
 
@@ -176,7 +153,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://www.firstinspires.org/resource-library/ftc/preparing-for-competition
+            .. button-link:: https://www.firstinspires.org/resources/library/ftc/team-management-resources
                :color: black
                :outline:
                :expand:

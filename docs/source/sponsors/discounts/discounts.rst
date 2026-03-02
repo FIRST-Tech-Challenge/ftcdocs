@@ -1,19 +1,19 @@
-FIRST Tech Challenge Team Discounts
-===================================
+*FIRST* Tech Challenge Team Discounts
+=====================================
 
-As a benefit of being a FIRST Tech Challenge Team, some vendors and sponsors of
+As a benefit of being a *FIRST* Tech Challenge Team, some vendors and sponsors of
 *FIRST* programs have generously provided discounts on products to teams.
 These discounts may be for specific categories of products, or may apply
 site-wide, and may require an application process or a season-specific or
 team-specific promo code. Read details below for each vendor for more
 information.
 
-.. dropdown:: Team Grant Opportunities
+Team Grant Opportunities
+------------------------
 
    .. image:: images/ftc-logo.png
       :height: 50px
-      :target: https://www.firstinspires.org/robotics/team-grants
-      :alt: Onecolor Logo
+      :alt:  
       :name: Onecolor Logo
       :class: invert-img
 
@@ -26,16 +26,16 @@ information.
    **Expires**: See each individual grant opportunity.
 
    **To Apply**: Check out the 
-   `list of current Team Grants available <https://www.firstinspires.org/robotics/team-grants>`_ 
+   `list of current Team Grants available <https://www.firstinspires.org/programs/team-grant-opportunities>`_ 
    and see if you're eligible!
 
 
-.. dropdown:: FIRST Storefront
+*FIRST* Storefront
+------------------
 
    .. image:: images/ftc-logo.png
       :height: 50px
-      :target: https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/bom-storefront-options.pdf
-      :alt: FIRST Tech Challenge Logo Onecolor
+      :alt: 
       :name: FIRST Tech Challenge Logo Onecolor
       :class: invert-img
 
@@ -43,15 +43,15 @@ information.
 
    **What**:
 
-   *  All FIRST Tech Challenge Teams are eligible for discounts on control
+   *  All *FIRST* Tech Challenge Teams are eligible for discounts on control
       equipment, electronics, and starter kits.
    *  Teams are limited to one purchase per item per category each season.
 
-   **Expires**: Good for the current FIRST Tech Challenge competition season.
+   **Expires**: Good for the current *FIRST* Tech Challenge competition season.
 
    **Promo Code**: N/A
 
-   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/bom-storefront-options.pdf>`_
+   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-options.pdf>`_
    for instructions on how to purchase discounted parts.
 
 

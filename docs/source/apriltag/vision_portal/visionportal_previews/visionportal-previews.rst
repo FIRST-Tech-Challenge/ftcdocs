@@ -4,7 +4,7 @@ VisionPortal Previews
 Introduction
 ------------
 
-Managing AprilTag and TFOD performance is greatly enhanced with visual
+Managing AprilTag and Color Processing performance is greatly enhanced with visual
 feedback of the camera’s view.
 
 .. figure:: images/040-RC-preview-2-webcams-Moto-e4.png
@@ -26,13 +26,13 @@ LiveView refers only to the **Robot Controller** preview (example shown above).
 It’s completely separate from **DS Camera Stream**, which still operates
 normally even if LiveView is stopped (manually or automatically).
 
-Instructions for viewing DS Camera Stream are shown at
-:ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`.
+Instructions for viewing DS Camera Stream are shown
+:ref:`here <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`.
 
 Camera Stream uses its own frame collection process, which naturally still
 requires the camera/pipeline status to be ``STREAMING``. Disabling the stream
 will prevent the DS preview. Camera status is covered at the **Managing CPU and
-Bandwidth** page, and the **VisionPort Camera Controls** page.
+Bandwidth** page, and the **VisionPortal Camera Controls** page.
 
 Side Note: For SDK 8.2, “LiveView” became the new universal name for the
 RC preview. There remain two instances of old names: 
@@ -62,38 +62,13 @@ do affect the displayed image and the actual recognitions.
 During Camera Stream, manual adjustments to Camera Controls cannot be
 made in real time (with visible feedback) since gamepads are disabled.
 
-Thus teams wanting to optimize AprilTag or TFOD recognitions with Camera
+Thus teams wanting to optimize AprilTag or Color Processing recognitions with Camera
 Controls should use ``scrcpy`` or an HDMI monitor. Doing this via Camera
 Stream (“back and forth”) will be less effective and less efficient.
 
 More information is available at the **VisionPortal Camera Controls** page, and
 at the 
 :ref:`Webcam Control tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`.
-
-Aspect Ratios in Previews
--------------------------
-
-Here’s a Control Hub’s LiveView (via ``scrcpy``) of TFOD recognitions:
-
-.. figure:: images/050-CH-TFOD-preview-grey-bands.png
-   :width: 75%
-   :align: center
-   :alt: Gray Band Aspect Ratio Mismatch
-
-   LiveView demonstrating Grey Bands from Aspect Ratio mismatch
-
-The **greyed bands** at top and bottom are from the **mismatch of aspect
-ratios**:
-
--  4:3 for camera (640x480)
-
--  16:9 for TFOD (per model training)
-
-Both of these ratios are set as defaults, hidden from the user in some
-Sample OpModes. Only the non-greyed region is eligible for TFOD
-recognitions.
-
-Note that the TFOD annotations (text) extend beyond the image.
 
 BIG Previews
 ------------
@@ -130,7 +105,7 @@ is rather high.
 
 Note that viewing the video stream from the same orientation as the
 statistics text box will show you the orientation of the stream passed
-to the AprilTag and/or TFOD processors.
+to the AprilTag and/or Color Sensor/Locator processors.
 
 Also note that for RC phone cameras, the LiveView preview is rotated
 (independent of rotation enum) such that the preview is the way you
