@@ -33,12 +33,6 @@ The methods described here can be used in Android Studio or OnBot Java.
 They can also be provided to Blocks programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
-You will see Vuforia mentioned here, and in the `sample OpModes
-<#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge
-implementation of Google’s TensorFlow Lite receives camera images from a
-Vuforia video stream. The SDK already includes and uses Vuforia for
-navigation, so it’s a convenient tool for passing camera streams to TFOD.
-
-These CameraControl interfaces allow some control of the webcam, within
-requirements or settings of Vuforia for its own performance. Such
-settings include resolution and frame rate, not covered here.
+These CameraControl interfacees can be used to improve performance of AprilTag
+detection and color processing. Some settings, such as resolution and frame
+rate, are not covered here because they are part of VisionPortal and not the webcam.
