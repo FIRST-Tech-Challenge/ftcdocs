@@ -1,3 +1,4 @@
 texlive-xetex
+texlive-latex-extra
 latexmk
 fonts-roboto
