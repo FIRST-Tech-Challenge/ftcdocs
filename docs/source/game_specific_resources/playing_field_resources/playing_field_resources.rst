@@ -37,7 +37,7 @@ The guide typically has the following sections:
 
 Use the following button link to download a PDF of the current Field Setup Guide from the *FIRST* Website:
 
-.. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+.. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
    :color: primary
 
    Download Field Setup Guide PDF, 4.5 MB

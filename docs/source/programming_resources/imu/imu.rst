@@ -9,7 +9,7 @@ In September 2022, REV Robotics began shipping `Control Hubs
 Inertial Measurement Unit (IMU). The new IMU chip is designated `BHI260AP
 <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__,
 replacing the existing Hub’s IMU chip `BNO055
-<https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both are
+<https://www.bosch-sensortec.com/en/products/smart-sensor-systems/bno055/>`__.  Both are
 from Bosch Sensortec. An IMU can measure many aspects of device motion; this
 explanatory document focuses primarily on **rotation**.
 
