@@ -261,6 +261,23 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 linkcheck_timeout = 60
 
+# Retry once on a transient failure (dropped connection, momentary 5xx) before
+# reporting a link broken. Does not apply to 429s, which are handled by the
+# rate-limit backoff below.
+
+linkcheck_retries = 2
+
+# Sphinx backs off with exponential delay (starting at 60s, doubling each
+# attempt) when a server responds 429, up to this cap, before giving up and
+# reporting the link broken. The default (300s) means a single domain that
+# keeps returning 429 can burn up to ~12 minutes of build time (60+120+240+300)
+# before Sphinx gives up on it. Domains confirmed to hard-block CI IPs
+# regardless of backoff belong in linkcheck_ignore below instead of relying on
+# this timeout; this cap just limits the damage from the next one we haven't
+# identified yet.
+
+linkcheck_rate_limit_timeout = 90.0
+
 # Configure linkcheck errors
 
 linkcheckdiff_errors = set(['broken'])
@@ -304,9 +321,14 @@ linkcheck_allowed_redirects = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+# AndyMark and Pitsco (confirmed 7/2026) return HTTP 429 to a single, isolated
+# request from CI IP ranges regardless of user agent or retry/backoff -- this
+# is IP-reputation-based blocking, not a request-volume rate limit, so no
+# amount of waiting resolves it. Without this, each link burns the full
+# linkcheck_rate_limit_timeout backoff every run before being marked broken.
 
 linkcheck_ignore = [
-   r'https://my.firstinspires.org/Dashboard/', 
+   r'https://my.firstinspires.org/Dashboard/',
    "https://ftc-ml.firstinspires.org",
    r'https://github.com/.*#',
    r'https://wiki.dfrobot.com/.*#',
@@ -317,6 +339,8 @@ linkcheck_ignore = [
    r'https://april.eecs.umich.edu/',
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
+   r'https://www.andymark.com/',
+   r'https://www.pitsco.com/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
    r'http://192.168.43.1',
