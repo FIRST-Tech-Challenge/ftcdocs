@@ -7,7 +7,7 @@ Setting Up Your Development Environment
    Only complete these steps if you have chosen to develop the site locally. 
    If you are using **GitHub Codespaces** you should skip this section.
 
-FTC Docs uses a `Nix <https://nixos.org>`_ flake (``flake.nix`` at the root of the repository) to provide every
+FTC Docs uses a `Nix <https://nixos.org>`__ flake (``flake.nix`` at the root of the repository) to provide every
 dependency needed to build the site -- Python, Sphinx, and the LaTeX toolchain used for PDF booklets -- in one
 reproducible environment. You no longer need to install Python, Pip, or a LaTeX distribution yourself.
 
@@ -26,13 +26,13 @@ Steps
       Nix (and the LaTeX/PDF build) requires Linux or macOS, so on Windows you'll need `WSL2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_.
 
       1. Install WSL2 and a Linux distribution (e.g. Ubuntu) by running ``wsl --install`` in an administrator PowerShell prompt.
-      2. Open a WSL terminal and install `Nix <https://nixos.org/download>`_: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
+      2. Open a WSL terminal and install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
       3. Install Git (usually already available in WSL, otherwise ``sudo apt install git``).
       4. Install the latest version of `VS Code <https://code.visualstudio.com/download>`_, along with the `WSL extension <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>`_, and open your cloned repository from within WSL.
 
    .. tab-item:: Linux/Mac
 
-      1. Install `Nix <https://nixos.org/download>`_: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
+      1. Install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
       2. Install Git from the `Git website <https://git-scm.com/downloads>`_.
       3. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
 
