@@ -321,6 +321,7 @@ linkcheck_allowed_redirects = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+#
 # AndyMark, Pitsco, Studica, and RCMart (confirmed 7/2026) all return HTTP 403
 # or 429 to a single, isolated request from CI IP ranges regardless of user
 # agent or retry/backoff -- this is IP-reputation-based blocking, not a
@@ -332,6 +333,12 @@ linkcheck_allowed_redirects = {
 # both aggressively block automated/CI traffic on these doc pages.
 # github.com/join (the account-signup page) is blocked from automated
 # checkers the same way; other github.com links are still checked normally.
+#
+# AndyMark and Pitsco (confirmed 7/2026) return HTTP 429 to a single, isolated
+# request from CI IP ranges regardless of user agent or retry/backoff -- this
+# is IP-reputation-based blocking, not a request-volume rate limit, so no
+# amount of waiting resolves it. Without this, each link burns the full
+# linkcheck_rate_limit_timeout backoff every run before being marked broken.
 
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/',
