@@ -379,7 +379,7 @@ so we need to indicate in the link what file will be downloadable.
 
    Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
-   .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+   .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
       :color: primary
 
       Download Field Setup Guide PDF, 4.5 MB
@@ -390,7 +390,7 @@ This looks like:
 
    * - Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
-       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+       .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
           :color: primary
 
           Download Field Setup Guide PDF, 4.5 MB
@@ -422,7 +422,7 @@ Here's a gateway page example for the Field Setup Guide PDF.
 
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
-       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+       .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
           :color: primary
 
           Download Field Setup Guide PDF, 4.5 MB
