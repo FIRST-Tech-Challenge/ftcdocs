@@ -61,11 +61,7 @@ the following requirements:
 1. Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at the faster speed.
 2. Supports a data transfer rate of 480Mbps.
 
-Note that the Modern Robotics Core Power Distribution Module cannot be
-used for this task since its data transfer speed is not fast enough to
-work with the USB-connected webcam.
-
-Also note that the Competition Manual permits the use of a powered USB
+Note that the Competition Manual permits the use of a powered USB
 hub to make this connection. If a
 team uses a powered USB hub, the power to operate the USB hub can only
 come from either of the following sources:

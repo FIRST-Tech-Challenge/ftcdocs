@@ -24,7 +24,11 @@ help:
 .PHONY: help Makefile
 
 setup:
-	python -m pip install -r requirements.txt
+	@echo "Dependencies for local development are now managed by the Nix flake"
+	@echo "at the repository root. Run 'nix develop' from the repository root"
+	@echo "(or use direnv) to enter a shell with Python, Sphinx, and the LaTeX"
+	@echo "toolchain already installed."
+	@echo "(requirements.txt is kept only for the Read the Docs build.)"
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350

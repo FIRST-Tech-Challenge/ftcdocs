@@ -1,9 +1,16 @@
-Sphinx==5.0.0
+# NOTE: This file is kept only because Read the Docs' build environment
+# installs Python dependencies via `python.install: requirements:` in
+# .readthedocs.yaml and does not support building from a Nix flake.
+# Local development and CI now use the Nix flake at the repository root
+# (see flake.nix / `nix develop`) as the source of truth for dependencies;
+# keep this file in sync with flake.nix's ftcdocsPython package list when
+# bumping versions.
+Sphinx==8.2.3
 sphinx-autobuild==2024.2.4
 make==0.1.6.post2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=sphinx_rtd_dark_mode_v2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=javasphinx
-sphinx_design==0.2.0
+sphinx_design==0.7.0
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=googleanalytics
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=cookiebanner
 sphinx-sitemap==2.3.0

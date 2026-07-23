@@ -7,11 +7,11 @@ Setting Up Your Development Environment
    Only complete these steps if you have chosen to develop the site locally. 
    If you are using **GitHub Codespaces** you should skip this section.
 
-FTC Docs has a few dependencies that you'll need to install before you can start developing. 
-Full build features are only available on Linux. This will only effect those who 
-are looking to build PDFs locally.
+FTC Docs uses a `Nix <https://nixos.org>`__ flake (``flake.nix`` at the root of the repository) to provide every
+dependency needed to build the site -- Python, Sphinx, and the LaTeX toolchain used for PDF booklets -- in one
+reproducible environment. You no longer need to install Python, Pip, or a LaTeX distribution yourself.
 
-Remember, this step should **ony be done for Local Development**. If you are using **GitHub Codespaces** 
+Remember, this step should **only be done for Local Development**. If you are using **GitHub Codespaces**
 you should skip this step. Also note that these steps should only be done **once**.
 
 Steps
@@ -23,20 +23,18 @@ Steps
 .. tab-set::
    .. tab-item:: Windows
 
-      1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_.
-      2. Install Python 3.9-3.12 from the `Python website <https://www.python.org/downloads/windows/>`_. **Make sure to check the box that says "Add Python to PATH".**
-      3. Install Pip. ``python -m ensurepip``
-      4. Install Git. ``choco install git``
-      5. Install Make. ``choco install make``
-      6. Install the lastest version of VS Code. ``choco install vscode``
-   
+      Nix (and the LaTeX/PDF build) requires Linux or macOS, so on Windows you'll need `WSL2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_.
+
+      1. Install WSL2 and a Linux distribution (e.g. Ubuntu) by running ``wsl --install`` in an administrator PowerShell prompt.
+      2. Open a WSL terminal and install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
+      3. Install Git (usually already available in WSL, otherwise ``sudo apt install git``).
+      4. Install the latest version of `VS Code <https://code.visualstudio.com/download>`_, along with the `WSL extension <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>`_, and open your cloned repository from within WSL.
+
    .. tab-item:: Linux/Mac
 
-      1. Install Python 3.9-3.12. You can download it from the Python website: `macOS <https://www.python.org/downloads/macos/>`_, `Linux <https://www.python.org/downloads/source/>`_.
-      2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installation/>`_.
-      3. Install Git from the `Git website <https://git-scm.com/downloads>`_.
-      4. Install `Make <https://www.gnu.org/software/make/>`_ .
-      5. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
+      1. Install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
+      2. Install Git from the `Git website <https://git-scm.com/downloads>`_.
+      3. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
 
 
 1. Open VS Code
