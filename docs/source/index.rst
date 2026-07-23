@@ -58,6 +58,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    :maxdepth: 1
    :hidden:
 
+   robot_building/index
 
 .. toctree::
    :caption: Control System Resources

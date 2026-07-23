@@ -5,8 +5,8 @@ The Hub can drive up to four (4) 12V DC motors per Hub. The Hub uses a
 type of electrical connector known as a 2-pin JST VH connector. Many of
 the *FIRST* approved 12V DC motors are equipped with Anderson Powerpole
 connectors. An adapter cable can be used to connect the Anderson
-Powerpole connectors to the Hub motor port (see `FIRST Tech Challenge
-Robot Wiring Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`__
+Powerpole connectors to the Hub motor port (see the
+:doc:`Robot Wiring Guide </robot_building/wiring_guide/wiring-guide>`
 for more information).
 
 .. image:: images/MotorRig.jpg
