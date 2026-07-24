@@ -54,13 +54,6 @@ and :doc:`gracious_professionalism/gp` to see why.
    Updating Components <ftc_sdk/updating/index>
 
 .. toctree::
-   :caption: Robot Building Resources
-   :maxdepth: 1
-   :hidden:
-
-   robot_building/index
-
-.. toctree::
    :caption: Control System Resources
    :maxdepth: 1
    :hidden:
@@ -91,12 +84,14 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    Computer Aided Design (CAD) <cad_resources/index>
 
-.. toctree:: 
-   :caption: Electrostatic Discharge
+.. toctree::
+   :caption: Guides
    :maxdepth: 1
    :hidden:
 
+   Control System Troubleshooting Guide <control_system_troubleshooting/index>
    Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+   Robot Wiring Guide <robot_building/wiring_guide/wiring-guide>
 
 .. toctree::
    :caption: Manufacturing
