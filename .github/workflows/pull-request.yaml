@@ -60,13 +60,16 @@ jobs:
   spelling-check:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout Repository  
+      - name: Checkout Repository
         uses: actions/checkout@v3
-        
-      - uses: reviewdog/action-misspell@v1
+
+      - name: Node Setup
+        uses: actions/setup-node@v4
         with:
-          locale: "US"
-          reporter: "github-check"
+          node-version: 20
+
+      - name: Spell Check
+        run: npx cspell@latest "docs/source/**/*.rst" "*.md" --no-progress
 
   link-check:
     runs-on: ubuntu-22.04
