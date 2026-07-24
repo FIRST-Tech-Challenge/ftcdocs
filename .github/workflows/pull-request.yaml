@@ -63,13 +63,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Node Setup
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v22
+
+      - name: Set up Magic Nix Cache
+        uses: DeterminateSystems/magic-nix-cache-action@v14
 
       - name: Spell Check
-        run: npx cspell@latest "docs/source/**/*.rst" "*.md" --no-progress
+        run: nix develop -c cspell "docs/source/**/*.rst" "*.md" --no-progress
 
   link-check:
     runs-on: ubuntu-22.04
