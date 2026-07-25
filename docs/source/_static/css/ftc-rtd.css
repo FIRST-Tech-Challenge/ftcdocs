@@ -219,12 +219,26 @@ html[data-theme='dark'] .document a:not(.sd-btn):active {
    anchor and can be linked with :term:. (Writing them comma-separated on one
    line would make the comma part of a single term name, and :term:`IMU` would
    then fail to resolve.) Sphinx renders each name as its own <dt>, so join
-   them onto one comma-separated line here. */
+   them onto one line here, separated by a slash. */
 .rst-content dl.glossary > dt {
     display: inline;
 }
 .rst-content dl.glossary > dt + dt::before {
-    content: ", ";
+    content: "/";
+    margin: 0 0.45em;   /* equal space either side of the slash */
+    font-weight: 400;
+    opacity: 0.55;
+}
+
+/* Each name carries a permalink that the theme leaves in the layout when it is
+   not hovered (opacity:0, not display:none), so its glyph plus its 0.5em margin
+   would open a gap between the name and the slash. Drop the margin, and keep
+   the permalink itself only on the last name of an entry. */
+.rst-content dl.glossary > dt .headerlink {
+    margin-left: 0.25em;
+}
+.rst-content dl.glossary > dt:has(+ dt) .headerlink {
+    display: none;
 }
 /* The definition still needs to start on its own line. */
 .rst-content dl.glossary > dd {
