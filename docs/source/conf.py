@@ -343,6 +343,12 @@ linkcheck_allowed_redirects = {
 # is IP-reputation-based blocking, not a request-volume rate limit, so no
 # amount of waiting resolves it. Without this, each link burns the full
 # linkcheck_rate_limit_timeout backoff every run before being marked broken.
+# www.otterbox.com (confirmed 7/2026) 429s every request from CI IP ranges and
+# keeps resending a fresh Retry-After on each retry, so Sphinx's rate-limit
+# backoff never hits linkcheck_rate_limit_timeout and just sleeps indefinitely
+# -- one PR run spent 31 minutes retrying this single link before eventually
+# succeeding. Not reproducible from a non-CI IP (resolves instantly there),
+# confirming this is IP-reputation blocking, not a real outage.
 
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/',
@@ -361,6 +367,7 @@ linkcheck_ignore = [
    r'https://www.pitsco.com/',
    r'https://www.studica.com/',
    r'https://www.rcmart.com/',
+   r'https://www.otterbox.com/',
    r'https://docutils\.sourceforge\.io/',
    r'https://www\.w3\.org/WAI/',
    r'https://www.3dflow.net/',
