@@ -47,7 +47,7 @@
 	--fi-mono: "Roboto Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	--fi-sidebar-width: 320px;
 	--fi-utility-height: 44px;
-	/* utility bar + the 3px FIRST colour hairline above it */
+	/* utility bar + the 3px FIRST color hairline above it */
 	--fi-utility-total: 47px;
 }
 
@@ -87,7 +87,7 @@ body,
 }
 
 /* sphinx_rtd_dark_mode ships an unconditional `html { background: black }`
-   plus a missing background-image on `body`; both have to be neutralised. */
+   plus a missing background-image on `body`; both have to be neutralized. */
 body {
 	background-image: none;
 }
@@ -149,7 +149,7 @@ body {
 	opacity: 0.8;
 }
 
-/* The tri-colour FIRST strip is not part of the current firstinspires.org
+/* The tri-color FIRST strip is not part of the current firstinspires.org
    header; it is kept in the DOM but reduced to a hairline accent. */
 .color-strip {
 	height: 3px;
@@ -1020,7 +1020,7 @@ html[data-theme='dark'] .sd-card-footer {
 
    Content uses two conventions: `sd-bg-dark`/`sd-text-white` (most topic
    pages) and `sd-bg-secondary`/`sd-text-black` (the homepage and persona
-   pages). firstinspires.org draws solid blocks in ink, so both are normalised
+   pages). firstinspires.org draws solid blocks in ink, so both are normalized
    to ink-on-white here rather than editing ~90 directives across the tree.
 
    `adjust-css-vars.js` sets --sd-color-secondary at runtime too; keep the two
