@@ -73,8 +73,8 @@ in monitoring activity on the wireless spectrum.
 Wi-Fi Analyzer
 -----------------
 
-`Wi-Fi Analyzer <https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&hl=en>`__
-is a free app, available on the Google Play store, that you can install
+`Wi-Fi Analyzer <https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer&hl=en>`__
+is a free, open-source app, available on the Google Play store, that you can install
 onto an Android device. It lets you see what wireless networks are
 operating in your venue, with a graphical display that overlays the
 available networks onto a graph of operating channels and shows the
