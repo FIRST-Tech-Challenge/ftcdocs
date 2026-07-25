@@ -212,3 +212,22 @@ html[data-theme='dark'] .document a:not(.sd-btn):active {
     margin-left: .2em;
     text-decoration-line: none;
 }
+
+/* Glossary entries that have more than one name.
+   An entry such as "IMU" / "Inertial Measurement Unit" has to be written as
+   consecutive terms in the glossary directive, so that each name gets its own
+   anchor and can be linked with :term:. (Writing them comma-separated on one
+   line would make the comma part of a single term name, and :term:`IMU` would
+   then fail to resolve.) Sphinx renders each name as its own <dt>, so join
+   them onto one comma-separated line here. */
+.rst-content dl.glossary > dt {
+    display: inline;
+}
+.rst-content dl.glossary > dt + dt::before {
+    content: ", ";
+}
+/* The definition still needs to start on its own line. */
+.rst-content dl.glossary > dd {
+    display: block;
+    margin-top: 6px;
+}
