@@ -4,7 +4,7 @@ Managing Electrostatic Discharge Effects
 Introduction
 ~~~~~~~~~~~~
 
-Electrostatic discharge (ESD) events have the potential to disrupt the
+Electrostatic discharge (:term:`ESD`) events have the potential to disrupt the
 normal operation of a competition robot. This section examines causes of
 ESD events and discusses ways to mitigate the risk that an ESD event
 will disable or damage a robot’s control system.
@@ -132,7 +132,7 @@ Step 2: Add Ferrite Chokes to Signal Wires
 
 Ferrite chokes block large changes in current like those seen during an
 ESD event. This can reduce the risk of damage to or disruption of
-electrical components when a sensor or other peripheral device receives
+electrical components when a :term:`sensor <Sensor>` or other peripheral device receives
 a shock.
 
 .. image:: images/ferritechoke.jpg
@@ -147,13 +147,13 @@ effects of ESD:
 
    -  Sensor cables
    -  :term:`Encoder` cables
-   -  Servo cables
+   -  :term:`Servo` cables
 
 Step 3: Electrically Isolating the Electronics from the Metal Frame of the Robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As a robot moves back and forth across the tile floor during a *FIRST*
-Tech Challenge match, charge can accumulate on the metallic frame of the
+Tech Challenge :term:`match <Match>`, charge can accumulate on the metallic frame of the
 robot due to the triboelectric effect. If a charge builds up on the
 frame of the robot, but the electronics that make up the :term:`Control System`
 are at a different voltage, then a shock can occur if an exposed or
@@ -226,7 +226,7 @@ Using electrical tape to insulate these areas can be equally effective and may b
    The REV :term:`Control Hub` has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver :term:`hub <Hub>`). 
    
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
 

@@ -2,8 +2,8 @@ Battery Ports
 --------------
 
 .. danger:: 
-   **Never** connect a battery charger directly to the battery port. This will
-   void your warranty and fry your hub.
+   **Never** connect a :term:`battery <Battery>` charger directly to the battery port. This will
+   void your warranty and fry your :term:`hub <Hub>`.
 
 The yellow `XT30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ 
 connectors are used to power your REV Hub as well as all the devices connected to it. 
@@ -47,7 +47,7 @@ port please see
 Servo Ports
 ------------
 
-These 0.1” Header pins are used to power and control your servos. There are 6 ports on each hub and they are numbered from 0-5. 
+These 0.1” Header pins are used to power and control your :term:`servos <Servo>`. There are 6 ports on each hub and they are numbered from 0-5. 
 Be mindful of matching the polarity of the device attached to this port as it is possible to flip the connector. 
 For increasing the power supplied to these servos it is possible to use a Servo Power Module. 
 See the Motors & Actuators section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ for approved servo power devices.
@@ -68,8 +68,8 @@ Analog Ports
 --------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your analog inputs. There are 2 of these ports on each hub. These ports 
-have 4 channels labeled from 0-4. This port can be used to connect to a standalone analog sensor. A common example of an 
+style connectors are used for your :term:`analog inputs <Analog Input>`. There are 2 of these ports on each hub. These ports 
+have 4 channels labeled from 0-4. This port can be used to connect to a standalone analog :term:`sensor <Sensor>`. A common example of an 
 analog sensor is a `potentiometer <https://www.revrobotics.com/rev-31-1155/>`_. An analog sensor is one that outputs a range 
 of values rather than digital which alternates between one of two states. For more information on this port please see 
 `REV Analog Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#analog-port-specifications>`_.

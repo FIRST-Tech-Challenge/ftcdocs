@@ -18,7 +18,7 @@ Control Hub
 
     REV Control Hub (REV-31-1595)
 
-A REV Control Hub combines a REV :term:`Expansion Hub` with an embedded Android
+A REV :term:`Control Hub` combines a REV :term:`Expansion Hub` with an embedded Android
 daughterboard connected to it.  This means it is able to control all of the
 hardware components of your robot and also run your actual robot software.  This
 is in contrast to the REV Expansion Hub which was only able to control hardware
@@ -39,7 +39,7 @@ Expansion Hub
 
     REV Expansion Hub (REV-31-1153)
 
-A REV Expansion Hub is a hub that is used to control all of the hardware components of your robot. 
+A REV Expansion Hub is a :term:`hub <Hub>` that is used to control all of the hardware components of your robot. 
 It takes the commands your Android Device sends and actually makes it happen. If you want to move a motor, 
 an Expansion Hub is what takes the instruction of moving the motor and actually sends power to the motor in the 
 correct manner. It however does not know when to do this which is where the Android Device comes into play. This device 

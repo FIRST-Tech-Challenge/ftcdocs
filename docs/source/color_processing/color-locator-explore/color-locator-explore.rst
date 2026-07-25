@@ -5,10 +5,10 @@ Overview
 --------
 
 This **Explore** page shows how to modify the default settings of the
-**ColorLocator** Sample OpMode.  It assumes you have already followed this
+**ColorLocator** :term:`Sample OpMode`.  It assumes you have already followed this
 tutorial's previous :doc:`Discover
 <../color-locator-discover/color-locator-discover>` page, to open and test this
-OpMode.
+:term:`OpMode`.
 
 ColorLocator has only two required **inputs**\ :
 
@@ -31,7 +31,7 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Color Blob Locator" **Processor** using the
 Java **Builder** pattern.  This is the same Builder pattern used to create an
-:term:`AprilTag` Processor, and previously a TensorFlow Processor.
+:term:`AprilTag` Processor, and previously a :term:`TensorFlow` Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Color Blob Locator" Processor to the
@@ -54,7 +54,7 @@ The values for Red, Blue and Yellow were tuned for the plastic game pieces
 (called Samples) from INTO THE DEEP. The values for ARTIFACT_PURPLE and ARTIFACT_GREEN
 were tuned for the plastic game pieces from DECODE.
 
-Select and read the Blocks **or** Java section below:
+Select and read the :term:`Blocks` **or** Java section below:
 
 .. tab-set::
    .. tab-item:: Blocks

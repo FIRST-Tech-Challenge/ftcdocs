@@ -58,10 +58,10 @@ Robot Main Battery
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v battery. The batterys above are
+The main power of a robot comes from one 12v :term:`battery <Battery>`. The batterys above are
 samples of these batteries, check the :term:`Competition Manual` for the full list of
 batteries. Note that it is typically allowed to replace the connector on the
-batteries, provided the in-line fuse on the battery is preserved, again check
+batteries, provided the in-line :term:`fuse <Fuse>` on the battery is preserved, again check
 the Competition Manual for full details.
 
 .. warning:: 
@@ -217,7 +217,7 @@ REV Servo Power Module
 
       REV (REV-11-1144)
 
-This is an electronic device (also known as a Servo Power Injector) that boosts
+This is an electronic device (also known as a :term:`Servo` Power Injector) that boosts
 the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
 ports and 6 matching output ports. It draws power from a 12V source and
 provides 6V power to each output servo port.  A REV Servo Power Module can

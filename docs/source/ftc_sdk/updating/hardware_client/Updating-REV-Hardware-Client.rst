@@ -1,7 +1,7 @@
 Installing and Updating the REV Hardware Client
 ===============================================
 
-The REV Hardware Client is a desktop app, or software tool, that simplifies
+The :term:`REV Hardware Client` is a desktop app, or software tool, that simplifies
 updating software on devices used in *FIRST* Tech Challenge. Unfortunately the
 REV Hardware Client is currently Windows-only, Apple/Mac users must use
 alternate methods of updating software. In this tutorial, some steps ask to

@@ -4,7 +4,7 @@ Using Sensors :bdg-info:`OBJ`
 Color-Distance Sensor
 ~~~~~~~~~~~~~~~~~~~~~
 
-A sensor is a device that lets the Robot Controller get information
+A :term:`sensor <Sensor>` is a device that lets the :term:`Robot Controller` get information
 about its environment. In this example, you will use a REV Robotics
 Color-Distance sensor to display range (distance from an object) info to
 the driver station.

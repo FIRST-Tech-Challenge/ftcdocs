@@ -11,7 +11,7 @@ custom **comment**, **tooltip**, and **parameter labels**.
 Comment
 ~~~~~~~
 
--  The **comment** text appears in a balloon when the Blocks user clicks
+-  The **comment** text appears in a balloon when the :term:`Blocks` user clicks
    the blue question-mark icon. Tell the user **how to use your
    myBlock**.
 -  Must be entered on a **single line**, with no ‘line breaks’. This

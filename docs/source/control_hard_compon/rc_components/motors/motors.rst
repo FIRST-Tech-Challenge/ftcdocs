@@ -19,7 +19,7 @@ Motors
 
       +++
       
-      TETRIX 12V TorqueNADO DC Motor
+      TETRIX 12V TorqueNADO :term:`DC Motor`
 
    .. grid-item-card::       
       :class-header: sd-bg-dark font-weight-bold sd-text-white

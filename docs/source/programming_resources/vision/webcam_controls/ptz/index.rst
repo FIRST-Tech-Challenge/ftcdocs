@@ -6,7 +6,7 @@ Pan-Tilt-Zoom Control
 The SDK provides methods for virtual pan (horizontal motion), tilt
 (vertical motion), and zoom (enlargement and reduction of image size).
 This is **virtual** PTZ since the actions are digitally simulated,
-within the full original image captured by the webcam. Pan and tilt are
+within the full original image captured by the :term:`webcam <Webcam>`. Pan and tilt are
 possible only to the extent that zoom has provided extra image space to
 move in that direction.
 

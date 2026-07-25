@@ -1,7 +1,7 @@
 AprilTag Library
 ================
 
-For a *FIRST* Tech Challenge match, your OpMode has a known set of AprilTags to
+For a *FIRST* Tech Challenge :term:`match <Match>`, your :term:`OpMode` has a known set of :term:`AprilTags <AprilTag>` to
 detect.  They are preloaded by default or specified by you, with or without
 custom tags.
 
@@ -120,7 +120,7 @@ tags.
 
          Completing Builder 
 
-      These are the first and last Blocks in the ``AprilTagProcessor.Builder``
+      These are the first and last :term:`Blocks` in the ``AprilTagProcessor.Builder``
       toolbox. The remaining Blocks are used to set optional features of the
       Processor. Here we are setting only the Library.
 

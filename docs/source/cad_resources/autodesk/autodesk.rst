@@ -6,7 +6,7 @@ designers, engineers, and revolutionizers to lead in the Future of Work. With
 advanced technologies and workflows accelerating change in industries and
 careers, we at Autodesk are excited to partner with you on your professional
 journey. We invest in students by offering our broad portfolio of cloud-based
-integrated CAD/CAM platform technologies because we believe your ideas and
+integrated :term:`CAD`/CAM platform technologies because we believe your ideas and
 innovation have the power to make this world a better place for everyone. Lead
 the change and change the world.
 

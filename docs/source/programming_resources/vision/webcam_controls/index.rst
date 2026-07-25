@@ -1,7 +1,7 @@
 Webcam Controls
 ===============
 
-This basic tutorial describes 8 webcam controls available in the 
+This basic tutorial describes 8 :term:`webcam <Webcam>` controls available in the 
 SDK. It includes an example, using 2 of these controls to potentially
 improve TensorFlow recognition in Freight Frenzy.
 
@@ -28,7 +28,7 @@ Summary
 Some webcam controls in the SDK could potentially improve :term:`TFOD`
 recognitions. Exposure, gain and other values could be pre-programmed in
 team autonomous :term:`OpModes <OpMode>`. It’s also possible to manually enter such
-values before a match begins, based on anticipated lighting, starting
+values before a :term:`match <Match>` begins, based on anticipated lighting, starting
 position and other game-time factors.
 
 You are encouraged to submit other webcam reports and examples that

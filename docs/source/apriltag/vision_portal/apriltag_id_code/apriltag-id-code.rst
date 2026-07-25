@@ -1,8 +1,8 @@
 AprilTag ID Codes
 =================
 
-After the AprilTag Processor and VisionPortal have been **initialized**, your
-OpMode can begin tag detection.
+After the :term:`AprilTag` Processor and :term:`VisionPortal` have been **initialized**, your
+:term:`OpMode` can begin tag detection.
 
 Let's start with the simple task of retrieving the **ID code** of a detected
 AprilTag.  For tag family 36h11, the numeric ID code ranges from 0 to 586. The

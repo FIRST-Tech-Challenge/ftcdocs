@@ -29,7 +29,7 @@ Five fresh readings were taken at each gain setting.
    Five readings at each gain level
 
 Higher gain does improve recognition, then performance declines. Then at
-higher levels, this TFOD model begins to “see” a Cube, not a Duck. The
+higher levels, this :term:`TFOD` model begins to “see” a Cube, not a Duck. The
 gain effect was similar to the exposure effect.
 
 These two charts suggest that TFOD results are affected by, and can

@@ -7,8 +7,8 @@ Overview
 This **Challenge** page introduces Color Locator settings that were **not mentioned in the Sample OpMode**.  It assumes you have already followed this tutorial's previous pages:
 
 
-* :doc:`Discover <../color-locator-discover/color-locator-discover>` page, to open and test the Sample OpMode
-* :doc:`Explore <../color-locator-explore/color-locator-explore>` page, to edit settings mentioned in the Sample OpMode
+* :doc:`Discover <../color-locator-discover/color-locator-discover>` page, to open and test the :term:`Sample OpMode`
+* :doc:`Explore <../color-locator-explore/color-locator-explore>` page, to edit settings mentioned in the Sample :term:`OpMode`
 
 Here are the additional ColorLocator settings covered in this page:
 
@@ -73,7 +73,7 @@ and added again, etc.
 You might find it more versatile and convenient to create unique filter names,
 each separately managed (i.e. set criteria, add, remove, add again).
 
-Select and read the Blocks **or** Java section below:
+Select and read the :term:`Blocks` **or** Java section below:
 
 .. tab-set::
    .. tab-item:: Blocks

@@ -4,12 +4,12 @@
 Introduction
 ------------
 
-This page describes the Self Inspect screens in the FTC Driver Station
-(DS) app and the FTC Robot Controller (RC) app.
+This page describes the Self Inspect screens in the FTC :term:`Driver Station`
+(DS) app and the FTC :term:`Robot Controller` (RC) app.
 
 A Self Inspect screen provides a snapshot of device status, as it
 relates to FTC rules for the control system. 
-These rules are described in the Competition Manual which can be found on the
+These rules are described in the :term:`Competition Manual` which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
 .. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
@@ -32,7 +32,7 @@ clarifies some of the brief but meaningful captions.
 Robot Inspection
 ----------------
 
-The Self Inspection reports may be reviewed in Robot Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules.
+The Self Inspection reports may be reviewed in Robot Inspection at an FTC :term:`tournament <Tournament>`, but is **not** a comprehensive or official standard of compliance with FTC rules.
 With the robot and driver station turned on and connected the inspector may go through the **Inspection Checklist** form (on paper or a tablet).
 They will check both the **Driver Station Inspection Report** and the **Robot Controller Inspection Report**, both of which can be displayed from the DS.
 Many FTC events will scan the QR Code that is displayed on the RC Inspection Report.
@@ -111,7 +111,7 @@ The following is a screen shot of a DS Self Inspection Report with the Driver Hu
 Here’s a report from a Driver Station with some items **rejected** by Self Inspect.
 Problems are indicated by a red circle exclamation mark icon, or an orange triangle exclamation mark icon.
 
-This was a driver hub that was firmware reset. This reset the DS version to 7 and restored all system and DS app settings to defaults.
+This was a driver :term:`hub <Hub>` that was firmware reset. This reset the DS version to 7 and restored all system and DS app settings to defaults.
 Then the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_ was used to update the DS version 10.3. 
 Then the FTCRobotController app was also deployed to the DS device from :term:`Android Studio`.
    

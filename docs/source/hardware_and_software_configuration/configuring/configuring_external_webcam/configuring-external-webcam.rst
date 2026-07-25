@@ -4,10 +4,10 @@ Configuring an External Webcam with a Control Hub
 Introduction
 ------------
 
-The Competition Manual allows the use of USB Video Class (UVC) compatible
+The :term:`Competition Manual` allows the use of USB Video Class (UVC) compatible
 cameras for computer vision-related tasks. 
-If you are using a REV Robotics Control Hub, then
-you will need to use an external webcam, since the Control Hub does not
+If you are using a REV Robotics :term:`Control Hub`, then
+you will need to use an external :term:`webcam <Webcam>`, since the Control Hub does not
 include a built-in camera. This document describes how to connect,
 configure and use an external webcam with a Control Hub.
 
@@ -48,7 +48,7 @@ powered :term:`USB hub <USB Hub>`.
    The REV Control Hub has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver :term:`hub <Hub>`). 
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
    
 If you wish to connect two webcams see `Cameras and USB Hubs`_.
@@ -78,7 +78,7 @@ Sample Op Modes
 When the configuration has been saved and activated, the external UVC
 camera can be programmed for robot vision tasks.
 
-The SDK software offers “webcam” versions of its sample Blocks and Java
+The SDK software offers “webcam” versions of its sample :term:`Blocks` and Java
 Op Modes, showing how to use the external UVC camera for :term:`VisionPortal` operations.
 
 .. image:: images/blockswebcam.png
@@ -153,7 +153,7 @@ to install and run scrcpy on your computer.
 .. warning:: While scrcpy is a great way to view the camera output,
    the Competition Manual does not allow teams to
    have any devices other than the DRIVER STATION connected to your Control
-   Hub during a match.
+   Hub during a :term:`match <Match>`.
 
 External HDMI Monitor
 ---------------------
@@ -196,7 +196,7 @@ This avoid the ESD issue with devices on the USB 2.0 port.
 
 Another use case for a USB hub is if you have a `Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ camera. 
 This device has its own processor on board and one drawback of this is that the camera always draws power, even when an opMode is not running.
-By adding a powered USB hub the Limelight will not drain your robot's battery.
+By adding a powered USB hub the Limelight will not drain your robot's :term:`battery <Battery>`.
 
 One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. 
 It has a USB C port that can supply power to all connected devices.

@@ -41,7 +41,7 @@ Android Device
 
       Moto E5
 
-The heart of the Driver Station is the Android Device that runs the Driver
+The heart of the :term:`Driver Station` is the Android Device that runs the Driver
 Station App. This Android Device requirement can be fulfilled either through
 the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or
 one of the approved Android Smartphones listed in the :term:`Competition Manual`. It is

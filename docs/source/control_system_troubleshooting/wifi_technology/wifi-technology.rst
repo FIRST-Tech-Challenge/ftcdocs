@@ -1,11 +1,11 @@
 Wi-Fi Technology and Direct Connections
 ========================================
 
-The Driver Station and Robot Controller are Android devices that run special
+The :term:`Driver Station` and :term:`Robot Controller` are Android devices that run special
 *FIRST* Tech Challenge apps to create a unique and secure wireless connection
-between the two devices. For this connection, the REV Control Hub uses
+between the two devices. For this connection, the REV :term:`Control Hub` uses
 Wireless Access Point (WAP) technology, while a standalone phone-based Robot
-Controller uses Wi-Fi Direct (P2P) technology. There are some minor, subtle
+Controller uses :term:`Wi-Fi Direct` (P2P) technology. There are some minor, subtle
 differences between how these two technologies connect the devices together
 wirelessly. Note that the FTC Driver Station app is able to connect to both
 types of Robot Controllers.
@@ -42,12 +42,12 @@ is required.
 Programming Laptop
 --------------------
 
-During a typical *FIRST* Tech Challenge match, only a team's Driver Station
+During a typical *FIRST* Tech Challenge :term:`match <Match>`, only a team's Driver Station
 is connected to the Wi-Fi Direct group or the wireless access point (WAP)
 that is established by the team's Robot Controller. Away from the
 competition field, however, a team might have additional devices connected
 to this Wi-Fi Direct group. For example, when a team edits an :term:`OpMode` using
-the FTC Blocks Development Tool or the FTC :term:`OnBot Java` Development Tool, their
+the FTC :term:`Blocks` Development Tool or the FTC :term:`OnBot Java` Development Tool, their
 developer's laptop will also be connected to the Robot Controller's wireless
 network.
 
@@ -239,7 +239,7 @@ successfully, it will display useful status information (see the figure
 above) on its screen, including the name of the device that it is connected
 to, the average ping time between the Driver Station and Robot Controller,
 and voltage info for the Robot Controller smartphone (if used) and the main
-robot battery.
+robot :term:`battery <Battery>`.
 
 Is the Robot Controller On?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

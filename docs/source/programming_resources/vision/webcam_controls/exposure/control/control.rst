@@ -1,7 +1,7 @@
 Exposure Control
 ----------------
 
-Exposure is the amount of light that reaches the webcam sensor. It is an
+Exposure is the amount of light that reaches the :term:`webcam <Webcam>` :term:`sensor <Sensor>`. It is an
 important part of how bright or dark your image appears.
 
 Exposure varies directly with the amount of time that the shutter is

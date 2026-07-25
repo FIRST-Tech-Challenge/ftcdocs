@@ -4,10 +4,10 @@ Vision Processor Initialization
 Processor Initialization - Overview
 -----------------------------------
 
-Your OpMode must **first prepare** for using AprilTag and/or
+Your :term:`OpMode` must **first prepare** for using :term:`AprilTag` and/or
 Color Processing commands, or methods.
 
-In the INIT portion of your Java or Blocks code, before ``waitForStart()``, use
+In the INIT portion of your Java or :term:`Blocks` code, before ``waitForStart()``, use
 these steps:
 
 - **Step 1.** *Optional:*  

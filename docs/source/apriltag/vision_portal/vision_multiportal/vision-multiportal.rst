@@ -2,9 +2,9 @@ Vision MultiPortal
 ==================
 
 The SDK can accommodate two portals, each with full features
-including AprilTag and TFOD processors, and even switchable cameras. USB
-Bandwidth must be considered, especially for webcams sharing an external
-USB hub.
+including :term:`AprilTag` and :term:`TFOD` processors, and even switchable cameras. USB
+Bandwidth must be considered, especially for :term:`webcams <Webcam>` sharing an external
+:term:`USB hub <USB Hub>`.
 
 Viewport ID
 ~~~~~~~~~~~
@@ -28,7 +28,7 @@ Now this is possible within the SDK.
 Test OpMode
 ~~~~~~~~~~~
 
-A sample FTC Blocks OpMode is posted
+A sample FTC :term:`Blocks` OpMode is posted
 `here <https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__
 to demonstrate AprilTag detections from **two cameras at the same
 time**. For a Java version, click ``Export to Java`` in the Blocks
@@ -53,7 +53,7 @@ along with a webcam.
 
 On a :term:`Control Hub`, it can run two webcams: 
 
-- both plugged in directly to the Hub, or 
+- both plugged in directly to the :term:`Hub`, or 
 - both plugged into an unpowered USB Hub (with more restricted USB bandwidth)
 
 Dual Previews

@@ -24,7 +24,7 @@ and software is essential to prevent common issues caused by aging components.
   <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__
   for proper maintenance of these pins.
 
-* Battery Rejuvenation (Charge Cycling): Older NiMH batteries can develop
+* :term:`Battery` Rejuvenation (Charge Cycling): Older NiMH batteries can develop
   crystalline structures internal to the battery chemistry, increasing internal
   resistance and reducing power output. Charge cycling — discharging slowly to
   10V (at between 500-600mA) then recharging — can break down these crystals
@@ -44,7 +44,7 @@ and software is essential to prevent common issues caused by aging components.
 * Software Updates Are Key: Always update your :term:`Control Hub` OS to the latest
   version (e.g., 1.1.6 for Wi-Fi driver security) and your FIRST Tech Challenge
   SDK (e.g., SDK 11.0) for improved performance and better support from
-  tournament staff.
+  :term:`tournament <Tournament>` staff.
 
 Following these tips will help ensure your robot's electronics and software are
 reliable and competition-ready.

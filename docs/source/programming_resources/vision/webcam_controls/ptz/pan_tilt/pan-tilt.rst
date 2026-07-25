@@ -1,8 +1,8 @@
 Pan and Tilt
 =============
 
-A webcam does not typically express pan and tilt values in *pixels*, the
-smallest unit of image capture by the webcam sensor. For example, the
+A :term:`webcam <Webcam>` does not typically express pan and tilt values in *pixels*, the
+smallest unit of image capture by the webcam :term:`sensor <Sensor>`. For example, the
 Logitech C920 and the Microsoft LifeCam VX-5000 have a range of
 +/-36,000 units, far greater than the pixel count in each axis.
 

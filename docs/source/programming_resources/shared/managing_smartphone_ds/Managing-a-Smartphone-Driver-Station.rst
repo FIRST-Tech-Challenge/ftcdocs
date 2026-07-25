@@ -5,8 +5,8 @@ REV Driver Hub
 ~~~~~~~~~~~~~~
 
 The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__
-is preloaded with the Driver Station (DS) app. The procedures
-described below for a REV Driver Hub, also apply to a using an Android phone as a DS.
+is preloaded with the :term:`Driver Station` (DS) app. The procedures
+described below for a REV :term:`Driver Hub`, also apply to a using an Android phone as a DS.
 
 Changing the Name
 ~~~~~~~~~~~~~~~~~
@@ -117,7 +117,7 @@ are some of the benefits:
 -  Install and switch between DS and RC applications on Android Devices. 
 -  Access the Robot Control Console on the Control Hub.
 
-All teams using Blocks, :term:`OnBot Java` or :term:`Android Studio` can use the REV
+All teams using :term:`Blocks`, :term:`OnBot Java` or :term:`Android Studio` can use the REV
 Hardware Client to update the Driver Station (DS) app on a DS phone.
 
 NOTE: it will take an estimated 7.5 minutes per device to complete this

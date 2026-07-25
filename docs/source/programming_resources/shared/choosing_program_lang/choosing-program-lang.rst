@@ -3,7 +3,7 @@ Choosing a Programming Tool
 
 You need to select a programming tool to be able to create op modes
 for your competition robot. 
-An Op Mode or Operational Mode is program that tells the robot what to do.
+An :term:`Op Mode <OpMode>` or Operational Mode is program that tells the robot what to do.
 There are three programming tools that are available for you to use.
 
 *FIRST* strongly recommends that **all users**

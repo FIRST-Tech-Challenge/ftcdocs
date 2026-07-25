@@ -255,7 +255,7 @@ Determining if Wi-Fi Interference Warrants a Match Replay
 
 The most critical responsibility of a FIRST Technical Advisor (FTA), Control
 System Advisor (CSA), or Wireless Technical Advisor (WTA) is deciding
-whether wireless interference during a match was significant enough to
+whether wireless interference during a :term:`match <Match>` was significant enough to
 warrant a replay. This is a difficult and subjective decision. The
 :term:`Competition Manual` states that matches are replayed at the discretion of the
 Head :term:`Referee` only for a failure of an Arena Element or verified Wi-Fi
@@ -323,7 +323,7 @@ following:
 - Disruption due to an
   :doc:`electrostatic discharge (ESD) </hardware_and_software_configuration/configuring/managing_esd/managing-esd>`
   event or a physical impact to the robot.
-- High current draw from motors or servos causing a "brown-out" that
+- High current draw from motors or :term:`servos <Servo>` causing a "brown-out" that
   temporarily affects the Robot Controller's Wi-Fi antenna.
 - A loose or disconnected wire supplying power to the REV Control Hub.
 - A wire with damaged insulation contacting the robot's structure.

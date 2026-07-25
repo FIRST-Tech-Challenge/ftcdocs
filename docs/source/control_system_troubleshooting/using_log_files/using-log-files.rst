@@ -5,7 +5,7 @@ Introduction
 ------------
 
 One of the most useful features in the troubleshooting process is the ability to retrieve and
-review the log files on the Driver Station and Robot Controller devices. The system logs all
+review the log files on the :term:`Driver Station` and :term:`Robot Controller` devices. The system logs all
 sorts of information in these files, and when an incident occurs it is often helpful to review
 them to look for a pattern or clue that can help diagnose the problem. This page is the full
 walkthrough referenced from :doc:`/control_system_troubleshooting/troubleshooting_common_issues/troubleshooting-common-issues`,
@@ -427,7 +427,7 @@ of the Robot Controller:
    }
 
 This linear OpMode example shows how to use the ``RobotLog.d`` method to log information to the
-log file. You can use the Android Monitor window of the Android Studio IDE to view these log
+log file. You can use the Android Monitor window of the Android Studio :term:`IDE` to view these log
 messages in real time. You can also create a filter so you only see a subset of log messages in
 the window.
 

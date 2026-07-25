@@ -1,7 +1,7 @@
 Exposure Control Code Samples
 -----------------------------
 
-1. Import the interface. This line is automatically added by OnBot Java
+1. Import the interface. This line is automatically added by :term:`OnBot Java`
    when the interface is used (coded).
 
 -  ``import org.firstinspires.ftc.robotcore.external.hardware.camera.controls.ExposureControl;``

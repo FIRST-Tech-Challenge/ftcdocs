@@ -8,7 +8,7 @@ Example 3: An odd preview
 
 
 How can this be? Answer: this image was not an ‘instant’ result.
-Exposure was reduced very low, **after** TFOD had recognized the Duck.
+Exposure was reduced very low, **after** :term:`TFOD` had recognized the Duck.
 
 The implementations of TensorFlow Lite (and :term:`Vuforia`) are good at
 **tracking** a currently-identified object (or image) through

@@ -4,10 +4,10 @@ Creating and Running an OpMode :bdg-success:`AS`
 TeamCode Module
 ~~~~~~~~~~~~~~~
 
-If you successfully imported the Android Studio project folder, you
+If you successfully imported the :term:`Android Studio` project folder, you
 will see on the project browser an Android module named ``TeamCode``. The
 Android Studio project folder will be used to build a version of the
-Robot Controller app that includes the custom OpMode that you will
+:term:`Robot Controller` app that includes the custom :term:`OpMode` that you will
 write to control your competition robot.
 
 .. image:: images/teamcodeFolder.jpg
@@ -253,7 +253,7 @@ Note that when you attempt to retrieve a reference to a specific device
 in your OpMode, the name that you specify as the second argument of the
 ``HardwareMap.get`` method must match the name used to define the device in
 your configuration file. For example, if you created a configuration
-file that had a DC motor named ``motorTest``, then you must use this same
+file that had a :term:`DC motor <DC Motor>` named ``motorTest``, then you must use this same
 name (it is case sensitive) to retrieve this motor from the ``hardwareMap``
 object. If the names do not match, the OpMode will throw an exception
 indicating that it cannot find the device.
@@ -307,7 +307,7 @@ that the laptop has USB debugging permission for the phone.
 |
 
 Or, if you are using a :term:`Control Hub`, verify that the Control Hub is
-powered by a freshly charged 12V battery, and that it is connected to
+powered by a freshly charged 12V :term:`battery <Battery>`, and that it is connected to
 your laptop through its USB Type C port. Note that the Control Hub
 should automatically have USB debugging permission enabled.
 

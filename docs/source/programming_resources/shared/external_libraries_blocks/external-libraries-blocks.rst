@@ -4,9 +4,9 @@ External Libraries in OnBot Java and Blocks
 Introduction
 ------------
 
-Blocks and OnBot Java programmers can use external libraries,
+:term:`Blocks` and :term:`OnBot Java` programmers can use external libraries,
 starting with SDK 7.0 released for the Freight Frenzy season. This
-capability previously existed for programmers using Android Studio.
+capability previously existed for programmers using :term:`Android Studio`.
 
 An external library is a collection of specialized software ready for
 public use, and typically available from a website or repository, called
@@ -217,7 +217,7 @@ Congratulations, you are now a Java developer!
 Benefits
 --------
 
-Obviously this External Libraries feature provides advanced functions
+Obviously this :term:`External Libraries` feature provides advanced functions
 previously available only to Android Studio teams.
 
 Secondly, more of your team members can continue programming the robot
@@ -377,9 +377,9 @@ to experiment with these.
    which is a hardware device class for the `REV
    Potentiometer <https://www.revrobotics.com/rev-31-1155/>`__. It uses
    ``AnalogSensorType`` and ``DeviceProperties`` annotations to make
-   this sensor appear in the “Configure Robot” menu of the RC app or
+   this :term:`sensor <Sensor>` appear in the “Configure Robot” menu of the RC app or
    paired DS app. After the .aar file has been uploaded (and
-   ``Build Everything``), configure your robot’s Analog Input Devices
+   ``Build Everything``), configure your robot’s :term:`Analog Input` Devices
    and choose ``REV Potentiometer``. It has a public method
    ``getRotation`` with parameter of type AngleUnit.
 

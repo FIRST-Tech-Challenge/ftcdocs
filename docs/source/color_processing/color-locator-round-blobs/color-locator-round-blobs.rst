@@ -13,7 +13,7 @@ FTC's "Color Locator" now offers a best-fit circle called ``circleFit``, an alte
 
    circleFit versus boxFit detection
 
-This page describes the new :term:`Sample OpMode` called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These notes assume familiarity with the original Sample :term:`OpMode`, now called ``ConceptVisionColorLocator_Rectangle``.
+This page describes the new :term:`Sample OpMode` called ``ConceptVisionColorLocator_Circle``, in FTC :term:`Blocks` and Java.  These notes assume familiarity with the original Sample :term:`OpMode`, now called ``ConceptVisionColorLocator_Rectangle``.
 
 The new ``_Circle`` Sample uses these settings for convenient processing of DECODE Artifacts:
 
@@ -30,7 +30,7 @@ Quick Start
 .. note:: 
    This and other steps here were previously described in detail, starting with the page called :doc:`Color Locator - Discover <../color-locator-discover/color-locator-discover>`.
 
-#. In FTC Blocks or Java, create a new Autonomous OpMode from the Sample ``ConceptVisionColorLocator_Circle``.
+#. In FTC Blocks or Java, create a new :term:`Autonomous` OpMode from the Sample ``ConceptVisionColorLocator_Circle``.
 #. On the :term:`Driver Station`, select the OpMode that you just saved or built.
 #. Turn off the automatic 30-second match timer (green slider).  Aim the camera at a DECODE **Purple Artifact**\ , or a picture of one.
 #. Touch INIT only. The OpMode should give Telemetry showing the results of one or more Blobs:
@@ -228,7 +228,7 @@ Robotics vision is highly sensitive to field lighting.  The FTC :term:`VisionPor
 
 If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
 
-More detail on these controls is provided in an :ref:`older tutorial - ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`; disregard the TensorFlow references.
+More detail on these controls is provided in an :ref:`older tutorial - ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`; disregard the :term:`TensorFlow` references.
 
 These tools can help with Color Processing **and** :term:`AprilTag` Detection.
 

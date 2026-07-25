@@ -1,15 +1,15 @@
 Webcams for Vision Portal
 =========================
 
-This is a short list of common webcams that are known to work with the
+This is a short list of common :term:`webcams <Webcam>` that are known to work with the
 :ref:`FTC VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`
 and the 
 :ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
 
-VisionPortal is a comprehensive interface for FTC vision processing.
+:term:`VisionPortal` is a comprehensive interface for FTC vision processing.
 Example use cases for a webcam are:
 
-- :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
+- :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an :term:`AprilTag`,
 - determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
 - using :term:`OpenCV` to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
 
@@ -173,7 +173,7 @@ for AprilTag
 :ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:apriltag pose>`.
 
 A digital camera opens its shutter to allow light (“the image”) to reach
-the detector’s array of small sensors (pixels). (Webcam shutters are
+the detector’s array of small :term:`sensors <Sensor>` (pixels). (Webcam shutters are
 typically electronic, not mechanical.) Most webcams use a **“rolling
 shutter”**, where the the image data is read **one pixel row at a
 time**.

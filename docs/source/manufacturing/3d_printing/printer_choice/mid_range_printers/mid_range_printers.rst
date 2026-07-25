@@ -4,7 +4,7 @@ Mid-Range Printers ($300-$600 USD)
 AnkerMake M5C ($399)
 --------------------
 
-Anker's budget 3D printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. 
+Anker's budget :term:`3D printing <3D Printing>` machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. 
 This printer has speed printing capabilities and an extremely friendly interface with almost no setup. This is one of
 the cheapest printers that can reach 0.5m/s speeds while printing, which alone makes it stand out.
 

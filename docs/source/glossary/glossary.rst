@@ -10,8 +10,9 @@ Glossary
 
 This page collects the terms used throughout *FIRST* Tech Challenge documentation.
 Terms are listed alphabetically. Throughout the rest of this site, the first
-mention of a term in a page usually links back here, so you can check a
-definition without losing your place.
+mention of any of these terms on a page links back here, so you can check a
+definition without losing your place. Hover a term link to read its definition
+in place.
 
 .. note::
 

@@ -6,7 +6,7 @@
 Programming Resources
 =====================
 
-This page contains programming tutorials and related Control System
+This page contains programming tutorials and related :term:`Control System`
 documentation useful for configuring and programming Control System
 components.
 

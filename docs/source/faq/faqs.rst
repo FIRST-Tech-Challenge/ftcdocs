@@ -7,7 +7,7 @@ Common Team FAQs
 =================
 
 If you're looking for quick answers regarding the many facets of being a team from registration to 
-competition to judging. Please refer to these official questions and answers to guide you through the season. 
+competition to :term:`judging <Judging>`. Please refer to these official questions and answers to guide you through the season. 
 If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific 
 questions on the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ .
 
@@ -79,7 +79,7 @@ Competition FAQs
         
     .. grid-item-card:: Why aren’t you going to replay that match?
 
-        There are only certain situations that warrant replaying a match. Consult the Competition Manual to understand what conditions and processes can result in a replay. 
+        There are only certain situations that warrant replaying a :term:`match <Match>`. Consult the Competition Manual to understand what conditions and processes can result in a replay. 
         Typically unless something went wrong with the field or field staff there will not be grounds for a replay. A malfunctioning robot typically does not provide grounds
         for a replay. 
 
@@ -99,7 +99,7 @@ Competition FAQs
 
         If a team has questions about a match outcome, they should send one student representative to the Question Box to talk to the Head Referee (do not interrupt matches for 
         this conversation). If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that 
-        decision. Check the Competition Manual for more information about key :term:`volunteer <Volunteer>` roles, tournament operations, and how to use the Question Box.
+        decision. Check the Competition Manual for more information about key :term:`volunteer <Volunteer>` roles, :term:`tournament <Tournament>` operations, and how to use the Question Box.
 
 Technology FAQs
 --------------------

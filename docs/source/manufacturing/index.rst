@@ -12,7 +12,7 @@ there are many times when a custom part is needed. This section will cover some 
 manufacturing methods used in FTC for creating these parts. It is important to note that there are many
 different ways to manufacture parts, and this section will only contain those that are most commonly used.
 
-While a CAD model is not always needed to build a robot or part, it is often required when
+While a :term:`CAD` model is not always needed to build a robot or part, it is often required when
 manufacturing custom parts. For this reason, it is recommended that a team design their robot (or at least
 the part that needs to be made) in a
 CAD software. For more information on CAD, see the :doc:`CAD Resources <../cad_resources/index>` section.

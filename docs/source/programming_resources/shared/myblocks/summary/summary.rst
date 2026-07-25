@@ -2,7 +2,7 @@ Summary: Benefits of myBlocks
 =============================
 
 1. MyBlocks now provide access to the full range of Java in the 
-   Software Development Kit (SDK). Blocks programming can now perform
+   :term:`Software Development Kit` (SDK). :term:`Blocks` programming can now perform
    tasks **previously unavailable** to Blocks-only teams. This now
    includes :ref:`External
    Libraries <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 

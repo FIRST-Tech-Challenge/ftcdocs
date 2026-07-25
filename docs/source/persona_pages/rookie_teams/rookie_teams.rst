@@ -19,7 +19,7 @@ resource you want to explore!
 
       ^^^
 
-      We express the *FIRST* philosophies of Gracious Professionalism 
+      We express the *FIRST* philosophies of :term:`Gracious Professionalism` 
       and Coopertition through our Core Values.
       
       +++
@@ -176,7 +176,7 @@ resource you want to explore!
       ^^^
 
       Be sure you're following all of the rules of the competition! 
-      The Competition Manual is an essential document.
+      The :term:`Competition Manual` is an essential document.
 
       +++
  
@@ -243,7 +243,7 @@ resource you want to explore!
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      Look for resources for :term:`Computer-Aided Design <Computer Aided Design>` (CAD) software.
       
       +++
       

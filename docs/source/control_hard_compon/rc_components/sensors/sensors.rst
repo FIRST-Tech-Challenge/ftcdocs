@@ -1,7 +1,7 @@
 Sensors
 =========
 
-Listed below are some examples of common robot sensors. While the *FIRST* Tech
+Listed below are some examples of common robot :term:`sensors <Sensor>`. While the *FIRST* Tech
 Challenge SDK supports many sensors not all are natively supported.
 
 Examples

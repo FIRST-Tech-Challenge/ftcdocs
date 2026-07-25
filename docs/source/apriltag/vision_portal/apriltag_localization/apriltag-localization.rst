@@ -4,11 +4,11 @@ AprilTag Localization
 Introduction
 ------------
 
-In *FIRST Tech Challenge* (FTC), **localization** uses sensor inputs to
+In *FIRST Tech Challenge* (FTC), **localization** uses :term:`sensor <Sensor>` inputs to
 determine the robot's current place **on the game field**.
 
 Since 2023, an FTC OpMode can read the **pose** (position and orientation) of
-an AprilTag, **relative to the camera**.  An OpMode can also read that
+an :term:`AprilTag`, **relative to the camera**.  An :term:`OpMode` can also read that
 AprilTag's **global** pose (on the FTC game field), stored as metadata.
 
 .. figure:: images/05-ITD-tags.png
@@ -62,7 +62,7 @@ robot configuration.
 Open the Sample OpMode
 ----------------------
 
-To learn about opening the Sample OpMode, select and read the Blocks **or**
+To learn about opening the Sample OpMode, select and read the :term:`Blocks` **or**
 Java section below:
 
 .. tab-set::
@@ -236,7 +236,7 @@ Reference Frames
 ----------------
 
 In the above example. the yaw angle is given as (approximately) -90 degrees.
-But the camera is facing in the negative X direction, thus has a heading or yaw
+But the camera is facing in the negative X direction, thus has a :term:`heading <Heading>` or yaw
 angle of -180 degrees in the official FTC 
 :ref:`field coordinate system <first field coordinate system>`
 :

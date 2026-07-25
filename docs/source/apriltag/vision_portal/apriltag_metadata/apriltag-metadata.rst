@@ -5,7 +5,7 @@ Introduction
 ------------
 
 A Library tag stores **Metadata**, a collection of at least 4 fields (of these
-Blocks/Java types):
+:term:`Blocks`/Java types):
 
 - ID code (number/``int``)
 - tag name (text/``String``)
@@ -20,7 +20,7 @@ page.  For now it's enough to know the 4 basic elements of Metadata.
 Tag Contents
 ------------
 
-The SDK 8.2 :term:`Sample OpModes <Sample OpMode>` use AprilTags with these Metadata values:
+The SDK 8.2 :term:`Sample OpModes <Sample OpMode>` use :term:`AprilTags <AprilTag>` with these Metadata values:
 
 - ``583, Nemo, 4, DistanceUnit.INCH``
 - ``584, Jonah, 4, DistanceUnit.INCH``

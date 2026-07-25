@@ -4,12 +4,12 @@ Driving Example
 Here is the Java code (method only) for converting an **inches of
 driving** target into an **encoder counts** target. The conversion
 depends on the drive motors’ counts-per-rotation (CPR), and the diameter
-of the drive wheels. This example assumes 1:1 gear ratio between the
+of the drive wheels. This example assumes 1:1 :term:`gear ratio <Gear Ratio>` between the
 motor and wheel.
 
 .. image:: images/a0400-inchesToCounts-Java.png
 
-This method takes three inputs from the Blocks user, and **returns** one
+This method takes three inputs from the :term:`Blocks` user, and **returns** one
 output (of type ``int`` or integer) to the regular Block that **calls**
 the myBlock.
 

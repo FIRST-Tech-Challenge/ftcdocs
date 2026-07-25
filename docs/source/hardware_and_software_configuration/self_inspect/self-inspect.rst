@@ -4,8 +4,8 @@ Old Self-Inspect
 Introduction
 ------------
 
-This page describes the older Self Inspect screens in the FTC Driver Station
-(DS) app and the FTC Robot Controller (RC) app.
+This page describes the older Self Inspect screens in the FTC :term:`Driver Station`
+(DS) app and the FTC :term:`Robot Controller` (RC) app.
 See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 A Self Inspect screen provides a snapshot of device status, as it
@@ -19,7 +19,7 @@ These rules are described in the :term:`Competition Manual` which can be found o
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
 and properly configured. Self Inspect may be reviewed in Robot
-:term:`Inspection` at an FTC tournament, but is **not** a comprehensive or
+:term:`Inspection` at an FTC :term:`tournament <Tournament>`, but is **not** a comprehensive or
 official standard of compliance with FTC rules.
 
 Each inspection screen updates automatically, with or without a Restart
@@ -114,7 +114,7 @@ DS Self Inspect 1, on DS phone paired to RC phone
 
 -  Item 1 is a menu with one choice: Disconnect from Wi-Fi Direct. It
    does work, but sometimes the apps re-pair automatically.
--  Item 5 shows the battery level of the device being reported. Fun
+-  Item 5 shows the :term:`battery <Battery>` level of the device being reported. Fun
    fact: the green color of the percentage value changes towards
    **orange** as the charge level goes down.
 -  Item 8 ``Location services`` appears only on devices running
@@ -316,7 +316,7 @@ slight differences.
 -  Item 5 lists the :term:`Expansion Hub` addresses and :term:`firmware <Firmware>` levels. This
    example shows one Expansion Hub, but two can be listed here. A
    check-mark indicates all firmware is up-to-date based on the current
-   version of the RC app. This item shows “N/A” if no Hubs are
+   version of the RC app. This item shows “N/A” if no :term:`Hubs <Hub>` are
    connected.
 -  Item 10 ``RC Password`` appears only in RC Self Inspect, not in DS
    Self Inspect. It checks the FTC requirement for a Control Hub

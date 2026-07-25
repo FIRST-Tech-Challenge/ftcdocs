@@ -4,10 +4,10 @@ Adding an Expansion Hub
 Introduction
 ~~~~~~~~~~~~
 
-A single REV Robotics Control or Expansion Hub has a limited amount of input/output
+A single REV Robotics Control or :term:`Expansion Hub` has a limited amount of input/output
 (I/O) ports available. In some instances, you might want to use more
 devices than there are ports available. For these instances you might
-need to connect an Expansion Hub to your first Hub to add more I/O
+need to connect an Expansion Hub to your first :term:`Hub` to add more I/O
 ports.
 
 This document describes how to connect and configure an additional Expansion
@@ -38,7 +38,7 @@ need the following items:
    * - REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).
      - .. figure:: images/TamiyaAdapter.jpg
 
-   * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of
+   * - FIRST-approved 12V :term:`Battery` (such as Tetrix W39057). For a list of
        FIRST-approved 12V batteries, refer to the current Competition Manual.
      - .. figure:: images/Battery.jpg
 

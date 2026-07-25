@@ -7,7 +7,7 @@ Setting Up Your Development Environment
    Only complete these steps if you have chosen to develop the site locally. 
    If you are using **GitHub Codespaces** you should skip this section.
 
-FTC Docs uses a `Nix <https://nixos.org>`__ flake (``flake.nix`` at the root of the repository) to provide every
+:term:`FTC Docs` uses a `Nix <https://nixos.org>`__ flake (``flake.nix`` at the root of the repository) to provide every
 dependency needed to build the site -- Python, Sphinx, and the LaTeX toolchain used for PDF booklets -- in one
 reproducible environment. You no longer need to install Python, Pip, or a LaTeX distribution yourself.
 

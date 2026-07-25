@@ -4,8 +4,8 @@ VisionPortal Initialization
 Overview
 --------
 
-Here we describe Step 3, **creating a VisionPortal**, to allow an OpMode to use
-AprilTag and/or TensorFlow Object Detection (TFOD). This continues from the
+Here we describe Step 3, **creating a VisionPortal**, to allow an :term:`OpMode` to use
+:term:`AprilTag` and/or :term:`TensorFlow Object Detection` (TFOD). This continues from the
 previous page :doc:`Vision Processor Initialization
 <../vision_processor_init/vision-processor-init>`, which described Step 2:
 creating an AprilTag Processor and/or a TensorFlow Object Detection (TFOD)
@@ -20,7 +20,7 @@ the DS Start button is touched.
 VisionPortal Initialization - Easy
 ----------------------------------
 
-The SDK provides an "easy" way to make VisionPortal, using only **defaults**
+The SDK provides an "easy" way to make :term:`VisionPortal`, using only **defaults**
 and not mentioning a "Builder":
 
 .. tab-set::
@@ -32,7 +32,7 @@ and not mentioning a "Builder":
          :align: center
          :alt: Easy VisionPortal Initialization
 
-      The FTC Blocks VisionPortal toolbox, or palette, offers "Easy Create" Blocks for:
+      The FTC :term:`Blocks` VisionPortal toolbox, or palette, offers "Easy Create" Blocks for:
 
       - AprilTag or TFOD (or both)
       - :term:`webcam <Webcam>`, built-in RC phone camera, or "Switchable Camera Name"

@@ -1,7 +1,7 @@
 Automatically Loading a Driver Controlled Op Mode
 ==================================================
 
-A FIRST Tech Challenge match consists of a 30 second autonomous period
+A FIRST Tech Challenge :term:`match <Match>` consists of a 30 second autonomous period
 followed by a 2 minute driver controlled (i.e., tele-operated or teleop)
 period. Previously, teams had to manually select their teleop op mode
 after the autonomous portion their match was over.
@@ -12,7 +12,7 @@ has completed. This feature can help a team avoid selecting the wrong op
 mode during a match.
 
 To use this feature, verify that you are using version 6.1 or greater of
-the SDK software (:term:`Robot Controller` and Driver Station).
+the SDK software (:term:`Robot Controller` and :term:`Driver Station`).
 
 Select an autonomous program to use during your match. The preselect
 button will appear in the lower left corner of the screen. It will be
@@ -33,8 +33,8 @@ inactive.
 
 Note that in order for the preselect button to be visible, the selected
 op mode must be designated as an autonomous op mode either by using the
-\_@Autonomous\_ annotation if it is written using Java or by selecting
-the *Autonomous* option in the Blocks editor. If you do not see the
+\_@:term:`Autonomous`\_ annotation if it is written using Java or by selecting
+the *Autonomous* option in the :term:`Blocks` editor. If you do not see the
 preselect button, verify that your currently selected op mode has been
 designated as autonomous.
 
@@ -63,7 +63,7 @@ button. It will become translucent again and the text adjacent to it
 will disappear.
 
 After the Autonomous program ends, the Driver Station changes the queued
-OpMode to the :term:`TeleOp <TELEOP>` program which was preselected before the start of
+:term:`OpMode` to the :term:`TeleOp <TELEOP>` program which was preselected before the start of
 Autonomous. The auto-preselection will be aborted if the user presses
 stop (either the main stop or init stop buttons). It will only
 transition if the OpMode either self-exits, or is terminated by the 30s

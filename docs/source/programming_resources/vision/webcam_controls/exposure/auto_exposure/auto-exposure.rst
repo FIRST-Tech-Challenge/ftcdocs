@@ -5,7 +5,7 @@ Auto-Exposure Priority is a setting within the ExposureControl
 interface. It’s listed here at the end, not likely to be needed in 
 since it it operates in very low lighting.
 
-What does it do? Imagine that the webcam is operating at its default
+What does it do? Imagine that the :term:`webcam <Webcam>` is operating at its default
 frame rate, for example 30 frames per second (fps). *Note that frame
 rate is not covered in this basic tutorial.*
 

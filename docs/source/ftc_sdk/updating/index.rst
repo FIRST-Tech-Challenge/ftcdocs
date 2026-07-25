@@ -6,7 +6,7 @@
 Updating Components of the Control System
 =========================================
 
-Certain components of the *FIRST* Tech Challenge Control System will
+Certain components of the *FIRST* Tech Challenge :term:`Control System` will
 periodically receive updates.  Teams should make sure to update each component
 of the Control System to the latest released version.
 

@@ -9,7 +9,7 @@ requires calibration data, for **each specific resolution**.
    incorrect.” – FIRST Tech Challenge navigation expert @gearsincorg*
 
 The *FIRST* Tech Challenge SDK contains such data for a limited number of
-webcams and resolutions. Teams can generate their own data, called **lens
+:term:`webcams <Webcam>` and resolutions. Teams can generate their own data, called **lens
 intrinsics**.
 
 Here’s one possible procedure, of several free choices available
@@ -22,7 +22,7 @@ First, create an :term:`OpMode` from the Java Sample
 ``UtilityCameraFrameCapture.java``. :term:`Android Studio` teams can find this
 utility program in the External Samples folder.
 
-FTC Blocks teams can duplicate this OpMode, requiring a custom myBlock
+FTC :term:`Blocks` teams can duplicate this OpMode, requiring a custom myBlock
 only for the method ``saveNextFrameRaw()``. At some future time, this
 Java method may become available as a regular Block, avoiding the need
 for a myBlock. Learn more about myBlocks here:
@@ -30,7 +30,7 @@ for a myBlock. Learn more about myBlocks here:
 - :ref:`MyBlocks Tutorial <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
 This Utility OpMode helps calibrate a webcam or RC phone camera, needed
-for AprilTag pose estimation. It captures a camera frame (image) and
+for :term:`AprilTag` pose estimation. It captures a camera frame (image) and
 stores it on the :term:`Robot Controller` (:term:`Control Hub` or RC phone), with each
 press of the :term:`gamepad <Gamepad>` button X (or Square).
 

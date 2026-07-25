@@ -5,7 +5,7 @@ The SDK can evaluate a **flat AprilTag** (not curved) to estimate **pose**, the
 combination of:
 
 - relative position **from the camera lens center to the AprilTag center**, and
-- orientation of the AprilTag **in the camera's reference frame**
+- orientation of the :term:`AprilTag` **in the camera's reference frame**
 
 As described at the previous page **FTC Reference Frame**, position is
 expressed as (X, Y, Z).  Orientation is expressed as rotation about (X, Y, Z),
@@ -97,7 +97,7 @@ To avoid logic errors, an :term:`OpMode` can check the Metadata for a **null**
 condition before attempting to process pose data.  This is illustrated in these
 Sample OpModes: 
 
-- Blocks: `ConceptAprilTag`
+- :term:`Blocks`: `ConceptAprilTag`
 - Java: `ConceptAprilTag.java`
 
 More discussion of AprilTag pose data is available here:

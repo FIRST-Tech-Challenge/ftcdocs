@@ -26,21 +26,21 @@ Here's the outline of this tutorial's main pages:
    color-locator-round-blobs/color-locator-round-blobs
    color-spaces/color-spaces
 
-Much credit to developer and :term:`Sample OpMode` author `@gearsincorg <https://github.com/gearsincorg>`_, :term:`EasyOpenCV` developer `@Windwoes <https://github.com/Windwoes>`_, FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`_, and the open-source team at `OpenCV <https://opencv.org/>`_.
+Much credit to developer and :term:`Sample OpMode` author `@gearsincorg <https://github.com/gearsincorg>`_, :term:`EasyOpenCV` developer `@Windwoes <https://github.com/Windwoes>`_, FTC :term:`Blocks` developer `@lizlooney <https://github.com/lizlooney>`_, and the open-source team at `OpenCV <https://opencv.org/>`_.
 
 Compatibility
 -------------
 
 This new software includes two Color Processors, each compatible with the FTC
 :term:`VisionPortal` introduced in 2023.  These processors can run alongside an
-:term:`AprilTag` processor, and replace the TensorFlow processor (removed in 2024).
+:term:`AprilTag` processor, and replace the :term:`TensorFlow` processor (removed in 2024).
 
 These new processors can be used on the usual FTC cameras:
 
 * any UVC-compatible :term:`webcam <Webcam>`
 * the built-in camera of an FTC-supported Android phone (as :term:`Robot Controller`)
 
-This does **not** include vision sensors such as HuskyLens and LimeLight 3A,
+This does **not** include vision :term:`sensors <Sensor>` such as HuskyLens and LimeLight 3A,
 which do not use the FTC VisionPortal.
 
 Two Processors
@@ -76,7 +76,7 @@ Sensor <color-sensor/color-sensor>`.
 Then read about **Color Blob Concepts**\ , and try the **Color Locator** Sample
 OpModes.
 
-Soon you'll be ready to add one or both features to your Autonomous OpModes --
+Soon you'll be ready to add one or both features to your :term:`Autonomous` OpModes --
 perhaps even to help automate your :term:`TeleOp <TELEOP>`!
 
 ============

@@ -1,11 +1,11 @@
 Sample OpModes
 --------------
 
-The intent of this tutorial is to describe the available webcam
+The intent of this tutorial is to describe the available :term:`webcam <Webcam>`
 controls, allowing programmers to **develop their own solutions** guided
-by the SDK API (Javadoc).
+by the SDK API (:term:`Javadoc`).
 
-The following sample OpModes are linked here for reference only. These
+The following sample :term:`OpModes <OpMode>` are linked here for reference only. These
 rudimentary OpModes may not apply to your webcam and may not meet your
 needs in general.
 

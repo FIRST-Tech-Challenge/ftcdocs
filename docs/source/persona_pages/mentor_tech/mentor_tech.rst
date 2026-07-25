@@ -19,7 +19,7 @@ Just click on the button for the resource you want to explore!
 
       ^^^
 
-      Look for Control System resources here.
+      Look for :term:`Control System` resources here.
 
       +++
       
@@ -89,7 +89,7 @@ Just click on the button for the resource you want to explore!
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      Look for resources for :term:`Computer-Aided Design <Computer Aided Design>` (CAD) software.
       
       +++
       

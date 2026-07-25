@@ -1,9 +1,9 @@
 VisionPortal Camera Controls
 ============================
 
-Clearer camera images can improve AprilTag (and TFOD) vision processing.  The
+Clearer camera images can improve :term:`AprilTag` (and :term:`TFOD`) vision processing.  The
 SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more),
-now available in Blocks! These controls can be applied under various lighting
+now available in :term:`Blocks`! These controls can be applied under various lighting
 conditions.
 
 The SDK documentation already provides a 
@@ -17,10 +17,10 @@ be constructed also in FTC Blocks.
 Webcam States
 ~~~~~~~~~~~~~
 
-Camera Controls cannot be used until the webcam has reached the state
+Camera Controls cannot be used until the :term:`webcam <Webcam>` has reached the state
 ``CAMERA_DEVICE_READY``.
 
-Under the new FTC VisionPortal these camera states are now available: 
+Under the new FTC :term:`VisionPortal` these camera states are now available: 
 
 - OPENING_CAMERA_DEVICE 
 - CAMERA_DEVICE_READY 

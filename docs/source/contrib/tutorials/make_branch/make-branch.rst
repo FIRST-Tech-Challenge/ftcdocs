@@ -10,7 +10,7 @@ deveopment because it allows you to work on a feature or bug fix in an isolated
 environment without affecting the main project. Once you've made the changes you 
 want to make, you can merge your branch back into the main branch to publish your 
 changes.
-In the case of the FTC Docs, the main branch of your fork should always be a copy 
+In the case of the :term:`FTC Docs`, the main branch of your fork should always be a copy 
 of the main branch of the main repository which serves as a reference point to create 
 new branches from. After we are satisfied with the changes we've made in our branch, we 
 will create a Pull Request to merge our changes back into the main branch of the 

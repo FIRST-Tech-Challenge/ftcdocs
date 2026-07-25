@@ -6,7 +6,7 @@ Introduction
 
 Vision processing can consume significant **CPU resources** and USB
 communications **bandwidth**.  Reaching such limits may affect previews, and
-cause an OpMode or Robot Controller to slow down, or freeze, or crash.
+cause an :term:`OpMode` or :term:`Robot Controller` to slow down, or freeze, or crash.
 
 Teams can balance the benefits of higher resolution and speed
 (frames-per-second) against the risk of overloading CPU and bandwidth
@@ -58,7 +58,7 @@ Repeated from the **Camera Controls** page, these camera states are now availabl
 
 These **enums** are listed in sequence, as if opening a camera (fresh build),
 then starting or resuming streaming, then stopping streaming, then closing the
-VisionPortal.
+:term:`VisionPortal`.
 
 All of the above is completely separate from the AprilTag and/or TFOD processor
 status.  Those can be enabled or disabled at any time, but naturally require
@@ -130,7 +130,7 @@ refresh) remains available.
 Pause LiveView - Indirect
 -------------------------
 
-The SDK also offers an **indirect** control of LiveView, available in Blocks
+The SDK also offers an **indirect** control of LiveView, available in :term:`Blocks`
 and Java:
 
 .. code-block:: java

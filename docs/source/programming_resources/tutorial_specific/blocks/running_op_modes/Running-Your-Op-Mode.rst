@@ -1,10 +1,10 @@
 Running Your OpMode (All Languages)
 -----------------------------------
 
-If your OpMode requires input from a gamepad, then you will need to
+If your :term:`OpMode` requires input from a :term:`gamepad <Gamepad>`, then you will need to
 connect a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that you can
 have up to two gamepads connected to a DRIVER STATION. If using a phone,
-this will require a USB hub. However, in this example, we will only have
+this will require a :term:`USB hub <USB Hub>`. However, in this example, we will only have
 a solitary gamepad connected.
 
 Note that you will need an estimated 10 minutes to complete this task.
@@ -97,7 +97,7 @@ to start the OpMode run.
 |
 
 7. Use the left joystick of the gamepad to control the operation of   
-the DC motor. As you manipulate the left joystick up and down, the    
+the :term:`DC motor <DC Motor>`. As you manipulate the left joystick up and down, the    
 target power and the motor power should be displayed in the upper     
 right hand corner of the screen.                                       
 

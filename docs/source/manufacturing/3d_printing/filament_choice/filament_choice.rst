@@ -1,6 +1,6 @@
 Filament Choice
 ===============
-There are many different materials and colors of plastics called "filaments" that can be used for 3D printing, but for FTC there are only
+There are many different materials and colors of plastics called "filaments" that can be used for :term:`3D printing <3D Printing>`, but for FTC there are only
 a few that are of practical use for most teams. Since this guide is currently only addressing FDM (Fused Deposition Modeling) 
 printing, materials like resin (used in SLA printing) will not be discussed.
 |

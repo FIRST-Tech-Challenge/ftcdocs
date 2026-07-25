@@ -4,7 +4,7 @@ Color Processing Color Sensor
 Overview
 --------
 
-A simple way to use FTC's new OpenCV vision tools is to operate a "Color
+A simple way to use FTC's new :term:`OpenCV` vision tools is to operate a "Color
 Sensor".  Namely, it can determine **the color seen by the robot's camera**\ ,
 in a specified zone.
 
@@ -18,7 +18,7 @@ Below, the small central rectangle is the region being evaluated:
    Color sensor detection zone 
 
 A key benefit is that the camera can be much further away from the object than,
-for example, a REV Color Sensor or others like it.
+for example, a REV Color :term:`Sensor` or others like it.
 
 It's still important to accurately point the camera and carefully select the
 image zone to inspect.
@@ -59,7 +59,7 @@ Sample OpMode
 Opening the Sample OpMode
 +++++++++++++++++++++++++
 
-To learn about opening the Sample OpMode, click the tab for Blocks or Java:
+To learn about opening the Sample OpMode, click the tab for :term:`Blocks` or Java:
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -106,7 +106,7 @@ Running the Sample OpMode
 
 On the Driver Station:
 
-1. Select the Autonomous OpMode that you just saved or built.
+1. Select the :term:`Autonomous` OpMode that you just saved or built.
 2. Turn off the automatic 30-second match timer (green slider).
 3. Touch INIT only.  
 
@@ -210,7 +210,7 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Predominant Color" **Processor** using the
 **Builder** pattern.  This is the same Builder pattern used to create an
-:term:`AprilTag` Processor, and previously a TensorFlow Processor.
+:term:`AprilTag` Processor, and previously a :term:`TensorFlow` Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Predominant Color" Processor to the

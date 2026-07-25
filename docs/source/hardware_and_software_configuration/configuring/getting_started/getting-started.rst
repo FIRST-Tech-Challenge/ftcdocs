@@ -4,9 +4,9 @@ Getting Started
 Creating a Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Before you can communicate with the motor, servo and sensors that are
-connected to the Control Hub or Expansion Hub, you first must create a
-configuration file on your Robot Controller, so that the Robot
+Before you can communicate with the motor, :term:`servo <Servo>` and :term:`sensors <Sensor>` that are
+connected to the :term:`Control Hub` or :term:`Expansion Hub`, you first must create a
+:term:`configuration file <Configuration File>` on your :term:`Robot Controller`, so that the Robot
 Controller will know what hardware is available on the Control Hub's or
 Expansion Hub's external ports.
 

@@ -1,12 +1,12 @@
 Example 1: Exposure’s effect on TFOD
 ------------------------------------
 
-We interrupt this tutorial to demonstrate the two webcam interfaces
+We interrupt this tutorial to demonstrate the two :term:`webcam <Webcam>` interfaces
 described so far: ExposureControl and GainControl.
 
 These 2 examples assume you are already using TensorFlow Object
-Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
-model and OpMode that are working reasonably well.
+Detection (:term:`TFOD`) in the Freight Frenzy game. Namely you have a TFOD
+model and :term:`OpMode` that are working reasonably well.
 Here we will discuss only the Duck game element. **Can the exposure
 and/or gain controls improve the chance of a fast, accurate TFOD
 detection?**
@@ -56,7 +56,7 @@ results. Note the sharp drop-off at both ends of the range: below 25 and
 above 40. In engineering, a **robust** solution can withstand variation.
 Using a value in the middle of the improved range, can reduce the
 effects of unforeseen variation. But this range varies with ambient
-lighting conditions, which may be quite different at the tournament
+lighting conditions, which may be quite different at the :term:`tournament <Tournament>`
 venue.
 
 This data is the result of a very particular combination of: webcam

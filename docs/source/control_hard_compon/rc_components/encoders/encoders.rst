@@ -18,7 +18,7 @@ Encoders (Rotation Counters)
 
       +++
 
-      Built-in Encoder in the REV HD Hex Motor
+      Built-in :term:`Encoder` in the REV HD Hex Motor
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white

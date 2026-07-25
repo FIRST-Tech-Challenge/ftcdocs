@@ -1,8 +1,8 @@
 Controlling a Servo :bdg-info:`OBJ`
 ===================================
 
-In this section, you will modify your op mode to control a servo motor
-with the buttons of the gamepad.
+In this section, you will modify your op mode to control a :term:`servo <Servo>` motor
+with the buttons of the :term:`gamepad <Gamepad>`.
 
 What is a Servo Motor?
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -24,7 +24,7 @@ even if external forces are applied to the shaft of the servo.
 |
 
 Servo motors are useful when you want to do precise movements (for
-example, sweep an area with a sensor to look for a target or move the
+example, sweep an area with a :term:`sensor <Sensor>` to look for a target or move the
 control surfaces on a remotely controlled airplane).
 
 Modifying Your Op Mode to Control a Servo

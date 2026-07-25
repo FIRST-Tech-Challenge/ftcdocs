@@ -16,10 +16,10 @@ especially those programming in Java.
 
    Photo Credit: Mike Silversides
 
-Those POWERPLAY teams, including those using FTC Blocks, learned how to use
+Those POWERPLAY teams, including those using FTC :term:`Blocks`, learned how to use
 several resources: 
 
--  AprilTag: an open-source technology for evaluating
+-  :term:`AprilTag`: an open-source technology for evaluating
    formatted images 
 -  :term:`EasyOpenCV`: a *FIRST* Tech Challenge-optimized interface with :term:`OpenCV`, an
    image processing library 
@@ -179,7 +179,7 @@ The SDK supports **multiple cameras**, switchable or simultaneous.  This
 can help if the robot changes direction, or you wish to navigate using another
 AprilTag (or Color Processing).
 
-Other sensors can also be used for navigation, such as drive motor :term:`encoders <Encoder>`,
+Other :term:`sensors <Sensor>` can also be used for navigation, such as drive motor :term:`encoders <Encoder>`,
 REV Hub :term:`IMU`, deadwheel encoders, color/distance sensors, ultrasonic sensors,
 and more.
 
@@ -268,7 +268,7 @@ The SDK provides AprilTag **rotation** data as follows:
 
 - **Pitch** is the measure of rotation about the X axis 
 - **Roll** is the measure of rotation about the Y axis 
-- Heading, or **Yaw**, is the measure of rotation about the Z axis
+- :term:`Heading`, or **Yaw**, is the measure of rotation about the Z axis
 
 Rotation follows the traditional right-hand rule: with the thumb
 pointing along the positive axis, the fingers curl in the direction of

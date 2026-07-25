@@ -7,7 +7,7 @@ What Needs to Be Configured for My Control System?
 Driver Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
+Teams who are using the REV Robotics :term:`Driver Hub` as their DRIVER STATION
 should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
 for instructions on how to set up and use the REV Robotics Driver Hub.
 
@@ -232,7 +232,7 @@ For the *FIRST* Tech Challenge competitions, it is important that you
 place your Robot Controller and DRIVER STATION devices into Airplane mode
 but keep their Wi-Fi radios turned on. This is important because you do
 not want any of the cellular telephone functions to be enabled during a
-match. The cellular telephone functions could disrupt the function of
+:term:`match <Match>`. The cellular telephone functions could disrupt the function of
 the robot during a match.
 
 .. note:: It will take an estimated 2.5 minutes per phone to complete this
@@ -278,7 +278,7 @@ known as "pairing."
 
 .. note:: the Control Hub does not have its own internal battery. Before you
    can connect a Driver Station to the Control Hub, you must connect the
-   Control Hub to a 12V battery.
+   Control Hub to a 12V :term:`battery <Battery>`.
 
 Also note that it will take an estimated 10 minutes to complete this
 task.
@@ -337,7 +337,7 @@ task.
    * - 10. Find the name of your Control Hub's wireless network from the list of available WiFi networks. Click on the network name to select the network. If this is the first time you are connecting to the Control Hub, then the default network name should begin with the prefix FTC- (FTC-1Ybr in this example). The default network name should be listed on a sticker attached to the bottom side of the Control Hub.
      - |pairing10|
 
-   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the Hub. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
+   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the :term:`Hub`. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
      - |pairing11|
 
    * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.

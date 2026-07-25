@@ -1,13 +1,13 @@
 Updating the Robot Controller (RC) App
 ======================================
 
-The Robot Controller App is one of the Apps provided with the *FIRST* Tech
+The :term:`Robot Controller App` is one of the Apps provided with the *FIRST* Tech
 Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`. The Robot
 Controller App is the application that runs on the Robot Controller Android
-Device (REV Control Hub or an approved Android RC phone). This app 
-communicates with the Driver Station App to control the robot.
+Device (REV :term:`Control Hub` or an approved Android RC phone). This app 
+communicates with the :term:`Driver Station App` to control the robot.
 
-This page shows how to update the Robot Controller (RC) app on these
+This page shows how to update the :term:`Robot Controller` (RC) app on these
 devices:
 
 -  REV Control Hub
@@ -19,7 +19,7 @@ Blocks / OnBot Java vs Android Studio
 Blocks / OnBot Java
 ^^^^^^^^^^^^^^^^^^^
 
-The Robot Controller (RC) App contains the programming environments for Blocks
+The Robot Controller (RC) App contains the programming environments for :term:`Blocks`
 and :term:`OnBot Java`, and the User Programs (Team Code) developed using those
 environments are stored independently ALONGSIDE the RC App. This makes it
 possible to update the RC App independently without affecting Team Code.  This
@@ -34,7 +34,7 @@ Android Studio
 ^^^^^^^^^^^^^^
 
 :term:`Android Studio`, in general, works exactly the opposite. The FtcRobotController
-repository (the Android Studio Project) contains the full source code needed to
+repository (the :term:`Android Studio Project`) contains the full source code needed to
 build a complete RC App; when the Android Studio Project is compiled and
 deployed, it's actually building a complete Robot Controller App and installing
 it onto the RC Android device. Team Code **and** the Robot Controller code are
@@ -212,7 +212,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
       Now touch the “Update” button (green arrow, above).
 
       The software will replace the existing RC app with your new updated RC
-      app. The connection between Driver Station and Control Hub will
+      app. The connection between :term:`Driver Station` and Control Hub will
       temporarily be lost, then automatically restored.
 
       When the completion message appears, the updated RC app is ready to use.

@@ -6,7 +6,7 @@
 *FIRST* Tech Challenge Software Development Kit
 ===============================================
 
-The Software Development Kit (SDK) is the collection of tools for developing
+The :term:`Software Development Kit` (SDK) is the collection of tools for developing
 software and executing it on a *FIRST* Tech Challenge robot. SDK Software
 includes:
 
@@ -20,10 +20,10 @@ includes:
    *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
 
 -  `Android Studio Project <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__  
-   for building the Robot Controller App with 
+   for building the :term:`Robot Controller` App with 
    :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (TensorFlow models, :term:`Vuforia` databases, etc...)
+-  Season-Specific Assets (:term:`TensorFlow` models, :term:`Vuforia` databases, etc...)
 
 All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
@@ -42,7 +42,7 @@ Release Content
 Once the SDK is ready to be released, the private SDK repository is built and exported. 
 This build consists of:
 
--  Built Driver Station App (``FtcDriverStation-release.apk``)
+-  Built :term:`Driver Station` App (``FtcDriverStation-release.apk``)
 -  Built Robot Controller App (``FtcRobotController-release.apk``)
 -  :term:`Android Studio` Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
@@ -55,7 +55,7 @@ release
 
 The `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ is also updated
-with the exported Android Studio Project source so that changes can be tracked and the GitHub
+with the exported :term:`Android Studio Project` source so that changes can be tracked and the GitHub
 repository can be `forked
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__
 or `cloned

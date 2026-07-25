@@ -92,7 +92,7 @@ X1C Features
 * WiFi Printing capabilities and remote print monitoring
 * 256mm x 256mm x 256mm Print Volume
 * Heated chamber allows for more advanced engineering materials
-* LIDAR sensor for flow calibration and first layer quality checking
+* LIDAR :term:`sensor <Sensor>` for flow calibration and first layer quality checking
 * Stock hardened hotend capable of most filled and abrasive filaments
 * Automatic print failure detection
 

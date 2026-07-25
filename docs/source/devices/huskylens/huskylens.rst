@@ -35,7 +35,7 @@ You will need a **custom adapter cable** to connect the HuskyLens to an
 HuskyLens connector are not in the same order/position as the 4 pins on
 the REV Hub.
 
-Three of the wires have **the same color** as wires in the REV sensor
+Three of the wires have **the same color** as wires in the REV :term:`sensor <Sensor>`
 cable. Your custom cable should connect **red to red**, **black to
 black**, and **blue to blue**. This leaves only the HuskyLens **green
 wire**; connect it to the REV **white wire**. Simple!
@@ -131,7 +131,7 @@ programming software. This tutorial uses **FTC Blocks**.
    the Java Sample :term:`OpMode` uses the same programming logic and is well
    commented.
 
-In FTC Blocks, create a new OpMode using the sample called
+In FTC :term:`Blocks`, create a new OpMode using the sample called
 “SensorHuskyLens”:
 
 .. figure:: images/140-Sample-Blocks.png
@@ -229,7 +229,7 @@ All three AprilTags were recognized:
    Telemetry Showing 3 Blocks
 
 This validates the possibility that HuskyLens could recognize a trained
-object in one of various known positions – useful for the Autonomous
+object in one of various known positions – useful for the :term:`Autonomous`
 phase of the CENTERSTAGE game.
 
 Single Color Training
@@ -432,7 +432,7 @@ its planned match start position, “on-robot”.
 
 Also, the trained ambient lighting must be similar to expected match
 conditions. This may suggest performing the final color-training as part
-of tournament or match set-up. With practice, it could be done in a few
+of :term:`tournament <Tournament>` or match set-up. With practice, it could be done in a few
 seconds.
 
 4. Programming
@@ -471,7 +471,7 @@ wish to train **two colors** (e.g. a Red shade and a Blue shade).
 
 This would avoid the need for multiple color-training sessions during an
 FTC tournament. With single-color, you would train for Red before
-playing an FTC match as Red :term:`Alliance`, and train for Blue before playing
+playing an FTC :term:`match <Match>` as Red :term:`Alliance`, and train for Blue before playing
 as Blue Alliance.
 
 With multi-color, your Red-Alliance Autonomous OpMode could seek Red as

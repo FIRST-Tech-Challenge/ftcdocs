@@ -8,10 +8,10 @@ you can easily apply its lessons to Java programs.
 
 When creating myBlocks, be careful when converting or ‘packaging’ a
 section of existing Java code into a myBlock method. As a programmer,
-you must consider **where** your myBlock might be placed in the OpMode.
+you must consider **where** your myBlock might be placed in the :term:`OpMode`.
 For example, if the myBlock is placed inside a **repeat while loop**,
 the Java method will be called many times – this may or may not be what
-you intended. Use the annotation **comment** to tell the Blocks user how
+you intended. Use the annotation **comment** to tell the :term:`Blocks` user how
 your myBlock should be run, including looping (or not).
 
 A particular caution with timers: creating or **instantiating** a new

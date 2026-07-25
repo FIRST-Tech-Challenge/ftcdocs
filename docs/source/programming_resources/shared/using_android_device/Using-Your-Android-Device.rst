@@ -7,7 +7,7 @@ familiarize yourself with the basic operation of your Android device.
 REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
+Teams who are using the REV Robotics :term:`Driver Hub` as their DRIVER STATION
 should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
 for instructions on how to set up and use the REV Robotics Driver Hub.
 

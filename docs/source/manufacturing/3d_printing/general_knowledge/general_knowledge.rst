@@ -2,7 +2,7 @@ General Knowledge
 =================
 
 The following section is general knowledge regarding the operation, maintenance, and terminology 
-regarding 3D Printing. We'd highly suggest reading through at least the terminology section 
+regarding :term:`3D Printing`. We'd highly suggest reading through at least the terminology section 
 before getting into the more advanced knowledge documented here!
 
 .. toctree::

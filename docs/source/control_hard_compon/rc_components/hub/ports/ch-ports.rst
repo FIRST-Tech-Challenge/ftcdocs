@@ -20,7 +20,7 @@ USB Ports
 ---------
 
 Universal Serial Bus (USB) is an industry standard that allows data exchange and delivery of power between many types of electronics.
-The control hub has four USB ports described below. 
+The control :term:`hub <Hub>` has four USB ports described below. 
 
 USB 2.0 and USB 3.0 refer to the USB specifications that relate to data exchange rate and power delivery.
 
@@ -37,7 +37,7 @@ This is a female USB Type-A port that implements USB 2.0 and can be used for con
 
 .. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
 
-   The REV Control Hub has a 
+   The REV :term:`Control Hub` has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
    Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 

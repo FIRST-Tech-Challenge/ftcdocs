@@ -5,7 +5,7 @@ Creating Op Modes :bdg-warning:`Blocks`
 What's an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-During a typical *FIRST* Tech Challenge match, a team's robot must
+During a typical *FIRST* Tech Challenge :term:`match <Match>`, a team's robot must
 perform a variety of tasks to score points. For example, a team might
 want their robot to follow a white line on the competition floor and
 then score a game element into a goal autonomously during a match. Teams
@@ -120,7 +120,7 @@ navigate to the main Blocks Programming screen.
 
 |
 
-   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks Op Modes on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
+   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks :term:`Op Modes <OpMode>` on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
 
 .. image:: images/WritingFirstOpModeStep3bControlHub.jpg
    :align: center
@@ -247,7 +247,7 @@ Controlling a DC Motor
 ~~~~~~~~~~~~~~~~~~~~~~
 
 In this section, you will add some blocks to your op mode that will
-allow you to control a DC motor with a :term:`gamepad <Gamepad>`.
+allow you to control a :term:`DC motor <DC Motor>` with a :term:`gamepad <Gamepad>`.
 
 Note that you will need an estimated 15 minutes to complete this task.
 
@@ -399,7 +399,7 @@ will add a couple of :term:`telemetry <Telemetry>` statements that will send inf
 from the Robot Controller to the DRIVER STATION for display on the
 DRIVER STATION user interface. This telemetry mechanism is a useful way
 to display status information from the robot on the DRIVER STATION. You
-can use this mechanism to display sensor data, motor status, gamepad
+can use this mechanism to display :term:`sensor <Sensor>` data, motor status, gamepad
 state, etc. from the Robot Controller to the DRIVER STATION.
 
 Note that you will need an estimated 15 minutes to complete this task.

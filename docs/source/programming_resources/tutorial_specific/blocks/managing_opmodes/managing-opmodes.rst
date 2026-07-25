@@ -1,7 +1,7 @@
 Managing OpModes in Blocks :bdg-warning:`Blocks`
 ================================================
 
-Blocks is a programming language that uses graphical programming elements to
+:term:`Blocks` is a programming language that uses graphical programming elements to
 create programs. As such its file format is different than, say, a JAVA or
 other text-based programming language file. Blocks programs are saved with a
 **.blk** extension, but its contents are actually formatted as XML (Extensible
@@ -9,7 +9,7 @@ Markup Language).  The actual XML format in a Blocks program is beyond the
 scope of this document, except to say that it's not intended to be
 read/viewed/interpreted by any other program than Blocks. There is not a
 general program on a MAC or a PC that can view or edit the Blocks program, it
-must always be done through the Blocks interface within the Robot Controller
+must always be done through the Blocks interface within the :term:`Robot Controller`
 App (running on a REV :term:`Control Hub` or legal Android SmartPhone) - that is, to
 say, you cannot simply double-click on the file to open it up in an editor
 program that lives on your computer.
@@ -21,7 +21,7 @@ There is a :doc:`great tutorial for creating OpModes
 <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` that also explains a
 lot about the Blocks interface and helps you to understand what a Blocks
 program does. It is recommended to check out this document for learning how to
-work with Blocks OpModes. 
+work with Blocks :term:`OpModes <OpMode>`. 
 
 Saving an OpMode
 ----------------

@@ -5,13 +5,13 @@ Overview
 --------
 
 This page will offer tips for *FIRST* Tech Challenge teams seeking more info
-about specialized features of the new VisionPortal.
+about specialized features of the new :term:`VisionPortal`.
 
 Optional Metadata
 -----------------
 
-An AprilTag Library tag can store two optional **Metadata** fields (of
-these Blocks/Java types): 
+An :term:`AprilTag` Library tag can store two optional **Metadata** fields (of
+these :term:`Blocks`/Java types): 
 
 - ``fieldPosition``: tag location on the game field (``VectorF``) 
 - ``fieldOrientation``: tag orientation on the game field (``Quaternion``)

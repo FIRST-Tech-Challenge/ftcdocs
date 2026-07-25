@@ -4,7 +4,7 @@ Color Locator (Discover)
 Overview
 --------
 
-Another way to use FTC's new OpenCV vision tools is to operate a "Color
+Another way to use FTC's new :term:`OpenCV` vision tools is to operate a "Color
 Locator".  Namely, it can **find a target color that you specify**.
 
 As with the Color Sensor tool, you can specify a **Region of Interest** (ROI).
@@ -60,7 +60,7 @@ Sample OpMode
 Opening the Sample OpMode
 +++++++++++++++++++++++++
 
-To learn about opening the Sample OpMode, select and read the Blocks **or**
+To learn about opening the Sample OpMode, select and read the :term:`Blocks` **or**
 Java section below:
 
 .. tab-set::
@@ -109,7 +109,7 @@ Java section below:
 Running the Sample OpMode
 +++++++++++++++++++++++++
 
-1. On the Driver Station, select the Autonomous OpMode that you just saved or
+1. On the Driver Station, select the :term:`Autonomous` OpMode that you just saved or
    built.
 
 2. Turn off the automatic 30-second match timer (green slider).  Aim the camera

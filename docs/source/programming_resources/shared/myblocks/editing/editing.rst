@@ -2,7 +2,7 @@ Editing a myBlock
 =================
 
 If you edit and re-Build a myBlock’s Java code, you might need to
-**replace** that myBlock in the Blocks OpMode. It depends on whether you
+**replace** that myBlock in the :term:`Blocks` :term:`OpMode`. It depends on whether you
 change the myBlock’s visible or external features: annotation fields,
 input parameters or returned outputs.
 

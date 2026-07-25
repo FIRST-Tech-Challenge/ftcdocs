@@ -4,7 +4,7 @@ Phone Pairing
 Introduction
 ------------
 
-The Robot Controller and Driver Station apps are extremely
+The :term:`Robot Controller` and :term:`Driver Station` apps are extremely
 reliable for pairing, including between **all models of legal
 phones**. Please see the `Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__
 for list of phone models currently legal to use at *FIRST*

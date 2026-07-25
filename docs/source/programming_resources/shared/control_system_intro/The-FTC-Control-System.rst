@@ -22,7 +22,7 @@ robot can complete, the more points a team will earn.
 AUTO vs. TELEOP
 ~~~~~~~~~~~~~~~
 
-A *FIRST* Tech Challenge match has an AUTO phase and a
+A *FIRST* Tech Challenge :term:`match <Match>` has an :term:`AUTO` phase and a
 :term:`TELEOP` phase. In the AUTO phase
 of a match the robot operates without any human input or control. In the
 TELEOP phase, the robot can receive input from up to two
@@ -45,7 +45,7 @@ REV Robotics :term:`Control Hub`. The :term:`Robot Controller` acts as the “br
 robot. It does all of the thinking for the robot and tells the robot what
 to do. It consists of an Android device running a Robot Controller app. Many
 Teams will also connect a REV Robotics :term:`Expansion Hub` for additional ports to
-connect motors, servos and sensors to the ROBOT.
+connect motors, :term:`servos <Servo>` and :term:`sensors <Sensor>` to the ROBOT.
 
 A second Android device sits with the team drivers and has one or two
 :term:`gamepads <Gamepad>` connected. This second device is known as the DRIVER STATION.
@@ -66,7 +66,7 @@ Expansion Hub through a serial connection. For the situation where an
 Android smartphone is used as the Robot Controller, a USB cable is used
 to establish the serial connection.
 
-The Control Hub and Expansion Hub are also connected to a 12V battery which is used to
+The Control Hub and Expansion Hub are also connected to a 12V :term:`battery <Battery>` which is used to
 power the Control Hub, the Expansion Hub, the motors, the servos and sensors. If an
 Android smartphone is used as the Robot Controller, then the smartphone
 will have its own independent battery.

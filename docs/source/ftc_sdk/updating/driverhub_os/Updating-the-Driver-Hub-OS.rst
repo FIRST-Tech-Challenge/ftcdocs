@@ -6,7 +6,7 @@ functions, such as scheduling tasks, executing applications, and
 controlling peripherals. This must sometimes be updated on the **REV
 Driver Hub**. While this OS update is not specifically part of the 
 :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires
-these updates for the Driver Hub in order to perform correctly.
+these updates for the :term:`Driver Hub` in order to perform correctly.
 
 Here are two methods for updating the Driver Hub OS: 
 

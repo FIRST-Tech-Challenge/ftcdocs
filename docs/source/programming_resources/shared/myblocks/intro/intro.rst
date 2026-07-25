@@ -2,8 +2,8 @@ Introduction
 ============
 
 This tutorial shows how to make **custom Blocks**, to be used in
-regular Blocks programs. These **“myBlocks”** are programmed in Java,
-with OnBot Java or Android Studio.
+regular :term:`Blocks` programs. These **“myBlocks”** are programmed in Java,
+with :term:`OnBot Java` or :term:`Android Studio`.
 
 
 .. figure:: images/a0100-introSample.png

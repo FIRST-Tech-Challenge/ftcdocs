@@ -81,16 +81,16 @@ tutorials, you will need to have the following materials available:
      - |motor|
 
 
-   * - If you are using an approved 12V battery that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
+   * - If you are using an approved 12V :term:`battery <Battery>` that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
      - |tamiya|
   
    * - REV Robotics Anderson to JST VH Cable (REV-31-1381).
      - |jst|
 
-   * - 180-Degree Standard Scale Servo (such as Hitec HS-485HB).
+   * - 180-Degree Standard Scale :term:`Servo` (such as Hitec HS-485HB).
      - |servo|
 
-   * - REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154).
+   * - REV Robotics Color :term:`Sensor` with 4-Pin Cable (REV-31-1154).
      - |color|
 
    * - REV Robotics :term:`Touch Sensor` with 4-Pin Cable( REV-31-1425).

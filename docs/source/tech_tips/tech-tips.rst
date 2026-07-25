@@ -31,7 +31,7 @@ Legacy Tech Tips:
    **Android Studio 2024.2.1 LadyBug Update and the FTC SDK**
 
    This is an important message for teams who use :term:`Android Studio` to program
-   their robots. Teams who use Blocks or :term:`OnBot Java` are not impacted.
+   their robots. Teams who use :term:`Blocks` or :term:`OnBot Java` are not impacted.
 
    On October 1, 2024 `Android Studio
    <https://developer.android.com/studio/releases>`__ released a new version of
@@ -136,7 +136,7 @@ Legacy Tech Tips:
    This week’s Tech Tip of the Week focuses on the REV :term:`Driver Hub`. Sure, we
    already did a pretty thorough deep dive on the REV Driver Hub in the
    11/06/2023 Tech Tip "Driver Hub or Smartphone?", but we never really covered
-   the batteries used in the Driver Hub themselves - and, of course, this topic
+   the :term:`batteries <Battery>` used in the Driver Hub themselves - and, of course, this topic
    was recently brought up in a team question. The question was, “Why aren’t
    batteries for the REV Driver Hub interchangeable?”
 
@@ -202,7 +202,7 @@ Legacy Tech Tips:
 
    .. _servopowerinjectors:
 
-   This week’s Tech Tip of the Week is intended to be a short treatise on Servo 
+   This week’s Tech Tip of the Week is intended to be a short treatise on :term:`Servo` 
    Power Injectors. Servo Power Injectors have been used in FIRST Tech Challenge
    for several years now, but do you really understand what they are and how they 
    work? What is a Servo Power Injector and how might servos behave differently 
@@ -230,7 +230,7 @@ Legacy Tech Tips:
    directly from the robot battery - using power injectors means you could consume 
    all of the power on the robot just from the servos alone! This will result in the 
    robot power system browning out (resulting in loss of communications or loss of 
-   power to the control system) or even blowing the 20A battery fuse.
+   power to the control system) or even blowing the 20A battery :term:`fuse <Fuse>`.
 
    Using a servo power injector can also expose different behaviors in servos that 
    were not present when using the REV Control/Expansion Hub directly. The biggest 
@@ -313,7 +313,7 @@ Legacy Tech Tips:
 
    - *Mechanical Power(W) = torque (N-m) x angular speed (rad/s)*
 
-   Mechanical Power for a DC motor generally follows a very specific curve,
+   Mechanical Power for a :term:`DC motor <DC Motor>` generally follows a very specific curve,
    based on its efficiency, stall current, stall torque, speed, and a bunch of
    other factors. The general performance curve of a DC motor can be seen in
    Figure 1.
@@ -789,7 +789,7 @@ Legacy Tech Tips:
    Wi-Fi is a line-of-sight technology, that means Wi-Fi does best when there’s
    a straight unobstructed path from the antenna on the Control Hub to the
    antenna on the Driver Hub. Where is the antenna in a Control Hub? It’s right
-   under the plastic on the “face” of the hub on the logo side. If the Control
+   under the plastic on the “face” of the :term:`hub <Hub>` on the logo side. If the Control
    Hub can be mounted so that its antenna is generally not
    covered/surrounded/blocked by metal, 5GHz should be your target band.
    However, if your Control Hub is buried deep inside the robot and surrounded
@@ -1133,7 +1133,7 @@ Legacy Tech Tips:
   consume larger amounts of current, and this can cause even healthy batteries
   to have their voltages “sag” during periods of high use. Teams must consider
   their power consumption very carefully when optimizing their battery and
-  motor utilization during a match, even though that’s often an afterthought
+  motor utilization during a :term:`match <Match>`, even though that’s often an afterthought
   for most teams.
 
 .. dropdown:: Week of 03/18/2024 "Battery Fuses"
@@ -1197,7 +1197,7 @@ Legacy Tech Tips:
 
   .. _ferritecore:
 
-  For those about to use sensors, we salute you - with our Tech Tip of the
+  For those about to use :term:`sensors <Sensor>`, we salute you - with our Tech Tip of the
   Week! This week’s Tech Tip focuses on signal noise and how to eliminate it
   with ferrite cores.
 
@@ -1642,7 +1642,7 @@ Legacy Tech Tips:
    :ref:`automatically load your Driver Controlled OpMode
    <programming_resources/shared/auto_load_opmode/auto-load-opmode:Automatically
    Loading a Driver Controlled Op Mode>` as soon as your Autonomous OpMode has
-   completed? Lots of teams go into panic mode immediately after Autonomous has
+   completed? Lots of teams go into panic mode immediately after :term:`Autonomous` has
    completed - they’re trying to navigate and select the proper Driver
    Controlled OpMode, Initialize, and Run the OpMode while also picking up
    their gamepads and preparing to drive. Skip all that panic and confusion and

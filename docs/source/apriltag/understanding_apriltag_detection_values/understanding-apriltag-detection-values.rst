@@ -6,7 +6,7 @@ Understanding AprilTag Detection Values
 Introduction
 ------------
 
-When an AprilTag is detected by the new SDK vision processing system, the core
+When an :term:`AprilTag` is detected by the new SDK vision processing system, the core
 code returns a collection of raw data that is often not easily interpreted.
 However, the data can be further transformed into a familiar frame of reference
 to make it more easily utilized.

@@ -4,7 +4,7 @@ Using Sensors :bdg-warning:`Blocks`
 Color-Distance Sensor
 ~~~~~~~~~~~~~~~~~~~~~
 
-A sensor is a device that lets the Robot Controller get information
+A :term:`sensor <Sensor>` is a device that lets the :term:`Robot Controller` get information
 about its environment. In this example, you will use a REV Robotics
 Color-Distance sensor to display range (distance from an object) info to
 the DRIVER STATION.
@@ -27,7 +27,7 @@ Controller's Program & Manage Wi-Fi network.
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left hand corner of the  
 browser window on the laptop. This should take you to the main 
-Blocks Development Tool project screen.                               
+:term:`Blocks` Development Tool project screen.                               
 
 .. image:: images/DistanceSensorStep2ControlHub.jpg
    :align: center

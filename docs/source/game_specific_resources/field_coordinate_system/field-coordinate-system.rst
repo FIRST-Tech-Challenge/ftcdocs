@@ -6,14 +6,14 @@
 .. meta::
    :description: This document defines the FIRST Tech Challenge Field Coordinate System which can be used to specify position on the playing field.
 
-Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions.
+Summary: The *FIRST* Tech Challenge :term:`Field Coordinate System` is a Cartesian Coordinate System of three dimensions.
 The X and Y axes will refer to a position on the field and the Z axis a height above the field.
 
 Scope
 -----
   
 This document defines the Field Coordinate System 
-for a *FIRST* Tech Challenge playing field. This definition can be
+for a *FIRST* Tech Challenge :term:`playing field <Playing Field>`. This definition can be
 used for consistent field-centric navigation, target localization and path
 planning.
 
@@ -195,7 +195,7 @@ on the field.
 
 Robots can use an inertial measurement unit (:term:`IMU`) to measure rotations about axes
 with respect to the robot. See :ref:`IMU axes definition. <programming_resources/imu/imu:axes definition>`
-The yaw value from the IMU, also known the heading, measures rotation about the Z axis
+The yaw value from the IMU, also known the :term:`heading <Heading>`, measures rotation about the Z axis
 which points up from the robot. 
 You can use the IMU to determine which direction a robot is facing.
 

@@ -1,7 +1,7 @@
 Example: Read-Write File Access
 ===============================
 
-The current version of regular Blocks (SDK 7.0) does not provide
+The current version of regular :term:`Blocks` (SDK 7.0) does not provide
 **read/write access to an external file**, other than automatic Log or
 Match Log file entries. File access is a useful capability, available so
 far to Java programmers only. Now it can be done with myBlocks!
@@ -19,12 +19,12 @@ files.
 Write and read actions can happen in the same OpMode or **different
 OpModes**, allowing various scenarios:
 
--  Autonomous passes information to :term:`TeleOp <TELEOP>`. For example, what was the
-   latest value of a sensor or :term:`encoder <Encoder>`?
+-  :term:`Autonomous` passes information to :term:`TeleOp <TELEOP>`. For example, what was the
+   latest value of a :term:`sensor <Sensor>` or :term:`encoder <Encoder>`?
 
 -  A special **set-up OpMode** allows :term:`gamepad <Gamepad>` input to choose an
    autonomous strategy and adjust key parameters. The robot could then
-   be idle for a long time, even turned off. When the match begins, the
+   be idle for a long time, even turned off. When the :term:`match <Match>` begins, the
    Autonomous OpMode would read those settings and implement the
    chosen/adjusted actions.
 

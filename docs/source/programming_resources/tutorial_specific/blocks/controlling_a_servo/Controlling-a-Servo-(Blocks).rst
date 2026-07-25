@@ -3,9 +3,9 @@ Controlling a Servo :bdg-warning:`Blocks`
 
 In the section titled :doc:`Creating an Op Mode with 
 Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use
-the Blocks Programming Tool to write an op mode that controls a 12V
-DC motor. In this section, you will learn how to write an op mode that
-controls a servo motor.
+the :term:`Blocks Programming Tool` to write an op mode that controls a 12V
+:term:`DC motor <DC Motor>`. In this section, you will learn how to write an op mode that
+controls a :term:`servo <Servo>` motor.
 
 What is a Servo Motor?
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -27,7 +27,7 @@ even if external forces are applied to the shaft of the servo.
 |
 
 Servo motors are useful when you want to do precise movements (for
-example, sweep an area with a sensor to look for a target or move the
+example, sweep an area with a :term:`sensor <Sensor>` to look for a target or move the
 control surfaces on a remotely controlled airplane).
 
 Modifying Your Op Mode to Control a Servo

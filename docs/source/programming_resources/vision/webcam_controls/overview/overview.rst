@@ -30,7 +30,7 @@ left column.
 That page provides links to the 5 interfaces listed above.
 
 The methods described here can be used in :term:`Android Studio` or :term:`OnBot Java`.
-They can also be provided to Blocks programmers by creating
+They can also be provided to :term:`Blocks` programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
 You will see :term:`Vuforia` mentioned here, and in the `sample OpModes

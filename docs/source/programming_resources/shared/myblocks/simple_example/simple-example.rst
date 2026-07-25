@@ -4,13 +4,13 @@ Simple Example: create myGreeting
 Start with a simple myBlock that creates a greeting “Hello World” (of
 course!).
 
-Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone.
+Open a Chrome browser connected via Wi-Fi to a :term:`Control Hub` or RC phone.
 Go to the address **http://192.168.43.1:8080** (CH) or
 **http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab.
 
 .. note:: A computer can usually connect to only one Wi-Fi network at a
    time. To follow this tutorial while programming please use the PDF version 
-   of FTC Docs. If you need internet and programming together,
+   of :term:`FTC Docs`. If you need internet and programming together,
    connect an Ethernet cable to an internet router **or** try adding a
    USB Wi-Fi dongle.
 
@@ -100,7 +100,7 @@ inside the parentheses, indicating the method takes one **input** named
 The method contains only one line of instruction, on Line 15: **three
 text items are joined to form a single text string**. The middle text
 item is the input parameter greetingRecipient, to be entered by the
-Blocks user. The longer combined string is returned to the program that
+:term:`Blocks` user. The longer combined string is returned to the program that
 called this method. Namely, the combined string is provided to the Block
 that uses your new myBlock.
 
@@ -162,7 +162,7 @@ programmers.
 
 .. image:: images/a0200-Hello-run-screenshot-circle.png
 
-\ **Congratulations!** You are now an OnBot Java programmer and myBlocks
+\ **Congratulations!** You are now an :term:`OnBot Java` programmer and myBlocks
 creator.
 
    For extra fun: try the **Telemetry.speak** Block, followed by a 1500

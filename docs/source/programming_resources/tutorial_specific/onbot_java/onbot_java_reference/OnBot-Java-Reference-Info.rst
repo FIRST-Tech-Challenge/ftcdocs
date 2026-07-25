@@ -6,7 +6,7 @@ Javadoc Reference Pages
 
 As you start to write more complicated op modes, you will need to use
 more features of the *FIRST* Tech Challenge software development kit
-(SDK). You can reference online Javadoc material that provide
+(SDK). You can reference online :term:`Javadoc` material that provide
 descriptions of the available *FIRST* Tech Challenge-related classes and
 methods, at the following web address:
 

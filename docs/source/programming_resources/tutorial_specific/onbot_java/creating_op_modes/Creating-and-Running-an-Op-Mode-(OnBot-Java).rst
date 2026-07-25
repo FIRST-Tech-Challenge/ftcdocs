@@ -6,7 +6,7 @@ The Java Programming Language
 
 This tutorial assumes that you have a sound understanding of the Java
 programming language. If you do not know Java, then you should consider
-using the Blocks Programming Tool, which is a visual development
+using the :term:`Blocks Programming Tool`, which is a visual development
 tool. Information about the Blocks Programming Tool can be found at
 the following link:
 
@@ -20,12 +20,12 @@ https://docs.oracle.com/javase/tutorial/
 What's an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-During a typical *FIRST* Tech Challenge match, a team's robot must perform
+During a typical *FIRST* Tech Challenge :term:`match <Match>`, a team's robot must perform
 a variety of tasks to score points. For example, a team might want their
 robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
 programs called *OpModes* (which stands for "operational modes") to
-specify the behavior for their robot. These OpModes run on the Robot
+specify the behavior for their robot. These :term:`OpModes <OpMode>` run on the Robot
 Controller phone after being selected on the DRIVER STATION device.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
@@ -287,7 +287,7 @@ when a user selects and runs the op mode.
        public void runOpMode() {
 
 At the start of the runOpMode method, the op mode uses an object named
-hardwareMap to get references to the hardware devices that are listed in
+:term:`hardwareMap` to get references to the hardware devices that are listed in
 the Robot Controller's configuration file:
 
 .. code-block:: java
@@ -305,7 +305,7 @@ Note that when you attempt to retrieve a reference to a specific device
 in your op mode, the name that you specify as the second argument of the
 HardwareMap.get method must match the name used to define the device in
 your configuration file. For example, if you created a configuration
-file that had a DC motor named "motorTest", then you must use this same
+file that had a :term:`DC motor <DC Motor>` named "motorTest", then you must use this same
 name (it is case sensitive) to retrieve this motor from the hardwareMap
 object. If the names do not match, the op mode will throw an exception
 indicating that it cannot find the device.

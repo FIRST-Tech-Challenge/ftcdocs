@@ -8,7 +8,7 @@ Planning Wi-Fi Channels for Large Events
 Accommodating a Large Number of Robots at an Event
 ----------------------------------------------------
 
-The wireless Control System is a point-to-point system. This means that each
+The wireless :term:`Control System` is a point-to-point system. This means that each
 Driver Station-robot pair establishes its own Wi-Fi network at an event. If
 there are a large number of robots in a venue, then there will be a large
 number of wireless networks operating in the venue. If there are a large
@@ -98,7 +98,7 @@ channel, here are some factors to consider when doing your planning.
     channel.
   - *Use a pair of Android devices to monitor ping times.* If a target
     channel looks relatively clean, you should use a pair of Android
-    devices running the FTC Driver Station and FTC :term:`Robot Controller` apps to
+    devices running the FTC :term:`Driver Station` and FTC :term:`Robot Controller` apps to
     monitor the ping times on the target channel. You will need a pair of
     Android devices that support channel changing (such as approved FTC
     phones). Switch to the target channel and test to make sure you can

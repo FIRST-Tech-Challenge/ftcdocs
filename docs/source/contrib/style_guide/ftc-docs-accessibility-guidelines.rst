@@ -10,7 +10,7 @@ Then move to meet the level AA criteria to improve that accessibility.
 See the `How to Meet WCAG Quick Reference <https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`_ for more information.
 
 .. Note:: 
-   This page attempts to document from the WCAG perspective what is important and relate that to FTC Docs.
+   This page attempts to document from the WCAG perspective what is important and relate that to :term:`FTC Docs`.
    This page is primarily for content authors. Accessibility issues due to Sphinx or Read the Docs will be dealt with in GitHub issues.
 
 .. contents:: Contents
