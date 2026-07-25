@@ -15,7 +15,7 @@ https://javadoc.io/doc/org.firstinspires.ftc
 Sample Op Modes
 ~~~~~~~~~~~~~~~
 
-The OnBot Java Programming Tool has several built-in example OpModes and projects
+The :term:`OnBot Java Programming Tool` has several built-in example :term:`OpModes <OpMode>` and projects
 that demonstrate how to do different tasks with the *FIRST* Tech Challenge
 control system. As you create a new file, you can use the Sample
 dropdown list control to display a list of available sample OpModes or

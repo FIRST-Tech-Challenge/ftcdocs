@@ -62,7 +62,7 @@ Here are two methods to query focus and and a specific focus mode:
 
 The following methods return a **negative value** if the requested focus
 value is unavailable. For example, -1 is returned by the Logitech C270
-and the Microsoft LifeCam VX-5000. The Javadoc also mentions a field
+and the Microsoft LifeCam VX-5000. The :term:`Javadoc` also mentions a field
 ``unknownFocusLength`` of type double. 
 
 - getFocusLength() 
@@ -118,7 +118,7 @@ Some Caveats
    **darker** up to 30-40
 -  Logitech C920 **gain** value (0-255) greatly influences preview
    quality, comparable to **exposure** (0-204)
--  restarting the RC app is sometimes needed after a webcam OpMode
+-  restarting the RC app is sometimes needed after a webcam :term:`OpMode`
    crashes
 -  firmware versions may vary among webcams of the same model number
 
@@ -128,4 +128,4 @@ of an external library such as `OpenCV <https://opencv.org/>`__ or
 is not covered in this basic tutorial. A separate tutorial covers the
 general use of `External
 Libraries <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__
-in Blocks and OnBot Java.
+in Blocks and :term:`OnBot Java`.

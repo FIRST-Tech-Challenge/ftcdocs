@@ -40,7 +40,7 @@ relatively easy to damage or scrape.
 PTFE Lined vs All-Metal Hotends
 -------------------------------- 
 
-PTFE tubing is a common low friction tubing used in 3D printing. PTFE lined hotends have a section of this tubing 
+PTFE tubing is a common low friction tubing used in :term:`3D printing <3D Printing>`. PTFE lined hotends have a section of this tubing 
 that goes right up to the heated area. These are typically the cheaper option, but it is not recommend to use
 them whatsover if you plan on 3D printing anything beyond PLA/PETG. PTFE at temperatures over standard printing temps 
 (normally ~250C is the limit) can "off-gas", putting off dangerous VOCs (Volatile Organic Compounds). All-Metal 

@@ -15,7 +15,7 @@ resources.
 The 8.2 SDK provides numerous tools to manage this balance:
 
 - disable and enable the RC preview (called LiveView) - "Level 1"
-- disable and enable the AprilTag (or TFOD) processor - "Level 2"
+- disable and enable the :term:`AprilTag` (or :term:`TFOD`) processor - "Level 2"
 - stop and resume the camera stream - "Level 3"
 - close VisionPortal - "Level 4"
 - monitor frames-per-second (FPS)
@@ -148,7 +148,7 @@ orange screen if no processors are enabled.  Thus the preview **can**
 effectively be toggled off and on, using this AutoPause feature.
 
 When one or both processors are re-enabled, LiveView resumes.  This setting
-affects only LiveView; the Driver Station Camera Stream preview remains
+affects only LiveView; the :term:`Driver Station` Camera Stream preview remains
 available.
 
 Disable LiveView
@@ -161,7 +161,7 @@ LiveView **in general**, available in Blocks and Java:
 
    builder.enableLiveView(true);
 
-Sample OpModes set this Builder field to ``true`` by default.
+:term:`Sample OpModes <Sample OpMode>` set this Builder field to ``true`` by default.
 
 This could be set to ``false``, if the OpMode will not need the LiveView
 preview at all.  Being part of the Builder pattern, this feature cannot be
@@ -354,7 +354,7 @@ available for your OpMode to track, record and evaluate, in Blocks and Java:
 
 Teams can collect FPS data to illustrate the general effects of, for
 example, (a) resolution and (b) processors running, on CPU performance.
-Results will depend on many team-specific factors such as webcams, codebase
+Results will depend on many team-specific factors such as :term:`webcams <Webcam>`, codebase
 (other processing), vision targets (number, type, distance), etc.
 
 Learn more about such studies at this `Datalogging tutorial
@@ -377,7 +377,7 @@ For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB
 capacity, although higher resolution can cause the auto-optimized frame rate to
 reduce.
 
-Using the Control Hub's two USB ports, the choice of stream format has little
+Using the :term:`Control Hub`'s two USB ports, the choice of stream format has little
 impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**;
 adding a webcam may affect its reliability.
 

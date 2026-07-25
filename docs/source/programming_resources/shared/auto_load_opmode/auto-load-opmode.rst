@@ -12,7 +12,7 @@ has completed. This feature can help a team avoid selecting the wrong op
 mode during a match.
 
 To use this feature, verify that you are using version 6.1 or greater of
-the SDK software (Robot Controller and Driver Station).
+the SDK software (:term:`Robot Controller` and Driver Station).
 
 Select an autonomous program to use during your match. The preselect
 button will appear in the lower left corner of the screen. It will be
@@ -63,7 +63,7 @@ button. It will become translucent again and the text adjacent to it
 will disappear.
 
 After the Autonomous program ends, the Driver Station changes the queued
-OpMode to the TeleOp program which was preselected before the start of
+OpMode to the :term:`TeleOp <TELEOP>` program which was preselected before the start of
 Autonomous. The auto-preselection will be aborted if the user presses
 stop (either the main stop or init stop buttons). It will only
 transition if the OpMode either self-exits, or is terminated by the 30s

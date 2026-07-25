@@ -17,7 +17,7 @@ Configuration screen.
 
 |
 
-2. Since we installed our motor onto port #0 of the Expansion Hub,    
+2. Since we installed our motor onto port #0 of the :term:`Expansion Hub`,    
 use the dropdown control for port 0 to select the motor type (Tetrix  
 Motor for this example).
 

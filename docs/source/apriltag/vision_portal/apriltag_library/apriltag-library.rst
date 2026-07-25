@@ -52,7 +52,7 @@ Default Libraries
 
 The SDK uses two core Libraries of predefined AprilTags:
 
--  tags used only in Sample OpModes
+-  tags used only in :term:`Sample OpModes <Sample OpMode>`
 -  tags used only in the Robot Game (competition)
 
 The first Library, called ``SampleTagLibrary``, is available now with

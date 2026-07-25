@@ -16,7 +16,7 @@ are used in three different ways:
    are randomized each MATCH.
 2. On the GOALS, AprilTags can be used to target the GOAL for teams to launch
    ARTIFACTS accurately into the correct GOAL.
-3. On the GOALS, AprilTags can be used as a visual odometry system, using the
+3. On the GOALS, AprilTags can be used as a visual :term:`odometry <Odometry>` system, using the
    information that AprilTags can provide to calculate the position of the 
    ROBOT on the FIELD (through a process called localization). See the 
    :doc:`AprilTag Localization <../../vision_portal/apriltag_localization/apriltag-localization>`
@@ -37,7 +37,7 @@ are able to see the AprilTags correctly. AprilTags rely on the fact that the
 white and black portions of the AprilTags are contrasting colors - if the lighting
 in the environment doesn't allow for enough contrast, the AprilTag algorithm
 may not properly detect the AprilTag. Fortunately, there are things we can do 
-with virtually every webcam that can help correct for environmental issues.
+with virtually every :term:`webcam <Webcam>` that can help correct for environmental issues.
 
 An excellent example situation came up in a warehouse. The DECODE field was set
 up in the warehouse, and using default settings with the
@@ -127,7 +127,7 @@ using the ``ConceptAprilTagOptimizeExposure`` sample.
 Sure enough, by minimizing the Exposure and maximizing the Gain of the webcam,
 the resulting images from the webcam were able to be used to recognize the
 problematic AprilTags. For more examples, the ``RobotAutoDriveToAprilTag...``
-sample OpModes also use this technique for adjusting the exposure and gain 
+sample :term:`OpModes <OpMode>` also use this technique for adjusting the exposure and gain 
 settings of the camera to ensure the AprilTags are readable under most 
 conditions. 
 

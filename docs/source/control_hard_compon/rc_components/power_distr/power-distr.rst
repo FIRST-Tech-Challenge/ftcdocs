@@ -59,7 +59,7 @@ Robot Main Battery
       REV Robotics (REV-31-1302)
 
 The main power of a robot comes from one 12v battery. The batterys above are
-samples of these batteries, check the Competition Manual for the full list of
+samples of these batteries, check the :term:`Competition Manual` for the full list of
 batteries. Note that it is typically allowed to replace the connector on the
 batteries, provided the in-line fuse on the battery is preserved, again check
 the Competition Manual for full details.
@@ -190,7 +190,7 @@ Power Distribution Block
       goBILDA (SKU: 3108-2833-0801)
 
 Power Distribution Blocks help to distribute the power to devices such as
-Control Hubs, SPARKminis, and more.  See the Competition Manual for a
+:term:`Control Hubs <Control Hub>`, SPARKminis, and more.  See the Competition Manual for a
 description of legal Power Distribution methods. The Power Distribution Blocks
 shown are not the only legal devices for power distribution.
 

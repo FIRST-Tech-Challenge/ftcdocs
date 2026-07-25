@@ -10,7 +10,7 @@ Exposure Control Code Samples
 
 -  ``ExposureControl myExposureControl;``
 
-3. Assign the Vuforia/TFOD video stream control to your control object,
+3. Assign the :term:`Vuforia`/:term:`TFOD` video stream control to your control object,
    in ``runOpMode()``.
 
 -  ``myExposureControl = vuforia.getCamera().getControl(ExposureControl.class);``

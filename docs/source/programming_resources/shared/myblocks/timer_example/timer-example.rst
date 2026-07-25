@@ -61,11 +61,11 @@ always show **zero**.
 
 Or, a programmer might use Line 15 to **replace** Line 29, since they
 “do the same thing”. But the object **myStopwatch** is needed at Line 24
-also, for telemetry. Moving the telemetry to be **after** Line 29 does
-not help. If the operator has not yet pressed gamepad button X, the
+also, for :term:`telemetry <Telemetry>`. Moving the telemetry to be **after** Line 29 does
+not help. If the operator has not yet pressed :term:`gamepad <Gamepad>` button X, the
 object does not exist and the program will crash.
 
-When you clicked “Build Everything” in OnBot Java, all of the code in
+When you clicked “Build Everything” in :term:`OnBot Java`, all of the code in
 your SampleMyBlocks class was processed. That included creating the
 object myStopwatch, which became available for any method in that class.
 It was not necessary to declare it inside the myBlock method. In this
@@ -83,7 +83,7 @@ clear.
 
 .. note:: This tutorial intends for you to **manually type** the Java
       code above. OnBot Java helps by suggesting some code as you type, and
-      by entering import statements when classes are used. Android Studio
+      by entering import statements when classes are used. :term:`Android Studio`
       helps even more. If you require pre-typed text of this example see below.
       The linked copy includes more Java comments, omitted above to focus
       on the Java code. Also not shown are the package and import

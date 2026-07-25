@@ -104,9 +104,9 @@ to run your updated op mode.
 Touch Sensor
 ~~~~~~~~~~~~
 
-For this example, we assume that the REV Robotics Touch Sensor has been
+For this example, we assume that the REV Robotics :term:`Touch Sensor` has been
 configured as a digital touch sensor in the Robot Controller's active
-configuration file. We will use the "isPressed" programming block to
+:term:`configuration file <Configuration File>`. We will use the "isPressed" programming block to
 determine if the button on the sensor is currently pressed or not.
 
 .. image:: images/REVTouchSensor.jpg
@@ -114,7 +114,7 @@ determine if the button on the sensor is currently pressed or not.
 
 |
 
-The Control Hub or Expansion Hub digital ports contain two digital pins per port. When
+The :term:`Control Hub` or :term:`Expansion Hub` digital ports contain two digital pins per port. When
 you use a 4-wire JST cable to connect a REV Robotics Touch sensor to a Control Hub or
 Expansion Hub digital port, the Touch Sensor is wired to the second of
 the two digital pins within the port. The first digital pin of the
@@ -222,5 +222,5 @@ to run your updated op mode.
 
 |
 
-   As you run the op mode and push or release the button, the telemetry message on the DRIVER STATION should update to reflect the current state of the digital Touch Sensor.
+   As you run the op mode and push or release the button, the :term:`telemetry <Telemetry>` message on the DRIVER STATION should update to reflect the current state of the digital Touch Sensor.
 

@@ -20,7 +20,7 @@ page.  For now it's enough to know the 4 basic elements of Metadata.
 Tag Contents
 ------------
 
-The SDK 8.2 Sample OpModes use AprilTags with these Metadata values:
+The SDK 8.2 :term:`Sample OpModes <Sample OpMode>` use AprilTags with these Metadata values:
 
 - ``583, Nemo, 4, DistanceUnit.INCH``
 - ``584, Jonah, 4, DistanceUnit.INCH``
@@ -73,7 +73,7 @@ page for sample ``for()`` loop code.
 Unlike tag ID code, a detected AprilTag might have **no tag name** -- if it was
 not placed into the Library by default or with the custom Builder pattern.
 
-To avoid logic errors, an OpMode can check the Metadata for a **null**
+To avoid logic errors, an :term:`OpMode` can check the Metadata for a **null**
 condition before attempting to process a tag name.  This is illustrated in
 these Sample OpModes: 
 

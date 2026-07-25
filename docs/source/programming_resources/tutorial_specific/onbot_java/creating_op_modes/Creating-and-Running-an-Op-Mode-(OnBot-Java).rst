@@ -30,14 +30,14 @@ Controller phone after being selected on the DRIVER STATION device.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own OpModes.
-This document explains how to use the OnBot Java Programming Tool to
+This document explains how to use the :term:`OnBot Java Programming Tool` to
 write an op mode for a robot.
 
 The OnBot Java Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OnBot Java Programming Tool is a user-friendly programming tool
-that is served up by the Robot Controller phone. A user can create
+The :term:`OnBot Java` Programming Tool is a user-friendly programming tool
+that is served up by the :term:`Robot Controller` phone. A user can create
 custom op modes for their robot using this tool and then save these op
 modes directly onto the Robot Controller. Users write their op modes
 using Java. The op modes are compiled very quickly on the Robot
@@ -152,11 +152,11 @@ your new file.
 
    For this example, specify "MyFIRSTJavaOpMode" as the File Name in the New File dialog box.
 
-   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available sample op modes (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic LinearOpMode framework for you.
+   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available sample op modes (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic :term:`LinearOpMode` framework for you.
 
    Check the option labeled "TeleOp" to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) op mode.
    
-   Also, make sure you check the "Setup Code for Configured Hardware" option.  If this option is enabled, the OnBot Java editor will look at the hardware configuration file for your Robot Controller and automatically generate the code that you will need to access the configured devices in your op mode.
+   Also, make sure you check the "Setup Code for Configured Hardware" option.  If this option is enabled, the OnBot Java editor will look at the hardware :term:`configuration file <Configuration File>` for your Robot Controller and automatically generate the code that you will need to access the configured devices in your op mode.
 
    Press the "OK" button to create your new op mode.
 
@@ -312,7 +312,7 @@ indicating that it cannot find the device.
 
 In the next few statements of the example, the op mode prompts the user
 to push the start button to continue. It uses another object that is
-available in the runOpMode method. This object is called telemetry and
+available in the runOpMode method. This object is called :term:`telemetry <Telemetry>` and
 the op mode uses the addData method to add a message to be sent to the
 DRIVER STATION. The op mode then calls the update method to send the
 message to the DRIVER STATION. Then it calls the waitForStart method, to
@@ -521,7 +521,7 @@ Modifying Your Op Mode to Control a Motor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's modify your op mode to control the DC motor that you connected and
-configured for your REV Expansion Hub. Modify the code for the program
+configured for your REV :term:`Expansion Hub`. Modify the code for the program
 loop so that it looks like the following:
 
 .. code-block:: java
@@ -553,7 +553,7 @@ negative value of the gamepad1's left joystick:
    tgtPower = -this.gamepad1.left_stick_y;
 
 The object gamepad1 is available for you to access in the runOpMode
-method. It represents the state of gamepad #1 in your OPERATOR CONSOLE.
+method. It represents the state of :term:`gamepad <Gamepad>` #1 in your OPERATOR CONSOLE.
 Note that for the F310 gamepads that are used during the competition,
 the Y value of a joystick ranges from -1, when a joystick is in its
 topmost position, to +1, when a joystick is in its bottommost position.
@@ -592,7 +592,7 @@ Running Your Op Mode with a Gamepad Connected
    F310 gamepad to the DRIVER STATION.
 
 Connect the gamepad to the DRIVER STATION. If using a phone, you will
-need a Micro USB OTG adapter cable.
+need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center

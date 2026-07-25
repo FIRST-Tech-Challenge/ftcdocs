@@ -10,9 +10,9 @@ Here are 5 methods:
 
 1. REV Hardware Client (RHC) 
 2. Driver Station app
-3. Robot Controller (RC) app - on RC phone 
+3. :term:`Robot Controller` (RC) app - on RC phone 
 4. Manage page on computer 
-5. Manage page on Driver Station device (DS phone or Driver Hub)
+5. Manage page on Driver Station device (DS phone or :term:`Driver Hub`)
 
 .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 

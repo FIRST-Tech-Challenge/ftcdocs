@@ -35,7 +35,7 @@ Modifying Your Op Mode to Control a Servo
 
 Let's modify your op mode to add the logic required to control a servo
 motor. For this example, you will use the buttons on the Logitech F310
-gamepad to control the position of the servo motor.
+:term:`gamepad <Gamepad>` to control the position of the servo motor.
 
 With a typical servo, you can specify a target position for the servo.
 The servo will turn its motor shaft to move to the target position, and
@@ -289,7 +289,7 @@ field.
    This set of blocks will send the current servo position value to the DRIVER STATION while the op mode is running.
 
 25. Save your op mode and verify that it was saved successfully to    
-the Robot Controller.                                                 
+the :term:`Robot Controller`.                                                 
 
 .. image:: images/ControlServoStep25ControlHub.jpg
    :align: center

@@ -10,7 +10,7 @@ scope of this document, except to say that it's not intended to be
 read/viewed/interpreted by any other program than Blocks. There is not a
 general program on a MAC or a PC that can view or edit the Blocks program, it
 must always be done through the Blocks interface within the Robot Controller
-App (running on a REV Control Hub or legal Android SmartPhone) - that is, to
+App (running on a REV :term:`Control Hub` or legal Android SmartPhone) - that is, to
 say, you cannot simply double-click on the file to open it up in an editor
 program that lives on your computer.
 
@@ -28,7 +28,7 @@ Saving an OpMode
 
 It's important to understand what is meant by **"Saving"** an OpMode. When
 programming/editing an OpMode, you're using either a web browser (Chrome, etc.)
-or you are using a program *acting* as a web browser (REV Hardware Client,
+or you are using a program *acting* as a web browser (:term:`REV Hardware Client`,
 etc.).  The program that you are creating/editing only *ephemerally* exists
 within the web browser; there is no auto-save or feature to ensure that the
 program is ultimately saved back onto the device (REV Control Hub or approved

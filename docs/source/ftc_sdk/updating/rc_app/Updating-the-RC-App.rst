@@ -20,7 +20,7 @@ Blocks / OnBot Java
 ^^^^^^^^^^^^^^^^^^^
 
 The Robot Controller (RC) App contains the programming environments for Blocks
-and OnBot Java, and the User Programs (Team Code) developed using those
+and :term:`OnBot Java`, and the User Programs (Team Code) developed using those
 environments are stored independently ALONGSIDE the RC App. This makes it
 possible to update the RC App independently without affecting Team Code.  This
 incredibly simplifies updating the RC App software, since no *code* needs to be
@@ -33,14 +33,14 @@ flexibility is still possible in this regard for advanced users.
 Android Studio
 ^^^^^^^^^^^^^^
 
-Android Studio, in general, works exactly the opposite. The FtcRobotController
+:term:`Android Studio`, in general, works exactly the opposite. The FtcRobotController
 repository (the Android Studio Project) contains the full source code needed to
 build a complete RC App; when the Android Studio Project is compiled and
 deployed, it's actually building a complete Robot Controller App and installing
 it onto the RC Android device. Team Code **and** the Robot Controller code are
 compiled *together*, meaning the Team Code is embedded WITHIN the RC App and
 cannot be updated/edited independently of the RC App. If the Android
-Studio-deployed RC App is replaced using the REV Hardware Client or similar
+Studio-deployed RC App is replaced using the :term:`REV Hardware Client` or similar
 process, the RC App with the Team Code embedded is removed and replaced with
 the default RC App - so Android Studio users should NEVER update the RC App
 using anything but Android Studio! However, this can complicate upgrading and
@@ -77,7 +77,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
 
    #. REV Hardware Client (RHC)
    #. Manage page on computer
-   #. Manage page on DS phone or Driver Hub
+   #. Manage page on DS phone or :term:`Driver Hub`
 
    .. note:: 
       “Side loading”, while possible, is not described here for the Control Hub

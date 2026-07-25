@@ -37,7 +37,7 @@ Volunteer Special Thanks
 -------------------------
 
 The *FIRST* Tech Challenge staff would like to extend a special thanks
-to the following volunteers for their hard work and dedication toward
+to the following :term:`volunteers <Volunteer>` for their hard work and dedication toward
 this project:
 
 -  Lucas Y., Team 16461

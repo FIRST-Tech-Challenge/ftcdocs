@@ -37,8 +37,8 @@ Connecting the Camera
 ---------------------
 
 The UVC camera can plug directly into the USB 3.0 port on the REV Control
-Hub. Unlike the REV Expansion Hub, there is no need for an external
-powered USB hub.
+Hub. Unlike the REV :term:`Expansion Hub`, there is no need for an external
+powered :term:`USB hub <USB Hub>`.
 
 .. image:: images/USB-camera-Control-Hub.jpg
    :alt: Control Hub with UVC camera connected.
@@ -48,7 +48,7 @@ powered USB hub.
    The REV Control Hub has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
    
 If you wish to connect two webcams see `Cameras and USB Hubs`_.
@@ -57,7 +57,7 @@ Camera Configuration
 --------------------
 
 Before using the external camera, it must be added to the active
-configuration file as a USB-connected device.
+:term:`configuration file <Configuration File>` as a USB-connected device.
 
 Use the Configure Robot menu item on the paired DRIVER STATION device to
 add the webcam as a USB-connected device to an existing or newly created
@@ -68,7 +68,7 @@ activity should detect the webcam and give it a default name of “Webcam
 .. image:: images/webcam-config-CH.jpg
    :alt: Screen shot showing the Scan button circled in yellow and the resulting USB device listed as Webcam 1.
 
-You can keep this default name (the sample Op Modes reference this name)
+You can keep this default name (the sample :term:`Op Modes <OpMode>` reference this name)
 or change it. If you change the webcam name, make sure your Op Modes
 refer to this new name.
 
@@ -79,7 +79,7 @@ When the configuration has been saved and activated, the external UVC
 camera can be programmed for robot vision tasks.
 
 The SDK software offers “webcam” versions of its sample Blocks and Java
-Op Modes, showing how to use the external UVC camera for VisionPortal operations.
+Op Modes, showing how to use the external UVC camera for :term:`VisionPortal` operations.
 
 .. image:: images/blockswebcam.png
    :alt: Blocks code for initializing a webcam.
@@ -140,7 +140,7 @@ Scrcpy
 
 To view the camera output from a computer while an OpMode is running, you
 can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this,
-you will first need to obtain an ADB connection with your Control Hub.
+you will first need to obtain an :term:`ADB` connection with your Control Hub.
 This can be done by connecting a USB-A to USB-C cable to the USB-C port
 on your Control Hub. If on Windows, you may also connect to your Control
 Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__.
@@ -172,7 +172,7 @@ device plugged into the HDMI port on the REV Control Hub.
 Advanced Users
 --------------
 
-For custom streams, advanced users of Android Studio may consult the
+For custom streams, advanced users of :term:`Android Studio` may consult the
 `API documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ for
 `CameraStreamClient <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__,
 `CameraStreamServer <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__
@@ -217,7 +217,7 @@ It has a USB C port that can supply power to all connected devices.
    A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
    Two Logitech C920 webcams are connected to the USB hub.
 
-See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ sample program that demonstrates swapping between the two cameras to detect AprilTags.
+See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ sample program that demonstrates swapping between the two cameras to detect :term:`AprilTags <AprilTag>`.
 
 The other use case is using a Limelight a with a powered USB hub to reduce robot battery drain.
 This example shows both a Limelight and a webcam.

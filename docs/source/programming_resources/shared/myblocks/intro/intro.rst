@@ -40,7 +40,7 @@ Notes on Java
 ~~~~~~~~~~~~~
 
 -  This tutorial builds myBlocks with :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>`,
-   a programming tool running on the Control Hub or Robot Controller
+   a programming tool running on the :term:`Control Hub` or :term:`Robot Controller`
    (RC) phone. Students already using :ref:`Android
    Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>`
    can easily follow the same programming.

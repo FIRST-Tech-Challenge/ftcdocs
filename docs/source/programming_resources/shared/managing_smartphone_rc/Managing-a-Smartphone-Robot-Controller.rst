@@ -14,7 +14,7 @@ from a paired DS app.)
 As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` show how to rename a smartphone using the Android Settings activity of the phone.
 
 .. important:: Once the name of your Robot Controller is changed,
-   you might need to reconnect your devices (Driver Station and programming
+   you might need to reconnect your devices (:term:`Driver Station` and programming
    laptop) to the newly changed network.
 
 Changing the Name of a Robot Controller
@@ -119,7 +119,7 @@ Network: section under the Robot Controller's name
 Downloading the Log File
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's often helpful when troubleshooting problems with the Control System
+It's often helpful when troubleshooting problems with the :term:`Control System`
 to download the log file from the Robot Controller. This can be done
 from the *Manage* page. Note that the log file name is
 *robotControllerLog.txt* by default.
@@ -177,10 +177,10 @@ Updating the Expansion Hub Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A Robot Controller phone connects to a standalone REV Robotics Expansion
-Hub using a USB connection. The purpose of the Expansion Hub is to
+Hub using a USB connection. The purpose of the :term:`Expansion Hub` is to
 facilitate communication between the Robot Controller and the motors,
 servos, and sensors of the robot. Periodically, REV Robotics may release
-new versions of the firmware which contains fixes and improvements for
+new versions of the :term:`firmware <Firmware>` which contains fixes and improvements for
 the Expansion Hub. The firmware releases are in the form of a binary
 (".bin") file.
 
@@ -231,7 +231,7 @@ computer to the Robot Controller.
 freshly charged 12V battery and that the Robot Controller phone is    
 connected to the Expansion Hub through a USB connection. Note that    
 the Robot Controller does **not** need to have the Expansion Hub      
-included in an active configuration file in order for the update to   
+included in an active :term:`configuration file <Configuration File>` in order for the update to   
 work.                                                                 
 
 .. image:: images/ConfiguringHardwareStep4.jpg
@@ -316,7 +316,7 @@ Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
 will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
+Expansion Hub, REV :term:`Driver Hub`, and approved Android devices. Here
 are some of the benefits: 
 
 *  Connect a REV Control Hub via WiFi. 
@@ -326,7 +326,7 @@ are some of the benefits:
 *  Install and switch between DS and RC applications on Android Devices. 
 *  Access the Robot Control Console on the Control Hub.
 
-Teams using Blocks or OnBot Java for programming can use the REV
+Teams using Blocks or :term:`OnBot Java` for programming can use the REV
 Hardware Client to update the Robot Controller (RC) app on an RC phone.
 
 Note it will take an estimated 7.5 minutes per device to complete this
@@ -344,8 +344,8 @@ This process is called "side-loading".
    number.
 
 .. important:: Teams using Android Studio should not update the RC
-   app with the REV Hardware Client or by side-loading. Instead, by
-   updating to the newest version of the Android Studio project folder,
+   app with the :term:`REV Hardware Client` or by side-loading. Instead, by
+   updating to the newest version of the :term:`Android Studio` project folder,
    you will update the Robot Controller app when you build the project and
    install it on your RC device. You can download the newest version of the
    project folder
@@ -355,7 +355,7 @@ Uploading a Custom Webcam Calibration File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Robot Controller app has built-in calibration information for a
-variety of commonly available webcams. Users can also create their own
+variety of commonly available :term:`webcams <Webcam>`. Users can also create their own
 custom calibration files and then upload these files to a Control Hub.
 
 A commented example of what the contents of a calibration file should

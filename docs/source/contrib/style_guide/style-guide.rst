@@ -342,9 +342,38 @@ Which looks like: `Game and Season Materials <https://ftc-resources.firstinspire
 FTC Docs has chosen to open links to external sites in new tabs. This is done with JavaScript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
 
+Glossary Terms
+^^^^^^^^^^^^^^
+
+The :doc:`Glossary </glossary/glossary>` defines the hardware, software, programming and
+competition terms used across the site.
+Link to it with the ``:term:`` role so a reader who does not recognize a term can check it
+without leaving the page — FTC Docs shows glossary definitions as a hover tooltip.
+
+.. code:: rest
+
+   An :term:`OpMode` runs on the :term:`Robot Controller`.
+
+When the word in your sentence does not match the glossary entry exactly — a plural, or a
+lowercase spelling — give the display text first and the entry in angle brackets:
+
+.. code:: rest
+
+   Plug both :term:`encoders <Encoder>` into the :term:`Control Hub`.
+
+Two conventions keep this readable:
+
+- Link the *first* mention of a term in a document, not every mention. A page where every
+  instance of "Control Hub" is a link is harder to read, not easier.
+- Don't link a term on the page that explains it. The AprilTag introduction should not link
+  the word "AprilTag" back to the glossary.
+
+If a term is missing from the glossary, add it there rather than defining it inline in your
+page. Definitions that live in one place stay consistent.
+
 Links to Files
 ^^^^^^^^^^^^^^
-   
+
 You can directly link to files such as a PDF, but that is an accessibility problem. 
 The issue is the context switch from web browsing to suddenly having to deal with a PDF that has probably opened in a new tab/window without any warning.
 FTC Docs contains quite a few links to PDFs that should be make more accessible.

@@ -21,7 +21,7 @@ M5C Features
 M5C Drawbacks
 ^^^^^^^^^^^^^
 * Replacement parts are proprietary from AnkerMake (albeit well-priced)
-* Reliant on Anker for future firmware/software updates
+* Reliant on Anker for future :term:`firmware <Firmware>`/software updates
 * Limited on speed compared to CoreXY, but still has unrivaled speed at this price and availability
 * No screen on the printer, all monitoring must be done digitally
 * V wheel motion system can wear after long extended use

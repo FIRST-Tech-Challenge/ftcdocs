@@ -17,7 +17,7 @@ Distance Sensor (Ultrasonic)
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      MaxBotix I2C Ultrasonic Sensor
+      MaxBotix :term:`I2C` Ultrasonic Sensor
 
       ^^^
 
@@ -121,7 +121,7 @@ Touch Sensor
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV Touch Sensor
+      REV :term:`Touch Sensor`
 
       ^^^
 
@@ -211,7 +211,7 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (IMU) is a sensor that is a combination of a
+An Interial Measurement Unit (:term:`IMU`) is a sensor that is a combination of a
 Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the
@@ -231,7 +231,7 @@ Potentiometer
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV Potentiometer
+      REV :term:`Potentiometer`
 
       ^^^
 
@@ -325,7 +325,7 @@ Thanks to the folks at REV Robotics for providing this handy chart of sensor com
      - .. figure:: images/image_8_3.png
           :align: center
    * - NeveRest MotorAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104AndyMark
-     - Quad Encoder
+     - Quad :term:`Encoder`
      - Yes
      - .. figure:: images/image_9_3.png
           :align: center

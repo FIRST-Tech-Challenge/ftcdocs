@@ -32,7 +32,7 @@ is described in that reference frame as (X, Y, Z) position, also called
 displacement or translation.
 
 This is illustrated with a camera preview image, called LiveView, from a Robot
-Controller device (Control Hub or RC phone).
+Controller device (:term:`Control Hub` or RC phone).
 
 .. figure:: images/200-CH-LiveView-offsets-crop.png
    :width: 75%

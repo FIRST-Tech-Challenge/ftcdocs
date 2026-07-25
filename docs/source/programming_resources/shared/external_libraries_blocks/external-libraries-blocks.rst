@@ -14,7 +14,7 @@ a ‘repo’. You don’t need to know its inner workings, just what it does
 and how to use it.
 
 This beginner-level tutorial shows how to incorporate a library’s
-features into your Op Modes, and provides simple examples. It does
+features into your :term:`Op Modes <OpMode>`, and provides simple examples. It does
 not teach Java.
 
 Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who
@@ -87,9 +87,9 @@ Step 2 - Upload archive file
 Copy the .jar or .aar file to your programming laptop, if the file is
 not stored there already.
 
-Connect your laptop via Wi-Fi to a Robot Controller device that’s
+Connect your laptop via Wi-Fi to a :term:`Robot Controller` device that’s
 running the RC app, version 7.0 or higher (see instructions at
-``Program and Manage``, on the RC phone or its paired Driver Station
+``Program and Manage``, on the RC phone or its paired :term:`Driver Station`
 device). In the Chrome browser, open OnBot Java.
 
 In OnBot Java (OBJ) click the **upload icon**, normally used to upload a
@@ -322,7 +322,7 @@ Here is the myBlock that will appear in the Blocks toolbox (menu):
 
 
 On your own, you can try this with the two remaining methods. Use
-myBlocks to show telemetry output of various input values.
+myBlocks to show :term:`telemetry <Telemetry>` output of various input values.
 
 
 .. figure:: images/470-myBlocks-telemetry.png

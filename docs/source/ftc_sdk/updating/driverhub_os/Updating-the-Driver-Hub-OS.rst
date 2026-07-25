@@ -10,7 +10,7 @@ these updates for the Driver Hub in order to perform correctly.
 
 Here are two methods for updating the Driver Hub OS: 
 
-1. REV Hardware Client (RHC) 
+1. :term:`REV Hardware Client` (RHC) 
 2. Software Manager on Driver Hub
 
 More info about updating the Driver Hub OS is

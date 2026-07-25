@@ -11,7 +11,7 @@ The SDK documentation already provides a
 You are encouraged to learn more there.
 
 Note that Exposure and Gain are adjusted together. The new SDK offers
-Java Sample OpMode ``ConceptAprilTagOptimizeExposure.java``, which can
+Java :term:`Sample OpMode` ``ConceptAprilTagOptimizeExposure.java``, which can
 be constructed also in FTC Blocks.
 
 Webcam States
@@ -55,7 +55,7 @@ Notes and Guidelines for Enums
 - ``CLOSING_CAMERA_DEVICE`` - no processing is happening
 
 - ``CAMERA_DEVICE_CLOSED`` - nothing is running, USB comms are closed.
-  Once closed, don’t open camera again during this OpMode.
+  Once closed, don’t open camera again during this :term:`OpMode`.
 
 Observing Controls
 ~~~~~~~~~~~~~~~~~~
@@ -70,7 +70,7 @@ less efficient.
 
 DS Camera Stream shows the same images as ``scrcpy``, namely with Exposure and
 Gain affecting recognitions. But the image is a snapshot only, and adjustments
-cannot be made in real time, with gamepads disabled during Camera Stream.
+cannot be made in real time, with :term:`gamepads <Gamepad>` disabled during Camera Stream.
 
 Control Ranges
 ~~~~~~~~~~~~~~

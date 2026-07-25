@@ -20,7 +20,7 @@ of the programming language/environment used to program robot Team Code.
 
    Here are 3 methods to update the DS app on a REV Driver Hub: 
 
-   #. REV Hardware Client (RHC) 
+   #. :term:`REV Hardware Client` (RHC) 
    #. "Side loading” with APK 
    #. Software Manager on REV Driver Hub
 

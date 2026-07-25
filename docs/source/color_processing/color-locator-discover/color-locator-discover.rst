@@ -31,10 +31,10 @@ The target color here is BLUE.  The white rectangle is the Region of Interest
 the purple rectangle is the boxFit.
 
 The software reports the size, position and orientation of each "boxFit".  That
-data can be evaluated by your OpMode for **robot navigation** and other
+data can be evaluated by your :term:`OpMode` for **robot navigation** and other
 actions.
 
-The following sections describe how to do this, with a Sample OpMode.
+The following sections describe how to do this, with a :term:`Sample OpMode`.
 
 Configuration
 -------------
@@ -44,15 +44,15 @@ Configuration
 * *the active robot configuration already contains "Webcam 1",* or
 * *using the built-in camera of an Android phone as Robot Controller.*
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used as a color locator.
+Before starting the programming, REV :term:`Control Hub` users should make a robot
+configuration that includes the USB :term:`webcam <Webcam>` to be used as a color locator.
 
 For now, use the default webcam name, "Webcam 1".  If a different name is
 preferred, edit the Sample OpMode to agree with the exact webcam name in the
 robot configuration.
 
 **Save and activate** that configuration; its name should appear on the paired
-Driver Station screen.
+:term:`Driver Station` screen.
 
 Sample OpMode
 -------------
@@ -80,7 +80,7 @@ Java section below:
       3. Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`.
 
       4. At the top of the Blocks screen, you can change the type from "TeleOp"
-         to "Autonomous", since this Sample OpMode does not use gamepads.
+         to "Autonomous", since this Sample OpMode does not use :term:`gamepads <Gamepad>`.
 
       5. If using the built-in camera of an RC phone, drag out the relevant
          Block from the left-side ``VisionPortal.Builder`` toolbox.
@@ -90,7 +90,7 @@ Java section below:
    .. tab-item:: Java
       :sync: java
 
-      1. Open your choice of OnBot Java or Android Studio.
+      1. Open your choice of :term:`OnBot Java` or :term:`Android Studio`.
 
       2. In the ``teamcode`` folder, add/create a new OpMode with a name such
          as "ColorLocator_Javier_v01.java", and select the Sample OpMode
@@ -115,7 +115,7 @@ Running the Sample OpMode
 2. Turn off the automatic 30-second match timer (green slider).  Aim the camera
    at a **blue object**.
 
-3. Touch INIT only.  The OpMode should give Telemetry showing the results of
+3. Touch INIT only.  The OpMode should give :term:`Telemetry` showing the results of
    one or more Blobs:
 
 .. figure:: images/23-basic-telemetry.png
@@ -168,7 +168,7 @@ Telemetry.
 RC Preview
 ----------
 
-The Robot Controller (RC) device also makes a preview, called ``LiveView``.
+The :term:`Robot Controller` (RC) device also makes a preview, called ``LiveView``.
 This is full video, and is shown automatically on the screen of an RC phone.
 
 .. figure:: images/32-LiveView.png
@@ -321,7 +321,7 @@ the Submersible (from INTO THE DEEP).
 Could the data from this boxFit (orange rectangle) help you **grab only the
 Blue Sample**\ ?
 
-Could this help in Autonomous **and** TeleOp?
+Could this help in Autonomous **and** :term:`TeleOp <TELEOP>`?
 
 More Documentation
 ------------------

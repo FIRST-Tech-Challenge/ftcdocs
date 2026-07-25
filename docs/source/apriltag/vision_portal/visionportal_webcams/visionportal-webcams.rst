@@ -11,7 +11,7 @@ Example use cases for a webcam are:
 
 - :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
 - determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
-- using OpenCV to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
+- using :term:`OpenCV` to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
 
 Many more webcams can work with the FTC VisionPortal; this is a short
 list of models with built-in calibrations suitable for AprilTag 
@@ -217,7 +217,7 @@ is available at some online retailers, including
   needing color should look elsewhere.
 * The Arducam OV9281 is fantastic in low-light scenarios, and has a very 
   low-distortion lens making it perfect for object tracking and motion detection.
-* The Arducam required a patch to the SDK and EasyOpenCV to work properly at high 
+* The Arducam required a patch to the SDK and :term:`EasyOpenCV` to work properly at high 
   speeds, so it is not guaranteed to work properly with the FTC SDK prior to SDK 9.0.
 * The FTC software have been observed to not function properly with more than one Arducam OV9281 at a time.
   If you encounter this issue please refer to the `Serial Number Tool <https://docs.arducam.com/UVC-Camera/Serial-Number-Tool-Guide/>`

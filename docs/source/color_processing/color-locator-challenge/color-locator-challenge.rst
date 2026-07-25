@@ -55,7 +55,7 @@ To apply a filter setting, use two steps:
 
 The "Color Blob Locator" Processor must already be created; adding a filter is
 **not** part of the Builder pattern here.  A pre-filter can be added before or
-after the VisionPortal is built.
+after the :term:`VisionPortal` is built.
 
 In general, a pre-filter setting remains in place and cannot be edited.  To
 "change" a pre-filter, it must be **removed** from the Processor, then
@@ -402,7 +402,7 @@ Select and read the Blocks **or** Java section below:
 
          MatOfPoint myContour = getContour()
 
-      This method returns a matrix unique to the OpenCV library.  The matrix
+      This method returns a matrix unique to the :term:`OpenCV` library.  The matrix
       object can convert itself to an array, as follows:
 
       .. code-block:: java
@@ -449,7 +449,7 @@ Select and read the Blocks **or** Java section below:
    .. tab-item:: Java
       :sync: java
  
-      Here's a modified version of the Sample OpMode's telemetry code, to
+      Here's a modified version of the Sample OpMode's :term:`telemetry <Telemetry>` code, to
       display only the size and angle of the instant boxFit being processed.
 
       .. code-block:: java
@@ -465,7 +465,7 @@ Select and read the Blocks **or** Java section below:
          }
 
       The Java class ``Size`` here is different than another class of the same
-      simple name.  OnBot Java and Android Studio do not allow imports of
+      simple name.  :term:`OnBot Java` and :term:`Android Studio` do not allow imports of
       identical simple classnames.
 
       In fact OnBot Java will not allow the import of this version, even if the

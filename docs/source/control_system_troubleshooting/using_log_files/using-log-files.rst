@@ -202,19 +202,19 @@ Using the REV Hardware Client Windows App to View Log Files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A convenient and easy way to troubleshoot problems with the REV Control system is to view log
-files using the REV Hardware Client for Windows computers. The REV Hardware Client log viewer has
+files using the :term:`REV Hardware Client` for Windows computers. The REV Hardware Client log viewer has
 filters, tags, and a search function that makes it easy to see what is happening on the Control
-Hub or Driver Hub during an OpMode run. Instructions for using the REV Hardware Client are
+Hub or :term:`Driver Hub` during an :term:`OpMode` run. Instructions for using the REV Hardware Client are
 available on the REV Robotics website:
 `Using the Log Viewer <https://docs.revrobotics.com/rev-hardware-client/control-hub/using-the-log-viewer>`__.
 
 Using the Android Debug Bridge for Troubleshooting
 -----------------------------------------------------
 
-The Android Debug Bridge (ADB) is a utility program included with the Android Software
+The Android Debug Bridge (:term:`ADB`) is a utility program included with the Android Software
 Development Kit (SDK) platform-tools. ADB is invoked from a command line and is a very helpful
 utility. To use ADB you will need the Android SDK platform-tools installed (preferably a recent
-version of the Android SDK). Normally, when you install Android Studio, you also install the
+version of the Android SDK). Normally, when you install :term:`Android Studio`, you also install the
 Android SDK, including the platform-tools package.
 
 The examples in this section were made with a Windows PC, but the process is similar for Mac and

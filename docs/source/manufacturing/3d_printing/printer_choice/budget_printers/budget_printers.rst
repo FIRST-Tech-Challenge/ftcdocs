@@ -10,7 +10,7 @@ Creality Ender-3/Pro/V2 ($100-$250)
 -----------------------------------
 
 If you're looking for the most cost effective printer that will still do a great job, this is a great option. 
-The Ender-3 series is an open source classic in the FTC and 3D printing community. It has a huge support network 
+The Ender-3 series is an open source classic in the FTC and :term:`3D printing <3D Printing>` community. It has a huge support network 
 and despite it's low cost, has proven itself to be a very capable printer. 
 
 Ender 3 Features

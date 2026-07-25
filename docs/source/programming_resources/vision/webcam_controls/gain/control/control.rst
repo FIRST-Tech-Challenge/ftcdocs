@@ -27,7 +27,7 @@ values of gain. These can be retrieved with:
 - getMaxGain()
 
 There are no ``set()`` methods for min and max gain; these are
-hard-coded in the webcam’s firmware. Note that firmware settings may
+hard-coded in the webcam’s :term:`firmware <Firmware>`. Note that firmware settings may
 vary among different versions of the same webcam model.
 
 These and other gain methods are called on a GainControl object, as

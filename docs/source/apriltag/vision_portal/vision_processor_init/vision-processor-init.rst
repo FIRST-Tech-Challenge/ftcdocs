@@ -13,7 +13,7 @@ these steps:
 - **Step 1.** *Optional:*  
 
   - Supplement the default **AprilTag Library** with
-    additional tags. This task is not shown in the Sample OpModes, and is
+    additional tags. This task is not shown in the :term:`Sample OpModes <Sample OpMode>`, and is
     covered at the **Library** page (not here).
 
 - **Step 2.** *Required:*  
@@ -27,7 +27,7 @@ these steps:
 - **Step 3.** *Required:*  
 
   - Create the FTC **VisionPortal**, to manage the overall
-    pipeline. Here you specify that the Portal includes the AprilTag and/or TFOD
+    pipeline. Here you specify that the Portal includes the AprilTag and/or :term:`TFOD`
     Processor(s) from Step 2. The two Processors evaluate camera frames
     independently.
 

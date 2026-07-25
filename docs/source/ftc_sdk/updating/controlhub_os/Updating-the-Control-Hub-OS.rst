@@ -10,7 +10,7 @@ these updates for the Control Hub in order to perform correctly.
 
 Here are two methods for updating the Control Hub OS: 
 
-1. REV Hardware Client (RHC) 
+1. :term:`REV Hardware Client` (RHC) 
 2. Manage page on computer
 
 More info about updating the Control Hub OS is

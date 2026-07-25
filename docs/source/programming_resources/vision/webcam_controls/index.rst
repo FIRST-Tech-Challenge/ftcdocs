@@ -25,9 +25,9 @@ webcam controls.
 Summary
 -------
 
-Some webcam controls in the SDK could potentially improve TFOD
+Some webcam controls in the SDK could potentially improve :term:`TFOD`
 recognitions. Exposure, gain and other values could be pre-programmed in
-team autonomous OpModes. It’s also possible to manually enter such
+team autonomous :term:`OpModes <OpMode>`. It’s also possible to manually enter such
 values before a match begins, based on anticipated lighting, starting
 position and other game-time factors.
 

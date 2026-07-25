@@ -46,7 +46,7 @@ Here are some tips for efficiency, from the developer Liz Looney:
    task.
 
 -  Limit the number of parameters. If your myBlock needs certain
-   information that won’t change during the OpMode, use an **initialize
+   information that won’t change during the :term:`OpMode`, use an **initialize
    method** that’s called once at the start of the OpMode. The
    initialize method stores that information, to avoid repeatedly
    passing the same parameter each time the myBlock is called.

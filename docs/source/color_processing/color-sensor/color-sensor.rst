@@ -32,7 +32,7 @@ For the above example, OpenCV can provide results like this:
 
    RED Detection using Color Sensor
 
-The following sections describe how to do this, with a Sample OpMode.
+The following sections describe how to do this, with a :term:`Sample OpMode`.
 
 Configuration
 -------------
@@ -43,15 +43,15 @@ Configuration
 * *the active robot configuration already contains "Webcam 1"*, or
 * *using the built-in camera of an Android phone as Robot Controller.*
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used as a color sensor.
+Before starting the programming, REV :term:`Control Hub` users should make a robot
+configuration that includes the USB :term:`webcam <Webcam>` to be used as a color sensor.
 
 For now, use the default webcam name, "Webcam 1".  If a different name is
-preferred, edit the Sample OpMode to agree with the exact webcam name in the
+preferred, edit the Sample :term:`OpMode` to agree with the exact webcam name in the
 robot configuration.
 
 Save and activate that configuration; its name should appear on the paired
-Driver Station screen.
+:term:`Driver Station` screen.
 
 Sample OpMode
 -------------
@@ -76,7 +76,7 @@ To learn about opening the Sample OpMode, click the tab for Blocks or Java:
          ``ConceptVisionColorSensor``.
 
       3. At the top of the Blocks screen, you can change the type from "TeleOp" to
-         "Autonomous", since this Sample OpMode does not use gamepads.
+         "Autonomous", since this Sample OpMode does not use :term:`gamepads <Gamepad>`.
 
       4. If using the built-in camera of an RC phone, drag out the relevant Block
          from the left-side ``VisionPortal.Builder`` toolbox.
@@ -87,7 +87,7 @@ To learn about opening the Sample OpMode, click the tab for Blocks or Java:
    .. tab-item:: Java
       :sync: java
 
-      1. Open your choice of OnBot Java or Android Studio.
+      1. Open your choice of :term:`OnBot Java` or :term:`Android Studio`.
 
       2. In the ``teamcode`` folder, add/create a new OpMode with a name such as
          "ColorSensor_Bobby_v01.java", and select the Sample OpMode
@@ -110,7 +110,7 @@ On the Driver Station:
 2. Turn off the automatic 30-second match timer (green slider).
 3. Touch INIT only.  
 
-The OpMode should give Telemetry, stating the main "matched" color inside the Region of Interest.
+The OpMode should give :term:`Telemetry`, stating the main "matched" color inside the Region of Interest.
 
 .. figure:: images/30-DStelemetry.png
    :width: 75%
@@ -163,7 +163,7 @@ Telemetry.
 RC Preview
 ----------
 
-The Robot Controller (RC) device also makes a preview, called ``LiveView``.
+The :term:`Robot Controller` (RC) device also makes a preview, called ``LiveView``.
 This is full video, and is shown automatically on the screen of an RC phone.
 
 .. figure:: images/38-LiveView.png
@@ -210,11 +210,11 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Predominant Color" **Processor** using the
 **Builder** pattern.  This is the same Builder pattern used to create an
-AprilTag Processor, and previously a TensorFlow Processor.
+:term:`AprilTag` Processor, and previously a TensorFlow Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Predominant Color" Processor to the
-VisionPortal.
+:term:`VisionPortal`.
 
 How does OpenCV determine the "predominant color" of the ROI?  An algorithm
 called `"k-means" <https://en.wikipedia.org/wiki/K-means_clustering>`_
@@ -225,7 +225,7 @@ Testing the Result
 ------------------
 
 After trying and learning how the commands work, you can incorporate this Color
-Sensor into your Autonomous and/or TeleOp OpModes.
+Sensor into your Autonomous and/or :term:`TeleOp <TELEOP>` OpModes.
 
 As seen in the OpMode's Telemetry section, the result is called
 ``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is not

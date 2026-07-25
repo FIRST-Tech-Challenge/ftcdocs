@@ -23,7 +23,7 @@ AUTO vs. TELEOP
 ~~~~~~~~~~~~~~~
 
 A *FIRST* Tech Challenge match has an AUTO phase and a
-TELEOP phase. In the AUTO phase
+:term:`TELEOP` phase. In the AUTO phase
 of a match the robot operates without any human input or control. In the
 TELEOP phase, the robot can receive input from up to two
 human drivers.
@@ -41,20 +41,20 @@ During a competition, each team has two Android devices.
 
 One Android device is mounted onto the robot and is called the *Robot
 Controller*. In most cases, the ROBOT CONTROLLER is integrated into the
-REV Robotics Control Hub. The Robot Controller acts as the “brains” of the
+REV Robotics :term:`Control Hub`. The :term:`Robot Controller` acts as the “brains” of the
 robot. It does all of the thinking for the robot and tells the robot what
 to do. It consists of an Android device running a Robot Controller app. Many
-Teams will also connect a REV Robotics Expansion Hub for additional ports to
+Teams will also connect a REV Robotics :term:`Expansion Hub` for additional ports to
 connect motors, servos and sensors to the ROBOT.
 
 A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the DRIVER STATION.
+:term:`gamepads <Gamepad>` connected. This second device is known as the DRIVER STATION.
 The DRIVER STATION is like a remote control that you might use
 to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The DRIVER STATION
-consists of an Android device running an Driver Station app. Most teams use
-a REV Robotics Driver Hub, but select Android smartphones are also supported.
+consists of an Android device running an :term:`Driver Station` app. Most teams use
+a REV Robotics :term:`Driver Hub`, but select Android smartphones are also supported.
 
 REV Robotics Control Hub and Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,7 +81,7 @@ Android Smartphones
 
 Teams may opt to use an Android smartphone as their
 DRIVER STATION, ROBOT CONTROLLER or both. DRIVER STATION phones should have the FTC Driver
-Station app installed, and will need an OTG adaptor USB hub to connect gamepads.
+Station app installed, and will need an :term:`OTG adaptor <OTG Adapter>` :term:`USB hub <USB Hub>` to connect gamepads.
 
 .. image:: images/ControlHubEquals.jpg
    :align: center
@@ -108,7 +108,7 @@ autonomously during a match. Teams write “OpModes” (which stand for
 “operational modes”) to specify the behavior for their robot.
 
 An *OpMode* is a computer program that is used to customize the behavior
-of a competition robot. The Robot Controller can *execute* a selected OpMode
+of a competition robot. The Robot Controller can *execute* a selected :term:`OpMode`
 to perform certain tasks during a match.
 
 Teams who are participating in *FIRST* Tech Challenge have a variety

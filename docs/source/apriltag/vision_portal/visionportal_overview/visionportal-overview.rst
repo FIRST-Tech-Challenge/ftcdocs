@@ -21,7 +21,7 @@ interface for vision processing.
    orientation, relative to the camera.
 
 -  **Camera Controls**, which can improve AprilTag and TFOD performance for
-   webcam, are now fully available to **FTC Blocks** users.
+   :term:`webcam <Webcam>`, are now fully available to **FTC Blocks** users.
 
 -  **Multiple cameras** can operate at the same time – phone camera and/or
    webcam.

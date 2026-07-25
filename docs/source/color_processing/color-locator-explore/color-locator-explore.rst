@@ -31,11 +31,11 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Color Blob Locator" **Processor** using the
 Java **Builder** pattern.  This is the same Builder pattern used to create an
-AprilTag Processor, and previously a TensorFlow Processor.
+:term:`AprilTag` Processor, and previously a TensorFlow Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Color Blob Locator" Processor to the
-VisionPortal.
+:term:`VisionPortal`.
 
 The FTC VisionPortal was introduced in 2023. More information is available
 on the :ref:`ftc-docs VisionPortal Page <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`.
@@ -219,7 +219,7 @@ Image Pre-Processing
 --------------------
 
 The default Sample OpMode purposely **blurs** the camera's image.  This
-"pre-processing" happens **before** OpenCV performs Blob formation, thus
+"pre-processing" happens **before** :term:`OpenCV` performs Blob formation, thus
 affecting the contours seen in DS and RC previews.
 
 The effect is very small (default kernel size of 5x5 pixels), but can
@@ -293,7 +293,7 @@ Camera Resolution
 -----------------
 
 The Sample OpMode uses a default camera resolution of 320 x 240 pixels,
-supported by most webcams and Android phone cameras.  You may edit this
+supported by most :term:`webcams <Webcam>` and Android phone cameras.  You may edit this
 resolution, subject to a trade-off between:
 
 * computing performance, and
@@ -363,7 +363,7 @@ Why filter?  A smaller list means faster processing, with fewer boxFits for
 your OpMode to evaluate.
 
 You can experiment with increasing the lower limit, and observing the effect on
-Telemetry.  Also experiment with the other filters for **Density** and **Aspect
+:term:`Telemetry`.  Also experiment with the other filters for **Density** and **Aspect
 Ratio**.
 
 The Blocks and Java Sample OpModes give this description:

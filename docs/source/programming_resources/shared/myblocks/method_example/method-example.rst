@@ -15,7 +15,7 @@ teammates.
 
 Your solution: - One MyBlock per robot. - Each Blocks user needs to
 specify only the distance to drive, in inches. - Each myBlock uses the
-appropriate wheel size and motor encoder CPR. - The myBlocks share a
+appropriate wheel size and motor :term:`encoder <Encoder>` CPR. - The myBlocks share a
 ‘utility’ method to convert distance to encoder counts.
 
 .. image:: images/a0500-non-myBlock-method-Java.png

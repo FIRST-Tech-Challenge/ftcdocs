@@ -21,8 +21,8 @@ Tool to write an op mode for a robot.
 The Blocks Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Blocks Programming Tool is a user-friendly programming tool that
-is served up by the Robot Controller. A user can create custom op modes
+The :term:`Blocks Programming Tool` is a user-friendly programming tool that
+is served up by the :term:`Robot Controller`. A user can create custom op modes
 for their robot using this tool and then save these op modes directly
 onto the Robot Controller. Users drag and drop jigsaw-shaped programming
 blocks onto a design "canvas" and arrange these blocks to create the
@@ -46,7 +46,7 @@ Blocks Programming Tool.
 |
 
 Note that the process used to create and edit an op mode is identical if
-you are using a Control Hub as your Robot Controller.
+you are using a :term:`Control Hub` as your Robot Controller.
 
 .. image:: images/BlocksPicture2b.jpg
    :align: center
@@ -247,14 +247,14 @@ Controlling a DC Motor
 ~~~~~~~~~~~~~~~~~~~~~~
 
 In this section, you will add some blocks to your op mode that will
-allow you to control a DC motor with a gamepad.
+allow you to control a DC motor with a :term:`gamepad <Gamepad>`.
 
 Note that you will need an estimated 15 minutes to complete this task.
 
 .. important:: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file. If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
 
 If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`  
-to do so. After you created and activated your configuration file, 
+to do so. After you created and activated your :term:`configuration file <Configuration File>`, 
 you can close and then reopen your op mode so that the programming 
 blocks for the newly configured devices will be visible.
 
@@ -395,7 +395,7 @@ Inserting Telemetry Statements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Your op mode is just about ready to run. However, before continuing, you
-will add a couple of telemetry statements that will send information
+will add a couple of :term:`telemetry <Telemetry>` statements that will send information
 from the Robot Controller to the DRIVER STATION for display on the
 DRIVER STATION user interface. This telemetry mechanism is a useful way
 to display status information from the robot on the DRIVER STATION. You

@@ -10,7 +10,7 @@ contains 5 interfaces:
 - :doc:`FocusControl </programming_resources/vision/webcam_controls/focus/index>`
 - :doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`
 
-Similar to Java classes, Java interfaces provide methods. A webcam can
+Similar to Java classes, Java interfaces provide methods. A :term:`webcam <Webcam>` can
 be controlled using methods of these 5 interfaces.
 
 PtzControl allows control of 3 related features: virtual pan, tilt and
@@ -29,15 +29,15 @@ left column.
 
 That page provides links to the 5 interfaces listed above.
 
-The methods described here can be used in Android Studio or OnBot Java.
+The methods described here can be used in :term:`Android Studio` or :term:`OnBot Java`.
 They can also be provided to Blocks programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
-You will see Vuforia mentioned here, and in the `sample OpModes
+You will see :term:`Vuforia` mentioned here, and in the `sample OpModes
 <#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge
 implementation of Google’s TensorFlow Lite receives camera images from a
 Vuforia video stream. The SDK already includes and uses Vuforia for
-navigation, so it’s a convenient tool for passing camera streams to TFOD.
+navigation, so it’s a convenient tool for passing camera streams to :term:`TFOD`.
 
 These CameraControl interfaces allow some control of the webcam, within
 requirements or settings of Vuforia for its own performance. Such

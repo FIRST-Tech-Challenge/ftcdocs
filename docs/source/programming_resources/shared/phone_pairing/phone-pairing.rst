@@ -14,7 +14,7 @@ When the Android phones have been suitably prepared, pairing via Wi-Fi
 Direct is **fast** and usually **automatic**. Here is a procedure that
 addresses various **pre-existing conditions** that can impede pairing.
 
-This article does not cover the REV Control Hub or REV Driver Hub.
+This article does not cover the REV :term:`Control Hub` or REV :term:`Driver Hub`.
 
 Phone Cleanup and Prep
 ----------------------
@@ -29,7 +29,7 @@ Phone Cleanup and Prep
 3. RC phone, Apps/Settings/Wi-Fi. Manually select and Forget any saved
    Networks.
 
-4. RC phone, still in WiFi menu: navigate to Wi-Fi Direct menu (via More
+4. RC phone, still in WiFi menu: navigate to :term:`Wi-Fi Direct` menu (via More
    Settings or Advanced).
 
 -  Select and forget/disconnect any connections with Peer Devices,

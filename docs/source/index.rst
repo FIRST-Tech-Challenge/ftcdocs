@@ -20,6 +20,7 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    /overview/ftcoverview
    gracious_professionalism/gp
+   Glossary <glossary/glossary>
 
 .. toctree::
    :caption: Getting Started

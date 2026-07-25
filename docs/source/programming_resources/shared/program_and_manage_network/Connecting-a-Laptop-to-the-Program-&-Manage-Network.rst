@@ -30,7 +30,7 @@ access information.
 |
 
 2. The Program & Manage screen displays important information that    
-you can use to connect your laptop to the Blocks or OnBot Java    
+you can use to connect your laptop to the Blocks or :term:`OnBot Java`    
 Programming Mode server.                                              
 
 .. image:: images/ProgramAndManageScreen.jpg
@@ -51,7 +51,7 @@ network name will begin with the phrase "DIRECT-".
 
 |
 
-If you are using a Control Hub, then the wireless network name will be whatever you specified when you configured your Control Hub.  If you haven't changed the Control Hub's name yet, then by default the  wireless network's name will begin with "FTC-".  If you haven't changed its password yet, then by default the wireless network's passphrase will be "password".
+If you are using a :term:`Control Hub`, then the wireless network name will be whatever you specified when you configured your Control Hub.  If you haven't changed the Control Hub's name yet, then by default the  wireless network's name will begin with "FTC-".  If you haven't changed its password yet, then by default the wireless network's passphrase will be "password".
 
 In the screenshot below, the Control Hub's wireless network name is "FTC-1Ybr" and the secure passphrase is "password".
 

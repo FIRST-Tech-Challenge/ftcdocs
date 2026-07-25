@@ -14,7 +14,7 @@ way represent the only possible way of connecting these components. These
 images also do not represent using a 
 `Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_, 
 which is recommended for teams to use for component management and
-transportation. See the Competition Manual for more information 
+transportation. See the :term:`Competition Manual` for more information 
 on *OPERATOR CONSOLES*.
 
 .. tab-set::

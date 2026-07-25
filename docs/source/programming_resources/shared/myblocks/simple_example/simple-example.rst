@@ -16,8 +16,8 @@ Go to the address **http://192.168.43.1:8080** (CH) or
 
 Click the large **plus-sign icon** to open a new file; call it
 **SampleMyBlocks.java**. Use the default ‘teamcode’ folder location.
-Don’t choose a Sample OpMode, and use the default setting ‘Not an
-OpMode’. Click OK.
+Don’t choose a :term:`Sample OpMode`, and use the default setting ‘Not an
+:term:`OpMode`’. Click OK.
 
 .. image:: images/a0120-Hello-OBJ-circle.png
 
@@ -54,7 +54,7 @@ When you enter that line, the OBJ software **automatically** creates an
 ``import`` statement, making the parent class available. Convenient!
 
    Programming note: classes inherited from BlocksOpModeCompanion
-   include OpMode, LinearOpMode, Telemetry, HardwareMap, and Gamepad.
+   include OpMode, :term:`LinearOpMode`, :term:`Telemetry`, HardwareMap, and :term:`Gamepad`.
    All very useful! Your myBlock method can directly use **objects** or
    **instances** of these classes without declaring them. Examples
    follow below.
@@ -155,7 +155,7 @@ OpMode, before **Telemetry.update**. Click **Save OpMode**.
 
 .. image:: images/a0190-Hello-run-OpMode-circle.png
 
-On a connected Driver Station device, select this OpMode called
+On a connected :term:`Driver Station` device, select this OpMode called
 Test_myBlocks_v01, touch **INIT** and the **Start Arrow**. Look at the
 Driver Station (DS) screen to see the traditional greeting for new
 programmers.

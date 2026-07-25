@@ -37,7 +37,7 @@ Android Studio
 --------------
 An advanced integrated development environment
 for creating Android apps. This tool is the same tool that
-professional Android app developers use. Android Studio is only
+professional Android app developers use. :term:`Android Studio` is only
 recommended for advanced users who have extensive Java programming
 experience.
 
@@ -53,14 +53,14 @@ the best overall tool to use**. The Blocks Programming Tool is intuitive
 and easy-to-learn. **It is the fastest way to get started programming
 your robot.**
 
-The OnBot Java Programming Tool is similar to the Blocks Programming
-Tool. However, OnBot Java is a text-based tool and it requires that the
+The :term:`OnBot Java Programming Tool` is similar to the Blocks Programming
+Tool. However, :term:`OnBot Java` is a text-based tool and it requires that the
 user have a sound understanding of the Java programming language.
 
 .. image:: images/ipadPhoneChromebook.jpg
    :alt: A tablet, a phone, and a laptop each showing the programming tools in use.
 
-It is important to note that with the Blocks Programming Tool and the
+It is important to note that with the :term:`Blocks Programming Tool` and the
 OnBot Java Programming Tool, a user only needs a web browser to create,
 edit and build op modes for their robot. A user can even create, edit
 and build op modes using an iPad, an Android phone, or a Chromebook.

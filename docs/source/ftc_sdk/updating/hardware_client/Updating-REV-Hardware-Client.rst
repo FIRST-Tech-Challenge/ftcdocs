@@ -49,7 +49,7 @@ Open the RHC app. This is a good time to **pre-download** various
 pieces of software you might need soon.
 
 Why download now? Later, this computer might be connected via Wi-Fi to a
-Robot Controller, not to the internet. Or a good internet connection
+:term:`Robot Controller`, not to the internet. Or a good internet connection
 might not be available when urgently needed (Murphy’s Law).
 
 Click on the Downloads tab (top left). Under “Available Files” is a list

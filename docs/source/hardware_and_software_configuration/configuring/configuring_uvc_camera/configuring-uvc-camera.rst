@@ -12,7 +12,7 @@ for computer vision tasks.
 
 The advantage of using an external camera is that the camera can be
 mounted in a location that is convenient for vision-related tasks while
-the Android Robot Controller can be mounted where it is convenient for
+the Android :term:`Robot Controller` can be mounted where it is convenient for
 Robot Controller-related tasks.
 
 The disadvantage of using an external camera is there is additional
@@ -29,7 +29,7 @@ the system. However, there are a couple of recommended web cameras that
 have been tested with the *FIRST* Tech Challenge software and have been
 calibrated to work accurately with this software:
 
--  Logitech HD Webcam C310
+-  Logitech HD :term:`Webcam` C310
 -  Logitech HD Pro Webcam C920
 
 There are notes on :doc:`other UVC webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
@@ -45,7 +45,7 @@ for an online copy of the file).
 REV Expansion Hub and Phone
 ---------------------------
 
-For teams using an Android phone and an Expansion Hub you are required to add a USB Hub to use a webcam.
+For teams using an Android phone and an :term:`Expansion Hub` you are required to add a USB Hub to use a webcam.
 
 .. image:: images/uvcdiagram.png
    :alt: A REV expansion hub connected to an Android phone and a webcam via a USB Hub.
@@ -125,9 +125,9 @@ electronic equipment.**
 Sample Op Modes
 ^^^^^^^^^^^^^^^
 
-There are sample Blocks and Java Op Modes that demonstrate how to use
-the external UVC web camera for VisionPortal operations. Before
-a team can use the external UVC camera, a configuration file must be
+There are sample Blocks and Java :term:`Op Modes <OpMode>` that demonstrate how to use
+the external UVC web camera for :term:`VisionPortal` operations. Before
+a team can use the external UVC camera, a :term:`configuration file <Configuration File>` must be
 configured with the external camera defined as one of the USB-connected
 devices.
 

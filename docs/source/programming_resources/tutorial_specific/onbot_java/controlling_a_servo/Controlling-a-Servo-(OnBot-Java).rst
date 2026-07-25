@@ -95,8 +95,8 @@ F310 gamepad are pressed. If the Y button is pressed, it will move the
 servo to the 0-degree position. If either the X button or B button is
 pressed, it will move the servo to the 90-degree position. If the A
 button is pressed, it will move the servo to the 180-degree position.
-The op mode will also send telemetry data on the servo position to the
-Driver Station.
+The op mode will also send :term:`telemetry <Telemetry>` data on the servo position to the
+:term:`Driver Station`.
 
 After you have modified your op mode, you can build it and then run it.
 Verify that gamepad #1 is still configured and then use the colored

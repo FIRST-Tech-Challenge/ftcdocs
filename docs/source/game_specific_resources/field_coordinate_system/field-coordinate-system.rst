@@ -21,7 +21,7 @@ Reference Frame
 ---------------
 
 The reference frame for this definition is the field perimeter wall, adjacent
-to the red Alliance Area, known here after as the Red Wall.  The definition is
+to the red :term:`Alliance` Area, known here after as the Red Wall.  The definition is
 from the perspective of a person, standing outside the field, in the center of
 Red Wall, looking towards the center of the field.
 
@@ -156,7 +156,7 @@ Given the order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5.
 * The Y axis value of 55.6425 would be located closer to the Blue Wall, about a 3/4 tile length from the Blue wall.
 * The Z axis value of 29.5 is 29.5 inches above the field tiles.
 
-This set of coordinates is the center of the Red Goal AprilTag on the Red Goal. 
+This set of coordinates is the center of the Red Goal :term:`AprilTag` on the Red Goal. 
 
 Measured Values
 ---------------
@@ -185,7 +185,7 @@ The Field Coordinate System rotation convention comes from the
 `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ 
 of classic geometry.
 
-Robots with a webcam can use :ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>`
+Robots with a :term:`webcam <Webcam>` can use :ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>`
 to determine where an :ref:`AprilTag is located 
 <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:introduction>` 
 with respect to the robot.
@@ -193,7 +193,7 @@ Since AprilTags are in known locations on the field, you can also determine the
 :ref:`location of the robot <apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag localization>`
 on the field.
 
-Robots can use an inertial measurement unit (IMU) to measure rotations about axes
+Robots can use an inertial measurement unit (:term:`IMU`) to measure rotations about axes
 with respect to the robot. See :ref:`IMU axes definition. <programming_resources/imu/imu:axes definition>`
 The yaw value from the IMU, also known the heading, measures rotation about the Z axis
 which points up from the robot. 

@@ -10,7 +10,7 @@ process that mathematically models how a camera & lens combination ultimately
 sees the world, for example how wide the field of view is. Calibrating your camera
 is a must if you desire to use it for high-precision tasks, such as performing
 precision measurements using the camera or obtaining accurate 6DOF pose data from 
-fiducial marker systems like AprilTags. It's important to note that calibrations 
+fiducial marker systems like :term:`AprilTags <AprilTag>`. It's important to note that calibrations 
 are not only specific to the camera and lens, but also specific to the resolution 
 used on a particular camera as well!
 
@@ -22,7 +22,7 @@ used on a particular camera as well!
 Camera Calibration Methods
 --------------------------
 
-There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL
+There are many methods to calibrate cameras, including :term:`OpenCV`, MATLAB, MRCAL
 etc. 
 
 -  For advanced teams, using `MRCAL <https://mrcal.secretsauce.net/>`__ is
@@ -42,7 +42,7 @@ Calibrating with 3DF Zephyr
 ---------------------------
 
 1. Download and install `3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-free/>`__.
-2. Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode folder,
+2. Copy the sample ``UtilityCameraFrameCapture`` :term:`OpMode` to your teamcode folder,
    and modify the parameters at the top according to your needs. It's important
    to note that this Sample is only written in Java.
 3. In 3DF Zephyr, go to:
@@ -50,7 +50,7 @@ Calibrating with 3DF Zephyr
    - Utilities --> Images --> Camera Calibration 
 
    and follow the instructions. Use the frame capture OpMode to take the pictures.
-4. Connect your Robot Controller device to your computer with a USB cable and
+4. Connect your :term:`Robot Controller` device to your computer with a USB cable and
    copy the captured frames to your computer. They will be located in the root
    of the USB storage, with names prefixed by ``VisionPortal-``.
 5. Press the *Add Images* button in 3DF Zephyr and point it to the images you

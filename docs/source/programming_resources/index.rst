@@ -69,7 +69,7 @@ Control System Supporting Documentation
 AprilTag Programming
 ~~~~~~~~~~~~~~~~~~~~
 
-Topics for programming with AprilTags
+Topics for programming with :term:`AprilTags <AprilTag>`
 
 .. toctree::
    :maxdepth: 1
@@ -99,7 +99,7 @@ Learning more about using vision
 Camera Color Processing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Learn more about using a simple webcam or smartphone camera to perform Color Processing
+Learn more about using a simple :term:`webcam <Webcam>` or smartphone camera to perform Color Processing
 
 .. toctree::
    :maxdepth: 1

@@ -13,7 +13,7 @@ Running Your OpMode Instructions
 ---------------------------------
 
 1. Connect the gamepad to the DRIVER STATION. If using a phone, you will
-need a Micro USB OTG adapter cable.                                                        
+need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.                                                        
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center
@@ -42,7 +42,7 @@ as user #1.
 3. On the DRIVER STATION screen, touch the triangular-shaped,         
 "TeleOp" dropdown list button to display a list available OpModes.   
 You should see your recently saved OpMode among the list of          
-available OpModes that reside on your Robot Controller.              
+available OpModes that reside on your :term:`Robot Controller`.              
 
 .. image:: images/TeleopRunDH.png
    :align: center

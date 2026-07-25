@@ -103,7 +103,7 @@ you'd like to see.
    to put this ability to good use in *FIRST* Tech Challenge?
 
    In *FIRST* Tech Challenge, one of the first tasks teams have to do is to read
-   and understand the *FIRST* Tech Challenge Competition Manual. This can be a
+   and understand the *FIRST* Tech Challenge :term:`Competition Manual`. This can be a
    very painstaking task, and even a skilled reader can miss subtle nuances
    provided by the manual. However, an AI can break down and analyze the manual
    in a matter of seconds, usually preserving the nuance provided in the
@@ -197,7 +197,7 @@ you'd like to see.
 
    Examples of difficult questions:
 
-   * What is the maximum score for an alliance?
+   * What is the maximum score for an :term:`alliance <Alliance>`?
    * Can ROBOTS pick up an opposing ALLIANCE'S SAMPLES?
    * How many matches does a team play at an event?
 

@@ -18,8 +18,8 @@ publicly.
 Utility OpMode
 ~~~~~~~~~~~~~~
 
-First, create an OpMode from the Java Sample
-``UtilityCameraFrameCapture.java``. Android Studio teams can find this
+First, create an :term:`OpMode` from the Java Sample
+``UtilityCameraFrameCapture.java``. :term:`Android Studio` teams can find this
 utility program in the External Samples folder.
 
 FTC Blocks teams can duplicate this OpMode, requiring a custom myBlock
@@ -31,8 +31,8 @@ for a myBlock. Learn more about myBlocks here:
 
 This Utility OpMode helps calibrate a webcam or RC phone camera, needed
 for AprilTag pose estimation. It captures a camera frame (image) and
-stores it on the Robot Controller (Control Hub or RC phone), with each
-press of the gamepad button X (or Square).
+stores it on the :term:`Robot Controller` (:term:`Control Hub` or RC phone), with each
+press of the :term:`gamepad <Gamepad>` button X (or Square).
 
 To illustrate, the OpMode stores the first two captured images as: 
 
@@ -52,7 +52,7 @@ Other calibration programs are widely available online.
 Existing Warnings
 ~~~~~~~~~~~~~~~~~
 
-Running ``ConceptDoubleVision`` (or any AprilTag Sample OpModes) using a
+Running ``ConceptDoubleVision`` (or any AprilTag :term:`Sample OpModes <Sample OpMode>`) using a
 built-in RC phone camera, gives the following error message on both
 devices:
 

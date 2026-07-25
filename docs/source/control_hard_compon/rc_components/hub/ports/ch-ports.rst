@@ -33,20 +33,20 @@ USB Type-A and USB-C and USB Mini-B refer to the type of connector.
 USB 2.0
 ^^^^^^^
 
-This is a female USB Type-A port that implements USB 2.0 and can be used for connecting USB devices as allowed for in the Competition Manual.
+This is a female USB Type-A port that implements USB 2.0 and can be used for connecting USB devices as allowed for in the :term:`Competition Manual`.
 
 .. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
 
    The REV Control Hub has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
 
 USB 3.0
 ^^^^^^^
 
-This is a female USB Type-A port that implements USB 3.0 and is primarily used for connecting USB video device class (UVC) cameras (webcams).
+This is a female USB Type-A port that implements USB 3.0 and is primarily used for connecting USB video device class (UVC) cameras (:term:`webcams <Webcam>`).
 
 USB C
 ^^^^^
@@ -58,7 +58,7 @@ MINI USB
 ^^^^^^^^
 
 This is a female USB Mini-B port that implements USB 2.0. It is used only to communicate directly to
-the I/O system. In this case, it is only for the purpose of uploading firmware
+the I/O system. In this case, it is only for the purpose of uploading :term:`firmware <Firmware>`
 to the device.
 
 HDMI

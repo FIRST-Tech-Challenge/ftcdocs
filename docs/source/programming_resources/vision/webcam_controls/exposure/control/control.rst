@@ -25,7 +25,7 @@ These can be retrieved with:
 - getMaxExposure(TimeUnit.MILLISECONDS)
 
 There are no ``set()`` methods for min and max exposure; these are
-hard-coded in the webcam’s firmware. Note that firmware settings may
+hard-coded in the webcam’s :term:`firmware <Firmware>`. Note that firmware settings may
 vary among different versions of the same webcam model.
 
 These and other exposure methods are called on an ExposureControl

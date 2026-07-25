@@ -14,8 +14,8 @@ Ping Times
 ----------
 
 If you are at a *FIRST* Tech Challenge event, you can use the ping time
-feature of the FTC Driver Station app as an indicator of network quality.
-When a Driver Station is connected to a Robot Controller, it periodically
+feature of the FTC :term:`Driver Station` app as an indicator of network quality.
+When a Driver Station is connected to a :term:`Robot Controller`, it periodically
 sends a heartbeat packet to the Robot Controller. The Robot Controller is
 supposed to respond to each ping and send an acknowledgement packet (an
 "ACK") back to the Driver Station.
@@ -73,7 +73,7 @@ channel is most likely free of other Wi-Fi and non-Wi-Fi traffic.
 .. important:: The observed ping time is also affected by whether the Robot
    Controller is available to respond to heartbeat messages from the Driver
    Station. If the Robot Controller is busy — for example, because it is
-   blocked in a portion of an improperly written OpMode — and it can't
+   blocked in a portion of an improperly written :term:`OpMode` — and it can't
    respond to the Driver Station in a timely manner, the observed ping times
    will be higher even if the wireless connection itself is strong.
 
@@ -230,7 +230,7 @@ by FTC Driver Station-Robot Controller pairs.
 
 There is an amendment to the 802.11 standard (802.11w) that makes it more
 difficult to conduct some of these attacks. The 802.11w standard is the
-default setting for the REV Driver Hub and the REV Control Hub, but
+default setting for the REV :term:`Driver Hub` and the REV :term:`Control Hub`, but
 unfortunately it is not yet available on Android smartphones — the Android
 devices used at *FIRST* Tech Challenge events remain vulnerable to certain
 wireless attacks.
@@ -257,9 +257,9 @@ The most critical responsibility of a FIRST Technical Advisor (FTA), Control
 System Advisor (CSA), or Wireless Technical Advisor (WTA) is deciding
 whether wireless interference during a match was significant enough to
 warrant a replay. This is a difficult and subjective decision. The
-Competition Manual states that matches are replayed at the discretion of the
-Head Referee only for a failure of an Arena Element or verified Wi-Fi
-interference that was likely to have impacted which Alliance won the match.
+:term:`Competition Manual` states that matches are replayed at the discretion of the
+Head :term:`Referee` only for a failure of an Arena Element or verified Wi-Fi
+interference that was likely to have impacted which :term:`Alliance` won the match.
 
 To recommend a match replay to the Head Referee, the FTA (or CSA or WTA)
 must have sufficient proof of such Wi-Fi interference.
@@ -349,7 +349,7 @@ during the event to help monitor the wireless environment.
 If resources are limited, using a spare set of Robot Controller and Driver
 Station devices to keep track of ping times is a relatively easy way to
 monitor the wireless environment. For larger and higher profile events, the
-event host and technical volunteers should consider using some of the more
+event host and technical :term:`volunteers <Volunteer>` should consider using some of the more
 sophisticated tools described in
 :doc:`/control_system_troubleshooting/monitoring_wireless_environment/monitoring-wireless-environment`
 to monitor the wireless spectrum at their event. These more sophisticated

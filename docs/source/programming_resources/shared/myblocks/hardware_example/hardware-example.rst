@@ -34,7 +34,7 @@ Line 20 is a **for loop**, which you can learn about
 `here <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>`__.
 It runs the specified servo back and forth, using the specified duration
 and number of cycles. This **for loop** has the added condition
-``opModeIsActive()``, to monitor and verify the OpMode has not been
+``opModeIsActive()``, to monitor and verify the :term:`OpMode` has not been
 stopped.
 
 Lines 22 and 24: the object myServo uses a method ``setPosition()`` from
@@ -77,7 +77,7 @@ OpMode like this:
 
 .. image:: images/a0320-wiggle-OpMode.png
 
-The final ``.sleep`` Block allows any telemetry to remain visible on the
+The final ``.sleep`` Block allows any :term:`telemetry <Telemetry>` to remain visible on the
 DS screen, before this sample OpMode ends.
 
 

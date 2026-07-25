@@ -11,7 +11,7 @@ interval from 250 milliseconds to any other interval.
 
 .. image:: images/a0600-Telemetry-interval.png
 
-A lower time interval can allow faster update of sensor or encoder data.
+A lower time interval can allow faster update of sensor or :term:`encoder <Encoder>` data.
 A higher interval can ease the RC-DS communication bandwidth load.
 
 Here’s the Java code for the method only:

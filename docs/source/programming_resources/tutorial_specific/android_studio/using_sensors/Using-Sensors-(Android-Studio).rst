@@ -16,8 +16,8 @@ time this document was most recently edited, the REV Color-Range sensor
 saturates around 2" (5cm). This means that for distances less than or
 equal to 2", the sensor returns a measured distance equal to 2" or so.
 
-Modify your op mode to add a telemetry statement that will send the
-distance information (in centimeters) to the Driver Station.
+Modify your op mode to add a :term:`telemetry <Telemetry>` statement that will send the
+distance information (in centimeters) to the :term:`Driver Station`.
 
 .. code-block:: java
 
@@ -38,8 +38,8 @@ sensor saturates at around 5 cm.
 Touch Sensor
 ~~~~~~~~~~~~
 
-The REV Robotics Touch Sensor can be connected to a digital port on the
-Control Hub or Expansion Hub. The Touch Sensor is HIGH (returns TRUE) when it is not
+The REV Robotics :term:`Touch Sensor` can be connected to a digital port on the
+:term:`Control Hub` or :term:`Expansion Hub`. The Touch Sensor is HIGH (returns TRUE) when it is not
 pressed. It is pulled LOW (returns FALSE) when it is pressed.
 
 .. image:: images/REVTouchSensor.jpg

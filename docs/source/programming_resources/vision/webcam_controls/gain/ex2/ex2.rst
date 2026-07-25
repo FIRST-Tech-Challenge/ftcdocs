@@ -35,4 +35,4 @@ gain effect was similar to the exposure effect.
 These two charts suggest that TFOD results are affected by, and can
 perhaps be optimized by, setting specific values for exposure and gain.
 A team should compare this with the default or automatic performance of
-their robot and webcam, in the full range of expected match conditions.
+their robot and :term:`webcam <Webcam>`, in the full range of expected match conditions.

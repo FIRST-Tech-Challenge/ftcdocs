@@ -12,7 +12,7 @@ ports.
 
 This document describes how to connect and configure an additional Expansion
 Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
-Competition Manual limits the maximum number of Control or Expansion Hubs on
+:term:`Competition Manual` limits the maximum number of Control or Expansion Hubs on
 a single robot to two. 
 
 Equipment Needed
@@ -29,7 +29,7 @@ need the following items:
    * - Required Item(s)
      - Image
 
-   * - REV Robotics Driver Hub (REV-31-1596)
+   * - REV Robotics :term:`Driver Hub` (REV-31-1596)
      - .. figure:: images/driverHub.jpg
 
    * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
@@ -42,7 +42,7 @@ need the following items:
        FIRST-approved 12V batteries, refer to the current Competition Manual.
      - .. figure:: images/Battery.jpg
 
-   * - REV Robotics Control Hub (REV-31-1595).
+   * - REV Robotics :term:`Control Hub` (REV-31-1595).
      - .. figure:: images/controlHub.jpg
 
    * - REV Robotics Expansion Hub (REV-31-1153).
@@ -89,7 +89,7 @@ Configuring Both devices
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you successfully daisy chained your Expansion Hub and Control Hub,
-then you should be able to create a new configuration file that includes
+then you should be able to create a new :term:`configuration file <Configuration File>` that includes
 both devices.
 
 **Note:** If you already have a configuration that contains just the
@@ -97,9 +97,9 @@ Control Hub, you can add the Expansion Hub by editing the configuration
 and pressing the "Scan" button.
 
 Connect your Driver Hub to the Control Hub's WiFi network and select the
-Configure Robot option from the Driver Station app. Press the New button
+Configure Robot option from the :term:`Driver Station` app. Press the New button
 to create a new configuration file. When you first scan for hardware, your
-Robot Controller should detect the embedded Control Hub. The Robot Controller
+:term:`Robot Controller` should detect the embedded Control Hub. The Robot Controller
 will automatically label this device as an Control Hub “Portal”. The Robot
 Controller will communicate through this portal to the individual Hubs.
 
@@ -147,7 +147,7 @@ using a Control Hub on their robot.
    * -  USB Type A male to type mini-B male cable.
      -  .. figure:: images/USBTypeACable.jpg
 
-   * - Micro USB OTG adapter.
+   * - Micro USB :term:`OTG adapter <OTG Adapter>`.
      - .. figure:: images/OTGAdapter.jpg
   
    * - An additional REV Robotics Expansion Hub (REV-31-1153).
@@ -156,7 +156,7 @@ using a Control Hub on their robot.
 Changing the Address of an Expansion Hub
 ----------------------------------------
 
-You can use the Advanced Settings menu of the Robot Controller App
+You can use the Advanced Settings menu of the :term:`Robot Controller App`
 to change the address of any connected Expansion Hubs.
 
 **Important Note:** If both of your Expansion Hubs have the same address

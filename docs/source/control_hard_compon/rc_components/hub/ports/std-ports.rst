@@ -36,7 +36,7 @@ Encoder Ports
 --------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your quadrature encoders. There are 4 of these
+style connectors are used for your quadrature :term:`encoders <Encoder>`. There are 4 of these
 ports on each hub and they can be used in tandem with the motor they are
 adjacent to. However, it is also possible to use this port to connect to a
 standalone incremental encoder. To connect to more than 4 encoders it is
@@ -59,7 +59,7 @@ please see `REV Servo Port Documentation <https://docs.revrobotics.com/duo-contr
 
 These 0.1” Header pins are used to power and control various appliances. There
 are two ports on each hub. These connectors can be used for a limited range of
-applications in *FIRST* Tech Challenge, such as powering powered USB hubs. For more
+applications in *FIRST* Tech Challenge, such as powering powered :term:`USB hubs <USB Hub>`. For more
 information on this port please see 
 `REV +5V Power Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ and 
 the Power Distribution section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_.
@@ -88,7 +88,7 @@ I2C Ports
 
 .. todo::
    TODO [uvidyadharan]
-   Add reference to I2C Driver creation tutorial once migrated
+   Add reference to :term:`I2C` Driver creation tutorial once migrated
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
 style connectors are used for connecting I2C sensors. Each port is a single I2C bus where multiple sensors can be 

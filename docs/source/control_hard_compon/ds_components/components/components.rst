@@ -11,7 +11,7 @@ Android Device
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      REV Driver Hub
+      REV :term:`Driver Hub`
 
       ^^^
 
@@ -44,8 +44,8 @@ Android Device
 The heart of the Driver Station is the Android Device that runs the Driver
 Station App. This Android Device requirement can be fulfilled either through
 the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or
-one of the approved Android Smartphones listed in the Competition Manual. It is
-of vital importance that the Driver Station App be updated to a version that
+one of the approved Android Smartphones listed in the :term:`Competition Manual`. It is
+of vital importance that the :term:`Driver Station App` be updated to a version that
 meets or exceeds the minimum Driver Station App version as defined in the
 Competition Manual.
 
@@ -70,13 +70,13 @@ USB-OTG Adapter / Hubs
 
       +++
 
-      USB OTG Adapter Cable
+      USB :term:`OTG Adapter` Cable
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
 
-      USB Hub
+      :term:`USB Hub`
 
       ^^^
 
@@ -108,7 +108,7 @@ USB-OTG Adapter / Hubs
 
 If the Android Device being used is an Android Smartphone, the smartphone only
 provides a single USB-Micro-B port on the bottom of the phone. In order to use
-USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter
+USB devices with the Android Smartphone, like a :term:`gamepad <Gamepad>`, a USB-OTG Adapter
 Cable must be used. This cable provides a USB Type A port for the Gamepad or peripherals
 (like a USB Hub, to allow more than one Gamepad to be used). If available, it
 is instead recommended to use a USB Hub with OTG cable built in, like the 

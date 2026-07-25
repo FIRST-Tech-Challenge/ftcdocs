@@ -11,7 +11,7 @@ described below for a REV Driver Hub, also apply to a using an Android phone as 
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
-In order to comply with the Competition Manual, the name of the Driver
+In order to comply with the :term:`Competition Manual`, the name of the Driver
 Station (DS) should be changed. 
 Configure devices for your team number. The ROBOT CONTROLLER, DRIVER STATION, and any spares used must be configured/named to correspond to the correct team number as follows:
 
@@ -35,7 +35,7 @@ The Driver Hub name can be changed in the DS app, as described below.
 
    If you see a yellow circled exclamation icon on your DS screen and touch it, a message will pop up
    temporarily and say "*DS* does not match *DS*, see the FTC Competition Manual".
-   Note: *DS* is the current name of the Driver Station, and *RC* is the current Robot Controller name.
+   Note: *DS* is the current name of the Driver Station, and *RC* is the current :term:`Robot Controller` name.
    
    This is because the DS and RC names do not match. You should change both names to include your team 
    number as indicated above, as required by the Competition Manual.
@@ -106,8 +106,8 @@ As of 2021, all apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
+will allow you to download the apps to approved devices: REV :term:`Control Hub`, REV
+:term:`Expansion Hub`, REV Driver Hub, and approved Android devices. Here
 are some of the benefits: 
 
 -  Connect a REV Control Hub via WiFi. 
@@ -117,7 +117,7 @@ are some of the benefits:
 -  Install and switch between DS and RC applications on Android Devices. 
 -  Access the Robot Control Console on the Control Hub.
 
-All teams using Blocks, OnBot Java or Android Studio can use the REV
+All teams using Blocks, :term:`OnBot Java` or :term:`Android Studio` can use the REV
 Hardware Client to update the Driver Station (DS) app on a DS phone.
 
 NOTE: it will take an estimated 7.5 minutes per device to complete this

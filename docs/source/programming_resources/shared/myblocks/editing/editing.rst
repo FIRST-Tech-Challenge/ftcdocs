@@ -18,7 +18,7 @@ If your edit affects only the myBlock’s **internal** processing, it
 might update automatically after “Build Everything”, without needing a
 fresh replacement from the Java Classes menu. In some cases you might
 not even need to click Save OpMode in the Blocks screen – you could
-simply re-run the OpMode on the Driver Station with INIT and Start. This
+simply re-run the OpMode on the :term:`Driver Station` with INIT and Start. This
 can allow very fast testing of minor/internal changes to the myBlock.
 
 In any case, consider adding **versions** to your myBlock names, such as

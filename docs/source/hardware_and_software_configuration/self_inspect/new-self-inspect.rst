@@ -22,7 +22,7 @@ The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
 and properly configured.
 
-Each inspection screen updates automatically, with or without a Restart
+Each :term:`inspection <Inspection>` screen updates automatically, with or without a Restart
 Robot. This allows quick verification that issues have been resolved.
 
 The challenge is to maximize useful information in a small screen. The
@@ -40,20 +40,20 @@ Many FTC events will scan the QR Code that is displayed on the RC Inspection Rep
 Version Information
 -------------------
 
-The Competition Manual lists the minimum recommended versions of device firmware, Android operating system, and FTC Apps.
+The Competition Manual lists the minimum recommended versions of device :term:`firmware <Firmware>`, Android operating system, and FTC Apps.
 Teams may choose to run older versions without affecting their ROBOT inspection status.
 This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
 
 .. note::
   The images in this page show Version 10.3 or newer of the FTC apps.
-  This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
+  This page only shows a :term:`Driver Hub` paired with a :term:`Control Hub`, there may be slight differences if a phone is used as a driver station or robot controller.
   See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
 
 *FIRST* recommends but does not require that teams use the most recent versions of firmware, Android Operating System, and FTC Apps.
 Current versions have the latest bug fixes and enhancements. For example, version 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi.
  
 Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP major version is 10, and the DECODE major version is 11.
-If the game has AprilTags, the SDK will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
+If the game has :term:`AprilTags <AprilTag>`, the SDK will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
 As the season progresses, minor releases will include bug fixes and some enhancements. e.g. 11.1, 11.2, etc.
   
 Regardless of the versions selected, it is highly recommended that the installed ROBOT CONTROLLER
@@ -102,7 +102,7 @@ The following is a screen shot of a DS Self Inspection Report with the Driver Hu
    It does not check whether the RC name matches FTC format requirements. See the Robot Controller Self Inspection Report.
 -  Item 13 Apps Installed ``Robot Controller`` should be **Not installed**. This verifies that the Driver Station device does **not** also have a Robot Controller app
    installed. Only one FTC app should be installed on each device. It's possible to accidentally install both apps, but this usually causes the apps to not work properly.
--  Item 14 Apps Installed ``Driver Station`` should indicate the version number of the Driver Station App. *FIRST* recommends but does not require that teams use the currently available version.
+-  Item 14 Apps Installed ``Driver Station`` should indicate the version number of the :term:`Driver Station App`. *FIRST* recommends but does not require that teams use the currently available version.
    An invalid or future device system date can result in an invalid inspection item here with a message that "The Driver Station app is obsolete".
    Correcting the date on the device should fix the invalid inspection item.
 
@@ -113,7 +113,7 @@ Problems are indicated by a red circle exclamation mark icon, or an orange trian
 
 This was a driver hub that was firmware reset. This reset the DS version to 7 and restored all system and DS app settings to defaults.
 Then the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_ was used to update the DS version 10.3. 
-Then the FTCRobotController app was also deployed to the DS device from Android Studio.
+Then the FTCRobotController app was also deployed to the DS device from :term:`Android Studio`.
    
 .. figure:: images/newDSerrors.png   
    :align: center
@@ -156,7 +156,7 @@ FYI - if you connect an external monitor to the Control Hub's HDMI port and a mo
 -  Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* recommends but does not require that teams use the currently available version.
 -  Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub.
 -  Item 6 ``Hub Firmware`` lists the hub addresses and firmware levels. This
-   example shows one Control Hub, but an Expansion Hub can also be listed here. A
+   example shows one Control Hub, but an :term:`Expansion Hub` can also be listed here. A
    check mark indicates all firmware is up-to-date based on the current version of the RC app. 
    *FIRST* recommends but does not require that teams use the currently available version.
 -  Item 7 shows the ``Battery Level`` of the device being reported.

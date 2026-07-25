@@ -30,7 +30,7 @@ Wi-Fi Event Planning Guide
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 *FIRST* Tech Challenge has published a Wi-Fi Event Planning Guide that
-contains detailed steps a technical volunteer can take to help keep the
+contains detailed steps a technical :term:`volunteer <Volunteer>` can take to help keep the
 wireless environment operating smoothly at larger events. Check the *FIRST*
 Tech Challenge community and resource library for the current version of
 this guide.
@@ -98,11 +98,11 @@ channel, here are some factors to consider when doing your planning.
     channel.
   - *Use a pair of Android devices to monitor ping times.* If a target
     channel looks relatively clean, you should use a pair of Android
-    devices running the FTC Driver Station and FTC Robot Controller apps to
+    devices running the FTC Driver Station and FTC :term:`Robot Controller` apps to
     monitor the ping times on the target channel. You will need a pair of
     Android devices that support channel changing (such as approved FTC
     phones). Switch to the target channel and test to make sure you can
-    select and run an OpMode (like the NullOp sample OpMode). If the average
+    select and run an :term:`OpMode` (like the NullOp sample OpMode). If the average
     ping times for the test Android devices are low (less than 5 msec) then
     the channel is clear. If the average ping times are high (more than 50
     msec) then there might be some type of interference on the channel.
@@ -128,7 +128,7 @@ channel, here are some factors to consider when doing your planning.
 
 .. important:: Approved hardware changes over time. For the current list of
    allowed phones and other hardware and software, teams should always refer
-   to the current season's *FIRST* Tech Challenge Competition Manual and its
+   to the current season's *FIRST* Tech Challenge :term:`Competition Manual` and its
    updates, rather than relying on the list above.
 
 UnPairing Then Re-Pairing the Driver Station to the Robot Controller
@@ -195,7 +195,7 @@ Changing the Channel Using an Approved Motorola Smartphone
 
 If you are using an approved Motorola smartphone as your Robot Controller,
 you can use the channel change function that is built into the FTC Robot
-Controller app to change the Wi-Fi Direct operating channel. From the Robot
+Controller app to change the :term:`Wi-Fi Direct` operating channel. From the Robot
 Controller app, launch the Settings menu and select the Change Wi-Fi Channel
 option.
 

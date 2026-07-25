@@ -35,7 +35,7 @@ and not mentioning a "Builder":
       The FTC Blocks VisionPortal toolbox, or palette, offers "Easy Create" Blocks for:
 
       - AprilTag or TFOD (or both)
-      - webcam, built-in RC phone camera, or "Switchable Camera Name"
+      - :term:`webcam <Webcam>`, built-in RC phone camera, or "Switchable Camera Name"
 
       That's 3 x 3 = 9 total choices, all "Easy".
 

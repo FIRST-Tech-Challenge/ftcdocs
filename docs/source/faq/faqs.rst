@@ -70,11 +70,11 @@ Competition FAQs
 
     .. grid-item-card:: Who on my team needs to be with the robot for inspection?
 
-        At least one student must be present during inspection per the Competition Manual.
+        At least one student must be present during :term:`inspection <Inspection>` per the :term:`Competition Manual`.
         However, inspectors will ask questions about the mechanical and electrical components of your robot.
         Ideally, you have one or more team members who can answer such questions.
         In addition, you may need to turn your robot and driver station on and demonstrate your robot complies with a particular rule like sizing.
-        That may involve someone from the drive team if you need to use a gamepad to operate a mechanism or place the robot in its starting configuration.
+        That may involve someone from the drive team if you need to use a :term:`gamepad <Gamepad>` to operate a mechanism or place the robot in its starting configuration.
         Look at the self inspection checklist, you can generally determine what you're doing based on the checklist.
         
     .. grid-item-card:: Why aren’t you going to replay that match?
@@ -85,7 +85,7 @@ Competition FAQs
 
     .. grid-item-card:: Why did you replay a match for someone else, but not us?
 
-        The situation was different. If necessary, teams can talk with the head referee in the competition area Question Box.
+        The situation was different. If necessary, teams can talk with the head :term:`referee <Referee>` in the competition area Question Box.
 
     .. grid-item-card:: Why won’t you fix that score? We have video (or photographs) to prove the score is wrong!
 
@@ -99,7 +99,7 @@ Competition FAQs
 
         If a team has questions about a match outcome, they should send one student representative to the Question Box to talk to the Head Referee (do not interrupt matches for 
         this conversation). If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that 
-        decision. Check the Competition Manual for more information about key volunteer roles, tournament operations, and how to use the Question Box.
+        decision. Check the Competition Manual for more information about key :term:`volunteer <Volunteer>` roles, tournament operations, and how to use the Question Box.
 
 Technology FAQs
 --------------------

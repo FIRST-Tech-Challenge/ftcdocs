@@ -46,8 +46,8 @@ During a typical *FIRST* Tech Challenge match, only a team's Driver Station
 is connected to the Wi-Fi Direct group or the wireless access point (WAP)
 that is established by the team's Robot Controller. Away from the
 competition field, however, a team might have additional devices connected
-to this Wi-Fi Direct group. For example, when a team edits an OpMode using
-the FTC Blocks Development Tool or the FTC OnBot Java Development Tool, their
+to this Wi-Fi Direct group. For example, when a team edits an :term:`OpMode` using
+the FTC Blocks Development Tool or the FTC :term:`OnBot Java` Development Tool, their
 developer's laptop will also be connected to the Robot Controller's wireless
 network.
 
@@ -58,7 +58,7 @@ network.
    from the competition field.
 
 Note that the wireless connection between the developer's laptop and the
-Robot Controller does not violate the prohibition in the Competition Manual
+Robot Controller does not violate the prohibition in the :term:`Competition Manual`
 on teams setting up their own wireless network. For this case, the
 developer's laptop is connected to the existing Wi-Fi Direct group or
 wireless access point that is also used by the Driver Station to communicate
@@ -312,7 +312,7 @@ Station and Robot Controller devices are not connected to any other
 networks other than each other. It is possible, and sometimes desirable, to
 connect your Android device to an alternate wireless network:
 
-- Teams like to use the wireless ADB mechanism to debug their apps.
+- Teams like to use the wireless :term:`ADB` mechanism to debug their apps.
 - Teams might need to connect to a wireless network to download something
   to their phone from the internet.
 - Teams might have used the Android device to check their e-mail or look up
