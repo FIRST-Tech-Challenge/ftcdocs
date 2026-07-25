@@ -79,7 +79,7 @@ in place.
    Blocks
    Blocks Programming Tool
       The visual, drag-and-drop programming tool built into the
-      :term:`Robot Controller App`. Teams connect coloured blocks in a web
+      :term:`Robot Controller App`. Teams connect colored blocks in a web
       browser to build an :term:`OpMode`, with no typing of Java required. It is
       the recommended starting point for new teams.
       See :doc:`/programming_resources/blocks/Blocks-Tutorial`.
@@ -142,7 +142,7 @@ in place.
 
    Dead Wheel
       An unpowered wheel, fitted with an :term:`Encoder`, that rolls along the
-      floor purely to measure how far the robot has travelled. Because it is not
+      floor purely to measure how far the robot has traveled. Because it is not
       driven, it does not slip under load the way a drive wheel does, which makes
       it a more trustworthy source for :term:`Odometry`.
 
@@ -276,7 +276,7 @@ in place.
 
    I2C
       A two-wire communication bus used by many sensors, including the
-      :term:`IMU` and most colour and distance sensors. Several devices can share
+      :term:`IMU` and most color and distance sensors. Several devices can share
       one bus, but each needs a distinct address, so identical sensors normally
       go on separate :term:`Hub` I2C buses.
 
@@ -346,7 +346,7 @@ in place.
    OpMode
    Op Mode
    Operational Mode
-      A program that defines part of a robot's behaviour, written by the team and
+      A program that defines part of a robot's behavior, written by the team and
       run on the :term:`Robot Controller`. OpModes are selected and started from
       the :term:`Driver Station`, and are declared as either :term:`AUTO` or
       :term:`TELEOP`. Each one is written as a :term:`LinearOpMode` or an
@@ -355,7 +355,7 @@ in place.
 
    OpenCV
       An open-source computer vision library, bundled with the :term:`SDK`, that
-      provides the image-processing building blocks — colour conversion,
+      provides the image-processing building blocks — color conversion,
       thresholding, contour finding — used to detect objects in a camera frame.
       See :doc:`/color_processing/index`.
 
@@ -440,7 +440,7 @@ in place.
 
    Sensor
       Any device that reports information about the robot or its surroundings —
-      touch, distance, colour, rotation — to the :term:`Robot Controller`.
+      touch, distance, color, rotation — to the :term:`Robot Controller`.
       Sensors attach to :term:`Digital I/O`, :term:`Analog Input` or
       :term:`I2C` ports on a :term:`Hub`.
       See :doc:`/control_hard_compon/rc_components/sensors/sensors`.
@@ -467,7 +467,7 @@ in place.
    TensorFlow
    TFOD
    TensorFlow Object Detection
-      A machine-learning framework used to recognise objects in a camera image
+      A machine-learning framework used to recognize objects in a camera image
       from a trained model. The :term:`SDK` ships a TFOD processor that can be
       run through :term:`VisionPortal`, along with season-specific models.
 
