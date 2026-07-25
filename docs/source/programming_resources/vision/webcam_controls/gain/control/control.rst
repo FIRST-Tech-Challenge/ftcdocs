@@ -4,7 +4,7 @@ Gain Control
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
 
 Gain is a digital camera setting that controls the amplification of the
-signal from the :term:`webcam <Webcam>` :term:`sensor <Sensor>`. This amplifies the whole signal,
+signal from the :term:`webcam <Webcam>` sensor. This amplifies the whole signal,
 including any associated background noise.
 
 Gain can be managed in coordination with exposure. Raising exposure and

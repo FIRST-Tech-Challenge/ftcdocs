@@ -118,7 +118,7 @@ light can interfere with a camera's ability to view an AprilTag. What can be don
 The best way to counter this environmental lighting is to use the webcam
 settings within the SDK to adjust both the Gain and the Exposure settings at
 the same time. By simultaneously minimizing the exposure (lessening the amount of
-time light is allowed to strike the :term:`sensor <Sensor>` each image frame) and maximizing
+time light is allowed to strike the sensor each image frame) and maximizing
 the gain (amplifying the signal from the sensor) the resulting image will be 
 darker than a normal image but elements of high contrast will be accentuated, 
 like AprilTags, allowing them to be recognized. This can be experimented with

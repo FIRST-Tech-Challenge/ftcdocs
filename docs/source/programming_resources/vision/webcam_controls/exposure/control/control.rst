@@ -1,11 +1,11 @@
 Exposure Control
 ----------------
 
-Exposure is the amount of light that reaches the :term:`webcam <Webcam>` :term:`sensor <Sensor>`. It is an
+Exposure is the amount of light that reaches the :term:`webcam <Webcam>` sensor. It is an
 important part of how bright or dark your image appears.
 
 Exposure varies directly with the amount of time that the shutter is
-open, allowing light to enter and reach the sensor. So, the 
+open, allowing light to enter and reach the :term:`sensor <Sensor>`. So, the 
 interface ExposureControl uses a single value of **duration**, in units
 of time that you specify, typically ``TimeUnit.MILLISECONDS``.
 

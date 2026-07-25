@@ -95,7 +95,7 @@ Orientation Notes
 With SDK 8.2, the default image orientation is **SENSOR_NATIVE**.
 
 This Java **enum** SENSOR_NATIVE means that the processing pipeline is
-getting the image in the native orientation of the camera :term:`sensor <Sensor>`.
+getting the image in the native orientation of the camera sensor.
 Namely, no rotation is performed. Note that (former) enum UPRIGHT for a
 webcam is the same as SENSOR_NATIVE, while for a phone camera, (former)
 enum SIDEWAYS_LEFT is the same as SENSOR_NATIVE.

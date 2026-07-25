@@ -469,7 +469,7 @@ Here's a gateway page example for the Field Setup Guide PDF.
        - Instructions for setup of the field perimeter and field tiles.
        - Step by step instructions for assembling parts and setting them on the field.
        - Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the :term:`Alliances <Alliance>`, and sometimes for game areas.
-       - Most games have AprilTags placed around the field that can be used for robot navigation.
+       - Most games have :term:`AprilTags <AprilTag>` placed around the field that can be used for robot navigation.
        - Finally, there are tear down instructions that indicate how to take the field down for storage or transport.
 
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:

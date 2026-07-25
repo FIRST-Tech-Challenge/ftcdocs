@@ -4,7 +4,7 @@ Focus Control
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`
 
 At a distance called “focus length”, a subject’s image (light rays)
-converge from the lens to form a clear image on the :term:`webcam <Webcam>` :term:`sensor <Sensor>`.
+converge from the lens to form a clear image on the :term:`webcam <Webcam>` sensor.
 
 If supported by the webcam, focus can be managed with these FocusControl
 methods: 
