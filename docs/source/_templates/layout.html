@@ -22,6 +22,49 @@
 </div>
 {% endblock %}
 
+{#- Sidebar brand lockup.
+
+    Overridden only to emit two logos instead of the theme's one. Both FTC
+    horizontal lockups carry a single-color *FIRST* wordmark -- ink on
+    ftc-logo-horz-onlight.png, white on ftc-logo-horz-ondark.png -- so neither
+    reads on both the light and the dark sidebar. ftc-rtd.css displays whichever
+    matches the active theme and sets `display: none` on the other, which also
+    keeps the hidden one out of the accessibility tree.
+
+    The version block and searchbox include below are verbatim from
+    sphinx_rtd_theme's layout.html; only the <a> is ours. -#}
+{%- block sidebartitle %}
+
+  {%- set _logo_url = logo_url|default(pathto('_static/' + (logo or ""), 1)) %}
+  {%- set _root_doc = root_doc|default(master_doc) %}
+  {#- With logo_only the lockup is the link's only content and so needs a real
+      accessible name; otherwise the project title supplies it and the images
+      are decorative. -#}
+  {%- set _logo_alt = project if theme_logo_only else "" %}
+  <a href="{{ pathto(_root_doc) }}"{% if not theme_logo_only %} class="icon icon-home"{% endif %}>
+    {% if not theme_logo_only %}{{ project }}{% endif %}
+    {%- if logo or logo_url %}
+      <img src="{{ _logo_url }}" class="logo logo-on-light" alt="{{ _logo_alt }}"/>
+    {%- endif %}
+    <img src="{{ pathto('_static/ftc-logo-horz-ondark.png', 1) }}" class="logo logo-on-dark" alt="{{ _logo_alt }}"/>
+  </a>
+
+  {%- if theme_display_version %}
+    {%- set nav_version = version %}
+    {%- if READTHEDOCS and current_version %}
+      {%- set nav_version = current_version %}
+    {%- endif %}
+    {%- if nav_version %}
+      <div class="version">
+        {{ nav_version }}
+      </div>
+    {%- endif %}
+  {%- endif %}
+
+  {%- include "searchbox.html" %}
+
+{%- endblock %}
+
 {%- block footer %}
   {%- if READTHEDOCS %}
   <script>

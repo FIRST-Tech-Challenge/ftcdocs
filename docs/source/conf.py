@@ -89,10 +89,12 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Sidebar logo. The sidebar is white (matching the firstinspires.org header),
-# so the lockup with the ink *FIRST* wordmark is used rather than the reversed
-# (white wordmark) variant.
-html_logo = "assets/ftc-logo-horz-onlight.png"
+# Sidebar logo. The sidebar is white (matching the firstinspires.org header), so
+# this is the lockup with the ink *FIRST* wordmark. Dark mode needs the white
+# wordmark instead; `_templates/layout.html` emits both and ftc-rtd.css picks
+# one, so its counterpart lives beside this file as
+# _static/ftc-logo-horz-ondark.png.
+html_logo = "_static/ftc-logo-horz-onlight.png"
 
 # URL favicon
 html_favicon = "assets/FIRSTicon_RGB_withTM.ico"

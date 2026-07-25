@@ -240,6 +240,23 @@ body {
 	background: none;
 }
 
+/* Theme-matched lockup. `layout.html` emits both variants because the *FIRST*
+   wordmark is a single flat color in each: ink on the light asset (invisible on
+   the dark sidebar) and white on the dark asset (invisible on the light one).
+   `display: none` rather than opacity/visibility so the unused variant is also
+   dropped from the accessibility tree. */
+.wy-side-nav-search > a img.logo-on-dark {
+	display: none;
+}
+
+html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-light {
+	display: none;
+}
+
+html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-dark {
+	display: block;
+}
+
 .wy-side-nav-search > div.version,
 .wy-side-nav-search > div.switch-menus {
 	color: var(--fi-muted);
