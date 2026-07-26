@@ -268,7 +268,7 @@
             echo "  make -C docs html       # build the HTML site"
             echo "  make -C docs autobuild  # live-reloading local server"
             echo "  make -C docs booklets   # build the PDF booklets (needs LaTeX)"
-            echo "  cspell \"docs/source/**/*.rst\" \"*.md\"  # spell check the docs"
+            echo "  cspell \"docs/source/**/*.rst\"  # spell check the docs"
           '';
         };
 

@@ -201,21 +201,6 @@ underserved
 Uparameters
 Xtheirs
 
-# --- Documentation build tooling (referenced in AGENTS.md) ---
-imagecheck
-imagesizechecker
-latexmk
-linkcheck
-linkcheckdiff
-pandoc
-rediraffe
-rediraffecheckdiff
-reviewdog
-sitewide
-sphinxext
-SPHINXOPTS
-xetex
-
 # --- Networking / wireless / device debugging (control system troubleshooting) ---
 Aircheck
 BSSID
