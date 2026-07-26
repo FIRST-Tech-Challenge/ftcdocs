@@ -22,8 +22,7 @@ developed this capability, along with myBlocks and many other useful
 features of the software.
 
 *Note: This new capability exists for a Robot Controller (RC)
-running Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC
-phones cannot use this feature.*
+running Android 7 and higher. Older RC phones cannot use this feature.*
 
 Overview
 --------

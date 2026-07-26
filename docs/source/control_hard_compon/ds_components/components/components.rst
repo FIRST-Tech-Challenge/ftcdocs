@@ -32,14 +32,14 @@ Android Device
 
       ^^^
 
-      .. figure:: images/motoe5.png
+      .. figure:: images/android-smartphone.png
          :align: center
-         :alt: Moto E5
+         :alt: An Android smartphone
          :width: 50 %
 
       +++
 
-      Moto E5
+      Android Smartphone
 
 The heart of the Driver Station is the Android Device that runs the Driver
 Station App. This Android Device requirement can be fulfilled either through

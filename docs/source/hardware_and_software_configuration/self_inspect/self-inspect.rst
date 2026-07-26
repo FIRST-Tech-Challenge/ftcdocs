@@ -38,8 +38,8 @@ Device Pairing
 --------------
 
 Pairing technology is a key aspect of Self Inspect reporting. Remember
-that RC phones host via **Wi-Fi Direct**, while Control Hubs host via
-**Standard, or ‘infrastructure’, Wi-Fi**.
+that Control Hubs host via **Standard, or ‘infrastructure’, Wi-Fi**,
+while RC phones host via **Wi-Fi Direct**.
 
 In the DS app’s Settings, the selected Pairing Method (Wi-Fi Direct or
 Control Hub) will influence acceptance/rejection in the DS Self Inspect
@@ -52,13 +52,13 @@ networks.
 
 FTC control devices may use these combinations: 
 
-- DS phone, RC phone 
-- DS phone, Control Hub 
-- Driver Hub, RC phone 
 - Driver Hub, Control Hub
+- Driver Hub, RC phone
+- DS phone, Control Hub
+- DS phone, RC phone
 
-A DS device (phone or Driver Hub) can display its own DS Self Inspect
-**and** an RC Self Inspect (for paired RC phone or Control Hub). An RC
+A DS device (Driver Hub or phone) can display its own DS Self Inspect
+**and** an RC Self Inspect (for paired Control Hub or RC phone). An RC
 phone can display only its own RC Self Inspect.
 
 This means that the Self Inspect screens can report as follows: 

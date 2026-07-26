@@ -114,22 +114,14 @@ channel, here are some factors to consider when doing your planning.
     low on a target channel, then it should be safe to place your robots on
     the channel.
 
-- **What type of Android devices will the teams be using?** FTC-approved
-  smartphones support channel changing using the FTC Robot Controller app.
-  Approved Motorola smartphone models have included:
-
-  - Motorola Moto G4 Play (4th Generation)
-  - Motorola Moto G5
-  - Motorola Moto G5 Plus
-  - Motorola Moto E4 (USA versions only, includes SKUs XT1765, XT1765PP,
-    XT1766, and XT1767)
-  - Motorola Moto E5 (XT1920)
-  - Motorola Moto E5 Play (XT1921)
+- **What type of Android devices will the teams be using?** The REV Control
+  Hub supports channel changing using the FTC Robot Controller app, as do
+  the FTC-approved Android smartphones.
 
 .. important:: Approved hardware changes over time. For the current list of
-   allowed phones and other hardware and software, teams should always refer
-   to the current season's *FIRST* Tech Challenge Competition Manual and its
-   updates, rather than relying on the list above.
+   allowed Android devices and other hardware and software, teams should
+   always refer to the current season's *FIRST* Tech Challenge Competition
+   Manual and its updates.
 
 UnPairing Then Re-Pairing the Driver Station to the Robot Controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -165,13 +157,12 @@ Direct device.
 
 To re-pair the two devices, launch the Settings menu from the Driver Station
 app again and select Pair with Robot Controller again. Find the listing for
-your Robot Controller Android device (in this example "ZTE-026") and select
-this item.
+your Robot Controller Android device and select this item.
 
 .. figure:: images/ds-select-rc-device.png
    :alt: Pair with Controller screen with a Robot Controller device selected from the list of available devices.
 
-   Select your target device (in this example ZTE-026), then use the back arrow to return to the main screen.
+   Select your target device, then use the back arrow to return to the main screen.
 
 .. note:: Your Robot Controller smartphone Android device might prompt you
    to make sure you approve the connection request. On the Robot Controller
@@ -190,10 +181,10 @@ should display that it has successfully connected to the Robot Controller.
 
    Once the connection request is accepted, the Driver Station connects to the Robot Controller.
 
-Changing the Channel Using an Approved Motorola Smartphone
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changing the Channel Using an Approved Android Smartphone
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are using an approved Motorola smartphone as your Robot Controller,
+If you are using an approved Android smartphone as your Robot Controller,
 you can use the channel change function that is built into the FTC Robot
 Controller app to change the Wi-Fi Direct operating channel. From the Robot
 Controller app, launch the Settings menu and select the Change Wi-Fi Channel

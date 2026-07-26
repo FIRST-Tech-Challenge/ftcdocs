@@ -7,7 +7,7 @@ Introduction
 Managing AprilTag and Color Processing performance is greatly enhanced with visual
 feedback of the camera’s view.
 
-.. figure:: images/040-RC-preview-2-webcams-Moto-e4.png
+.. figure:: images/040-RC-preview-2-webcams.png
    :width: 75%
    :align: center
    :alt: Multicam Preview
@@ -16,11 +16,11 @@ feedback of the camera’s view.
 
 The Driver Station and Robot Controller apps offer a camera preview on both devices:
 
--  **LiveView** on Robot Controller (RC) device – RC phone or Control
-   Hub (see below)
+-  **LiveView** on Robot Controller (RC) device – Control Hub or RC
+   phone (see below)
 
--  **Camera Stream** on Driver Station (DS) device – DS phone or Driver
-   Hub
+-  **Camera Stream** on Driver Station (DS) device – Driver Hub or DS
+   phone
 
 LiveView refers only to the **Robot Controller** preview (example shown above).
 It’s completely separate from **DS Camera Stream**, which still operates

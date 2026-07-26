@@ -77,7 +77,7 @@ Expand the following instructions that apply to your Robot Controller hardware:
 
    #. REV Hardware Client (RHC)
    #. Manage page on computer
-   #. Manage page on DS phone or Driver Hub
+   #. Manage page on Driver Hub or DS phone
 
    .. note:: 
       “Side loading”, while possible, is not described here for the Control Hub

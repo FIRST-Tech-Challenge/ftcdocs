@@ -1796,10 +1796,11 @@ Legacy Tech Tips:
       - USB-C to USB-C cables do not work with Driver Hub. USB-A to USB-C cables 
         are required in order to use the USB-C port.
 
-   On the other hand, several off-the-shelf SmartPhones are supported, including
-   the Motorola Moto E4 and Moto E5 phones. These devices, like the REV Driver
-   Hub, run the Android mobile operating system and use Wi-Fi to talk to the 
-   REV Control Hub (therefore no SIM card or cell plan is required). SmartPhones
+   On the other hand, a small number of off-the-shelf SmartPhones are still
+   supported; the Competition Manual has the current list. These devices, like
+   the REV Driver Hub, run the Android mobile operating system and use Wi-Fi to
+   talk to the REV Control Hub (therefore no SIM card or cell plan is
+   required). SmartPhones
    use USB-OTG to interface with gamepads and external USB hubs necessary for 
    operating multiple gamepads.
    
@@ -2018,7 +2019,7 @@ Legacy Tech Tips:
    did you know that you’re not supposed to use the `REV Hardware Client
    <https://docs.revrobotics.com/rev-hardware-client/>`__ to update the Robot
    Controller (RC) App? Blocks and OnBot Java programs are stored on the Robot
-   Controller (SmartPhone or Control Hub) differently than Android Studio
+   Controller (Control Hub or SmartPhone) differently than Android Studio
    programs, and this has a major effect on how updates can be managed on the
    device. Read more about this at :ref:`Updating the Robot Controller (RC) App
    <ftc_sdk/updating/rc_app/Updating-the-RC-App:Updating the Robot Controller (RC) App>`.
