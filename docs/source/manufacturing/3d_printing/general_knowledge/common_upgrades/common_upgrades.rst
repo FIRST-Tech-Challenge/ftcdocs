@@ -8,10 +8,10 @@ Removable/Flexible Beds
 -----------------------
 
 A lot of printers come with cheap "BuildTak" (typical stickers) beds that work just fine, but some people
-desire more removeable prints with better adhesion and more customizability, which is fulfilled by removable 
+desire more removable prints with better adhesion and more customizability, which is fulfilled by removable
 beds. WhamBam, Bambulabs, and generic Amazon sellers will typically carry these beds for various prices. 
 You'll see some terms which we'll explain here. PEI is the "gold standard" nowadays, simply being a sheet
-of material that sticks well to 3D prints when heated. More advanced options includev PEX, which expands when
+of material that sticks well to 3D prints when heated. More advanced options include PEX, which expands when
 heated and holds onto 3D prints better, and then as it cools completely releases the parts. Powder-Coated PEI/Textured
 PEI are by far the most popular flexible beds now, being cheap, simple, more resistant to damage than PEI or PEX
 flexible beds, and having exceptional print adhesion.
@@ -102,7 +102,7 @@ include this option stock, so it's not a concern for many.
 ABL or Auto-Bed Leveling uses either a mechanical or inductive sensor on your toolhead to probe your bed in 
 different locations and uses software to improve your first layer quality and adhesion. While it requires learning 
 a bit about firmware, auto bed leveling is extremely worth it. More and more printers are coming with auto bed 
-leveling stock, butcif yours didn't and you'd like to upgrade, these options are common:
+leveling stock, but if yours didn't and you'd like to upgrade, these options are common:
 
 * Mechanical Sensors: BLTouch, CRTouch
 * Inductive Sensors: Omron TL-Q5MC2-Z, Pinda Inductive Probes

@@ -37,6 +37,8 @@ durometer
 durometers
 gamepads
 Gamepads
+gearmotor
+gearmotors
 hardstop
 holonomic
 hotend
@@ -46,6 +48,8 @@ Hotends
 mecanum
 Mecanum
 navx
+odometry
+Odometry
 Overcurrent
 overextrusion
 Overextrusion
@@ -53,9 +57,12 @@ pidf
 PIDF
 pinout
 Powerpole
+Powerpoles
 pressfit
 Pressfit
 pressfits
+robo
+roboRIO
 slipfit
 Slipfit
 slipfits
@@ -72,6 +79,8 @@ Multicam
 multiportal
 Multiportal
 MRCAL
+opencv
+ROIRed
 
 # --- 3D printing terms ---
 corexy
@@ -118,6 +127,7 @@ ftcoverview
 ftcqa
 hotkeyed
 hotspot
+hotspots
 hypot
 ICYMI
 Javadocs
@@ -190,6 +200,49 @@ teamwebcamcalibrations
 underserved
 Uparameters
 Xtheirs
+
+# --- Documentation build tooling (referenced in AGENTS.md) ---
+imagecheck
+imagesizechecker
+latexmk
+linkcheck
+linkcheckdiff
+pandoc
+rediraffe
+rediraffecheckdiff
+reviewdog
+sitewide
+sphinxext
+SPHINXOPTS
+xetex
+
+# --- Networking / wireless / device debugging (control system troubleshooting) ---
+Aircheck
+BSSID
+BSSIDs
+DCIM
+deauth
+DEAUTH
+ftcdriverstation
+ftcrobotcontroller
+interruptible
+Logcat
+LOGCAT
+logcat
+matchlogs
+motog
+objectname
+radiotap
+RSSI
+sdcard
+Unpair
+unpair
+usbmon
+Wireshark
+wireshark
+WLAN
+
+Uncategorized
 
 # --- Miscellaneous example content (deliberately used in tutorials) ---
 boooring

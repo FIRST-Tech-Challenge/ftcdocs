@@ -82,7 +82,7 @@ Files/Sandpaper
 ---------------
 
 Files and sandpaper are great for getting a nice surface finish and potentially modifying prints if they didn't 
-initially fit your usecase. Oftentimes, quickly filing a part down can save you loads of print time so it's 
+initially fit your use case. Oftentimes, quickly filing a part down can save you loads of print time so it's
 great to have some on hand.
 
 .. figure:: images/filesrasps.png

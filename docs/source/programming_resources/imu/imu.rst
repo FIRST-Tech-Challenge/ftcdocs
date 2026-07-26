@@ -753,7 +753,7 @@ The IMU should be motionless during its initialization process. The
 OpMode will continue when initialization is complete.
 
 .. note::
-   Fun fact: Under the legacy ``BNO055IMU`` interface, intialization takes
+   Fun fact: Under the legacy ``BNO055IMU`` interface, initialization takes
    about 900 milliseconds. Under the new universal IMU interface, the BNO055
    takes about 100 milliseconds, while the BHI260AP takes about 50
    milliseconds.

@@ -345,6 +345,11 @@ linkcheck_allowed_redirects = {
 # -- one PR run spent 31 minutes retrying this single link before eventually
 # succeeding. Not reproducible from a non-CI IP (resolves instantly there),
 # confirming this is IP-reputation blocking, not a real outage.
+# helpdeskgeek.com (confirmed 7/2026) 403s every request from CI IP ranges.
+# The exact headers already sent by linkcheck_request_headers below (User-Agent,
+# Accept, Accept-Language, Referer, Accept-Encoding) are sufficient to get a
+# 200 from a non-CI IP, so this isn't a missing-header problem -- it's the
+# same CI-IP-reputation blocking as the entries above.
 
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/',
@@ -364,6 +369,7 @@ linkcheck_ignore = [
    r'https://www.studica.com/',
    r'https://www.rcmart.com/',
    r'https://www.otterbox.com/',
+   r'https://helpdeskgeek.com/',
    r'https://docutils\.sourceforge\.io/',
    r'https://www\.w3\.org/WAI/',
    r'https://www.3dflow.net/',
