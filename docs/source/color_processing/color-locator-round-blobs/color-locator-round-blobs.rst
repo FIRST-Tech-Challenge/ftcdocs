@@ -228,7 +228,7 @@ Robotics vision is highly sensitive to field lighting.  The FTC VisionPortal off
 
 If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
 
-More detail on these controls is provided in an :ref:`older tutorial - ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`; disregard the TensorFlow references.
+More detail on these controls is provided in the :ref:`ftc-docs Webcam Controls tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`.
 
 These tools can help with Color Processing **and** AprilTag Detection.
 
