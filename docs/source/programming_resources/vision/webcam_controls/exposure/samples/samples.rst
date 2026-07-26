@@ -10,10 +10,11 @@ Exposure Control Code Samples
 
 -  ``ExposureControl myExposureControl;``
 
-3. Assign the Vuforia/TFOD video stream control to your control object,
-   in ``runOpMode()``.
+3. Assign the VisionPortal's camera control to your control object, in
+   ``runOpMode()``. Wait until the Portal reports ``STREAMING`` before doing
+   this; the control is not available until the camera is actually open.
 
--  ``myExposureControl = vuforia.getCamera().getControl(ExposureControl.class);``
+-  ``myExposureControl = visionPortal.getCameraControl(ExposureControl.class);``
 
 4. Set the mode to Manual, for direct control.
 
@@ -23,5 +24,5 @@ Exposure Control Code Samples
 
 -  ``myExposureControl.setExposure(30, TimeUnit.MILLISECONDS);``
 
-See far below for these and other exposure controls illustrated in
-`Sample OpModes <#sample-opmodes>`__.
+See these and other exposure controls illustrated in the :doc:`Sample OpModes
+</programming_resources/vision/webcam_controls/samples/samples>`.

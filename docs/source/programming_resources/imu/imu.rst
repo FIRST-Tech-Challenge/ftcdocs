@@ -197,10 +197,9 @@ pointing along the positive axis, the fingers curl in the direction of
 
 This tutorial will **not** discuss the *FIRST* Tech Challenge 
 :ref:`Field Coordinate System <first field coordinate system>`.
-Your OpModes might relate robot orientation to the overall field or `‘global
-coordinates’
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__
-for navigation, but that’s beyond the focus here on using the IMU.
+Your OpModes might relate robot orientation to the overall field, or ‘global
+coordinates’, for navigation, but that’s beyond the focus here on using the
+IMU.
 
 Physical Hub Mounting
 ---------------------
