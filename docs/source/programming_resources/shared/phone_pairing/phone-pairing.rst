@@ -5,10 +5,7 @@ Introduction
 ------------
 
 The Robot Controller and Driver Station apps are extremely
-reliable for pairing, including between **all models of legal
-phones**. Please see the `Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__
-for list of phone models currently legal to use at *FIRST*
-Tech Challenge events.
+reliable for pairing, across **all models of phones**.
 
 When the Android phones have been suitably prepared, pairing via Wi-Fi
 Direct is **fast** and usually **automatic**. Here is a procedure that

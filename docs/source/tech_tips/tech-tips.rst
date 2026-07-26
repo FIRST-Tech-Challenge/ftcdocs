@@ -1361,7 +1361,7 @@ Legacy Tech Tips:
    negotiated link speed, and the link speed indicated does not change when the
    Wi-Fi device renegotiates different link speeds. This means the Link Speed
    indicator and the Bar graph are not represented accurately on Driver Hubs,
-   but are represented accurately on all legal phones.
+   but are represented accurately on smartphones.
 
 .. dropdown:: Week of 02/12/2024 "Robot Wi-Fi Signal Strength"
 
@@ -1738,8 +1738,8 @@ Legacy Tech Tips:
 
       **Driver Hub Pros**
 
-      - Driver Hub and Control Hub combo use 802.11w for communications. No
-        approved Smartphone supports 802.11w communications.
+      - Driver Hub and Control Hub combo use 802.11w for communications.
+        SmartPhones do not support 802.11w communications.
 
         - 802.11w offers encryption of control packets, which prevents many
           Wi-Fi attacks by remote routers/devices.
@@ -1747,8 +1747,7 @@ Legacy Tech Tips:
       - Driver Hub is a "standard" *FIRST* Tech Challenge Driver Station device, 
         which provides long-term support for *FIRST* Tech Challenge. The average
         SmartPhone is deprecated within 2 years after being released, but the
-        Driver Hub is supported as long as it's legal to use in *FIRST* Tech
-        Challenge.
+        Driver Hub has long-term support in *FIRST* Tech Challenge.
 
       - Driver Hub has a USB-C port, which allows for charging while it's being
         used.
@@ -1796,12 +1795,11 @@ Legacy Tech Tips:
       - USB-C to USB-C cables do not work with Driver Hub. USB-A to USB-C cables 
         are required in order to use the USB-C port.
 
-   On the other hand, a small number of off-the-shelf SmartPhones are still
-   supported; the Competition Manual has the current list. These devices, like
-   the REV Driver Hub, run the Android mobile operating system and use Wi-Fi to
-   talk to the REV Control Hub (therefore no SIM card or cell plan is
-   required). SmartPhones
-   use USB-OTG to interface with gamepads and external USB hubs necessary for 
+   On the other hand, off-the-shelf SmartPhones can also be used. These
+   devices, like the REV Driver Hub, run the Android mobile operating system
+   and use Wi-Fi to talk to the REV Control Hub (therefore no SIM card or cell
+   plan is required). SmartPhones
+   use USB-OTG to interface with gamepads and external USB hubs necessary for
    operating multiple gamepads.
    
       **SmartPhone Pros**
@@ -1817,15 +1815,14 @@ Legacy Tech Tips:
 
       **SmartPhone Cons**
 
-      - There are only a small number of approved Android Smartphones, none of
-        which are still supported by the manufacturers of the phones.
+      - Older SmartPhones are often no longer supported by the manufacturers
+        of the phones.
 
-        - SmartPhones are deprecated typically within 2 years after being 
+        - SmartPhones are deprecated typically within 2 years after being
           released. Security updates and OS updates are not guaranteed.
 
-        - The number of approved SmartPhones are dwindling, and SmartPhones
-          are becoming increasingly difficult to obtain. New SmartPhones are
-          not being approved to replace older ones.
+        - Once a model is discontinued, replacements become increasingly
+          difficult to obtain.
 
       - Android is not a consistent platform in the Mobile Phone industry. Each
         manufacturer, and sometimes even within product families, will produce

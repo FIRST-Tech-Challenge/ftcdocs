@@ -106,8 +106,8 @@ As of 2021, all apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
+will allow you to download the apps to the REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and Android devices. Here
 are some of the benefits: 
 
 -  Connect a REV Control Hub via WiFi. 

@@ -51,15 +51,12 @@ tutorials, you will need to have the following materials available:
      - Image
 
    * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
-       Alternately, the Competition Manual does allow teams to instead
-       use a REV Robotics Expansion Hub and a select list of Android
-       phones. 
+       Alternately, teams may instead use a REV Robotics Expansion Hub
+       and an Android phone.
      - |chandphones| |exhub|
-   
+
    * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
-       Alternately, the Competition Manual does allow teams to instead
-       use a select list of Android phones. See rule R901 for the full
-       details.
+       Alternately, teams may instead use an Android phone.
      - |driverhub|
 
    * - Wireless Internet access.

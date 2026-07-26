@@ -100,8 +100,8 @@ channel, here are some factors to consider when doing your planning.
     channel looks relatively clean, you should use a pair of Android
     devices running the FTC Driver Station and FTC Robot Controller apps to
     monitor the ping times on the target channel. You will need a pair of
-    Android devices that support channel changing (such as approved FTC
-    phones). Switch to the target channel and test to make sure you can
+    Android devices that support channel changing. Switch to the target
+    channel and test to make sure you can
     select and run an OpMode (like the NullOp sample OpMode). If the average
     ping times for the test Android devices are low (less than 5 msec) then
     the channel is clear. If the average ping times are high (more than 50
@@ -116,12 +116,8 @@ channel, here are some factors to consider when doing your planning.
 
 - **What type of Android devices will the teams be using?** The REV Control
   Hub supports channel changing using the FTC Robot Controller app, as do
-  the FTC-approved Android smartphones.
-
-.. important:: Approved hardware changes over time. For the current list of
-   allowed Android devices and other hardware and software, teams should
-   always refer to the current season's *FIRST* Tech Challenge Competition
-   Manual and its updates.
+  many Android smartphones. Note that not every smartphone supports channel
+  changing.
 
 UnPairing Then Re-Pairing the Driver Station to the Robot Controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -181,10 +177,10 @@ should display that it has successfully connected to the Robot Controller.
 
    Once the connection request is accepted, the Driver Station connects to the Robot Controller.
 
-Changing the Channel Using an Approved Android Smartphone
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changing the Channel Using an Android Smartphone
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are using an approved Android smartphone as your Robot Controller,
+If you are using an Android smartphone as your Robot Controller,
 you can use the channel change function that is built into the FTC Robot
 Controller app to change the Wi-Fi Direct operating channel. From the Robot
 Controller app, launch the Settings menu and select the Change Wi-Fi Channel

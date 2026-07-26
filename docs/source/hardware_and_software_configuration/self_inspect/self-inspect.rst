@@ -201,8 +201,8 @@ except:
 - Item 10’s Yes would be **rejected** if the DS Pairing Method was set to Wi-Fi
   Direct – thus intending to connect with an RC phone. 
 - Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), that
-  the DS phone is connected to. The check-mark indicates the AP is an FTC legal
-  device (Control Hub) and has a correctly formatted name. This does **not**
+  the DS phone is connected to. The check-mark indicates the AP is a Control
+  Hub and has a correctly formatted name. This does **not**
   check that the DS and RC names match (team number). In fact, this phone is
   2468-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be
   flagged by the FTC team or the Robot Inspector.
@@ -280,7 +280,7 @@ DS Self Inspect 4, on Driver Hub paired to Control Hub
    to Wi-Fi Direct – thus intending to connect with an RC phone.
 -  Item 11 shows the Standard Wi-Fi **network name**, or Access Point
    (AP), that the Driver Hub is connected to. The check-mark indicates
-   the AP is an FTC legal device (Control Hub) and has a correctly
+   the AP is a Control Hub and has a correctly
    formatted name. This does **not** check that the DS and RC names
    match (team number). In fact, this Driver Hub is 1234-A-DS and this
    Control Hub is 9999-A-RC, an **illegal combination** to be flagged by

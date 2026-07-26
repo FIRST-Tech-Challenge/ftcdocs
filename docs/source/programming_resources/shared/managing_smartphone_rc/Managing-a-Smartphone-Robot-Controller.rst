@@ -67,9 +67,7 @@ You can change the operating channel using the Advanced Settings menu on
 the Robot Controller or Driver Station.
 
 .. warning:: Not every Android phone supports channel changing
-   through the software. Refer to the Competition Manual for a
-   list of *FIRST*-approved phones that support channel changing through
-   the software.
+   through the software.
 
 Changing the WiFi Channel Instructions
 --------------------------------------
@@ -315,8 +313,8 @@ As of 2021, the apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
+will allow you to download the apps to the REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and Android devices. Here
 are some of the benefits: 
 
 *  Connect a REV Control Hub via WiFi. 

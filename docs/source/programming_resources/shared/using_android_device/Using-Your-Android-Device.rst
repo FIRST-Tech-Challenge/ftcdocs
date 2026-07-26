@@ -14,9 +14,8 @@ for instructions on how to set up and use the REV Robotics Driver Hub.
 Android Smartphone
 ~~~~~~~~~~~~~~~~~~
 
-While not recommended, the Competition Manual does allow select Android
-smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
-R704 for the full details.
+While not recommended, an Android smartphone may be used as a DRIVER
+STATION or ROBOT CONTROLLER.
 
 Unlocking Your Screen
 ^^^^^^^^^^^^^^^^^^^^^

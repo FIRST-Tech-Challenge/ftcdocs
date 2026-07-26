@@ -150,7 +150,7 @@ Google Play.**
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software will allow you to download the apps to devices: REV Robotics Control
-Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other approved Android
+Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other Android
 devices (*see section below, called Updating Apps on Android
 Phones*). Here are some of the benefits:
 

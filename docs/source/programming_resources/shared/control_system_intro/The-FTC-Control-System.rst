@@ -54,7 +54,7 @@ to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The DRIVER STATION
 consists of an Android device running an Driver Station app. Most teams use
-a REV Robotics Driver Hub, but select Android smartphones are also supported.
+a REV Robotics Driver Hub, but Android smartphones are also supported.
 
 REV Robotics Control Hub and Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -139,9 +139,7 @@ using a Control Hub on their robot.
    * - Required Item(s)
      - Image
 
-   * - A FIRST-approved Android smartphone with the FTC Robot Controller
-       app installed. For a list of FIRST-approved Android smartphones,
-       refer to the current Competition Manual.
+   * - An Android smartphone with the FTC Robot Controller app installed.
      - .. figure:: images/oneAndroidPhone.jpg
 
    * -  USB Type A male to type mini-B male cable.
