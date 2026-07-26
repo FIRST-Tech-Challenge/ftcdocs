@@ -1725,9 +1725,14 @@ Legacy Tech Tips:
 
    **REV Driver Hub or Smartphone?**
 
-   This week's Tech Tip of the Week briefly discusses the pros and cons of 
-   Smartphones versus the Driver Hub. Which one should you use? Are there 
+   This week's Tech Tip of the Week briefly discusses the pros and cons of
+   Smartphones versus the Driver Hub. Which one should you use? Are there
    hidden benefits or perils for using one over the other?
+
+   .. important:: Only the REV Driver Hub is officially supported as a Driver
+      Station. A SmartPhone is legal to use in competition, but it is not
+      supported — teams who use one are responsible for all of their own
+      testing and troubleshooting.
 
    The REV Driver Hub is the standard *FIRST* Tech Challenge Driver Station
    hardware device. It boasts three USB-A ports for plugging in gamepads,
@@ -1814,6 +1819,9 @@ Legacy Tech Tips:
         Driver Hubs, though that has not been verified or debunked in any way.
 
       **SmartPhone Cons**
+
+      - SmartPhones are not officially supported in *FIRST* Tech Challenge.
+        Teams who use one are on their own for testing and troubleshooting.
 
       - Older SmartPhones are often no longer supported by the manufacturers
         of the phones.

@@ -8,6 +8,11 @@ The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-ove
 is preloaded with the Driver Station (DS) app. The procedures
 described below for a REV Driver Hub, also apply to a using an Android phone as a DS.
 
+.. important:: Only the REV Driver Hub is officially supported as a Driver
+   Station. An Android phone is legal to use in competition, but it is not
+   supported — teams who use one are responsible for all of their own testing
+   and troubleshooting.
+
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 

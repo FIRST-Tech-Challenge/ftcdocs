@@ -1,6 +1,12 @@
 Managing a Smartphone Robot Controller
 ======================================
 
+.. important:: Smartphones are not officially supported as Robot Controllers.
+   A smartphone is legal to use in competition, but a team who uses one is
+   responsible for all of their own testing and troubleshooting. Only the REV
+   Control Hub is officially supported. See :doc:`Managing a Control Hub
+   <../managing_control_hub/Managing-a-Control-Hub>`.
+
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 

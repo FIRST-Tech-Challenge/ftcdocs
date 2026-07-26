@@ -4,6 +4,11 @@ Phone Pairing
 Introduction
 ------------
 
+.. important:: Smartphones are not officially supported. They are legal to use
+   in competition, but a team who uses one is responsible for all of their own
+   testing and troubleshooting. Only the REV Control Hub and the REV Driver Hub
+   are officially supported.
+
 The Robot Controller and Driver Station apps are extremely
 reliable for pairing, across **all models of phones**.
 

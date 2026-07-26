@@ -42,6 +42,11 @@ tutorials, you will need to have the following materials available:
 .. |driverhub| image:: images/driverHub.jpg
 
 
+.. important:: Only the REV Control Hub and the REV Driver Hub are officially
+   supported. An Android phone is legal to use in competition, but it is not
+   supported — teams who use one are responsible for all of their own testing
+   and troubleshooting.
+
 .. list-table::
    :widths: 50 50
    :class: longtable
