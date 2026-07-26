@@ -66,13 +66,19 @@ jobs:
   spelling-check:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout Repository  
+      - name: Checkout Repository
         uses: actions/checkout@v3
-        
-      - uses: reviewdog/action-misspell@v1
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v22
+
+      - name: Set up Magic Nix Cache
+        uses: DeterminateSystems/magic-nix-cache-action@v14
         with:
-          locale: "US"
-          reporter: "github-check"
+          use-flakehub: false
+
+      - name: Spell Check
+        run: nix develop -c cspell "docs/source/**/*.rst" "*.md" --no-progress
 
   link-check:
     runs-on: ubuntu-22.04
