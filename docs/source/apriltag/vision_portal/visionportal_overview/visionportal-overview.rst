@@ -96,7 +96,7 @@ goals.
    AprilTag Pose <../apriltag_pose/apriltag-pose>
    AprilTag Library <../apriltag_library/apriltag-library>
    VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
-   VisionPortal Camera Controls <../visionportal_camera_controls/visionportal-camera-controls>
+   VisionPortal Camera Controls <../visionportal_camera_controls/index>
    Vision Multiportal <../vision_multiportal/vision-multiportal>
    AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
 

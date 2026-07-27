@@ -93,7 +93,7 @@ Learning more about using vision
    :titlesonly:
 
    vision/vision_overview/vision-overview
-   vision/webcam_controls/index
+   VisionPortal Camera Controls </apriltag/vision_portal/visionportal_camera_controls/index>
    Camera Calibration <vision/camera_calibration/camera-calibration>
 
 Camera Color Processing
