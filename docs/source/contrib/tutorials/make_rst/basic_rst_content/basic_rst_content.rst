@@ -247,7 +247,7 @@ local users or click the button shown below for codespaces users.
    Example of Previewing a Document with a Title
 
 .. warning::
-   Remember that inorder to see the rendered document, you must have the
+   Remember that in order to see the rendered document, you must have the
    document added to the `toctree` directive in the `index.rst` file. If you
    don't add the document to the `toctree` directive, the document will not
    be rendered in the preview.
@@ -327,7 +327,7 @@ Text Formatting
 You can add simple text formatting - like **Bold**, *italics*, and
 ``literals`` really simply in ReStructured Text using simple inline markup.
 The caveat is that these Text Formatting *do not stack*, meaning you cannot
-have "Bold Italics" or "Italiczed Literal". You'll find that virtually none
+have "Bold Italics" or "Italicized Literal". You'll find that virtually none
 of the inline markup styles (Including Text Formatting, External Links, and so
 on) can stack, so having things like the italicized word *FIRST* in link text
 requires really inventive and complex procedures in order to make happen
@@ -345,7 +345,7 @@ The standard Text Formatting Markup is quite simple - use:
 There are a few important restrictions to be aware of:
 
 * You cannot nest/stack inline markup
-* Content may not start or end with whitepace: For example, \* text* is wrong
+* Content may not start or end with whitespace: For example, \* text* is wrong
 * You must separate inline markup from surrounding text by non-word characters,
   like spaces. For example, \*This text is italicized\* will look like *This
   text is italicized*. However, \* This text is not\* will not render as
@@ -666,7 +666,7 @@ help describe and label images. Some examples of using figures are:
       :alt: Map to buried Treasure
 
       This is the caption of the figure (a simple paragraph). Note that the
-      intentation for everything below the ``.. figure::`` line is the same
+      indentation for everything below the ``.. figure::`` line is the same
       and 3 or more spaces, which indicates that everything belongs to the
       figure.
 
@@ -724,7 +724,7 @@ For example, consider the following simple bulleted list example::
 
      - This is the second item in the sub-list.
 
-   - This is the third item in themain list.
+   - This is the third item in the main list.
 
    This is a new paragraph, not part of the list.
 

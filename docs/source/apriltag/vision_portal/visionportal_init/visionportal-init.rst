@@ -5,16 +5,16 @@ Overview
 --------
 
 Here we describe Step 3, **creating a VisionPortal**, to allow an OpMode to use
-AprilTag and/or TensorFlow Object Detection (TFOD). This continues from the
+AprilTag and/or Color Processing. This continues from the
 previous page :doc:`Vision Processor Initialization
 <../vision_processor_init/vision-processor-init>`, which described Step 2:
-creating an AprilTag Processor and/or a TensorFlow Object Detection (TFOD)
-Processor. The two Processors evaluate camera frames independently.
+creating an AprilTag Processor and/or a Color Locator or Color Sensor
+Processor. Each Processor evaluates camera frames independently.
 
 Steps 1, 2 and 3 are typically performed in the OpMode's INIT section, before
 the ``waitForStart()`` method or Block.
 
-After this Step 3, actual use of AprilTag and TFOD can begin -- before or after
+After this Step 3, actual use of those Processors can begin -- before or after
 the DS Start button is touched.
 
 VisionPortal Initialization - Easy
@@ -32,12 +32,11 @@ and not mentioning a "Builder":
          :align: center
          :alt: Easy VisionPortal Initialization
 
-      The FTC Blocks VisionPortal toolbox, or palette, offers "Easy Create" Blocks for:
+      The FTC Blocks VisionPortal toolbox, or palette, offers "Easy Create" Blocks
+      combining:
 
-      - AprilTag or TFOD (or both)
+      - the available Processors, singly or together
       - webcam, built-in RC phone camera, or "Switchable Camera Name"
-
-      That's 3 x 3 = 9 total choices, all "Easy".
 
    .. tab-item:: Java
       :sync: java
@@ -50,11 +49,11 @@ and not mentioning a "Builder":
          myVisionPortal = VisionPortal.easyCreateWithDefaults(hardwareMap.get(WebcamName.class, "Webcam 1"), myAprilTagProcessor);
 
 
-      To also use TFOD in the same OpMode, simply add it like this example:
+      To also use a Color Processor in the same OpMode, simply add it like this example:
 
       .. code-block:: java
 
-         myVisionPortal = VisionPortal.easyCreateWithDefaults(hardwareMap.get(WebcamName.class, "Webcam 1"), myAprilTagProcessor, myTfodProcessor);
+         myVisionPortal = VisionPortal.easyCreateWithDefaults(hardwareMap.get(WebcamName.class, "Webcam 1"), myAprilTagProcessor, myColorLocatorProcessor);
 
 
 VisionPortal Initialization - Builder
@@ -103,8 +102,8 @@ settings**:
 
 This example shows only 4 VisionPortal Builder features; others are available.
 
-To also use TFOD in the same OpMode, simply insert its
-``addProcessor(myTfodProcessor)`` Block or Java method.
+To also use a Color Processor in the same OpMode, simply insert its
+``addProcessor(myColorLocatorProcessor)`` Block or Java method.
 
 The SDK allows multiple, fully capable Portals.  This is covered separately at
 the **MultiPortal** page.

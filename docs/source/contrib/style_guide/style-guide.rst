@@ -96,7 +96,7 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
    =============
 
    This is an example article.
-   A paragraph is a collection of lines. You can have multiple sentances per line.
+   A paragraph is a collection of lines. You can have multiple sentences per line.
    
    Leave a blank line to start a new paragraph.
    Here is some code:
@@ -379,7 +379,7 @@ so we need to indicate in the link what file will be downloadable.
 
    Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
-   .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+   .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
       :color: primary
 
       Download Field Setup Guide PDF, 4.5 MB
@@ -390,7 +390,7 @@ This looks like:
 
    * - Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
    
-       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+       .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
           :color: primary
 
           Download Field Setup Guide PDF, 4.5 MB
@@ -422,7 +422,7 @@ Here's a gateway page example for the Field Setup Guide PDF.
 
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
 
-       .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
+       .. button-link:: https://ftc-resources.firstinspires.org/ftc/field/eventfieldguide
           :color: primary
 
           Download Field Setup Guide PDF, 4.5 MB
@@ -503,7 +503,7 @@ If you need more than a sentence or two to describe the image, see `Complex Imag
 
 .. tip:: For assistance with alt text descriptions, see :ref:`alt-text-label`.
 
-.. important:: If you are editting an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
+.. important:: If you are editing an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
    please take a moment to add the ``:alt:`` option with a functional description of the image.
 
 Images With Captions

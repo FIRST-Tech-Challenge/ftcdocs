@@ -27,9 +27,8 @@ these steps:
 - **Step 3.** *Required:*  
 
   - Create the FTC **VisionPortal**, to manage the overall
-    pipeline. Here you specify that the Portal includes the AprilTag and/or TFOD
-    Processor(s) from Step 2. The two Processors evaluate camera frames
-    independently.
+    pipeline. Here you specify which Processor(s) from Step 2 the Portal
+    includes. Each Processor evaluates camera frames independently.
 
 This page describes Step 2 in more detail, for both Processors.  The :doc:`VisionPortal Init <../visionportal_init/visionportal-init>` page covers Step 3, **VisionPortal Initialization**.
 

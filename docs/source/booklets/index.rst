@@ -7,6 +7,11 @@ More 'bite-sized' versions of the FTC Docs. These are meant to be printed out an
     In order to add a booklet, add a link to the booklet in the list below. The link should be in the format of:
     https://ftc-docs-cdn.ftclive.org/booklets/en/<booklet_name>.pdf
 
+Robot Building Resources
+------------------------
+
+- `Robot Wiring Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/wiring_guide.pdf>`_
+
 Control System
 --------------
 

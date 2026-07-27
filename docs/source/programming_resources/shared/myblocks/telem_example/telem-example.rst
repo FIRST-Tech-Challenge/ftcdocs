@@ -34,7 +34,7 @@ Here’s the Java code for the method only:
 Want to verify this actually works? Another, slightly more advanced
 myBlock allows measuring the time between Telemetry updates; it’s posted below.
 That myBlock can be used in a Blocks program like
-the one attatched below; download the raw **.blk file** and click 
+the one attached below; download the raw **.blk file** and click
 the **Upload Op Mode** button at the main Blocks menu. Read all 
 comments and instructions.
 

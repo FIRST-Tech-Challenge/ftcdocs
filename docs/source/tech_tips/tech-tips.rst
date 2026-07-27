@@ -44,9 +44,9 @@ Legacy Tech Tips:
    most notably with the `FtcRobotController project
    <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.  *FIRST* Tech
    Challenge teams who use Android Studio with software projects version 10.1
-   and older are not able to use Android Studio “LadyBug” without `performing
-   additional steps
-   <https://ftc-docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.html#configuring-android-studio-ladybug-and-later>`__
+   and older are not able to use Android Studio “LadyBug” without performing
+   additional steps (see
+   :ref:`System Requirements <programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio:System Requirements>`)
    to restore compatibility.
 
    Teams do not need to update Android Studio to “LadyBug” to continue building
@@ -190,7 +190,7 @@ Legacy Tech Tips:
    battery if replaced.
 
    It is highly recommended that all teams use an 
-   `external USB Battery Pack <https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y?th=1>`__
+   `external USB Battery Pack <https://www.amazon.com/Anker-Portable-Charger-Charging-Battery/dp/B0CXDXP8VR>`__
    connected to the USB-C port on the Driver Hub to provide consistent power
    (use USB-A to USB-C cables only). The battery pack will sustain your Driver
    Hub and keep it from being additionally depleted by any high-power-drain
@@ -680,7 +680,7 @@ Legacy Tech Tips:
         - 4.0 A
         - 4.49 W
         - $52.95
-      * - `HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__
+      * - `HiTec HS-805BB <https://www.servocity.com/hs-805bb-servo/>`__
         - 0.14 s/60°
         - 24.7 kg-cm
         - 6.0 A
@@ -1466,7 +1466,7 @@ Legacy Tech Tips:
       use another device to charge the REV Driver Hub? Maybe, but it’s best
       to stick to either the one that ships with the REV Driver Hub or a
       fully-charged USB Battery Pack like the `Anker 10,000mA Power Bank
-      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__
+      <https://www.amazon.com/Anker-Portable-Charger-PowerIQ-Battery/dp/B0D5CLSMFB>`__
       which can keep a Driver Hub fully charged all day without ever needing
       to put the Driver Hub to sleep.  
 
@@ -1485,7 +1485,7 @@ Legacy Tech Tips:
       optimally. If you’re having problems keeping the REV Driver Hub
       internal battery charged, consider a USB Battery Pack like the `Anker
       10,000mA Power Bank
-      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__.  
+      <https://www.amazon.com/Anker-Portable-Charger-PowerIQ-Battery/dp/B0D5CLSMFB>`__.  
 
    4. Battery safety in any Lithium Battery system is paramount, and the REV
       Driver Hub has battery safety features that most teams will likely run
@@ -1510,7 +1510,7 @@ Legacy Tech Tips:
       Driver Hub before you can use them again, or perform a hard reboot in
       order to bring Wi-Fi connectivity back. Many veteran teams use a
       fully-charged USB Battery Pack, like the `Anker 10,000mA Power Bank
-      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__, 
+      <https://www.amazon.com/Anker-Portable-Charger-PowerIQ-Battery/dp/B0D5CLSMFB>`__, 
       and leave the Driver Station App main screen running all day without
       putting the device to sleep.  
 
@@ -1547,7 +1547,7 @@ Legacy Tech Tips:
       their REV Driver Hubs without a battery inserted at all, and simply run
       the Driver Hub using a fully-charged USB Battery Pack, like the `Anker
       10,000mA Power Bank
-      <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__.
+      <https://www.amazon.com/Anker-Portable-Charger-PowerIQ-Battery/dp/B0D5CLSMFB>`__.
       The jury is still out on whether that’s a good idea, but worth
       considering if you’re having problems that you’re desperate to solve and
       REV Support is unable to help you resolve (because of time pressures)
@@ -2047,7 +2047,7 @@ Legacy Tech Tips:
    does not have a user-selectable charge rate switch but has a max charge rate
    of 1.0A.  However, the `REV 12-Volt Slim Battery
    <https://www.revrobotics.com/rev-31-1302/>`__ is recommended to be charged
-   with the `REV Battery Charger <https://www.revrobotics.com/rev-31-1299/>`__
+   with the `REV Battery Charger <https://www.revrobotics.com/duo/electronics/power-system/>`__
    using the 1.8A charge rate setting. To ensure safety, proper charging, and a
    long battery life, make sure you’re charging your batteries at the
    manufacturer’s recommended charge rates!
