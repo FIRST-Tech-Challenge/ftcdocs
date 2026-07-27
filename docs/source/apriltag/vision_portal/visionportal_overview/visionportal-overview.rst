@@ -5,22 +5,22 @@ VisionPortal Overview
 interface for vision processing.
 
 -  For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of
-   **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection
-   (TFOD)** – at the same time!
+   **AprilTag**, **EasyOpenCV** and the **Color Processors** – at the same
+   time!
 
    .. figure:: images/020-dual-detection.png
       :width: 75%
       :align: center
       :alt: Dual Detection
 
-      Dual Preview with both AprilTags and TensorFlow
+      Dual Preview, with two Processors running at once
 
    |
 
 -  **AprilTag** detections include ID code and **pose**: tag location and
    orientation, relative to the camera.
 
--  **Camera Controls**, which can improve AprilTag and TFOD performance for
+-  **Camera Controls**, which can improve vision processing performance for
    webcam, are now fully available to **FTC Blocks** users.
 
 -  **Multiple cameras** can operate at the same time – phone camera and/or

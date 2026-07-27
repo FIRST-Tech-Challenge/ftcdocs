@@ -2,7 +2,7 @@ Vision MultiPortal
 ==================
 
 The SDK can accommodate two portals, each with full features
-including AprilTag and TFOD processors, and even switchable cameras. USB
+including AprilTag and Color processors, and even switchable cameras. USB
 Bandwidth must be considered, especially for webcams sharing an external
 USB hub.
 

@@ -5,8 +5,8 @@
 
 .. only:: latex
 
-    Advanced Topics, Progrmming Resources
-    =====================================
+    Advanced Topics, Programming Resources
+    ======================================
 
     .. toctree::
         :maxdepth: 1
