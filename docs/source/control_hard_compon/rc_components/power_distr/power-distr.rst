@@ -58,7 +58,7 @@ Robot Main Battery
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v battery. The batterys above are
+The main power of a robot comes from one 12v battery. The batteries above are
 samples of these batteries, check the Competition Manual for the full list of
 batteries. Note that it is typically allowed to replace the connector on the
 batteries, provided the in-line fuse on the battery is preserved, again check
@@ -399,7 +399,7 @@ Here are several tips for identifying a failing battery:
 
 - Check for Leaking Power Cells. Similar to an acid leak in an alkaline
   battery, check to see if there are any signs of corrosion or acid leak from
-  the battery pack. This might be difficult to determine, so stay vigilent. If
+  the battery pack. This might be difficult to determine, so stay vigilant. If
   signs of acid or corrosion are present, dispose of the battery per the
   manufacturer's recommendations immediately with extreme prejudice.
 - Look for bulging within the battery casing. When Lithium batteries fail,

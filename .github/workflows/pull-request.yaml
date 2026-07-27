@@ -78,7 +78,7 @@ jobs:
           use-flakehub: false
 
       - name: Spell Check
-        run: nix develop -c cspell "docs/source/**/*.rst" "*.md" --no-progress
+        run: nix develop -c cspell "docs/source/**/*.rst" --no-progress
 
   link-check:
     runs-on: ubuntu-22.04

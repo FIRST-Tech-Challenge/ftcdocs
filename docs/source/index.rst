@@ -354,7 +354,7 @@ The main menu contains links to the top level content. The following are quick l
 
    This project is under active development. Anything contained herein is for 
    informational purposes only; while this documentation is intended to support 
-   teams and in some way provide context to game rules, the game rules supercede 
+   teams and in some way provide context to game rules, the game rules supersede
    all documentation found here. If you have feedback about this project, 
    please use our :doc:`feedback form <ftc_docs/form/form>`.
 

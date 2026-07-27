@@ -21,7 +21,7 @@ Drilling Out Holes
 
 Drilling out printed holes are typically used in order to widen screw holes to achieve a loose fit. This can be done with any
 drill and properly sized drill bit, however take your time while drilling to ensure that the drill bit is lined up properly to
-guaruntee that drilled holes are straight.
+guarantee that drilled holes are straight.
 
 Brim Removal
 ------------
