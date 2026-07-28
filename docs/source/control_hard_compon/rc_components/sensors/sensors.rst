@@ -211,7 +211,7 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (IMU) is a sensor that is a combination of a
+An Inertial Measurement Unit (IMU) is a sensor that is a combination of a
 Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the
@@ -265,7 +265,7 @@ A Potentiometer is a device that changes the output voltage based upon the
 degree to which the adjuster is turned. It is often used as a form of
 measuring the absolute orientation of an axle. The manner in which the output
 voltage changes is based on the Potentiometer that is used.
-Such a device is typically attatched via the analog port of the REV Hub.
+Such a device is typically attached via the analog port of the REV Hub.
 
 
 Sensor Compatibility Chart

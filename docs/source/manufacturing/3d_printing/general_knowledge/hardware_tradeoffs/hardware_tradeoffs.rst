@@ -42,7 +42,7 @@ PTFE Lined vs All-Metal Hotends
 
 PTFE tubing is a common low friction tubing used in 3D printing. PTFE lined hotends have a section of this tubing 
 that goes right up to the heated area. These are typically the cheaper option, but it is not recommend to use
-them whatsover if you plan on 3D printing anything beyond PLA/PETG. PTFE at temperatures over standard printing temps 
+them whatsoever if you plan on 3D printing anything beyond PLA/PETG. PTFE at temperatures over standard printing temps
 (normally ~250C is the limit) can "off-gas", putting off dangerous VOCs (Volatile Organic Compounds). All-Metal 
 hotends are more expensive, but remove this dangerous PTFE tube placement. Safety should always be your top priority,
 so look at All-Metal as long as you're planning on printing at higher temperatures. Notably, Ender series printers come 

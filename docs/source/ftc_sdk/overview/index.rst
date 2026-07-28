@@ -23,7 +23,7 @@ includes:
    for building the Robot Controller App with 
    :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)
+-  Season-Specific Assets (AprilTag libraries, game element assets, etc...)
 
 All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
@@ -46,7 +46,7 @@ This build consists of:
 -  Built Robot Controller App (``FtcRobotController-release.apk``)
 -  Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (TensorFlow models, Vuforia databases, etc... hosted separately)
+-  Season-Specific Assets (AprilTag libraries, game element assets, etc... hosted separately)
 
 The export is then pushed to the `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ as a `software
@@ -69,8 +69,8 @@ and encouraged to create issues at the repository for the *Technology Team* to
 consider and address, however.
 
 .. note:: 
-   Some season-specific assets, such as TensorFlow models and Vuforia
-   Databases, are not included directly in the FtcRobotController GitHub
+   Some season-specific assets, such as AprilTag libraries and game element
+   assets, are not included directly in the FtcRobotController GitHub
    repository. Instead, they are packaged in an ``.AAR`` hosted on 
    Maven Central. When using the Robot Controller App, these assets are
    included in the app. When using Android Studio, these assets are 
