@@ -26,8 +26,8 @@ forked repository up to date.
 
 .. warning:: 
    Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`_ parent, the
-   FIRST-Tech-Challenge/FtcRobotContoller repository. Forks of the
-   FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
+   FIRST-Tech-Challenge/FtcRobotController repository. Forks of the
+   FIRST-Tech-Challenge/FtcRobotController repo may always fetch changes, but
    should never attempt to push changes up to the repo.
 
 A `Clone <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_ is a copy of a repository, typically on a local computer. A team

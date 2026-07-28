@@ -102,7 +102,7 @@ OpMode can be very useful.  This section provides an example that allows **live
 gamepad control** to:
 
 - toggle AprilTag Processor on and off
-- toggle TFOD Processor on and off
+- toggle a second Processor on and off
 - toggle LiveView on and off
 - toggle Streaming on and off
 
@@ -140,7 +140,6 @@ discussed:
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
 
 For now, these are left for interested Blocks and Java users to research and
 investigate.  In time, more information may be posted at this page.

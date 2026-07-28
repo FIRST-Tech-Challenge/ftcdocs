@@ -1,6 +1,6 @@
 .. meta::
    :title: Updating Components of the FTC Control System
-   :description: A comprhensive guide to updating key components of the FIRST Tech Challenge Control System
+   :description: A comprehensive guide to updating key components of the FIRST Tech Challenge Control System
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, Control System, update
 
 Updating Components of the Control System

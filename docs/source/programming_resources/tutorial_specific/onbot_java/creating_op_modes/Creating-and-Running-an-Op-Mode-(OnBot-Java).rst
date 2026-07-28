@@ -74,7 +74,7 @@ this document, however, assume that you are using a Windows laptop.
 
 Note that this section of the wiki assumes that you have already setup
 and configured your Android devices and robot hardware. It also assumes
-that you have successfully connected your laptop to the Progam & Manage
+that you have successfully connected your laptop to the Program & Manage
 server on the Robot Controller device.
 
 Creating Your First Op Mode
