@@ -92,6 +92,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    Control System Troubleshooting Guide <control_system_troubleshooting/index>
    Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
    Robot Wiring Guide <robot_building/wiring_guide/wiring-guide>
+   Robot Best Practices <robot_building/best_practices/robot-best-practices>
 
 .. toctree::
    :caption: Manufacturing
