@@ -33,12 +33,18 @@ controlhub
 Deadaxle
 deadwheel
 driverhub
+drivetrain
+drivetrains
 durometer
 durometers
+feedforward
+Feedforward
 gamepads
 Gamepads
 gearmotor
 gearmotors
+handwheel
+handwheels
 hardstop
 holonomic
 hotend
@@ -47,6 +53,8 @@ hotends
 Hotends
 mecanum
 Mecanum
+microcontroller
+microcontrollers
 navx
 odometry
 Odometry
