@@ -118,7 +118,7 @@ this reduces the number of connections and failure points in the system.
 When using a REV Driver Hub, no OTG adapters are necessary - gamepads may 
 connect directly to one of the three USB-A ports on the device. 
 
-Comercial USB Battery Pack
+Commercial USB Battery Pack
 ---------------------------
 
 .. grid:: 1 2 2 3

@@ -62,7 +62,7 @@ using a Windows laptop.
 Also note that this section of the wiki assumes that you have already
 setup and configured your Android devices and robot hardware. It also
 assumes that you have successfully connected your laptop to the Robot
-Controller's Progam & Manage wireless network.
+Controller's Program & Manage wireless network.
 
 Creating Your First Op Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

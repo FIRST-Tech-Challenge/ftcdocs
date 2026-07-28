@@ -8,10 +8,10 @@ Removable/Flexible Beds
 -----------------------
 
 A lot of printers come with cheap "BuildTak" (typical stickers) beds that work just fine, but some people
-desire more removeable prints with better adhesion and more customizability, which is fulfilled by removable 
+desire more removable prints with better adhesion and more customizability, which is fulfilled by removable
 beds. WhamBam, Bambulabs, and generic Amazon sellers will typically carry these beds for various prices. 
 You'll see some terms which we'll explain here. PEI is the "gold standard" nowadays, simply being a sheet
-of material that sticks well to 3D prints when heated. More advanced options includev PEX, which expands when
+of material that sticks well to 3D prints when heated. More advanced options include PEX, which expands when
 heated and holds onto 3D prints better, and then as it cools completely releases the parts. Powder-Coated PEI/Textured
 PEI are by far the most popular flexible beds now, being cheap, simple, more resistant to damage than PEI or PEX
 flexible beds, and having exceptional print adhesion.
@@ -42,7 +42,7 @@ Hotend Upgrades
 ---------------
 
 A hotend upgrade can be very beneficial for printing with different filaments, speeding up prints, and general reliability. 
-Learning how to mount hotends often takes some :term:`CAD` skills or a quick Thingiverse search, but hotend upgrades are very 
+Learning how to mount hotends often takes some CAD skills or a quick Thingiverse search, but hotend upgrades are very 
 worth it. Typically, you will need a hotend structure, heater wire, and thermistor to do a full upgrade (and some wiring 
 tools to connect it to your board). Here are a few hotends from different price ranges that are well regarded and used.
 
@@ -99,10 +99,10 @@ include this option stock, so it's not a concern for many.
 |
 
 
-ABL or Auto-Bed Leveling uses either a mechanical or inductive :term:`sensor <Sensor>` on your toolhead to probe your bed in 
+ABL or Auto-Bed Leveling uses either a mechanical or inductive sensor on your toolhead to probe your bed in 
 different locations and uses software to improve your first layer quality and adhesion. While it requires learning 
 a bit about :term:`firmware <Firmware>`, auto bed leveling is extremely worth it. More and more printers are coming with auto bed 
-leveling stock, butcif yours didn't and you'd like to upgrade, these options are common:
+leveling stock, but if yours didn't and you'd like to upgrade, these options are common:
 
 * Mechanical Sensors: BLTouch, CRTouch
 * Inductive Sensors: Omron TL-Q5MC2-Z, Pinda Inductive Probes
@@ -119,7 +119,7 @@ leveling stock, butcif yours didn't and you'd like to upgrade, these options are
 Raspberry Pi/Network Functionality
 ----------------------------------
 
-Network functionality is becoming frequent in :term:`3D printing <3D Printing>`, with many interfaces allowing you to interact with your
+Network functionality is becoming frequent in 3D printing, with many interfaces allowing you to interact with your
 printer remotely, and stop/start/watch prints while you aren't even there. Many companies have begun including 
 this feature stock with newer printers, however, even if you have a printer without network functionality,
 using something such as a Raspberry Pi or old android phone, you can make quick work of this feature

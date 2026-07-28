@@ -1,9 +1,13 @@
 Webcam Controls
 ===============
 
-This basic tutorial describes 8 :term:`webcam <Webcam>` controls available in the 
+This basic tutorial describes 8 :term:`webcam <Webcam>` controls available in the
 SDK. It includes an example, using 2 of these controls to potentially
-improve TensorFlow recognition in Freight Frenzy.
+improve vision processing.
+
+The webcam itself is opened by a :ref:`VisionPortal
+<apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`,
+which also provides the control objects described here.
 
 Hats off to `rgatkinson <https://github.com/rgatkinson>`__ and
 `Windwoes <https://github.com/Windwoes>`__ who developed these 
@@ -25,8 +29,8 @@ webcam controls.
 Summary
 -------
 
-Some webcam controls in the SDK could potentially improve :term:`TFOD`
-recognitions. Exposure, gain and other values could be pre-programmed in
+Some webcam controls in the SDK could potentially improve AprilTag
+detections and Color Processor results. Exposure, gain and other values could be pre-programmed in
 team autonomous :term:`OpModes <OpMode>`. It’s also possible to manually enter such
 values before a :term:`match <Match>` begins, based on anticipated lighting, starting
 position and other game-time factors.

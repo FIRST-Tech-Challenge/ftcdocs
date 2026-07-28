@@ -31,7 +31,7 @@ The above examples assume these objects already exist:
 
 .. code:: java
 
-   PtzControl myPtzControl = vuforia.getCamera().getControl(PtzControl.class); // create PTZ webcam control object
+   PtzControl myPtzControl = visionPortal.getCameraControl(PtzControl.class);  // create PTZ webcam control object
    PtzControl.PanTiltHolder myHolder = new PtzControl.PanTiltHolder();         // instantiate input holder object
    PtzControl.PanTiltHolder newHolder;                                 // declare output holder object
 

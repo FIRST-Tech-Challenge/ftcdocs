@@ -4,16 +4,16 @@ Vision Processor Initialization
 Processor Initialization - Overview
 -----------------------------------
 
-Your :term:`OpMode` must **first prepare** for using :term:`AprilTag` and/or
+Your OpMode must **first prepare** for using AprilTag and/or
 Color Processing commands, or methods.
 
-In the INIT portion of your Java or :term:`Blocks` code, before ``waitForStart()``, use
+In the INIT portion of your Java or Blocks code, before ``waitForStart()``, use
 these steps:
 
 - **Step 1.** *Optional:*  
 
   - Supplement the default **AprilTag Library** with
-    additional tags. This task is not shown in the :term:`Sample OpModes <Sample OpMode>`, and is
+    additional tags. This task is not shown in the Sample OpModes, and is
     covered at the **Library** page (not here).
 
 - **Step 2.** *Required:*  
@@ -27,9 +27,8 @@ these steps:
 - **Step 3.** *Required:*  
 
   - Create the FTC **VisionPortal**, to manage the overall
-    pipeline. Here you specify that the Portal includes the AprilTag and/or :term:`TFOD`
-    Processor(s) from Step 2. The two Processors evaluate camera frames
-    independently.
+    pipeline. Here you specify which Processor(s) from Step 2 the Portal
+    includes. Each Processor evaluates camera frames independently.
 
 This page describes Step 2 in more detail, for both Processors.  The :doc:`VisionPortal Init <../visionportal_init/visionportal-init>` page covers Step 3, **VisionPortal Initialization**.
 

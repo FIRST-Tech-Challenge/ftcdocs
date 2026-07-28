@@ -92,7 +92,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Blocks Programmming Tutorial
+               Blocks Programming Tutorial
          
          .. div:: col-sm pl-1 pr-1
 

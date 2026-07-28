@@ -1,0 +1,44 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "dictionaries": [
+    "en_US",
+    "software-terms",
+    "ftc-dictionary",
+    "people-and-brands"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "ftc-dictionary",
+      "path": "./.cspell/ftc-dictionary.txt",
+      "addWords": true
+    },
+    {
+      "name": "people-and-brands",
+      "path": "./.cspell/people-and-brands.txt",
+      "addWords": true
+    }
+  ],
+  "files": [
+    "docs/source/**/*.rst"
+  ],
+  "ignoreRegExpList": [
+    "/^\\s*(?:[-*]\\s+)*\\.\\.\\s+_[^\\n:]+:\\s*$/gm",
+    "/^\\s*(?:[-*]\\s+)*\\.\\.\\s+(image|figure|download|literalinclude|include)::.*$/gm",
+    "/^\\s*\\.\\.\\s+\\|[^|]+\\|\\s+\\w+::.*$/gm",
+    "/\\|[A-Za-z][\\w-]*\\|/g",
+    "/<[a-zA-Z][^<>]*>/g",
+    "/@[\\w-]+/g"
+  ],
+  "ignorePaths": [
+    "docs/build/**",
+    "docs/source/_static/**",
+    "docs/source/**/*.png",
+    "docs/source/**/*.pdf",
+    "docs/source/**/*.jpg",
+    "docs/source/**/*.jpeg",
+    "docs/source/**/*.svg",
+    ".venv/**",
+    "node_modules/**"
+  ]
+}

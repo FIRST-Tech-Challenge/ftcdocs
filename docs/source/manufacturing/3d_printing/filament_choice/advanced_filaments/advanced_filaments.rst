@@ -20,7 +20,7 @@ ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene Acrylate)
 |
 
 Before PLA became readily available, ABS was the most common filament used for :term:`3D printing <3D Printing>`. Nowadays, it's regarded as a 
-more advanced filament with a specilized setup needed. ABS is very strong, having a high ductility and able to withstand 
+more advanced filament with a specialized setup needed. ABS is very strong, having a high ductility and able to withstand
 shock loads well. These strengths come with major difficulties, however, as an enclosure is often needed to increase the 
 ambient temperature in order to prevent severe part warping. This enclosure is also a good idea due to ABS's production of
 styrene when it melts, a carcinogenic gas that can cause headaches. ABS should only be printed within filtered enclosures
@@ -44,7 +44,7 @@ Polyamide Filaments
   :width: 55%
   :alt: Picture of Nylon parts
 
-  A collection of Nylon parts, including gears, a great usecase for Nylon
+  A collection of Nylon parts, including gears, a great use case for Nylon
 
 |
 

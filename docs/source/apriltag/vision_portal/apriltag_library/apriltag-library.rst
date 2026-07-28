@@ -374,8 +374,8 @@ Variable to create a new AprilTag.
          // Get the AprilTagLibrary for the current season.
          myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
-         // Create a new AprilTagMetdata object and assign it to a variable.
-         myAprilTagMetadata = new AprilTagMetdata(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
+         // Create a new AprilTagMetadata object and assign it to a variable.
+         myAprilTagMetadata = new AprilTagMetadata(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
 
          // Add a tag to the AprilTagLibrary.Builder.
          myAprilTagLibraryBuilder.addTag(myAprilTagMetadata);

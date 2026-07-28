@@ -1,9 +1,9 @@
 VisionPortal Camera Controls
 ============================
 
-Clearer camera images can improve :term:`AprilTag` (and :term:`TFOD`) vision processing.  The
+Clearer camera images can improve :term:`AprilTag` and Color Processing results.  The
 SDK offers powerful **webcam controls** (Exposure, Gain, Focus, and more),
-now available in :term:`Blocks`! These controls can be applied under various lighting
+now available in Blocks! These controls can be applied under various lighting
 conditions.
 
 The SDK documentation already provides a 
@@ -11,16 +11,16 @@ The SDK documentation already provides a
 You are encouraged to learn more there.
 
 Note that Exposure and Gain are adjusted together. The new SDK offers
-Java :term:`Sample OpMode` ``ConceptAprilTagOptimizeExposure.java``, which can
+Java Sample OpMode ``ConceptAprilTagOptimizeExposure.java``, which can
 be constructed also in FTC Blocks.
 
 Webcam States
 ~~~~~~~~~~~~~
 
-Camera Controls cannot be used until the :term:`webcam <Webcam>` has reached the state
+Camera Controls cannot be used until the webcam has reached the state
 ``CAMERA_DEVICE_READY``.
 
-Under the new FTC :term:`VisionPortal` these camera states are now available: 
+Under the new FTC VisionPortal these camera states are now available: 
 
 - OPENING_CAMERA_DEVICE 
 - CAMERA_DEVICE_READY 
@@ -46,8 +46,8 @@ Notes and Guidelines for Enums
 
 - ``STARTING_STREAM`` - no processing is happening
 
-- ``STREAMING`` - Frames are available for processing (AprilTag and/or
-  TFOD recognitions) and preview (RC preview and DS Camera Stream)
+- ``STREAMING`` - Frames are available for processing (AprilTag detections
+  and/or Color Processing results) and preview (RC preview and DS Camera Stream)
 
 - ``STOPPING_STREAM`` - processing may or may not be happening. This
   status is followed by ``CAMERA_DEVICE_READY``.
@@ -55,12 +55,12 @@ Notes and Guidelines for Enums
 - ``CLOSING_CAMERA_DEVICE`` - no processing is happening
 
 - ``CAMERA_DEVICE_CLOSED`` - nothing is running, USB comms are closed.
-  Once closed, don’t open camera again during this :term:`OpMode`.
+  Once closed, don’t open camera again during this OpMode.
 
 Observing Controls
 ~~~~~~~~~~~~~~~~~~
 
-Teams wanting to optimize AprilTag or TFOD recognitions with Camera Controls
+Teams wanting to optimize their vision processing with Camera Controls
 should consider using ``scrcpy`` here:
 
 - https://github.com/Genymobile/scrcpy 
@@ -70,7 +70,7 @@ less efficient.
 
 DS Camera Stream shows the same images as ``scrcpy``, namely with Exposure and
 Gain affecting recognitions. But the image is a snapshot only, and adjustments
-cannot be made in real time, with :term:`gamepads <Gamepad>` disabled during Camera Stream.
+cannot be made in real time, with gamepads disabled during Camera Stream.
 
 Control Ranges
 ~~~~~~~~~~~~~~
@@ -90,17 +90,17 @@ For example, here are control ranges reported by the Logitech C920:
 - Pan and Tilt +/- 36,000, default (0,0) 
 - Zoom 100 to 500, but no effect after about 250
 
-Note that Camera Control Zoom affects both AprilTag and TFOD, while TFOD Zoom
-affects only TFOD recognitions.
+Note that Camera Control Zoom affects every Processor in the Portal, since it
+changes the camera image they all share.
 
 Camera Control zoom (PTZ) will affect the camera calibration, thus
-significantly affecting the **pose estimation**. TFOD zoom will not affect
-pose.
+significantly affecting the **pose estimation**.
 
-Also: 
+Also:
 
-- AprilTag detections are not affected by camera or object orientation 
-- TFOD recognitions are affected by camera or object orientation
+- AprilTag detections are not affected by camera or object orientation
+- Color Processing results, such as a blob's measured shape and aspect ratio,
+  do depend on camera and object orientation
 
 Setter Blocks
 ~~~~~~~~~~~~~
@@ -235,7 +235,7 @@ and shown below. It uses 7 of the 11 Exposure Control Blocks, omitting 4
 unlikely to be used.
 
 The gamepad can raise and lower the webcam’s **Exposure value**, while
-observing the **live effect** on previews and TFOD recognitions. This
+observing the **live effect** on previews and processor results. This
 allows a team to quickly find their preferred Exposure value in that
 environment.
 

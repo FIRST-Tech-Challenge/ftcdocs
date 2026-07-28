@@ -5,10 +5,10 @@ Overview
 --------
 
 This **Explore** page shows how to modify the default settings of the
-**ColorLocator** :term:`Sample OpMode`.  It assumes you have already followed this
+**ColorLocator** Sample OpMode.  It assumes you have already followed this
 tutorial's previous :doc:`Discover
 <../color-locator-discover/color-locator-discover>` page, to open and test this
-:term:`OpMode`.
+OpMode.
 
 ColorLocator has only two required **inputs**\ :
 
@@ -31,11 +31,11 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Color Blob Locator" **Processor** using the
 Java **Builder** pattern.  This is the same Builder pattern used to create an
-:term:`AprilTag` Processor, and previously a :term:`TensorFlow` Processor.
+:term:`AprilTag` Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Color Blob Locator" Processor to the
-:term:`VisionPortal`.
+VisionPortal.
 
 The FTC VisionPortal was introduced in 2023. More information is available
 on the :ref:`ftc-docs VisionPortal Page <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`.
@@ -54,7 +54,7 @@ The values for Red, Blue and Yellow were tuned for the plastic game pieces
 (called Samples) from INTO THE DEEP. The values for ARTIFACT_PURPLE and ARTIFACT_GREEN
 were tuned for the plastic game pieces from DECODE.
 
-Select and read the :term:`Blocks` **or** Java section below:
+Select and read the Blocks **or** Java section below:
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -219,7 +219,7 @@ Image Pre-Processing
 --------------------
 
 The default Sample OpMode purposely **blurs** the camera's image.  This
-"pre-processing" happens **before** :term:`OpenCV` performs Blob formation, thus
+"pre-processing" happens **before** OpenCV performs Blob formation, thus
 affecting the contours seen in DS and RC previews.
 
 The effect is very small (default kernel size of 5x5 pixels), but can
@@ -293,7 +293,7 @@ Camera Resolution
 -----------------
 
 The Sample OpMode uses a default camera resolution of 320 x 240 pixels,
-supported by most :term:`webcams <Webcam>` and Android phone cameras.  You may edit this
+supported by most webcams and Android phone cameras.  You may edit this
 resolution, subject to a trade-off between:
 
 * computing performance, and
@@ -363,7 +363,7 @@ Why filter?  A smaller list means faster processing, with fewer boxFits for
 your OpMode to evaluate.
 
 You can experiment with increasing the lower limit, and observing the effect on
-:term:`Telemetry`.  Also experiment with the other filters for **Density** and **Aspect
+Telemetry.  Also experiment with the other filters for **Density** and **Aspect
 Ratio**.
 
 The Blocks and Java Sample OpModes give this description:

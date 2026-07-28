@@ -93,6 +93,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    Control System Troubleshooting Guide <control_system_troubleshooting/index>
    Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
    Robot Wiring Guide <robot_building/wiring_guide/wiring-guide>
+   Robot Best Practices <robot_building/best_practices/robot-best-practices>
 
 .. toctree::
    :caption: Manufacturing
@@ -355,7 +356,7 @@ The main menu contains links to the top level content. The following are quick l
 
    This project is under active development. Anything contained herein is for 
    informational purposes only; while this documentation is intended to support 
-   teams and in some way provide context to game rules, the game rules supercede 
+   teams and in some way provide context to game rules, the game rules supersede
    all documentation found here. If you have feedback about this project, 
    please use our :doc:`feedback form <ftc_docs/form/form>`.
 

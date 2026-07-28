@@ -96,7 +96,7 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
    =============
 
    This is an example article.
-   A paragraph is a collection of lines. You can have multiple sentances per line.
+   A paragraph is a collection of lines. You can have multiple sentences per line.
    
    Leave a blank line to start a new paragraph.
    Here is some code:
@@ -555,7 +555,7 @@ If you need more than a sentence or two to describe the image, see `Complex Imag
 
 .. tip:: For assistance with alt text descriptions, see :ref:`alt-text-label`.
 
-.. important:: If you are editting an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
+.. important:: If you are editing an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
    please take a moment to add the ``:alt:`` option with a functional description of the image.
 
 Images With Captions

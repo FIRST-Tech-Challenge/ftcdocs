@@ -59,7 +59,7 @@ See `Alt Text`_ for more information about alt text.
    The HTML will look like ``<img alt="../_images/GoodStuff.png" src="../_images/GoodStuff.png">``.
    A screen reader will read out loud the alt text **../_images/GoodStuff.png**.
    
-   This is not good accessibility. If you are editting an existing page that has an image or figure directive with no ``:alt:`` option,
+   This is not good accessibility. If you are editing an existing page that has an image or figure directive with no ``:alt:`` option,
    please take a moment to add the ``:alt:`` option with a functional description of the image.
 
 The image directive has many options, but we don't recommend most of them for FTC Docs. 
@@ -239,7 +239,7 @@ While both the alt attribute and the figcaption element provide a way to describ
 
 If the caption is just a functional description of the image, maybe you don't need a caption and can use the image directive instead.
 
-See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughbot blog post.
+See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughtbot blog post.
 
 .. We probably need more examples of alt text with captions. I'm not sure this is trivial, so more examples would be nice.
 

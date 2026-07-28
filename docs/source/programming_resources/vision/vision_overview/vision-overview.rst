@@ -14,7 +14,7 @@ computer vision technologies:
    points for autonomous navigation and for assisted navigation and
    identification of points of interest on a game field.
 
-   -  Each season, *FIRST* provides 2D image tagets that can be used as
+   -  Each season, *FIRST* provides 2D image targets that can be used as
       navigational reference points.
    -  If the AprilTag system recognizes an AprilTag image, it provides 
       very accurate pose information (assuming the camera used has 

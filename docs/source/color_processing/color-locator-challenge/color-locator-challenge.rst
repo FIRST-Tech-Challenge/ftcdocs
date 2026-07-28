@@ -18,7 +18,7 @@ Here are the additional ColorLocator settings covered in this page:
 * access a boxFit's corner points
 * access all vertices of a contour
 * access a boxFit's size and tilt angle
-* create a horizonal rectangle around a tilted boxFit
+* create a horizontal rectangle around a tilted boxFit
 * access the horizontal rectangle's size and location
 
 Pre-Filter Intro
@@ -480,7 +480,7 @@ You might prefer to process only **horizontal** best-fit rectangles, parallel
 to the ROI, not tilted.
 
 OpenCV can generate a best-fit rectangle for a boxFit, whether tilted or not.
-This is **not** a "forced horizonal" boxFit, rotated in place.  The new
+This is **not** a "forced horizontal" boxFit, rotated in place.  The new
 horizontal rectangle simply touches and encloses the outer corners of the
 boxFit.
 

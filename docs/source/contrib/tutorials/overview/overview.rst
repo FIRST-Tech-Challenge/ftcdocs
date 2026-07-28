@@ -26,7 +26,7 @@ Below is an overview of the process of contributing to :term:`FTC Docs`.
           - Step specific to Local users
           - General information that provides context
 
-2. :doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-secondary:`Information`
+2. :doc:`Intro to Codespaces <../codespaces/codespaces>` :bdg-secondary:`Information`
 
     * This will provide an overview of Codespaces and how to use them.
 3. :doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` :bdg-secondary:`Information`

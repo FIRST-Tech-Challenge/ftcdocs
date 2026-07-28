@@ -1,217 +1,1284 @@
-#link-bar a:visited {
-	color: #FFF;
+/* ==========================================================================
+   FTC Docs skin — visually aligned with firstinspires.org
+   --------------------------------------------------------------------------
+   Design tokens below are taken from the live firstinspires.org stylesheets
+   (template_styles.css / module_u4m-header.css / module_u4m-footer.css):
+
+     ink            #231F20   headings, buttons, footer, utility bar
+     ink soft       #4F4C4D   body copy
+     muted          #9A989A   meta text, captions
+     border         #E9E9E9   hairlines
+     border strong  #E3E2E3   form controls
+     page           #F7F7F7   page background
+     surface        #FFFFFF   content surfaces
+     bright blue    #0091CE   accents / active state
+     link blue      #0066B3   links
+     navy           #003974   pull quotes, visited links
+     radius         4px controls / 12px panels
+     shadow         0 4px 40px rgba(35, 31, 32, .2)
+     type           Roboto, headings bold at -0.01em, body at 1.618 leading
+
+   Everything is layered on top of sphinx_rtd_theme, so a fair number of the
+   rules here exist purely to unwind the theme's own colors.
+   ========================================================================== */
+
+:root {
+	/* Brand constant: FIRST ink. Solid blocks (utility bar, footer, card
+	   headers, version flyout) keep this value in both themes, so it is
+	   deliberately *not* redefined in the dark block below. */
+	--fi-brand-ink: #231f20;
+	--fi-ink: #231f20;
+	--fi-ink-soft: #4f4c4d;
+	--fi-muted: #9a989a;
+	--fi-border: #e9e9e9;
+	--fi-border-strong: #e3e2e3;
+	--fi-page: #f7f7f7;
+	--fi-surface: #ffffff;
+	--fi-surface-alt: #fdfdfd;
+	--fi-blue: #0091ce;
+	--fi-link: #0066b3;
+	--fi-navy: #003974;
+	--fi-orange: #f57e25;
+	--fi-red: #ed1c24;
+	/* Two radii on firstinspires.org: 4px for controls (buttons, inputs, inline
+	   images) and 12px for panels (cards, mega-menu, form containers). */
+	--fi-radius: 4px;
+	--fi-radius-panel: 12px;
+	--fi-shadow: 0 4px 40px rgba(35, 31, 32, 0.14);
+	--fi-shadow-sm: 0 1px 3px rgba(35, 31, 32, 0.08);
+	--fi-font: "Roboto", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+	--fi-mono: "Roboto Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+	--fi-sidebar-width: 320px;
+	--fi-utility-height: 44px;
 }
 
-#link-bar li {
-	float: left;
-	padding: 15px;
+html[data-theme='dark'] {
+	--fi-ink: #f2f0f0;
+	--fi-ink-soft: #c6c3c4;
+	--fi-muted: #8e8b8c;
+	--fi-border: #33302f;
+	--fi-border-strong: #3f3b3a;
+	--fi-page: #141212;
+	--fi-surface: #1c1a1a;
+	--fi-surface-alt: #232020;
+	--fi-blue: #49b8e8;
+	--fi-link: #5cb8e8;
+	--fi-navy: #8fc4ee;
+	--fi-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
+	--fi-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-html[data-theme='dark'] .card, .btn-block {
-	background-color: #333;
+/* --------------------------------------------------------------------------
+   1. Base
+   -------------------------------------------------------------------------- */
+
+html {
+	background-color: var(--fi-page);
+	scroll-padding-top: calc(var(--fi-utility-height) + 16px);
 }
 
-.center {text-align: center;}
-
-.color-strip {
-	height: 10px;
-	margin :0;
-	padding: 0;
-	position: relative;
-	width: 100%;
-	z-index: 999;
-	display: table;
+body,
+.wy-body-for-nav {
+	font-family: var(--fi-font);
+	font-size: 16px;
+	line-height: 1.6180339888;
+	color: var(--fi-ink-soft);
+	background: var(--fi-page);
+	-webkit-font-smoothing: antialiased;
 }
 
-.color-strip .fblue {
-	background: #009cd7;
+/* sphinx_rtd_dark_mode ships an unconditional `html { background: black }`
+   plus a missing background-image on `body`; both have to be neutralized. */
+body {
+	background-image: none;
 }
 
-.color-strip .forange {
-	background: #f57e25;
-}
+/* --------------------------------------------------------------------------
+   2. Utility bar (firstinspires.org "top-navigation")
+   -------------------------------------------------------------------------- */
 
-.color-strip .fred {
-	background: #ed1c24;
-}
-
-.color-strip div {
-	height: 100%;
-	display: table-cell;
-}
-
-.rst-versions {
-	width: 320px;
-}
-
+/* Pinned like the firstinspires.org header, and above the fixed sidebar so the
+   sidebar can be inset beneath it. */
 .header-bar {
-	background: #003974;
-	min-height: 60px;
+	background: var(--fi-brand-ink);
+	min-height: var(--fi-utility-height);
+	position: sticky;
+	top: 0;
+	z-index: 500;
 }
 
 .link-bar-container {
-	margin-left: 320px;
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 0 20px;
 }
 
-.wy-nav-content {
-	background: #fcfcfc;
+#link-bar ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	min-height: var(--fi-utility-height);
+	flex-wrap: wrap;
 }
 
-/* Tweaks to make sidebar scroll look pretty */
+#link-bar li {
+	float: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+#link-bar a,
+#link-bar a:visited,
+#link-bar a:hover {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	text-decoration: none;
+	transition: 0.25s ease-in;
+}
+
+#link-bar a:hover,
+#link-bar a:focus {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+.center {
+	text-align: center;
+}
+
+/* --------------------------------------------------------------------------
+   3. Sidebar
+   -------------------------------------------------------------------------- */
+
+.wy-nav-side {
+	width: var(--fi-sidebar-width);
+	top: var(--fi-utility-height);
+	bottom: 0;
+	min-height: 0;
+	padding-bottom: 3em;
+	background: var(--fi-surface);
+	border-right: 1px solid var(--fi-border);
+}
+
 .wy-side-scroll {
 	width: auto;
 	overflow-y: auto;
-	margin-top: 10px;
+	margin-top: 0;
 }
 
-.wy-nav-side {
-	width: 320px;
-	padding-bottom: 3em;
+.wy-side-nav-search {
+	background: var(--fi-surface);
+	margin: 0;
+	padding: 24px 20px 20px;
+	border-bottom: 1px solid var(--fi-border);
+	text-align: left;
+}
+
+/* The theme's house glyph; the firstinspires.org header is logo-only. */
+.wy-side-nav-search > a.icon-home:before {
+	display: none;
+}
+
+/* Logo above the wordmark link, mirroring the firstinspires.org header lockup.
+   The theme emits the text before the <img>, so the flow is reversed rather
+   than hiding the (accessible) link text. */
+.wy-side-nav-search > a,
+.wy-side-nav-search > a:hover,
+.wy-side-nav-search .wy-dropdown > a {
+	color: var(--fi-ink);
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	gap: 10px;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 14px;
+	padding: 0;
+	background: none;
+}
+
+.wy-side-nav-search > a img.logo,
+.wy-side-nav-search .wy-dropdown > a img.logo {
+	padding: 0;
+	max-width: 100%;
+	background: none;
+}
+
+/* Theme-matched lockup. `layout.html` emits both variants because the *FIRST*
+   wordmark is a single flat color in each: ink on the light asset (invisible on
+   the dark sidebar) and white on the dark asset (invisible on the light one).
+   `display: none` rather than opacity/visibility so the unused variant is also
+   dropped from the accessibility tree. */
+.wy-side-nav-search > a img.logo-on-dark {
+	display: none;
+}
+
+html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-light {
+	display: none;
+}
+
+html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-dark {
+	display: block;
+}
+
+.wy-side-nav-search > div.version,
+.wy-side-nav-search > div.switch-menus {
+	color: var(--fi-muted);
+	font-size: 13px;
+	margin: 0 0 12px;
+	text-align: left;
+}
+
+.wy-side-nav-search input[type="text"] {
+	border: 1px solid var(--fi-border-strong);
+	border-radius: var(--fi-radius);
+	box-shadow: none;
+	background: var(--fi-surface-alt);
+	color: var(--fi-ink);
+	font-family: var(--fi-font);
+	font-size: 14px;
+	padding: 9px 12px;
+}
+
+.wy-side-nav-search input[type="text"]:focus {
+	border-color: var(--fi-blue);
+	outline: 2px solid rgba(0, 145, 206, 0.25);
+	outline-offset: 0;
+}
+
+.wy-side-nav-search input[type="text"]::placeholder {
+	color: var(--fi-muted);
+}
+
+/* Section captions in the nav tree, styled as the site's `.eyebrow`: the
+   section label firstinspires.org sets above a heading — uppercase link blue,
+   600 weight, 0.1em tracking, 0.85em of body size, line-height 1. */
+.wy-menu-vertical p.caption,
+.wy-menu-vertical header,
+.wy-menu-vertical .caption-text {
+	color: var(--fi-link);
+	font-family: var(--fi-font);
+	font-size: 13.6px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	/* The site's eyebrow sits on one line at 1; these are long enough to wrap in
+	   a 320px sidebar, so they get leading. */
+	line-height: 1.25;
+	text-transform: uppercase;
+	white-space: normal;
+	overflow-wrap: break-word;
+}
+
+.wy-menu-vertical p.caption {
+	margin: 22px 0 6px;
+	padding: 0 20px;
+}
+
+.wy-menu-vertical a,
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li.toctree-l1 a,
+.wy-menu-vertical li.toctree-l2 a,
+.wy-menu-vertical li.toctree-l3 a,
+.wy-menu-vertical li.toctree-l4 a {
+	color: var(--fi-ink-soft);
+	font-family: var(--fi-font);
+	font-size: 15px;
+	line-height: 1.4;
+	padding: 8px 20px;
+	border-right: none;
+	background: transparent;
+}
+
+.wy-menu-vertical li a:hover,
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li.on a:hover {
+	background: var(--fi-page);
+	color: var(--fi-ink);
+}
+
+/* Expanded branches: flat, no grey ladder */
+.wy-menu-vertical li.current,
+.wy-menu-vertical li.toctree-l2.current,
+.wy-menu-vertical li.toctree-l3.current,
+.wy-menu-vertical li.toctree-l4.current {
+	background: transparent;
+}
+
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.toctree-l1.current > a,
+.wy-menu-vertical li.toctree-l2.current > a,
+.wy-menu-vertical li.toctree-l3.current > a,
+.wy-menu-vertical li.toctree-l4.current > a,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
+	background: transparent;
+	border: none;
+	color: var(--fi-ink);
+	font-weight: 500;
+}
+
+/* The page you are actually on */
+.wy-menu-vertical li.current > a.current,
+.wy-menu-vertical a.current,
+.wy-menu-vertical li.toctree-l1.current > a.current,
+.wy-menu-vertical li.toctree-l2.current > a.current,
+.wy-menu-vertical li.toctree-l3.current > a.current {
+	background: var(--fi-page);
+	color: var(--fi-ink);
+	font-weight: 700;
+	box-shadow: inset 3px 0 0 var(--fi-blue);
+}
+
+.wy-menu-vertical li.toctree-l2 a {
+	padding-left: 36px;
+}
+
+.wy-menu-vertical li.toctree-l3 a {
+	padding-left: 52px;
+}
+
+.wy-menu-vertical li.toctree-l4 a {
+	padding-left: 68px;
+}
+
+.wy-menu-vertical li.toctree-l5 a {
+	padding-left: 84px;
+}
+
+.wy-menu-vertical li span.toctree-expand,
+.wy-menu-vertical li.on a span.toctree-expand,
+.wy-menu-vertical li.current > a span.toctree-expand,
+.wy-menu-vertical li.toctree-l2 span.toctree-expand {
+	color: var(--fi-muted);
+}
+
+/* --------------------------------------------------------------------------
+   4. Content shell
+   -------------------------------------------------------------------------- */
+
+.wy-nav-content-wrap {
+	margin-left: var(--fi-sidebar-width);
+	background: var(--fi-page);
+	/* unset the old teal/navy gradient */
+	filter: none;
 }
 
 .wy-nav-content {
-	max-width: 1000px;
+	background: var(--fi-surface);
+	max-width: 1080px;
+	height: auto;
+	min-height: 0;
+	padding: 0;
+	margin: 28px auto 40px;
+	border: 1px solid var(--fi-border);
+	border-radius: var(--fi-radius);
+	box-shadow: var(--fi-shadow-sm);
 }
 
-.wy-nav-content-wrap {
-	margin-left: 320px;
+.wy-nav-content > .rst-content,
+.rst-content {
+	padding: 0;
 }
 
-.wy-nav-content-wrap{
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#003974',endColorstr='#003974',GradientType=1);
-	background:#003974;
-	background:-moz-linear-gradient(left,#6cc2c9,#003974);
-	background:-webkit-gradient(linear,left top,right top,color-stop(50%,#6cc2c9),color-stop(100%,#003974));
-	background:-webkit-linear-gradient(left,#6cc2c9,#003974);
-	background:-o-linear-gradient(left,#6cc2c9,#003974);
-	background:-ms-linear-gradient(left,#6cc2c9,#003974);
-	background:linear-gradient(to right,#6cc2c9,#003974)
+.rst-content .document {
+	padding: 32px 48px 0;
 }
 
-html[data-theme='dark'] .wy-nav-content-wrap{
-	background:#141414;
+/* Breadcrumbs read as the page's eyebrow band, like the section headers on
+   firstinspires.org sub-pages. The theme emits `ul.wy-breadcrumbs` plus a
+   trailing `<hr>` inside a navigation wrapper; the band is drawn on the
+   wrapper and the rule is dropped. */
+.rst-content > div[role="navigation"] {
+	background: var(--fi-surface-alt);
+	border-bottom: 1px solid var(--fi-border);
+	border-radius: var(--fi-radius) var(--fi-radius) 0 0;
+	padding: 18px 48px 16px;
 }
 
-.wy-nav-side,.wy-side-nav-search,.wy-nav-top {
-	background: #003974;
+.rst-content > div[role="navigation"] > hr {
+	display: none;
 }
 
-/* Hide color bar on mobile */
-@media screen and (max-width: 768px) {
-	.header-bar {
-		display: none;
+.wy-breadcrumbs {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.wy-breadcrumbs li,
+.wy-breadcrumbs li a,
+.wy-breadcrumbs li.wy-breadcrumbs-aside a {
+	color: var(--fi-muted);
+	font-size: 14px;
+}
+
+.wy-breadcrumbs li a:hover {
+	color: var(--fi-link);
+}
+
+.wy-breadcrumbs-extra {
+	color: var(--fi-muted);
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid var(--fi-muted);
+	margin: 30px 0 35px;
+}
+
+/* Mobile bar */
+.wy-nav-top {
+	background: var(--fi-surface);
+	border-bottom: 1px solid var(--fi-border);
+	line-height: 1.4;
+	padding: 12px 16px;
+}
+
+.wy-nav-top a,
+.wy-nav-top a:hover {
+	color: var(--fi-ink);
+	font-weight: 700;
+}
+
+.wy-nav-top i {
+	color: var(--fi-ink);
+}
+
+.wy-nav-top img {
+	background: none;
+	padding: 0;
+	margin-right: 10px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Typography
+   -------------------------------------------------------------------------- */
+
+.rst-content h1,
+.rst-content h2,
+.rst-content h3,
+.rst-content h4,
+.rst-content h5,
+.rst-content h6,
+.rst-content .toctree-wrapper p.caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+	font-family: var(--fi-font);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	color: var(--fi-ink);
+}
+
+.rst-content h1 {
+	font-size: 40px;
+	margin: 8px 0 16px;
+}
+
+.rst-content h2 {
+	font-size: 30px;
+	margin: 44px 0 12px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid var(--fi-border);
+}
+
+.rst-content h3 {
+	font-size: 24px;
+	margin: 32px 0 10px;
+}
+
+.rst-content h4 {
+	font-size: 20px;
+	margin: 26px 0 10px;
+}
+
+.rst-content h5 {
+	font-size: 17px;
+	margin: 22px 0 8px;
+}
+
+.rst-content h6 {
+	font-size: 15px;
+	margin: 20px 0 8px;
+}
+
+@media screen and (max-width: 580px) {
+	.rst-content h1 {
+		font-size: 32px;
 	}
 
-	.wy-nav-content-wrap {
-		margin-left: 0px;
+	.rst-content h2 {
+		font-size: 25px;
 	}
 
-	.wy-nav-side {
-		width: 300px;
-	}
-
-	.wy-nav-side.shift {
-    	max-width: 320px;
-    }
-
-	/* Fix sidebar adjust */
-	.rst-versions {
-		width: 85%;
-		max-width: 320px;
+	.rst-content h3 {
+		font-size: 21px;
 	}
 }
 
-/* Handle landscape */
-@media screen and (min-width: 377px) {
-  .wy-nav-content-wrap.shift {
-    left: 320px;
-  }
+.rst-content p,
+.rst-content li,
+.rst-content dd,
+.wy-plain-list-disc li,
+.wy-plain-list-decimal li {
+	font-family: var(--fi-font);
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--fi-ink-soft);
 }
+
+.rst-content p {
+	margin-bottom: 20px;
+}
+
+/* RST uses blockquotes for plain indentation as much as for quotations, so this
+   stays a hairline indent rule rather than the site's styled pull quote. */
+.rst-content blockquote {
+	border-left: 2px solid var(--fi-border-strong);
+	margin: 20px 0;
+	padding: 2px 0 2px 22px;
+}
+
+.rst-content blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.rst-content .caption-text,
+.rst-content figure figcaption,
+.rst-content div.figure p.caption,
+.rst-content figcaption {
+	color: var(--fi-muted);
+	font-size: 14px;
+	font-style: normal;
+}
+
+/* Anchor permalinks */
+.rst-content .headerlink {
+	color: var(--fi-muted);
+	text-decoration: none;
+	font-weight: 400;
+}
+
+/* --------------------------------------------------------------------------
+   6. Links
+   -------------------------------------------------------------------------- */
+
+a {
+	color: var(--fi-link);
+}
+
+/* In-body links stay underlined for accessibility (WCAG 1.4.1) but otherwise
+   match the site's rich-text link: `#0066b3`, underlined, 600 weight, hovering
+   to ink. `.sd-btn` is excluded — those are the persona-page buttons. */
+.document a:not(.sd-btn) {
+	color: var(--fi-link);
+	font-weight: 600;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: var(--fi-link);
+	text-underline-offset: 0.2em;
+}
+
+.document a:not(.sd-btn):visited {
+	color: var(--fi-navy);
+	text-decoration-style: dotted; /* many browsers don't support decorations on visited link */
+	text-decoration-color: var(--fi-navy);
+}
+
+.document a:not(.sd-btn):focus {
+	outline: 2px solid var(--fi-blue);
+	outline-offset: 2px;
+}
+
+.document a:not(.sd-btn):hover {
+	color: var(--fi-ink);
+	text-decoration-color: var(--fi-ink);
+	text-decoration-thickness: 0.2em;
+	text-underline-offset: 0.25em;
+}
+
+html[data-theme='dark'] .document a:not(.sd-btn),
+html[data-theme='dark'] .document a:not(.sd-btn):hover {
+	color: var(--fi-link);
+	text-decoration-color: var(--fi-link);
+}
+
+html[data-theme='dark'] .document a:not(.sd-btn):visited {
+	color: #bb7fef;
+	text-decoration-color: #bb7fef;
+}
+
+html[data-theme='dark'] .document a:not(.sd-btn):focus {
+	outline: 2px solid var(--fi-blue);
+}
+
+/* The 600 weight is for prose links only: inside a heading the link should keep
+   the heading's weight, and a `:ref:` rendered as inline code should keep the
+   code font's own weight. */
+.document h1 a:not(.sd-btn),
+.document h2 a:not(.sd-btn),
+.document h3 a:not(.sd-btn),
+.document h4 a:not(.sd-btn),
+.document h5 a:not(.sd-btn),
+.document h6 a:not(.sd-btn),
+.document a:not(.sd-btn):has(> code) {
+	font-weight: inherit;
+}
+
+/* Screen Reader - No Select class */
+.sr-only-no-select {
+	user-select: none;
+	-webkit-user-select: none;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.icon-external-link:before { /* This is the fa-external-link icon */
+	font-family: FontAwesome;
+	content: "\f08e";
+	margin-left: 0.2em;
+	text-decoration-line: none;
+}
+
+/* --------------------------------------------------------------------------
+   7. Buttons
+   -------------------------------------------------------------------------- */
+
+.btn,
+.rst-content .btn,
+.wy-btn,
+.sd-btn,
+input[type="submit"] {
+	font-family: var(--fi-font);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	border-radius: var(--fi-radius);
+	padding: 10px 25px;
+	box-shadow: none;
+	text-transform: none;
+	transition: 0.1s ease-in;
+}
+
+.btn,
+.rst-content .btn,
+.btn-neutral,
+.btn-neutral:visited,
+.rst-content .btn-neutral,
+.sd-btn-primary,
+.sd-btn-secondary,
+.sd-btn-info {
+	background-color: var(--fi-ink) !important;
+	border: 2px solid var(--fi-ink) !important;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.btn:hover,
+.btn:focus,
+.rst-content .btn:hover,
+.btn-neutral:hover,
+.btn-neutral:focus,
+.rst-content .btn-neutral:hover,
+.sd-btn-primary:hover,
+.sd-btn-secondary:hover,
+.sd-btn-info:hover {
+	background-color: rgba(35, 31, 32, 0.7) !important;
+	border-color: rgba(35, 31, 32, 0) !important;
+	color: #fff !important;
+	box-shadow: none;
+}
+
+html[data-theme='dark'] .btn,
+html[data-theme='dark'] .btn-neutral,
+html[data-theme='dark'] .btn-neutral:visited,
+html[data-theme='dark'] .sd-btn-primary,
+html[data-theme='dark'] .sd-btn-secondary,
+html[data-theme='dark'] .sd-btn-info {
+	background-color: var(--fi-surface-alt) !important;
+	border-color: var(--fi-border-strong) !important;
+	color: var(--fi-ink) !important;
+}
+
+html[data-theme='dark'] .btn:hover,
+html[data-theme='dark'] .btn-neutral:hover,
+html[data-theme='dark'] .sd-btn-primary:hover,
+html[data-theme='dark'] .sd-btn-secondary:hover,
+html[data-theme='dark'] .sd-btn-info:hover {
+	background-color: #3a3636 !important;
+	color: var(--fi-ink) !important;
+}
+
+/* Outlined buttons — the firstinspires.org "stroked" button: transparent fill,
+   2px ink rule, ink label. Used by the `:outline:` quick-link buttons. */
+.sd-btn-outline-black,
+.sd-btn-outline-primary,
+.sd-btn-outline-secondary,
+.sd-btn-outline-dark {
+	background-color: transparent !important;
+	border: 2px solid var(--fi-ink) !important;
+	color: var(--fi-ink) !important;
+	font-weight: 700;
+}
+
+.sd-btn-outline-black:hover,
+.sd-btn-outline-primary:hover,
+.sd-btn-outline-secondary:hover,
+.sd-btn-outline-dark:hover {
+	background-color: var(--fi-ink) !important;
+	border-color: var(--fi-ink) !important;
+	color: #fff !important;
+}
+
+html[data-theme='dark'] .sd-btn-outline-black,
+html[data-theme='dark'] .sd-btn-outline-primary,
+html[data-theme='dark'] .sd-btn-outline-secondary,
+html[data-theme='dark'] .sd-btn-outline-dark {
+	border-color: var(--fi-border-strong) !important;
+	color: var(--fi-ink) !important;
+}
+
+html[data-theme='dark'] .sd-btn-outline-black:hover,
+html[data-theme='dark'] .sd-btn-outline-primary:hover,
+html[data-theme='dark'] .sd-btn-outline-secondary:hover,
+html[data-theme='dark'] .sd-btn-outline-dark:hover {
+	background-color: var(--fi-surface-alt) !important;
+	border-color: var(--fi-ink) !important;
+	color: var(--fi-ink) !important;
+}
+
+.btn:focus-visible,
+.sd-btn:focus-visible {
+	outline: 2px solid var(--fi-blue);
+	outline-offset: 2px;
+}
+
+/* Prev / next footer buttons */
+.rst-footer-buttons {
+	margin-top: 32px;
+}
+
+/* --------------------------------------------------------------------------
+   8. Admonitions
+   -------------------------------------------------------------------------- */
+
+.rst-content .admonition,
+.rst-content .note,
+.rst-content .tip,
+.rst-content .hint,
+.rst-content .important,
+.rst-content .warning,
+.rst-content .caution,
+.rst-content .attention,
+.rst-content .danger,
+.rst-content .error,
+.rst-content .seealso,
+.rst-content .admonition-todo {
+	/* The site's panel recipe — `#FDFDFD` on a 2px `#E3E2E3` rule at the 12px
+	   panel radius — plus a semantic left accent from the FIRST palette. */
+	background: var(--fi-surface-alt);
+	border: 2px solid var(--fi-border-strong);
+	border-left: 5px solid var(--fi-muted);
+	border-radius: var(--fi-radius-panel);
+	box-shadow: none;
+	padding: 0;
+	margin: 24px 0;
+	overflow: hidden;
+}
+
+.rst-content .admonition > .admonition-title,
+.rst-content .admonition p.admonition-title {
+	font-family: var(--fi-font);
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: -0.01em;
+	color: var(--fi-ink);
+	background: transparent;
+	padding: 14px 20px 0;
+	margin: 0;
+	line-height: 1.3;
+}
+
+.rst-content .admonition > *:not(.admonition-title) {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.rst-content .admonition > p:last-child,
+.rst-content .admonition > ul:last-child,
+.rst-content .admonition > ol:last-child,
+.rst-content .admonition > div:last-child {
+	padding-bottom: 14px;
+	margin-bottom: 0;
+}
+
+.rst-content .admonition > p:first-of-type,
+.rst-content .admonition > .admonition-title + * {
+	margin-top: 10px;
+}
+
+/* Semantic accents, drawn from the FIRST palette */
+.rst-content .note,
+.rst-content .seealso {
+	border-left-color: var(--fi-blue);
+}
+
+.rst-content .tip,
+.rst-content .hint {
+	border-left-color: var(--fi-link);
+}
+
+.rst-content .important {
+	border-left-color: var(--fi-navy);
+}
+
+.rst-content .warning,
+.rst-content .caution,
+.rst-content .attention,
+.rst-content .admonition-todo {
+	border-left-color: var(--fi-orange);
+}
+
+.rst-content .danger,
+.rst-content .error {
+	border-left-color: var(--fi-red);
+}
+
+/* --------------------------------------------------------------------------
+   9. Code
+   -------------------------------------------------------------------------- */
+
+.rst-content code,
+.rst-content tt,
+code,
+.rst-content code.literal,
+.rst-content tt.literal {
+	font-family: var(--fi-mono);
+	font-size: 88%;
+	background: var(--fi-page);
+	border: 1px solid var(--fi-border);
+	border-radius: var(--fi-radius);
+	color: var(--fi-ink);
+	padding: 2px 5px;
+}
+
+.rst-content code.xref,
+.rst-content a code,
+.rst-content a tt {
+	color: var(--fi-link);
+	border-color: var(--fi-border);
+}
+
+.highlight,
+.rst-content div[class^="highlight"],
+.rst-content pre.literal-block {
+	background: var(--fi-page);
+	border: 1px solid var(--fi-border);
+	border-radius: var(--fi-radius);
+	font-family: var(--fi-mono);
+}
+
+.rst-content div[class^="highlight"] pre,
+.rst-content pre.literal-block {
+	font-family: var(--fi-mono);
+	font-size: 14px;
+	line-height: 1.55;
+	padding: 16px 18px;
+}
+
+.rst-content div[class^="highlight"] {
+	margin: 0 0 24px;
+}
+
+.rst-content .linenodiv pre {
+	color: var(--fi-muted);
+	border-right: 1px solid var(--fi-border);
+}
+
+/* --------------------------------------------------------------------------
+   10. Tables
+   -------------------------------------------------------------------------- */
+
+/* firstinspires.org rules its tables horizontally only — no outer frame, no
+   column rules, no zebra striping, cells padded 10px 20px. */
+.rst-content table.docutils,
+.wy-table-bordered-all,
+.rst-content table.field-list {
+	border: 0;
+	border-collapse: collapse;
+	font-family: var(--fi-font);
+	width: 100%;
+}
+
+/* `html.writer-html5` matches the specificity of the theme's own
+   `html.writer-html5 .rst-content table.docutils th { border: 1px solid }`,
+   which otherwise keeps column rules on the header row alone. */
+html.writer-html5 .rst-content table.docutils thead th,
+html.writer-html5 .rst-content table.docutils th,
+.rst-content table.docutils thead th,
+.rst-content table.docutils th,
+.wy-table thead th {
+	background: transparent;
+	color: var(--fi-ink);
+	font-weight: 700;
+	font-size: 15px;
+	border: 0;
+	border-bottom: 2px solid var(--fi-muted);
+	text-align: left;
+	padding: 10px 20px;
+}
+
+.rst-content table.docutils td,
+.wy-table td {
+	border: 0;
+	border-bottom: 1px solid var(--fi-border-strong);
+	color: var(--fi-ink-soft);
+	font-size: 15px;
+	padding: 10px 20px;
+	vertical-align: top;
+}
+
+/* Unset the theme's zebra striping; the row rules above do the tracking. */
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td,
+.wy-table-backed,
+.wy-table-odd td,
+.wy-table-striped tr:nth-child(2n-1) td {
+	background: transparent;
+}
+
+.rst-content table.docutils caption,
+.rst-content table.field-list caption {
+	color: var(--fi-ink);
+	font-family: var(--fi-font);
+	font-weight: 700;
+	text-align: left;
+	padding-bottom: 8px;
+}
+
 /* Fix table padding https://github.com/readthedocs/sphinx_rtd_theme/issues/117 */
 @media screen and (min-width: 768px) {
-	.wy-table-responsive table td, .wy-table-responsive table th {
-	    white-space: normal !important;
+	.wy-table-responsive table td,
+	.wy-table-responsive table th {
+		white-space: normal !important;
 	}
 }
 
-div.ethical-sidebar, div.ethical-footer {
-    position: absolute;
-    left: -99999px;
+/* --------------------------------------------------------------------------
+   11. sphinx-design cards, grids and tabs
+   -------------------------------------------------------------------------- */
+
+/* firstinspires.org cards are flat: white fill, 12px radius, a 2px transparent
+   border that fills in to `#E3E2E3` on hover with an `#FDFDFD` wash, and no
+   shadow at any point. `overflow: hidden` so the ink card header below is
+   clipped to the panel radius. */
+.sd-card,
+html[data-theme='dark'] .sd-card {
+	background: var(--fi-surface) !important;
+	border: 2px solid transparent !important;
+	border-radius: var(--fi-radius-panel) !important;
+	box-shadow: none;
+	overflow: hidden;
+	transition: 0.1s ease-in;
 }
 
-/* ===================================== */
-/* ====== START SPHINX TABS CSS ======== */
+/* In dark mode the card and the page sit close enough in value that the
+   transparent border leaves no edge, so it is drawn rather than reserved. */
+html[data-theme='dark'] .sd-card {
+	border-color: var(--fi-border) !important;
+}
+
+.sd-card:hover,
+html[data-theme='dark'] .sd-card:hover {
+	background: var(--fi-surface-alt) !important;
+	border-color: var(--fi-border-strong) !important;
+	box-shadow: none;
+}
+
+.sd-card-title,
+.sd-card-header {
+	font-family: var(--fi-font);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	color: var(--fi-ink);
+}
+
+.sd-card-header,
+.sd-card-footer,
+html[data-theme='dark'] .sd-card-footer {
+	background: var(--fi-surface-alt) !important;
+	border-color: var(--fi-border) !important;
+}
+
+.sd-card-body,
+.sd-card-text {
+	color: var(--fi-ink-soft);
+	font-family: var(--fi-font);
+}
+
+/* The site's cards pad to 20px. */
+.sd-card-body {
+	padding: 20px;
+}
+
+.sd-tab-set > label {
+	font-family: var(--fi-font);
+	font-weight: 500;
+	color: var(--fi-ink-soft);
+}
+
+.sd-tab-set > input:checked + label {
+	color: var(--fi-ink);
+	border-color: var(--fi-blue);
+}
+
+/* Card headers.
+
+   Content uses two conventions: `sd-bg-secondary`/`sd-text-black` (the
+   homepage and persona pages) and `sd-bg-dark`/`sd-text-white` (most topic
+   pages). Both are left as the content asks.
+
+   An earlier pass normalized both to ink, on the grounds that
+   firstinspires.org draws its solid blocks in ink. That reads well in light
+   mode but fails in dark: an ink header on the dark card surface is nearly
+   the same value, so the header stops registering as a block at all. The FTC
+   orange holds its contrast against both surfaces, so the header looks the
+   same in either theme — worth more here than matching a colour the site only
+   uses on a white page.
+
+   `adjust-css-vars.js` sets --sd-color-secondary at runtime too; keep the two
+   in agreement. */
+:root {
+	--sd-color-secondary: #f57e25;
+	--sd-color-primary: #231f20;
+	--sd-color-primary-text: #ffffff;
+	--sd-color-dark: #231f20;
+	--sd-color-info: #0091ce;
+}
+
+/* Both header colours are brand constants, so — like the utility bar and the
+   footer — they keep their value in dark mode instead of being re-derived from
+   the surface tokens. The rule below only stops `--sd-color-secondary` from
+   being overridden by `dark.css`; the colour itself comes from `:root`. */
+.sd-card-header.sd-bg-secondary,
+html[data-theme='dark'] .sd-card-header.sd-bg-secondary {
+	background-color: var(--fi-orange) !important;
+	border-bottom: none !important;
+}
+
+.sd-card-header.sd-bg-dark,
+html[data-theme='dark'] .sd-card-header.sd-bg-dark {
+	background-color: var(--fi-brand-ink) !important;
+	border-bottom: none !important;
+}
+
+/* Ink on the dark card surface is only a few values apart, so the header stops
+   reading as a block the way it does in light mode. A hairline restores the
+   edge without moving either colour. */
+html[data-theme='dark'] .sd-card-header.sd-bg-dark {
+	border-bottom: 1px solid var(--fi-border-strong) !important;
+}
+
+/* The `sd-text-*` utility in each card's class list picks the label colour;
+   these just carry it onto the heading element inside the header. */
+.sd-card-header.sd-text-black * {
+	color: var(--fi-brand-ink) !important;
+}
+
+.sd-card-header.sd-text-white * {
+	color: #fff !important;
+}
+
+.sd-card-header {
+	font-size: 17px;
+	letter-spacing: -0.01em;
+	padding: 14px 20px;
+}
+
+/* --------------------------------------------------------------------------
+   12. Footer (firstinspires.org footer is ink with reversed text)
+   -------------------------------------------------------------------------- */
+
+.rst-content footer,
+footer {
+	background: var(--fi-brand-ink);
+	color: #fff;
+	margin: 40px 0 0;
+	padding: 40px 48px;
+	border-radius: 0 0 var(--fi-radius) var(--fi-radius);
+	font-family: var(--fi-font);
+	font-size: 14px;
+}
+
+footer p,
+footer div,
+footer span {
+	color: #fff;
+}
+
+footer hr {
+	display: none;
+}
+
+footer a,
+footer a:visited,
+.rst-content footer a,
+.rst-content footer a:visited {
+	color: #fff !important;
+	text-decoration: underline !important;
+	text-decoration-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+footer a:hover,
+.rst-content footer a:hover {
+	color: #fff !important;
+	text-decoration-color: #fff !important;
+}
+
+footer p {
+	margin-bottom: 6px;
+}
+
+/* Sponsor lockup sits on the ink footer, so the black logo is reversed out. */
+footer .invert-img,
+footer img.invert-img {
+	filter: invert(1);
+}
+
+html[data-theme='dark'] .invert-img {
+	filter: invert(1);
+}
+
+html[data-theme='dark'] footer .invert-img,
+html[data-theme='dark'] footer img.invert-img {
+	filter: invert(1);
+}
+
+/* The prev/next buttons live inside <footer>, so they need the reversed
+   treatment rather than the ink-on-white default. */
+footer .btn,
+footer .btn-neutral,
+footer .btn-neutral:visited,
+.rst-content footer .btn-neutral {
+	background-color: transparent !important;
+	border: 2px solid #fff !important;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+footer .btn:hover,
+footer .btn-neutral:hover,
+.rst-content footer .btn-neutral:hover {
+	background-color: #fff !important;
+	border-color: #fff !important;
+	color: var(--fi-brand-ink) !important;
+}
+
+/* --------------------------------------------------------------------------
+   13. Version flyout / dark-mode switcher
+   -------------------------------------------------------------------------- */
+
+.rst-versions {
+	width: var(--fi-sidebar-width);
+	font-family: var(--fi-font);
+	border-top: 1px solid var(--fi-border);
+}
+
+.rst-versions .rst-current-version {
+	background: var(--fi-brand-ink);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.rst-versions .rst-current-version .fa,
+.rst-versions .rst-current-version .fa-book {
+	color: #fff;
+}
+
+.rst-versions.shift-up .rst-other-versions {
+	background: var(--fi-brand-ink);
+}
+
+.rst-versions .rst-other-versions {
+	background: var(--fi-brand-ink);
+	color: #9a989a;
+	font-size: 13px;
+}
+
+.rst-versions .rst-other-versions dd a {
+	color: #fff;
+}
+
+.theme-switcher {
+	background-color: var(--fi-brand-ink);
+	border-radius: var(--fi-radius);
+	box-shadow: var(--fi-shadow);
+	color: #fff;
+}
+
+html[data-theme='dark'] .theme-switcher {
+	background-color: var(--fi-surface-alt);
+}
+
+/* Read the Docs / ethical ads slots */
+div.ethical-sidebar,
+div.ethical-footer {
+	position: absolute;
+	left: -99999px;
+}
+
+/* --------------------------------------------------------------------------
+   14. Search results
+   -------------------------------------------------------------------------- */
+
+.rst-content .search li,
+#search-results .search li {
+	border-bottom: 1px solid var(--fi-border);
+	padding: 14px 0;
+}
+
+#search-results .search li:first-child {
+	border-top: 1px solid var(--fi-border);
+}
+
+.rst-content .highlighted {
+	background: rgba(245, 126, 37, 0.25);
+	box-shadow: none;
+	font-weight: 700;
+	padding: 0 2px;
+}
+
+/* --------------------------------------------------------------------------
+   15. Sphinx tabs
+   -------------------------------------------------------------------------- */
 
 .sphinx-tab img {
 	margin-bottom: 24px;
 }
 
-/* fix link text in body content for accessibility 
-   exclude .sd-btn which are the buttons on the persona pages*/
-.document a:not(.sd-btn) {
-  color: #0000EE;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #0000EE;
-  text-underline-offset: 0.2em;
-}
-.document a:not(.sd-btn):visited  {
-  color: #551A8B;
-  text-decoration-style: dotted;  /* many browsers don't support decorations on visited link */
-  text-decoration-color: #551A8B;
-}
-.document a:not(.sd-btn):focus {
-    outline: 1px solid #0000EE;;
-}
-.document a:not(.sd-btn):hover {  
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 0.25em;
-}
-.document a:not(.sd-btn):active {  
-  text-decoration-style: wavy;
-}
-/* handle dark mode links */
-html[data-theme='dark'] .document a:not(.sd-btn) { 
-  color: #249ee8;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #249ee8;
-  text-underline-offset: 0.2em;
-}
-html[data-theme='dark'] .document a:not(.sd-btn):visited {
-  color: #bb7feF;
-  text-decoration-style: dotted;
-  text-decoration-color: #bb7feF;
-}
-html[data-theme='dark'] .document a:not(.sd-btn):focus {
-    outline: 1px solid #249ee8;
-}
-html[data-theme='dark'] .document a:not(.sd-btn):hover {  
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 0.25em;
-}
-html[data-theme='dark'] .document a:not(.sd-btn):active {  
-  text-decoration-style: wavy;
-}
-/* Screen Reader - No Select class */
-.sr-only-no-select {
-  user-select: none;
-  -webkit-user-select: none;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.icon-external-link:before { /* This is the fa-external-link icon */
-    font-family: FontAwesome;
-    content: "\f08e";
-    margin-left: .2em;
-    text-decoration-line: none;
-}
+/* --------------------------------------------------------------------------
+   16. Glossary
+   -------------------------------------------------------------------------- */
 
 /* Glossary entries that have more than one name.
    An entry such as "IMU" / "Inertial Measurement Unit" has to be written as
@@ -221,27 +1288,199 @@ html[data-theme='dark'] .document a:not(.sd-btn):active {
    then fail to resolve.) Sphinx renders each name as its own <dt>, so join
    them onto one line here, separated by a slash. */
 .rst-content dl.glossary > dt {
-    display: inline;
+	display: inline;
 }
+
 .rst-content dl.glossary > dt + dt::before {
-    content: "/";
-    margin: 0 0.45em;   /* equal space either side of the slash */
-    font-weight: 400;
-    opacity: 0.55;
+	content: "/";
+	margin: 0 0.45em; /* equal space either side of the slash */
+	font-weight: 400;
+	opacity: 0.55;
 }
 
 /* Each name carries a permalink that the theme leaves in the layout when it is
-   not hovered (opacity:0, not display:none), so its glyph plus its 0.5em margin
-   would open a gap between the name and the slash. Drop the margin, and keep
-   the permalink itself only on the last name of an entry. */
+   not hovered (opacity: 0, not display: none), so its glyph plus its 0.5em
+   margin would open a gap between the name and the slash. Drop the margin, and
+   keep the permalink itself only on the last name of an entry. */
 .rst-content dl.glossary > dt .headerlink {
-    margin-left: 0.25em;
+	margin-left: 0.25em;
 }
+
 .rst-content dl.glossary > dt:has(+ dt) .headerlink {
-    display: none;
+	display: none;
 }
+
 /* The definition still needs to start on its own line. */
 .rst-content dl.glossary > dd {
-    display: block;
-    margin-top: 6px;
+	display: block;
+	margin-top: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   17. Dark mode surfaces
+   -------------------------------------------------------------------------- */
+
+html[data-theme='dark'] body,
+html[data-theme='dark'] .wy-body-for-nav {
+	background: var(--fi-page);
+	color: var(--fi-ink-soft);
+}
+
+html[data-theme='dark'] .wy-nav-content-wrap,
+html[data-theme='dark'] .wy-nav-content-wrap.shift {
+	background: var(--fi-page);
+}
+
+html[data-theme='dark'] .wy-nav-content {
+	background: var(--fi-surface);
+	border-color: var(--fi-border);
+}
+
+html[data-theme='dark'] .wy-nav-side,
+html[data-theme='dark'] .wy-side-nav-search,
+html[data-theme='dark'] .wy-nav-top {
+	background: var(--fi-surface);
+}
+
+html[data-theme='dark'] .wy-side-nav-search input[type="text"] {
+	background: var(--fi-surface-alt);
+	border-color: var(--fi-border-strong);
+	color: var(--fi-ink);
+}
+
+/* dark.css re-introduces the theme's grey nav ladder; flatten it the same way
+   the light theme is flattened. */
+html[data-theme='dark'] .wy-menu-vertical li.current,
+html[data-theme='dark'] .wy-menu-vertical li.current > a,
+html[data-theme='dark'] .wy-menu-vertical li.on a,
+html[data-theme='dark'] .wy-menu-vertical li.toctree-l1.current > a,
+html[data-theme='dark'] .wy-menu-vertical li.toctree-l2.current > a,
+html[data-theme='dark'] .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a,
+html[data-theme='dark'] .wy-menu-vertical li.toctree-l3.current > a,
+html[data-theme='dark'] .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
+	background-color: transparent;
+	border-color: transparent;
+	color: var(--fi-ink);
+}
+
+html[data-theme='dark'] .wy-menu-vertical a,
+html[data-theme='dark'] .wy-menu-vertical li.current a {
+	color: var(--fi-ink-soft);
+}
+
+html[data-theme='dark'] .wy-menu-vertical a.current,
+html[data-theme='dark'] .wy-menu-vertical li.current > a.current {
+	background-color: var(--fi-page);
+	color: var(--fi-ink);
+	box-shadow: inset 3px 0 0 var(--fi-blue);
+}
+
+html[data-theme='dark'] .wy-menu-vertical a:hover,
+html[data-theme='dark'] .wy-menu-vertical li.current a:hover,
+html[data-theme='dark'] .wy-menu-vertical li.current > a:hover,
+html[data-theme='dark'] .wy-menu-vertical li.on a:hover {
+	background-color: var(--fi-surface-alt);
+	color: var(--fi-ink);
+}
+
+html[data-theme='dark'] .rst-content > div[role="navigation"] {
+	background: var(--fi-surface-alt);
+}
+
+html[data-theme='dark'] .rst-content h1,
+html[data-theme='dark'] .rst-content h2,
+html[data-theme='dark'] .rst-content h3,
+html[data-theme='dark'] .rst-content h4,
+html[data-theme='dark'] .rst-content h5,
+html[data-theme='dark'] .wy-side-nav-search > a {
+	color: var(--fi-ink);
+}
+
+html[data-theme='dark'] .rst-content .admonition,
+html[data-theme='dark'] .rst-content .note,
+html[data-theme='dark'] .rst-content .tip,
+html[data-theme='dark'] .rst-content .hint,
+html[data-theme='dark'] .rst-content .important,
+html[data-theme='dark'] .rst-content .warning,
+html[data-theme='dark'] .rst-content .caution,
+html[data-theme='dark'] .rst-content .attention,
+html[data-theme='dark'] .rst-content .danger,
+html[data-theme='dark'] .rst-content .error,
+html[data-theme='dark'] .rst-content .seealso {
+	background: var(--fi-surface-alt);
+}
+
+html[data-theme='dark'] .highlight,
+html[data-theme='dark'] .rst-content div[class^="highlight"],
+html[data-theme='dark'] .rst-content code,
+html[data-theme='dark'] code {
+	background: #17181c;
+	border-color: var(--fi-border);
+}
+
+html[data-theme='dark'] footer,
+html[data-theme='dark'] .rst-content footer {
+	background: #0f0e0e;
+}
+
+/* --------------------------------------------------------------------------
+   18. Responsive
+   -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1100px) {
+	.rst-content .document,
+	.rst-content > div[role="navigation"],
+	.rst-content footer,
+	footer {
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header-bar {
+		display: none;
+	}
+
+	.wy-nav-content-wrap {
+		margin-left: 0;
+	}
+
+	.wy-nav-content {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	.wy-nav-side {
+		width: 300px;
+		top: 0;
+	}
+
+	.wy-nav-side.shift {
+		max-width: var(--fi-sidebar-width);
+	}
+
+	/* Fix sidebar adjust */
+	.rst-versions {
+		width: 85%;
+		max-width: var(--fi-sidebar-width);
+	}
+
+	.rst-content .document,
+	.rst-content > div[role="navigation"],
+	.rst-content footer,
+	footer {
+		padding-left: 18px;
+		padding-right: 18px;
+		border-radius: 0;
+	}
+}
+
+/* Handle landscape */
+@media screen and (min-width: 377px) {
+	.wy-nav-content-wrap.shift {
+		left: var(--fi-sidebar-width);
+	}
 }

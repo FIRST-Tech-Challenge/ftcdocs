@@ -6,7 +6,7 @@ What are branches and why do we need them?
 ------------------------------------------
 
 Branches can be thought of as parallel versions of a project. This is useful for 
-deveopment because it allows you to work on a feature or bug fix in an isolated 
+development because it allows you to work on a feature or bug fix in an isolated
 environment without affecting the main project. Once you've made the changes you 
 want to make, you can merge your branch back into the main branch to publish your 
 changes.

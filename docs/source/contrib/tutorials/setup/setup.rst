@@ -34,7 +34,7 @@ Steps
 
       1. Install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
       2. Install Git from the `Git website <https://git-scm.com/downloads>`_.
-      3. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
+      3. Install the latest version of `VS Code  <https://code.visualstudio.com/download>`_.
 
 
 1. Open VS Code

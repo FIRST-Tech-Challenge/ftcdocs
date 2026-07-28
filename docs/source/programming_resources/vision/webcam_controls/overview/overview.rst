@@ -10,7 +10,7 @@ contains 5 interfaces:
 - :doc:`FocusControl </programming_resources/vision/webcam_controls/focus/index>`
 - :doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`
 
-Similar to Java classes, Java interfaces provide methods. A :term:`webcam <Webcam>` can
+Similar to Java classes, Java interfaces provide methods. A webcam can
 be controlled using methods of these 5 interfaces.
 
 PtzControl allows control of 3 related features: virtual pan, tilt and
@@ -29,16 +29,25 @@ left column.
 
 That page provides links to the 5 interfaces listed above.
 
-The methods described here can be used in :term:`Android Studio` or :term:`OnBot Java`.
-They can also be provided to :term:`Blocks` programmers by creating
+The methods described here can be used in Android Studio or OnBot Java.
+They can also be provided to Blocks programmers by creating
 myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
 
-You will see :term:`Vuforia` mentioned here, and in the `sample OpModes
-<#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge
-implementation of Google’s TensorFlow Lite receives camera images from a
-Vuforia video stream. The SDK already includes and uses Vuforia for
-navigation, so it’s a convenient tool for passing camera streams to :term:`TFOD`.
+You will see **VisionPortal** mentioned here, and in the :doc:`sample OpModes
+</programming_resources/vision/webcam_controls/samples/samples>`.
+**Why VisionPortal?** These controls act on a
+camera that is already open and streaming, and in the SDK it's the
+VisionPortal that opens the camera and manages its stream. So the Portal is
+also where you ask for a control object:
+
+.. code:: java
+
+   myExposureControl = visionPortal.getCameraControl(ExposureControl.class);
+
+A Portal can be built with no vision processor at all, which is enough to
+open the camera and show its LiveView preview while you experiment with
+these controls.
 
 These CameraControl interfaces allow some control of the webcam, within
-requirements or settings of Vuforia for its own performance. Such
+requirements or settings of the VisionPortal for its own performance. Such
 settings include resolution and frame rate, not covered here.

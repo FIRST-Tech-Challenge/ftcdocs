@@ -5,13 +5,13 @@ Overview
 --------
 
 This page will offer tips for *FIRST* Tech Challenge teams seeking more info
-about specialized features of the new :term:`VisionPortal`.
+about specialized features of the new VisionPortal.
 
 Optional Metadata
 -----------------
 
-An :term:`AprilTag` Library tag can store two optional **Metadata** fields (of
-these :term:`Blocks`/Java types): 
+An AprilTag Library tag can store two optional **Metadata** fields (of
+these Blocks/Java types): 
 
 - ``fieldPosition``: tag location on the game field (``VectorF``) 
 - ``fieldOrientation``: tag orientation on the game field (``Quaternion``)
@@ -32,7 +32,7 @@ apply to **every game, every season**:
    Image Credit: Phil Malone
 
 With a tag’s **field position** and **orientation** specified in advance
-as Metadata, the tag’s pose data could be used by an advanced :term:`OpMode` to
+as Metadata, the tag’s pose data could be used by an advanced OpMode to
 calculate the robot’s position on the field. This conversion math, an
 exercise for the reader, can allow a robot to use the tag’s pose data
 in real-time to navigate to the desired location on the field.
@@ -44,7 +44,7 @@ The frame of reference described at the **AprilTag Reference Frame**
 page is provided **by default** in the new 8.2 SDK.
 
 Advanced teams may prefer to perform their own pose calculations, based
-on **raw values** from the AprilTag/:term:`EasyOpenCV` pipeline.
+on **raw values** from the AprilTag/EasyOpenCV pipeline.
 
 Those raw values are available to Java and Blocks programmers. The Java
 version is shown here:
@@ -102,7 +102,7 @@ OpMode can be very useful.  This section provides an example that allows **live
 gamepad control** to:
 
 - toggle AprilTag Processor on and off
-- toggle :term:`TFOD` Processor on and off
+- toggle a second Processor on and off
 - toggle LiveView on and off
 - toggle Streaming on and off
 
@@ -111,7 +111,7 @@ Other features of this Test OpMode include:
 - All controls are independent, to explore the combinations and their effect on
   frame rate (FPS).
 - The previews can be observed, and detections/recognitions can be monitored
-  via annotations and :term:`Telemetry`.
+  via annotations and Telemetry.
 - Frame rate is provided in LiveView and DS Telemetry.
 - The Telemetry functions include an alternate for getting **all** or **only
   fresh** detections/recognitions.
@@ -131,7 +131,7 @@ zoom in.
    VisionPortal Example OpMode
 
 The OpMode uses "Webcam 1", or change ``USE_WEBCAM`` for a built-in RC phone
-camera.  For :term:`Control Hub`, set up an HDMI monitor or `scrcpy
+camera.  For Control Hub, set up an HDMI monitor or `scrcpy
 <https://github.com/Genymobile/scrcpy>`__.  Follow the DS gamepad button guide.
 
 At that **VisionPortal CPU and Bandwidth** page, four tools mentioned were not
@@ -140,7 +140,6 @@ discussed:
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
 
 For now, these are left for interested Blocks and Java users to research and
 investigate.  In time, more information may be posted at this page.

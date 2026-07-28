@@ -120,7 +120,7 @@ into Android Studio.
 
 |
 
-You may get a popup about trusting the project. If this happens, clilck the
+You may get a popup about trusting the project. If this happens, click the
 blue "Trust Project" button and continue.
 
 .. image:: images/TrustProject.jpg

@@ -1,7 +1,7 @@
 Sensors
 =========
 
-Listed below are some examples of common robot :term:`sensors <Sensor>`. While the *FIRST* Tech
+Listed below are some examples of common robot sensors. While the *FIRST* Tech
 Challenge SDK supports many sensors not all are natively supported.
 
 Examples
@@ -17,7 +17,7 @@ Distance Sensor (Ultrasonic)
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      MaxBotix :term:`I2C` Ultrasonic Sensor
+      MaxBotix I2C Ultrasonic Sensor
 
       ^^^
 
@@ -121,7 +121,7 @@ Touch Sensor
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV :term:`Touch Sensor`
+      REV Touch Sensor
 
       ^^^
 
@@ -211,7 +211,7 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (:term:`IMU`) is a sensor that is a combination of a
+An Inertial Measurement Unit (:term:`IMU`) is a sensor that is a combination of a
 Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the
@@ -231,7 +231,7 @@ Potentiometer
       :class-header: sd-bg-dark font-weight-bold sd-text-white
       :class-body: sd-text-left body
       
-      REV :term:`Potentiometer`
+      REV Potentiometer
 
       ^^^
 
@@ -265,7 +265,7 @@ A Potentiometer is a device that changes the output voltage based upon the
 degree to which the adjuster is turned. It is often used as a form of
 measuring the absolute orientation of an axle. The manner in which the output
 voltage changes is based on the Potentiometer that is used.
-Such a device is typically attatched via the analog port of the REV Hub.
+Such a device is typically attached via the analog port of the REV Hub.
 
 
 Sensor Compatibility Chart
@@ -325,7 +325,7 @@ Thanks to the folks at REV Robotics for providing this handy chart of sensor com
      - .. figure:: images/image_8_3.png
           :align: center
    * - NeveRest MotorAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104AndyMark
-     - Quad :term:`Encoder`
+     - Quad Encoder
      - Yes
      - .. figure:: images/image_9_3.png
           :align: center

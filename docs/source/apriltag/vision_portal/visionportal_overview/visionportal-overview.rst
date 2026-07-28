@@ -5,22 +5,22 @@ VisionPortal Overview
 interface for vision processing.
 
 -  For **FTC Blocks and Java** teams, :term:`VisionPortal` offers key capabilities of
-   **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection
-   (TFOD)** – at the same time!
+   **AprilTag**, **EasyOpenCV** and the **Color Processors** – at the same
+   time!
 
    .. figure:: images/020-dual-detection.png
       :width: 75%
       :align: center
       :alt: Dual Detection
 
-      Dual Preview with both AprilTags and TensorFlow
+      Dual Preview, with two Processors running at once
 
    |
 
 -  **AprilTag** detections include ID code and **pose**: tag location and
    orientation, relative to the camera.
 
--  **Camera Controls**, which can improve :term:`AprilTag` and :term:`TFOD` performance for
+-  **Camera Controls**, which can improve vision processing performance for
    :term:`webcam <Webcam>`, are now fully available to **FTC Blocks** users.
 
 -  **Multiple cameras** can operate at the same time – phone camera and/or
@@ -63,7 +63,7 @@ libraries, complicating the programming effort.
 
 AprilTag is a popular vision technology for detecting a simple black-and-white
 tag, used to estimate **position and orientation**. In the 2022-2023 POWERPLAY
-game, many Teams enjoyed AprilTag’s reliable :term:`Autonomous` performance for
+game, many Teams enjoyed AprilTag’s reliable Autonomous performance for
 Signal Sleeve recognition.
 
    .. figure:: images/005-AprilTag-Worlds.png
@@ -104,8 +104,8 @@ goals.
 
 Much credit to 
 
-- :term:`EasyOpenCV` developer `@Windwoes <https://github.com/Windwoes>`__ 
-- FTC :term:`Blocks` developer `@lizlooney <https://github.com/lizlooney>`__ 
+- EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__ 
+- FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__ 
 - *FIRST* Tech Challenge navigation expert `@gearsincorg <https://github.com/gearsincorg>`__ 
 - and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
 

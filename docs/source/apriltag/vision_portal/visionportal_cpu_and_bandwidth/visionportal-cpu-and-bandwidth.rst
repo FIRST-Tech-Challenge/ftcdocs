@@ -6,7 +6,7 @@ Introduction
 
 Vision processing can consume significant **CPU resources** and USB
 communications **bandwidth**.  Reaching such limits may affect previews, and
-cause an :term:`OpMode` or :term:`Robot Controller` to slow down, or freeze, or crash.
+cause an OpMode or Robot Controller to slow down, or freeze, or crash.
 
 Teams can balance the benefits of higher resolution and speed
 (frames-per-second) against the risk of overloading CPU and bandwidth
@@ -15,7 +15,7 @@ resources.
 The 8.2 SDK provides numerous tools to manage this balance:
 
 - disable and enable the RC preview (called LiveView) - "Level 1"
-- disable and enable the :term:`AprilTag` (or :term:`TFOD`) processor - "Level 2"
+- disable and enable a vision processor - "Level 2"
 - stop and resume the camera stream - "Level 3"
 - close VisionPortal - "Level 4"
 - monitor frames-per-second (FPS)
@@ -24,7 +24,6 @@ The 8.2 SDK provides numerous tools to manage this balance:
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
 
 The first four actions are informally rated for benefit and response:
 
@@ -47,8 +46,8 @@ Repeated from the **Camera Controls** page, these camera states are now availabl
   background processing from EOCV (i.e. pulling frames and performing color
   conversion). Ready to call ``resumeStreaming()``.
 - STARTING_STREAM - No processing is happening.
-- STREAMING - Frames are available for processing (AprilTag and/or TFOD
-  recognitions) and preview (LiveView RC preview and DS Camera Stream).
+- STREAMING - Frames are available for processing (AprilTag detections and/or
+  Color Processing results) and preview (LiveView RC preview and DS Camera Stream).
 - STOPPING_STREAM - Processing may or may not be happening.  This status is
   followed by ``CAMERA_DEVICE_READY``.
 - CLOSING_CAMERA_DEVICE - No processing is happening.
@@ -58,9 +57,9 @@ Repeated from the **Camera Controls** page, these camera states are now availabl
 
 These **enums** are listed in sequence, as if opening a camera (fresh build),
 then starting or resuming streaming, then stopping streaming, then closing the
-:term:`VisionPortal`.
+VisionPortal.
 
-All of the above is completely separate from the AprilTag and/or TFOD processor
+All of the above is completely separate from the vision processor
 status.  Those can be enabled or disabled at any time, but naturally require
 ``STREAMING`` status to actually process camera images.
 
@@ -93,8 +92,8 @@ Pause LiveView - Direct
 
 One way to conserve CPU resources ("Level 1") is **directly pausing** LiveView,
 while running an OpMode.  The CPU continues processing camera images for
-AprilTag and/or TFOD recognitions, but does not actually generate an RC preview
-image (video).  
+the enabled vision processors, but does not actually generate an RC preview
+image (video).
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -130,15 +129,15 @@ refresh) remains available.
 Pause LiveView - Indirect
 -------------------------
 
-The SDK also offers an **indirect** control of LiveView, available in :term:`Blocks`
+The SDK also offers an **indirect** control of LiveView, available in Blocks
 and Java:
 
 .. code-block:: java
 
    builder.setAutoStopLiveView(true)
 
-This setting causes LiveView to stop **automatically** if both processors
-(AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this
+This setting causes LiveView to stop **automatically** if all of the Portal's
+processors are disabled.  Being part of the Builder pattern, this
 feature cannot be directly toggled ``true`` and ``false`` during the OpMode.
 
 This setting is triggered when **both** processors are disabled.  When set to
@@ -148,7 +147,7 @@ orange screen if no processors are enabled.  Thus the preview **can**
 effectively be toggled off and on, using this AutoPause feature.
 
 When one or both processors are re-enabled, LiveView resumes.  This setting
-affects only LiveView; the :term:`Driver Station` Camera Stream preview remains
+affects only LiveView; the Driver Station Camera Stream preview remains
 available.
 
 Disable LiveView
@@ -161,7 +160,7 @@ LiveView **in general**, available in Blocks and Java:
 
    builder.enableLiveView(true);
 
-:term:`Sample OpModes <Sample OpMode>` set this Builder field to ``true`` by default.
+Sample OpModes set this Builder field to ``true`` by default.
 
 This could be set to ``false``, if the OpMode will not need the LiveView
 preview at all.  Being part of the Builder pattern, this feature cannot be
@@ -170,8 +169,8 @@ directly toggled ``true`` and ``false`` during the OpMode.
 Toggle Processors
 -----------------
 
-Another way to conserve CPU resources ("Level 2") is **disabling an AprilTag or
-TFOD Processor**, while running an OpMode.  
+Another way to conserve CPU resources ("Level 2") is **disabling a vision
+Processor**, while running an OpMode.
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -195,8 +194,8 @@ TFOD Processor**, while running an OpMode.
          // Enable or disable the AprilTag processor.
          myVisionPortal.setProcessorEnabled(myAprilTagProcessor, true);
 
-         // Enable or disable the TensorFlow Object Detection processor.
-         myVisionPortal.setProcessorEnabled(myTfodProcessor, true);
+         // Enable or disable the Color Locator processor.
+         myVisionPortal.setProcessorEnabled(myColorLocatorProcessor, true);
 
 Disabling a Processor does not close LiveView, with its own controls described
 above.  Any annotations will stop appearing in the preview.
@@ -209,7 +208,7 @@ Toggle Camera Stream
 
 A more active way to conserve CPU resources ("Level 3") is **stopping the
 camera stream**, while running an OpMode.  Naturally this also achieves Levels
-1 and 2: stopping LiveView and preventing operation of the AprilTag and TFOD
+1 and 2: stopping LiveView and preventing operation of all the Portal's
 Processors. DS Camera Stream provides no new snapshots.
 
 .. tab-set::
@@ -314,15 +313,15 @@ using only the vision process controls discussed above:
 
 Then 4 with Streaming on, Preview off:
 
-- only AprilTag processor enabled
-- only TFOD processor enabled
+- only the AprilTag processor enabled
+- only the Color Locator processor enabled
 - both enabled
 - both disabled
 
 Then 4 with Streaming on, Preview on:
 
-- only AprilTag processor enabled
-- only TFOD processor enabled
+- only the AprilTag processor enabled
+- only the Color Locator processor enabled
 - both enabled
 - both disabled
 
@@ -335,7 +334,6 @@ and USB Bandwidth.  Many other tools remain:
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
 
 Frame Rate
 ----------
@@ -354,7 +352,7 @@ available for your OpMode to track, record and evaluate, in Blocks and Java:
 
 Teams can collect FPS data to illustrate the general effects of, for
 example, (a) resolution and (b) processors running, on CPU performance.
-Results will depend on many team-specific factors such as :term:`webcams <Webcam>`, codebase
+Results will depend on many team-specific factors such as webcams, codebase
 (other processing), vision targets (number, type, distance), etc.
 
 Learn more about such studies at this `Datalogging tutorial
@@ -377,7 +375,7 @@ For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB
 capacity, although higher resolution can cause the auto-optimized frame rate to
 reduce.
 
-Using the :term:`Control Hub`'s two USB ports, the choice of stream format has little
+Using the Control Hub's two USB ports, the choice of stream format has little
 impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**;
 adding a webcam may affect its reliability.
 
@@ -414,13 +412,13 @@ Camera Resolution
 -----------------
 
 Some teams believe "higher resolution is better", when purchasing webcams and
-specifying resolution for AprilTag and TFOD use.
+specifying resolution for vision processing.
 
 As indicated in the previous sections here, it's more useful to consider a
 "suitable resolution" that satisfies multiple goals and challenges:
 
 - quick and reliable AprilTag detections
-- quick and reliable TFOD recognitions, including object tracking
+- quick and reliable Color Processing results
 - accurate AprilTag pose estimates
 - smooth, accurate navigation while driving (higher FPS)
 - avoid CPU overload
@@ -446,7 +444,6 @@ For now, these are left for interested users to research and investigate:
 - set decimation (down-sampling)
 - select a pose solver algorithm
 - get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
 
 All of the above features are easily found in the **FTC Blocks** toolboxes, or
 palettes, under Vision category.

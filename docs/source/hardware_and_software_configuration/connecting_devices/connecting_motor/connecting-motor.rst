@@ -37,7 +37,7 @@ the Powerpole end of the Anderson to JST VH adapter cable.
 
 |
 
-.. note:: Motors from different vendors can have different cabling requirments. 
+.. note:: Motors from different vendors can have different cabling requirements.
    Adjust this as needed for your motor.
    One end needs to be a JST VH two pin connector (white).
 

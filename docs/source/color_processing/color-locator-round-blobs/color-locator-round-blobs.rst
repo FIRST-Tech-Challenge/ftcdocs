@@ -13,14 +13,14 @@ FTC's "Color Locator" now offers a best-fit circle called ``circleFit``, an alte
 
    circleFit versus boxFit detection
 
-This page describes the new :term:`Sample OpMode` called ``ConceptVisionColorLocator_Circle``, in FTC :term:`Blocks` and Java.  These notes assume familiarity with the original Sample :term:`OpMode`, now called ``ConceptVisionColorLocator_Rectangle``.
+This page describes the new Sample OpMode called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These notes assume familiarity with the original Sample OpMode, now called ``ConceptVisionColorLocator_Rectangle``.
 
 The new ``_Circle`` Sample uses these settings for convenient processing of DECODE Artifacts:
 
 * increase Erode and Dilate areas from 5 to 15 pixels
 * change order of Erode and Dilate
 * draw ``circleFit`` preview
-* :term:`Telemetry` shows only Circularity, Radius and Center
+* Telemetry shows only Circularity, Radius and Center
 
 As an alternate, the ``_Rectangle`` Sample OpMode can still be used and modified to process objects of any shape, including round balls, with access to the same attributes.
 
@@ -30,8 +30,8 @@ Quick Start
 .. note:: 
    This and other steps here were previously described in detail, starting with the page called :doc:`Color Locator - Discover <../color-locator-discover/color-locator-discover>`.
 
-#. In FTC Blocks or Java, create a new :term:`Autonomous` OpMode from the Sample ``ConceptVisionColorLocator_Circle``.
-#. On the :term:`Driver Station`, select the OpMode that you just saved or built.
+#. In FTC Blocks or Java, create a new Autonomous OpMode from the Sample ``ConceptVisionColorLocator_Circle``.
+#. On the Driver Station, select the OpMode that you just saved or built.
 #. Turn off the automatic 30-second match timer (green slider).  Aim the camera at a DECODE **Purple Artifact**\ , or a picture of one.
 #. Touch INIT only. The OpMode should give Telemetry showing the results of one or more Blobs:
 
@@ -54,7 +54,7 @@ It's working!  Your camera is working as a **color locator**.  Think about how t
 DS and RC Previews
 ------------------
 
-Before studying the telemetry data more closely (below), make sure you can see the **previews** of the :term:`OpenCV` results.  Previewing is essential for working with vision code.
+Before studying the telemetry data more closely (below), make sure you can see the **previews** of the OpenCV results.  Previewing is essential for working with vision code.
 
 The Driver Station (DS) "snapshot" preview is available at the ``Camera Stream`` menu choice, with the OpMode in INIT.
 
@@ -65,7 +65,7 @@ The Driver Station (DS) "snapshot" preview is available at the ``Camera Stream``
 
    Driver Station Camera Stream Image showing a successful Circle Fit 
 
-The :term:`Robot Controller` (RC) device makes a video preview called ``LiveView``. For a REV :term:`Control Hub`, this video can be seen on an HDMI monitor **or** with open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "screen copy"):
+The Robot Controller (RC) device makes a video preview called ``LiveView``. For a REV Control Hub, this video can be seen on an HDMI monitor **or** with open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "screen copy"):
 
 .. figure:: images/33-circleFit-LiveView.png
    :width: 75%
@@ -185,7 +185,7 @@ Improving Results
 
 FTC teams can adjust settings to improve results based on:
 
-* :term:`webcam <Webcam>` model
+* webcam model
 * webcam position on robot (lookdown angle)
 * Artifact clustering or blocked views
 * planned method of approach and collection
@@ -224,20 +224,20 @@ Telemetry Results can be **sorted** by any of the above attributes.  See the Sam
 Lighting Challenges
 -------------------
 
-Robotics vision is highly sensitive to field lighting.  The FTC :term:`VisionPortal` offers software tools called Camera Controls to help address varying or "difficult" lighting conditions.
+Robotics vision is highly sensitive to field lighting.  The FTC VisionPortal offers software tools called Camera Controls to help address varying or "difficult" lighting conditions.
 
 If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
 
-More detail on these controls is provided in an :ref:`older tutorial - ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`; disregard the :term:`TensorFlow` references.
+More detail on these controls is provided in the :ref:`ftc-docs Webcam Controls tutorial <programming_resources/vision/webcam_controls/index:webcam controls>`.
 
-These tools can help with Color Processing **and** :term:`AprilTag` Detection.
+These tools can help with Color Processing **and** AprilTag Detection.
 
 Lastly, some webcams perform **automatic color correction**, under changing lighting conditions.  If you observe this in Previews, make adjustments as needed.
 
 OpMode Development
 ------------------
 
-You should eventually use or adapt program elements from the Color Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your team's Autonomous (or :term:`TeleOp <TELEOP>`) OpMode.
+You should eventually use or adapt program elements from the Color Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your team's Autonomous (or TeleOp) OpMode.
 
 An early choice is: **how long** should the processing (looping) continue, before using the extracted data for robot action?  What should be the criteria to **exit a loop**, and which data should be used for subsequent calculations and movement?
 

@@ -1,49 +1,45 @@
 Sample OpModes
 --------------
 
-The intent of this tutorial is to describe the available :term:`webcam <Webcam>`
+The intent of this tutorial is to describe the available webcam
 controls, allowing programmers to **develop their own solutions** guided
-by the SDK API (:term:`Javadoc`).
+by the SDK API (Javadoc).
 
-The following sample :term:`OpModes <OpMode>` are linked here for reference only. These
-rudimentary OpModes may not apply to your webcam and may not meet your
-needs in general.
+Rather than reproduce sample code here, this page points to the :term:`OpModes <OpMode>` in
+the `FtcRobotController repository
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`__,
+which are maintained alongside the SDK and updated each season. The same
+samples are available in Android Studio and OnBot Java, under
+``FtcRobotController/external/samples``.
 
+Exposure and Gain
+~~~~~~~~~~~~~~~~~
 
+`ConceptAprilTagOptimizeExposure.java
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagOptimizeExposure.java>`__
+is the SDK's camera controls sample. It builds a VisionPortal with an
+AprilTag Processor, then asks the Portal for its control objects:
 
-.. dropdown:: Adjust exposure, gain and AE Priority
+.. code:: java
 
-   :download:`W_WebcamControls_Exp_Gain.java <opmodes/W_WebcamControls_Exp_Gain.java>`
+   ExposureControl myExposureControl = visionPortal.getCameraControl(ExposureControl.class);
+   GainControl myGainControl = visionPortal.getCameraControl(GainControl.class);
 
-   .. literalinclude:: opmodes/W_WebcamControls_Exp_Gain.java
-      :language: java
+The gamepad bumpers and triggers raise and lower exposure and gain, while
+telemetry reports the tags currently detected. Its goal is to find the
+**shortest exposure** that still gives reliable detection, since a short
+exposure reduces motion blur while the robot is driving.
 
+That sample is also a reasonable starting point for the other controls
+described in this tutorial. ``FocusControl``, ``WhiteBalanceControl`` and
+``PtzControl`` are all requested from the Portal in exactly the same way.
 
+Focus, White Balance and PTZ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. dropdown:: Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)
-
-   :download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`
-
-   .. literalinclude:: opmodes/W_TFOD_WebcamExpGain.java
-      :language: java
-
-.. dropdown:: Adjust white balance temperature, if supported
-
-   :download:`W_WebcamControls_WhiteBalance.java <opmodes/W_WebcamControls_WhiteBalance.java>`
-
-   .. literalinclude:: opmodes/W_WebcamControls_WhiteBalance.java
-      :language: java
-
-.. dropdown:: Adjust focus, if supported
-
-    :download:`W_WebcamControls_Focus.java <opmodes/W_WebcamControls_Focus.java>`
-
-   .. literalinclude:: opmodes/W_WebcamControls_Focus.java
-      :language: java
-
-.. dropdown:: Adjust virtual pan, tilt and zoom, if supported
-
-   :download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`
-
-   .. literalinclude:: opmodes/W_WebcamControls_PTZ.java
-      :language: java
+The SDK does not ship a sample for these three controls. The
+:ref:`VisionPortal Camera Controls
+<apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:other test opmodes>`
+page links Blocks test OpModes covering Focus, Pan/Tilt/Zoom and White
+Balance. For Java versions, click ``Export to Java`` in the Blocks editing
+interface.

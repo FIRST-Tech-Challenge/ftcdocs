@@ -6,24 +6,24 @@
 *FIRST* Tech Challenge Software Development Kit
 ===============================================
 
-The :term:`Software Development Kit` (SDK) is the collection of tools for developing
+The Software Development Kit (SDK) is the collection of tools for developing
 software and executing it on a *FIRST* Tech Challenge robot. SDK Software
 includes:
 
--  *FIRST* Tech Challenge :term:`Driver Station App` 
+-  *FIRST* Tech Challenge Driver Station App 
 
-   *  Includes :term:`Self-Inspect`, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
+   *  Includes Self-Inspect, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
 
--  *FIRST* Tech Challenge :term:`Robot Controller App`
+-  *FIRST* Tech Challenge Robot Controller App
 
    *  Includes :doc:`Blocks Programming Environment </programming_resources/blocks/Blocks-Tutorial>`
    *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
 
 -  `Android Studio Project <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__  
-   for building the :term:`Robot Controller` App with 
+   for building the Robot Controller App with 
    :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (:term:`TensorFlow` models, :term:`Vuforia` databases, etc...)
+-  Season-Specific Assets (AprilTag libraries, game element assets, etc...)
 
 All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
@@ -42,11 +42,11 @@ Release Content
 Once the SDK is ready to be released, the private SDK repository is built and exported. 
 This build consists of:
 
--  Built :term:`Driver Station` App (``FtcDriverStation-release.apk``)
+-  Built Driver Station App (``FtcDriverStation-release.apk``)
 -  Built Robot Controller App (``FtcRobotController-release.apk``)
--  :term:`Android Studio` Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
+-  Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (TensorFlow models, Vuforia databases, etc... hosted separately)
+-  Season-Specific Assets (AprilTag libraries, game element assets, etc... hosted separately)
 
 The export is then pushed to the `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ as a `software
@@ -55,7 +55,7 @@ release
 
 The `FtcRobotController GitHub Repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ is also updated
-with the exported :term:`Android Studio Project` source so that changes can be tracked and the GitHub
+with the exported Android Studio Project source so that changes can be tracked and the GitHub
 repository can be `forked
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__
 or `cloned
@@ -69,8 +69,8 @@ and encouraged to create issues at the repository for the *Technology Team* to
 consider and address, however.
 
 .. note:: 
-   Some season-specific assets, such as TensorFlow models and Vuforia
-   Databases, are not included directly in the FtcRobotController GitHub
+   Some season-specific assets, such as AprilTag libraries and game element
+   assets, are not included directly in the FtcRobotController GitHub
    repository. Instead, they are packaged in an ``.AAR`` hosted on 
    Maven Central. When using the Robot Controller App, these assets are
    included in the app. When using Android Studio, these assets are 
@@ -139,7 +139,7 @@ Updating SDK Software
 
 It is important for teams to update the SDK software. Updates mid-season may
 not be required. Teams can check  the minimum software version required for a
-game in the :term:`Competition Manual`.  It is recommended to use the REV Hardware
+game in the Competition Manual.  It is recommended to use the REV Hardware
 Client to update hardware, if a 64-bit Windows computer is available. If not,
 then alternate methods provided can be used to update the software.
 

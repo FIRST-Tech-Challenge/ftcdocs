@@ -58,10 +58,10 @@ Robot Main Battery
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v :term:`battery <Battery>`. The batterys above are
+The main power of a robot comes from one 12v :term:`battery <Battery>`. The batteries above are
 samples of these batteries, check the :term:`Competition Manual` for the full list of
 batteries. Note that it is typically allowed to replace the connector on the
-batteries, provided the in-line :term:`fuse <Fuse>` on the battery is preserved, again check
+batteries, provided the in-line fuse on the battery is preserved, again check
 the Competition Manual for full details.
 
 .. warning:: 
@@ -190,7 +190,7 @@ Power Distribution Block
       goBILDA (SKU: 3108-2833-0801)
 
 Power Distribution Blocks help to distribute the power to devices such as
-:term:`Control Hubs <Control Hub>`, SPARKminis, and more.  See the Competition Manual for a
+Control Hubs, SPARKminis, and more.  See the Competition Manual for a
 description of legal Power Distribution methods. The Power Distribution Blocks
 shown are not the only legal devices for power distribution.
 
@@ -217,7 +217,7 @@ REV Servo Power Module
 
       REV (REV-11-1144)
 
-This is an electronic device (also known as a :term:`Servo` Power Injector) that boosts
+This is an electronic device (also known as a Servo Power Injector) that boosts
 the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
 ports and 6 matching output ports. It draws power from a 12V source and
 provides 6V power to each output servo port.  A REV Servo Power Module can
@@ -399,7 +399,7 @@ Here are several tips for identifying a failing battery:
 
 - Check for Leaking Power Cells. Similar to an acid leak in an alkaline
   battery, check to see if there are any signs of corrosion or acid leak from
-  the battery pack. This might be difficult to determine, so stay vigilent. If
+  the battery pack. This might be difficult to determine, so stay vigilant. If
   signs of acid or corrosion are present, dispose of the battery per the
   manufacturer's recommendations immediately with extreme prejudice.
 - Look for bulging within the battery casing. When Lithium batteries fail,
