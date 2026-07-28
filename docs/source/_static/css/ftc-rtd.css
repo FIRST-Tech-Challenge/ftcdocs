@@ -14,7 +14,7 @@
      bright blue    #0091CE   accents / active state
      link blue      #0066B3   links
      navy           #003974   pull quotes, visited links
-     radius         4px
+     radius         4px controls / 12px panels
      shadow         0 4px 40px rgba(35, 31, 32, .2)
      type           Roboto, headings bold at -0.01em, body at 1.618 leading
 
@@ -40,15 +40,16 @@
 	--fi-navy: #003974;
 	--fi-orange: #f57e25;
 	--fi-red: #ed1c24;
+	/* Two radii on firstinspires.org: 4px for controls (buttons, inputs, inline
+	   images) and 12px for panels (cards, mega-menu, form containers). */
 	--fi-radius: 4px;
+	--fi-radius-panel: 12px;
 	--fi-shadow: 0 4px 40px rgba(35, 31, 32, 0.14);
 	--fi-shadow-sm: 0 1px 3px rgba(35, 31, 32, 0.08);
 	--fi-font: "Roboto", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
 	--fi-mono: "Roboto Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	--fi-sidebar-width: 320px;
 	--fi-utility-height: 44px;
-	/* utility bar + the 3px FIRST color hairline above it */
-	--fi-utility-total: 47px;
 }
 
 html[data-theme='dark'] {
@@ -73,7 +74,7 @@ html[data-theme='dark'] {
 
 html {
 	background-color: var(--fi-page);
-	scroll-padding-top: calc(var(--fi-utility-total) + 16px);
+	scroll-padding-top: calc(var(--fi-utility-height) + 16px);
 }
 
 body,
@@ -149,35 +150,6 @@ body {
 	opacity: 0.8;
 }
 
-/* The tri-color FIRST strip is not part of the current firstinspires.org
-   header; it is kept in the DOM but reduced to a hairline accent. */
-.color-strip {
-	height: 3px;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	width: 100%;
-	z-index: 999;
-	display: table;
-}
-
-.color-strip div {
-	height: 100%;
-	display: table-cell;
-}
-
-.color-strip .fblue {
-	background: var(--fi-blue);
-}
-
-.color-strip .forange {
-	background: var(--fi-orange);
-}
-
-.color-strip .fred {
-	background: var(--fi-red);
-}
-
 .center {
 	text-align: center;
 }
@@ -188,7 +160,7 @@ body {
 
 .wy-nav-side {
 	width: var(--fi-sidebar-width);
-	top: var(--fi-utility-total);
+	top: var(--fi-utility-height);
 	bottom: 0;
 	min-height: 0;
 	padding-bottom: 3em;
@@ -286,16 +258,23 @@ html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-dark {
 	color: var(--fi-muted);
 }
 
-/* Section captions in the nav tree */
+/* Section captions in the nav tree, styled as the site's `.eyebrow`: the
+   section label firstinspires.org sets above a heading — uppercase link blue,
+   600 weight, 0.1em tracking, 0.85em of body size, line-height 1. */
 .wy-menu-vertical p.caption,
 .wy-menu-vertical header,
 .wy-menu-vertical .caption-text {
-	color: var(--fi-muted);
+	color: var(--fi-link);
 	font-family: var(--fi-font);
-	font-size: 12px;
-	font-weight: 700;
-	letter-spacing: 0.08em;
+	font-size: 13.6px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	/* The site's eyebrow sits on one line at 1; these are long enough to wrap in
+	   a 320px sidebar, so they get leading. */
+	line-height: 1.25;
 	text-transform: uppercase;
+	white-space: normal;
+	overflow-wrap: break-word;
 }
 
 .wy-menu-vertical p.caption {
@@ -452,8 +431,8 @@ html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-dark {
 
 hr {
 	border: 0;
-	border-top: 1px solid var(--fi-border);
-	margin: 32px 0;
+	border-top: 1px solid var(--fi-muted);
+	margin: 30px 0 35px;
 }
 
 /* Mobile bar */
@@ -602,11 +581,12 @@ a {
 	color: var(--fi-link);
 }
 
-/* In-body links stay underlined for accessibility (WCAG 1.4.1) but use the
-   firstinspires.org blues instead of browser defaults.
-   `.sd-btn` is excluded — those are the persona-page buttons. */
+/* In-body links stay underlined for accessibility (WCAG 1.4.1) but otherwise
+   match the site's rich-text link: `#0066b3`, underlined, 600 weight, hovering
+   to ink. `.sd-btn` is excluded — those are the persona-page buttons. */
 .document a:not(.sd-btn) {
 	color: var(--fi-link);
+	font-weight: 600;
 	text-decoration-line: underline;
 	text-decoration-style: solid;
 	text-decoration-color: var(--fi-link);
@@ -631,10 +611,6 @@ a {
 	text-underline-offset: 0.25em;
 }
 
-.document a:not(.sd-btn):active {
-	text-decoration-style: wavy;
-}
-
 html[data-theme='dark'] .document a:not(.sd-btn),
 html[data-theme='dark'] .document a:not(.sd-btn):hover {
 	color: var(--fi-link);
@@ -648,6 +624,19 @@ html[data-theme='dark'] .document a:not(.sd-btn):visited {
 
 html[data-theme='dark'] .document a:not(.sd-btn):focus {
 	outline: 2px solid var(--fi-blue);
+}
+
+/* The 600 weight is for prose links only: inside a heading the link should keep
+   the heading's weight, and a `:ref:` rendered as inline code should keep the
+   code font's own weight. */
+.document h1 a:not(.sd-btn),
+.document h2 a:not(.sd-btn),
+.document h3 a:not(.sd-btn),
+.document h4 a:not(.sd-btn),
+.document h5 a:not(.sd-btn),
+.document h6 a:not(.sd-btn),
+.document a:not(.sd-btn):has(> code) {
+	font-weight: inherit;
 }
 
 /* Screen Reader - No Select class */
@@ -685,7 +674,7 @@ input[type="submit"] {
 	font-size: 16px;
 	line-height: 1;
 	border-radius: var(--fi-radius);
-	padding: 12px 25px;
+	padding: 10px 25px;
 	box-shadow: none;
 	text-transform: none;
 	transition: 0.1s ease-in;
@@ -805,10 +794,12 @@ html[data-theme='dark'] .sd-btn-outline-dark:hover {
 .rst-content .error,
 .rst-content .seealso,
 .rst-content .admonition-todo {
+	/* The site's panel recipe — `#FDFDFD` on a 2px `#E3E2E3` rule at the 12px
+	   panel radius — plus a semantic left accent from the FIRST palette. */
 	background: var(--fi-surface-alt);
-	border: 1px solid var(--fi-border);
-	border-left: 4px solid var(--fi-muted);
-	border-radius: var(--fi-radius);
+	border: 2px solid var(--fi-border-strong);
+	border-left: 5px solid var(--fi-muted);
+	border-radius: var(--fi-radius-panel);
 	box-shadow: none;
 	padding: 0;
 	margin: 24px 0;
@@ -928,43 +919,51 @@ code,
    10. Tables
    -------------------------------------------------------------------------- */
 
+/* firstinspires.org rules its tables horizontally only — no outer frame, no
+   column rules, no zebra striping, cells padded 10px 20px. */
 .rst-content table.docutils,
 .wy-table-bordered-all,
 .rst-content table.field-list {
-	border: 1px solid var(--fi-border);
-	border-radius: var(--fi-radius);
+	border: 0;
 	border-collapse: collapse;
 	font-family: var(--fi-font);
 	width: 100%;
 }
 
+/* `html.writer-html5` matches the specificity of the theme's own
+   `html.writer-html5 .rst-content table.docutils th { border: 1px solid }`,
+   which otherwise keeps column rules on the header row alone. */
+html.writer-html5 .rst-content table.docutils thead th,
+html.writer-html5 .rst-content table.docutils th,
 .rst-content table.docutils thead th,
 .rst-content table.docutils th,
 .wy-table thead th {
-	background: var(--fi-page);
+	background: transparent;
 	color: var(--fi-ink);
 	font-weight: 700;
 	font-size: 15px;
-	border: 1px solid var(--fi-border);
-	border-bottom: 2px solid var(--fi-border-strong);
+	border: 0;
+	border-bottom: 2px solid var(--fi-muted);
 	text-align: left;
-	padding: 12px 14px;
+	padding: 10px 20px;
 }
 
 .rst-content table.docutils td,
 .wy-table td {
-	border: 1px solid var(--fi-border);
+	border: 0;
+	border-bottom: 1px solid var(--fi-border-strong);
 	color: var(--fi-ink-soft);
 	font-size: 15px;
-	padding: 11px 14px;
+	padding: 10px 20px;
 	vertical-align: top;
 }
 
+/* Unset the theme's zebra striping; the row rules above do the tracking. */
 .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td,
 .wy-table-backed,
 .wy-table-odd td,
 .wy-table-striped tr:nth-child(2n-1) td {
-	background: var(--fi-surface-alt);
+	background: transparent;
 }
 
 .rst-content table.docutils caption,
@@ -988,17 +987,31 @@ code,
    11. sphinx-design cards, grids and tabs
    -------------------------------------------------------------------------- */
 
+/* firstinspires.org cards are flat: white fill, 12px radius, a 2px transparent
+   border that fills in to `#E3E2E3` on hover with an `#FDFDFD` wash, and no
+   shadow at any point. `overflow: hidden` so the ink card header below is
+   clipped to the panel radius. */
 .sd-card,
 html[data-theme='dark'] .sd-card {
 	background: var(--fi-surface) !important;
-	border: 1px solid var(--fi-border) !important;
-	border-radius: var(--fi-radius) !important;
-	box-shadow: var(--fi-shadow-sm);
+	border: 2px solid transparent !important;
+	border-radius: var(--fi-radius-panel) !important;
+	box-shadow: none;
+	overflow: hidden;
 	transition: 0.1s ease-in;
 }
 
-.sd-card:hover {
-	box-shadow: var(--fi-shadow);
+/* In dark mode the card and the page sit close enough in value that the
+   transparent border leaves no edge, so it is drawn rather than reserved. */
+html[data-theme='dark'] .sd-card {
+	border-color: var(--fi-border) !important;
+}
+
+.sd-card:hover,
+html[data-theme='dark'] .sd-card:hover {
+	background: var(--fi-surface-alt) !important;
+	border-color: var(--fi-border-strong) !important;
+	box-shadow: none;
 }
 
 .sd-card-title,
@@ -1020,6 +1033,11 @@ html[data-theme='dark'] .sd-card-footer {
 .sd-card-text {
 	color: var(--fi-ink-soft);
 	font-family: var(--fi-font);
+}
+
+/* The site's cards pad to 20px. */
+.sd-card-body {
+	padding: 20px;
 }
 
 .sd-tab-set > label {
