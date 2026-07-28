@@ -1,1 +1,2 @@
 ftc_docs/workflow/workflow.rst contrib/workflow/workflow.rst
+apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst programming_resources/vision/camera_calibration/camera-calibration.rst
