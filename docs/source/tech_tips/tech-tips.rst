@@ -1966,8 +1966,8 @@ Legacy Tech Tips:
 
    When using AprilTags, choosing the right webcam can save you from having to
    :ref:`perform your own calibration
-   <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:AprilTag
-   Camera Calibration>` before being able to use it for obtaining
+   <programming_resources/vision/camera_calibration/camera-calibration:Camera
+   Calibration>` before being able to use it for obtaining
    :ref:`AprilTag Pose information
    <apriltag/vision_portal/apriltag_pose/apriltag-pose:AprilTag Pose>`.
    This week’s Tech Tip of the Week explores the new :ref:`Webcams for

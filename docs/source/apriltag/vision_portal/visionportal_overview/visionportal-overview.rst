@@ -93,7 +93,7 @@ goals.
    AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>
    AprilTag Metadata <../apriltag_metadata/apriltag-metadata>
    AprilTag Reference Frame <../apriltag_reference_frame/apriltag-reference-frame>
-   AprilTag Camera Calibration <../apriltag_camera_calibration/apriltag-camera-calibration>
+   Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
    AprilTag Pose <../apriltag_pose/apriltag-pose>
    AprilTag Library <../apriltag_library/apriltag-library>
    AprilTag Localization <../apriltag_localization/apriltag-localization>
