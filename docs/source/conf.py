@@ -406,12 +406,20 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('booklets/wiring_guide', 'wiring_guide.tex', 'Robot Wiring Guide', author, "manual"), # Robot Wiring Guide
     ]
 
-# Roboto is the typeface used across firstinspires.org (loaded there from the
-# same Google Fonts endpoint). ftc-rtd.css falls back to Helvetica/Arial if the
-# request fails, so an offline build still renders correctly.
+# Roboto is the typeface used across firstinspires.org. This is the same axis
+# request the site makes -- the full 100..900 variable range rather than a set
+# of discrete weights, so intermediate weights (the skin uses 600 for eyebrows
+# and in-body links, as the site does) render at their true weight instead of
+# being rounded up to 700. It also arrives as one variable font file rather
+# than one file per weight.
+#
+# `display=swap` rather than the site's `display=block`: a docs page should
+# render its text in the fallback immediately instead of holding it invisible
+# while the font loads. ftc-rtd.css falls back to Helvetica/Arial, so an
+# offline build still renders correctly.
 ROBOTO_HREF = (
     "https://fonts.googleapis.com/css2"
-    "?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700"
+    "?family=Roboto:ital,wght@0,100..900;1,100..900"
     "&display=swap"
 )
 
