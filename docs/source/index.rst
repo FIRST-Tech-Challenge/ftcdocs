@@ -73,6 +73,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
    VisionPortal Camera Controls </apriltag/vision_portal/visionportal_camera_controls/index>
+   Color Processing </color_processing/index>
    AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
