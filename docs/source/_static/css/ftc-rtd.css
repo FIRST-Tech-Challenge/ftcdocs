@@ -1053,33 +1053,58 @@ html[data-theme='dark'] .sd-card-footer {
 
 /* Card headers.
 
-   Content uses two conventions: `sd-bg-dark`/`sd-text-white` (most topic
-   pages) and `sd-bg-secondary`/`sd-text-black` (the homepage and persona
-   pages). firstinspires.org draws solid blocks in ink, so both are normalized
-   to ink-on-white here rather than editing ~90 directives across the tree.
+   Content uses two conventions: `sd-bg-secondary`/`sd-text-black` (the
+   homepage and persona pages) and `sd-bg-dark`/`sd-text-white` (most topic
+   pages). Both are left as the content asks.
+
+   An earlier pass normalized both to ink, on the grounds that
+   firstinspires.org draws its solid blocks in ink. That reads well in light
+   mode but fails in dark: an ink header on the dark card surface is nearly
+   the same value, so the header stops registering as a block at all. The FTC
+   orange holds its contrast against both surfaces, so the header looks the
+   same in either theme — worth more here than matching a colour the site only
+   uses on a white page.
 
    `adjust-css-vars.js` sets --sd-color-secondary at runtime too; keep the two
    in agreement. */
 :root {
-	--sd-color-secondary: #231f20;
-	--sd-color-secondary-text: #ffffff;
+	--sd-color-secondary: #f57e25;
 	--sd-color-primary: #231f20;
 	--sd-color-primary-text: #ffffff;
 	--sd-color-dark: #231f20;
 	--sd-color-info: #0091ce;
 }
 
+/* Both header colours are brand constants, so — like the utility bar and the
+   footer — they keep their value in dark mode instead of being re-derived from
+   the surface tokens. The rule below only stops `--sd-color-secondary` from
+   being overridden by `dark.css`; the colour itself comes from `:root`. */
 .sd-card-header.sd-bg-secondary,
-.sd-card-header.sd-bg-dark {
+html[data-theme='dark'] .sd-card-header.sd-bg-secondary {
+	background-color: var(--fi-orange) !important;
+	border-bottom: none !important;
+}
+
+.sd-card-header.sd-bg-dark,
+html[data-theme='dark'] .sd-card-header.sd-bg-dark {
 	background-color: var(--fi-brand-ink) !important;
 	border-bottom: none !important;
 }
 
-/* Beats the `sd-text-black` utility carried in the same class list. */
-.sd-card-header.sd-bg-secondary.sd-text-black,
-.sd-card-header.sd-bg-secondary.sd-text-black *,
-.sd-card-header.sd-bg-dark.sd-text-white,
-.sd-card-header.sd-bg-dark.sd-text-white * {
+/* Ink on the dark card surface is only a few values apart, so the header stops
+   reading as a block the way it does in light mode. A hairline restores the
+   edge without moving either colour. */
+html[data-theme='dark'] .sd-card-header.sd-bg-dark {
+	border-bottom: 1px solid var(--fi-border-strong) !important;
+}
+
+/* The `sd-text-*` utility in each card's class list picks the label colour;
+   these just carry it onto the heading element inside the header. */
+.sd-card-header.sd-text-black * {
+	color: var(--fi-brand-ink) !important;
+}
+
+.sd-card-header.sd-text-white * {
 	color: #fff !important;
 }
 
