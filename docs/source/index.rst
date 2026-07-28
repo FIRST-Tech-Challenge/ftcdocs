@@ -66,13 +66,14 @@ and :doc:`gracious_professionalism/gp` to see why.
    programming_resources/index
 
 .. toctree::
-   :caption: AprilTag Resources
+   :caption: Vision Resources
    :maxdepth: 1
    :hidden:
 
-   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
    Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
+   VisionPortal Camera Controls </apriltag/vision_portal/visionportal_camera_controls/index>
+   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
