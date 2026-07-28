@@ -86,6 +86,7 @@ goals.
    :maxdepth: 1
 
    AprilTag Introduction <../apriltag_intro/apriltag-intro>
+   Webcams for VisionPortal <../visionportal_webcams/visionportal-webcams>
    Vision Processor Initialization <../vision_processor_init/vision-processor-init>
    VisionPortal Initialization <../visionportal_init/visionportal-init>
    VisionPortal Previews <../visionportal_previews/visionportal-previews>
@@ -95,8 +96,9 @@ goals.
    Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
    AprilTag Pose <../apriltag_pose/apriltag-pose>
    AprilTag Library <../apriltag_library/apriltag-library>
+   AprilTag Localization <../apriltag_localization/apriltag-localization>
    VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
-   VisionPortal Camera Controls <../visionportal_camera_controls/visionportal-camera-controls>
+   VisionPortal Camera Controls <../visionportal_camera_controls/index>
    Vision Multiportal <../vision_multiportal/vision-multiportal>
    AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
 

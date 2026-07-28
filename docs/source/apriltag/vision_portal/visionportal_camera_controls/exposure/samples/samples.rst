@@ -25,4 +25,4 @@ Exposure Control Code Samples
 -  ``myExposureControl.setExposure(30, TimeUnit.MILLISECONDS);``
 
 See these and other exposure controls illustrated in the :doc:`Sample OpModes
-</programming_resources/vision/webcam_controls/samples/samples>`.
+</apriltag/vision_portal/visionportal_camera_controls/samples/samples>`.

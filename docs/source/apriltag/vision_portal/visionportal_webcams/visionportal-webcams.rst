@@ -4,7 +4,7 @@ Webcams for Vision Portal
 This is a short list of common webcams that are known to work with the
 :ref:`FTC VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`
 and the 
-:ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
+:ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/index:visionportal camera controls>`.
 
 VisionPortal is a comprehensive interface for FTC vision processing.
 Example use cases for a webcam are:
