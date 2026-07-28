@@ -6,6 +6,32 @@ features described here. The SDK provides some methods to query the
 webcam and/or return values that indicate whether a valid response was
 available.
 
+Control Ranges
+~~~~~~~~~~~~~~
+
+Each webcam model has its own level of support for camera controls. The
+Logitech C920 supports all the control features offered by the SDK; many
+webcams don't.
+
+For example, here are control ranges reported by the Logitech C920:
+
+- Exposure 0 to 204 ms
+- Gain 0 to 255
+- White Balance 2000 to 6500 (often defaults to 2000)
+- Focus 0 to 250, usual default 0 (infinite)
+- Pan and Tilt +/- 36,000, default (0,0)
+- Zoom 100 to 500, but no effect after about 250
+
+Note that camera control Zoom affects every Processor in the Portal, since it
+changes the camera image they all share. Zoom (PTZ) will also affect the
+camera calibration, thus significantly affecting the **pose estimation**.
+
+Also:
+
+- AprilTag detections are not affected by camera or object orientation
+- Color Processing results, such as a blob's measured shape and aspect ratio,
+  do depend on camera and object orientation
+
 Exposure Support
 ~~~~~~~~~~~~~~~~
 
