@@ -37,9 +37,9 @@ smartphones:
    the phone renamed and paired, and needs a Micro USB OTG adapter cable to
    connect a gamepad.
 
-.. note:: A Control Hub has Developer Options enabled from the factory and
-   comes preloaded with the ROBOT CONTROLLER app, so teams using the
-   recommended setup can skip the phone-only preparation steps.
+.. note:: A Control Hub has Developer Options enabled from the factory, so
+   teams using the recommended setup can skip the phone-only preparation
+   steps.
 
 Documentation You Will Need
 ---------------------------
@@ -104,8 +104,8 @@ documentation that covers it.
        been downloaded and opened.
      - :doc:`Installing Android Studio <../../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio>`,
        :doc:`Downloading the Android Studio Project Folder <../../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
-   * - The version of the ``FtcRobotController`` project matches the season and
-       is at least as new as the DRIVER STATION app version on the Driver Hub.
+   * - The ``FtcRobotController`` project and the DRIVER STATION app both come
+       from the current season's release.
      - :doc:`Downloading the Android Studio Project Folder <../../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
    * - A USB Type C cable connects the laptop to the Control Hub's Type C port,
        and Android Studio lists the hub as an available deployment target.
@@ -116,8 +116,7 @@ documentation that covers it.
    compatible with the DRIVER STATION app on the Driver Hub, so update both
    from the same season's release.
 
-.. note:: The laptop can also connect to the Control Hub's Program & Manage
-   Wi-Fi network for use with the Blocks and OnBot Java tools. Android Studio
-   deploys over the USB Type C connection described above, so
-   :doc:`connecting a laptop to the Program & Manage network <../../shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
-   is not required for this tutorial.
+.. note:: This tutorial deploys the app over the USB Type C connection
+   described above. The Control Hub also broadcasts a Program & Manage Wi-Fi
+   network, used by the Blocks and OnBot Java tools and described in
+   :doc:`Connecting a Laptop to the Program & Manage Network <../../shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`.
