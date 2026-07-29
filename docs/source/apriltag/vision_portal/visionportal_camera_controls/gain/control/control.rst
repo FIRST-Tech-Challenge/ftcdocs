@@ -7,8 +7,12 @@ Gain is a digital camera setting that controls the amplification of the
 signal from the :term:`webcam <Webcam>` sensor. This amplifies the whole signal,
 including any associated background noise.
 
-Gain can be managed in coordination with exposure. Raising exposure and
-keeping gain low, can provide a bright image and low noise. On the other
+Gain **must** be managed together with exposure. Autoexposure mode manages
+both, so gain can be adjusted only if ExposureControl Mode is set to
+``Manual`` (not the default).
+
+Raising exposure and keeping gain low, can provide a bright image and low
+noise. On the other
 hand, longer exposure can cause motion blur, which may affect target
 tracking performance. In some cases, reducing exposure duration and
 increasing gain may provide a sharper image, although with more noise.

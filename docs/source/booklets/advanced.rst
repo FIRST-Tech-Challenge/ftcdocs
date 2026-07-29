@@ -13,7 +13,7 @@
         :titlesonly:
 
         /programming_resources/vision/vision_overview/vision-overview
-        /programming_resources/vision/webcam_controls/index
+        /apriltag/vision_portal/visionportal_camera_controls/index
         Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
 
     .. toctree::

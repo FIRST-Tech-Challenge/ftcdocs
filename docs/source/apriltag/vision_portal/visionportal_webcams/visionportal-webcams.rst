@@ -4,7 +4,7 @@ Webcams for Vision Portal
 This is a short list of common :term:`webcams <Webcam>` that are known to work with the
 :ref:`FTC VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`
 and the 
-:ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
+:ref:`FTC Camera Controls <apriltag/vision_portal/visionportal_camera_controls/index:visionportal camera controls>`.
 
 :term:`VisionPortal` is a comprehensive interface for FTC vision processing.
 Example use cases for a webcam are:
@@ -50,7 +50,7 @@ online retailers.
 
 The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and no others. Learn more at
-:ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 
 .. _logitech_c310_label:
 
@@ -85,7 +85,7 @@ is available at some online retailers.
 
 The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and for 640x360. Learn more at
-:ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 
 .. _logitech_c920_label:
 
@@ -124,7 +124,7 @@ is available at many online retailers.
 The FTC SDK provides **built-in calibration values** for the FTC
 VisionPortal default resolution of 640x480, and five others: 640x360,
 800x448, 800x600, 864x480, and 1920x1080. Learn more at
-:ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 
 Microsoft LifeCam HD-3000 v1/v2
 -------------------------------
@@ -157,7 +157,7 @@ is available at some online retailers.
 For v1 and v2 of this webcam, the FTC SDK provides **built-in
 calibration values** for the FTC VisionPortal default resolution of
 640x480, and no others. Learn more at
-:ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 
 Other Webcams
 -------------
@@ -168,7 +168,7 @@ webcams are UVC compatible without specifically advertising it; often
 indicated by “no drivers needed”.
 
 In general, other webcams (not listed above) will require user-provided
-:ref:`Camera Calibration Values <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration Values <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 for AprilTag 
 :ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:apriltag pose>`.
 
@@ -231,7 +231,7 @@ rate limitations.
 
 The FTC SDK provides **no** built-in calibration values for this webcam.
 Learn more at
-:ref:`AprilTag Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration:apriltag camera calibration>`.
+:ref:`Camera Calibration <programming_resources/vision/camera_calibration/camera-calibration:camera calibration>`.
 
 Other Global Shutter Cameras
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

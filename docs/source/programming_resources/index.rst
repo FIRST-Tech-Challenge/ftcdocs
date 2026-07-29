@@ -66,53 +66,18 @@ Control System Supporting Documentation
    shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station
    shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller
 
-AprilTag Programming
-~~~~~~~~~~~~~~~~~~~~
-
-Topics for programming with :term:`AprilTags <AprilTag>`
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   AprilTag Introduction <../apriltag/vision_portal/apriltag_intro/apriltag-intro>
-   VisionPortal Overview <../apriltag/vision_portal/visionportal_overview/visionportal-overview>
-   Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
-   Understanding AprilTag Values <../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
-   AprilTag Localization <../apriltag/vision_portal/apriltag_localization/apriltag-localization>
-   AprilTag Test Images <../apriltag/opmode_test_images/opmode-test-images>
-   ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
-
 Vision Programming
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
-Learning more about using vision
+Programming a camera to recognize :term:`AprilTags <AprilTag>`, colors and shapes is
+covered in the **Vision Resources** section of the main menu. Start here:
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   vision/vision_overview/vision-overview
-   vision/webcam_controls/index
-   Camera Calibration <vision/camera_calibration/camera-calibration>
-
-Camera Color Processing
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Learn more about using a simple :term:`webcam <Webcam>` or smartphone camera to perform Color Processing
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   ../color_processing/index
-   ../color_processing/color-sensor/color-sensor
-   ../color_processing/color-blob-concepts/color-blob-concepts
-   ../color_processing/color-locator-discover/color-locator-discover
-   ../color_processing/color-locator-explore/color-locator-explore
-   ../color_processing/color-locator-challenge/color-locator-challenge
-   ../color_processing/color-locator-round-blobs/color-locator-round-blobs
-   ../color_processing/color-spaces/color-spaces
+-  :doc:`Computer Vision Overview <vision/vision_overview/vision-overview>` --
+   which vision technology to use, and when
+-  :doc:`AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>` --
+   identification and field localization
+-  :doc:`Color Processing </color_processing/index>` -- detecting colors and
+   color blobs with OpenCV
 
 Advanced Topics
 ~~~~~~~~~~~~~~~~
