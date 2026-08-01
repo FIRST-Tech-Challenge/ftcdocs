@@ -8,22 +8,27 @@ and gives a checklist to work through before writing any code.
 
 You do not need to have completed the Blocks or OnBot Java tutorials first.
 
-Recommended Control System Setup
---------------------------------
+Supported Control System Setup
+------------------------------
 
-This tutorial is written for the setup that most teams use:
+This tutorial is written for the officially supported setup:
 
 -  a **REV Robotics Control Hub** as the ROBOT CONTROLLER, and
 -  a **REV Robotics Driver Hub** as the DRIVER STATION.
 
-Select Android smartphones are also supported. Where a page in this tutorial
-describes more than one setup, follow the Control Hub and Driver Hub
-instructions unless your team is using one of the alternate setups below.
+.. important:: Smartphones are not officially supported. They are legal to use
+   in competition, but a team who uses one is responsible for all of their own
+   testing and troubleshooting. Only the REV Control Hub and the REV Driver Hub
+   are officially supported.
 
-Alternate Setups
-^^^^^^^^^^^^^^^^
+Where a page in this tutorial describes more than one setup, follow the Control
+Hub and Driver Hub instructions unless your team is using one of the smartphone
+setups below.
 
-Two alternate setups appear throughout the Control System documentation. Both
+Smartphone Setups
+^^^^^^^^^^^^^^^^^
+
+Two smartphone setups appear throughout the Control System documentation. Both
 are covered by the same pages this tutorial links to, in sections labeled for
 smartphones:
 
@@ -38,7 +43,7 @@ smartphones:
    connect a gamepad.
 
 .. note:: A Control Hub has Developer Options enabled from the factory, so
-   teams using the recommended setup can skip the phone-only preparation
+   teams using the supported setup can skip the phone-only preparation
    steps.
 
 Documentation You Will Need

@@ -8,7 +8,7 @@ motor, servo, and sensor the name your OpMode uses to find it, so complete
 this section before writing code.
 
 Sections describing a smartphone ROBOT CONTROLLER or a smartphone DRIVER
-STATION apply only to those alternate setups.
+STATION apply only to teams using a smartphone.
 
 .. toctree::
     :maxdepth: 1
