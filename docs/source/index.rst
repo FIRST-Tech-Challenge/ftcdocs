@@ -78,7 +78,6 @@ and :doc:`gracious_professionalism/gp` to see why.
    AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
-   AprilTag Challenges in DECODE </apriltag/apriltag_tips/decode_apriltag/decode-apriltag>
 
 .. toctree::
    :caption: CAD Resources
