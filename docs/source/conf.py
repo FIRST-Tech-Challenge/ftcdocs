@@ -89,8 +89,12 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Sidebar logo
-html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
+# Sidebar logo. The sidebar is white (matching the firstinspires.org header), so
+# this is the lockup with the ink *FIRST* wordmark. Dark mode needs the white
+# wordmark instead; `_templates/layout.html` emits both and ftc-rtd.css picks
+# one, so its counterpart lives beside this file as
+# _static/ftc-logo-horz-ondark.png.
+html_logo = "_static/ftc-logo-horz-onlight.png"
 
 # URL favicon
 html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
@@ -402,8 +406,32 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('booklets/wiring_guide', 'wiring_guide.tex', 'Robot Wiring Guide', author, "manual"), # Robot Wiring Guide
     ]
 
+# Roboto is the typeface used across firstinspires.org. This is the same axis
+# request the site makes -- the full 100..900 variable range rather than a set
+# of discrete weights, so intermediate weights (the skin uses 600 for eyebrows
+# and in-body links, as the site does) render at their true weight instead of
+# being rounded up to 700. It also arrives as one variable font file rather
+# than one file per weight.
+#
+# `display=swap` rather than the site's `display=block`: a docs page should
+# render its text in the fallback immediately instead of holding it invisible
+# while the font loads. ftc-rtd.css falls back to Helvetica/Arial, so an
+# offline build still renders correctly.
+ROBOTO_HREF = (
+    "https://fonts.googleapis.com/css2"
+    "?family=Roboto:ital,wght@0,100..900;1,100..900"
+    "&display=swap"
+)
+
+
 def setup(app):
-    app.add_css_file("css/ftc-rtd.css")
+    app.add_css_file(ROBOTO_HREF)
+    # priority 900 puts the skin after every other stylesheet in <head>.
+    # sphinx_design and sphinx_rtd_dark_mode add theirs via `html_css_files`,
+    # which Sphinx emits at priority 800, so at the default priority (500) the
+    # skin would lose every same-specificity contest against
+    # `dark_mode_css/dark.css`.
+    app.add_css_file("css/ftc-rtd.css", priority=900)
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
     app.add_js_file("js/adjust-css-vars.js")
