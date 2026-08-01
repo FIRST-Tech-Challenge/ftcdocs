@@ -32,8 +32,6 @@ A1 mini Drawbacks
 * Lower max bed temperature (80 °C) can limit adhesion for some higher-temp materials
 
 .. image:: images/bambulaba1mini.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab A1 mini
 
 |
@@ -69,8 +67,6 @@ Centauri Carbon Drawbacks
 * Slicer and software ecosystem is less mature than the largest community ecosystems
 
 .. image:: images/centauricarbon.png
-  :align: center
-  :width: 55%
   :alt: Picture of an Elegoo Centauri Carbon
 
 |
@@ -108,8 +104,6 @@ P1S Drawbacks
 * Reliant on Bambu Lab for future firmware/software updates
 
 .. image:: images/bambulabp1s.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab P1S
 
 |      
@@ -145,8 +139,6 @@ Common Drawbacks
 * Any drawbacks of the individual printer. Make sure you keep an eye out for things you want in a printer when researching.
 
 .. figure:: images/anycubicviper.png
-  :align: center
-  :width: 55%
   :alt: Picture of an Anycubic Viper
 
   Anycubic's Viper

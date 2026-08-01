@@ -36,8 +36,6 @@ Core One+ Drawbacks
 * Lead times and regional availability can vary
 
 .. image:: images/prusacoreoneplus.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Prusa Core One+
 
 |
@@ -73,8 +71,6 @@ H2S Drawbacks
 * Large, so may not fit in all workspaces
 
 .. image:: images/bambulabh2s.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab H2S
 
 |
@@ -111,8 +107,6 @@ Drawbacks
 * Huge financial commitment (typically $1000+)
 
 .. image:: images/voron24.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Voron 2.4
 
 |   
