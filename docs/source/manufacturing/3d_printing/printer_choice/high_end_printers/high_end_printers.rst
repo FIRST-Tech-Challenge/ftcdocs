@@ -22,7 +22,7 @@ Core One+ Features
 * Fully automatic first layer calibration (load cell) and automatic mesh bed leveling (print area)
 * Nextruder direct-drive extruder with quick-swap nozzle system
 * Enclosed chamber with max chamber temperature: 55 °C
-* Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
+* Max nozzle temperature: 290 °C; max heated bed temperature: 120 °C
 * Networking and remote monitoring: Ethernet, Prusa Connect + mobile app support; NFC receiver + optional ESP Wi-Fi module (delivered with the printer)
 * MMU3 support
 

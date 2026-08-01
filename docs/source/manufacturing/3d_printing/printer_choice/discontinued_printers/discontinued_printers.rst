@@ -102,7 +102,7 @@ P1P Drawbacks
 * Replacement parts are proprietary from Bambu Lab (albeit well-priced). Some third-party replacements are available, but for some components, you are reliant on Bambu Lab for replacements.
 * Carbon Fiber rods can wear out over time
 * Reliant on Bambu Lab for future firmware/software updates
-* No colour screen, only monochrome with no touchscreen capabilities
+* No color screen, only monochrome with no touchscreen capabilities
 * Poor quality & low FPS camera
 * No local AI capabilities, leading to more potential print failures compared to newer Bambu Lab printers
 
