@@ -88,6 +88,6 @@ Mechanical Power Calculator, now lives on its own page:
 <tech_tips/tech-tips/tech-tip-motor-servo-power/tech-tip-motor-servo-power:Calculating Motor and Servo Power>`.
 
 .. This section is retained because the *FIRST* Tech Challenge Competition
-   Manual links directly to the #calculatepower anchor on this page. The two
-   label targets above keep that URL resolving. Remove this whole section once
-   the Competition Manual link has been updated to point at the new page.
+   Manual links directly to <tech-tips.html#calculatepower> on this page. The
+   two label targets above keep that URL resolving. Remove this whole section
+   once the Competition Manual link has been updated to point at the new page.
