@@ -161,8 +161,9 @@ in place.
       The Android device that sits with the drivers and acts as the robot's
       remote control. It runs the :term:`Driver Station App`, has one or two
       :term:`Gamepad` controllers attached, and communicates with the
-      :term:`Robot Controller` over a wireless link. Usually a
-      :term:`Driver Hub`.
+      :term:`Robot Controller` over a wireless link. The :term:`Driver Hub` is
+      the officially supported Driver Station. An Android phone also works and
+      is legal to use in competition, but is not officially supported.
 
    Driver Station App
       The *FIRST* Tech Challenge app that runs on the :term:`Driver Station`.
@@ -401,9 +402,10 @@ in place.
    Robot Controller
    RC
       The Android device mounted on the robot that runs the team's
-      :term:`OpMode` programs — the "brains" of the robot. Normally this is a
-      :term:`Control Hub`; a supported Android phone paired with an
-      :term:`Expansion Hub` also works.
+      :term:`OpMode` programs — the "brains" of the robot. The
+      :term:`Control Hub` is the officially supported Robot Controller. An
+      Android phone paired with an :term:`Expansion Hub` also works and is
+      legal to use in competition, but is not officially supported.
 
    Robot Controller App
       The *FIRST* Tech Challenge app that runs on the
