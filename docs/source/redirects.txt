@@ -24,3 +24,4 @@ programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst apriltag/
 programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst apriltag/vision_portal/visionportal_camera_controls/ptz/zoom/zoom.rst
 programming_resources/vision/webcam_controls/eval/eval.rst apriltag/vision_portal/visionportal_camera_controls/eval/eval.rst
 programming_resources/vision/webcam_controls/samples/samples.rst apriltag/vision_portal/visionportal_camera_controls/samples/samples.rst
+apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst apriltag/vision_portal/apriltag_intro/apriltag-intro.rst
