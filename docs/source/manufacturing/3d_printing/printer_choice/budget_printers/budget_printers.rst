@@ -32,7 +32,7 @@ A1 mini Drawbacks
 * Lower max bed temperature (80 °C) can limit adhesion for some higher-temp materials
 
 .. image:: images/bambulaba1mini.png
-  :alt: Picture of a Bambu Lab A1 mini
+  :alt: A Bambu Lab A1 mini 3D printer.
 
 |
 
