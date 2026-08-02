@@ -7,7 +7,7 @@ What Needs to Be Configured for My Control System?
 Driver Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
+Teams who are using the REV Robotics :term:`Driver Hub` as their DRIVER STATION
 should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
 for instructions on how to set up and use the REV Robotics Driver Hub.
 
@@ -17,9 +17,9 @@ Control Hub Configuration
 .. note::
    References to the DRIVER STATION smartphone may instead apply to the
    `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
-   which is preloaded with the Driver Station (DS) app.
+   which is preloaded with the :term:`Driver Station` (DS) app.
 
-Teams who are using a Control Hub (which has an integrated Android Device)
+Teams who are using a :term:`Control Hub` (which has an integrated Android Device)
 will only need to configure a single smartphone for use as a DRIVER STATION. The process is as follows:
 
 *  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
@@ -33,7 +33,7 @@ will only need to configure a single smartphone for use as a DRIVER STATION. The
 |
 
 .. important:: Eventually the Control Hub will need to be renamed so
-   that its name complies with the Competition Manual, but for now we will
+   that its name complies with the :term:`Competition Manual`, but for now we will
    use the Control Hub with its default name. You can learn how to manage a
    Control Hub (and modify its name, password, etc.) in
    :doc:`this tutorial <../managing_control_hub/Managing-a-Control-Hub>`.
@@ -42,7 +42,7 @@ Two Android Smartphone Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Teams who have two smartphones and are not using a Control Hub will need
-to configure one smartphone for use as a Robot Controller and a second
+to configure one smartphone for use as a :term:`Robot Controller` and a second
 smartphone for use as an DRIVER STATION. The process is as follows,
 
 *  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number).
@@ -127,7 +127,7 @@ level, as described below.
    * - 7. Select **Configure Device** from the pop-up menu.
      - |rename7|
 
-   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the Wi-Fi Direct inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
+   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the :term:`Wi-Fi Direct` inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
      - |rename8|
 
    * - 9. After renaming your phone, power cycle the device.
@@ -150,7 +150,7 @@ Google Play.**
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software will allow you to download the apps to devices: REV Robotics Control
-Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other approved Android
+Hub, REV Robotics :term:`Expansion Hub`, REV Robotics Driver Hub, and other approved Android
 devices (*see section below, called Updating Apps on Android
 Phones*). Here are some of the benefits:
 
@@ -174,9 +174,9 @@ Updating Apps and Firmware on REV Robotics Devices (REV Robotics Expansion Hub, 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software is used to install and update apps, firmware and/or
+software is used to install and update apps, :term:`firmware <Firmware>` and/or
 operating systems on devices from REV Robotics. Simply connect the
-device via USB to your PC with the REV Hardware Client installed and
+device via USB to your PC with the :term:`REV Hardware Client` installed and
 running, and the software will detect connected hardware. After
 detection, the REV Hardware Client can then
 `update the Robot Controller (RC) app on a REV Robotics Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
@@ -232,7 +232,7 @@ For the *FIRST* Tech Challenge competitions, it is important that you
 place your Robot Controller and DRIVER STATION devices into Airplane mode
 but keep their Wi-Fi radios turned on. This is important because you do
 not want any of the cellular telephone functions to be enabled during a
-match. The cellular telephone functions could disrupt the function of
+:term:`match <Match>`. The cellular telephone functions could disrupt the function of
 the robot during a match.
 
 .. note:: It will take an estimated 2.5 minutes per phone to complete this
@@ -270,15 +270,15 @@ pre-installed. Once you have successfully installed the Driver
 Station on an Android phone, you will want to establish a secure
 wireless connection between the Control Hub and the DRIVER STATION. This
 connection will allow your DRIVER STATION device to select op modes on
-your Robot Controller and send gamepad input to these programs.
+your Robot Controller and send :term:`gamepad <Gamepad>` input to these programs.
 Likewise, it will allow your op modes running on your Robot Controller
-to send telemetry data to your DRIVER STATION phone where it can be
+to send :term:`telemetry <Telemetry>` data to your DRIVER STATION phone where it can be
 displayed for your drivers. The process to connect the two devices is
 known as "pairing."
 
 .. note:: the Control Hub does not have its own internal battery. Before you
    can connect a Driver Station to the Control Hub, you must connect the
-   Control Hub to a 12V battery.
+   Control Hub to a 12V :term:`battery <Battery>`.
 
 Also note that it will take an estimated 10 minutes to complete this
 task.
@@ -337,7 +337,7 @@ task.
    * - 10. Find the name of your Control Hub's wireless network from the list of available WiFi networks. Click on the network name to select the network. If this is the first time you are connecting to the Control Hub, then the default network name should begin with the prefix FTC- (FTC-1Ybr in this example). The default network name should be listed on a sticker attached to the bottom side of the Control Hub.
      - |pairing10|
 
-   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the Hub. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
+   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the :term:`Hub`. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
      - |pairing11|
 
    * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.

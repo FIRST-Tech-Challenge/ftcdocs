@@ -2,9 +2,9 @@ Vision MultiPortal
 ==================
 
 The SDK can accommodate two portals, each with full features
-including AprilTag and Color processors, and even switchable cameras. USB
-Bandwidth must be considered, especially for webcams sharing an external
-USB hub.
+including :term:`AprilTag` and Color processors, and even switchable cameras. USB
+Bandwidth must be considered, especially for :term:`webcams <Webcam>` sharing an external
+:term:`USB hub <USB Hub>`.
 
 Viewport ID
 ~~~~~~~~~~~

@@ -6,7 +6,7 @@ Introduction
 
 In the 2023-2024 season, `FIRST Tech Challenge has introduced
 AprilTags <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__ into
-the season-unique competition. AprilTags were developed by the April
+the season-unique competition. :term:`AprilTags <AprilTag>` were developed by the April
 Robotics Laboratory at the University of Michigan and are a visual
 fiducial tagging system, built on a similar concept as QR codes, useful
 for a wide variety of tasks including augmented reality, robotics, and

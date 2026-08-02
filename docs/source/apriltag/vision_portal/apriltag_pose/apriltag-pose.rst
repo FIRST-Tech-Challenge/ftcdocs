@@ -5,7 +5,7 @@ The SDK can evaluate a **flat AprilTag** (not curved) to estimate **pose**, the
 combination of:
 
 - relative position **from the camera lens center to the AprilTag center**, and
-- orientation of the AprilTag **in the camera's reference frame**
+- orientation of the :term:`AprilTag` **in the camera's reference frame**
 
 As described at the previous page **FTC Reference Frame**, position is
 expressed as (X, Y, Z).  Orientation is expressed as rotation about (X, Y, Z),
@@ -14,7 +14,7 @@ called Pitch, Roll and Yaw respectively.
 The tag must be in the Library, which ensures that tag size (with units) is
 defined.  Estimating pose requires knowing the tag size.
 
-As demonstrated in the Sample OpModes, here are ways to retrieve the estimated
+As demonstrated in the :term:`Sample OpModes <Sample OpMode>`, here are ways to retrieve the estimated
 pose values.
 
 .. tab-set::
@@ -28,7 +28,7 @@ pose values.
 
          AprilTag Pose Blocks
 
-      Use each of these green Blocks to pass a Pose value to a Telemetry Block, or to a Variable:
+      Use each of these green Blocks to pass a Pose value to a :term:`Telemetry` Block, or to a Variable:
 
    .. tab-item:: Java
       :sync: java
@@ -93,11 +93,11 @@ was not placed into the Library by default or with the custom Builder pattern.
 Namely, the tag might lack Metadata including **tag size**, required for pose
 estimation.
 
-To avoid logic errors, an OpMode can check the Metadata for a **null**
+To avoid logic errors, an :term:`OpMode` can check the Metadata for a **null**
 condition before attempting to process pose data.  This is illustrated in these
 Sample OpModes: 
 
-- Blocks: `ConceptAprilTag`
+- :term:`Blocks`: `ConceptAprilTag`
 - Java: `ConceptAprilTag.java`
 
 More discussion of AprilTag pose data is available here:

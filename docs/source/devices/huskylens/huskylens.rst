@@ -21,7 +21,7 @@ version 9.0 in September 2023 with the CENTERSTAGE robot game kickoff.
 
 HuskyLens uses **on-board programming** to perform AI-assisted learning,
 vision processing and recognition. It plugs into an **I2C sensor port**
-of a REV Control Hub or REV Expansion Hub.
+of a REV :term:`Control Hub` or REV :term:`Expansion Hub`.
 
 HuskyLens is **not a USB webcam**, and **does not use** the FTC
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
@@ -31,11 +31,11 @@ Electrical Connection
 ---------------------
 
 You will need a **custom adapter cable** to connect the HuskyLens to an
-I2C port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the
+:term:`I2C` port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the
 HuskyLens connector are not in the same order/position as the 4 pins on
 the REV Hub.
 
-Three of the wires have **the same color** as wires in the REV sensor
+Three of the wires have **the same color** as wires in the REV :term:`sensor <Sensor>`
 cable. Your custom cable should connect **red to red**, **black to
 black**, and **blue to blue**. This leaves only the HuskyLens **green
 wire**; connect it to the REV **white wire**. Simple!
@@ -49,7 +49,7 @@ This tutorial does **not** cover the (many) ways to:
    -  crimped connectors
    -  lever nuts (example below)
 
-FTC Competition Manual allows this work, but teams must ensure high quality for
+FTC :term:`Competition Manual` allows this work, but teams must ensure high quality for
 robot competition all season.
 
 .. figure:: images/060-adapter.png
@@ -92,7 +92,7 @@ avoid (unlikely) overload of data traffic.
 The label 0 (zero) is I2C Bus 0, which likely has a **built-in IMU** on
 its Port 0. An I2C Bus can contain multiple I2C Ports, sharing traffic.
 
-On the Driver Station, touch the three-dots menu, and
+On the :term:`Driver Station`, touch the three-dots menu, and
 ``Configure Robot``.
 
 Edit an existing (correct) configuration, or touch ``New``. Touch
@@ -111,7 +111,7 @@ in.
 
 Touch ``Add``, and select device “HuskyLens” from the drop-down list for
 Port 0 (or first available port). Type the device name “huskylens”, as
-expected by the Sample OpMode.
+expected by the :term:`Sample OpMode`.
 
 Touch ``Done`` several times, then ``Save``, to save and name/rename
 this updated robot configuration. Touch the DS “Back” arrow, returning
@@ -123,15 +123,15 @@ configuration.
 Sample OpMode
 -------------
 
-Connect your programming computer to the Robot Controller, and open the
+Connect your programming computer to the :term:`Robot Controller`, and open the
 programming software. This tutorial uses **FTC Blocks**.
 
 .. note::
    **OnBot Java** and **Android Studio** users can easily follow along, since
-   the Java Sample OpMode uses the same programming logic and is well
+   the Java Sample :term:`OpMode` uses the same programming logic and is well
    commented.
 
-In FTC Blocks, create a new OpMode using the sample called
+In FTC :term:`Blocks`, create a new OpMode using the sample called
 “SensorHuskyLens”:
 
 .. figure:: images/140-Sample-Blocks.png
@@ -142,7 +142,7 @@ In FTC Blocks, create a new OpMode using the sample called
    HuskyLens Blocks Sample
 
 Change the OpMode type from ``TeleOp`` to ``Autonomous``, since this
-sample does not use the gamepads.
+sample does not use the :term:`gamepads <Gamepad>`.
 
 .. figure:: images/160-Algorithm-Blocks.png
    :align: center
@@ -152,14 +152,14 @@ sample does not use the gamepads.
    HuskyLens Blocks Algorithm
 
 Notice the default algorithm here is ``TAG_RECOGNITION``, which simply
-detects any (common) AprilTags in the sensor’s field of view. This
+detects any (common) :term:`AprilTags <AprilTag>` in the sensor’s field of view. This
 recognition is unrelated to the FTC game CENTERSTAGE and its 10
 AprilTags with metadata. Instead, this is a simple built-in, generic
 function of HuskyLens, used here only to validate the sensor’s
 operation.
 
 For AprilTag recognition and navigation, FTC teams may find much more
-value from a UVC webcam and the FTC
+value from a UVC :term:`webcam <Webcam>` and the FTC
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
 software. An FTC robot may use HuskyLens **and** USB webcams.
 
@@ -177,7 +177,7 @@ AprilTag from the common 36h11 family:
 The HuskyLens’ small screen will show the recognized AprilTag,
 surrounded by a thin white Bounding Box.
 
-Here’s the corresponding DS Telemetry:
+Here’s the corresponding DS :term:`Telemetry`:
 
 .. figure:: images/220-DS-1-big-AprilTag.png
    :align: center
@@ -229,7 +229,7 @@ All three AprilTags were recognized:
    Telemetry Showing 3 Blocks
 
 This validates the possibility that HuskyLens could recognize a trained
-object in one of various known positions – useful for the Autonomous
+object in one of various known positions – useful for the :term:`Autonomous`
 phase of the CENTERSTAGE game.
 
 Single Color Training
@@ -432,7 +432,7 @@ its planned match start position, “on-robot”.
 
 Also, the trained ambient lighting must be similar to expected match
 conditions. This may suggest performing the final color-training as part
-of tournament or match set-up. With practice, it could be done in a few
+of :term:`tournament <Tournament>` or match set-up. With practice, it could be done in a few
 seconds.
 
 4. Programming
@@ -471,7 +471,7 @@ wish to train **two colors** (e.g. a Red shade and a Blue shade).
 
 This would avoid the need for multiple color-training sessions during an
 FTC tournament. With single-color, you would train for Red before
-playing an FTC match as Red Alliance, and train for Blue before playing
+playing an FTC :term:`match <Match>` as Red :term:`Alliance`, and train for Blue before playing
 as Blue Alliance.
 
 With multi-color, your Red-Alliance Autonomous OpMode could seek Red as

@@ -1,8 +1,8 @@
 Connecting a Color-Distance Sensor to the Hub
 =============================================
 
-The Hub has 4 independent I2C buses. Each bus has its own port on the
-Hub. We will connect a REV Robotics Color-Distance sensor to the I2C bus
+The :term:`Hub` has 4 independent :term:`I2C` buses. Each bus has its own port on the
+Hub. We will connect a REV Robotics Color-Distance :term:`sensor <Sensor>` to the I2C bus
 #0 on the Hub.
 
 Note that it will take an estimated 2.5 minutes to complete this task.

@@ -4,20 +4,20 @@ Managing a Control Hub
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
-By default, the Control Hub has a name that begins with the phrase
+By default, the :term:`Control Hub` has a name that begins with the phrase
 "FTC-" and ends with four characters that are assigned at the factory.
-In order to comply with the Competition Manual, the name should be
+In order to comply with the :term:`Competition Manual`, the name should be
 changed.
 
-The name of a Control Hub (or Robot Controller phone) can be changed
+The name of a Control Hub (or :term:`Robot Controller` phone) can be changed
 from a paired DS app, as shown in :ref:`Changing the Name<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>`.
 
 As an alternate, you can change the name of a Control Hub at the
-*Manage* page from a connected Driver Station or laptop, as described
+*Manage* page from a connected :term:`Driver Station` or laptop, as described
 below. Click ``Apply Wi-Fi Settings`` when done.
 
 .. important:: Changing the name of a Control Hub changes the name
-   of the Hub's wireless network. Once the name is changed, you will have
+   of the :term:`Hub`'s wireless network. Once the name is changed, you will have
    to connect your devices (Driver Station and programming laptop) to the
    new network.
 
@@ -99,7 +99,7 @@ reset the Hub's name and password back to their factory default values.
 .. important:: Resetting a Control Hub will restore its default
    network name and password. However, existing configuration files and op
    modes should not be affected by the reset. This includes op modes that
-   were created using the Blocks, OnBot Java and Android Studio tools.
+   were created using the :term:`Blocks`, :term:`OnBot Java` and :term:`Android Studio` tools.
 
 Resetting Instructions
 -----------------------
@@ -160,7 +160,7 @@ Station screen.
 Downloading the Log File
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's often helpful when troubleshooting problems with the Control System
+It's often helpful when troubleshooting problems with the :term:`Control System`
 to download the log file from the Control Hub. This can be done from the
 *Manage* page. Note that the log file name is *robotControllerLog.txt*
 by default.
@@ -187,11 +187,11 @@ Downloading the Log File Instructions
 Updating the Expansion Hub Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Control Hub has its own built-in REV Robotics Expansion Hub. The
+The Control Hub has its own built-in REV Robotics :term:`Expansion Hub`. The
 purpose of the Expansion Hub board is to facilitate communication
-between the Control Hub's Android controller and the motors, servos, and
-sensors of the robot. Periodically, REV Robotics will release new
-versions of the firmware which contains fixes and improvements for the
+between the Control Hub's Android controller and the motors, :term:`servos <Servo>`, and
+:term:`sensors <Sensor>` of the robot. Periodically, REV Robotics will release new
+versions of the :term:`firmware <Firmware>` which contains fixes and improvements for the
 Expansion Hub. The firmware releases are in the form of a binary
 (.bin) file.
 
@@ -211,7 +211,7 @@ shown below.
 These three methods do not apply to updating the firmware of an
 Expansion Hub connected to a Control Hub via RS485 data wire. Standalone
 Expansion Hubs must be updated by direct USB plug-in to a laptop running
-the REV Hardware Client or to a Robot Controller phone.
+the :term:`REV Hardware Client` or to a Robot Controller phone.
 
 Uploading and Updating the Expansion Hub Firmware
 -------------------------------------------------
@@ -373,7 +373,7 @@ Uploading a Custom Webcam Calibration File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Robot Controller app has built-in calibration information for a
-variety of commonly available webcams. Users can also create their own
+variety of commonly available :term:`webcams <Webcam>`. Users can also create their own
 custom calibration files and then upload these files to a Control Hub.
 
 A commented example of what the contents of a calibration file should

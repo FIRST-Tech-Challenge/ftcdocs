@@ -16,7 +16,7 @@ Just like "spring cleaning," an annual check-up for your robot's electronics
 and software is essential to prevent common issues caused by aging components.
 
 * Secure XT30 Connections: If your power cables feel loose in the REV Control
-  Hub or Expansion Hub's XT30 connectors, avoid using glues like hot glue to
+  Hub or :term:`Expansion Hub`'s XT30 connectors, avoid using glues like hot glue to
   keep the connection together.  These only hide an unstable connection between
   the metal contacts, which can lead to intermittent power loss under shock.
   Instead, the metal pins on the device's XT30 connectors likely need to be
@@ -24,7 +24,7 @@ and software is essential to prevent common issues caused by aging components.
   <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__
   for proper maintenance of these pins.
 
-* Battery Rejuvenation (Charge Cycling): Older NiMH batteries can develop
+* :term:`Battery` Rejuvenation (Charge Cycling): Older NiMH batteries can develop
   crystalline structures internal to the battery chemistry, increasing internal
   resistance and reducing power output. Charge cycling — discharging slowly to
   10V (at between 500-600mA) then recharging — can break down these crystals
@@ -36,15 +36,15 @@ and software is essential to prevent common issues caused by aging components.
   However, draining a battery below 10V or charging a battery over 2A too often
   can greatly decrease the expected life of a battery by up to 40%!
 
-* Continuous Wiring Inspection: Make wiring inspection an ongoing task, not
+* Continuous Wiring :term:`Inspection`: Make wiring inspection an ongoing task, not
   just an annual one. Regularly check for frayed insulation, loose connections,
   or bent pins. Specifically, ensure no exposed wire is visible where it meets
   XT30 connector housings to prevent potential shorts.
 
-* Software Updates Are Key: Always update your Control Hub OS to the latest
+* Software Updates Are Key: Always update your :term:`Control Hub` OS to the latest
   version (e.g., 1.1.6 for Wi-Fi driver security) and your FIRST Tech Challenge
   SDK (e.g., SDK 11.0) for improved performance and better support from
-  tournament staff.
+  :term:`tournament <Tournament>` staff.
 
 Following these tips will help ensure your robot's electronics and software are
 reliable and competition-ready.

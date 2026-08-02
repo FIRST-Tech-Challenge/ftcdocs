@@ -15,7 +15,7 @@
 3D Printing Methods
 -------------------
 
-There are numerous kinds of 3D printing, but for FTC there are only a few that are practical. The most common is
+There are numerous kinds of :term:`3D printing <3D Printing>`, but for FTC there are only a few that are practical. The most common is
 **Fused Deposition Modeling (FDM)**. FDM printers melt a plastic filament
 and extrude it through a nozzle, which moves around to create the part. FDM printers are the most common
 type of printer used, and the most practical for robotics teams, so this guide will focus on them.

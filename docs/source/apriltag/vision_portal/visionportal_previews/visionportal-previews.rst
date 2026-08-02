@@ -4,7 +4,7 @@ VisionPortal Previews
 Introduction
 ------------
 
-Managing AprilTag and Color Processing performance is greatly enhanced with visual
+Managing :term:`AprilTag` and Color Processing performance is greatly enhanced with visual
 feedback of the camera’s view.
 
 .. figure:: images/040-RC-preview-2-webcams-Moto-e4.png
@@ -14,7 +14,7 @@ feedback of the camera’s view.
 
    LiveView demonstrating multiple camera support
 
-The Driver Station and Robot Controller apps offer a camera preview on both devices:
+The :term:`Driver Station` and :term:`Robot Controller` apps offer a camera preview on both devices:
 
 -  **LiveView** on Robot Controller (RC) device – RC phone or Control
    Hub (see below)
@@ -43,7 +43,7 @@ RC preview. There remain two instances of old names:
 LiveView on Control Hub
 -----------------------
 
-The Control Hub does generate an RC preview, despite not having a
+The :term:`Control Hub` does generate an RC preview, despite not having a
 built-in screen. LiveView can be seen in two ways:
 
 -  Plug an HDMI monitor into the Control Hub’s (full-size) HDMI port
@@ -56,11 +56,11 @@ Camera Controls
 ---------------
 
 Images in LiveView and Camera Stream are both affected by Camera
-Controls, for webcam. Changing values of Exposure and Gain, for example,
+Controls, for :term:`webcam <Webcam>`. Changing values of Exposure and Gain, for example,
 do affect the displayed image and the actual recognitions.
 
 During Camera Stream, manual adjustments to Camera Controls cannot be
-made in real time (with visible feedback) since gamepads are disabled.
+made in real time (with visible feedback) since :term:`gamepads <Gamepad>` are disabled.
 
 Thus teams wanting to optimize AprilTag or Color Processing recognitions with Camera
 Controls should use ``scrcpy`` or an HDMI monitor. Doing this via Camera

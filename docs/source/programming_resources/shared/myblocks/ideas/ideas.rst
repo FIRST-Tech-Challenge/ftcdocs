@@ -2,7 +2,7 @@ Ideas for Other myBlocks
 ========================
 
 MyBlocks offer great potential for creativity and robot capability.
-Start by programming myBlocks for tasks that an existing group of Blocks
+Start by programming myBlocks for tasks that an existing group of :term:`Blocks`
 can do. Later, add functions that are **not available** with regular
 Blocks. Here are some examples of both:
 
@@ -20,10 +20,10 @@ Blocks. Here are some examples of both:
    info is :ref:`here <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
    libraries in onbot java and blocks>`.
 
--  One of the above examples controls a servo specified by the Blocks
+-  One of the above examples controls a :term:`servo <Servo>` specified by the Blocks
    user. This could lead to a **family of separate myBlocks** to
    interact with 1 device, 2 devices, etc. Or a generic single myBlock
-   could interact with, say, up to 4 DC motors. The Java method would
+   could interact with, say, up to 4 :term:`DC motors <DC Motor>`. The Java method would
    process only those DC motors with a filled-in parameter name.
 
 -  Control the **LED flashlight** on the RC phone?
@@ -46,7 +46,7 @@ Here are some tips for efficiency, from the developer Liz Looney:
    task.
 
 -  Limit the number of parameters. If your myBlock needs certain
-   information that won’t change during the OpMode, use an **initialize
+   information that won’t change during the :term:`OpMode`, use an **initialize
    method** that’s called once at the start of the OpMode. The
    initialize method stores that information, to avoid repeatedly
    passing the same parameter each time the myBlock is called.

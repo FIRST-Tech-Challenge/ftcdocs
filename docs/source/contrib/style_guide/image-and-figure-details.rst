@@ -1,7 +1,7 @@
 Image and Figure Details
 ========================
 
-This section has detailed information about images and figures and more advice about how to handle them in FTC Docs.
+This section has detailed information about images and figures and more advice about how to handle them in :term:`FTC Docs`.
 
 .. contents:: Contents
    :local:
@@ -124,7 +124,7 @@ width, height, scale
    
    Sighted persons who want to see the full size image have the option to right click the image and open it in a new tab or window.
    
-   The AprilTag test images have both height and width specified as 5 inches which looks OK on the desktop or in a PDF,
+   The :term:`AprilTag` test images have both height and width specified as 5 inches which looks OK on the desktop or in a PDF,
    but ends up with a squished aspect ratio if viewed in a mobile browser.
    We'd be better off not specifying set sizes for the HTML and the PDF version of FTC docs.
    Then provide a separate PDF download that they can print to get accurately sized AprilTags.
@@ -332,7 +332,7 @@ Instead of a paragraph, you can include a table or list if that would better des
 
 The following example is how we might describe a complex diagram.
 We use a ``.. figure`` directive with alt text, caption and long description.
-This diagram is located on the Control System Introduction page.
+This diagram is located on the :term:`Control System` Introduction page.
 
 .. code:: ReST
 
@@ -351,7 +351,7 @@ This diagram is located on the Control System Introduction page.
       - Two motors are connected to the Expansion hub. Each motor has a power connection and an encoder connection. There are four motor ports on the Expansion Hub.
           
 The alt text is a summary of the functional description of the image (which follows the caption).
-The caption indicates that this is an example of an Expansion Hub and phone and relates to the prior paragraphs 
+The caption indicates that this is an example of an :term:`Expansion Hub` and phone and relates to the prior paragraphs 
 on the Control System Introduction page which talk about possible configurations of the Expansion Hub.
 In this case the long description is basically a listing of the devices connected to the Expansion Hub.
           
@@ -366,17 +366,17 @@ In this case the long description is basically a listing of the devices connecte
           
           The Expansion Hub has the following devices connected.
           
-          - a Robot Controller phone via a USB connection;
-          - A 12 volt battery with on/off switch;
-          - A three wire servo connects to one of six servo ports;
-          - An analog sensor connects to one of two analog sensor ports;
-          - An I2C sensor connects to one of four I2C ports;
-          - Two motors are connected to the Expansion hub. Each motor has a power connection and an encoder connection. There are four motor ports on the Expansion Hub.      
+          - a :term:`Robot Controller` phone via a USB connection;
+          - A 12 volt :term:`battery <Battery>` with on/off switch;
+          - A three wire :term:`servo <Servo>` connects to one of six servo ports;
+          - An analog :term:`sensor <Sensor>` connects to one of two analog sensor ports;
+          - An :term:`I2C` sensor connects to one of four I2C ports;
+          - Two motors are connected to the Expansion hub. Each motor has a power connection and an :term:`encoder <Encoder>` connection. There are four motor ports on the Expansion Hub.      
 
 Using a Figure with Caption and Legend is good for accessibility because Sphinx will generate a HTML Figure tag and Figcaption tag.
 This clearly associates the text with the image for screen readers.
 
-This HTML is from the square field image of the Field Coordinate System page.
+This HTML is from the square field image of the :term:`Field Coordinate System` page.
 
 .. code:: HTML
 

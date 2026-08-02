@@ -4,7 +4,7 @@ VisionPortal Overview
 **FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new
 interface for vision processing.
 
--  For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of
+-  For **FTC Blocks and Java** teams, :term:`VisionPortal` offers key capabilities of
    **AprilTag**, **EasyOpenCV** and the **Color Processors** – at the same
    time!
 
@@ -21,7 +21,7 @@ interface for vision processing.
    orientation, relative to the camera.
 
 -  **Camera Controls**, which can improve vision processing performance for
-   webcam, are now fully available to **FTC Blocks** users.
+   :term:`webcam <Webcam>`, are now fully available to **FTC Blocks** users.
 
 -  **Multiple cameras** can operate at the same time – phone camera and/or
    webcam.

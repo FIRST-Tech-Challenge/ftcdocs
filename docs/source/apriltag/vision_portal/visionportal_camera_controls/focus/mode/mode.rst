@@ -3,7 +3,7 @@ Focus Control Mode
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`
 
-A webcam may operate in one of various focus modes. To directly control
+A :term:`webcam <Webcam>` may operate in one of various focus modes. To directly control
 the focus length, set the webcam to Fixed mode.
 
 The SDK supports these values of FocusControl.Mode: 

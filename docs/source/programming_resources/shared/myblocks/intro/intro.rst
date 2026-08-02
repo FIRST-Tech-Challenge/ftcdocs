@@ -2,8 +2,8 @@ Introduction
 ============
 
 This tutorial shows how to make **custom Blocks**, to be used in
-regular Blocks programs. These **“myBlocks”** are programmed in Java,
-with OnBot Java or Android Studio.
+regular :term:`Blocks` programs. These **“myBlocks”** are programmed in Java,
+with :term:`OnBot Java` or :term:`Android Studio`.
 
 
 .. figure:: images/a0100-introSample.png
@@ -40,7 +40,7 @@ Notes on Java
 ~~~~~~~~~~~~~
 
 -  This tutorial builds myBlocks with :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>`,
-   a programming tool running on the Control Hub or Robot Controller
+   a programming tool running on the :term:`Control Hub` or :term:`Robot Controller`
    (RC) phone. Students already using :ref:`Android
    Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>`
    can easily follow the same programming.

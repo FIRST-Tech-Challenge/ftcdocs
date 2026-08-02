@@ -10,12 +10,12 @@ To illustrate, consider the Driving Example above. Imagine you want to
 create myBlocks to support **two** different robots. - Robot A has
 **4-inch** drive wheels with AndyMark **NeveRest 40** motors. - Robot B
 has **3-inch** drive wheels with NeveRest **Orbital 20** motors. - You
-want the myBlocks to be **very simple** for your Blocks programming
+want the myBlocks to be **very simple** for your :term:`Blocks` programming
 teammates.
 
 Your solution: - One MyBlock per robot. - Each Blocks user needs to
 specify only the distance to drive, in inches. - Each myBlock uses the
-appropriate wheel size and motor encoder CPR. - The myBlocks share a
+appropriate wheel size and motor :term:`encoder <Encoder>` CPR. - The myBlocks share a
 ‘utility’ method to convert distance to encoder counts.
 
 .. image:: images/a0500-non-myBlock-method-Java.png
@@ -31,7 +31,7 @@ of the ‘utility’ method – but their types should match.
 
 At line 38, **(int)** converts, or **casts**, a decimal number to
 integer type. This is called **type casting**. Programmers must pay
-close attention to compatible data types. For example, a DC motor
+close attention to compatible data types. For example, a :term:`DC motor <DC Motor>`
 ``set .TargetPosition`` Block should be given an encoder value as a
 simple integer, not a decimal number.
 

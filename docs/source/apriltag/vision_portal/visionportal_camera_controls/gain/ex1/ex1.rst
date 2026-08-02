@@ -6,7 +6,7 @@ described so far: ExposureControl and GainControl.
 
 .. note::
    These measurements were taken with the TensorFlow Object Detection
-   (TFOD) processor and the Freight Frenzy game elements. TFOD was removed
+   (:term:`TFOD`) processor and the Freight Frenzy game elements. TFOD was removed
    from the SDK in 2024, so you cannot reproduce this experiment as written.
    The **pattern** it shows is the point, and it applies just as well to
    today's VisionPortal processors: recognition quality rises with exposure

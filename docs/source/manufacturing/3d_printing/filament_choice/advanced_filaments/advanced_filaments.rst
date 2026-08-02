@@ -19,7 +19,7 @@ ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene Acrylate)
 
 |
 
-Before PLA became readily available, ABS was the most common filament used for 3D printing. Nowadays, it's regarded as a 
+Before PLA became readily available, ABS was the most common filament used for :term:`3D printing <3D Printing>`. Nowadays, it's regarded as a 
 more advanced filament with a specialized setup needed. ABS is very strong, having a high ductility and able to withstand
 shock loads well. These strengths come with major difficulties, however, as an enclosure is often needed to increase the 
 ambient temperature in order to prevent severe part warping. This enclosure is also a good idea due to ABS's production of

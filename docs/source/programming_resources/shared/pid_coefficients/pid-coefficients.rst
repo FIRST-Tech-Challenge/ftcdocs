@@ -1,7 +1,7 @@
 Changing PID Coefficients
 ==========================
 
-The REV Robotics Control Hub and REV Robotics Expansion Hub allow a user to change the PID
+The REV Robotics :term:`Control Hub` and REV Robotics :term:`Expansion Hub` allow a user to change the PID
 coefficients used for closed loop motor control. The PID coefficients
 are channel and mode specific.
 

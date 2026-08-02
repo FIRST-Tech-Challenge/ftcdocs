@@ -4,20 +4,20 @@ Simple Example: create myGreeting
 Start with a simple myBlock that creates a greeting “Hello World” (of
 course!).
 
-Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone.
+Open a Chrome browser connected via Wi-Fi to a :term:`Control Hub` or RC phone.
 Go to the address **http://192.168.43.1:8080** (CH) or
 **http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab.
 
 .. note:: A computer can usually connect to only one Wi-Fi network at a
    time. To follow this tutorial while programming please use the PDF version 
-   of FTC Docs. If you need internet and programming together,
+   of :term:`FTC Docs`. If you need internet and programming together,
    connect an Ethernet cable to an internet router **or** try adding a
    USB Wi-Fi dongle.
 
 Click the large **plus-sign icon** to open a new file; call it
 **SampleMyBlocks.java**. Use the default ‘teamcode’ folder location.
-Don’t choose a Sample OpMode, and use the default setting ‘Not an
-OpMode’. Click OK.
+Don’t choose a :term:`Sample OpMode`, and use the default setting ‘Not an
+:term:`OpMode`’. Click OK.
 
 .. image:: images/a0120-Hello-OBJ-circle.png
 
@@ -54,7 +54,7 @@ When you enter that line, the OBJ software **automatically** creates an
 ``import`` statement, making the parent class available. Convenient!
 
    Programming note: classes inherited from BlocksOpModeCompanion
-   include OpMode, LinearOpMode, Telemetry, HardwareMap, and Gamepad.
+   include OpMode, :term:`LinearOpMode`, :term:`Telemetry`, HardwareMap, and :term:`Gamepad`.
    All very useful! Your myBlock method can directly use **objects** or
    **instances** of these classes without declaring them. Examples
    follow below.
@@ -100,7 +100,7 @@ inside the parentheses, indicating the method takes one **input** named
 The method contains only one line of instruction, on Line 15: **three
 text items are joined to form a single text string**. The middle text
 item is the input parameter greetingRecipient, to be entered by the
-Blocks user. The longer combined string is returned to the program that
+:term:`Blocks` user. The longer combined string is returned to the program that
 called this method. Namely, the combined string is provided to the Block
 that uses your new myBlock.
 
@@ -155,14 +155,14 @@ OpMode, before **Telemetry.update**. Click **Save OpMode**.
 
 .. image:: images/a0190-Hello-run-OpMode-circle.png
 
-On a connected Driver Station device, select this OpMode called
+On a connected :term:`Driver Station` device, select this OpMode called
 Test_myBlocks_v01, touch **INIT** and the **Start Arrow**. Look at the
 Driver Station (DS) screen to see the traditional greeting for new
 programmers.
 
 .. image:: images/a0200-Hello-run-screenshot-circle.png
 
-\ **Congratulations!** You are now an OnBot Java programmer and myBlocks
+\ **Congratulations!** You are now an :term:`OnBot Java` programmer and myBlocks
 creator.
 
    For extra fun: try the **Telemetry.speak** Block, followed by a 1500

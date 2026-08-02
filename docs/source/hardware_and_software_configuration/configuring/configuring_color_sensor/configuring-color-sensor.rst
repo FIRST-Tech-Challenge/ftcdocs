@@ -1,7 +1,7 @@
 Configuring a Color Distance Sensor
 =====================================
 
-The REV Robotics Color Distance Sensor is an I2C sensor. It actually
+The REV Robotics Color Distance :term:`Sensor` is an :term:`I2C` sensor. It actually
 combines two sensor functions into a single device. It is a color
 sensor, that can determine the color of an object. It is also a distance
 or range sensor, that can be used to measure short range distances. Note
@@ -19,11 +19,11 @@ configuration screen for this I2C bus.
 
 |
 
-The Control Hub or Expansion Hub has four independent I2C buses, labeled "0" through "3".  In this example, since you connected the Color Sensor to the port labeled "0", it resides on I2C Bus 0.
+The :term:`Control Hub` or :term:`Expansion Hub` has four independent I2C buses, labeled "0" through "3".  In this example, since you connected the Color Sensor to the port labeled "0", it resides on I2C Bus 0.
 
 2. Look at the **I2C Bus 0** screen. There should already be a sensor 
 configured for this bus. The Control Hub or Expansion Hub has its own built-in       
-inertial measurement unit (IMU) sensor. This sensor can be used to    
+inertial measurement unit (:term:`IMU`) sensor. This sensor can be used to    
 determine the orientation of a robot, as well as measure the          
 accelerations on a robot.                                             
 
@@ -32,7 +32,7 @@ accelerations on a robot.
 
 |
 
-The built-in IMU is internally connected to I2C Bus 0 on each Control Hub or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub using the Robot Controller, the app automatically configures the IMU for I2C Bus 0. You will need to add another I2C device for this bus to be able to configure the color sensor.
+The built-in IMU is internally connected to I2C Bus 0 on each Control Hub or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub using the :term:`Robot Controller`, the app automatically configures the IMU for I2C Bus 0. You will need to add another I2C device for this bus to be able to configure the color sensor.
 
 3. Press the **Add** button to add another I2C device to this bus.    
 

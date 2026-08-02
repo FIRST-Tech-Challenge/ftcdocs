@@ -4,7 +4,7 @@ SOLIDWORKS® CAD Resources
 For over 15 years, Dassault Systèmes has been a software supplier to *FIRST®*
 teams with SOLIDWORKS®. We are also introducing the 3DEXPERIENCE®
 platform, a technology platform that provides Product Lifecycle Management
-(PLM), collaboration, community, and Cloud CAD Apps to all *FIRST* teams. Enhance
+(PLM), collaboration, community, and Cloud :term:`CAD` Apps to all *FIRST* teams. Enhance
 collaborative robot design with your team.
 
 Obtaining SOLIDWORKS® Software

@@ -1,8 +1,8 @@
 Connecting Devices To a Control or Expansion Hub
 ================================================
 
-This section explains how to connect a motor, a servo, and some sensors
-to your REV Robotics Control Hub or REV Robotics Expansion Hub. While
+This section explains how to connect a motor, a :term:`servo <Servo>`, and some :term:`sensors <Sensor>`
+to your REV Robotics :term:`Control Hub` or REV Robotics :term:`Expansion Hub`. While
 the Control Hub differs from the Expansion Hub because of its built in
 Android device, the layout of the external motor, servo, and sensor
 ports are identical for the Control Hub and Expansion Hub.

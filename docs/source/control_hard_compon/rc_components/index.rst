@@ -13,7 +13,7 @@ purchased from the *FIRST* Storefront (demonstrating components from the REV
 and Tetrix starter kits, along with the Electronics kit). These configurations
 show sample connections, and in no way represent the only possible way of
 connecting these components.  In both diagrams is an extra optional REV
-Expansion Hub that has NOT been included with standard starter kits nor
+:term:`Expansion Hub` that has NOT been included with standard starter kits nor
 electronics kits; it is included in these diagrams as a sample of how to
 connect an additional optional REV Expansion Hub if one is available and
 desired.

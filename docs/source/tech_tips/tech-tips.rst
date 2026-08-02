@@ -30,8 +30,8 @@ Legacy Tech Tips:
 
    **Android Studio 2024.2.1 LadyBug Update and the FTC SDK**
 
-   This is an important message for teams who use Android Studio to program
-   their robots. Teams who use Blocks or OnBot Java are not impacted.
+   This is an important message for teams who use :term:`Android Studio` to program
+   their robots. Teams who use :term:`Blocks` or :term:`OnBot Java` are not impacted.
 
    On October 1, 2024 `Android Studio
    <https://developer.android.com/studio/releases>`__ released a new version of
@@ -82,7 +82,7 @@ Legacy Tech Tips:
 
    **AprilTag Localization**
 
-   This week's Tech Tip is all about AprilTag Localization. How can your robot
+   This week's Tech Tip is all about :term:`AprilTag` Localization. How can your robot
    determine where it is on the field by looking at an AprilTag? A new set of
    APIs have been added to SDK 10.0 to provide just that information, and it
    works for any static (immobile) AprilTag on the competition field. Check out
@@ -133,10 +133,10 @@ Legacy Tech Tips:
 
    **REV Driver Hub Batteries**
 
-   This week’s Tech Tip of the Week focuses on the REV Driver Hub. Sure, we
+   This week’s Tech Tip of the Week focuses on the REV :term:`Driver Hub`. Sure, we
    already did a pretty thorough deep dive on the REV Driver Hub in the
    11/06/2023 Tech Tip "Driver Hub or Smartphone?", but we never really covered
-   the batteries used in the Driver Hub themselves - and, of course, this topic
+   the :term:`batteries <Battery>` used in the Driver Hub themselves - and, of course, this topic
    was recently brought up in a team question. The question was, “Why aren’t
    batteries for the REV Driver Hub interchangeable?”
 
@@ -194,7 +194,7 @@ Legacy Tech Tips:
    connected to the USB-C port on the Driver Hub to provide consistent power
    (use USB-A to USB-C cables only). The battery pack will sustain your Driver
    Hub and keep it from being additionally depleted by any high-power-drain
-   gamepads (such as the Sony DualShock and Sony DualSense gamepads) that your
+   :term:`gamepads <Gamepad>` (such as the Sony DualShock and Sony DualSense gamepads) that your
    team may be using.
 
 
@@ -202,7 +202,7 @@ Legacy Tech Tips:
 
    .. _servopowerinjectors:
 
-   This week’s Tech Tip of the Week is intended to be a short treatise on Servo 
+   This week’s Tech Tip of the Week is intended to be a short treatise on :term:`Servo` 
    Power Injectors. Servo Power Injectors have been used in FIRST Tech Challenge
    for several years now, but do you really understand what they are and how they 
    work? What is a Servo Power Injector and how might servos behave differently 
@@ -212,7 +212,7 @@ Legacy Tech Tips:
    a signal. The actual command signal for the servo travels on the signal wire, 
    and the power used to power the servo travels on the other two wires. A servo 
    power injector is a device that removes the power provided by the servo controller 
-   (REV Control Hub or REV Expansion Hub for FTC) and provides a new, usually higher 
+   (REV :term:`Control Hub` or REV :term:`Expansion Hub` for FTC) and provides a new, usually higher 
    wattage power source. Both the REV Servo Power Module and Studica Servo Power Block 
    replace the 5V/10W power provided by the REV Control/Expansion Hubs with a 6V power 
    source with a higher maximum wattage. 
@@ -230,11 +230,11 @@ Legacy Tech Tips:
    directly from the robot battery - using power injectors means you could consume 
    all of the power on the robot just from the servos alone! This will result in the 
    robot power system browning out (resulting in loss of communications or loss of 
-   power to the control system) or even blowing the 20A battery fuse.
+   power to the control system) or even blowing the 20A battery :term:`fuse <Fuse>`.
 
    Using a servo power injector can also expose different behaviors in servos that 
    were not present when using the REV Control/Expansion Hub directly. The biggest 
-   behavior is the “Lost Signal” behavior. When an OpMode ends, the REV 
+   behavior is the “Lost Signal” behavior. When an :term:`OpMode` ends, the REV 
    Control/Expansion hubs stop the signal and also cut power to the servo ports - 
    this leads to the servos “going limp” as they lose power. With a servo power 
    injector, the servos never lose power, and so “lost signal” behaviors will often 
@@ -313,7 +313,7 @@ Legacy Tech Tips:
 
    - *Mechanical Power(W) = torque (N-m) x angular speed (rad/s)*
 
-   Mechanical Power for a DC motor generally follows a very specific curve,
+   Mechanical Power for a :term:`DC motor <DC Motor>` generally follows a very specific curve,
    based on its efficiency, stall current, stall torque, speed, and a bunch of
    other factors. The general performance curve of a DC motor can be seen in
    Figure 1.
@@ -789,7 +789,7 @@ Legacy Tech Tips:
    Wi-Fi is a line-of-sight technology, that means Wi-Fi does best when there’s
    a straight unobstructed path from the antenna on the Control Hub to the
    antenna on the Driver Hub. Where is the antenna in a Control Hub? It’s right
-   under the plastic on the “face” of the hub on the logo side. If the Control
+   under the plastic on the “face” of the :term:`hub <Hub>` on the logo side. If the Control
    Hub can be mounted so that its antenna is generally not
    covered/surrounded/blocked by metal, 5GHz should be your target band.
    However, if your Control Hub is buried deep inside the robot and surrounded
@@ -815,7 +815,7 @@ Legacy Tech Tips:
    for transmission of Wi-Fi frequencies. 
 
    But how do you know for sure how well your robot’s Wi-Fi is performing? You
-   can monitor the Wi-Fi signal’s strength through the Driver Station App.
+   can monitor the Wi-Fi signal’s strength through the :term:`Driver Station App`.
    Check out the **2024/02/12 Team Blast Tech Tip**
    for info on how to view and understand Wi-Fi Signal Strength. If your signal
    is strong when using 5GHz at maximum field range (from the Driver Hub) and
@@ -1124,7 +1124,7 @@ Legacy Tech Tips:
   Challenge robot, this reason is actuator (motor and servo) current draw.
   Motors and Servos can pull a considerable amount of current when they’re
   being used, especially when they’re being used in low-torque configurations.
-  Motors that are geared closer to 1:1 gear ratio can spin faster - they can
+  Motors that are geared closer to 1:1 :term:`gear ratio <Gear Ratio>` can spin faster - they can
   propel your robot’s drivetrain across the field much faster - but have less
   torque because of the lower gear ratio. Motor configurations that have less
   torque consume significantly more current to operate (when driving the same
@@ -1133,7 +1133,7 @@ Legacy Tech Tips:
   consume larger amounts of current, and this can cause even healthy batteries
   to have their voltages “sag” during periods of high use. Teams must consider
   their power consumption very carefully when optimizing their battery and
-  motor utilization during a match, even though that’s often an afterthought
+  motor utilization during a :term:`match <Match>`, even though that’s often an afterthought
   for most teams.
 
 .. dropdown:: Week of 03/18/2024 "Battery Fuses"
@@ -1197,7 +1197,7 @@ Legacy Tech Tips:
 
   .. _ferritecore:
 
-  For those about to use sensors, we salute you - with our Tech Tip of the
+  For those about to use :term:`sensors <Sensor>`, we salute you - with our Tech Tip of the
   Week! This week’s Tech Tip focuses on signal noise and how to eliminate it
   with ferrite cores.
 
@@ -1219,7 +1219,7 @@ Legacy Tech Tips:
 
   Some buses and wiring are more sensitive to electrical noise than others. On
   a FIRST Tech Challenge robot, long signal-carrying wires (such as Servo wires
-  or I2C sensor wires) are most susceptible to induced noise. So how can we
+  or :term:`I2C` sensor wires) are most susceptible to induced noise. So how can we
   eliminate this noise? The easiest way to remove noise is through the use of a
   Ferrite Core. Ferrite Cores, also known as Ferrite Beads, are made of a
   ceramic material called ferrite that has incredibly useful magnetic
@@ -1231,7 +1231,7 @@ Legacy Tech Tips:
   increase the efficiency of the noise filtering in cases where excessive noise
   is being generated. You can find ferrite cores already installed in cables
   meant for high-noise environments or highly sensitive devices such as USB
-  webcam cables and monitor cables. It’s best to place ferrite cores on the
+  :term:`webcam <Webcam>` cables and monitor cables. It’s best to place ferrite cores on the
   wire closest to the connector leading into the Control/Expansion Hub port.
 
 .. dropdown:: Week of 03/04/2024 "Motor Modes"
@@ -1243,7 +1243,7 @@ Legacy Tech Tips:
   lesser-known behaviors of well-known interfaces. Today we’re talking about
   motor modes. The `REV Robotics documentation
   <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`__
-  for encoder feedback has a really good description of the four primary run
+  for :term:`encoder <Encoder>` feedback has a really good description of the four primary run
   modes, namely:
 
   - DcMotor.RunMode.STOP_AND_RESET_ENCODER mode
@@ -1258,7 +1258,7 @@ Legacy Tech Tips:
   .setPower() method. There’s really no more to see here.
 
   The last two modes are a bit more interesting. These two modes use a feature
-  of the Control/Expansion hub firmware to externally (from robot code) control
+  of the Control/Expansion hub :term:`firmware <Firmware>` to externally (from robot code) control
   the motors. Using this feature you can do a lot more with the motors such as
   set the maximum velocity of the motor (nominally in encoder-ticks-per-second)
   using the .setVelocity() method, and :ref:`change the actual PIDF algorithm
@@ -1266,7 +1266,7 @@ Legacy Tech Tips:
   PIDF Coefficients>` being used by the motor mode (using the
   .setPIDFCoefficients() methods). Because these two motor modes rely on
   knowing specific motor characteristics, it’s VERY important to set the
-  correct motor type for the motor in the Robot Configuration!
+  correct motor type for the motor in the :term:`Robot Configuration`!
 
   Finally, one final note about RUN_TO_POSITION. When setting a Power or a
   Velocity for the motor in RUN_TO_POSITION mode, the value is intended to be
@@ -1292,7 +1292,7 @@ Legacy Tech Tips:
 
    Several years ago, FIRST Tech Challenge gave permission for the OpenFTC
    project to extract AAR’s from our SDK releases and publicly post an
-   extracted version of the Robot Controller source code. The `Extracted-RC
+   extracted version of the :term:`Robot Controller` source code. The `Extracted-RC
    <https://github.com/OpenFTC/Extracted-RC>`__ repository has `branches
    <https://github.com/OpenFTC/Extracted-RC/branches/all>`__ that contain
    source code for each release of the SDK, as far back as SDK 5.2 through SDK
@@ -1368,7 +1368,7 @@ Legacy Tech Tips:
    .. _wifisignalstrength:
 
    Welcome to the Tech Tip of the Week! One common question we get is how to
-   determine the Wi-Fi signal strength between the Driver Station and the
+   determine the Wi-Fi signal strength between the :term:`Driver Station` and the
    Robot. Because there are a lot of factors that can play into your robot
    performance on the field, it’s important to know that your robot is getting
    the strongest Wi-Fi signal possible. 
@@ -1416,7 +1416,7 @@ Legacy Tech Tips:
 
    How does a joystick know where “center” is on a gamepad? On virtually all
    gamepads the analog joysticks have an electrical device (usually a
-   potentiometer) that electrically measures the motion of the stick. If the
+   :term:`potentiometer <Potentiometer>`) that electrically measures the motion of the stick. If the
    electrical device’s value at “center” does not coincide with the value the
    gamepad thinks should be center, the stick will have a non-zero value at its
    center position; this is called drift. In a video game, drift is what causes
@@ -1452,7 +1452,7 @@ Legacy Tech Tips:
    take a few additional steps to keep it running optimally.
 
    1. Make sure your REV Driver Hub time/date is set correctly! This is the cause
-      of a number of inspection nightmares and Robot Controller log file
+      of a number of :term:`inspection <Inspection>` nightmares and Robot Controller log file
       confusion, the first step should always be to check to make sure the
       Date/Time on the Driver Hub is set correctly. This is set through the normal
       Android System Settings by pulling down the Android Quick Settings pull-down
@@ -1622,7 +1622,7 @@ Legacy Tech Tips:
 
    This week’s Tech Tip of the Week is a gentle reminder that strong passwords
    and regular backups make for good competition. Even when competing at a
-   Scrimmage before your competition season starts, be sure to change your
+   :term:`Scrimmage` before your competition season starts, be sure to change your
    Wi-Fi password on your Control Hub from the default password of “password”
    to something only your team knows. Anyone who knows your password can easily
    gain access to your robot and change or delete your programs, change
@@ -1642,7 +1642,7 @@ Legacy Tech Tips:
    :ref:`automatically load your Driver Controlled OpMode
    <programming_resources/shared/auto_load_opmode/auto-load-opmode:Automatically
    Loading a Driver Controlled Op Mode>` as soon as your Autonomous OpMode has
-   completed? Lots of teams go into panic mode immediately after Autonomous has
+   completed? Lots of teams go into panic mode immediately after :term:`Autonomous` has
    completed - they’re trying to navigate and select the proper Driver
    Controlled OpMode, Initialize, and Run the OpMode while also picking up
    their gamepads and preparing to drive. Skip all that panic and confusion and
@@ -1690,7 +1690,7 @@ Legacy Tech Tips:
    .. _huskylensintro:
 
    This week’s Tech Tip of the Week comes to us from Chris Johannesen, 2023
-   *FIRST* Tech Challenge Volunteer of the Year and author of many ftc-docs
+   *FIRST* Tech Challenge :term:`Volunteer` of the Year and author of many ftc-docs
    tutorials. Have you heard of the HuskyLens and want to learn how to properly
    connect one to a Control Hub, learn how to use it to detect Team Props, and
    use the HuskyLens samples included with SDK 9.0.0 and newer? Chris has this
@@ -1712,7 +1712,7 @@ Legacy Tech Tips:
    correctly. There is a tool within the Driver Station App 3-dot menu called
    the “Self-Inspect” feature that can help teams perform a quick check to
    ensure their hardware and software is configured correctly. Depending on
-   your hardware configuration the Self-Inspect screens may be formatted
+   your hardware configuration the :term:`Self-Inspect` screens may be formatted
    differently or have different options listed, so :ref:`there is a handy
    reference on ftc-docs
    <hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* Tech Challenge Self-Inspect>`
@@ -1760,7 +1760,7 @@ Legacy Tech Tips:
         - A single 10,000mAh External battery pack allows Control Hub to be
           used non-stop over the course of an entire day.
 
-      - Driver Hub has 3 USB-A ports, so no external USB hubs and additional
+      - Driver Hub has 3 USB-A ports, so no external :term:`USB hubs <USB Hub>` and additional
         cables are required for using multiple USB gamepads. This makes the
         Driver Hub very compact and easy to manage.
 
@@ -1887,7 +1887,7 @@ Legacy Tech Tips:
      software-counted. This means higher counts-per-revolution encoders (like
      the REV Through-Bore Encoder) should be placed on Ports 0 or 3 to ensure
      counts aren’t missed, and lower counts-per-revolution encoders (like the
-     goBILDA Odometry Pods or most motors) can be connected to any port.  
+     goBILDA :term:`Odometry` Pods or most motors) can be connected to any port.  
    
    - Servo port pairs (0,1), (2, 3), and (4,5) each share a common power
      supply, so if you’re using higher-current servos (like a goBILDA torque
@@ -1903,14 +1903,14 @@ Legacy Tech Tips:
      each sensor carefully!  
 
    - The USB 2.0 port shares the same USB bus as the internal Control Hub
-     radio. ESD or other electrical interference that affects devices (like
+     radio. :term:`ESD` or other electrical interference that affects devices (like
      webcams) plugged into that port may cause a loss of communications. When
      using a USB webcam, use the USB 3.0 port first.  
 
    - USB C-to-C cables do not work properly with the Control Hub, only USB
      A-to-C cables do.  
 
-   - If you’re utilizing the onboard IMU, Do not plug I2C devices into Port 0
+   - If you’re utilizing the onboard :term:`IMU`, Do not plug I2C devices into Port 0
      unless absolutely necessary. Port 0 shares an I2C bus with the IMU, and
      misbehaving devices (or devices that don’t “play well with others”)
      plugged into Port 0 can cause the IMU to stop communicating.

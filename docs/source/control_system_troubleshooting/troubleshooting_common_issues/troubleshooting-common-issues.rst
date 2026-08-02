@@ -1,7 +1,7 @@
 Troubleshooting Common Control System Issues
 =============================================
 
-This page collects common Control System problems reported by teams at
+This page collects common :term:`Control System` problems reported by teams at
 events, along with the checks and fixes an FTA, CSA, or WTA can walk a team
 through.
 
@@ -11,7 +11,7 @@ FIRST Tech Challenge Driver Station
 Gamepad is Not Recognized
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If a gamepad is recognized by the *FIRST* Tech Challenge Driver Station app,
+If a :term:`gamepad <Gamepad>` is recognized by the *FIRST* Tech Challenge :term:`Driver Station` app,
 then whenever there is activity with that gamepad, the appropriate gamepad
 icon in the upper right-hand corner of the Driver Station main screen will
 be highlighted in green.
@@ -59,15 +59,15 @@ Gamepad Joysticks Were Not in Neutral Position When Connected to Driver Station
 
 Teams can connect up to two gamepads to the Driver Station Android device.
 Each gamepad has a pair of joysticks that the team's drivers use to control
-their robot. The gamepads are usually connected directly to a REV Driver Hub
-or through a non-powered USB hub to the USB Micro OTG port on an Android
+their robot. The gamepads are usually connected directly to a REV :term:`Driver Hub`
+or through a non-powered :term:`USB hub <USB Hub>` to the USB Micro OTG port on an Android
 smartphone Driver Station. When the gamepads are first connected, the
 Android device calibrates the zero, or neutral, position of the two analog
 joysticks on each gamepad.
 
 If a user has deflected or moved the joysticks while they are being plugged
 in, the Driver Station might use that non-zero position as the calibrated
-reference point. This can cause unexpected behavior when an OpMode runs —
+reference point. This can cause unexpected behavior when an :term:`OpMode` runs —
 for example, if the user starts the OpMode and the robot starts driving
 without the user touching the joysticks, an improperly calibrated joystick
 could be the cause.
@@ -83,7 +83,7 @@ The Logitech F310 gamepad has a button labeled "MODE". When this button is
 pressed, the small green LED next to it turns on. Teams usually do **not**
 want this button enabled — with MODE enabled, the outputs of the left
 joystick and the D-pad are swapped, which often confuses teams if the
-button gets pressed during a match.
+button gets pressed during a :term:`match <Match>`.
 
 .. figure:: images/f310-mode-button.png
    :alt: Logitech F310 gamepad with the MODE button, located below the D-pad, circled in red.
@@ -125,7 +125,7 @@ is unexpectedly shutting off, check that it has an adequate charge.
 Unable to Find a Specific OpMode in the Driver Station's List of Available OpModes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If a team used Android Studio and the *FIRST* Tech Challenge SDK to create
+If a team used :term:`Android Studio` and the *FIRST* Tech Challenge SDK to create
 an OpMode but cannot find it in the Driver Station's list of available
 OpModes, ask the team if they remembered to register their OpMode in the
 ``FtcOpModeRegister`` class. If they created the OpMode but did not register
@@ -150,7 +150,7 @@ User Code Threw an Uncaught Exception: null
 This error occurs when a method is called on an object that is null at the
 time of the call. To address it, first look at the robot log file to find
 where to search for the problem. To access the log files, open the settings
-in the Robot Controller app and select **View Logs**, then scroll up until a
+in the :term:`Robot Controller` app and select **View Logs**, then scroll up until a
 block of red text appears and look for a line resembling:
 
 .. code-block:: text
@@ -166,7 +166,7 @@ before that line.
 User Code Threw an Uncaught Exception: number XXX is invalid
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This exception is typically thrown when a motor or servo is set to a value
+This exception is typically thrown when a motor or :term:`servo <Servo>` is set to a value
 less than -1 or greater than 1. To find which line of code threw the
 exception, check the robot logs the same way as above — open the settings in
 the Robot Controller app, select **View Logs**, scroll up to the first block
@@ -202,7 +202,7 @@ map, and it applies to apps created using Android Studio.
 If you are at an event and encounter this error, ask the team to verify that
 the name they use in their OpMode to reference a hardware device matches
 the name specified for that device in their Robot Controller's
-configuration file. The spelling is case sensitive, so the names must match
+:term:`configuration file <Configuration File>`. The spelling is case sensitive, so the names must match
 exactly.
 
 Common Programming Errors
@@ -253,8 +253,8 @@ following OpMode:
    }
 
 In this example, the motors turn on and the OpMode loops indefinitely until
-the touch sensor is pressed. This OpMode is uninterruptible: if the user
-presses the STOP button on the Driver Station before the touch sensor is
+the :term:`touch sensor <Touch Sensor>` is pressed. This OpMode is uninterruptible: if the user
+presses the STOP button on the Driver Station before the touch :term:`sensor <Sensor>` is
 pressed, the ``while`` loop keeps running and the OpMode is not properly
 stopped. This can cause the robot to behave erratically and become
 unresponsive — the robot continues to run, and the Driver Station continues
@@ -298,9 +298,9 @@ the touch sensor is pressed:
 REV Robotics Control and Expansion Hubs
 ------------------------------------------
 
-The REV Expansion Hub is a compact hardware controller with 4 DC motor
-ports, 6 servo ports, and multiple digital, I2C, and analog ports. The REV
-Control Hub is a REV Expansion Hub with an integrated Android device.
+The REV :term:`Expansion Hub` is a compact hardware controller with 4 :term:`DC motor <DC Motor>`
+ports, 6 servo ports, and multiple digital, :term:`I2C`, and analog ports. The REV
+:term:`Control Hub` is a REV Expansion Hub with an integrated Android device.
 
 Detailed information and specifications on the Control and Expansion Hubs
 are available in the REV Robotics Control Hub and Expansion Hub Getting
@@ -314,7 +314,7 @@ Resetting a REV Control Hub Wi-Fi Password
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A common issue for teams is resetting the REV Control Hub's Wi-Fi password
-to a new value, which is required as part of field inspection.
+to a new value, which is required as part of field :term:`inspection <Inspection>`.
 
 On the Driver Station app, tap the three dots (⋮) and select **Program and
 Manage**. This may take up to about 30 seconds to load. Then follow these
@@ -341,7 +341,7 @@ Logic Level Converters
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 The REV Robotics Control and Expansion Hubs operate using 3.3V digital
-logic levels. Older Modern Robotics-compatible sensors and encoders operate
+logic levels. Older Modern Robotics-compatible sensors and :term:`encoders <Encoder>` operate
 using 5V digital logic levels. If a team would like to use a 5V device that
 was compatible with Modern Robotics hardware controllers, the team will
 need a Logic Level Converter (available from REV Robotics) to connect the
@@ -389,7 +389,7 @@ If a team is having a problem with a dual Expansion Hub configuration, it
 is important that the FTA or CSA verify that each of the daisy-chained
 Expansion Hubs has a non-conflicting serial address. By default, all
 Expansion Hubs are assigned an address of 2 at the factory, so a team that
-wants to connect two Hubs together must first change the serial address of
+wants to connect two :term:`Hubs <Hub>` together must first change the serial address of
 one of them to prevent it from conflicting with the other Hub's address.
 
 An FTA or CSA can connect each Expansion Hub individually (not

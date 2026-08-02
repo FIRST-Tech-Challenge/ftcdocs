@@ -16,25 +16,25 @@ especially those programming in Java.
 
    Photo Credit: Mike Silversides
 
-Those POWERPLAY teams, including those using FTC Blocks, learned how to use
+Those POWERPLAY teams, including those using FTC :term:`Blocks`, learned how to use
 several resources: 
 
--  AprilTag: an open-source technology for evaluating
+-  :term:`AprilTag`: an open-source technology for evaluating
    formatted images 
--  EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an
+-  :term:`EasyOpenCV`: a *FIRST* Tech Challenge-optimized interface with :term:`OpenCV`, an
    image processing library 
--  myBlocks: custom Blocks created in OnBot Java (OBJ)
+-  myBlocks: custom Blocks created in :term:`OnBot Java` (OBJ)
 
 Now these three areas are provided, or bundled, in the *FIRST* **Tech Challenge
 Software Development Kit (SDK), starting with version 8.2**.
 
 Namely, key capabilities of **AprilTag** and **EasyOpenCV** are
-available to the Robot Controller (RC) and Driver Station (DS) apps,
+available to the :term:`Robot Controller` (RC) and :term:`Driver Station` (DS) apps,
 without special downloads. And AprilTag features are included in **FTC
 Blocks**, without needing custom myBlocks.
 
-The AprilTag features work on webcams and on Android RC phone cameras.
-A single OpMode can use AprilTag and Color Processing.
+The AprilTag features work on :term:`webcams <Webcam>` and on Android RC phone cameras.
+A single :term:`OpMode` can use AprilTag and Color Processing.
 
 In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!
 
@@ -85,7 +85,7 @@ recognizes and overlays the ID code onto the image (small blue rectangle
    Stream output showing the detected tag ID 02 
 
 The above image shows a camera preview image, called LiveView, from a
-Robot Controller device (Control Hub or RC phone).
+Robot Controller device (:term:`Control Hub` or RC phone).
 
 The AprilTag family 36h11 has a capacity of 587 ID codes. To see them
 all, follow this link:
@@ -179,8 +179,8 @@ The SDK supports **multiple cameras**, switchable or simultaneous.  This
 can help if the robot changes direction, or you wish to navigate using another
 AprilTag (or Color Processing).
 
-Other sensors can also be used for navigation, such as drive motor encoders,
-REV Hub IMU, deadwheel encoders, color/distance sensors, ultrasonic sensors,
+Other :term:`sensors <Sensor>` can also be used for navigation, such as drive motor :term:`encoders <Encoder>`,
+REV Hub :term:`IMU`, deadwheel encoders, color/distance sensors, ultrasonic sensors,
 and more.
 
 It’s also possible to evaluate **non-AprilTag images** from the same camera
@@ -268,7 +268,7 @@ The SDK provides AprilTag **rotation** data as follows:
 
 - **Pitch** is the measure of rotation about the X axis 
 - **Roll** is the measure of rotation about the Y axis 
-- Heading, or **Yaw**, is the measure of rotation about the Z axis
+- :term:`Heading`, or **Yaw**, is the measure of rotation about the Z axis
 
 Rotation follows the traditional right-hand rule: with the thumb
 pointing along the positive axis, the fingers curl in the direction of

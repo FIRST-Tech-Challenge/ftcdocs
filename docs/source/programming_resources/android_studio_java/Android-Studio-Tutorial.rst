@@ -7,8 +7,8 @@ Android Studio Programming Tutorial
 
 
 This tutorial will take you step-by-step through the process of
-configuring, programming, and operating your Control System. This
-tutorial uses Android Studio to help you get started programming your
+configuring, programming, and operating your :term:`Control System`. This
+tutorial uses :term:`Android Studio` to help you get started programming your
 robot.
 
 Android Studio is an advanced integrated development environment for

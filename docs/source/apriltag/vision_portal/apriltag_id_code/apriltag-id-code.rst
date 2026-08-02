@@ -1,8 +1,8 @@
 AprilTag ID Codes
 =================
 
-After the AprilTag Processor and VisionPortal have been **initialized**, your
-OpMode can begin tag detection.
+After the :term:`AprilTag` Processor and :term:`VisionPortal` have been **initialized**, your
+:term:`OpMode` can begin tag detection.
 
 Let's start with the simple task of retrieving the **ID code** of a detected
 AprilTag.  For tag family 36h11, the numeric ID code ranges from 0 to 586. The
@@ -88,7 +88,7 @@ detection, ending with only the **last tag's value**.
 By default, the FTC SDK recognizes the ID code of **any** 36h11 AprilTag, even
 if the OpMode did not place that tag in the AprilTag Library.  Some tags are
 placed in the Library automatically by the SDK: for example, ID codes 583-586
-used by Sample OpModes.
+used by :term:`Sample OpModes <Sample OpMode>`.
 
 An OpMode can also place other tags in a Library, to supplement or overwrite
 default tags.  This is covered further at the **Library** page.

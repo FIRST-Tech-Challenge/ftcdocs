@@ -210,7 +210,7 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Predominant Color" **Processor** using the
 **Builder** pattern.  This is the same Builder pattern used to create an
-AprilTag Processor.
+:term:`AprilTag` Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Predominant Color" Processor to the

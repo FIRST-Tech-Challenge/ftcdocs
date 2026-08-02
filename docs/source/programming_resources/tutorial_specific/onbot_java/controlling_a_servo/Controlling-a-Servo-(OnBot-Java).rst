@@ -1,8 +1,8 @@
 Controlling a Servo :bdg-info:`OBJ`
 ===================================
 
-In this section, you will modify your op mode to control a servo motor
-with the buttons of the gamepad.
+In this section, you will modify your op mode to control a :term:`servo <Servo>` motor
+with the buttons of the :term:`gamepad <Gamepad>`.
 
 What is a Servo Motor?
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -24,7 +24,7 @@ even if external forces are applied to the shaft of the servo.
 |
 
 Servo motors are useful when you want to do precise movements (for
-example, sweep an area with a sensor to look for a target or move the
+example, sweep an area with a :term:`sensor <Sensor>` to look for a target or move the
 control surfaces on a remotely controlled airplane).
 
 Modifying Your Op Mode to Control a Servo
@@ -95,8 +95,8 @@ F310 gamepad are pressed. If the Y button is pressed, it will move the
 servo to the 0-degree position. If either the X button or B button is
 pressed, it will move the servo to the 90-degree position. If the A
 button is pressed, it will move the servo to the 180-degree position.
-The op mode will also send telemetry data on the servo position to the
-Driver Station.
+The op mode will also send :term:`telemetry <Telemetry>` data on the servo position to the
+:term:`Driver Station`.
 
 After you have modified your op mode, you can build it and then run it.
 Verify that gamepad #1 is still configured and then use the colored

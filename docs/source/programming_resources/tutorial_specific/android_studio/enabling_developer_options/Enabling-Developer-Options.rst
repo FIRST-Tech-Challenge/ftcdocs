@@ -4,11 +4,11 @@ Enabling Developer Options :bdg-success:`AS`
 After you have configured your Android phone, you will also have to make
 sure that your phone is in developer mode before you will be able to
 install apps onto the phone using the tools that are included with
-Android Studio.
+:term:`Android Studio`.
 
 .. important:: Control Hub Users - The Control Hub has Developer Options
    automatically enabled from the factory, so you do **NOT** need to do 
-   this step for your Control Hub.
+   this step for your :term:`Control Hub`.
 
 The Android Developer website contains information on how to enable
 Developer Options onto your phone. If you visit the following link and

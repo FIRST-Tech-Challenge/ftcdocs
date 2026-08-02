@@ -5,7 +5,7 @@ Fork and Clone from GitHub :bdg-success:`AS`
    This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
    things related to git there are many different ways to satisfy any
    objective.  This documentation describes one method for Windows users.
-   Users not comfortable with command line tools and git should obtain the SDK
+   Users not comfortable with command line tools and git should obtain the :term:`SDK`
    via :doc:`Downloading the SDK as a zip archive
    <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`.
 

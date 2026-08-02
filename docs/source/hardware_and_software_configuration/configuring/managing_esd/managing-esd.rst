@@ -4,7 +4,7 @@ Managing Electrostatic Discharge Effects
 Introduction
 ~~~~~~~~~~~~
 
-Electrostatic discharge (ESD) events have the potential to disrupt the
+Electrostatic discharge (:term:`ESD`) events have the potential to disrupt the
 normal operation of a competition robot. This section examines causes of
 ESD events and discusses ways to mitigate the risk that an ESD event
 will disable or damage a robot’s control system.
@@ -20,7 +20,7 @@ quantifies the efficacy of various ESD mitigation techniques:
 Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work they
 did to model the problems caused by ESD and to evaluate different techniques to
 mitigate the risk caused by this phenomenon.  Also special thanks to *FIRST*
-Tech Challenge Teams 2844, 8081, 10523, 10523a, and 10984, and the volunteer
+Tech Challenge Teams 2844, 8081, 10523, 10523a, and 10984, and the :term:`volunteer <Volunteer>`
 team from Arizona (including Robert Garduno, Susan Garduno, Richard Gomez,
 Matthew Rainey, Christine Sapio, Patricia Strones, and David Thompson) for
 assisting in testing some of these mitigation techniques under the hot desert
@@ -132,7 +132,7 @@ Step 2: Add Ferrite Chokes to Signal Wires
 
 Ferrite chokes block large changes in current like those seen during an
 ESD event. This can reduce the risk of damage to or disruption of
-electrical components when a sensor or other peripheral device receives
+electrical components when a :term:`sensor <Sensor>` or other peripheral device receives
 a shock.
 
 .. image:: images/ferritechoke.jpg
@@ -146,16 +146,16 @@ effects of ESD:
 2. Install snap-on ferrite chokes onto your signal cables:
 
    -  Sensor cables
-   -  Encoder cables
-   -  Servo cables
+   -  :term:`Encoder` cables
+   -  :term:`Servo` cables
 
 Step 3: Electrically Isolating the Electronics from the Metal Frame of the Robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As a robot moves back and forth across the tile floor during a *FIRST*
-Tech Challenge match, charge can accumulate on the metallic frame of the
+Tech Challenge :term:`match <Match>`, charge can accumulate on the metallic frame of the
 robot due to the triboelectric effect. If a charge builds up on the
-frame of the robot, but the electronics that make up the Control System
+frame of the robot, but the electronics that make up the :term:`Control System`
 are at a different voltage, then a shock can occur if an exposed or
 poorly insulated portion of the Control System gets close (less than
 3/8” or 10mm) to the metal frame.
@@ -193,10 +193,10 @@ frame, a shock can occur if a charge accumulates on the frame.
    of the electronics.
 
 For example, the 4-wire sensor cables that are used by the REV Robotics
-Expansion Hub have plastic connectors that are poorly insulated. If a
+:term:`Expansion Hub` have plastic connectors that are poorly insulated. If a
 charge accumulates on the metal frame of the robot, and the end of
 sensor cable is placed close to the frame, a shock can occur and this
-shock can disrupt or even damage the I2C port of an Expansion Hub.
+shock can disrupt or even damage the :term:`I2C` port of an Expansion Hub.
 
 Similarly, some servo extension cables have exposed
 portions of metal that could be vulnerable to ESD unless properly
@@ -223,10 +223,10 @@ Using electrical tape to insulate these areas can be equally effective and may b
 
 .. warning:: An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
 
-   The REV Control Hub has a 
+   The REV :term:`Control Hub` has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
+   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver :term:`hub <Hub>`). 
    
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
 

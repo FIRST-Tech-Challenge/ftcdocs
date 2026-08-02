@@ -6,7 +6,7 @@ Overview
 
 This page of the FTC Color Processing tutorial introduces **Color Spaces**.
 
-OpenCV can process color information using any one of several Color Spaces,
+:term:`OpenCV` can process color information using any one of several Color Spaces,
 which are methods to describe an exact shade and brightness.
 
 This page describes 3 choices available in the FTC SDK:

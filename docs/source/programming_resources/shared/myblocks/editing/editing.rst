@@ -2,7 +2,7 @@ Editing a myBlock
 =================
 
 If you edit and re-Build a myBlock’s Java code, you might need to
-**replace** that myBlock in the Blocks OpMode. It depends on whether you
+**replace** that myBlock in the :term:`Blocks` :term:`OpMode`. It depends on whether you
 change the myBlock’s visible or external features: annotation fields,
 input parameters or returned outputs.
 
@@ -18,7 +18,7 @@ If your edit affects only the myBlock’s **internal** processing, it
 might update automatically after “Build Everything”, without needing a
 fresh replacement from the Java Classes menu. In some cases you might
 not even need to click Save OpMode in the Blocks screen – you could
-simply re-run the OpMode on the Driver Station with INIT and Start. This
+simply re-run the OpMode on the :term:`Driver Station` with INIT and Start. This
 can allow very fast testing of minor/internal changes to the myBlock.
 
 In any case, consider adding **versions** to your myBlock names, such as

@@ -4,7 +4,7 @@ Configuring an External UVC Camera and a Powered USB Hub
 Introduction
 ------------
 
-The Competition Manual allows the use of USB Video Class (UVC) compatible
+The :term:`Competition Manual` allows the use of USB Video Class (UVC) compatible
 cameras for computer vision-related tasks.
 Teams who are using an Android smartphone as their ROBOT CONTROLLER have the
 option of using an externally connected camera instead of the built-in camera
@@ -12,7 +12,7 @@ for computer vision tasks.
 
 The advantage of using an external camera is that the camera can be
 mounted in a location that is convenient for vision-related tasks while
-the Android Robot Controller can be mounted where it is convenient for
+the Android :term:`Robot Controller` can be mounted where it is convenient for
 Robot Controller-related tasks.
 
 The disadvantage of using an external camera is there is additional
@@ -29,7 +29,7 @@ the system. However, there are a couple of recommended web cameras that
 have been tested with the *FIRST* Tech Challenge software and have been
 calibrated to work accurately with this software:
 
--  Logitech HD Webcam C310
+-  Logitech HD :term:`Webcam` C310
 -  Logitech HD Pro Webcam C920
 
 There are notes on :doc:`other UVC webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
@@ -45,7 +45,7 @@ for an online copy of the file).
 REV Expansion Hub and Phone
 ---------------------------
 
-For teams using an Android phone and an Expansion Hub you are required to add a USB Hub to use a webcam.
+For teams using an Android phone and an :term:`Expansion Hub` you are required to add a :term:`USB Hub` to use a webcam.
 
 .. image:: images/uvcdiagram.png
    :alt: A REV expansion hub connected to an Android phone and a webcam via a USB Hub.
@@ -58,7 +58,7 @@ connect their Android Robot Controller to the external camera and the
 REV Robotics Expansion Hub. To work properly, the USB hub should meet
 the following requirements:
 
-1. Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at the faster speed.
+1. Compatible with USB 2.0. Note: a USB 3.0 :term:`hub <Hub>` will still work, just not at the faster speed.
 2. Supports a data transfer rate of 480Mbps.
 
 Note that the Competition Manual permits the use of a powered USB
@@ -113,7 +113,7 @@ and on the other end can be plugged into the power port of the USB hub.
    
    The USB hub is connected to the 5V Auxiliary port.
 
-Note that teams can create this special cable using one end of a servo
+Note that teams can create this special cable using one end of a :term:`servo <Servo>`
 extension cable (to plug into the 5V aux port) and one end of a Micro
 USB cable (to plug into the Anker hub’s power port). **Creating this
 cable is an advanced task and should only be attempted by teams who have
@@ -125,9 +125,9 @@ electronic equipment.**
 Sample Op Modes
 ^^^^^^^^^^^^^^^
 
-There are sample Blocks and Java Op Modes that demonstrate how to use
-the external UVC web camera for VisionPortal operations. Before
-a team can use the external UVC camera, a configuration file must be
+There are sample :term:`Blocks` and Java :term:`Op Modes <OpMode>` that demonstrate how to use
+the external UVC web camera for :term:`VisionPortal` operations. Before
+a team can use the external UVC camera, a :term:`configuration file <Configuration File>` must be
 configured with the external camera defined as one of the USB-connected
 devices.
 

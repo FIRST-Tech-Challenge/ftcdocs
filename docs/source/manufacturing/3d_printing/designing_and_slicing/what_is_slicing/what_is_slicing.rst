@@ -1,7 +1,7 @@
 What is Slicing?
 ================
 
-One of the most important steps of 3D printing is turning your CAD files into instructions for the printer can carry out and read. 
+One of the most important steps of :term:`3D printing <3D Printing>` is turning your :term:`CAD` files into instructions for the printer can carry out and read. 
 This is done in a software called a slicer, which turns CAD files, into machine-readable, G-Code Files.
 
 .. image:: images/slicinggraphic.jpg

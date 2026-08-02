@@ -50,13 +50,13 @@ tutorials, you will need to have the following materials available:
    * - Required Item(s)
      - Image
 
-   * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
-       Alternately, the Competition Manual does allow teams to instead
-       use a REV Robotics Expansion Hub and a select list of Android
+   * - A REV Robotics :term:`Control Hub` to be used as a ROBOT CONTROLLER.
+       Alternately, the :term:`Competition Manual` does allow teams to instead
+       use a REV Robotics :term:`Expansion Hub` and a select list of Android
        phones. 
      - |chandphones| |exhub|
    
-   * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
+   * - A REV Robotics :term:`Driver Hub` to be used as a DRIVER STATION device.
        Alternately, the Competition Manual does allow teams to instead
        use a select list of Android phones. See rule R901 for the full
        details.
@@ -65,7 +65,7 @@ tutorials, you will need to have the following materials available:
    * - Wireless Internet access.
      - |wifi|
 
-   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
+   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the :term:`Robot Controller`. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
      - |laptop|
 
    * - Javascript-enabled web browser (Google Chrome is the recommended browser).
@@ -81,26 +81,26 @@ tutorials, you will need to have the following materials available:
      - |motor|
 
 
-   * - If you are using an approved 12V battery that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
+   * - If you are using an approved 12V :term:`battery <Battery>` that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
      - |tamiya|
   
    * - REV Robotics Anderson to JST VH Cable (REV-31-1381).
      - |jst|
 
-   * - 180-Degree Standard Scale Servo (such as Hitec HS-485HB).
+   * - 180-Degree Standard Scale :term:`Servo` (such as Hitec HS-485HB).
      - |servo|
 
-   * - REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154).
+   * - REV Robotics Color :term:`Sensor` with 4-Pin Cable (REV-31-1154).
      - |color|
 
-   * - REV Robotics Touch Sensor with 4-Pin Cable( REV-31-1425).
+   * - REV Robotics :term:`Touch Sensor` with 4-Pin Cable( REV-31-1425).
      - |touch|
   
-   * - Logitech F310 USB Gamepad.
+   * - Logitech F310 USB :term:`Gamepad`.
      - |f310|
 
    * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
-   * - If you are using a smartphone as your Robot Controller, you will need two (2) micro USB OTG adapters. If you are using a Control Hub as your Robot Controller, you will need one(1) micro USB OTG adapter.
+   * - If you are using a smartphone as your Robot Controller, you will need two (2) micro USB :term:`OTG adapters <OTG Adapter>`. If you are using a Control Hub as your Robot Controller, you will need one(1) micro USB OTG adapter.
      - |otg|   |otg|

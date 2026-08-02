@@ -6,7 +6,7 @@ Blocks Reference Manual
 
 As you start to write more complicated op modes, you will need to use
 more features of the FIRST Tech Challenge software development kit
-(SDK). Bruce Schafer of the Oregon Robotics Tournament & Outreach
+(SDK). Bruce Schafer of the Oregon Robotics :term:`Tournament` & Outreach
 Program (ORTOP) created a useful reference document that describes the
 programming blocks that are available with the Blocks Programming
 Tool:
@@ -17,7 +17,7 @@ Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceMan
 Sample Op Modes
 ~~~~~~~~~~~~~~~
 
-The Blocks Programming Tool has several built-in example op modes that
+The :term:`Blocks Programming Tool` has several built-in example op modes that
 demonstrate how to do different tasks with the FIRST Tech Challenge
 control system. As you create a new file, you can use the Sample
 dropdown list control to display a list of available sample op modes or

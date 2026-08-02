@@ -1,7 +1,7 @@
 Camera Controls in Blocks
 -------------------------
 
-All of the camera controls described in this tutorial are available in Blocks,
+All of the camera controls described in this tutorial are available in :term:`Blocks`,
 under **Webcam Controls**. A few Blocks-specific details are worth knowing.
 
 Setter Blocks
@@ -62,7 +62,7 @@ See this Block with the NEW operator (green oval):
 
    Examples of Pan/Tilt Blocks
 
-It's **not needed** if the OpMode will call ``getPanTilt()`` and assign
+It's **not needed** if the :term:`OpMode` will call ``getPanTilt()`` and assign
 it to the variable, as shown above (yellow arrow).
 
 It **is needed** if instead the OpMode will next try to get (or set)

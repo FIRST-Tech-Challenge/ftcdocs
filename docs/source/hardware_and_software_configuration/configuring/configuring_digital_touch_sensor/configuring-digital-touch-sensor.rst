@@ -1,14 +1,14 @@
 Configuring a Digital Touch Sensor
 ==================================
 
-The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query
+The REV Robotics :term:`Touch Sensor` is a digital :term:`sensor <Sensor>`. An :term:`Op Mode <OpMode>` can query
 the Touch Sensor to see if its button is being pressed or not.
 
 Configuring a Digital Touch Sensor Instructions
 -----------------------------------------------
 
 1. Touch the words **Digital Devices** on the screen to launch the    
-Digital I/O configuration screen.                                     
+:term:`Digital I/O` configuration screen.                                     
 
 .. image:: images/ConfiguringHardwareTouchStep1.jpg
    :align: center

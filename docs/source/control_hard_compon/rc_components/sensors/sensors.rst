@@ -211,7 +211,7 @@ IMU
       BNO055
 
 
-An Inertial Measurement Unit (IMU) is a sensor that is a combination of a
+An Inertial Measurement Unit (:term:`IMU`) is a sensor that is a combination of a
 Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the

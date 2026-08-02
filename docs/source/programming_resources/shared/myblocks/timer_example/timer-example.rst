@@ -8,10 +8,10 @@ you can easily apply its lessons to Java programs.
 
 When creating myBlocks, be careful when converting or ‘packaging’ a
 section of existing Java code into a myBlock method. As a programmer,
-you must consider **where** your myBlock might be placed in the OpMode.
+you must consider **where** your myBlock might be placed in the :term:`OpMode`.
 For example, if the myBlock is placed inside a **repeat while loop**,
 the Java method will be called many times – this may or may not be what
-you intended. Use the annotation **comment** to tell the Blocks user how
+you intended. Use the annotation **comment** to tell the :term:`Blocks` user how
 your myBlock should be run, including looping (or not).
 
 A particular caution with timers: creating or **instantiating** a new
@@ -61,11 +61,11 @@ always show **zero**.
 
 Or, a programmer might use Line 15 to **replace** Line 29, since they
 “do the same thing”. But the object **myStopwatch** is needed at Line 24
-also, for telemetry. Moving the telemetry to be **after** Line 29 does
-not help. If the operator has not yet pressed gamepad button X, the
+also, for :term:`telemetry <Telemetry>`. Moving the telemetry to be **after** Line 29 does
+not help. If the operator has not yet pressed :term:`gamepad <Gamepad>` button X, the
 object does not exist and the program will crash.
 
-When you clicked “Build Everything” in OnBot Java, all of the code in
+When you clicked “Build Everything” in :term:`OnBot Java`, all of the code in
 your SampleMyBlocks class was processed. That included creating the
 object myStopwatch, which became available for any method in that class.
 It was not necessary to declare it inside the myBlock method. In this
@@ -83,7 +83,7 @@ clear.
 
 .. note:: This tutorial intends for you to **manually type** the Java
       code above. OnBot Java helps by suggesting some code as you type, and
-      by entering import statements when classes are used. Android Studio
+      by entering import statements when classes are used. :term:`Android Studio`
       helps even more. If you require pre-typed text of this example see below.
       The linked copy includes more Java comments, omitted above to focus
       on the Java code. Also not shown are the package and import

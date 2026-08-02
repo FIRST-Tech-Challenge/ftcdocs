@@ -1,8 +1,8 @@
 Monitoring the Wireless Environment
 =====================================
 
-The *FIRST* Tech Challenge Control System uses Wi-Fi Direct and/or wireless
-access point technology to connect the Driver Station device to the Robot
+The *FIRST* Tech Challenge :term:`Control System` uses :term:`Wi-Fi Direct` and/or wireless
+access point technology to connect the :term:`Driver Station` device to the Robot
 Controller. Wi-Fi Direct networks can be managed like normal Wi-Fi networks,
 so the techniques and tools used to monitor and troubleshoot a corporate
 Wi-Fi network can also be applied to the Wi-Fi Direct networks used by the
@@ -49,7 +49,7 @@ connectivity for those pairs.
 5GHz Portion of the Spectrum
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-FTC-approved smartphones and the REV Robotics Control Hub and Driver Hub
+FTC-approved smartphones and the REV Robotics :term:`Control Hub` and :term:`Driver Hub`
 support both the 2.4GHz and 5GHz bands. 5GHz channels do not overlap each
 other, and they offer greater bandwidth than 2.4GHz channels. They also have
 more limited range, which can be useful in a crowded competition venue with

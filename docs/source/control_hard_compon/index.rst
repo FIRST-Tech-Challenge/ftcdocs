@@ -6,8 +6,8 @@
 Hardware Component Overview
 ============================
 
-The *FIRST* Tech Challenge Control System is divided into two main components:
-the Driver Station (DS) and the Robot Controller (RC). This section will give
+The *FIRST* Tech Challenge :term:`Control System` is divided into two main components:
+the :term:`Driver Station` (DS) and the :term:`Robot Controller` (RC). This section will give
 you a brief introduction to the hardware components, their various
 configurations, and connections.
 

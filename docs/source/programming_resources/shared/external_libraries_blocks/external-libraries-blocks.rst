@@ -4,9 +4,9 @@ External Libraries in OnBot Java and Blocks
 Introduction
 ------------
 
-Blocks and OnBot Java programmers can use external libraries,
+:term:`Blocks` and :term:`OnBot Java` programmers can use external libraries,
 starting with SDK 7.0 released for the Freight Frenzy season. This
-capability previously existed for programmers using Android Studio.
+capability previously existed for programmers using :term:`Android Studio`.
 
 An external library is a collection of specialized software ready for
 public use, and typically available from a website or repository, called
@@ -14,7 +14,7 @@ a ‘repo’. You don’t need to know its inner workings, just what it does
 and how to use it.
 
 This beginner-level tutorial shows how to incorporate a library’s
-features into your Op Modes, and provides simple examples. It does
+features into your :term:`Op Modes <OpMode>`, and provides simple examples. It does
 not teach Java.
 
 Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who
@@ -87,9 +87,9 @@ Step 2 - Upload archive file
 Copy the .jar or .aar file to your programming laptop, if the file is
 not stored there already.
 
-Connect your laptop via Wi-Fi to a Robot Controller device that’s
+Connect your laptop via Wi-Fi to a :term:`Robot Controller` device that’s
 running the RC app, version 7.0 or higher (see instructions at
-``Program and Manage``, on the RC phone or its paired Driver Station
+``Program and Manage``, on the RC phone or its paired :term:`Driver Station`
 device). In the Chrome browser, open OnBot Java.
 
 In OnBot Java (OBJ) click the **upload icon**, normally used to upload a
@@ -217,7 +217,7 @@ Congratulations, you are now a Java developer!
 Benefits
 --------
 
-Obviously this External Libraries feature provides advanced functions
+Obviously this :term:`External Libraries` feature provides advanced functions
 previously available only to Android Studio teams.
 
 Secondly, more of your team members can continue programming the robot
@@ -322,7 +322,7 @@ Here is the myBlock that will appear in the Blocks toolbox (menu):
 
 
 On your own, you can try this with the two remaining methods. Use
-myBlocks to show telemetry output of various input values.
+myBlocks to show :term:`telemetry <Telemetry>` output of various input values.
 
 
 .. figure:: images/470-myBlocks-telemetry.png
@@ -377,9 +377,9 @@ to experiment with these.
    which is a hardware device class for the `REV
    Potentiometer <https://www.revrobotics.com/rev-31-1155/>`__. It uses
    ``AnalogSensorType`` and ``DeviceProperties`` annotations to make
-   this sensor appear in the “Configure Robot” menu of the RC app or
+   this :term:`sensor <Sensor>` appear in the “Configure Robot” menu of the RC app or
    paired DS app. After the .aar file has been uploaded (and
-   ``Build Everything``), configure your robot’s Analog Input Devices
+   ``Build Everything``), configure your robot’s :term:`Analog Input` Devices
    and choose ``REV Potentiometer``. It has a public method
    ``getRotation`` with parameter of type AngleUnit.
 

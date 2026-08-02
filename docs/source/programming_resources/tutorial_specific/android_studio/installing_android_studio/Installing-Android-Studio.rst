@@ -4,7 +4,7 @@ Installing Android Studio :bdg-success:`AS`
 Android Developer Website
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Android Studio is distributed freely by Google, and the most up-to-date
+:term:`Android Studio` is distributed freely by Google, and the most up-to-date
 reference for installing and using the Android Studio software can be
 found on the Android developer website:
 

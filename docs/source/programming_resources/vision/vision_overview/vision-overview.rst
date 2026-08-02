@@ -7,7 +7,7 @@ Introduction
 The *FIRST* Tech Challenge control system software has built-in support for two
 computer vision technologies:
 
-1. AprilTags -
+1. :term:`AprilTags <AprilTag>` -
    :doc:`AprilTags <../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>`
    are fiducial markers similar in design to a QR code that can be used
    for identification and localization. AprilTags are used as reference 
@@ -28,7 +28,7 @@ computer vision technologies:
    feature in the *FIRST* Tech Challenge SDK that provides the ability
    to process colors using `OpenCV <https://opencv.org/>`__.
 
-   -  Color Sensor can detect the exact color in an image, which can
+   -  Color :term:`Sensor` can detect the exact color in an image, which can
       help determine what is in front of a robot.
    -  Color Locator can look for a specific color and return information
       about the size, shape and location of the color in the camera frame.

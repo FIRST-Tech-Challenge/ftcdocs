@@ -58,8 +58,8 @@ Robot Main Battery
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v battery. The batteries above are
-samples of these batteries, check the Competition Manual for the full list of
+The main power of a robot comes from one 12v :term:`battery <Battery>`. The batteries above are
+samples of these batteries, check the :term:`Competition Manual` for the full list of
 batteries. Note that it is typically allowed to replace the connector on the
 batteries, provided the in-line fuse on the battery is preserved, again check
 the Competition Manual for full details.

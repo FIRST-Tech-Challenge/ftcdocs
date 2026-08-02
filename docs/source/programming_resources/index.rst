@@ -6,7 +6,7 @@
 Programming Resources
 =====================
 
-This page contains programming tutorials and related Control System
+This page contains programming tutorials and related :term:`Control System`
 documentation useful for configuring and programming Control System
 components.
 
@@ -69,8 +69,8 @@ Control System Supporting Documentation
 Vision Programming
 ~~~~~~~~~~~~~~~~~~
 
-Programming a camera to recognize AprilTags, colors and shapes is covered in
-the **Vision Resources** section of the main menu. Start here:
+Programming a camera to recognize :term:`AprilTags <AprilTag>`, colors and shapes is
+covered in the **Vision Resources** section of the main menu. Start here:
 
 -  :doc:`Computer Vision Overview <vision/vision_overview/vision-overview>` --
    which vision technology to use, and when

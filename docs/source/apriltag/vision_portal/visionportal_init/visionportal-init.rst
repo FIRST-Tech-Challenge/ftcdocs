@@ -4,8 +4,8 @@ VisionPortal Initialization
 Overview
 --------
 
-Here we describe Step 3, **creating a VisionPortal**, to allow an OpMode to use
-AprilTag and/or Color Processing. This continues from the
+Here we describe Step 3, **creating a VisionPortal**, to allow an :term:`OpMode` to use
+:term:`AprilTag` and/or Color Processing. This continues from the
 previous page :doc:`Vision Processor Initialization
 <../vision_processor_init/vision-processor-init>`, which described Step 2:
 creating an AprilTag Processor and/or a Color Locator or Color Sensor
@@ -32,11 +32,11 @@ and not mentioning a "Builder":
          :align: center
          :alt: Easy VisionPortal Initialization
 
-      The FTC Blocks VisionPortal toolbox, or palette, offers "Easy Create" Blocks
+      The FTC :term:`Blocks` VisionPortal toolbox, or palette, offers "Easy Create" Blocks
       combining:
 
       - the available Processors, singly or together
-      - webcam, built-in RC phone camera, or "Switchable Camera Name"
+      - :term:`webcam <Webcam>`, built-in RC phone camera, or "Switchable Camera Name"
 
    .. tab-item:: Java
       :sync: java

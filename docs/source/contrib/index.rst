@@ -23,7 +23,7 @@ Mission Statement
 
 ====
 
-FTC Docs is brought to you by:
+:term:`FTC Docs` is brought to you by:
 
 - Daniel Alfredo Diaz, Jr — Maintainer.
 - Elizabeth Gilibert — Project Manager

@@ -10,7 +10,7 @@ process that mathematically models how a camera & lens combination ultimately
 sees the world, for example how wide the field of view is. Calibrating your camera
 is a must if you desire to use it for high-precision tasks, such as performing
 precision measurements using the camera or obtaining accurate 6DOF pose data from
-fiducial marker systems like AprilTags.
+fiducial marker systems like :term:`AprilTags <AprilTag>`.
 
    *"Without a camera calibration, the best you could achieve is being
    able to turn towards the target. Range information would be
@@ -18,7 +18,7 @@ fiducial marker systems like AprilTags.
 
 The calibration values are called **lens intrinsics**. It's important to note
 that they are not only specific to the camera and lens, but also specific to the
-resolution used on a particular camera as well! A webcam that offers 18
+resolution used on a particular camera as well! A :term:`webcam <Webcam>` that offers 18
 resolutions wants a separate calibration for each one.
 
 Does your camera already have calibration data?
@@ -50,7 +50,7 @@ either switch to a calibrated resolution or generate your own values.
 
 .. note::
    This table can fall behind the SDK. The authoritative source is the SDK file
-   ``builtinwebcamcalibrations.xml``; in Android Studio, find it under the
+   ``builtinwebcamcalibrations.xml``; in :term:`Android Studio`, find it under the
    ``RobotCore``, ``res``, ``xml`` subfolders.
 
 Android device cameras also need calibration data for good pose estimates. The
@@ -61,7 +61,7 @@ Capturing calibration frames
 
 Every calibration tool works from a set of photographs taken by the camera you
 are calibrating, at the resolution you are calibrating. The SDK provides a
-utility OpMode to capture them.
+utility :term:`OpMode` to capture them.
 
 Create an OpMode from the Java Sample ``UtilityCameraFrameCapture.java``.
 Android Studio teams can find this utility program in the External Samples
@@ -69,16 +69,16 @@ folder; OnBot Java teams can copy it into their teamcode folder. Modify the
 parameters at the top -- most importantly the resolution -- according to your
 needs.
 
-FTC Blocks teams can duplicate this OpMode, requiring a custom myBlock only for
+FTC :term:`Blocks` teams can duplicate this OpMode, requiring a custom myBlock only for
 the method ``saveNextFrameRaw()``. At some future time, this Java method may
 become available as a regular Block, avoiding the need for a myBlock. Learn more
 about myBlocks here:
 
 - :ref:`MyBlocks Tutorial <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
-The OpMode captures a camera frame (image) and stores it on the Robot
-Controller with each press of the gamepad button X (or Square). To illustrate,
-it stores the first two captured images as:
+The OpMode captures a camera frame (image) and stores it on the
+:term:`Robot Controller` with each press of the :term:`gamepad <Gamepad>` button X
+(or Square). To illustrate, it stores the first two captured images as:
 
 - ``VisionPortal-CameraFrameCapture-000000.png``
 - ``VisionPortal-CameraFrameCapture-000001.png``
@@ -95,7 +95,7 @@ Android file transfer.
 Choosing a calibration tool
 ---------------------------
 
-There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL
+There are many methods to calibrate cameras, including :term:`OpenCV`, MATLAB, MRCAL
 etc.
 
 -  For advanced teams, using `MRCAL <https://mrcal.secretsauce.net/>`__ is
@@ -130,7 +130,7 @@ Calibrating with 3DF Zephyr
 Calibration warnings from the SDK
 ---------------------------------
 
-Running ``ConceptDoubleVision`` (or any AprilTag Sample OpMode) with an
+Running ``ConceptDoubleVision`` (or any AprilTag :term:`Sample OpMode`) with an
 uncalibrated camera gives the following error message on both devices:
 
 .. figure:: images/010-RC-warning.png

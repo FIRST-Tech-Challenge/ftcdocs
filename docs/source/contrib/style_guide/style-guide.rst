@@ -1,7 +1,7 @@
 FTC Docs Style Guide
 ====================
 
-This guide contains the various reStructuredText (RST) and Sphinx specific guidelines for the FTC Docs project.
+This guide contains the various reStructuredText (RST) and Sphinx specific guidelines for the :term:`FTC Docs` project.
 reStructuredText is the default plain text markup language used by Sphinx.
 
 .. contents:: Contents
@@ -342,9 +342,61 @@ Which looks like: `Game and Season Materials <https://ftc-resources.firstinspire
 FTC Docs has chosen to open links to external sites in new tabs. This is done with JavaScript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
 
+Glossary Terms
+^^^^^^^^^^^^^^
+
+The :doc:`Glossary </glossary/glossary>` defines the hardware, software, programming and
+competition terms used across the site.
+Link to it with the ``:term:`` role so a reader who does not recognize a term can check it
+without leaving the page — FTC Docs shows glossary definitions as a hover tooltip.
+
+.. code:: rest
+
+   An :term:`OpMode` runs on the :term:`Robot Controller`.
+
+When the word in your sentence does not match the glossary entry exactly — a plural, or a
+lowercase spelling — give the display text first and the entry in angle brackets:
+
+.. code:: rest
+
+   Plug both :term:`encoders <Encoder>` into the :term:`Control Hub`.
+
+**Link the first mention of every glossary term on the page.** This is a requirement, not a
+suggestion: a reader arriving on any page from a search engine should be able to look up any
+term it uses. Every page on the site currently satisfies this, so please keep it that way
+when you add or edit content.
+
+Link the *first* mention only — not every mention. A page where all eleven instances of
+"Control Hub" are links is harder to read, not easier.
+
+Some words are glossary terms in one sentence and ordinary English in the next. Link only the
+sense the glossary defines:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Link it
+     - Leave it alone
+   * - a wireless problem during a :term:`Match`
+     - "check for a match with the DS app version"
+   * - the robot's :term:`Heading` from the :term:`IMU`
+     - "the items appear under the heading Downloaded"
+   * - the robot's 12V :term:`Battery`
+     - "a USB battery pack", "the phone has a low battery"
+
+A few places cannot take a role at all — code blocks and inline literals, text that is already
+a link, image ``:alt:`` text, section titles, and the label of a ``button-ref`` or the header of
+a ``grid-item-card`` (a link nested inside a button does not render). Where a term's only
+mention on a page falls in one of those, leave it unlinked.
+
+If a term is missing from the glossary, add it there rather than defining it inline in your
+page. Definitions that live in one place stay consistent. When you add an entry, also link its
+first mention on the pages that already use the word.
+
 Links to Files
 ^^^^^^^^^^^^^^
-   
+
 You can directly link to files such as a PDF, but that is an accessibility problem. 
 The issue is the context switch from web browsing to suddenly having to deal with a PDF that has probably opened in a new tab/window without any warning.
 FTC Docs contains quite a few links to PDFs that should be make more accessible.
@@ -416,8 +468,8 @@ Here's a gateway page example for the Field Setup Guide PDF.
        - A list all the game elements and scoring elements with the quantity of each.
        - Instructions for setup of the field perimeter and field tiles.
        - Step by step instructions for assembling parts and setting them on the field.
-       - Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the Alliances, and sometimes for game areas.
-       - Most games have AprilTags placed around the field that can be used for robot navigation.
+       - Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the :term:`Alliances <Alliance>`, and sometimes for game areas.
+       - Most games have :term:`AprilTags <AprilTag>` placed around the field that can be used for robot navigation.
        - Finally, there are tear down instructions that indicate how to take the field down for storage or transport.
 
        Use the following button link to download a PDF of the Field Setup Guide from the *FIRST* Website:
@@ -457,7 +509,7 @@ The ``:alt:`` line is indented three spaces.
 The description should be functional. Describe the image for someone who cannot see it.
 
 Here's what the web page for an image looks like (but reduced in size for this example).
-The image is a screen shot of the Blocks programming tool on a page that talks about the various programming tools available.
+The image is a screen shot of the :term:`Blocks` programming tool on a page that talks about the various programming tools available.
 
 .. list-table:: 
 

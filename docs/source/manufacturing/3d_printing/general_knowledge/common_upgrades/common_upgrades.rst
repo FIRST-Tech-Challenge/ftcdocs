@@ -101,7 +101,7 @@ include this option stock, so it's not a concern for many.
 
 ABL or Auto-Bed Leveling uses either a mechanical or inductive sensor on your toolhead to probe your bed in 
 different locations and uses software to improve your first layer quality and adhesion. While it requires learning 
-a bit about firmware, auto bed leveling is extremely worth it. More and more printers are coming with auto bed 
+a bit about :term:`firmware <Firmware>`, auto bed leveling is extremely worth it. More and more printers are coming with auto bed 
 leveling stock, but if yours didn't and you'd like to upgrade, these options are common:
 
 * Mechanical Sensors: BLTouch, CRTouch

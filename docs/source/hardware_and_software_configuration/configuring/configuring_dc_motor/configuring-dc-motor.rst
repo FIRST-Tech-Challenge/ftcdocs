@@ -1,8 +1,8 @@
 Configuring a DC Motor
 =======================
 
-Now that you've created a file, you will need to add a DC Motor to the
-configuration file.
+Now that you've created a file, you will need to add a :term:`DC Motor` to the
+:term:`configuration file <Configuration File>`.
 
 .. important:: At this point, although you have created your configuration file, you have not yet saved its contents to the Robot Controller. You will save the configuration file later in the :ref:`Saving the Configuration Information <hardware_and_software_configuration/configuring/saving_config/saving-config:Saving the Configuration Information>` step.
 
@@ -17,7 +17,7 @@ Configuration screen.
 
 |
 
-2. Since we installed our motor onto port #0 of the Expansion Hub,    
+2. Since we installed our motor onto port #0 of the :term:`Expansion Hub`,    
 use the dropdown control for port 0 to select the motor type (Tetrix  
 Motor for this example).
 

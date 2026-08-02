@@ -6,15 +6,15 @@
 *FIRST* Tech Challenge Software Development Kit
 ===============================================
 
-The Software Development Kit (SDK) is the collection of tools for developing
+The :term:`Software Development Kit` (SDK) is the collection of tools for developing
 software and executing it on a *FIRST* Tech Challenge robot. SDK Software
 includes:
 
--  *FIRST* Tech Challenge Driver Station App 
+-  *FIRST* Tech Challenge :term:`Driver Station App` 
 
-   *  Includes Self-Inspect, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
+   *  Includes :term:`Self-Inspect`, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
 
--  *FIRST* Tech Challenge Robot Controller App
+-  *FIRST* Tech Challenge :term:`Robot Controller App`
 
    *  Includes :doc:`Blocks Programming Environment </programming_resources/blocks/Blocks-Tutorial>`
    *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
@@ -23,7 +23,7 @@ includes:
    for building the Robot Controller App with 
    :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (AprilTag libraries, game element assets, etc...)
+-  Season-Specific Assets (:term:`AprilTag` libraries, game element assets, etc...)
 
 All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
@@ -44,7 +44,7 @@ This build consists of:
 
 -  Built Driver Station App (``FtcDriverStation-release.apk``)
 -  Built Robot Controller App (``FtcRobotController-release.apk``)
--  Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
+-  :term:`Android Studio Project` source code (``vX.X.zip``, ``vX.X.tar.gz``)
 -  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
 -  Season-Specific Assets (AprilTag libraries, game element assets, etc... hosted separately)
 
@@ -139,7 +139,7 @@ Updating SDK Software
 
 It is important for teams to update the SDK software. Updates mid-season may
 not be required. Teams can check  the minimum software version required for a
-game in the Competition Manual.  It is recommended to use the REV Hardware
+game in the :term:`Competition Manual`.  It is recommended to use the REV Hardware
 Client to update hardware, if a 64-bit Windows computer is available. If not,
 then alternate methods provided can be used to update the software.
 

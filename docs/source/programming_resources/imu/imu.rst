@@ -6,9 +6,9 @@ Introduction
 
 In September 2022, REV Robotics began shipping `Control Hubs
 <https://www.revrobotics.com/rev-31-1595/>`__ with a different internal
-Inertial Measurement Unit (IMU). The new IMU chip is designated `BHI260AP
+:term:`Inertial Measurement Unit` (IMU). The new IMU chip is designated `BHI260AP
 <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__,
-replacing the existing Hub’s IMU chip `BNO055
+replacing the existing :term:`Hub`’s IMU chip `BNO055
 <https://www.bosch-sensortec.com/en/products/smart-sensor-systems/bno055/>`__.  Both are
 from Bosch Sensortec. An IMU can measure many aspects of device motion; this
 explanatory document focuses primarily on **rotation**.
@@ -25,19 +25,19 @@ BHI260AP and BNO055 IMU. This basic tutorial introduces some new features:
 Teams wanting to use the newer IMU are required to:
 
 - use SDK 8.1 or newer
-- update the Control Hub OS to 1.1.3 or newer.  
+- update the :term:`Control Hub` OS to 1.1.3 or newer.  
 
 However **all teams** are encouraged to begin using the universal IMU classes
-and methods for **new** Blocks and Java code. And, migrating **existing code**
+and methods for **new** :term:`Blocks` and Java code. And, migrating **existing code**
 would allow you to switch easily (and perhaps urgently) to a new Control Hub
 during the season.
 
 Don’t know which IMU you have? Check the **Manage** page under ``Program &
 Manage`` in any of these places: 
 
--  connected Driver Station (DS) app 
+-  connected :term:`Driver Station` (DS) app 
 -  connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` (Control Hub) or ``http://192.168.49.1:8080`` (RC phone) 
--  REV Hardware Client (when Hub LED is green)
+-  :term:`REV Hardware Client` (when Hub LED is green)
 
 Each Hub’s IMU type is listed there, as of SDK 8.0.
 
@@ -52,7 +52,7 @@ Each Hub’s IMU type is listed there, as of SDK 8.0.
    *Reminder: REV Expansion Hubs purchased after December 2021 have no internal
    IMU.*
 
-Do you have existing OpModes using the original IMU? Your code can run
+Do you have existing :term:`OpModes <OpMode>` using the original IMU? Your code can run
 unchanged, using Hubs with the BNO055. The new SDK 8.1 fully supports legacy
 Blocks and Java code using classes and methods for the BNO055 IMU.
 
@@ -79,11 +79,11 @@ The SDK 8.1 README provides more technical background:
 Potential Usage
 ---------------
 
-*FIRST* Tech Challenge robots drive mostly on a flat playing field, typically
+*FIRST* Tech Challenge robots drive mostly on a flat :term:`playing field <Playing Field>`, typically
 using the IMU to monitor or control **Heading** (Yaw or Z-angle).
 
-Heading is preserved between OpMode runs, unless the robot or Robot Controller
-(RC) app are restarted. This can be useful between Autonomous and TeleOp.
+:term:`Heading` is preserved between OpMode runs, unless the robot or :term:`Robot Controller`
+(RC) app are restarted. This can be useful between :term:`Autonomous` and :term:`TeleOp <TELEOP>`.
 Heading can be reset during an OpMode, as discussed below.
 
 *Heading can drift slowly over time. An absolute reference is not available
@@ -115,7 +115,7 @@ Examples might include:
 -  robot’s left wheels are raised, on an obstacle
 -  robot is tilted forward on its front 4 wheels (of 6-wheel West Coast Drive) 
 -  robot has tipped over (!) 
--  robot’s secondary Expansion Hub (with IMU) is mounted on a tilting mechanism
+-  robot’s secondary :term:`Expansion Hub` (with IMU) is mounted on a tilting mechanism
 
 The Software SDK can also provide values for **angular velocity**, which is
 the rate of change (degrees per second) for Roll, Pitch or Yaw.
@@ -140,7 +140,7 @@ be the Control Hub, whether old or new.
 
    REV IMU Robot Configuration Validation
 
--  **Yellow**: The internal IMU is (always) connected at I2C Bus 0, Port 0.  If
+-  **Yellow**: The internal IMU is (always) connected at :term:`I2C` Bus 0, Port 0.  If
    you want another I2C device also on Bus 0, plug it into the Hub and use the
    ``Add`` button.
 
@@ -148,7 +148,7 @@ be the Control Hub, whether old or new.
    fix this only if it was incorrectly modified. Your IMU OpModes **require a
    correct choice here**.
 
--  **Purple**: The default device name is “imu”, used by all Sample OpModes for
+-  **Purple**: The default device name is “imu”, used by all :term:`Sample OpModes <Sample OpMode>` for
    Blocks and Java. You may enter a custom name here, but you must then
    **update** all your OpModes that reference the IMU.
 
@@ -518,7 +518,7 @@ Robot Coordinate System:
 -  Heading, or Yaw, is the measure of rotation about the Z axis, which
    points upwards through the Hub’s front plate or logo.
 -  Pitch is the measure of rotation about the X axis, which points
-   toward the right-side I2C sensor ports.
+   toward the right-side I2C :term:`sensor <Sensor>` ports.
 -  Roll is the measure about the Y axis, which points toward the
    top-edge USB port(s).
 

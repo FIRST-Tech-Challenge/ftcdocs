@@ -19,7 +19,7 @@ heavily:
 
 -  Any role-specific tasks that the computer may perform in the program
 
--  Type of Computer-Aided Design (CAD) software that may be used on the
+-  Type of :term:`Computer-Aided Design <Computer Aided Design>` (CAD) software that may be used on the
    computer
 
 -  Software development and hardware update requirements
@@ -60,7 +60,7 @@ Also Supported:
 
 -  `iOS Standard Tablet`_
 
-   -  LEGO\ :sup:`®` Education SPIKE™ Essential hub cannot be updated
+   -  LEGO\ :sup:`®` Education SPIKE™ Essential :term:`hub <Hub>` cannot be updated
       with iPad
 
 -  `Android Standard Tablet`_
@@ -123,12 +123,12 @@ Also Supported:
    -  `Android Studio <https://developer.android.com/studio>`__ not
       supported
 
-      -  Only Blocks and OnBotJava supported
+      -  Only :term:`Blocks` and OnBotJava supported
 
 It is also recommended to have an active internet connection during
 software development. Access to https://github.com is required by the
-REV Hardware Client to download and install required season software
-updates and is required for Android Studio users to download software
+:term:`REV Hardware Client` to download and install required season software
+updates and is required for :term:`Android Studio` users to download software
 templates.
 
 Recommended Computer Hardware for *FIRST*\ :sup:`®` Robotics Competition
@@ -145,7 +145,7 @@ development computers for two basic purposes – software development and
 CAD – and team preferences in these two uses shape the required
 hardware. However, in *FIRST* Robotics Competition there are two roles
 that computers can serve, such as Software and Design Development
-platforms and/or Driver Station platforms, and those roles also shape
+platforms and/or :term:`Driver Station` platforms, and those roles also shape
 the requirements of the computer hardware.
 
 It is recommended to have two separate computers, one to use for the
@@ -213,7 +213,7 @@ Also Supported:
 It is also recommended to have an active internet connection during
 software development. Access to https://github.com is required by the
 REV Hardware Client to download and install required season software and
-firmware updates. Additional software may have similar requirements.
+:term:`firmware <Firmware>` updates. Additional software may have similar requirements.
 
 Recommended Hardware Sets
 -------------------------
@@ -236,7 +236,7 @@ recommendations for all hardware platforms, such as:
 -  Laptops should have at least 2 available physical USB-A ports.
 
 -  For *FIRST* Tech Challenge, USB-C ports on laptops are not able to
-   work properly with the REV Control Hub nor REV Driver Hub, so it is
+   work properly with the REV :term:`Control Hub` nor REV :term:`Driver Hub`, so it is
    important to have USB-A ports also available.
 
 

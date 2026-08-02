@@ -2,7 +2,7 @@ Hardware Example: control a servo
 =================================
 
 Here’s a very simple example to illustrate how a myBlock can access the
-**robot hardware**. Here, the Blocks user enters the servo’s name as a
+**robot hardware**. Here, the :term:`Blocks` user enters the :term:`servo <Servo>`’s name as a
 **parameter** of the myBlock.
 
 .. image:: images/a0300-wiggle-OBJ-short.png
@@ -27,14 +27,14 @@ Line 17 shows how to access **hardwareMap**, the configured devices list
 provided from BlocksOpModeCompanion. That single line of Java does this:
 - declare a new variable called myServo, of type (class) Servo - **get**
 the properties (methods and variables) of the named servo from
-hardwareMap - assign those properties to the new variable myServo
+:term:`hardwareMap` - assign those properties to the new variable myServo
 
 Line 20 is a **for loop**, which you can learn about
 `here <https://www.w3schools.com/java/java_for_loop.asp>`__ or
 `here <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>`__.
 It runs the specified servo back and forth, using the specified duration
 and number of cycles. This **for loop** has the added condition
-``opModeIsActive()``, to monitor and verify the OpMode has not been
+``opModeIsActive()``, to monitor and verify the :term:`OpMode` has not been
 stopped.
 
 Lines 22 and 24: the object myServo uses a method ``setPosition()`` from
@@ -77,7 +77,7 @@ OpMode like this:
 
 .. image:: images/a0320-wiggle-OpMode.png
 
-The final ``.sleep`` Block allows any telemetry to remain visible on the
+The final ``.sleep`` Block allows any :term:`telemetry <Telemetry>` to remain visible on the
 DS screen, before this sample OpMode ends.
 
 

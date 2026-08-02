@@ -2,7 +2,7 @@ Tutorials
 ============
 
 These are a couple tutorials that will walk you through the process of creating and editing 
-in FTC Docs.
+in :term:`FTC Docs`.
 
 .. toctree::
     :maxdepth: 2

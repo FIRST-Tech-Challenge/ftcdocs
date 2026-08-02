@@ -103,8 +103,8 @@ attack.
    DEAUTH packets around that time, and cross-reference the source address
    of those packets against the addresses of the robots that lost wireless
    connectivity. During a DEAUTH attack, an attacker spoofs the MAC address
-   of the target Robot Controller, pretends to be that Robot Controller, and
-   sends DEAUTH packets to devices (such as the Driver Station) connected to
+   of the target :term:`Robot Controller`, pretends to be that Robot Controller, and
+   sends DEAUTH packets to devices (such as the :term:`Driver Station`) connected to
    its wireless network.
 
 To stop the capture, click the red square icon. Use **File -> Save** to save

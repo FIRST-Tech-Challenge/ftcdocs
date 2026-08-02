@@ -6,13 +6,13 @@ Understanding AprilTag Detection Values
 Introduction
 ------------
 
-When an AprilTag is detected by the new SDK vision processing system, the core
+When an :term:`AprilTag` is detected by the new SDK vision processing system, the core
 code returns a collection of raw data that is often not easily interpreted.
 However, the data can be further transformed into a familiar frame of reference
 to make it more easily utilized.
 
 In the *FIRST* Tech Challenge SDK, the AprilTag API will present the Team
-OpMode with a collection of translation and rotation values, called *ftcPose*,
+:term:`OpMode` with a collection of translation and rotation values, called *ftcPose*,
 that represent the Tag’s position in 3D space.
 
 To understand how to interpret these values, it’s easier to consider a simpler
@@ -98,7 +98,7 @@ horizontally (parallel to the ground).
 
 The AprilTag video preview image from the Camera Stream preview is shown below.
 The left tag has an ID of 0 and the right tag has an ID of 1. This video is
-being captured by a Logitech C920 Pro HD webcam, running at 648x480 resolution.
+being captured by a Logitech C920 Pro HD :term:`webcam <Webcam>`, running at 648x480 resolution.
 In this mode the camera has Field-Of-View (FOV) of 60 degrees. The physical
 tags are 3.4” square.
 

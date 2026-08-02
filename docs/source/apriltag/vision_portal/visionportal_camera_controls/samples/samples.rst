@@ -5,7 +5,7 @@ The intent of this tutorial is to describe the available camera
 controls, allowing programmers to **develop their own solutions** guided
 by the SDK API (Javadoc).
 
-Rather than reproduce sample code here, this page points to the OpModes in
+Rather than reproduce sample code here, this page points to the :term:`OpModes <OpMode>` in
 the `FtcRobotController repository
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/tree/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples>`__,
 which are maintained alongside the SDK and updated each season. The same

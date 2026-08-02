@@ -1,12 +1,12 @@
 VisionPortal Camera Controls
 ============================
 
-Clearer camera images can improve AprilTag and Color Processing results. The
+Clearer camera images can improve :term:`AprilTag` and Color Processing results. The
 SDK offers eight **camera controls** (Exposure, Gain, White Balance, Focus and
 Pan/Tilt/Zoom), available in Blocks, OnBot Java and Android Studio. These
 controls can be applied under various lighting conditions.
 
-The webcam itself is opened by a :ref:`VisionPortal
+The :term:`webcam <Webcam>` itself is opened by a :ref:`VisionPortal
 <apriltag/vision_portal/visionportal_overview/visionportal-overview:visionportal overview>`,
 which also provides the control objects described here.
 
@@ -35,8 +35,8 @@ Summary
 
 Camera controls in the SDK could potentially improve AprilTag detections and
 Color Processor results. Exposure, gain and other values could be
-pre-programmed in team autonomous OpModes. It's also possible to manually
-enter such values before a match begins, based on anticipated lighting,
+pre-programmed in team autonomous :term:`OpModes <OpMode>`. It's also possible to
+manually enter such values before a :term:`match <Match>` begins, based on anticipated lighting,
 starting position and other game-time factors.
 
 You are encouraged to submit other webcam reports and examples that

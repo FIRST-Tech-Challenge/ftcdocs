@@ -82,7 +82,7 @@ DIY Printers (Voron, HevOrt, VZBot)
              printers we would highly advise against a DIY printer. These printers are **projects** and take significant 
              effort and upkeep, which make them a poor choice for a first or second printer.
 
-If you want to take a deeper dive into 3D Printing and achieve both extreme speeds and quality, a DIY printer 
+If you want to take a deeper dive into :term:`3D Printing` and achieve both extreme speeds and quality, a DIY printer
 may be a good choice. DIY printers can be tailored to your specific needs and perform extremely well but are 
 typically a huge time and financial commitment.
 

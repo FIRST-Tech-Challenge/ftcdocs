@@ -3,7 +3,7 @@ Downloading the Android Studio Project Folder :bdg-success:`AS`
 
 The SDK can be downloaded from a GitHub repository. GitHub is a web-based
 version control company that lets individuals and organizations host content
-online. In order to access the Android Studio software, you will need to have a
+online. In order to access the :term:`Android Studio` software, you will need to have a
 GitHub account. You can create one for free by visiting the GitHub website:
 
 *  https://github.com/

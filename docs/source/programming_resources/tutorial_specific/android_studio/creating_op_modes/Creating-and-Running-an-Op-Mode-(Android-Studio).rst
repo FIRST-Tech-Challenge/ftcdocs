@@ -4,10 +4,10 @@ Creating and Running an OpMode :bdg-success:`AS`
 TeamCode Module
 ~~~~~~~~~~~~~~~
 
-If you successfully imported the Android Studio project folder, you
+If you successfully imported the :term:`Android Studio` project folder, you
 will see on the project browser an Android module named ``TeamCode``. The
 Android Studio project folder will be used to build a version of the
-Robot Controller app that includes the custom OpMode that you will
+:term:`Robot Controller` app that includes the custom :term:`OpMode` that you will
 write to control your competition robot.
 
 .. image:: images/teamcodeFolder.jpg
@@ -23,7 +23,7 @@ Studio project folder.
 Javadoc Reference Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Javadoc reference documentation for the SDK is available online.
+The :term:`Javadoc` reference documentation for the SDK is available online.
 Visit the following URL to view the SDK documentation:
 
 *  https://javadoc.io/doc/org.firstinspires.ftc
@@ -206,16 +206,16 @@ replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead.
 
 You can see from the sample code that an OpMode is defined as a Java
 class. In this example, the OpMode name is called ``MyFIRSTJavaOpMode``
-and it inherits characteristics from the LinearOpMode class.
+and it inherits characteristics from the :term:`LinearOpMode` class.
 
 .. code-block:: java
 
    public class MyFIRSTJavaOpMode extends LinearOpMode {
 
-You can also see that the OnBot Java editor created five private member
+You can also see that the :term:`OnBot Java` editor created five private member
 variables for this OpMode. These variables will hold references to the
 five configured devices that the OnBot Java editor detected in the
-configuration file of your Robot Controller.
+:term:`configuration file <Configuration File>` of your Robot Controller.
 
 .. code-block:: java
 
@@ -253,16 +253,16 @@ Note that when you attempt to retrieve a reference to a specific device
 in your OpMode, the name that you specify as the second argument of the
 ``HardwareMap.get`` method must match the name used to define the device in
 your configuration file. For example, if you created a configuration
-file that had a DC motor named ``motorTest``, then you must use this same
+file that had a :term:`DC motor <DC Motor>` named ``motorTest``, then you must use this same
 name (it is case sensitive) to retrieve this motor from the ``hardwareMap``
 object. If the names do not match, the OpMode will throw an exception
 indicating that it cannot find the device.
 
 In the next few statements of the example, the OpMode prompts the user
 to push the start button to continue. It uses another object that is
-available in the ``runOpMode`` method. This object is called telemetry and
+available in the ``runOpMode`` method. This object is called :term:`telemetry <Telemetry>` and
 the OpMode uses the ``addData`` method to add a message to be sent to the
-Driver Station. The OpMode then calls the update method to send the
+:term:`Driver Station`. The OpMode then calls the update method to send the
 message to the Driver Station. Then it calls the ``waitForStart`` method, to
 wait until the user pushes the start button on the driver station to
 begin the OpMode run.
@@ -306,8 +306,8 @@ that the laptop has USB debugging permission for the phone.
 
 |
 
-Or, if you are using a Control Hub, verify that the Control Hub is
-powered by a freshly charged 12V battery, and that it is connected to
+Or, if you are using a :term:`Control Hub`, verify that the Control Hub is
+powered by a freshly charged 12V :term:`battery <Battery>`, and that it is connected to
 your laptop through its USB Type C port. Note that the Control Hub
 should automatically have USB debugging permission enabled.
 
@@ -441,7 +441,7 @@ Modifying Your OpMode to Control a Motor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's modify your OpMode to control the DC motor that you connected and
-configured for your REV Robotics Control Hub or REV Robotics Expansion Hub. Modify the code for the program
+configured for your REV Robotics Control Hub or REV Robotics :term:`Expansion Hub`. Modify the code for the program
 loop so that it looks like the following:
 
 .. code-block:: java
@@ -473,7 +473,7 @@ negative value of the gamepad1's left joystick:
    tgtPower = -this.gamepad1.left_stick_y;
 
 The object ``gamepad1`` is available for you to access in the ``runOpMode``
-method. It represents the state of gamepad #1 on your Driver Station.
+method. It represents the state of :term:`gamepad <Gamepad>` #1 on your Driver Station.
 Note that for the F310 gamepads that are used during the competition,
 the Y value of a joystick ranges from -1, when a joystick is in its
 topmost position, to +1, when a joystick is in its bottommost position.
@@ -513,7 +513,7 @@ or other approved gamepad to the Driver Station.
 
 Connect the gamepad to the Driver Station. If using a REV Robotics Driver
 Hub, you can directly connect the gamepad to one of the USB-A ports. On a
-DRIVER STATION phone, you will need a Micro USB OTG adapter cable.
+DRIVER STATION phone, you will need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center
