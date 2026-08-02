@@ -1,4 +1,4 @@
-3d Printing Terminology
+3D Printing Terminology
 =======================
 
 3D Printing terminology can often feel overwhelming and complex, to simplify here's a list of some terms to know!
@@ -42,7 +42,7 @@ General 3D Printing Terms
 
 * **Axes**: A 3D printer has 3 axes, with the X and Y typically being interchangeable and the Z axis being up and down. There will normally be one or more steppers controlling each of these axes.
 
-* **Hotend Cooling Fan**: All hotends have a heatsink around them to dissipate heat and prevent it from interfering with other printer functions ("heat creep" is a common issue with poor hotend cooling, in which filament crumples upon itself instead of being pushed through the extruder). The hotend cooling fan is directed at the hotend heat sink in order to prevent issues and help further dissapate heat.
+* **Hotend Cooling Fan**: All hotends have a heatsink around them to dissipate heat and prevent it from interfering with other printer functions ("heat creep" is a common issue with poor hotend cooling, in which filament crumples upon itself instead of being pushed through the extruder). The hotend cooling fan is directed at the hotend heat sink in order to prevent issues and help further dissipate heat.
 
 * **Part Cooling Fan**: Most printers also have a fan directed below the nozzle to cool parts as they're printed. Some filaments don't print very cleanly without cooling, drooping over themselves, so this is a very important part of the printer for print quality. PLA is easily one of the most volatile materials when it comes to cooling.
 

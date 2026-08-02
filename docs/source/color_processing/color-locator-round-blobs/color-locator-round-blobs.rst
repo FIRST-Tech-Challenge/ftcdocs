@@ -226,9 +226,9 @@ Lighting Challenges
 
 Robotics vision is highly sensitive to field lighting.  The FTC VisionPortal offers software tools called Camera Controls to help address varying or "difficult" lighting conditions.
 
-If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls:visionportal camera controls>`.
+If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera Controls <apriltag/vision_portal/visionportal_camera_controls/index:visionportal camera controls>`.
 
-More detail on these controls is provided in an :ref:`older tutorial - ftc-docs Webcam Controls <programming_resources/vision/webcam_controls/index:webcam controls>`; disregard the TensorFlow references.
+More detail on these controls is provided in the :ref:`ftc-docs Webcam Controls tutorial <apriltag/vision_portal/visionportal_camera_controls/index:visionportal camera controls>`.
 
 These tools can help with Color Processing **and** AprilTag Detection.
 

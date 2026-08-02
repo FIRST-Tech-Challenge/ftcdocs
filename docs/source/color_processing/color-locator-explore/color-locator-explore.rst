@@ -31,7 +31,7 @@ Building the VisionPortal
 
 The Sample OpMode first creates a "Color Blob Locator" **Processor** using the
 Java **Builder** pattern.  This is the same Builder pattern used to create an
-AprilTag Processor, and previously a TensorFlow Processor.
+AprilTag Processor.
 
 The Sample OpMode then creates a **VisionPortal**, again using a Builder
 pattern.  This includes adding the "Color Blob Locator" Processor to the

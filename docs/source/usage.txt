@@ -5,11 +5,15 @@ Usage
 
 Installation
 ------------
-This project has a number of requirements to install on a clean system:
+This project provides a `Nix <https://nixos.org>`_ flake with everything needed to build the docs.
+Install Nix, then from the repository root run:
 
 .. code-block:: console
 
-    pip install -r requirements.txt
+    nix develop
+
+This drops you into a shell with Python, Sphinx, and the LaTeX toolchain used for PDF booklets already
+installed. See :doc:`/contrib/tutorials/setup/setup` for more detail.
 
 
 Generating Documentation Locally

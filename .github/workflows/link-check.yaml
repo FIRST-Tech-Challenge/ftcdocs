@@ -9,20 +9,20 @@ jobs:
   link-check:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout Repository  
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Python Setup
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.9
-          cache: 'pip'
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Python Install Dependencies
-        run: pip install -r docs/requirements.txt
+      - name: Restore and cache Nix store
+        uses: nix-community/cache-nix-action@v7
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
+          gc-max-store-size-linux: 9G
 
       - name: link-check
-        run: make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
+        run: nix develop -c make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Arhive Log
         if: ${{ failure() }}

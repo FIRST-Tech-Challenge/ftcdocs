@@ -20,16 +20,16 @@ https://docs.oracle.com/javase/tutorial/
 What's an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-During a typical FIRST Tech Challenge match, a team's robot must perform
+During a typical *FIRST* Tech Challenge match, a team's robot must perform
 a variety of tasks to score points. For example, a team might want their
 robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
-programs called *op modes* (which stands for "operational modes") to
-specify the behavior for their robot. These op modes run on the Robot
+programs called *OpModes* (which stands for "operational modes") to
+specify the behavior for their robot. These OpModes run on the Robot
 Controller phone after being selected on the DRIVER STATION device.
 
-Teams who are participating in the FIRST Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
+Teams who are participating in the *FIRST* Tech Challenge have a variety
+of programming tools that they can use to create their own OpModes.
 This document explains how to use the OnBot Java Programming Tool to
 write an op mode for a robot.
 
@@ -74,7 +74,7 @@ this document, however, assume that you are using a Windows laptop.
 
 Note that this section of the wiki assumes that you have already setup
 and configured your Android devices and robot hardware. It also assumes
-that you have successfully connected your laptop to the Progam & Manage
+that you have successfully connected your laptop to the Program & Manage
 server on the Robot Controller device.
 
 Creating Your First Op Mode
@@ -89,7 +89,7 @@ Programming Tool to create the program logic for your first op mode.
 Creating Your First Op Mode Instructions
 ----------------------------------------
 
-1. Launch the web browser on your laptop (FIRST recommends using      
+1. Launch the web browser on your laptop (*FIRST* recommends using      
 Google Chrome) and find the web address that is displayed on the      
 Program & Manage screen of the Robot Controller. 
 

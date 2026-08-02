@@ -5,22 +5,22 @@ VisionPortal Overview
 interface for vision processing.
 
 -  For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of
-   **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection
-   (TFOD)** – at the same time!
+   **AprilTag**, **EasyOpenCV** and the **Color Processors** – at the same
+   time!
 
    .. figure:: images/020-dual-detection.png
       :width: 75%
       :align: center
       :alt: Dual Detection
 
-      Dual Preview with both AprilTags and TensorFlow
+      Dual Preview, with two Processors running at once
 
    |
 
 -  **AprilTag** detections include ID code and **pose**: tag location and
    orientation, relative to the camera.
 
--  **Camera Controls**, which can improve AprilTag and TFOD performance for
+-  **Camera Controls**, which can improve vision processing performance for
    webcam, are now fully available to **FTC Blocks** users.
 
 -  **Multiple cameras** can operate at the same time – phone camera and/or
@@ -86,17 +86,19 @@ goals.
    :maxdepth: 1
 
    AprilTag Introduction <../apriltag_intro/apriltag-intro>
+   Webcams for VisionPortal <../visionportal_webcams/visionportal-webcams>
    Vision Processor Initialization <../vision_processor_init/vision-processor-init>
    VisionPortal Initialization <../visionportal_init/visionportal-init>
    VisionPortal Previews <../visionportal_previews/visionportal-previews>
    AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>
    AprilTag Metadata <../apriltag_metadata/apriltag-metadata>
    AprilTag Reference Frame <../apriltag_reference_frame/apriltag-reference-frame>
-   AprilTag Camera Calibration <../apriltag_camera_calibration/apriltag-camera-calibration>
+   Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
    AprilTag Pose <../apriltag_pose/apriltag-pose>
    AprilTag Library <../apriltag_library/apriltag-library>
+   AprilTag Localization <../apriltag_localization/apriltag-localization>
    VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
-   VisionPortal Camera Controls <../visionportal_camera_controls/visionportal-camera-controls>
+   VisionPortal Camera Controls <../visionportal_camera_controls/index>
    Vision Multiportal <../vision_multiportal/vision-multiportal>
    AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
 

@@ -1,7 +1,7 @@
 Temperature Tuning
 ==================
 
-In order to have strong, good quality 3d printed parts, you need to get your temperatures and speeds right. Every filament that you buy will 
+In order to have strong, good quality 3D printed parts, you need to get your temperatures and speeds right. Every filament that you buy will 
 have a range of temperatures that it thinks are acceptable to print it at, but the one that works best for you depends on all sorts of conditions. 
 Start in the middle of that range, and work from there.
 

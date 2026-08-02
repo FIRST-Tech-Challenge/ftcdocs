@@ -25,7 +25,7 @@ available to buy, how to properly set up a part to be printed, and what material
 
 
     3D Printing Introduction <3d_printing_intro/3d_printing_intro>
-    Example 3d Printed Parts <3d_printed_parts/3d_printed_parts>
+    Example 3D Printed Parts <3d_printed_parts/3d_printed_parts>
     General Knowledge <general_knowledge/general_knowledge.rst>
     Printer Choice <printer_choice/printer_choice>
     Filament Choice <filament_choice/filament_choice>

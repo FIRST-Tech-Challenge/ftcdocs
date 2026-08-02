@@ -9,7 +9,7 @@ In September 2022, REV Robotics began shipping `Control Hubs
 Inertial Measurement Unit (IMU). The new IMU chip is designated `BHI260AP
 <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__,
 replacing the existing Hub’s IMU chip `BNO055
-<https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both are
+<https://www.bosch-sensortec.com/en/products/smart-sensor-systems/bno055/>`__.  Both are
 from Bosch Sensortec. An IMU can measure many aspects of device motion; this
 explanatory document focuses primarily on **rotation**.
 
@@ -197,10 +197,9 @@ pointing along the positive axis, the fingers curl in the direction of
 
 This tutorial will **not** discuss the *FIRST* Tech Challenge 
 :ref:`Field Coordinate System <first field coordinate system>`.
-Your OpModes might relate robot orientation to the overall field or `‘global
-coordinates’
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`__
-for navigation, but that’s beyond the focus here on using the IMU.
+Your OpModes might relate robot orientation to the overall field, or ‘global
+coordinates’, for navigation, but that’s beyond the focus here on using the
+IMU.
 
 Physical Hub Mounting
 ---------------------
@@ -754,7 +753,7 @@ The IMU should be motionless during its initialization process. The
 OpMode will continue when initialization is complete.
 
 .. note::
-   Fun fact: Under the legacy ``BNO055IMU`` interface, intialization takes
+   Fun fact: Under the legacy ``BNO055IMU`` interface, initialization takes
    about 900 milliseconds. Under the new universal IMU interface, the BNO055
    takes about 100 milliseconds, while the BHI260AP takes about 50
    milliseconds.

@@ -3,12 +3,14 @@
         {
             "type": "shell",
             "label": "make-setup",
-            "command": "make",
+            "command": "nix",
             "options": {
-                "cwd": "${workspaceFolder}/docs"
+                "cwd": "${workspaceFolder}"
             },
             "args": [
-                "setup"
+                "develop",
+                "--command",
+                "true"
             ],
             "group": {
                 "kind": "build",
@@ -18,11 +20,16 @@
         {
             "type": "shell",
             "label": "make-html",
-            "command": "make",
+            "command": "nix",
             "options": {
-                "cwd": "${workspaceFolder}/docs"
+                "cwd": "${workspaceFolder}"
             },
             "args": [
+                "develop",
+                "--command",
+                "make",
+                "-C",
+                "docs",
                 "html"
             ],
             "group": {
@@ -33,11 +40,16 @@
         {
             "type": "shell",
             "label": "make-latexpdf",
-            "command": "make",
+            "command": "nix",
             "options": {
-                "cwd": "${workspaceFolder}/docs"
+                "cwd": "${workspaceFolder}"
             },
             "args": [
+                "develop",
+                "--command",
+                "make",
+                "-C",
+                "docs",
                 "latexpdf"
             ],
             "group": {
@@ -48,11 +60,16 @@
         {
             "type": "shell",
             "label": "make-autobuild",
-            "command": "make",
+            "command": "nix",
             "options": {
-                "cwd": "${workspaceFolder}/docs"
+                "cwd": "${workspaceFolder}"
             },
             "args": [
+                "develop",
+                "--command",
+                "make",
+                "-C",
+                "docs",
                 "autobuild"
             ],
             "problemMatcher": [],
@@ -64,11 +81,16 @@
         {
             "type": "shell",
             "label": "make-clean",
-            "command": "make",
+            "command": "nix",
             "options": {
-                "cwd": "${workspaceFolder}/docs"
+                "cwd": "${workspaceFolder}"
             },
             "args": [
+                "develop",
+                "--command",
+                "make",
+                "-C",
+                "docs",
                 "clean"
             ],
             "problemMatcher": []

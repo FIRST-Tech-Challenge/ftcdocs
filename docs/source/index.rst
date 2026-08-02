@@ -54,12 +54,6 @@ and :doc:`gracious_professionalism/gp` to see why.
    Updating Components <ftc_sdk/updating/index>
 
 .. toctree::
-   :caption: Robot Building Resources
-   :maxdepth: 1
-   :hidden:
-
-
-.. toctree::
    :caption: Control System Resources
    :maxdepth: 1
    :hidden:
@@ -72,15 +66,17 @@ and :doc:`gracious_professionalism/gp` to see why.
    programming_resources/index
 
 .. toctree::
-   :caption: AprilTag Resources
+   :caption: Vision Resources
    :maxdepth: 1
    :hidden:
 
-   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   Computer Vision Overview </programming_resources/vision/vision_overview/vision-overview>
    VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
-   Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
+   VisionPortal Camera Controls </apriltag/vision_portal/visionportal_camera_controls/index>
+   Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
+   Color Processing </color_processing/index>
+   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
-   AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
 
 .. toctree::
@@ -90,12 +86,15 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    Computer Aided Design (CAD) <cad_resources/index>
 
-.. toctree:: 
-   :caption: Electrostatic Discharge
+.. toctree::
+   :caption: Guides
    :maxdepth: 1
    :hidden:
 
+   Control System Troubleshooting Guide <control_system_troubleshooting/index>
    Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+   Robot Wiring Guide <robot_building/wiring_guide/wiring-guide>
+   Robot Best Practices <robot_building/best_practices/robot-best-practices>
 
 .. toctree::
    :caption: Manufacturing
@@ -358,7 +357,7 @@ The main menu contains links to the top level content. The following are quick l
 
    This project is under active development. Anything contained herein is for 
    informational purposes only; while this documentation is intended to support 
-   teams and in some way provide context to game rules, the game rules supercede 
+   teams and in some way provide context to game rules, the game rules supersede
    all documentation found here. If you have feedback about this project, 
    please use our :doc:`feedback form <ftc_docs/form/form>`.
 

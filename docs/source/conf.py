@@ -89,8 +89,12 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Sidebar logo
-html_logo = "assets/FIRSTTech_iconHorz_RGB_reverse.png"
+# Sidebar logo. The sidebar is white (matching the firstinspires.org header), so
+# this is the lockup with the ink *FIRST* wordmark. Dark mode needs the white
+# wordmark instead; `_templates/layout.html` emits both and ftc-rtd.css picks
+# one, so its counterpart lives beside this file as
+# _static/ftc-logo-horz-ondark.png.
+html_logo = "_static/ftc-logo-horz-onlight.png"
 
 # URL favicon
 html_favicon = "assets/FIRSTicon_RGB_withTM.ico"
@@ -261,6 +265,23 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 linkcheck_timeout = 60
 
+# Retry once on a transient failure (dropped connection, momentary 5xx) before
+# reporting a link broken. Does not apply to 429s, which are handled by the
+# rate-limit backoff below.
+
+linkcheck_retries = 2
+
+# Sphinx backs off with exponential delay (starting at 60s, doubling each
+# attempt) when a server responds 429, up to this cap, before giving up and
+# reporting the link broken. The default (300s) means a single domain that
+# keeps returning 429 can burn up to ~12 minutes of build time (60+120+240+300)
+# before Sphinx gives up on it. Domains confirmed to hard-block CI IPs
+# regardless of backoff belong in linkcheck_ignore below instead of relying on
+# this timeout; this cap just limits the damage from the next one we haven't
+# identified yet.
+
+linkcheck_rate_limit_timeout = 90.0
+
 # Configure linkcheck errors
 
 linkcheckdiff_errors = set(['broken'])
@@ -304,11 +325,41 @@ linkcheck_allowed_redirects = {
 # GitHub links with Javascript Anchors cannot be detected by linkcheck
 # Solidworks returns 403 errors on too many web pages. Thanks, buddy.
 # As of 7/13/23, april.eecs.umich.edu has an expired certificate
+#
+# AndyMark, Pitsco, Studica, and RCMart (confirmed 7/2026) all return HTTP 403
+# or 429 to a single, isolated request from CI IP ranges regardless of user
+# agent or retry/backoff -- this is IP-reputation-based blocking, not a
+# request-volume rate limit, so no amount of waiting resolves it. Without
+# this, each link burns the full linkcheck_rate_limit_timeout backoff every
+# run before being marked broken.
+# docutils.sourceforge.io and www.w3.org (confirmed 7/2026) return HTTP 403 to
+# a plain curl with a browser User-Agent every time -- SourceForge and W3C
+# both aggressively block automated/CI traffic on these doc pages.
+# github.com/join (the account-signup page) is blocked from automated
+# checkers the same way; other github.com links are still checked normally.
+#
+# AndyMark and Pitsco (confirmed 7/2026) return HTTP 429 to a single, isolated
+# request from CI IP ranges regardless of user agent or retry/backoff -- this
+# is IP-reputation-based blocking, not a request-volume rate limit, so no
+# amount of waiting resolves it. Without this, each link burns the full
+# linkcheck_rate_limit_timeout backoff every run before being marked broken.
+# www.otterbox.com (confirmed 7/2026) 429s every request from CI IP ranges and
+# keeps resending a fresh Retry-After on each retry, so Sphinx's rate-limit
+# backoff never hits linkcheck_rate_limit_timeout and just sleeps indefinitely
+# -- one PR run spent 31 minutes retrying this single link before eventually
+# succeeding. Not reproducible from a non-CI IP (resolves instantly there),
+# confirming this is IP-reputation blocking, not a real outage.
+# helpdeskgeek.com (confirmed 7/2026) 403s every request from CI IP ranges.
+# The exact headers already sent by linkcheck_request_headers below (User-Agent,
+# Accept, Accept-Language, Referer, Accept-Encoding) are sufficient to get a
+# 200 from a non-CI IP, so this isn't a missing-header problem -- it's the
+# same CI-IP-reputation blocking as the entries above.
 
 linkcheck_ignore = [
-   r'https://my.firstinspires.org/Dashboard/', 
+   r'https://my.firstinspires.org/Dashboard/',
    "https://ftc-ml.firstinspires.org",
    r'https://github.com/.*#',
+   r'https://github.com/join',
    r'https://wiki.dfrobot.com/.*#',
    r'https://www.solidworks.com/',
    r'https://sketchup.com/',
@@ -317,6 +368,14 @@ linkcheck_ignore = [
    r'https://april.eecs.umich.edu/',
    r'https://www.autodesk.com/',
    r'https://knowledge.autodesk.com/',
+   r'https://www.andymark.com/',
+   r'https://www.pitsco.com/',
+   r'https://www.studica.com/',
+   r'https://www.rcmart.com/',
+   r'https://www.otterbox.com/',
+   r'https://helpdeskgeek.com/',
+   r'https://docutils\.sourceforge\.io/',
+   r'https://www\.w3\.org/WAI/',
    r'https://www.3dflow.net/',
    r'https://stackoverflow.com',
    r'http://192.168.43.1',
@@ -344,10 +403,35 @@ if(os.environ.get("BOOKLETS_BUILD") == "true"):
         ('robot_building/rev/PowerPlay/part1/index', "rob_building_rev_p1.tex", 'Part 1 - Basic \'Bot Guide for REV', author, "manual"), # REV Bot Building Power Play P1
         ('manufacturing/3d_printing/index', '3d_printing.tex', '3D Printing Guide', author, "manual"), # 3D Printing
         ('hardware_and_software_configuration/configuring/managing_esd/managing-esd', 'esd.tex', 'Managing Electrostatic Discharge', author, "manual"), # ESD
+        ('booklets/wiring_guide', 'wiring_guide.tex', 'Robot Wiring Guide', author, "manual"), # Robot Wiring Guide
     ]
 
+# Roboto is the typeface used across firstinspires.org. This is the same axis
+# request the site makes -- the full 100..900 variable range rather than a set
+# of discrete weights, so intermediate weights (the skin uses 600 for eyebrows
+# and in-body links, as the site does) render at their true weight instead of
+# being rounded up to 700. It also arrives as one variable font file rather
+# than one file per weight.
+#
+# `display=swap` rather than the site's `display=block`: a docs page should
+# render its text in the fallback immediately instead of holding it invisible
+# while the font loads. ftc-rtd.css falls back to Helvetica/Arial, so an
+# offline build still renders correctly.
+ROBOTO_HREF = (
+    "https://fonts.googleapis.com/css2"
+    "?family=Roboto:ital,wght@0,100..900;1,100..900"
+    "&display=swap"
+)
+
+
 def setup(app):
-    app.add_css_file("css/ftc-rtd.css")
+    app.add_css_file(ROBOTO_HREF)
+    # priority 900 puts the skin after every other stylesheet in <head>.
+    # sphinx_design and sphinx_rtd_dark_mode add theirs via `html_css_files`,
+    # which Sphinx emits at priority 800, so at the default priority (500) the
+    # skin would lose every same-specificity contest against
+    # `dark_mode_css/dark.css`.
+    app.add_css_file("css/ftc-rtd.css", priority=900)
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
     app.add_js_file("js/adjust-css-vars.js")
