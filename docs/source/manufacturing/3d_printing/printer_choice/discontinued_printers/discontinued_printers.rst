@@ -38,7 +38,7 @@ Mk3s+ Drawbacks
 * Last generation 3D printer, Mk4 improves on issues
 
 .. image:: images/prusamk3.png
-  :alt: Picture of a Prusa Mk3
+  :alt: A Prusa MK3S+ 3D printer.
 
 |
 
@@ -66,7 +66,7 @@ Mk4 Drawbacks
 * Cartesian kinematics make matching the speed of CoreXY printers difficult
 
 .. image:: images/prusamk4.png
-  :alt: Picture of a Prusa Mk4
+  :alt: A Prusa MK4 3D printer.
 
 |
 
@@ -103,7 +103,7 @@ P1P Drawbacks
 * No local AI capabilities, leading to more potential print failures compared to newer Bambu Lab printers
 
 .. image:: images/bambup1p.png
-  :alt: Picture of a Bambu Lab P1P
+  :alt: A Bambu Lab P1P 3D printer.
 
 |
 
@@ -143,7 +143,7 @@ X1C Drawbacks
 * This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to
 
 .. image:: images/bambulabx1c.png
-  :alt: Picture of a BambuLabs X1C
+  :alt: A Bambu Lab X1C 3D printer.
 
 |
 
@@ -183,7 +183,7 @@ M5 Drawbacks
 * Not very good software
 
 .. image:: images/ankerm5.png
-  :alt: Picture of a AnkerMake M5
+  :alt: An AnkerMake M5 3D printer.
 
 |
 
@@ -217,7 +217,7 @@ M5C Drawbacks
 * V wheel motion system can wear after long extended use
 
 .. image:: images/ankerm5c.png
-  :alt: Picture of a AnkerMake M5C
+  :alt: An AnkerMake M5C 3D printer.
 
 |
 
@@ -258,7 +258,7 @@ S1 Drawbacks
 * Speed limited compared to other printers at this price range
 
 .. figure:: images/ender3s1.png
-  :alt: Picture of an Ender 3 S1
+  :alt: A Creality Ender-3 S1 3D printer.
 
   This is the Ender 3 S1 base model.
 
@@ -304,7 +304,7 @@ Ender 3 Drawbacks
 * Can take a bit of tweaking/upgrading to work consistently.
 
 .. figure:: images/ender3.png
-  :alt: Picture of a Creality Ender 3
+  :alt: A Creality Ender-3 3D printer.
 
   Creality Ender 3 Base Model
 
@@ -332,6 +332,6 @@ SV06 Drawbacks
 * Not many slicer profiles available (Slowly being solved)
 
 .. image:: images/sovolsv06.png
-  :alt: Picture of a Sovol SV06
+  :alt: A Sovol SV06 3D printer.
 
 |

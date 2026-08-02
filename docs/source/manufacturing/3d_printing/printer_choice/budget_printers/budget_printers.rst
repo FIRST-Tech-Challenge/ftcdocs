@@ -67,7 +67,7 @@ Centauri Carbon Drawbacks
 * Slicer and software ecosystem is less mature than the largest community ecosystems
 
 .. image:: images/centauricarbon.png
-  :alt: Picture of an Elegoo Centauri Carbon
+  :alt: An Elegoo Centauri Carbon 3D printer.
 
 |
 
@@ -104,7 +104,7 @@ P1S Drawbacks
 * Reliant on Bambu Lab for future firmware/software updates
 
 .. image:: images/bambulabp1s.png
-  :alt: Picture of a Bambu Lab P1S
+  :alt: A Bambu Lab P1S 3D printer.
 
 |      
 
@@ -139,7 +139,7 @@ Common Drawbacks
 * Any drawbacks of the individual printer. Make sure you keep an eye out for things you want in a printer when researching.
 
 .. figure:: images/anycubicviper.png
-  :alt: Picture of an Anycubic Viper
+  :alt: An Anycubic Viper 3D printer.
 
   Anycubic's Viper
 

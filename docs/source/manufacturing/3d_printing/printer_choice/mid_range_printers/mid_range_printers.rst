@@ -40,7 +40,7 @@ Centauri Carbon 2 Combo Drawbacks
 * Ecosystem maturity and long-term parts/support experience are still developing compared to the most established platforms
 
 .. image:: images/centauricarbon2.png
-  :alt: Picture of an Elegoo Centauri Carbon 2 Combo
+  :alt: An Elegoo Centauri Carbon 2 Combo 3D printer.
 
 |
 
@@ -73,7 +73,7 @@ Prusa Mini+ Drawbacks
           yourself the headache of customs and long shipping times and order from their USA subsidiary.
 
 .. image:: images/prusamini.png
-  :alt: Picture of a Prusa Mini
+  :alt: A Prusa Mini+ 3D printer.
 
 |
 
@@ -101,7 +101,7 @@ MK4S Drawbacks
 * Wi-Fi uses the ESP module which can be slow (delivered with the printer; confirm what is included with your region/config)
 
 .. image:: images/prusamk4s.png
-  :alt: Picture of a Prusa MK4S
+  :alt: A Prusa MK4S 3D printer.
 
 |
 
@@ -133,6 +133,6 @@ P2S Drawbacks
 * Replacement parts and long-term ecosystem are more vendor-dependent than open-platform printers
 
 .. image:: images/bambulabp2s.jpg
-  :alt: Picture of a Bambu Lab P2S
+  :alt: A Bambu Lab P2S 3D printer.
 
 |

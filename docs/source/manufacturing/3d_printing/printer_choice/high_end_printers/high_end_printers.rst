@@ -36,7 +36,7 @@ Core One+ Drawbacks
 * Lead times and regional availability can vary
 
 .. image:: images/prusacoreoneplus.png
-  :alt: Picture of a Prusa Core One+
+  :alt: A Prusa Core One+ 3D printer.
 
 |
 
@@ -71,7 +71,7 @@ H2S Drawbacks
 * Large, so may not fit in all workspaces
 
 .. image:: images/bambulabh2s.png
-  :alt: Picture of a Bambu Lab H2S
+  :alt: A Bambu Lab H2S 3D printer.
 
 |
 
@@ -107,6 +107,6 @@ Drawbacks
 * Huge financial commitment (typically $1000+)
 
 .. image:: images/voron24.png
-  :alt: Picture of a Voron 2.4
+  :alt: A Voron 2.4 3D printer.
 
-|   
+|
