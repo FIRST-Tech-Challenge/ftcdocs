@@ -100,5 +100,5 @@ Advanced Topics for Programmers
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resources/library/ffc/programming-resources>`__
+-  `FIRST Website Programming Resources Link <https://www.firstinspires.org/resources/library/ftc/programming-resources>`__
 
