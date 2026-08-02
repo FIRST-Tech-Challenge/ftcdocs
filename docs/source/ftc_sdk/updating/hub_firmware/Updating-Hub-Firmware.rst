@@ -12,7 +12,7 @@ Here are 5 methods:
 2. Driver Station app
 3. Robot Controller (RC) app - on RC phone 
 4. Manage page on computer 
-5. Manage page on Driver Station device (DS phone or Driver Hub)
+5. Manage page on Driver Station device (Driver Hub or DS phone)
 
 .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
@@ -153,7 +153,7 @@ Here are 5 methods:
 
    That’s it! The Hub’s firmware is now updated.
 
-.. dropdown:: Method 5 - Manage page on Driver Station device - DS phone or Driver Hub
+.. dropdown:: Method 5 - Manage page on Driver Station device - Driver Hub or DS phone
 
    1. Connect the DS app to the Control Hub or RC phone, from the DS app’s
       Settings menu (never with the Android device Wi-Fi settings).

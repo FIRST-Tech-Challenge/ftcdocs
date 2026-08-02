@@ -8,6 +8,11 @@ The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-ove
 is preloaded with the Driver Station (DS) app. The procedures
 described below for a REV Driver Hub, also apply to a using an Android phone as a DS.
 
+.. important:: Only the REV Driver Hub is officially supported as a Driver
+   Station. An Android phone is legal to use in competition, but it is not
+   supported — teams who use one are responsible for all of their own testing
+   and troubleshooting.
+
 Changing the Name
 ~~~~~~~~~~~~~~~~~
 
@@ -106,8 +111,8 @@ As of 2021, all apps (v 6.1 and higher) are no longer available on Google
 Play.
 
 The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
+will allow you to download the apps to the REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and Android devices. Here
 are some of the benefits: 
 
 -  Connect a REV Control Hub via WiFi. 
