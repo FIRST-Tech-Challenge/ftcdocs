@@ -38,8 +38,6 @@ Mk3s+ Drawbacks
 * Last generation 3D printer, Mk4 improves on issues
 
 .. image:: images/prusamk3.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Prusa Mk3
 
 |
@@ -68,8 +66,6 @@ Mk4 Drawbacks
 * Cartesian kinematics make matching the speed of CoreXY printers difficult
 
 .. image:: images/prusamk4.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Prusa Mk4
 
 |
@@ -102,13 +98,11 @@ P1P Drawbacks
 * Replacement parts are proprietary from Bambu Lab (albeit well-priced). Some third-party replacements are available, but for some components, you are reliant on Bambu Lab for replacements.
 * Carbon Fiber rods can wear out over time
 * Reliant on Bambu Lab for future firmware/software updates
-* No colour screen, only monochrome with no touchscreen capabilities
+* No color screen, only monochrome with no touchscreen capabilities
 * Poor quality & low FPS camera
 * No local AI capabilities, leading to more potential print failures compared to newer Bambu Lab printers
 
 .. image:: images/bambup1p.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab P1P
 
 |
@@ -149,8 +143,6 @@ X1C Drawbacks
 * This printer doesn't shine if you don't use it for advanced filaments, and may not be worth the cost if you don't plan to
 
 .. image:: images/bambulabx1c.png
-  :align: center
-  :width: 55%
   :alt: Picture of a BambuLabs X1C
 
 |
@@ -191,8 +183,6 @@ M5 Drawbacks
 * Not very good software
 
 .. image:: images/ankerm5.png
-  :align: center
-  :width: 55%
   :alt: Picture of a AnkerMake M5
 
 |
@@ -227,8 +217,6 @@ M5C Drawbacks
 * V wheel motion system can wear after long extended use
 
 .. image:: images/ankerm5c.png
-  :align: center
-  :width: 55%
   :alt: Picture of a AnkerMake M5C
 
 |
@@ -270,8 +258,6 @@ S1 Drawbacks
 * Speed limited compared to other printers at this price range
 
 .. figure:: images/ender3s1.png
-  :align: center
-  :width: 55%
   :alt: Picture of an Ender 3 S1
 
   This is the Ender 3 S1 base model.
@@ -318,8 +304,6 @@ Ender 3 Drawbacks
 * Can take a bit of tweaking/upgrading to work consistently.
 
 .. figure:: images/ender3.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Creality Ender 3
 
   Creality Ender 3 Base Model
@@ -348,8 +332,6 @@ SV06 Drawbacks
 * Not many slicer profiles available (Slowly being solved)
 
 .. image:: images/sovolsv06.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Sovol SV06
 
 |

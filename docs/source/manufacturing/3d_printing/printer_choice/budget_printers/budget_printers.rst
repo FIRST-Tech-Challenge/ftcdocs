@@ -19,9 +19,9 @@ A1 mini Features
 * High speed (up to 500 mm/s) and acceleration (up to 10,000 mm/s²)
 * All-metal hot end; max hot end temperature: 300 °C
 * Textured PEI build plate included; max build plate temperature: 80 °C
-* Low-FPS basic monitoring camera with timelapse support
+* Low-FPS basic monitoring camera with time-lapse support
 * Sensors: filament run out sensor, filament odometry, filament tangle sensor
-* Easy-to-use colour touchscreen interface
+* Easy-to-use color touchscreen interface
 * Power loss recovery
 * Best suited filaments: PLA, PETG, TPU, PVA
 
@@ -32,8 +32,6 @@ A1 mini Drawbacks
 * Lower max bed temperature (80 °C) can limit adhesion for some higher-temp materials
 
 .. image:: images/bambulaba1mini.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab A1 mini
 
 |
@@ -44,7 +42,7 @@ Elegoo Centauri Carbon ($289-$300)
 This is a newer printer that has been getting a lot of attention for offering high-end features at a budget price. It has a CoreXY motion system, high acceleration capability, and a high-temperature hotend, which allows it to print a wide range of materials.
 It also has a large build volume for its price point, making it a good option for teams that want to print larger parts or multiple parts at once.
 There is also an enclosure, which makes it more suitable for printing with materials that require a controlled environment.
-However, there is no colour changing system (as of March 2026) compared to competing printers on the market.
+However, there is no color changing system (as of March 2026) compared to competing printers on the market.
 
 Centauri Carbon Features
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -56,21 +54,19 @@ Centauri Carbon Features
 * Max hot end temperature: 320 °C
 * Max heated bed temperature: 110 °C
 * 121-point auto bed leveling and full-auto calibration
-* Camera with timelapse support, filament runout sensor, and power loss recovery
+* Camera with time-lapse support, filament runout sensor, and power loss recovery
 * 4.3-inch color capacitive touchscreen with USB and Wi-Fi connectivity
 
 Centauri Carbon Drawbacks
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 * Newer platform with a smaller long-term FTC-specific knowledge base than older, more established models
 * Single-nozzle design with no built-in multi-color printing system
-* No colour changing functionality
+* No color changing functionality
 * Large machine footprint and higher weight may be less convenient for smaller workspaces
 * Advanced materials still require good print settings, drying/storage, and ventilation practices to print reliably
 * Slicer and software ecosystem is less mature than the largest community ecosystems
 
 .. image:: images/centauricarbon.png
-  :align: center
-  :width: 55%
   :alt: Picture of an Elegoo Centauri Carbon
 
 |
@@ -94,7 +90,7 @@ P1S Features
 * WiFi Printing capabilities and remote print monitoring
 * 256mm x 256mm x 256mm Print Volume
 * Heated chamber allows for more advanced engineering materials
-* Low-FPS basic monitoring camera with timelapse support
+* Low-FPS basic monitoring camera with time-lapse support
 * Automatic print failure detection
 * Easy to set up and use
 
@@ -108,8 +104,6 @@ P1S Drawbacks
 * Reliant on Bambu Lab for future firmware/software updates
 
 .. image:: images/bambulabp1s.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab P1S
 
 |      
@@ -135,7 +129,7 @@ Ender 3 Clones typically have at least a couple of the following...
 * Auto Bed Leveling
 * Upgraded Print Surface
 * Built in Belt Tensioners
-* Coloured Touchscreen
+* Colored Touchscreen
 
 Common Drawbacks
 ^^^^^^^^^^^^^^^^
@@ -145,8 +139,6 @@ Common Drawbacks
 * Any drawbacks of the individual printer. Make sure you keep an eye out for things you want in a printer when researching.
 
 .. figure:: images/anycubicviper.png
-  :align: center
-  :width: 55%
   :alt: Picture of an Anycubic Viper
 
   Anycubic's Viper

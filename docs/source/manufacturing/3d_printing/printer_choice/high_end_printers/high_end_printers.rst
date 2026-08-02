@@ -22,7 +22,7 @@ Core One+ Features
 * Fully automatic first layer calibration (load cell) and automatic mesh bed leveling (print area)
 * Nextruder direct-drive extruder with quick-swap nozzle system
 * Enclosed chamber with max chamber temperature: 55 °C
-* Max nozzle temperature: 290 °C; max heatbed temperature: 120 °C
+* Max nozzle temperature: 290 °C; max heated bed temperature: 120 °C
 * Networking and remote monitoring: Ethernet, Prusa Connect + mobile app support; NFC receiver + optional ESP Wi-Fi module (delivered with the printer)
 * MMU3 support
 
@@ -36,8 +36,6 @@ Core One+ Drawbacks
 * Lead times and regional availability can vary
 
 .. image:: images/prusacoreoneplus.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Prusa Core One+
 
 |
@@ -73,8 +71,6 @@ H2S Drawbacks
 * Large, so may not fit in all workspaces
 
 .. image:: images/bambulabh2s.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Bambu Lab H2S
 
 |
@@ -111,8 +107,6 @@ Drawbacks
 * Huge financial commitment (typically $1000+)
 
 .. image:: images/voron24.png
-  :align: center
-  :width: 55%
   :alt: Picture of a Voron 2.4
 
 |   
