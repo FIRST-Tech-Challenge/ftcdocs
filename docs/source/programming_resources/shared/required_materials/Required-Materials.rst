@@ -104,5 +104,5 @@ tutorials, you will need to have the following materials available:
    * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
-   * - If you are using a Control Hub as your Robot Controller, you will need one (1) micro USB OTG adapter. If you are using a smartphone as your Robot Controller, you will need two (2) micro USB OTG adapters.
+   * - If you are using a smartphone as your DRIVER STATION and/or ROBOT CONTROLLER, you will need one (1) micro USB OTG adapter per smartphone.
      - |otg|   |otg|
