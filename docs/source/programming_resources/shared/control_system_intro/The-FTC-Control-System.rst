@@ -58,7 +58,7 @@ a REV Robotics Driver Hub, though an Android smartphone may be used instead.
 
 .. important:: Only the REV Control Hub and the REV Driver Hub are officially
    supported. An Android smartphone is legal to use in competition, but it is
-   not supported — teams who use one are responsible for all of their own
+   not supported. Teams who use one are responsible for all of their own
    testing and troubleshooting.
 
 REV Robotics Control Hub and Expansion Hub

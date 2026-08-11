@@ -23,7 +23,7 @@ configuration diagrams.
 
 .. important:: Only the REV Control Hub is officially supported as a Robot
    Controller. An Android smartphone is legal to use in competition, but it is
-   not supported — teams who use one are responsible for all of their own
+   not supported. Teams who use one are responsible for all of their own
    testing and troubleshooting.
 
 .. tab-set::
