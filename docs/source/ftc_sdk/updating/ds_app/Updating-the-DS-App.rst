@@ -5,13 +5,13 @@ The Driver Station App is one of the Apps provided with the *FIRST* Tech
 Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`.  The Driver
 Station App is the major interface for robot configuration, gamepad support, 
 self-inspect, Team code selection and execution, and others. This app runs
-on the REV Driver Hub or an approved Android smartphone.
+on the REV Driver Hub or an Android smartphone.
 
 This page shows how to update the Driver Station (DS) app on these
 devices:
 
 -  REV Driver Hub
--  An approved Android DS phone
+-  An Android DS phone
 
 These methods for updating the Driver Station App are the same regardless
 of the programming language/environment used to program robot Team Code.

@@ -10,10 +10,20 @@ differences between how these two technologies connect the devices together
 wirelessly. Note that the FTC Driver Station app is able to connect to both
 types of Robot Controllers.
 
+Wireless Access Point
+-----------------------
+
+A Control Hub acts as an actual wireless access point. A Driver Station device
+connects to the Control Hub's Wi-Fi network like it would to any other Wi-Fi
+network. The user only needs to provide the correct password in order to
+access the wireless network -- no manual acceptance step on the access point
+is required.
+
 Wi-Fi Direct Group Owner
 -------------------------
 
-For a Wi-Fi Direct P2P connection, one of the peer-to-peer devices acts like
+A phone-based Robot Controller works a little differently. For a Wi-Fi Direct
+P2P connection, one of the peer-to-peer devices acts like
 a Wi-Fi access point and is referred to as the group owner. The group owner
 establishes a Wi-Fi Direct group that the other devices can connect to. The
 other peer-to-peer device is referred to as the client device. For the
@@ -28,16 +38,6 @@ owner's touch screen) the initial connection request from a P2P client.
    :alt: Diagram pairing a Robot Controller phone labeled P2P Group Owner with a Driver Station phone labeled P2P Client, alongside a wireless router connected to a laptop.
 
    The P2P group owner is analogous to a Wi-Fi access point.
-
-Wireless Access Point
------------------------
-
-A Control Hub is slightly different from a phone-based Robot Controller. A
-Control Hub acts as an actual wireless access point. A Driver Station device
-connects to the Control Hub's Wi-Fi network like it would to any other Wi-Fi
-network. The user only needs to provide the correct password in order to
-access the wireless network -- no manual acceptance step on the access point
-is required.
 
 Programming Laptop
 --------------------
@@ -117,9 +117,9 @@ Accessing the Wi-Fi Direct Configuration Activity
    :class: borderless
 
    * - In the Advanced Wi-Fi menu, select Wi-Fi Direct. Note that the
-       screenshots in this document were generated using a Moto e4 phone
-       running Android 7.1.1. The screen images and menu text might vary
-       from device to device.
+       screenshots in this document were generated using an Android
+       smartphone. The screen images and menu text might vary from device
+       to device.
      - .. figure:: images/advanced-wifi-direct.jpg
           :alt: Advanced Wi-Fi menu with the Wi-Fi Direct option circled.
 
@@ -188,9 +188,8 @@ fast, simple, and reliable way to ensure good communications.
    * - In this disconnected state, the device name can be changed. Touch the
        3 dots again at the top right corner. Now the Configure Device
        selection is live and can be clicked. Device naming must follow the
-       rules described in the Competition Manual. At this screen, Motorola
-       phones offer three features not present on previous FTC phone
-       models.
+       rules described in the Competition Manual. At this screen, some
+       smartphones offer three features not present on older models.
      - .. figure:: images/configure-device-menu.jpg
           :alt: Overflow menu with the Configure device option enabled and circled.
 
@@ -248,10 +247,10 @@ For problems connecting to the Robot Controller, check the following basic
 items:
 
 - Is the Robot Controller device turned on?
-- Is the Robot Controller smartphone in Airplane mode with Wi-Fi enabled?
 
 Smartphone specific:
 
+- Is the Robot Controller smartphone in Airplane mode with Wi-Fi enabled?
 - Is the Robot Controller device running the FTC Robot Controller app?
 - Is the FTC Robot Controller app in the foreground (and NOT minimized)?
 
@@ -280,11 +279,11 @@ information about the app.
    :class: borderless
 
    * - .. figure:: images/rc-about-screen.png
-          :alt: About screen listing App Version 1.75, Robot Wi-Fi Protocol Version v4, and Wi-Fi Direct group owner info for device motog-002.
+          :alt: About screen listing the App Version, Robot Wi-Fi Protocol Version v4, and Wi-Fi Direct group owner info for the device.
 
           About screen for an app acting as the Wi-Fi Direct group owner.
      - .. figure:: images/ds-about-screen.png
-          :alt: About screen listing App Version 1.75, Robot Wi-Fi Protocol Version v4, and no active Wi-Fi Direct connection for device XT1063_864b.
+          :alt: About screen listing the App Version, Robot Wi-Fi Protocol Version v4, and no active Wi-Fi Direct connection for the device.
 
           About screen for an app with no active Wi-Fi Direct connection.
 

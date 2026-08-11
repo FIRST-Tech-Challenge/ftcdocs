@@ -25,8 +25,8 @@ a variety of tasks to score points. For example, a team might want their
 robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
 programs called *OpModes* (which stands for "operational modes") to
-specify the behavior for their robot. These OpModes run on the Robot
-Controller phone after being selected on the DRIVER STATION device.
+specify the behavior for their robot. These OpModes run on the ROBOT
+CONTROLLER after being selected on the DRIVER STATION device.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own OpModes.
@@ -37,7 +37,7 @@ The OnBot Java Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The OnBot Java Programming Tool is a user-friendly programming tool
-that is served up by the Robot Controller phone. A user can create
+that is served up by the Robot Controller. A user can create
 custom op modes for their robot using this tool and then save these op
 modes directly onto the Robot Controller. Users write their op modes
 using Java. The op modes are compiled very quickly on the Robot

@@ -42,6 +42,11 @@ tutorials, you will need to have the following materials available:
 .. |driverhub| image:: images/driverHub.jpg
 
 
+.. important:: Only the REV Control Hub and the REV Driver Hub are officially
+   supported. An Android phone is legal to use in competition, but it is not
+   supported. Teams who use one are responsible for all of their own testing
+   and troubleshooting.
+
 .. list-table::
    :widths: 50 50
    :class: longtable
@@ -51,15 +56,12 @@ tutorials, you will need to have the following materials available:
      - Image
 
    * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
-       Alternately, the Competition Manual does allow teams to instead
-       use a REV Robotics Expansion Hub and a select list of Android
-       phones. 
+       Alternately, teams may instead use a REV Robotics Expansion Hub
+       and an Android phone.
      - |chandphones| |exhub|
-   
+
    * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
-       Alternately, the Competition Manual does allow teams to instead
-       use a select list of Android phones. See rule R901 for the full
-       details.
+       Alternately, teams may instead use an Android phone.
      - |driverhub|
 
    * - Wireless Internet access.
@@ -102,5 +104,5 @@ tutorials, you will need to have the following materials available:
    * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
-   * - If you are using a smartphone as your Robot Controller, you will need two (2) micro USB OTG adapters. If you are using a Control Hub as your Robot Controller, you will need one(1) micro USB OTG adapter.
+   * - If you are using a smartphone as your DRIVER STATION and/or ROBOT CONTROLLER, you will need one (1) micro USB OTG adapter per smartphone.
      - |otg|   |otg|
