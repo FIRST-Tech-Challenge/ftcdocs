@@ -51,7 +51,7 @@ Competition Manual.
 
 .. important:: Only the REV Driver Hub is officially supported as a Driver
    Station. An Android smartphone is legal to use in competition, but it is not
-   supported — teams who use one are responsible for all of their own testing
+   supported. Teams who use one are responsible for all of their own testing
    and troubleshooting.
 
 USB-OTG Adapter / Hubs
