@@ -606,7 +606,7 @@ need a Micro USB OTG adapter cable.
 
 Your example op mode is looking for input from the gamepad designated as
 the user or driver #1. Press the Start button and the A button
-simultaneously on the Logictech F310 controller to designate your
+simultaneously on the Logitech F310 controller to designate your
 gamepad as user #1. Note that pushing the Start button and the B button
 simultaneously would designate the gamepad as user #2.
 
