@@ -15,7 +15,9 @@ Current Draw Limits
 ^^^^^^^^^^^^^^^^^^^
 Each pair of servo ports on the REV Control Hub and REV Expansion Hub is
 limited to 2A. Additionally, the 6 servo ports and +5V auxiliary part have a
-maximum of 5V total. Teams should also be mindful of the 20A fuse on the
+maximum of 5A total. Therefore, it is recommended to only place servos on ODD
+or EVEN ports, and not both, which means only placing up to 3 servos on each
+Control or Expansion hub. Teams should also be mindful of the 20A fuse on the
 which limits the full electrical system.
 
 Power Source
