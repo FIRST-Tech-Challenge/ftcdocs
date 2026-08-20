@@ -89,8 +89,8 @@ specifically defined:
 -  **Update / Patch Releases** - These are typically released during the
    *FIRST* Tech Challenge season, when critical issues or helpful features are
    available for teams. Update/Patch releases aren't generally required for
-   competition unless a critical patch or bugfix is issued.  
--  **Offseason Release** - Offseason releases are used to prepare teams for
+   competition unless a critical patch or bug fix is issued.  
+-  **Off season Release** - Off season releases are used to prepare teams for
    breaking changes or to provide a technology preview for new features in the
    upcoming season.
 

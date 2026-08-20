@@ -46,7 +46,7 @@ Downloading Initial Updates
 
 Open the RHC app. This is a good time to **pre-download** various
 pieces of software you might need soon.
-These are the firmware, operating system and App filess that the RHC
+These are the firmware, operating system and App files that the RHC
 can install on your devices.
 
 Why download now? Later, this computer might be connected via Wi-Fi to a

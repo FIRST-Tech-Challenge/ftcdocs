@@ -75,7 +75,7 @@ The REV Servo Hub (REV-11-1855) has firmware that can be
 `updated <https://docs.revrobotics.com/rev-hardware-client/crossover/servo-hub#update-tab>`__
 using the REV Hardware Client. Instructions at the REV website.
 
-For those teams not using the REV Hardware Cient the following table has links
+For those teams not using the REV Hardware Client the following table has links
 to the Change Log or Release Notes for each component that can be used to determine the current version.
 Then use the alternate update methods mentioned in the instructions in the above links.
 
