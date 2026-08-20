@@ -89,8 +89,8 @@ specifically defined:
 -  **Update / Patch Releases** - These are typically released during the
    *FIRST* Tech Challenge season, when critical issues or helpful features are
    available for teams. Update/Patch releases aren't generally required for
-   competition unless a critical patch or bugfix is issued.  
--  **Offseason Release** - Offseason releases are used to prepare teams for
+   competition unless a critical patch or bug fix is issued.  
+-  **Off season Release** - Off season releases are used to prepare teams for
    breaking changes or to provide a technology preview for new features in the
    upcoming season.
 
@@ -137,17 +137,6 @@ no longer necessary.
 Updating SDK Software
 ---------------------
 
-It is important for teams to update the SDK software. Updates mid-season may
-not be required. Teams can check  the minimum software version required for a
-game in the Competition Manual.  It is recommended to use the REV Hardware
-Client to update hardware, if a 64-bit Windows computer is available. If not,
-then alternate methods provided can be used to update the software.
-
--  :doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
--  :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`
--  :doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-the-RC-App>`
--  :doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
--  :doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
--  :doc:`Updating the Hub Firmware </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
-
+It is important for teams to update the SDK software. 
+Details can be found on the :doc:`Updating Components of the Control System </ftc_sdk/updating/index>` page.
 
