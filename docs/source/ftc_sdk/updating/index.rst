@@ -113,14 +113,14 @@ It shows the version number of the release, and when that release occurred.
    :width: 80%
    :align: center
 
-   You can signup to receive new release updates on GitHub
+   You can sign up to receive new release updates on GitHub
 
 On that web page you can sign up for notifications.
 You need to have or create a GitHub account to sign up for notifications.
 Click the "Watch" icon which is circled in red in the 
 This will change the word "Watch" to "Unwatch".
 This will send you notifications of all activity in the FtcRobotController project.
-In the screenshot, this shows as Unwatch because the GitHub account signed in was already watching this project.
+In the screenshot, this shows as "Unwatch" because the GitHub account signed in was already watching this project.
 The "Watch" option is not shown if you are not signed in.
 
 Then click the drop down triangle beside "Unwatch" and the number of accounts watching this project.
