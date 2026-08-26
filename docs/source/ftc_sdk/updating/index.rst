@@ -115,6 +115,10 @@ It shows the version number of the release, and when that release occurred.
 
    You can sign up to receive new release updates on GitHub
 
+.. raw:: html
+
+   <!-- cspell:ignore Unwatch -->
+
 On that web page you can sign up for notifications.
 You need to have or create a GitHub account to sign up for notifications.
 Click the word ``Watch`` which is circled in red as shown in the screenshot.
