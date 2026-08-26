@@ -117,14 +117,14 @@ It shows the version number of the release, and when that release occurred.
 
 On that web page you can sign up for notifications.
 You need to have or create a GitHub account to sign up for notifications.
-Click the "Watch" icon which is circled in red in the 
-This will change the word "Watch" to <!-- cSpell:disable --> "Unwatch" <!-- cSpell:enable -->.
+Click the word ``Watch`` which is circled in red as shown in the screenshot.
+This will change the word ``Watch`` to ``Unwatch``.
 This will send you notifications of all activity in the FtcRobotController project.
-In the screenshot, this shows as <!-- cSpell:disable --> "Unwatch" <!-- cSpell:enable --> because the GitHub account signed in was already watching this project.
-The "Watch" option is not shown if you are not signed in.
+In the screenshot, this shows as ``Unwatch`` because the GitHub account signed in was already watching this project.
+The ``Watch`` option is not shown if you are not signed in.
 
-Then click the drop down triangle beside <!-- cSpell:disable --> "Unwatch" <!-- cSpell:enable --> and the number of accounts watching this project.
-See the red circled area in the screenshot figure.
+Then click the drop down triangle beside ``Unwatch`` and the number of accounts watching this project.
+See the red circled area in the screenshot.
 This will present a list of possible notifications. 
 You likely only want to click on the "Releases" option and click "Apply".
 
@@ -137,12 +137,12 @@ You likely only want to click on the "Releases" option and click "Apply".
    
 .. tip::
   
-   Do not select Pull Request notifications when customizing what notifications to receive.
+   Do not select **Pull Requests** when customizing what notifications to receive.
    The FtcRobotController project receives many Pull Requests, and will send you many Pull Request notices.
    Most are submitted by accident by teams who are updating their own copy of this project.
    
    The FTC Technology team does not accept public Pull Requests on this project and 
-   closes them all (which sends another notice).
+   closes them (which sends another notice).
    If you do wish a change to the Robot Controller App, the correct procedure is to open a GitHub Issue for this project.
 
 If this is your first time electing to receive GitHub notifications you may wish to review GitHub's own documentation on
