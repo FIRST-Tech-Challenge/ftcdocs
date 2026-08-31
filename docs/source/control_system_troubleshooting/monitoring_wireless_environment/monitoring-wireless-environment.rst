@@ -61,8 +61,9 @@ lots of robots.
 
 For a deeper look at how to choose between the 2.4GHz and 5GHz bands based
 on your robot's design, see the
-`Wi-Fi Bands series <https://ftc-docs.firstinspires.org/en/latest/tech_tips/tech-tips.html>`__
-of Tech Tips.
+:ref:`Choosing a Wi-Fi Band for Your Robot
+<tech_tips/tech-tips/tech-tip-wifi-bands/tech-tip-wifi-bands:Choosing a Wi-Fi Band for Your Robot>`
+Tech Tip.
 
 Monitoring the Wireless Spectrum
 -----------------------------------
