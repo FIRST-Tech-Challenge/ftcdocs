@@ -54,7 +54,12 @@ to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The DRIVER STATION
 consists of an Android device running an Driver Station app. Most teams use
-a REV Robotics Driver Hub, but select Android smartphones are also supported.
+a REV Robotics Driver Hub, though an Android smartphone may be used instead.
+
+.. important:: Only the REV Control Hub and the REV Driver Hub are officially
+   supported. An Android smartphone is legal to use in competition, but it is
+   not supported. Teams who use one are responsible for all of their own
+   testing and troubleshooting.
 
 REV Robotics Control Hub and Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,6 +87,10 @@ Android Smartphones
 Teams may opt to use an Android smartphone as their
 DRIVER STATION, ROBOT CONTROLLER or both. DRIVER STATION phones should have the FTC Driver
 Station app installed, and will need an OTG adaptor USB hub to connect gamepads.
+
+Smartphones are not officially supported. A team that chooses to use one is
+responsible for verifying that the device works for their purposes, and for
+all of their own testing and troubleshooting.
 
 .. image:: images/ControlHubEquals.jpg
    :align: center

@@ -38,20 +38,21 @@ Programming Mode server.
 
 |
 
-3. Verify the network name and passphrase for the Program & Manage    
-wireless network. Towards the top of the screen, the name of the      
-Program & Manage wireless network is displayed. If you are using an   
-Android smartphone as your Robot Controller, then the wireless        
-network name will begin with the phrase "DIRECT-". 
+3. Verify the network name and passphrase for the Program & Manage
+wireless network. Towards the top of the screen, the name of the
+Program & Manage wireless network is displayed.
 
-   In this example, the name of the Wi-Fi network is "DIRECT-XK-9999-C-RC" and the secure passphrase is "ZU7if0hB"                                              
+If you are using a Control Hub, then the wireless network name will be whatever you specified when you configured your Control Hub.  If you haven't changed the Control Hub's name yet, then by default the  wireless network's name will begin with "FTC-".  If you haven't changed its password yet, then by default the wireless network's passphrase will be "password".
+
+If you are using an Android smartphone as your Robot Controller, then the
+wireless network name will begin with the phrase "DIRECT-".
+
+   In this example, the name of the Wi-Fi network is "DIRECT-XK-9999-C-RC" and the secure passphrase is "ZU7if0hB"
 
 .. image:: images/ProgramAndManagePassphrase.jpg
    :align: center
 
 |
-
-If you are using a Control Hub, then the wireless network name will be whatever you specified when you configured your Control Hub.  If you haven't changed the Control Hub's name yet, then by default the  wireless network's name will begin with "FTC-".  If you haven't changed its password yet, then by default the wireless network's passphrase will be "password".
 
 In the screenshot below, the Control Hub's wireless network name is "FTC-1Ybr" and the secure passphrase is "password".
 

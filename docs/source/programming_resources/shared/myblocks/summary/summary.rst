@@ -16,8 +16,8 @@ Summary: Benefits of myBlocks
    members can continue learning and working in Blocks, producing the
    team’s official code. Nobody is held back, or left behind.
 
-4. MyBlocks can be created with **OnBot Java**, which runs on the RC
-   phone or Control Hub. Building and testing are very fast. Many 
+4. MyBlocks can be created with **OnBot Java**, which runs on the
+   Control Hub or RC phone. Building and testing are very fast. Many
    teams do not have easy access to Android Studio, for reasons
    including school computers that prevent software installation.
 

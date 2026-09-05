@@ -14,15 +14,19 @@ for instructions on how to set up and use the REV Robotics Driver Hub.
 Android Smartphone
 ~~~~~~~~~~~~~~~~~~
 
-While not recommended, the Competition Manual does allow select Android
-smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
-R704 for the full details.
+An Android smartphone may be used as a DRIVER STATION or ROBOT CONTROLLER,
+but it is not recommended.
+
+.. important:: Smartphones are not officially supported. They are legal to use
+   in competition, but a team who uses one is responsible for all of their own
+   testing and troubleshooting. Only the REV Control Hub and the REV Driver Hub
+   are officially supported.
 
 Unlocking Your Screen
 ^^^^^^^^^^^^^^^^^^^^^
 
 When you first power on an Android phone, it usually starts off with the
-screen in a "locked" state. For the Motorola smartphones that are used
+screen in a "locked" state. For most of the smartphones that are used
 in the *FIRST* Tech Challenge, you must touch the locked screen and then
 slide your finger upwards along the screen to unlock the phone. Note
 that different devices might require a slightly different procedure to

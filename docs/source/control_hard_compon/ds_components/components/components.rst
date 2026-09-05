@@ -32,22 +32,27 @@ Android Device
 
       ^^^
 
-      .. figure:: images/motoe5.png
+      .. figure:: images/android-smartphone.png
          :align: center
-         :alt: Moto E5
+         :alt: An Android smartphone
          :width: 50 %
 
       +++
 
-      Moto E5
+      Android Smartphone
 
 The heart of the Driver Station is the Android Device that runs the Driver
 Station App. This Android Device requirement can be fulfilled either through
 the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or
-one of the approved Android Smartphones listed in the Competition Manual. It is
+an Android smartphone. It is
 of vital importance that the Driver Station App be updated to a version that
 meets or exceeds the minimum Driver Station App version as defined in the
 Competition Manual.
+
+.. important:: Only the REV Driver Hub is officially supported as a Driver
+   Station. An Android smartphone is legal to use in competition, but it is not
+   supported. Teams who use one are responsible for all of their own testing
+   and troubleshooting.
 
 USB-OTG Adapter / Hubs
 ----------------------
