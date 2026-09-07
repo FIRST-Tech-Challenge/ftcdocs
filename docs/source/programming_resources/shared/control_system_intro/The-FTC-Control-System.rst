@@ -5,7 +5,7 @@ Control System Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge robots must play a challenging game that changes every year.
-In the VELOCITY VORTEX game robots could shoot softball size wiffle balls
+In the VELOCITY VORTEX game robots could shoot softball size plastic balls
 into the blue or red center goals. During the end of the match they
 could lift and place a blue or red yoga ball onto the center goal structure.
 
@@ -86,7 +86,7 @@ AUTO vs. TELEOP
 ~~~~~~~~~~~~~~~
 
 A *FIRST* Tech Challenge match has an Autonomous (AUTO) phase and a
-Teleoperated (TELEOP) phase. Teleoperated is a fancy word for remote controlled.
+Teleoperation (TELEOP) phase. Teleoperation is a fancy word for remote controlled.
 
 In the AUTO phase of a match the robot operates without any human input or control.
 In the TELEOP phase, the robot can receive input from up to two human drivers.
