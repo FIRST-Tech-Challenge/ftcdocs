@@ -85,8 +85,12 @@ used by the team to move the robot around the field and operate its various mech
 AUTO vs. TELEOP
 ~~~~~~~~~~~~~~~
 
-A *FIRST* Tech Challenge match has an Autonomous (AUTO) phase and a
-Teleoperation (TELEOP) phase. Teleoperation is a fancy word for remote controlled.
+.. raw:: html
+
+   <!-- cspell:ignore Teleoperated -->
+
+A *FIRST* Tech Challenge match has an Autonomous (AUTO) period and a
+Teleoperated (TELEOP) period. Teleoperated is a fancy word for remote controlled.
 
 In the AUTO phase of a match the robot operates without any human input or control.
 In the TELEOP phase, the robot can receive input from up to two human drivers.
