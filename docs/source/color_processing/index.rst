@@ -38,7 +38,7 @@ AprilTag processor, and replace the TensorFlow processor (removed in 2024).
 These new processors can be used on the usual FTC cameras:
 
 * any UVC-compatible webcam
-* the built-in camera of an FTC-supported Android phone (as Robot Controller)
+* the built-in camera of an Android phone (as Robot Controller)
 
 This does **not** include vision sensors such as HuskyLens and LimeLight 3A,
 which do not use the FTC VisionPortal.

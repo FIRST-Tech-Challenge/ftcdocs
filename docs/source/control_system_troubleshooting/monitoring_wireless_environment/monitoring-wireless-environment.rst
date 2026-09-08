@@ -49,7 +49,7 @@ connectivity for those pairs.
 5GHz Portion of the Spectrum
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-FTC-approved smartphones and the REV Robotics Control Hub and Driver Hub
+The REV Robotics Control Hub and Driver Hub, and most Android smartphones,
 support both the 2.4GHz and 5GHz bands. 5GHz channels do not overlap each
 other, and they offer greater bandwidth than 2.4GHz channels. They also have
 more limited range, which can be useful in a crowded competition venue with
