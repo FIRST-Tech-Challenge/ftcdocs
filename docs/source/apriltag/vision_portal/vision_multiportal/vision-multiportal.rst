@@ -48,13 +48,12 @@ screen.
 
    Example Blocks Multiportal OpMode
 
-On a Moto e4 RC phone, the OpMode can run the built-in phone camera
-along with a webcam.
+On a Control Hub, the OpMode can run two webcams:
 
-On a Control Hub, it can run two webcams: 
-
-- both plugged in directly to the Hub, or 
+- both plugged in directly to the Hub, or
 - both plugged into an unpowered USB Hub (with more restricted USB bandwidth)
+
+On an RC phone, it can run the built-in phone camera along with a webcam.
 
 Dual Previews
 ~~~~~~~~~~~~~

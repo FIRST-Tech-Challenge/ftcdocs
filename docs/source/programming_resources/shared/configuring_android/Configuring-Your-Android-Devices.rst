@@ -41,6 +41,10 @@ will only need to configure a single smartphone for use as a DRIVER STATION. The
 Two Android Smartphone Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. important:: Smartphones are not officially supported. They are legal to use
+   in competition, but a team who uses them is responsible for all of their own
+   testing and troubleshooting.
+
 Teams who have two smartphones and are not using a Control Hub will need
 to configure one smartphone for use as a Robot Controller and a second
 smartphone for use as an DRIVER STATION. The process is as follows,
@@ -150,7 +154,7 @@ Google Play.**
 
 The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
 software will allow you to download the apps to devices: REV Robotics Control
-Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other approved Android
+Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other Android
 devices (*see section below, called Updating Apps on Android
 Phones*). Here are some of the benefits:
 
