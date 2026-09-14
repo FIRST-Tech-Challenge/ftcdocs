@@ -151,8 +151,8 @@ Therefore, we can surmise that the robot is on the AUDIENCE half of the field, p
 the RED AUDIENCE CELL of the RED HIVE in scoring position (the RED AUDIENCE CELL is able to
 accept SCORING ELEMENTS).
 
-Breaking Changes and Tips for Migrating Code to SDK v12.0
----------------------------------------------------------
+Breaking Changes and Migrating Code to SDK v12.0
+------------------------------------------------
 
 AprilTag code previously written for SDK versions prior to v12.0 are likely based on the
 ``ConceptAprilTag`` family of sample code. In previous SDK releases, the only type of 
