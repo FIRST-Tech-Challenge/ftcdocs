@@ -382,12 +382,12 @@ Here is a handy table of some common servo mechanical power values:
      - 1.2 A
      - 0.86 W
      - $29.50
-   * - `REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`__
+   * - `REV Smart Servo (Balanced) <https://www.revrobotics.com/Smart-servo-v2>`__
      - 0.14 s/60°
      - 13.5 kg-cm
-     - 2.0 A
+     - 2.1 A
      - 2.48 W
-     - $30.00
+     - $32.50
    * - `goBILDA 2000 Series Speed Servo <https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/>`__
      - 0.09 s/60°
      - 9.3 kg-cm
