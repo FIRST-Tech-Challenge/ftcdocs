@@ -132,7 +132,7 @@ In Figure 3 we can see that there are two AprilTag Clusters detected:
 * RED SCORING - The robot in this example belongs to the red alliance, and thus the 
   "RED SCORING" Cluster - which identifies the red HIVE CELL Cluster on the scoring table
   side of the BIOBUZZ field - is scorable by a red robot; this passes the first targeting 
-  condition. The Cluster's `ftcPose.roll` value is 159.3 degrees, however. This means the 
+  condition. The Cluster's ``ftcPose.roll`` value is 159.3 degrees, however. This means the 
   RED SCORING Cluster is upside down, and we're likely looking at the "far" CELL that is 
   pointed down. The Cluster also reports that only 50% of the tags in the Cluster are visible, 
   which may indicate that the Cluster is partially occluded by the field structure.
@@ -140,7 +140,7 @@ In Figure 3 we can see that there are two AprilTag Clusters detected:
 * RED AUDIENCE - The robot in this example belongs to the red alliance, and thus the 
   "RED AUDIENCE" Cluster - which identifies the red HIVE CELL Cluster on the Audience side of 
   the field - is scorable by a red robot; this passes the first targeting condition. The 
-  Cluster's `ftcPose.roll` value is -19.7 degrees, which is in the range of -90 to 90, and 
+  Cluster's ``ftcPose.roll`` value is -19.7 degrees, which is in the range of -90 to 90, and 
   indicates the Cluster is more than likely right-side up. Another "health" indicator is that 
   the Cluster is reporting that 100% of its cluster tags are currently visible, which is just 
   another indicator to the validity of the target. A high tag visibility alone is not an 
