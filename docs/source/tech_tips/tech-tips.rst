@@ -63,6 +63,7 @@ Software and Programming
    tech-tips/tech-tip-protecting-robot-code/tech-tip-protecting-robot-code
    tech-tips/tech-tip-vision-resources/tech-tip-vision-resources
    tech-tips/tech-tip-google-ai-studio/tech-tip-google-ai-studio
+   tech-tips/tech-tip-apriltag-clusters/tech-tip-apriltag-clusters
 
 Competition and Team Resources
 ------------------------------
