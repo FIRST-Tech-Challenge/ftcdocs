@@ -15,11 +15,14 @@ known to work with the FTC Driver Station app:
 - Quadstick game controller in Xbox 360 Emulation Mode
 
 Starting with FTC SDK version 12.0, the gamepad indicators on the top right of
-the driver station app will be orange if it is using the default Android
-gamepad driver. Teams are not allowed to modify the Driver Station app in any
-way, which includes adding custom drivers for gamepads. Teams are strongly
-encouraged to use the Test Gamepads Utility OpMode to verify that their gamepad
-is registering the inputs correctly.
+the Driver tation App will be orange if the assigned gamepad is not recognized
+and thus is using a built-in Android gamepad driver instead of a known FTC SDK
+gamepad driver. In this case, the built-in Android driver might work, but it's
+possible the device input (button/stick) mappings might be incorrect. Teams are
+not allowed to modify the Driver Station app in any way, which includes adding
+custom drivers for gamepads. Teams are strongly encouraged to use the Test
+Gamepads Utility OpMode to verify that their gamepad is registering the inputs
+correctly.
 
 It is recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_
 close to the USB connector in order to reduce the amount of electrical noise.
