@@ -14,7 +14,7 @@ AprilTag Cluster Introduction
 -----------------------------
 
 A new feature released in FTC SDK 12.0 is AprilTag Clusters. This is a technique
-that groups multiple AprilTags together for mult-tag object and camera tracking. 
+that groups multiple AprilTags together for multi-tag object and camera tracking. 
 AprilTag clusters have many benefits:
 
 * When tracking a single target, especially at extreme angles, the accuracy of the
