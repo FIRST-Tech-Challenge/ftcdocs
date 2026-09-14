@@ -1,7 +1,7 @@
 Gamepad Best Practices
 ------------------------
 
-While there are no rules around which gamepads teams may use on thier OPERATOR
+While there are no rules around which gamepads teams may use on their OPERATOR
 CONSOLE, not all gamepads are supported by the FTC Driver Station app. The
 following gamepads have custom drivers that are included in the FTC SDK and are
 known to work with the FTC Driver Station app:
@@ -14,7 +14,7 @@ known to work with the FTC Driver Station app:
 - REV Robotics USB PS4 Compatible Gamepad
 - Quadstick game controller in Xbox 360 Emulation Mode
 
-Starting with FTC SDK vesion 12.0, the gamepad indicators on the top right of
+Starting with FTC SDK version 12.0, the gamepad indicators on the top right of
 the driver station app will be orange if it is using the default Android
 gamepad driver. Teams are not allowed to modify the Driver Station app in any
 way, which includes adding custom drivers for gamepads. Teams are strongly
