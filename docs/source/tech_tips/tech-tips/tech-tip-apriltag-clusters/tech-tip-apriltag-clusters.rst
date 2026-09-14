@@ -151,6 +151,110 @@ Therefore, we can surmise that the robot is on the AUDIENCE half of the field, p
 the RED AUDIENCE CELL of the RED HIVE in scoring position (the RED AUDIENCE CELL is able to
 accept SCORING ELEMENTS).
 
+Breaking Changes and Tips for Migrating Code to SDK v12.0
+---------------------------------------------------------
+
+AprilTag code previously written for SDK versions prior to v12.0 are likely based on the
+``ConceptAprilTag`` family of sample code. In previous SDK releases, the only type of 
+AprilTag object was of type ``AprilTagDetection``, and this object type could perform all
+actions, such as retrieving the metadata information of the object, reading pose information,
+and so on. In SDK 12.0 the ``AprilTagDetection`` class was subclassed in order to manage 
+class-specific traits of Single and Cluster detections, resulting in these new subclasses:
+
+* ``AprilTagSingleDetection`` - This class now manages all Single AprilTag detections (any 
+  detections that are NOT part of a Cluster), such as the types of AprilTags in DECODE and 
+  all other prior games.
+
+* ``AprilTagClusterDetection`` - This class now manages all Cluster AprilTag detections, or
+  detections that are composed of Cluster tags.
+
+In Java the ``.getDetections()`` method on the ``AprilTagDetection`` class returns a list
+of ``AprilTagDetection`` objects, but before these can be accessed it's important to determine
+their subclass type and create a local copy of the object casting it to that subclass type. 
+This is important so that the runtime knows how to interpret these two different object
+types.
+
+For example, the following pre- and post- SDK 12.0 code demonstrates the changes necessary
+to detect a Single AprilTag (non-cluster)
+
+.. tab-set::
+
+   .. tab-item:: Pre-SDK 12.0 Java
+      :sync: prejava
+
+      .. code:: java
+
+        // Get list of detections from AprilTag Processor
+        List<AprilTagDetection> currentDetections = aprilTag.getDetections();
+        
+        // Step through the list of detections and display info for each one.
+        for (AprilTagDetection detection : currentDetections) {
+            if (detection.metadata != null) {
+                telemetry.addLine(String.format("\n==== (ID %d) %s", detection.id, detection.metadata.name));
+                telemetry.addLine(String.format("XYZ %6.1f %6.1f %6.1f  (inch)", detection.ftcPose.x, detection.ftcPose.y, detection.ftcPose.z));
+                telemetry.addLine(String.format("PRY %6.1f %6.1f %6.1f  (deg)", detection.ftcPose.pitch, detection.ftcPose.roll, detection.ftcPose.yaw));
+            }
+        }
+   
+   .. tab-item:: Post-SDK 12.0 Java
+      :sync: postjava
+      
+      .. code:: java
+
+        // Get list of detections from AprilTag Processor
+        List<AprilTagDetection> currentDetections = aprilTag.getDetections();
+        
+        // Step through the list of detections and display info for each one.
+        for (AprilTagDetection detection : currentDetections) {
+            // Check if the object is an AprilTagSingleDetection or AprilTagClusterDetection
+            if ( detection instanceof AprilTagSingleDetection )
+            {
+                // Create local copy of detection but casting to AprilTagSingleDetection type
+                // so that we can properly interpret the metadata and id information.
+                AprilTagSingleDetection singleDet = (AprilTagSingleDetection) detection;
+                // Now that we have singleDet as an AprilTagSingleDetection object, we can 
+                // read the metadata and id information from it.
+                if (singleDet.metadata != null) {
+                    // Notice this telemetry is using singleDet to get metadata and id. 
+                    telemetry.addLine(String.format("\n==== (ID %d) %s", singleDet.id, singleDet.metadata.name));
+                    // Notice we can use the raw detection variable or our new singleDet 
+                    // variable to get Pose information because the ftcPose is 
+                    // inherited from the superclass and so it lives in both places.
+                    telemetry.addLine(String.format("XYZ %6.1f %6.1f %6.1f  (inch)", detection.ftcPose.x, detection.ftcPose.y, detection.ftcPose.z));
+                    telemetry.addLine(String.format("PRY %6.1f %6.1f %6.1f  (deg)", detection.ftcPose.pitch, detection.ftcPose.roll, detection.ftcPose.yaw));
+                    telemetry.addLine(String.format("RBE %6.1f %6.1f %6.1f  (inch, deg, deg)", detection.ftcPose.range, detection.ftcPose.bearing, detection.ftcPose.elevation));
+                }
+            }
+        }
+
+In order to properly migrate AprilTag code, detection of the correct type of subclass is now 
+required and casting the object as that type is needed to read metadata information. Along
+with metadata, here are the fields that the subclasses are absolutely required in order to
+properly read:
+
+.. grid:: 1 2 2 2
+   :gutter: 2
+
+   .. grid-item::
+
+      **AprilTagSingleDetection**
+
+      * ``.id``
+      * ``.hamming``
+      * ``.decisionMargin``
+      * ``.metadata``
+      * ``.corners``
+      * ``.center``
+
+   .. grid-item::
+
+      **AprilTagClusterDetection**
+
+      * ``.percentClusterFound``
+      * ``.metadata``
+
+****
+
 Got any questions about vision on your robot? Come start or join the
 conversation on the `FTC Community Forums
 <https://ftc-community.firstinspires.org/>`__!
