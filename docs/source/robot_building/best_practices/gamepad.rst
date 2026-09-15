@@ -1,9 +1,9 @@
 Gamepad Best Practices
 ------------------------
 
-While there are no rules around which gamepads teams may use on their OPERATOR
-CONSOLE, not all gamepads are supported by the FTC Driver Station app. The
-following gamepads have custom drivers that are included in the FTC SDK and are
+While there are no rules around which :term:`gamepads <Gamepad>` teams may use on their OPERATOR
+CONSOLE, not all gamepads are supported by the FTC :term:`Driver Station app <Driver Station App>`. The
+following gamepads have custom drivers that are included in the FTC :term:`SDK` and are
 known to work with the FTC Driver Station app:
 
 - Logitech F310
@@ -21,7 +21,7 @@ gamepad driver. In this case, the built-in Android driver might work, but it's
 possible the device input (button/stick) mappings might be incorrect. Teams are
 not allowed to modify the Driver Station app in any way, which includes adding
 custom drivers for gamepads. Teams are strongly encouraged to use the Test
-Gamepads Utility OpMode to verify that their gamepad is registering the inputs
+Gamepads Utility :term:`OpMode` to verify that their gamepad is registering the inputs
 correctly.
 
 It is recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_

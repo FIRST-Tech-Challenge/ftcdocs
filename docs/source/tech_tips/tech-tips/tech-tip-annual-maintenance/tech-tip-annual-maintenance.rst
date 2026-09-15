@@ -15,8 +15,8 @@ is included in the blast with the rest of the content here.
 Just like "spring cleaning," an annual check-up for your robot's electronics
 and software is essential to prevent common issues caused by aging components.
 
-* Secure XT30 Connections: If your power cables feel loose in the REV Control
-  Hub or :term:`Expansion Hub`'s XT30 connectors, avoid using glues like hot glue to
+* Secure XT30 Connections: If your power cables feel loose in the REV
+  :term:`Control Hub` or :term:`Expansion Hub`'s XT30 connectors, avoid using glues like hot glue to
   keep the connection together.  These only hide an unstable connection between
   the metal contacts, which can lead to intermittent power loss under shock.
   Instead, the metal pins on the device's XT30 connectors likely need to be
@@ -41,9 +41,9 @@ and software is essential to prevent common issues caused by aging components.
   or bent pins. Specifically, ensure no exposed wire is visible where it meets
   XT30 connector housings to prevent potential shorts.
 
-* Software Updates Are Key: Always update your :term:`Control Hub` OS to the latest
+* Software Updates Are Key: Always update your Control Hub OS to the latest
   version (e.g., 1.1.6 for Wi-Fi driver security) and your FIRST Tech Challenge
-  SDK (e.g., SDK 11.0) for improved performance and better support from
+  :term:`SDK` (e.g., SDK 11.0) for improved performance and better support from
   :term:`tournament <Tournament>` staff.
 
 Following these tips will help ensure your robot's electronics and software are

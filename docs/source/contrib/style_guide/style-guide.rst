@@ -394,6 +394,12 @@ If a term is missing from the glossary, add it there rather than defining it inl
 page. Definitions that live in one place stay consistent. When you add an entry, also link its
 first mention on the pages that already use the word.
 
+``make glossarycheck`` (also run, non-blocking, on every pull request) scans for glossary
+words that appear unlinked before any ``:term:`` role for them shows up on the page. It is a
+heuristic, not a verdict — it cannot tell "a wireless problem during a match" from "check for
+a match with the DS app version" — so treat its output as a checklist to verify by eye, not
+something to blindly wrap in ``:term:``.
+
 Links to Files
 ^^^^^^^^^^^^^^
 

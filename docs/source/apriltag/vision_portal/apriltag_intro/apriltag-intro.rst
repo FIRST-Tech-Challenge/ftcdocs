@@ -25,8 +25,8 @@ several resources:
    image processing library 
 -  myBlocks: custom Blocks created in :term:`OnBot Java` (OBJ)
 
-Now these three areas are provided, or bundled, in the *FIRST* **Tech Challenge
-Software Development Kit (SDK), starting with version 8.2**.
+Now these three areas are provided, or bundled, in the *FIRST* **Tech Challenge**
+:term:`Software Development Kit` **(SDK), starting with version 8.2**.
 
 Namely, key capabilities of **AprilTag** and **EasyOpenCV** are
 available to the :term:`Robot Controller` (RC) and :term:`Driver Station` (DS) apps,
@@ -166,7 +166,7 @@ driving to a destination.
 
 An OpMode can use pose data to drive towards the tag, or drive to a target
 position and orientation **relative to the tag**. (The new SDK provides Java
-**Sample OpModes** ``RobotAutoDriveToAprilTagOmni.java`` and
+:term:`Sample OpModes <Sample OpMode>` ``RobotAutoDriveToAprilTagOmni.java`` and
 ``RobotAutoDriveToAprilTagTank.java``.) Another navigation possibility is
 mentioned below under **Advanced Use**.
 
@@ -180,7 +180,7 @@ can help if the robot changes direction, or you wish to navigate using another
 AprilTag (or Color Processing).
 
 Other :term:`sensors <Sensor>` can also be used for navigation, such as drive motor :term:`encoders <Encoder>`,
-REV Hub :term:`IMU`, deadwheel encoders, color/distance sensors, ultrasonic sensors,
+REV :term:`Hub` :term:`IMU`, :term:`deadwheel <Dead Wheel>` encoders, color/distance sensors, ultrasonic sensors,
 and more.
 
 It’s also possible to evaluate **non-AprilTag images** from the same camera

@@ -12,16 +12,16 @@ is included in the blast with the rest of the content here.
 
 **FTC Driver Station Practice Timer**
 
-Did you know there's a powerful tool lurking within your FTC :term:`Driver Station App`, 
-designed to help your team dominate match timing? Forget the need for complex 
+Did you know there's a powerful tool lurking within your FTC :term:`Driver Station App`,
+designed to help your team dominate :term:`match <Match>` timing? Forget the need for complex
 event software – your :term:`Driver Station` has a built-in Practice Match timer that 
 simulates the entire match flow, or any part of it! 
-Imagine perfecting your autonomous routine, nailing the Auto-TeleOp transition, 
-or optimizing your endgame strategy, all without the pressure of a real 
+Imagine perfecting your :term:`autonomous <Autonomous>` routine, nailing the Auto-TeleOp transition,
+or optimizing your :term:`endgame <End Game>` strategy, all without the pressure of a real
 competition. This (not so) hidden gem allows teams to practice match timing for 
 every critical phase: 
 
-* :term:`Autonomous` - Fine-tune your robot's pre-programmed actions. 
+* Autonomous - Fine-tune your robot's pre-programmed actions.
 * Auto-TeleOp Transition - Seamlessly swap control from autonomous to :term:`TeleOp <TELEOP>`. 
 * TeleOp - Maximize your scoring potential during the main TeleOp period. 
 * Endgame - Strategize and execute your final, high-scoring moves. 
@@ -51,7 +51,7 @@ without affecting the timer.
    at sufficient volume to hear the cues for match transitions.
 
 Press the tiny "Play" button in the Practice Timer window, and the software
-will prompt where in the :term:`match <Match>` to start the timer at. Options are:
+will prompt where in the match to start the timer at. Options are:
 
 * Autonomous
 * Auto -> TeleOp Transition

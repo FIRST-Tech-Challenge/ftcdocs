@@ -2,8 +2,8 @@ Updating Hub Firmware
 =====================
 
 :term:`Firmware` is low-level software that controls a device’s circuit boards, or
-electronic **hardware**. This must sometimes be updated on the REV Expansion
-Hub and the REV :term:`Control Hub` in order for the :doc:`Software Development Kit
+electronic **hardware**. This must sometimes be updated on the REV :term:`Expansion Hub`
+and the REV :term:`Control Hub` in order for the :doc:`Software Development Kit
 (SDK) </ftc_sdk/overview/index>` to perform correctly.
 
 Here are 5 methods: 
@@ -16,15 +16,15 @@ Here are 5 methods:
 
 .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
-   1. For REV Control Hub, apply 12V robot power. For REV :term:`Expansion Hub`,
+   1. For REV Control Hub, apply 12V robot power. For REV Expansion Hub,
       12V power is optional.
 
-   2. Plug the REV Hub directly into a computer running the REV Hardware
+   2. Plug the REV :term:`hub <Hub>` directly into a computer running the REV Hardware
       Client, with a USB data cable (not charge-only). The Expansion Hub’s
       port is Mini USB (not micro). On the Control Hub, use only the USB-C
       port, not its Mini USB port.
 
-   3. Click the :term:`hub <Hub>`’s large icon/rectangle. Under “Expansion/Control Hub
+   3. Click the hub’s large icon/rectangle. Under “Expansion/Control Hub
       Firmware”, see the current/latest mismatch, if any (yellow oval,
       below).
 

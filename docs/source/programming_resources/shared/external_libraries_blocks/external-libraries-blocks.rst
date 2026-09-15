@@ -4,8 +4,8 @@ External Libraries in OnBot Java and Blocks
 Introduction
 ------------
 
-:term:`Blocks` and :term:`OnBot Java` programmers can use external libraries,
-starting with SDK 7.0 released for the Freight Frenzy season. This
+:term:`Blocks` and :term:`OnBot Java` programmers can use :term:`external libraries <External Libraries>`,
+starting with :term:`SDK` 7.0 released for the Freight Frenzy season. This
 capability previously existed for programmers using :term:`Android Studio`.
 
 An external library is a collection of specialized software ready for
@@ -21,7 +21,7 @@ Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who
 developed this capability, along with myBlocks and many other useful
 features of the software.
 
-*Note: This new capability exists for a Robot Controller (RC)
+*Note: This new capability exists for a* :term:`Robot Controller` *(RC)
 running Android 7 and higher. Older RC phones cannot use this feature.*
 
 Overview
@@ -86,7 +86,7 @@ Step 2 - Upload archive file
 Copy the .jar or .aar file to your programming laptop, if the file is
 not stored there already.
 
-Connect your laptop via Wi-Fi to a :term:`Robot Controller` device that’s
+Connect your laptop via Wi-Fi to a Robot Controller device that’s
 running the RC app, version 7.0 or higher (see instructions at
 ``Program and Manage``, on the RC phone or its paired :term:`Driver Station`
 device). In the Chrome browser, open OnBot Java.
@@ -216,7 +216,7 @@ Congratulations, you are now a Java developer!
 Benefits
 --------
 
-Obviously this :term:`External Libraries` feature provides advanced functions
+Obviously this External Libraries feature provides advanced functions
 previously available only to Android Studio teams.
 
 Secondly, more of your team members can continue programming the robot

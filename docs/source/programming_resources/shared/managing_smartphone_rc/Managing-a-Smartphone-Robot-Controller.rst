@@ -1,10 +1,10 @@
 Managing a Smartphone Robot Controller
 ======================================
 
-.. important:: Smartphones are not officially supported as Robot Controllers.
+.. important:: Smartphones are not officially supported as :term:`Robot Controllers <Robot Controller>`.
    A smartphone is legal to use in competition, but a team who uses one is
    responsible for all of their own testing and troubleshooting. Only the REV
-   Control Hub is officially supported. See :doc:`Managing a Control Hub
+   :term:`Control Hub` is officially supported. See :doc:`Managing a Control Hub
    <../managing_control_hub/Managing-a-Control-Hub>`.
 
 Changing the Name
@@ -14,7 +14,7 @@ In order to comply with the :term:`Competition Manual`, the name of the Robot
 Controller (RC) smartphone should be changed.
 
 This can be done in the RC app or in a paired DS app, as described
-below. (These steps also work for changing the name of a :term:`Control Hub`,
+below. (These steps also work for changing the name of a Control Hub,
 from a paired DS app.)
 
 As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` show how to rename a smartphone using the Android Settings activity of the phone.
@@ -26,7 +26,7 @@ As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring
 Changing the Name of a Robot Controller
 ---------------------------------------
 
-1. On the :term:`Robot Controller` phone or paired Driver Station phone,
+1. On the Robot Controller phone or paired Driver Station phone,
 touch the three dots in the upper right hand corner to display a
 pop-up menu.
 
@@ -180,8 +180,8 @@ app, Notepad, will not properly display the contents of the log file.
 Updating the Expansion Hub Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A Robot Controller phone connects to a standalone REV Robotics Expansion
-Hub using a USB connection. The purpose of the :term:`Expansion Hub` is to
+A Robot Controller phone connects to a standalone REV Robotics :term:`Expansion
+Hub` using a USB connection. The purpose of the Expansion Hub is to
 facilitate communication between the Robot Controller and the motors,
 :term:`servos <Servo>`, and :term:`sensors <Sensor>` of the robot. Periodically, REV Robotics may release
 new versions of the :term:`firmware <Firmware>` which contains fixes and improvements for
@@ -330,8 +330,8 @@ are some of the benefits:
 *  Install and switch between DS and RC applications on Android Devices. 
 *  Access the Robot Control Console on the Control Hub.
 
-Teams using :term:`Blocks` or :term:`OnBot Java` for programming can use the REV
-Hardware Client to update the Robot Controller (RC) app on an RC phone.
+Teams using :term:`Blocks` or :term:`OnBot Java` for programming can use the :term:`REV
+Hardware Client` to update the Robot Controller (RC) app on an RC phone.
 
 Note it will take an estimated 7.5 minutes per device to complete this
 task.
@@ -347,9 +347,9 @@ This process is called "side-loading".
    should also update the Driver Station (DS) app to the same version
    number.
 
-.. important:: Teams using Android Studio should not update the RC
-   app with the :term:`REV Hardware Client` or by side-loading. Instead, by
-   updating to the newest version of the :term:`Android Studio` project folder,
+.. important:: Teams using :term:`Android Studio` should not update the RC
+   app with the REV Hardware Client or by side-loading. Instead, by
+   updating to the newest version of the Android Studio project folder,
    you will update the Robot Controller app when you build the project and
    install it on your RC device. You can download the newest version of the
    project folder

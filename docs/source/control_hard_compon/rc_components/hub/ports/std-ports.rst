@@ -78,7 +78,7 @@ Digital Ports
 ---------------
 
 These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
+style connectors are used for your :term:`digital inputs <Digital I/O>`. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
 A device attached to a digital port alternates between one of two states (e.g., on and off). One such device would be a button. It is important
 to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one channel (N+1).
 
@@ -94,7 +94,7 @@ These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-ove
 style connectors are used for connecting I2C sensors. Each port is a single I2C bus where multiple sensors can be 
 attached. Using sensors with identical addresses on the same bus can cause problems. 
 While it is possible to use a large range of 
-sensors, the vast majority of I2C sensors do not have drivers built into the SDK. It is possible to use community drivers 
+sensors, the vast majority of I2C sensors do not have drivers built into the :term:`SDK`. It is possible to use community drivers
 or create your own. For more information on this port please see 
 `REV I2C Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#i2c-port-specifications>`_.
 

@@ -154,7 +154,7 @@ X1C Drawbacks
 AnkerMake M5 ($699)
 -------------------
 
-.. warning:: This printer should be avoided as AnkerMake has pulled out of FDM 3D printing and will no longer produce or sell the M5.
+.. warning:: This printer should be avoided as AnkerMake has pulled out of FDM :term:`3D printing <3D Printing>` and will no longer produce or sell the M5.
   Reports online show that parts are dwindling in availability, and as they are not common parts, it may be difficult to find third-party replacements.
 
 Anker's new entry into the 3D printer market, the AnkerMake M5, is a very reasonably priced printer for the features it

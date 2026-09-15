@@ -97,8 +97,8 @@ If you forget the network name or password for a Control Hub, you can
 reset the Hub's name and password back to their factory default values.
 
 .. important:: Resetting a Control Hub will restore its default
-   network name and password. However, existing configuration files and op
-   modes should not be affected by the reset. This includes op modes that
+   network name and password. However, existing configuration files and
+   :term:`op modes <OpMode>` should not be affected by the reset. This includes op modes that
    were created using the :term:`Blocks`, :term:`OnBot Java` and :term:`Android Studio` tools.
 
 Resetting Instructions
@@ -482,7 +482,7 @@ Connecting to the Control Hub Using Wireless ADB
 
 Advanced users who use Android Studio to build and install the Robot
 Controller app onto their Control Hub should be familiar with the
-Android Debug Bridge (adb) utility. adb is included with the Android
+:term:`Android Debug Bridge` (adb) utility. adb is included with the Android
 development platform tools. It can be used to communicate with an
 Android device such as the Control Hub.
 

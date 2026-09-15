@@ -125,7 +125,7 @@ is unexpectedly shutting off, check that it has an adequate charge.
 Unable to Find a Specific OpMode in the Driver Station's List of Available OpModes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If a team used :term:`Android Studio` and the *FIRST* Tech Challenge SDK to create
+If a team used :term:`Android Studio` and the *FIRST* Tech Challenge :term:`SDK` to create
 an OpMode but cannot find it in the Driver Station's list of available
 OpModes, ask the team if they remembered to register their OpMode in the
 ``FtcOpModeRegister`` class. If they created the OpMode but did not register

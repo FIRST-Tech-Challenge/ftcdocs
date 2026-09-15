@@ -1,9 +1,9 @@
 Choosing a Programming Tool
 ============================
 
-You need to select a programming tool to be able to create op modes
-for your competition robot. 
-An :term:`Op Mode <OpMode>` or Operational Mode is program that tells the robot what to do.
+You need to select a programming tool to be able to create :term:`op modes <OpMode>`
+for your competition robot.
+An Op Mode or Operational Mode is program that tells the robot what to do.
 There are three programming tools that are available for you to use.
 
 *FIRST* strongly recommends that **all users**
@@ -49,18 +49,18 @@ Recommendations
 
 Each tool has its own merits and weaknesses. For many users (especially
 rookies and novice programmers), **the Blocks Programming Tool is
-the best overall tool to use**. The Blocks Programming Tool is intuitive
+the best overall tool to use**. The :term:`Blocks Programming Tool` is intuitive
 and easy-to-learn. **It is the fastest way to get started programming
 your robot.**
 
 The :term:`OnBot Java Programming Tool` is similar to the Blocks Programming
-Tool. However, :term:`OnBot Java` is a text-based tool and it requires that the
+Tool. However, OnBot Java is a text-based tool and it requires that the
 user have a sound understanding of the Java programming language.
 
 .. image:: images/ipadPhoneChromebook.jpg
    :alt: A tablet, a phone, and a laptop each showing the programming tools in use.
 
-It is important to note that with the :term:`Blocks Programming Tool` and the
+It is important to note that with the Blocks Programming Tool and the
 OnBot Java Programming Tool, a user only needs a web browser to create,
 edit and build op modes for their robot. A user can even create, edit
 and build op modes using an iPad, an Android phone, or a Chromebook.

@@ -23,7 +23,7 @@ Studio project folder.
 Javadoc Reference Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :term:`Javadoc` reference documentation for the SDK is available online.
+The :term:`Javadoc` reference documentation for the :term:`SDK` is available online.
 Visit the following URL to view the SDK documentation:
 
 *  https://javadoc.io/doc/org.firstinspires.ftc
@@ -49,8 +49,8 @@ you would like to use in your OpMode.
 Sample OpModes
 ~~~~~~~~~~~~~~
 
-A great way to learn how to program a robot is to examine the sample op
-modes that are included with the Android Studio project folder. You
+A great way to learn how to program a robot is to examine the :term:`sample op
+modes <Sample OpMode>` that are included with the Android Studio project folder. You
 can locate these files in the FtcRobotController module in the package
 ``org.firstinspires.ftc.robotcontroller.external.samples``.
 
@@ -142,7 +142,7 @@ Examining the Structure of Your OpMode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It can be helpful to think of an OpMode as a list of tasks for the
-Robot Controller to perform. For a linear OpMode, the Robot Controller
+Robot Controller to perform. For a :term:`linear OpMode <LinearOpMode>`, the Robot Controller
 will process this list of tasks sequentially. Users can also use control
 loops (such as a while loop) to have the Robot Controller repeat (or
 iterate) certain tasks within a linear OpMode.
@@ -197,16 +197,16 @@ some import package statements):
 
 At the start of the OpMode there is an annotation that occurs before
 the class definition. This annotation states that this is a
-tele-operated (i.e., driver controlled) OpMode:
+:term:`tele-operated <TELEOP>` (i.e., driver controlled) OpMode:
 
 ``@TeleOp``
 
-If you wanted to change this OpMode to an autonomous OpMode, you would
+If you wanted to change this OpMode to an :term:`autonomous <Autonomous>` OpMode, you would
 replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead.
 
 You can see from the sample code that an OpMode is defined as a Java
 class. In this example, the OpMode name is called ``MyFIRSTJavaOpMode``
-and it inherits characteristics from the :term:`LinearOpMode` class.
+and it inherits characteristics from the LinearOpMode class.
 
 .. code-block:: java
 
@@ -511,8 +511,8 @@ Your OpMode takes input from a gamepad and uses this input to control a
 DC motor. To run your OpMode, you will need to connect a Logitech F310
 or other approved gamepad to the Driver Station.
 
-Connect the gamepad to the Driver Station. If using a REV Robotics Driver
-Hub, you can directly connect the gamepad to one of the USB-A ports. On a
+Connect the gamepad to the Driver Station. If using a REV Robotics :term:`Driver
+Hub`, you can directly connect the gamepad to one of the USB-A ports. On a
 DRIVER STATION phone, you will need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 .. image:: images/GamepadDHConnection.jpg

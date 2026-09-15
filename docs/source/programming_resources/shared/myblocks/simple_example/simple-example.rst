@@ -4,7 +4,7 @@ Simple Example: create myGreeting
 Start with a simple myBlock that creates a greeting “Hello World” (of
 course!).
 
-Open a Chrome browser connected via Wi-Fi to a :term:`Control Hub` or RC phone.
+Open a Chrome browser connected via Wi-Fi to a :term:`Control Hub` or :term:`RC` phone.
 Go to the address **http://192.168.43.1:8080** (CH) or
 **http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab.
 

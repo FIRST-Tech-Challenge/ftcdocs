@@ -7,7 +7,7 @@ Color-Distance Sensor
 A :term:`sensor <Sensor>` is a device that lets the :term:`Robot Controller` get information
 about its environment. In this example, you will use a REV Robotics
 Color-Distance sensor to display range (distance from an object) info to
-the driver station.
+the :term:`driver station <Driver Station>`.
 
 The Color-Range sensor uses reflected light to determine the distance
 from the sensor to the target object. It can be used to measure close
@@ -16,8 +16,8 @@ time this document was most recently edited, the REV Color-Range sensor
 saturates around 2" (5cm). This means that for distances less than or
 equal to 2", the sensor returns a measured distance equal to 2" or so.
 
-Modify your op mode to add a :term:`telemetry <Telemetry>` statement that will send the
-distance information (in centimeters) to the :term:`Driver Station`.
+Modify your :term:`op mode <Op Mode>` to add a :term:`telemetry <Telemetry>` statement that will send the
+distance information (in centimeters) to the Driver Station.
 
 .. code-block:: java
 

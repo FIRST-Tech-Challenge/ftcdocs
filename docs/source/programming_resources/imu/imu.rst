@@ -18,13 +18,13 @@ The `Software SDK
 **version 8.1** introduced a **universal interface** that supports both the
 BHI260AP and BNO055 IMU. This basic tutorial introduces some new features: 
 
--  robot configuration allows selection of IMU type 
+-  :term:`robot configuration <Robot Configuration>` allows selection of IMU type
 -  universal classes and methods supporting both IMU types 
 -  three ways to specify Hub mounting orientation on the robot
 
 Teams wanting to use the newer IMU are required to:
 
-- use SDK 8.1 or newer
+- use :term:`SDK` 8.1 or newer
 - update the :term:`Control Hub` OS to 1.1.3 or newer.  
 
 However **all teams** are encouraged to begin using the universal IMU classes
@@ -46,7 +46,7 @@ Each Hub’s IMU type is listed there, as of SDK 8.0.
    :alt: 2-hub display
    :width: 80%
 
-   Sample Control Hub and Expansion Hub display
+   Sample Control Hub and :term:`Expansion Hub` display
 
 .. note:: 
    *Reminder: REV Expansion Hubs purchased after December 2021 have no internal
@@ -80,9 +80,9 @@ Potential Usage
 ---------------
 
 *FIRST* Tech Challenge robots drive mostly on a flat :term:`playing field <Playing Field>`, typically
-using the IMU to monitor or control **Heading** (Yaw or Z-angle).
+using the IMU to monitor or control :term:`Heading` (Yaw or Z-angle).
 
-:term:`Heading` is preserved between OpMode runs, unless the robot or :term:`Robot Controller`
+Heading is preserved between OpMode runs, unless the robot or :term:`Robot Controller`
 (RC) app are restarted. This can be useful between :term:`Autonomous` and :term:`TeleOp <TELEOP>`.
 Heading can be reset during an OpMode, as discussed below.
 
@@ -115,7 +115,7 @@ Examples might include:
 -  robot’s left wheels are raised, on an obstacle
 -  robot is tilted forward on its front 4 wheels (of 6-wheel West Coast Drive) 
 -  robot has tipped over (!) 
--  robot’s secondary :term:`Expansion Hub` (with IMU) is mounted on a tilting mechanism
+-  robot’s secondary Expansion Hub (with IMU) is mounted on a tilting mechanism
 
 The Software SDK can also provide values for **angular velocity**, which is
 the rate of change (degrees per second) for Roll, Pitch or Yaw.
@@ -858,7 +858,7 @@ Here's an example of reading IMU Angles:
          :alt: Displaying YPR using Telemetry
          :width: 80%
 
-         Displaying Yaw-Pitch-Roll using Telemetry
+         Displaying Yaw-Pitch-Roll using :term:`Telemetry`
 
       These Blocks are shown in the Sample OpMode called ``SensorIMU``.
 
@@ -878,7 +878,7 @@ Here's an example of reading IMU Angles:
          double Roll  = robotOrientation.getRoll(AngleUnit.DEGREES);
 
 Note that the robot’s orientation is described here **intrinsically**;
-the axes move with each rotation. Here’s an example from the Javadocs:
+the axes move with each rotation. Here’s an example from the :term:`Javadocs <Javadoc>`:
 
    | As an example, if the yaw is 30 degrees, the pitch is 40 degrees, and
    | the roll is 10 degrees, that means that you would reach the described

@@ -30,7 +30,7 @@ Quick Start
 .. note:: 
    This and other steps here were previously described in detail, starting with the page called :doc:`Color Locator - Discover <../color-locator-discover/color-locator-discover>`.
 
-#. In FTC Blocks or Java, create a new :term:`Autonomous` OpMode from the Sample ``ConceptVisionColorLocator_Circle``.
+#. In FTC Blocks or Java, create a new :term:`Autonomous` :term:`OpMode` from the Sample ``ConceptVisionColorLocator_Circle``.
 #. On the :term:`Driver Station`, select the OpMode that you just saved or built.
 #. Turn off the automatic 30-second match timer (green slider).  Aim the camera at a DECODE **Purple Artifact**\ , or a picture of one.
 #. Touch INIT only. The OpMode should give Telemetry showing the results of one or more Blobs:
@@ -185,7 +185,7 @@ Improving Results
 
 FTC teams can adjust settings to improve results based on:
 
-* webcam model
+* :term:`webcam <Webcam>` model
 * webcam position on robot (lookdown angle)
 * Artifact clustering or blocked views
 * planned method of approach and collection
@@ -237,7 +237,7 @@ Lastly, some webcams perform **automatic color correction**, under changing ligh
 OpMode Development
 ------------------
 
-You should eventually use or adapt program elements from the Color Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your team's Autonomous (or TeleOp) OpMode.
+You should eventually use or adapt program elements from the Color Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your team's Autonomous (or :term:`TeleOp <TELEOP>`) OpMode.
 
 An early choice is: **how long** should the processing (looping) continue, before using the extracted data for robot action?  What should be the criteria to **exit a loop**, and which data should be used for subsequent calculations and movement?
 

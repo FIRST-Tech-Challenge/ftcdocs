@@ -42,7 +42,7 @@ Hotend Upgrades
 ---------------
 
 A hotend upgrade can be very beneficial for printing with different filaments, speeding up prints, and general reliability. 
-Learning how to mount hotends often takes some CAD skills or a quick Thingiverse search, but hotend upgrades are very 
+Learning how to mount hotends often takes some :term:`CAD` skills or a quick Thingiverse search, but hotend upgrades are very
 worth it. Typically, you will need a hotend structure, heater wire, and thermistor to do a full upgrade (and some wiring 
 tools to connect it to your board). Here are a few hotends from different price ranges that are well regarded and used.
 
@@ -119,7 +119,7 @@ leveling stock, but if yours didn't and you'd like to upgrade, these options are
 Raspberry Pi/Network Functionality
 ----------------------------------
 
-Network functionality is becoming frequent in 3D printing, with many interfaces allowing you to interact with your
+Network functionality is becoming frequent in :term:`3D printing <3D Printing>`, with many interfaces allowing you to interact with your
 printer remotely, and stop/start/watch prints while you aren't even there. Many companies have begun including 
 this feature stock with newer printers, however, even if you have a printer without network functionality,
 using something such as a Raspberry Pi or old android phone, you can make quick work of this feature

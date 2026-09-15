@@ -11,11 +11,11 @@ is included in the blast with the rest of the content here.
 .. _huborphone:
 
 This Tech Tip briefly discusses the pros and cons of Smartphones versus the
-Driver Hub. Which one should you use? Are there hidden benefits or perils for
+:term:`Driver Hub`. Which one should you use? Are there hidden benefits or perils for
 using one over the other?
 
-.. important:: Only the REV Driver Hub is officially supported as a Driver
-   Station. A SmartPhone is legal to use in competition, but it is not
+.. important:: Only the REV Driver Hub is officially supported as a
+   :term:`Driver Station`. A SmartPhone is legal to use in competition, but it is not
    supported - teams who use one are responsible for all of their own
    testing and troubleshooting.
 
@@ -23,11 +23,12 @@ The REV Driver Hub
 ------------------
 
 The REV Driver Hub is the standard *FIRST* Tech Challenge Driver Station
-hardware device. It boasts three USB-A ports for plugging in gamepads,
+hardware device. It boasts three USB-A ports for plugging in
+:term:`gamepads <Gamepad>`,
 a USB-C port used for communication and charging, a large touch screen,
 and an unused Ethernet port (for future-proofing). This device runs the
 Android operating system, maintained by REV Robotics, and uses Wi-Fi
-to communicate with the REV Control Hub.
+to communicate with the REV :term:`Control Hub`.
 
 **Driver Hub Pros**
 
@@ -52,7 +53,7 @@ to communicate with the REV Control Hub.
   - A single 10,000mAh External battery pack allows Control Hub to be
     used non-stop over the course of an entire day.
 
-- Driver Hub has 3 USB-A ports, so no external USB hubs and additional
+- Driver Hub has 3 USB-A ports, so no external :term:`USB hubs <USB Hub>` and additional
   cables are required for using multiple USB gamepads. This makes the
   Driver Hub very compact and easy to manage.
 

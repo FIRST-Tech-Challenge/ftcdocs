@@ -190,7 +190,7 @@ Power Distribution Block
       goBILDA (SKU: 3108-2833-0801)
 
 Power Distribution Blocks help to distribute the power to devices such as
-Control Hubs, SPARKminis, and more.  See the Competition Manual for a
+:term:`Control Hubs <Control Hub>`, SPARKminis, and more.  See the Competition Manual for a
 description of legal Power Distribution methods. The Power Distribution Blocks
 shown are not the only legal devices for power distribution.
 
@@ -218,7 +218,7 @@ REV Servo Power Module
       REV (REV-11-1144)
 
 This is an electronic device (also known as a Servo Power Injector) that boosts
-the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
+the power supplied to 3-wire :term:`servos <Servo>`. A REV Servo Power Module has 6 input servo
 ports and 6 matching output ports. It draws power from a 12V source and
 provides 6V power to each output servo port.  A REV Servo Power Module can
 provide up to 15A of current across all output servo ports for a total of 90

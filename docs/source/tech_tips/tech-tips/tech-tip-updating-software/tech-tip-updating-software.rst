@@ -16,9 +16,9 @@ Updating the Robot Controller App
 If you use :ref:`Android Studio
 <programming_resources/android_studio_java/Android-Studio-Tutorial:android studio programming tutorial>`,
 did you know that you're not supposed to use the `REV Hardware Client
-<https://docs.revrobotics.com/rev-hardware-client/>`__ to update the Robot
-Controller (RC) App? Blocks and OnBot Java programs are stored on the Robot
-Controller (Control Hub or SmartPhone) differently than Android Studio
+<https://docs.revrobotics.com/rev-hardware-client/>`__ to update the
+:term:`Robot Controller (RC) App <Robot Controller App>`? :term:`Blocks` and :term:`OnBot Java` programs are stored on the
+:term:`Robot Controller` (:term:`Control Hub` or SmartPhone) differently than :term:`Android Studio`
 programs, and this has a major effect on how updates can be managed on the
 device. Read more about this at :ref:`Updating the Robot Controller (RC) App
 <ftc_sdk/updating/rc_app/Updating-the-RC-App:Updating the Robot Controller (RC) App>`.
@@ -29,7 +29,7 @@ Don't Update the SDK by Editing the Manifest
 --------------------------------------------
 
 This section comes to us from an amalgamation of emailed questions asking
-about allowed ways to update an FtcRobotController SDK project. An approximate
+about allowed ways to update an FtcRobotController :term:`SDK` project. An approximate
 summary of the emailed questions along this topic is as follows:
 
 - *"Is merely editing the Android Manifest file in the TeamCode directory of

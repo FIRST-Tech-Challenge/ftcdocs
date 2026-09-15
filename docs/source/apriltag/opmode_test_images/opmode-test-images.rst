@@ -13,8 +13,8 @@ for a wide variety of tasks including augmented reality, robotics, and
 camera calibration. A properly calibrated camera and tag library can be
 used to detect AprilTags and provide information such as range and
 orientation information (also known as **pose** data) about the tags
-with respect to the camera. The *FIRST* Tech Challenge Software
-Development Kit (SDK) has been updated to add AprilTag detection APIs to
+with respect to the camera. The *FIRST* Tech Challenge :term:`Software
+Development Kit` (SDK) has been updated to add AprilTag detection APIs to
 help teams make use of this resource.
 
 This document contains examples of AprilTags that are intended

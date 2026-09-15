@@ -4,12 +4,12 @@ Old Self-Inspect
 Introduction
 ------------
 
-This page describes the older Self Inspect screens in the FTC :term:`Driver Station`
+This page describes the older :term:`Self Inspect <Self-Inspect>` screens in the FTC :term:`Driver Station`
 (DS) app and the FTC :term:`Robot Controller` (RC) app.
 See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
 
 A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. 
+relates to FTC rules for the :term:`control system <Control System>`.
 These rules are described in the :term:`Competition Manual` which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
@@ -118,7 +118,7 @@ DS Self Inspect 1, on DS phone paired to RC phone
    fact: the green color of the percentage value changes towards
    **orange** as the charge level goes down.
 -  Item 8 ``Location services`` appears only on devices running
-   **Android 8** or higher. This is an SDK/Android technology
+   **Android 8** or higher. This is an :term:`SDK`/Android technology
    requirement, not an FTC rule.
 -  Items 9 and 10 here must be Yes and No. ``Wi-Fi Enabled`` means the
    DS device’s Wi-Fi radio is **ON**, to use Wi-Fi Direct. It must

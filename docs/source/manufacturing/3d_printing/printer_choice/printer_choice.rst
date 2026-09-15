@@ -26,7 +26,7 @@ now shipped with that enabled in the firmware by default. **However, on older En
 
 All other printers that we list in our sections below are modern enough to have this feature as well.
 
-**Obsolete Products**: 3D printing technology moves at a fast pace, and it is important to check if the printer you intend on buying is not obsolete or discontinued by the manufacturer.
+**Obsolete Products**: :term:`3D printing <3D Printing>` technology moves at a fast pace, and it is important to check if the printer you intend on buying is not obsolete or discontinued by the manufacturer.
 This is important to check for a few reasons.
 
 1. Obsolete printers can be hard to find, and prices may be overinflated.

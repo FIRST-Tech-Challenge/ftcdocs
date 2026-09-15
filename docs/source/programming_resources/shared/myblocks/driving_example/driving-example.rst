@@ -2,7 +2,7 @@ Driving Example
 ===============
 
 Here is the Java code (method only) for converting an **inches of
-driving** target into an **encoder counts** target. The conversion
+driving** target into an :term:`encoder <Encoder>` counts target. The conversion
 depends on the drive motors’ counts-per-rotation (CPR), and the diameter
 of the drive wheels. This example assumes 1:1 :term:`gear ratio <Gear Ratio>` between the
 motor and wheel.

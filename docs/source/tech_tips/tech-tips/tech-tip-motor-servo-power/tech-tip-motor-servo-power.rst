@@ -12,7 +12,7 @@ is included in the blast with the rest of the content here.
 
 In this Tech Tip we'll be exploring mechanical and electrical
 power, why some types of power are calculated differently, and how to use
-this calculated power to compare servos. This Tech Tip was written and
+this calculated power to compare :term:`servos <Servo>`. This Tech Tip was written and
 fact-checked with the help of Google Gemini 1.5 Flash using Google AI
 Studio.
 
@@ -21,7 +21,7 @@ Electrical Power and Mechanical Power
 
 The fundamental concept we need to understand is power. We are generally
 concerned with two similar but different kinds of power, so let's look at
-the two most common types. In a motor, **electrical power** is the energy
+the two most common types. In a :term:`motor <DC Motor>`, **electrical power** is the energy
 supplied by the electrical current flowing through the motor's windings.
 This electrical energy is transformed into **mechanical power**, which is
 the rate at which the motor performs work by rotating a shaft. Both kinds of
@@ -56,8 +56,8 @@ standard electrical power formula:
 - *Electrical Power(W) = volts(V) x amps(A)*
 
 For example, a typical REV Smart Servo is supplied with 6V when used with a
-REV Servo Power Module (SPM) or 5V when used with a Control or Expansion
-Hub. Per the servo's specs, at 6V the servo will pull at most 2A at stall
+REV Servo Power Module (SPM) or 5V when used with a :term:`Control Hub` or
+:term:`Expansion Hub`. Per the servo's specs, at 6V the servo will pull at most 2A at stall
 (when the servo cannot physically move to the position it's being commanded
 to). This means the maximum electrical power the servo will consume is
 12Watts of power when plugged into the REV SPM and being commanded to a

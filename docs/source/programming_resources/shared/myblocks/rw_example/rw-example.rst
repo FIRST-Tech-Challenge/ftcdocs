@@ -1,7 +1,7 @@
 Example: Read-Write File Access
 ===============================
 
-The current version of regular :term:`Blocks` (SDK 7.0) does not provide
+The current version of regular :term:`Blocks` (:term:`SDK` 7.0) does not provide
 **read/write access to an external file**, other than automatic Log or
 Match Log file entries. File access is a useful capability, available so
 far to Java programmers only. Now it can be done with myBlocks!
@@ -12,7 +12,7 @@ value to a specified filename, and a companion myBlock can later
 
 .. image:: images/a0550-file-access-Blocks.png
 
-The file is stored on the :term:`Control Hub` or RC phone, in the FIRST/settings
+The file is stored on the :term:`Control Hub` or :term:`RC` phone, in the FIRST/settings
 folder. It exists separately from the RC app, :term:`OpModes <OpMode>`, and other 
 files.
 

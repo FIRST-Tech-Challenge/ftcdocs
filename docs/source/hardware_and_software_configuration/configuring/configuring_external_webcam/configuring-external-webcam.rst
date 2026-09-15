@@ -20,7 +20,7 @@ Type of External Camera
 Theoretically, any USB Video Class (UVC) camera should work with the 
 system. However, *FIRST* recommends using UVC web cameras from Logitech.
 The following cameras have been tested and calibrated to work accurately
-with SDK software:
+with :term:`SDK` software:
 
 - :ref:`logitech_c270_label`
 - :ref:`logitech_c310_label`
@@ -43,12 +43,12 @@ powered :term:`USB hub <USB Hub>`.
 .. image:: images/USB-camera-Control-Hub.jpg
    :alt: Control Hub with UVC camera connected.
    
-.. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+.. warning:: An :term:`electrostatic discharge (ESD) <ESD>` event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
 
    The REV Control Hub has a 
    `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
    with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause :term:`ESD` to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver :term:`hub <Hub>`). 
+   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver :term:`hub <Hub>`).
    Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
    
 If you wish to connect two webcams see `Cameras and USB Hubs`_.

@@ -16,7 +16,7 @@ Blocks. Here are some examples of both:
    can provide Blocks users with controls previously considered too
    complex.
 
--  Provide access to **External Libraries**, new for SDK 7.0. More
+-  Provide access to :term:`External Libraries`, new for :term:`SDK` 7.0. More
    info is :ref:`here <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
    libraries in onbot java and blocks>`.
 

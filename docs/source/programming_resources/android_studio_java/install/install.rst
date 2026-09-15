@@ -1,7 +1,7 @@
 Installing Android Studio :bdg-success:`AS`
 ===========================================
 
-These pages cover installing Android Studio on your laptop and downloading the
+These pages cover installing :term:`Android Studio` on your laptop and downloading the
 ``FtcRobotController`` project folder for the current season. Android Studio is
 demanding on a laptop; check your laptop against the
 :doc:`recommended computer requirements for software development </programming_resources/laptops/laptops>`

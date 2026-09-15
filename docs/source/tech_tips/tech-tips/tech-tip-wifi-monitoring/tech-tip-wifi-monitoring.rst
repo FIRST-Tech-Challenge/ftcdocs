@@ -11,8 +11,8 @@ is included in the blast with the rest of the content here.
 .. _wifimonitoring:
 
 One common question we get is how to determine the Wi-Fi signal strength
-between the Driver Station and the Robot. Because there are a lot of factors
-that can play into your robot performance on the field, it's important to know
+between the :term:`Driver Station` and the Robot. Because there are a lot of factors
+that can play into your robot performance on the :term:`field <Playing Field>`, it's important to know
 that your robot is getting the strongest Wi-Fi signal possible. The
 :ref:`FTC Driver Station App
 <ftc_sdk/updating/ds_app/Updating-the-DS-App:Updating the Driver Station App>`
@@ -34,13 +34,13 @@ strength, and increments of 10dBm indicate 10x change in signal strength.
 For example, a signal strength of -40dBm is twice as strong as a signal
 strength of -43dBm, and a signal strength of -67dBm is one-tenth the signal
 strength of -57dBm. Signal strengths around -40dBm are Amazing, but rarely
-achievable in match play. A strength of -60dBm is still considered Very
+achievable in :term:`match <Match>` play. A strength of -60dBm is still considered Very
 Good. -67dBm is considered Good. -70dBm is considered Okay. Anything less
 than -80dBm is considered unusable.
 
-To see the Signal Strength between your Driver Station and the Robot
-Controller, first ensure that the robot is connected within the Driver
-Station App. At the top of the Driver Station App is a readout that shows
+To see the Signal Strength between your Driver Station and the
+:term:`Robot Controller`, first ensure that the robot is connected within the
+:term:`Driver Station App`. At the top of the Driver Station App is a readout that shows
 the connected network name, and under it are Ping times and the Channel
 number of the Wi-Fi connection. Tap that area of the app, and the display
 will change and instead show the signal strength under the connected network
@@ -62,7 +62,7 @@ Link Speed and the Signal Bar Graph
 Link Speed is the speed (in Mbps) at which a Wi-Fi connection can
 communicate, and it generally ranges from a snail-like 1Mbps through about
 100Mbps, which is the maximum practical rate for an 802.11ac/b/g/n/w Wi-Fi
-network (when using a Control Hub and Driver Hub). It's important to
+network (when using a :term:`Control Hub` and :term:`Driver Hub`). It's important to
 understand the difference between Signal Strength and Link Speed. Signal
 Strength is often used to describe how "loud" a connection is, and Link
 Speed is used to describe how "fast" a connection can communicate. Link

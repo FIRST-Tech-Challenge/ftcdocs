@@ -7,7 +7,7 @@
 ====================================
 
 Welcome to the *FIRST®* Tech Challenge Documentation! This website contains everything you need to know to create a competition robot!
-There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.
+There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot :term:`control system <Control System>`.
 There is also information for coaches and mentors.
 
 *FIRST* Tech Challenge is a robotics program for middle and high school students.
@@ -213,7 +213,7 @@ The main menu contains links to the top level content. The following are quick l
    
       ^^^
 
-      Let's get to know the *FIRST* Tech Challenge :term:`Control System`! 
+      Let's get to know the *FIRST* Tech Challenge Control System! 
 
       +++
 

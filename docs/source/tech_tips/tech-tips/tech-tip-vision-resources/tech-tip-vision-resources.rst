@@ -13,8 +13,8 @@ is included in the blast with the rest of the content here.
 AprilTag Localization
 ---------------------
 
-How can your robot determine where it is on the field by looking at an
-AprilTag? A set of APIs was added in SDK 10.0 to provide just that
+How can your robot determine where it is on the :term:`field <Playing Field>` by looking at an
+:term:`AprilTag`? A set of APIs was added in :term:`SDK` 10.0 to provide just that
 information, and it works for any static (immobile) AprilTag on the
 competition field. Check out the :ref:`AprilTag Localization
 <apriltag/vision_portal/apriltag_localization/apriltag-localization:AprilTag Localization>`
@@ -25,7 +25,7 @@ documentation on ftc-docs!
 Choosing the Right Webcam
 -------------------------
 
-When using AprilTags, choosing the right webcam can save you from having to
+When using AprilTags, choosing the right :term:`webcam <Webcam>` can save you from having to
 :ref:`perform your own calibration
 <programming_resources/vision/camera_calibration/camera-calibration:Camera
 Calibration>` before being able to use it for obtaining
@@ -51,7 +51,7 @@ HuskyLens Intro
 
 This section comes to us from Chris Johannesen, 2023 *FIRST* Tech Challenge
 Volunteer of the Year and author of many ftc-docs tutorials. Have you heard of
-the HuskyLens and want to learn how to properly connect one to a Control Hub,
+the HuskyLens and want to learn how to properly connect one to a :term:`Control Hub`,
 learn how to use it to detect objects, and use the HuskyLens samples included
 with SDK 9.0.0 and newer? Chris has this and more in his :ref:`HuskyLens
 Tutorial <devices/huskylens/huskylens:HuskyLens Intro for *FIRST* Tech Challenge>`

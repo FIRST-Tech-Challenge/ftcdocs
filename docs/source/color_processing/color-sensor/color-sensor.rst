@@ -4,7 +4,7 @@ Color Processing Color Sensor
 Overview
 --------
 
-A simple way to use FTC's new OpenCV vision tools is to operate a "Color
+A simple way to use FTC's new :term:`OpenCV` vision tools is to operate a "Color
 Sensor".  Namely, it can determine **the color seen by the robot's camera**\ ,
 in a specified zone.
 
@@ -32,7 +32,7 @@ For the above example, OpenCV can provide results like this:
 
    RED Detection using Color Sensor
 
-The following sections describe how to do this, with a Sample OpMode.
+The following sections describe how to do this, with a :term:`Sample OpMode`.
 
 Configuration
 -------------
@@ -41,17 +41,18 @@ Configuration
 
 
 * *the active robot configuration already contains "Webcam 1"*, or
-* *using the built-in camera of an Android phone as Robot Controller.*
+* *using the built-in camera of an Android phone as* :term:`Robot Controller`.
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used as a color sensor.
+Before starting the programming, REV :term:`Control Hub` users should make a
+:term:`robot configuration <Robot Configuration>` that includes the USB
+:term:`webcam <Webcam>` to be used as a color sensor.
 
 For now, use the default webcam name, "Webcam 1".  If a different name is
 preferred, edit the Sample OpMode to agree with the exact webcam name in the
 robot configuration.
 
 Save and activate that configuration; its name should appear on the paired
-Driver Station screen.
+:term:`Driver Station` screen.
 
 Sample OpMode
 -------------
@@ -59,7 +60,7 @@ Sample OpMode
 Opening the Sample OpMode
 +++++++++++++++++++++++++
 
-To learn about opening the Sample OpMode, click the tab for Blocks or Java:
+To learn about opening the Sample OpMode, click the tab for :term:`Blocks` or Java:
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -75,19 +76,19 @@ To learn about opening the Sample OpMode, click the tab for Blocks or Java:
          "ColorSensor_Maria_v01", and select the Sample OpMode
          ``ConceptVisionColorSensor``.
 
-      3. At the top of the Blocks screen, you can change the type from "TeleOp" to
-         "Autonomous", since this Sample OpMode does not use gamepads.
+      3. At the top of the Blocks screen, you can change the type from :term:`TeleOp <TELEOP>` to
+         :term:`Autonomous`, since this Sample OpMode does not use gamepads.
 
       4. If using the built-in camera of an RC phone, drag out the relevant Block
          from the left-side ``VisionPortal.Builder`` toolbox.
 
-      5. Save the OpMode, time to try it!
+      5. Save the :term:`OpMode`, time to try it!
 
 
    .. tab-item:: Java
       :sync: java
 
-      1. Open your choice of OnBot Java or Android Studio.
+      1. Open your choice of :term:`OnBot Java` or :term:`Android Studio`.
 
       2. In the ``teamcode`` folder, add/create a new OpMode with a name such as
          "ColorSensor_Bobby_v01.java", and select the Sample OpMode
@@ -110,7 +111,7 @@ On the Driver Station:
 2. Turn off the automatic 30-second match timer (green slider).
 3. Touch INIT only.  
 
-The OpMode should give Telemetry, stating the main "matched" color inside the Region of Interest.
+The OpMode should give :term:`Telemetry`, stating the main "matched" color inside the Region of Interest.
 
 .. figure:: images/30-DStelemetry.png
    :width: 75%
@@ -212,7 +213,7 @@ The Sample OpMode first creates a "Predominant Color" **Processor** using the
 **Builder** pattern.  This is the same Builder pattern used to create an
 :term:`AprilTag` Processor.
 
-The Sample OpMode then creates a **VisionPortal**, again using a Builder
+The Sample OpMode then creates a :term:`VisionPortal`, again using a Builder
 pattern.  This includes adding the "Predominant Color" Processor to the
 VisionPortal.
 

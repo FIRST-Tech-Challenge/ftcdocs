@@ -46,6 +46,6 @@ annotation **@ExportToBlocks** - method must be **public** and
 **static** (must not be abstract) - replace myBlocks after external
 edits
 
-The rest of this tutorial gives **examples** that you can **re-type in
-OnBot Java** and **test in Blocks**. Try making changes and adding
+The rest of this tutorial gives **examples** that you can re-type in
+:term:`OnBot Java` and **test in Blocks**. Try making changes and adding
 features!

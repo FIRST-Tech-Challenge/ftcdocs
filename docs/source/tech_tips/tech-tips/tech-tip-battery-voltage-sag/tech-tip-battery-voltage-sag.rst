@@ -11,7 +11,7 @@ is included in the blast with the rest of the content here.
 .. _batteryvoltagesag:
 
 This Tech Tip surrounds a question that we get asked at events all the time -
-"What makes battery voltage sag?". As a battery is heavily used, teams will
+"What makes :term:`battery <Battery>` voltage sag?". As a battery is heavily used, teams will
 notice that the voltage of the battery temporarily decreases from its starting
 voltage during periods of heavy use, and then generally raises back up once the
 heavy use has subsided. So what causes this?
@@ -41,11 +41,12 @@ sustain the flow of electrons, and the battery will need to be recharged or
 replaced.
 
 So what is the biggest reason why batteries will sag? On a *FIRST* Tech
-Challenge robot, this reason is actuator (motor and servo) current draw.
+Challenge robot, this reason is actuator (:term:`motor <DC Motor>` and
+:term:`servo <Servo>`) current draw.
 Motors and Servos can pull a considerable amount of current when they're
 being used, especially when they're being used in low-torque configurations.
-Motors that are geared closer to 1:1 gear ratio can spin faster - they can
-propel your robot's drivetrain across the field much faster - but have less
+Motors that are geared closer to 1:1 :term:`gear ratio <Gear Ratio>` can spin faster - they can
+propel your robot's drivetrain across the :term:`field <Playing Field>` much faster - but have less
 torque because of the lower gear ratio. Motor configurations that have less
 torque consume significantly more current to operate (when driving the same
 load) than motor configurations with more torque. Systems being driven by
@@ -53,7 +54,7 @@ actuators that have more friction or less torque will cause the motors to
 consume larger amounts of current, and this can cause even healthy batteries
 to have their voltages "sag" during periods of high use. Teams must consider
 their power consumption very carefully when optimizing their battery and
-motor utilization during a match, even though that's often an afterthought
+motor utilization during a :term:`match <Match>`, even though that's often an afterthought
 for most teams.
 
 .. _batteryvoltagesag2:
@@ -105,7 +106,7 @@ Understanding Internal Resistance (IR) requires talking about the discharge
 rate of a battery. The discharge rate is a measure of how quickly the battery
 can deliver its stored energy. Most NiMH batteries used in *FIRST* Tech
 Challenge are rated at a nominal 12V and a maximum discharge rate of 30A,
-though that rate is limited by the 20A fuse. A battery's IR refers to any
+though that rate is limited by the 20A :term:`fuse <Fuse>`. A battery's IR refers to any
 opposition to that flow of electric current within the battery itself.
 Resistance can come from a number of sources, such as resistance within the
 battery's chemistry (such as a breakdown of the conductive electrolyte within

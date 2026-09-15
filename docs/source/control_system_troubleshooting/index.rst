@@ -16,8 +16,8 @@ Control System, both for teams and for the technical :term:`volunteers <Voluntee
 them at events.
 
 This guide assumes you already have a basic understanding of the Control
-System's components. For an introduction to the :term:`Driver Station`, Robot
-Controller, :term:`Control Hub`, and :term:`Driver Hub`, see
+System's components. For an introduction to the :term:`Driver Station`, :term:`Robot
+Controller`, :term:`Control Hub`, and :term:`Driver Hub`, see
 :doc:`/programming_resources/shared/control_system_intro/The-FTC-Control-System`.
 
 .. toctree::
@@ -34,7 +34,7 @@ Controller, :term:`Control Hub`, and :term:`Driver Hub`, see
 Mitigating Disruptions Due to Electrostatic Shocks
 ---------------------------------------------------
 
-Electrostatic discharge (:term:`ESD`) events have the potential to disrupt the
+:term:`Electrostatic discharge <Electrostatic Discharge>` (ESD) events have the potential to disrupt the
 normal operation of a competition robot. The
 :doc:`/hardware_and_software_configuration/configuring/managing_esd/managing-esd`
 article provides a comprehensive discussion of this topic. Key takeaways

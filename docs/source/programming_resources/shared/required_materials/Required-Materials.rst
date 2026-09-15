@@ -42,7 +42,7 @@ tutorials, you will need to have the following materials available:
 .. |driverhub| image:: images/driverHub.jpg
 
 
-.. important:: Only the REV Control Hub and the REV Driver Hub are officially
+.. important:: Only the REV :term:`Control Hub` and the REV :term:`Driver Hub` are officially
    supported. An Android phone is legal to use in competition, but it is not
    supported. Teams who use one are responsible for all of their own testing
    and troubleshooting.
@@ -55,12 +55,12 @@ tutorials, you will need to have the following materials available:
    * - Required Item(s)
      - Image
 
-   * - A REV Robotics :term:`Control Hub` to be used as a ROBOT CONTROLLER.
+   * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
        Alternately, teams may instead use a REV Robotics :term:`Expansion Hub`
        and an Android phone.
      - |chandphones| |exhub|
 
-   * - A REV Robotics :term:`Driver Hub` to be used as a DRIVER STATION device.
+   * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
        Alternately, teams may instead use an Android phone.
      - |driverhub|
 
@@ -76,14 +76,14 @@ tutorials, you will need to have the following materials available:
    * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
      - |switch|
   
-   * - *FIRST*-approved\* 12V Battery (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current Competition Manual.**\
+   * - *FIRST*-approved\* 12V :term:`Battery` (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current** :term:`Competition Manual`.\
      - |battery|   Or |slimbattery|
 
-   * - *FIRST*-approved\* 12V DC Motor (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
+   * - *FIRST*-approved\* 12V :term:`DC Motor` (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
      - |motor|
 
 
-   * - If you are using an approved 12V :term:`battery <Battery>` that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
+   * - If you are using an approved 12V battery that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
      - |tamiya|
   
    * - REV Robotics Anderson to JST VH Cable (REV-31-1381).

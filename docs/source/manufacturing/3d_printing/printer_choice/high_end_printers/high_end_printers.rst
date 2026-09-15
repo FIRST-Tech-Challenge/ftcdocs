@@ -46,7 +46,7 @@ Bambu Lab H2S ($1299)
 The H2S is positioned as Bambu Lab's higher-end offering. It is a good choice for teams that want a large, feature-rich printer with a streamlined user experience,
 but it is usually more expensive than other Bambu Lab models.
 
-For FTC teams, the main reason to choose the H2S is faster design iteration with fewer failed prints: its high-speed CoreXY motion system helps you go from CAD to a usable part quickly,
+For FTC teams, the main reason to choose the H2S is faster design iteration with fewer failed prints: its high-speed CoreXY motion system helps you go from :term:`CAD` to a usable part quickly,
 while the enclosed, actively heated chamber expands the range of materials you can print reliably. The large build volume also makes it easier to print bigger robot parts (or multiple smaller parts)
 in fewer runs, and the built-in monitoring/failure-detection features help reduce wasted time during long prints.
 
@@ -66,7 +66,7 @@ H2S Drawbacks
 ^^^^^^^^^^^^^
 * Reliant on Bambu Lab for firmware/software updates and long-term support
 * Replacement parts are largely proprietary (availability and pricing depend on region); some third party parts are available but others need to be purchased from Bambu Lab
-* Expensive compared to other Bambu Lab models, and some features may be unnecessary for teams new to 3D printing
+* Expensive compared to other Bambu Lab models, and some features may be unnecessary for teams new to :term:`3D printing <3D Printing>`
 * High peak power requirements (up to 2050 W @ 220 V / 1170 W @ 110 V)
 * Large, so may not fit in all workspaces
 
@@ -82,7 +82,7 @@ DIY Printers (Voron, HevOrt, VZBot)
              printers we would highly advise against a DIY printer. These printers are **projects** and take significant 
              effort and upkeep, which make them a poor choice for a first or second printer.
 
-If you want to take a deeper dive into :term:`3D Printing` and achieve both extreme speeds and quality, a DIY printer
+If you want to take a deeper dive into 3D Printing and achieve both extreme speeds and quality, a DIY printer
 may be a good choice. DIY printers can be tailored to your specific needs and perform extremely well but are 
 typically a huge time and financial commitment.
 

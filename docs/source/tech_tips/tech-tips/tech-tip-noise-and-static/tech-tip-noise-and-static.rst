@@ -13,12 +13,12 @@ is included in the blast with the rest of the content here.
 Signal Filtering with Ferrite Cores
 -----------------------------------
 
-For those about to use sensors, we salute you! This section focuses on signal
+For those about to use :term:`sensors <Sensor>`, we salute you! This section focuses on signal
 noise and how to eliminate it with ferrite cores.
 
 When deciding to use a sensor on a robot, we're normally worried about how
 accurate the sensor's detection is, how much the sensor costs, or how the
-sensor's protocol will interface with the control system. It isn't until the
+sensor's protocol will interface with the :term:`control system <Control System>`. It isn't until the
 device is being mounted to the robot before we consider how outside
 electrical noise already present on the robot might significantly impact the
 performance of the sensor. This electrical noise almost exclusively comes
@@ -33,8 +33,8 @@ depends on several factors including the strength of the magnetic field, the
 rate of change of the field, and the orientation of the wire.
 
 Some buses and wiring are more sensitive to electrical noise than others. On
-a *FIRST* Tech Challenge robot, long signal-carrying wires (such as Servo wires
-or I2C sensor wires) are most susceptible to induced noise. So how can we
+a *FIRST* Tech Challenge robot, long signal-carrying wires (such as :term:`Servo` wires
+or :term:`I2C` sensor wires) are most susceptible to induced noise. So how can we
 eliminate this noise? The easiest way to remove noise is through the use of a
 Ferrite Core. Ferrite Cores, also known as Ferrite Beads, are made of a
 ceramic material called ferrite that has incredibly useful magnetic
@@ -47,7 +47,7 @@ increase the efficiency of the noise filtering in cases where excessive noise
 is being generated. You can find ferrite cores already installed in cables
 meant for high-noise environments or highly sensitive devices such as USB
 webcam cables and monitor cables. It's best to place ferrite cores on the
-wire closest to the connector leading into the Control/Expansion Hub port.
+wire closest to the connector leading into the :term:`Control <Control Hub>`/:term:`Expansion Hub` port.
 
 .. _revgroundingstrap:
 

@@ -16,7 +16,7 @@ these :term:`Blocks`/Java types):
 - ``fieldPosition``: tag location on the game field (``VectorF``) 
 - ``fieldOrientation``: tag orientation on the game field (``Quaternion``)
 
-The reference frame is the *FIRST* Tech Challenge **Field Coordinate System**,
+The reference frame is the *FIRST* Tech Challenge :term:`Field Coordinate System`,
 provided here:
 
 - :ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:reference frame>`
@@ -103,8 +103,8 @@ This section continues from the **VisionPortal CPU and Bandwidth** page, which
 covered many basic tools for avoiding limits of CPU usage and USB bandwidth.
 
 To evaluate multiple factors, changing at the same time, a customized Test
-OpMode can be very useful.  This section provides an example that allows **live
-gamepad control** to:
+OpMode can be very useful.  This section provides an example that allows **live**
+:term:`gamepad <Gamepad>` **control** to:
 
 - toggle AprilTag Processor on and off
 - toggle a second Processor on and off
@@ -117,7 +117,7 @@ Other features of this Test OpMode include:
   frame rate (FPS).
 - The previews can be observed, and detections/recognitions can be monitored
   via annotations and :term:`Telemetry`.
-- Frame rate is provided in LiveView and DS Telemetry.
+- Frame rate is provided in LiveView and :term:`DS` Telemetry.
 - The Telemetry functions include an alternate for getting **all** or **only
   fresh** detections/recognitions.
 

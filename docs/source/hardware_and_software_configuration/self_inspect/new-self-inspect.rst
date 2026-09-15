@@ -4,11 +4,11 @@
 Introduction
 ------------
 
-This page describes the Self Inspect screens in the FTC :term:`Driver Station`
+This page describes the :term:`Self Inspect <Self-Inspect>` screens in the FTC :term:`Driver Station`
 (DS) app and the FTC :term:`Robot Controller` (RC) app.
 
 A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. 
+relates to FTC rules for the :term:`control system <Control System>`.
 These rules are described in the :term:`Competition Manual` which can be found on the
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
@@ -53,7 +53,7 @@ This avoids the situation of trying to upgrade a device at a competition at the 
 Current versions have the latest bug fixes and enhancements. For example, version 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi.
  
 Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP major version is 10, and the DECODE major version is 11.
-If the game has :term:`AprilTags <AprilTag>`, the SDK will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
+If the game has :term:`AprilTags <AprilTag>`, the :term:`SDK` will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
 As the season progresses, minor releases will include bug fixes and some enhancements. e.g. 11.1, 11.2, etc.
   
 Regardless of the versions selected, it is highly recommended that the installed ROBOT CONTROLLER

@@ -24,7 +24,7 @@ resolutions wants a separate calibration for each one.
 Does your camera already have calibration data?
 -----------------------------------------------
 
-The SDK ships calibration data for a limited number of webcams and resolutions,
+The :term:`SDK` ships calibration data for a limited number of webcams and resolutions,
 so check this list before calibrating anything yourself:
 
 .. list-table::

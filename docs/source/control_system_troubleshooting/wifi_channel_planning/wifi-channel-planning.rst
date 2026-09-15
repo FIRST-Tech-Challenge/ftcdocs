@@ -9,7 +9,7 @@ Accommodating a Large Number of Robots at an Event
 ----------------------------------------------------
 
 The wireless :term:`Control System` is a point-to-point system. This means that each
-Driver Station-robot pair establishes its own Wi-Fi network at an event. If
+:term:`Driver Station`-robot pair establishes its own Wi-Fi network at an event. If
 there are a large number of robots in a venue, then there will be a large
 number of wireless networks operating in the venue. If there are a large
 number of wireless networks operating in a small area, then there could be
@@ -98,7 +98,7 @@ channel, here are some factors to consider when doing your planning.
     channel.
   - *Use a pair of Android devices to monitor ping times.* If a target
     channel looks relatively clean, you should use a pair of Android
-    devices running the FTC :term:`Driver Station` and FTC :term:`Robot Controller` apps to
+    devices running the FTC Driver Station and FTC :term:`Robot Controller` apps to
     monitor the ping times on the target channel. You will need a pair of
     Android devices that support channel changing. Switch to the target
     channel and test to make sure you can
@@ -114,8 +114,8 @@ channel, here are some factors to consider when doing your planning.
     low on a target channel, then it should be safe to place your robots on
     the channel.
 
-- **What type of Android devices will the teams be using?** The REV Control
-  Hub supports channel changing using the FTC Robot Controller app, as do
+- **What type of Android devices will the teams be using?** The REV :term:`Control
+  Hub` supports channel changing using the FTC Robot Controller app, as do
   many Android smartphones. Note that not every smartphone supports channel
   changing.
 
@@ -143,8 +143,8 @@ From the Pair with Controller screen, select None to unpair your phone.
    Select "None" to unpair the device, then use the back arrow to return to the main screen.
 
 Use the back arrow to return to the main Driver Station screen. The screen
-should now indicate that the Driver Station is not paired with any Wi-Fi
-Direct device.
+should now indicate that the Driver Station is not paired with any :term:`Wi-Fi
+Direct` device.
 
 .. figure:: images/ds-unpaired-status.png
    :alt: Driver Station main screen showing Wifi Direct status as Not Paired.
@@ -182,7 +182,7 @@ Changing the Channel Using an Android Smartphone
 
 If you are using an Android smartphone as your Robot Controller,
 you can use the channel change function that is built into the FTC Robot
-Controller app to change the :term:`Wi-Fi Direct` operating channel. From the Robot
+Controller app to change the Wi-Fi Direct operating channel. From the Robot
 Controller app, launch the Settings menu and select the Change Wi-Fi Channel
 option.
 

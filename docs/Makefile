@@ -12,6 +12,8 @@ SIZECHECKER   = python3 -m scripts.imagesizechecker
 CONFEXCLUDE   = --exclude-file source/conf.py
 SIZEMAX       = 500
 
+GLOSSARYCHECKER = python3 -m scripts.glossarychecker
+
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
 LATEXBUILDDIR = build/latex/
@@ -50,7 +52,10 @@ local-full:
 imagecheck:
 	@$(SIZECHECKER) $(SOURCEDIR) $(SIZEMAX) $(CONFEXCLUDE) $(O)
 
-.PHONY: help autobuild Makefile
+glossarycheck:
+	@$(GLOSSARYCHECKER) $(SOURCEDIR) $(O)
+
+.PHONY: help autobuild imagecheck glossarycheck Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

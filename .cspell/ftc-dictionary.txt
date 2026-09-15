@@ -136,6 +136,7 @@ ftccommon
 ftclive
 ftcoverview
 ftcqa
+glossarycheck
 hotkeyed
 hotspot
 hotspots

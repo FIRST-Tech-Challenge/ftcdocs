@@ -31,16 +31,16 @@ As always, the `FTC Q&A Forum <https://ftc-qa.firstinspires.org/>`__ and
 rules take precedence over recommendations made here. Please refer to
 these sources before embarking on the electrical wiring task.
 
-.. note:: This guide primarily uses the REV Robotics Expansion Hub in its examples, but the guidelines
+.. note:: This guide primarily uses the REV Robotics :term:`Expansion Hub` in its examples, but the guidelines
    apply equally well to the REV Robotics :term:`Control Hub`. These :term:`Hubs <Hub>` provide electronic input/output
    (or "I/O") ports that are used to "talk" to a robot's motors, :term:`servos <Servo>`, and :term:`sensors <Sensor>`. The layout of
-   I/O ports is the same for both the :term:`Expansion Hub` and Control Hub.
+   I/O ports is the same for both the Expansion Hub and Control Hub.
 
 One of the important differences between the Expansion Hub and the
 Control Hub is the external Android device used with the Expansion Hub,
 compared to the internal Android device built into the Control Hub, to
-accomplish the same task of wireless communication with the driver
-station. Sample wiring diagrams can be found in the
+accomplish the same task of wireless communication with the :term:`driver
+station <Driver Station>`. Sample wiring diagrams can be found in the
 :doc:`Robot Controller Overview </control_hard_compon/rc_components/index>`.
 
 .. figure:: images/smartphone-hub-config.png
@@ -183,8 +183,8 @@ solidly on a rigid panel.
 
    - Wires are channeled with zip ties.
    - Wires are also bundled based on their destination, such as motors, and then neatly coiled.
-   - The 12V battery is held in place by a metal TETRIX bracket and Velcro (under the battery), and the main power connector is also constrained to the c-channel. The power switch is mounted in an easily accessible location, protected behind a side shield with a finger hole.
-   - The REV Expansion Hub is mounted to a plastic base, which extends 1/8" beyond the metal chassis to minimize ESD (electrostatic discharge).
+   - The 12V :term:`battery <Battery>` is held in place by a metal TETRIX bracket and Velcro (under the battery), and the main power connector is also constrained to the c-channel. The power switch is mounted in an easily accessible location, protected behind a side shield with a finger hole.
+   - The REV Expansion Hub is mounted to a plastic base, which extends 1/8" beyond the metal chassis to minimize :term:`ESD` (electrostatic discharge).
 
 .. important:: Every wire connection is a possible point of failure. This applies to all electronics.
 
@@ -205,7 +205,7 @@ wiring will:
 
    Securing wires
 
-   - The power and encoder wires for this drive train are strain relieved at the motors themselves.
+   - The power and :term:`encoder <Encoder>` wires for this drive train are strain relieved at the motors themselves.
    - Wires are secured to each other and to the plastic chassis baseplate.
    - The metallic chassis beams are insulated with plastic strips to prevent electrostatic discharges as the robot rolls off its metal platform.
 
@@ -354,7 +354,7 @@ pinch/entanglement points.
 Battery Security
 ^^^^^^^^^^^^^^^^^
 
-The placement, connectors, and methods for securing the :term:`battery <Battery>`
+The placement, connectors, and methods for securing the battery
 properly will ensure safety and enhance the life of the battery.
 
 The battery is often one of the heaviest parts of the robot, and its
@@ -479,7 +479,7 @@ Protective Side Shields
 Most FTC games involve Robot-to-Robot and Robot-to-Game element
 contact. This contact may be intentional or accidental, and it can
 sometimes extend into the inner workings of your robot. To prevent
-damage or interference (such as :term:`ESD`), it is desirable to prevent
+damage or interference (such as ESD), it is desirable to prevent
 external objects from being able to contact critical internal
 electrical components.
 
@@ -511,7 +511,7 @@ Wi-Fi Considerations
 ^^^^^^^^^^^^^^^^^^^^^
 
 The :term:`Robot Controller` device (Control Hub or Android smartphone) uses a
-wireless radio to communicate with the :term:`Driver Station`. Choose the
+wireless radio to communicate with the Driver Station. Choose the
 placement of the Hub/phone with the following considerations:
 
 - It is important to protect the Control Hub or phone from robot-to-robot contact. Attach the Hub or phone to the robot in a place protected from physical impact.
@@ -546,7 +546,7 @@ isolated from its frame, the same practices covered throughout this
 guide (strain relief, wire routing, keeping connectors away from
 exposed metal) also reduce ESD risk. A few wiring-specific tips:
 
-- Use ferrite chokes on sensor, :term:`encoder <Encoder>`, and servo cables to help block the current spikes seen in an ESD event.
+- Use ferrite chokes on sensor, encoder, and servo cables to help block the current spikes seen in an ESD event.
 - Keep connectors and exposed wire ends away from the metal frame of the robot; an air gap of at least 3/8" (10 mm), or a wrap of electrical tape, reduces the chance of a shock disrupting a port.
 - Wheel material and design can affect how much static charge a robot builds up. :term:`Mecanum` wheels, for example, may produce more static than other wheel types.
 

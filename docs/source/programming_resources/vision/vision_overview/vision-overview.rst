@@ -25,7 +25,7 @@ computer vision technologies:
 
 2. Color Processing - 
    :doc:`Color Processing </color_processing/index>` is a
-   feature in the *FIRST* Tech Challenge SDK that provides the ability
+   feature in the *FIRST* Tech Challenge :term:`SDK` that provides the ability
    to process colors using `OpenCV <https://opencv.org/>`__.
 
    -  Color :term:`Sensor` can detect the exact color in an image, which can

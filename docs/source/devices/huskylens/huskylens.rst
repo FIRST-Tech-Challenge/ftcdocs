@@ -16,7 +16,7 @@ teams that **already decided** to explore its potential.
 
    DFRobot HuskyLens
 
-Basic support for this **vision sensor** was added to the FTC SDK
+Basic support for this **vision sensor** was added to the FTC :term:`SDK`
 version 9.0 in September 2023 with the CENTERSTAGE robot game kickoff.
 
 HuskyLens uses **on-board programming** to perform AI-assisted learning,
@@ -95,7 +95,7 @@ its Port 0. An I2C Bus can contain multiple I2C Ports, sharing traffic.
 On the :term:`Driver Station`, touch the three-dots menu, and
 ``Configure Robot``.
 
-Edit an existing (correct) configuration, or touch ``New``. Touch
+Edit an existing (correct) :term:`configuration <Robot Configuration>`, or touch ``New``. Touch
 ``Scan``, then navigate (through the Portal level) to the specific
 ``Expansion Hub`` or ``Control Hub`` with the HuskyLens plugged in.
 
@@ -428,7 +428,7 @@ ambient lighting can impact recognition of a trained color.
 
 For this reason, competition training should ideally be done with the
 Team Prop (Team Game Element) on the Spike Mark, and the HuskyLens in
-its planned match start position, “on-robot”.
+its planned :term:`match <Match>` start position, “on-robot”.
 
 Also, the trained ambient lighting must be similar to expected match
 conditions. This may suggest performing the final color-training as part
@@ -471,7 +471,7 @@ wish to train **two colors** (e.g. a Red shade and a Blue shade).
 
 This would avoid the need for multiple color-training sessions during an
 FTC tournament. With single-color, you would train for Red before
-playing an FTC :term:`match <Match>` as Red :term:`Alliance`, and train for Blue before playing
+playing an FTC match as Red :term:`Alliance`, and train for Blue before playing
 as Blue Alliance.
 
 With multi-color, your Red-Alliance Autonomous OpMode could seek Red as

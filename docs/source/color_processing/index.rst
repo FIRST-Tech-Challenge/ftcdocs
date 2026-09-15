@@ -4,8 +4,8 @@ Color Processing Introduction
 Overview
 --------
 
-The *FIRST* Tech Challenge SDK software (as of v10.1) includes some **Color
-Processing** features from OpenCV, a popular and powerful open-source library
+The *FIRST* Tech Challenge :term:`SDK` software (as of v10.1) includes some **Color
+Processing** features from :term:`OpenCV`, a popular and powerful open-source library
 for vision processing.
 
 Introduced with INTO THE DEEP, these new features will help *FIRST* Tech Challenge teams

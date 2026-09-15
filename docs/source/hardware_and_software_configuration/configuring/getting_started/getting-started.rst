@@ -22,7 +22,7 @@ Connecting an Android Smartphone to an Expansion Hub
 
 If you are using an Android smartphone as a Robot Controller, you must
 physically connect the Robot Controller smartphone to the Expansion Hub
-using a USB cable and an On-The-Go (OTG) adapter. Also, you should
+using a USB cable and an :term:`On-The-Go (OTG) adapter <OTG Adapter>`. Also, you should
 verify that the DRIVER STATION is currently paired to the Robot
 Controller.
 
@@ -44,7 +44,7 @@ on the Expansion Hub.
 
 |
 
-3. Plug the Type A end of the USB cable into the :term:`OTG adapter <OTG Adapter>`.         
+3. Plug the Type A end of the USB cable into the OTG adapter.
 
 .. image:: images/ConfiguringHardwareStep3.jpg
    :align: center

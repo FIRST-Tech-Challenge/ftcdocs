@@ -1,11 +1,11 @@
 Writing an Op Mode :bdg-success:`AS`
 ====================================
 
-These pages cover writing an OpMode in the ``TeamCode`` module, building it,
-installing it onto the ROBOT CONTROLLER, and running it from the DRIVER
-STATION.
+These pages cover writing an :term:`OpMode` in the ``TeamCode`` module, building it,
+installing it onto the :term:`ROBOT CONTROLLER <Robot Controller>`, and running it from the :term:`DRIVER
+STATION <Driver Station>`.
 
-A Control Hub has Developer Options enabled from the factory. The first page
+A :term:`Control Hub` has Developer Options enabled from the factory. The first page
 below is needed only by teams using a smartphone ROBOT CONTROLLER.
 
 .. toctree::

@@ -199,7 +199,7 @@ you'd like to see.
 
    * What is the maximum score for an :term:`alliance <Alliance>`?
    * Can ROBOTS pick up an opposing ALLIANCE'S SAMPLES?
-   * How many matches does a team play at an event?
+   * How many :term:`matches <Match>` does a team play at an event?
 
    This example was specific to FIRST Tech Challenge, but this process can be
    used for virtually any documents or media. Using AI as an analysis assistant

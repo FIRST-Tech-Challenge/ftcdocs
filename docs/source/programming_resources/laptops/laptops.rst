@@ -60,7 +60,7 @@ Also Supported:
 
 -  `iOS Standard Tablet`_
 
-   -  LEGO\ :sup:`®` Education SPIKE™ Essential :term:`hub <Hub>` cannot be updated
+   -  LEGO\ :sup:`®` Education SPIKE™ Essential hub cannot be updated
       with iPad
 
 -  `Android Standard Tablet`_
@@ -123,7 +123,7 @@ Also Supported:
    -  `Android Studio <https://developer.android.com/studio>`__ not
       supported
 
-      -  Only :term:`Blocks` and OnBotJava supported
+      -  Only :term:`Blocks` and :term:`OnBotJava <OnBot Java>` supported
 
 It is also recommended to have an active internet connection during
 software development. Access to https://github.com is required by the

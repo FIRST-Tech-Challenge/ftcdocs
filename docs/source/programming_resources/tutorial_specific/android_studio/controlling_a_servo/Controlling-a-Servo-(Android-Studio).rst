@@ -1,7 +1,7 @@
 Controlling a Servo :bdg-success:`AS`
 =====================================
 
-In this section, you will modify your op mode to control a :term:`servo <Servo>` motor
+In this section, you will modify your :term:`op mode <Op Mode>` to control a :term:`servo <Servo>` motor
 with the buttons of the :term:`gamepad <Gamepad>`.
 
 What is a Servo Motor?
@@ -39,7 +39,7 @@ The servo will turn its motor shaft to move to the target position, and
 then maintain that position, even if moderate forces are applied to try
 and disturb its position.
 
-For the FIRST Tech Challenge control system, you can specify a target
+For the FIRST Tech Challenge :term:`control system <Control System>`, you can specify a target
 position that ranges from 0 to 1 for a servo. A target position of 0
 corresponds to zero degrees of rotation and a target position of 1
 corresponds to 180 degrees of rotation for a typical servo motor.

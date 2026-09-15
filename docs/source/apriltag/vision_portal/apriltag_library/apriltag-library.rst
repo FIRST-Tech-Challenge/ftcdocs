@@ -8,7 +8,7 @@ custom tags.
 These tags form an **AprilTag Library**. Each Library tag has a set of 4
 to 6 properties, described at the **Metadata** page.
 
-Starting with SDK 12.0, a Library holds two separate collections: single tags
+Starting with :term:`SDK` 12.0, a Library holds two separate collections: single tags
 and AprilTag Clusters, which are groups of tags detected together as one
 target. The difference matters when you build a custom Library. See
 **Libraries and Clusters** below.

@@ -10,19 +10,19 @@ perform a variety of tasks to score points. For example, a team might
 want their robot to follow a white line on the competition floor and
 then score a game element into a goal autonomously during a match. Teams
 write programs called *op modes* (which stands for "operational modes")
-to specify the behavior for their robot. These op modes run on the Robot
-Controller after being selected on the DRIVER STATION.
+to specify the behavior for their robot. These :term:`op modes <OpMode>` run on the
+:term:`Robot Controller` after being selected on the :term:`DRIVER STATION <Driver Station>`.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own op modes.
-This section of the wiki explains how to use the Blocks Programming
-Tool to write an op mode for a robot.
+This section of the wiki explains how to use the
+:term:`Blocks Programming Tool` to write an op mode for a robot.
 
 The Blocks Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :term:`Blocks Programming Tool` is a user-friendly programming tool that
-is served up by the :term:`Robot Controller`. A user can create custom op modes
+The Blocks Programming Tool is a user-friendly programming tool that
+is served up by the Robot Controller. A user can create custom op modes
 for their robot using this tool and then save these op modes directly
 onto the Robot Controller. Users drag and drop jigsaw-shaped programming
 blocks onto a design "canvas" and arrange these blocks to create the
@@ -120,7 +120,7 @@ navigate to the main Blocks Programming screen.
 
 |
 
-   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks :term:`Op Modes <OpMode>` on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
+   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks Op Modes on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
 
 .. image:: images/WritingFirstOpModeStep3bControlHub.jpg
    :align: center
@@ -251,10 +251,10 @@ allow you to control a :term:`DC motor <DC Motor>` with a :term:`gamepad <Gamepa
 
 Note that you will need an estimated 15 minutes to complete this task.
 
-.. important:: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file. If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
+.. important:: The programming blocks for user configured devices (motors, :term:`servos <Servo>` and :term:`sensors <Sensor>`) will only be visible in the Blocks tool if there is an active :term:`configuration file <Configuration File>` with the configured devices included in the file. If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
 
-If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`  
-to do so. After you created and activated your :term:`configuration file <Configuration File>`, 
+If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`
+to do so. After you created and activated your configuration file,
 you can close and then reopen your op mode so that the programming 
 blocks for the newly configured devices will be visible.
 
@@ -308,7 +308,7 @@ blocks.
 
 |
 
-   Note that the control system lets you have up to two gamepads controlling a robot.  By selecting "gamepad1" you are telling the op mode to use the control input from the gamepad that is designated as driver #1.
+   Note that the :term:`control system <Control System>` lets you have up to two gamepads controlling a robot.  By selecting "gamepad1" you are telling the op mode to use the control input from the gamepad that is designated as driver #1.
 
 6. Drag the "gamepad1.LeftStickY" block so it snaps in place onto the 
 right side of the "set tgtPower to" block. This set of blocks will    
@@ -399,7 +399,7 @@ will add a couple of :term:`telemetry <Telemetry>` statements that will send inf
 from the Robot Controller to the DRIVER STATION for display on the
 DRIVER STATION user interface. This telemetry mechanism is a useful way
 to display status information from the robot on the DRIVER STATION. You
-can use this mechanism to display :term:`sensor <Sensor>` data, motor status, gamepad
+can use this mechanism to display sensor data, motor status, gamepad
 state, etc. from the Robot Controller to the DRIVER STATION.
 
 Note that you will need an estimated 15 minutes to complete this task.

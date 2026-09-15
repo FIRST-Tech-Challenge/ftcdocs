@@ -23,11 +23,11 @@ to be visible on-screen, without scrolling sideways.
 
 Line 15: this method has 3 inputs and no outputs (keyword **void**).
 
-Line 17 shows how to access **hardwareMap**, the configured devices list
+Line 17 shows how to access :term:`hardwareMap`, the configured devices list
 provided from BlocksOpModeCompanion. That single line of Java does this:
 - declare a new variable called myServo, of type (class) Servo - **get**
 the properties (methods and variables) of the named servo from
-:term:`hardwareMap` - assign those properties to the new variable myServo
+hardwareMap - assign those properties to the new variable myServo
 
 Line 20 is a **for loop**, which you can learn about
 `here <https://www.w3schools.com/java/java_for_loop.asp>`__ or
@@ -45,7 +45,7 @@ the class inherited from BlocksOpModeCompanion.
 
 The Blocks user must enter the exact device name from the **active
 configuration**. Hardware device names (motors, servos, sensors) are
-found in the Configure Robot menu of the RC app or paired DS app. Or, it
+found in the Configure Robot menu of the :term:`RC` app or paired :term:`DS` app. Or, it
 might be easier to retype the name from any Blocks drop-down list
 containing those device types. For example, a green Servo
 ``set .Position`` Block will display all configured servo names – make
@@ -68,7 +68,7 @@ CONs of hard-coding: - you need to know the exact servo name in advance
       with pros and cons. This is part of software design, a key
       professional skill and career path.
 
-A **different version** (gamepad-controlled, fully commented) of the
+A **different version** (:term:`gamepad <Gamepad>`-controlled, fully commented) of the
 above Java program is provided below.
 It illustrates using 5 of the 6 objects provided by
 BlocksOpModeCompanion, including **telemetry** and the **gamepads**.

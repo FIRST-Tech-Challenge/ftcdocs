@@ -3,7 +3,7 @@ Controlling a Servo :bdg-warning:`Blocks`
 
 In the section titled :doc:`Creating an Op Mode with 
 Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use
-the :term:`Blocks Programming Tool` to write an op mode that controls a 12V
+the :term:`Blocks Programming Tool` to write an :term:`op mode <OpMode>` that controls a 12V
 :term:`DC motor <DC Motor>`. In this section, you will learn how to write an op mode that
 controls a :term:`servo <Servo>` motor.
 
@@ -69,8 +69,8 @@ button will move the servo to the 90-degree position. Pushing the green
 Modifying the Op Mode to Control a Servo Motor Instructions
 -----------------------------------------------------------
 
-1. Verify that your laptop is still connected to the Robot            
-Controller's Program & Manage Wi-Fi network.                          
+1. Verify that your laptop is still connected to the
+:term:`Robot Controller`'s Program & Manage Wi-Fi network.
 
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left-hand corner of the  
@@ -288,8 +288,8 @@ field.
 
    This set of blocks will send the current servo position value to the DRIVER STATION while the op mode is running.
 
-25. Save your op mode and verify that it was saved successfully to    
-the :term:`Robot Controller`.                                                 
+25. Save your op mode and verify that it was saved successfully to
+the Robot Controller.
 
 .. image:: images/ControlServoStep25ControlHub.jpg
    :align: center

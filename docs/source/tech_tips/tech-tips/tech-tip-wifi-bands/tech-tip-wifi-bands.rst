@@ -128,11 +128,11 @@ of utilizing on specific frequency bands?
 Robot Design and Choosing Your Band
 -----------------------------------
 
-Robot design - and more aptly "Control Hub placement" - is THE critical
+Robot design - and more aptly ":term:`Control Hub` placement" - is THE critical
 factor in influencing the Wi-Fi frequency/band you should be using. Remember
 Wi-Fi is a line-of-sight technology, that means Wi-Fi does best when there's
 a straight unobstructed path from the antenna on the Control Hub to the
-antenna on the Driver Hub. Where is the antenna in a Control Hub? It's right
+antenna on the :term:`Driver Hub`. Where is the antenna in a Control Hub? It's right
 under the plastic on the "face" of the hub on the logo side. If the Control
 Hub can be mounted so that its antenna is generally not
 covered/surrounded/blocked by metal, 5GHz should be your target band.
@@ -153,17 +153,17 @@ minimal enough to not sufficiently matter. Wood, especially thin birch
 commonly used in many robot designs, is slightly more attenuating but
 definitely still a great option. Metals, however, will greatly attenuate
 Wi-Fi frequencies and are the worst materials for Wi-Fi transmission. Yes,
-I'm looking at YOU teams who use hook-and-loop to mount your robot battery
+I'm looking at YOU teams who use hook-and-loop to mount your robot :term:`battery <Battery>`
 to the top of the Control Hub - stop doing that! And for those looking for
 inspiration in this upcoming season, water is also an incredibly poor medium
 for transmission of Wi-Fi frequencies.
 
 But how do you know for sure how well your robot's Wi-Fi is performing? You
-can monitor the Wi-Fi signal's strength through the Driver Station App. Check
+can monitor the Wi-Fi signal's strength through the :term:`Driver Station App`. Check
 out :ref:`Monitoring Your Robot's Wi-Fi Connection
 <tech_tips/tech-tips/tech-tip-wifi-monitoring/tech-tip-wifi-monitoring:Monitoring Your Robot's Wi-Fi Connection>`
 for info on how to view and understand Wi-Fi Signal Strength. If your signal
-is strong when using 5GHz at maximum field range (from the Driver Hub) and
+is strong when using 5GHz at maximum :term:`field <Playing Field>` range (from the Driver Hub) and
 in all robot orientations, you should be good to go on 5GHz! Feel free to
 compare the performance on 5GHz and 2.4GHz, and if they're comparable you
 should stick with 5GHz for better interference reduction.

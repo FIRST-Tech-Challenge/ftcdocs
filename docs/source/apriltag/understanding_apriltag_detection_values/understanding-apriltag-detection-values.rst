@@ -6,7 +6,7 @@ Understanding AprilTag Detection Values
 Introduction
 ------------
 
-When an :term:`AprilTag` is detected by the new SDK vision processing system, the core
+When an :term:`AprilTag` is detected by the new :term:`SDK` vision processing system, the core
 code returns a collection of raw data that is often not easily interpreted.
 However, the data can be further transformed into a familiar frame of reference
 to make it more easily utilized.
@@ -115,7 +115,7 @@ pointed at, which is centered on the protractor and directly above the
 top of the tags.
 
 Based on this setup, let’s review the data returned by the
-“ConceptAprilTag.java” sample OpMode.
+“ConceptAprilTag.java” :term:`sample OpMode <Sample OpMode>`.
 
 .. warning:: 
    Since the creation of this document, the tags used in the

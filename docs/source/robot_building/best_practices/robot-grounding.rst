@@ -12,10 +12,10 @@ layer or oxidation layer on it that acts as an insulator. In order to make a
 good electrical connection with the grounding strap to the frame, it may be
 necessary to scratch/file/remove the anodize/oxidation layer from the area of
 contact with the metal first. Note that some cameras, decorative lights, and
-sensors (some encoders, some IR sensors, etc.) have grounded enclosures or are
+:term:`sensors <Sensor>` (some :term:`encoders <Encoder>`, some IR sensors, etc.) have grounded enclosures or are
 manufactured with conductive plastics. These devices must be electrically
 isolated from the ROBOT frame to ensure compliance with this rule.
 
 
 
-See :doc:`Managing ESD Effects <../../hardware_and_software_configuration/configuring/managing_esd/managing-esd>` for more detail on grounding straps and electrostatic discharge mitigation.
+See :doc:`Managing ESD Effects <../../hardware_and_software_configuration/configuring/managing_esd/managing-esd>` for more detail on grounding straps and :term:`electrostatic discharge <Electrostatic Discharge>` mitigation.

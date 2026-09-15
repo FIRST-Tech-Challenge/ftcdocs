@@ -24,8 +24,8 @@ During a typical *FIRST* Tech Challenge :term:`match <Match>`, a team's robot mu
 a variety of tasks to score points. For example, a team might want their
 robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
-programs called *OpModes* (which stands for "operational modes") to
-specify the behavior for their robot. These :term:`OpModes <OpMode>` run on the ROBOT
+programs called :term:`OpModes <OpMode>` (which stands for "operational modes") to
+specify the behavior for their robot. These OpModes run on the ROBOT
 CONTROLLER after being selected on the DRIVER STATION device.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
@@ -36,7 +36,7 @@ write an op mode for a robot.
 The OnBot Java Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :term:`OnBot Java` Programming Tool is a user-friendly programming tool
+The OnBot Java Programming Tool is a user-friendly programming tool
 that is served up by the :term:`Robot Controller`. A user can create
 custom op modes for their robot using this tool and then save these op
 modes directly onto the Robot Controller. Users write their op modes
@@ -98,7 +98,7 @@ Program & Manage screen of the Robot Controller.
 
 |
 
-.. important:: Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080". Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49").
+.. important:: Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080". Notice the difference in the third octet of the IP addresses (the :term:`Control Hub` has a "43" instead of a "49").
 
 .. image:: images/WritingFirstOpModeStep1a.jpg
    :align: center
@@ -152,7 +152,7 @@ your new file.
 
    For this example, specify "MyFIRSTJavaOpMode" as the File Name in the New File dialog box.
 
-   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available sample op modes (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic :term:`LinearOpMode` framework for you.
+   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available :term:`sample op modes <Sample OpMode>` (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic :term:`LinearOpMode` framework for you.
 
    Check the option labeled "TeleOp" to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) op mode.
    
@@ -247,13 +247,13 @@ some import package statements):
 
 At the start of the op mode there is an annotation that occurs before
 the class definition. This annotation states that this is a
-tele-operated (i.e., driver controlled) op mode:
+:term:`tele-operated <TELEOP>` (i.e., driver controlled) op mode:
 
 .. code-block:: java
 
    @TeleOp
 
-If you wanted to change this op mode to an autonomous op mode, you would
+If you wanted to change this op mode to an :term:`autonomous <Autonomous>` op mode, you would
 replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead.
 
 You can see from the sample code that an op mode is defined as a Java
@@ -316,7 +316,7 @@ available in the runOpMode method. This object is called :term:`telemetry <Telem
 the op mode uses the addData method to add a message to be sent to the
 DRIVER STATION. The op mode then calls the update method to send the
 message to the DRIVER STATION. Then it calls the waitForStart method, to
-wait until the user pushes the start button on the driver station to
+wait until the user pushes the start button on the :term:`driver station <Driver Station>` to
 begin the op mode run.
 
 .. code-block:: java
@@ -354,7 +354,7 @@ When you create or edit an op mode the OnBot Java editor will auto-save
 the .java file to the file system of the Robot Controller. However,
 before you can execute your changes on the Robot Controller, you must
 first build the op mode and convert it from a Java text file to a binary
-that can be loaded dynamically into the Robot Controller app.
+that can be loaded dynamically into the :term:`Robot Controller app <Robot Controller App>`.
 
 If you are satisfied with your op mode and are ready to build, press the
 Build button (which is the button with the wrench symbol, see image

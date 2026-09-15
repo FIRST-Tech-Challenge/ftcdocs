@@ -151,5 +151,5 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
        }
    }
 
-Note: As of SDK 7.0, the former PID-only methods are still
+Note: As of :term:`SDK` 7.0, the former PID-only methods are still
 available, but deprecated.
