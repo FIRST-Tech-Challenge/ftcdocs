@@ -17,6 +17,7 @@ ORTOP
 POWERPLAY
 Pushbot
 quickstarts
+tagsize
 tele
 Tele
 teleop
