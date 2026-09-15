@@ -43,6 +43,15 @@ hoverxref_role_types = {
     'term': 'tooltip'
 }
 
+# This project is hosted on Read the Docs for Business (readthedocs.com),
+# not the free community platform (readthedocs.org), behind the custom
+# domain ftc-docs.firstinspires.org. hoverxref defaults to querying the
+# community embed API, which has no record of this project, so every
+# tooltip AJAX call fails silently and the tooltip is stuck on "Loading..."
+# forever (the bundled hoverxref.js has no error handler to show a failure
+# state). Point it at the Business API host instead.
+hoverxref_api_host = 'https://readthedocs.com'
+
 autosectionlabel_prefix_document = True
 default_dark_mode = False
 todo_include_todos = False
