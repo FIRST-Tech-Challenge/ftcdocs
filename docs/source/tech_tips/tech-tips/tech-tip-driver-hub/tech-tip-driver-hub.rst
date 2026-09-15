@@ -95,8 +95,7 @@ Ten Driver Hub Tips
    Driver Hub damage! Some teams have designed their own
    `custom <https://www.thingiverse.com/thing:3386378>`__
    `Driver <https://www.thingiverse.com/thing:5439041>`__
-   `Carriers <https://jmhannon.myportfolio.com/ftc-driver-station>`__,
-   be creative and have fun!
+   Carriers, be creative and have fun!
 
 7. When the REV Driver Hub is not in use (not at competitions, not in use
    during practices) it should be turned OFF and have all sources of

@@ -482,7 +482,7 @@ the range.  Technical information on thresholding is available at the `OpenCV
 website for thresholding <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_.
 
 Technical information on Blur, Erosion and Dilation can be found `here
-<https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-fab65c29efb3>`_
+<https://medium.com/@sasaniperera/opencv-morphological-dilation-and-erosion-fab65c29efb3>`_
 and at the `OpenCV website for morphology
 <https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_.
 
