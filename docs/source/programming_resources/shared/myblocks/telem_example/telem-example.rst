@@ -1,17 +1,17 @@
 Example: Modify Telemetry Settings
 ==================================
 
-Telemetry messages are sent from the Robot Controller to the Driver
+:term:`Telemetry` messages are sent from the :term:`Robot Controller` to the Driver
 Station up to **four time per second**, by default. This maximum refresh
-rate can be changed with Android Studio or OnBot Java, but **not** with
-regular Blocks. Now a myBlock can provide that capability too!
+rate can be changed with :term:`Android Studio` or :term:`OnBot Java`, but **not** with
+regular :term:`Blocks`. Now a myBlock can provide that capability too!
 
 This simple example allows a Blocks user to change the standard time
 interval from 250 milliseconds to any other interval.
 
 .. image:: images/a0600-Telemetry-interval.png
 
-A lower time interval can allow faster update of sensor or encoder data.
+A lower time interval can allow faster update of :term:`sensor <Sensor>` or :term:`encoder <Encoder>` data.
 A higher interval can ease the RC-DS communication bandwidth load.
 
 Here’s the Java code for the method only:

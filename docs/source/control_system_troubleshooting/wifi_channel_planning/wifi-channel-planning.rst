@@ -8,8 +8,8 @@ Planning Wi-Fi Channels for Large Events
 Accommodating a Large Number of Robots at an Event
 ----------------------------------------------------
 
-The wireless Control System is a point-to-point system. This means that each
-Driver Station-robot pair establishes its own Wi-Fi network at an event. If
+The wireless :term:`Control System` is a point-to-point system. This means that each
+:term:`Driver Station`-robot pair establishes its own Wi-Fi network at an event. If
 there are a large number of robots in a venue, then there will be a large
 number of wireless networks operating in the venue. If there are a large
 number of wireless networks operating in a small area, then there could be
@@ -30,7 +30,7 @@ Wi-Fi Event Planning Guide
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 *FIRST* Tech Challenge has published a Wi-Fi Event Planning Guide that
-contains detailed steps a technical volunteer can take to help keep the
+contains detailed steps a technical :term:`volunteer <Volunteer>` can take to help keep the
 wireless environment operating smoothly at larger events. Check the *FIRST*
 Tech Challenge community and resource library for the current version of
 this guide.
@@ -98,11 +98,11 @@ channel, here are some factors to consider when doing your planning.
     channel.
   - *Use a pair of Android devices to monitor ping times.* If a target
     channel looks relatively clean, you should use a pair of Android
-    devices running the FTC Driver Station and FTC Robot Controller apps to
+    devices running the FTC Driver Station and FTC :term:`Robot Controller` apps to
     monitor the ping times on the target channel. You will need a pair of
     Android devices that support channel changing. Switch to the target
     channel and test to make sure you can
-    select and run an OpMode (like the NullOp sample OpMode). If the average
+    select and run an :term:`OpMode` (like the NullOp sample OpMode). If the average
     ping times for the test Android devices are low (less than 5 msec) then
     the channel is clear. If the average ping times are high (more than 50
     msec) then there might be some type of interference on the channel.
@@ -114,8 +114,8 @@ channel, here are some factors to consider when doing your planning.
     low on a target channel, then it should be safe to place your robots on
     the channel.
 
-- **What type of Android devices will the teams be using?** The REV Control
-  Hub supports channel changing using the FTC Robot Controller app, as do
+- **What type of Android devices will the teams be using?** The REV :term:`Control
+  Hub` supports channel changing using the FTC Robot Controller app, as do
   many Android smartphones. Note that not every smartphone supports channel
   changing.
 
@@ -143,8 +143,8 @@ From the Pair with Controller screen, select None to unpair your phone.
    Select "None" to unpair the device, then use the back arrow to return to the main screen.
 
 Use the back arrow to return to the main Driver Station screen. The screen
-should now indicate that the Driver Station is not paired with any Wi-Fi
-Direct device.
+should now indicate that the Driver Station is not paired with any :term:`Wi-Fi
+Direct` device.
 
 .. figure:: images/ds-unpaired-status.png
    :alt: Driver Station main screen showing Wifi Direct status as Not Paired.

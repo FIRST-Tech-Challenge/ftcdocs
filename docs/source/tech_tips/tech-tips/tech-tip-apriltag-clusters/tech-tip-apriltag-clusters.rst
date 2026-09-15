@@ -13,8 +13,8 @@ is included in the blast with the rest of the content here.
 AprilTag Cluster Introduction
 -----------------------------
 
-A new feature released in FTC SDK 12.0 is AprilTag Clusters. This is a technique
-that groups multiple AprilTags together for multi-tag object and camera tracking. 
+A new feature released in FTC :term:`SDK` 12.0 is :term:`AprilTag` Clusters. This is a technique
+that groups multiple AprilTags together for multi-tag object and camera tracking.
 AprilTag clusters have many benefits:
 
 * When tracking a single target, especially at extreme angles, the accuracy of the
@@ -91,7 +91,7 @@ Code examples for detecting the two different types of AprilTags can be found by
 Determining if a Cluster should be Targeted
 ---------------------------------------------
 
-Webcams will likely pick up multiple AprilTag Clusters at various times throughout a match.
+:term:`Webcams <Webcam>` will likely pick up multiple AprilTag Clusters at various times throughout a :term:`match <Match>`.
 How can software know if the AprilTag Cluster belongs to a HIVE CELL that is pointing upward 
 and is scorable? By and large, an AprilTag Cluster on a scorable CELL is only visible to a 
 robot in a scorable position - however, AprilTag Clusters for non-scorable CELLS are also often 
@@ -104,12 +104,12 @@ a robot identify the AprilTag Cluster it should be aiming for?
    :align: center
    :alt: Driver Station App output displaying two AprilTag Detections
 
-   Figure 3: Driver Station App Telemetry Showing Two AprilTag Cluster Detections
+   Figure 3: :term:`Driver Station App` :term:`Telemetry` Showing Two AprilTag Cluster Detections
 
 There are two conditions that software can check for to determine if the AprilTag Cluster is 
 one that a robot should be targeting:
 
-1. **Check Alliance Color** - This requires software to know which Alliance the robot belongs on,
+1. **Check** :term:`Alliance` **Color** - This requires software to know which Alliance the robot belongs on,
    but a fairly easy check is to determine if the alliance color that the robot belongs to
    starts the name of the Cluster. Typically software can check the ``AprilTagClusterDetection``'s
    ``metadata.name`` field and determine if the name starts with the letter "R" (for a RED
@@ -131,7 +131,7 @@ In Figure 3 we can see that there are two AprilTag Clusters detected:
 
 * RED SCORING - The robot in this example belongs to the red alliance, and thus the 
   "RED SCORING" Cluster - which identifies the red HIVE CELL Cluster on the scoring table
-  side of the BIOBUZZ field - is scorable by a red robot; this passes the first targeting 
+  side of the BIOBUZZ :term:`field <Playing Field>` - is scorable by a red robot; this passes the first targeting
   condition. The Cluster's ``ftcPose.roll`` value is 159.3 degrees, however. This means the 
   RED SCORING Cluster is upside down, and we're likely looking at the "far" CELL that is 
   pointed down. The Cluster also reports that only 50% of the tags in the Cluster are visible, 

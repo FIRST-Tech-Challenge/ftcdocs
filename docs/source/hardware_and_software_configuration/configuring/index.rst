@@ -1,7 +1,7 @@
 Configuring Your Hardware
 =========================
 
-This page contains information on configuring your control system hardware 
+This page contains information on configuring your :term:`control system <Control System>` hardware
 such that you may use them in your own projects.
 
 .. toctree::

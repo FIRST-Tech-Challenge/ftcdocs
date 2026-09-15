@@ -2,19 +2,19 @@ Before You Start :bdg-success:`AS`
 ==================================
 
 This page is the starting point for a team that is beginning directly in
-Android Studio. It describes the Control System setup that the rest of this
+:term:`Android Studio`. It describes the :term:`Control System` setup that the rest of this
 tutorial assumes, points to the documentation a Java team needs alongside it,
 and gives a checklist to work through before writing any code.
 
-You do not need to have completed the Blocks or OnBot Java tutorials first.
+You do not need to have completed the :term:`Blocks` or :term:`OnBot Java` tutorials first.
 
 Supported Control System Setup
 ------------------------------
 
 This tutorial is written for the officially supported setup:
 
--  a **REV Robotics Control Hub** as the ROBOT CONTROLLER, and
--  a **REV Robotics Driver Hub** as the DRIVER STATION.
+-  a REV Robotics :term:`Control Hub` as the :term:`ROBOT CONTROLLER <Robot Controller>`, and
+-  a REV Robotics :term:`Driver Hub` as the :term:`DRIVER STATION <Driver Station>`.
 
 .. important:: Smartphones are not officially supported. They are legal to use
    in competition, but a team who uses one is responsible for all of their own
@@ -32,15 +32,15 @@ Two smartphone setups appear throughout the Control System documentation. Both
 are covered by the same pages this tutorial links to, in sections labeled for
 smartphones:
 
--  A **smartphone ROBOT CONTROLLER** connected to a REV Robotics Expansion Hub.
+-  A **smartphone ROBOT CONTROLLER** connected to a REV Robotics :term:`Expansion Hub`.
    This setup needs extra steps that a Control Hub does not: renaming the
    phone, placing it in airplane mode with Wi-Fi on, pairing it to the DRIVER
    STATION, and
    :doc:`enabling Developer Options <../../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
    so Android Studio can install the app onto it.
 -  A **smartphone DRIVER STATION** in place of a Driver Hub. This setup needs
-   the phone renamed and paired, and needs a Micro USB OTG adapter cable to
-   connect a gamepad.
+   the phone renamed and paired, and needs a Micro USB :term:`OTG adapter <OTG Adapter>` cable to
+   connect a :term:`gamepad <Gamepad>`.
 
 .. note:: A Control Hub has Developer Options enabled from the factory, so
    teams using the supported setup can skip the phone-only preparation
@@ -60,13 +60,13 @@ Android Studio itself does not cover.
 -  :doc:`Computer Requirements </programming_resources/laptops/laptops>`
    -- the laptop specifications recommended for running Android Studio.
 -  :doc:`Configuring Your Android Devices <../../shared/configuring_android/Configuring-Your-Android-Devices>`
-   -- installing apps, updating firmware, and pairing the DRIVER STATION to the
+   -- installing apps, updating :term:`firmware <Firmware>`, and pairing the DRIVER STATION to the
    ROBOT CONTROLLER.
 -  :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
-   -- wiring power, motors, servos, and sensors to the hub.
+   -- wiring power, motors, :term:`servos <Servo>`, and :term:`sensors <Sensor>` to the :term:`hub <Hub>`.
 -  :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
-   -- creating the robot configuration file from the DRIVER STATION, which is
-   how your OpMode finds each device by name.
+   -- creating the :term:`robot configuration file <Configuration File>` from the DRIVER STATION, which is
+   how your :term:`OpMode` finds each device by name.
 -  :doc:`Managing a Control Hub <../../shared/managing_control_hub/Managing-a-Control-Hub>`
    -- renaming the Control Hub, changing its password, and updating Hub
    firmware.
@@ -88,11 +88,11 @@ documentation that covers it.
 
    * - Check
      - Where it is covered
-   * - The Control Hub is wired to a 12V battery through a REV switch, and any
+   * - The Control Hub is wired to a 12V :term:`battery <Battery>` through a REV switch, and any
        Expansion Hub, motors, servos, and sensors are connected.
      - :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
    * - The Control Hub and Driver Hub have been renamed to match the team
-       number naming requirements in the Competition Manual.
+       number naming requirements in the :term:`Competition Manual`.
      - :doc:`Managing a Control Hub <../../shared/managing_control_hub/Managing-a-Control-Hub>`,
        :doc:`Managing a Driver Hub <../../shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
    * - The Driver Hub is paired to the Control Hub, and the DRIVER STATION app

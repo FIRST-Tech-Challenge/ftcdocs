@@ -16,7 +16,7 @@ Battery Charging
 There are :ref:`three robot main batteries
 <control_hard_compon/rc_components/power_distr/power-distr:robot main battery>`
 that are legal to use in *FIRST* Tech Challenge, and they are all
-3000mAh NiMH batteries with an attached 20A fuse. However, the manufacturers
+3000mAh NiMH :term:`batteries <Battery>` with an attached 20A :term:`fuse <Fuse>`. However, the manufacturers
 of the batteries have different battery chargers and different recommended
 charging settings for the batteries. When charging the `TETRIX MAX 12-Volt
 battery

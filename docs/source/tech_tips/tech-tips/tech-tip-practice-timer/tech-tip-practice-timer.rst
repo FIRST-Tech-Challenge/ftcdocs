@@ -12,17 +12,17 @@ is included in the blast with the rest of the content here.
 
 **FTC Driver Station Practice Timer**
 
-Did you know there's a powerful tool lurking within your FTC Driver Station App, 
-designed to help your team dominate match timing? Forget the need for complex 
-event software – your Driver Station has a built-in Practice Match timer that 
+Did you know there's a powerful tool lurking within your FTC :term:`Driver Station App`,
+designed to help your team dominate :term:`match <Match>` timing? Forget the need for complex
+event software – your :term:`Driver Station` has a built-in Practice Match timer that 
 simulates the entire match flow, or any part of it! 
-Imagine perfecting your autonomous routine, nailing the Auto-TeleOp transition, 
-or optimizing your endgame strategy, all without the pressure of a real 
+Imagine perfecting your :term:`autonomous <Autonomous>` routine, nailing the Auto-TeleOp transition,
+or optimizing your :term:`endgame <End Game>` strategy, all without the pressure of a real
 competition. This (not so) hidden gem allows teams to practice match timing for 
 every critical phase: 
 
-* Autonomous - Fine-tune your robot's pre-programmed actions. 
-* Auto-TeleOp Transition - Seamlessly swap control from autonomous to TeleOp. 
+* Autonomous - Fine-tune your robot's pre-programmed actions.
+* Auto-TeleOp Transition - Seamlessly swap control from autonomous to :term:`TeleOp <TELEOP>`. 
 * TeleOp - Maximize your scoring potential during the main TeleOp period. 
 * Endgame - Strategize and execute your final, high-scoring moves. 
 
@@ -33,7 +33,7 @@ Ready to unlock your team's full potential?
 *How does it work?* In the upper-left corner of the Driver Station App you will
 see the "Practice Timer Window". This has the heading "Practice Timer" and has
 the remaining time (in a possible practice match) as well as a "PLAY" button.
-This Practice Timer area is always visible regardless of what OpModes are
+This Practice Timer area is always visible regardless of what :term:`OpModes <OpMode>` are
 running or any other activities (on the same screen). This Practice Timer also
 runs independently of other activities, therefore OpModes can be selected,
 started, stopped, reselected, and so on while the Practice Timer is running

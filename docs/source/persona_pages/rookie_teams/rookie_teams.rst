@@ -3,7 +3,7 @@ New Teams
 
 Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help
 your team stay organized and be successful throughout the season. Get started
-by exploring our robot building resources, control system and the game.  You
+by exploring our robot building resources, :term:`control system <Control System>` and the game.  You
 may also find the Coach's Playbook, a weekly schedule of activities, helpful to
 organize the whole team under Team Management. Just click on the button for the
 resource you want to explore!
@@ -19,7 +19,7 @@ resource you want to explore!
 
       ^^^
 
-      We express the *FIRST* philosophies of Gracious Professionalism 
+      We express the *FIRST* philosophies of :term:`Gracious Professionalism` 
       and Coopertition through our Core Values.
       
       +++
@@ -176,7 +176,7 @@ resource you want to explore!
       ^^^
 
       Be sure you're following all of the rules of the competition! 
-      The Competition Manual is an essential document.
+      The :term:`Competition Manual` is an essential document.
 
       +++
  
@@ -243,7 +243,7 @@ resource you want to explore!
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      Look for resources for :term:`Computer-Aided Design <Computer Aided Design>` (CAD) software.
       
       +++
       

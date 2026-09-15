@@ -1,8 +1,8 @@
 Installing a Javascript Enabled Browser
 =======================================
 
-In order to be able to program your Robot Controller using the Blocks
-Programming Tool or the OnBot Java Programming tool, your laptop will
+In order to be able to program your :term:`Robot Controller` using the :term:`Blocks
+Programming Tool` or the :term:`OnBot Java Programming tool <OnBot Java Programming Tool>`, your laptop will
 need a Javascript-enabled browser. Both tools are Javascript
 applications that are served up by the Program and Manage server of the
 Robot Controller.

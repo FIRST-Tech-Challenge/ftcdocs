@@ -6,14 +6,14 @@ Introduction
 
 .. important:: Smartphones are not officially supported. They are legal to use
    in competition, but a team who uses one is responsible for all of their own
-   testing and troubleshooting. Only the REV Control Hub and the REV Driver Hub
+   testing and troubleshooting. Only the REV :term:`Control Hub` and the REV :term:`Driver Hub`
    are officially supported.
 
-The Robot Controller and Driver Station apps are extremely
+The :term:`Robot Controller` and :term:`Driver Station` apps are extremely
 reliable for pairing, across **all models of phones**.
 
-When the Android phones have been suitably prepared, pairing via Wi-Fi
-Direct is **fast** and usually **automatic**. Here is a procedure that
+When the Android phones have been suitably prepared, pairing via :term:`Wi-Fi
+Direct` is **fast** and usually **automatic**. Here is a procedure that
 addresses various **pre-existing conditions** that can impede pairing.
 
 This article does not cover the REV Control Hub or REV Driver Hub.
@@ -74,7 +74,7 @@ Pairing
 -------
 
 1. On RC phone: open the current season’s RC app. Check
-   Self Inspect for any RC issues.
+   :term:`Self Inspect <Self-Inspect>` for any RC issues.
 
 2. On DS phone: open the current season’s DS app. Check Self Inspect 
    for any DS issues.

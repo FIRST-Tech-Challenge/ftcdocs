@@ -1,7 +1,7 @@
 Exposure Control Code Samples
 -----------------------------
 
-1. Import the interface. This line is automatically added by OnBot Java
+1. Import the interface. This line is automatically added by :term:`OnBot Java`
    when the interface is used (coded).
 
 -  ``import org.firstinspires.ftc.robotcore.external.hardware.camera.controls.ExposureControl;``
@@ -10,7 +10,7 @@ Exposure Control Code Samples
 
 -  ``ExposureControl myExposureControl;``
 
-3. Assign the VisionPortal's camera control to your control object, in
+3. Assign the :term:`VisionPortal`'s camera control to your control object, in
    ``runOpMode()``. Wait until the Portal reports ``STREAMING`` before doing
    this; the control is not available until the camera is actually open.
 

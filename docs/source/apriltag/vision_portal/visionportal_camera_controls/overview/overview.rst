@@ -1,7 +1,7 @@
 Software Overview
 -----------------
 
-The SDK contains a superinterface called CameraControl, which
+The :term:`SDK` contains a superinterface called CameraControl, which
 contains 5 interfaces: 
 
 - :doc:`ExposureControl </apriltag/vision_portal/visionportal_camera_controls/exposure/index>`
@@ -10,7 +10,7 @@ contains 5 interfaces:
 - :doc:`FocusControl </apriltag/vision_portal/visionportal_camera_controls/focus/index>`
 - :doc:`PtzControl </apriltag/vision_portal/visionportal_camera_controls/ptz/index>`
 
-Similar to Java classes, Java interfaces provide methods. A webcam can
+Similar to Java classes, Java interfaces provide methods. A :term:`webcam <Webcam>` can
 be controlled using methods of these 5 interfaces.
 
 PtzControl allows control of 3 related features: virtual pan, tilt and
@@ -29,14 +29,14 @@ left column.
 
 That page provides links to the 5 interfaces listed above.
 
-The methods described here can be used in Android Studio, OnBot Java or
+The methods described here can be used in :term:`Android Studio`, :term:`OnBot Java` or
 :doc:`Blocks </apriltag/vision_portal/visionportal_camera_controls/blocks/blocks>`.
 
 You will see **VisionPortal** mentioned here, and in the :doc:`sample OpModes
 </apriltag/vision_portal/visionportal_camera_controls/samples/samples>`.
 **Why VisionPortal?** These controls act on a
 camera that is already open and streaming, and in the SDK it's the
-VisionPortal that opens the camera and manages its stream. So the Portal is
+:term:`VisionPortal` that opens the camera and manages its stream. So the Portal is
 also where you ask for a control object:
 
 .. code:: java

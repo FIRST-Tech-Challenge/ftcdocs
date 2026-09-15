@@ -25,7 +25,7 @@ units of degrees Kelvin, of Java type integer. Here are the methods:
 -  setWhiteBalanceTemperature(int temperature)
 -  getWhiteBalanceTemperature()
 
-As with exposure and gain, the webcam may support minimum and maximum
+As with exposure and gain, the :term:`webcam <Webcam>` may support minimum and maximum
 allowed values of white balance temperature. These can be retrieved
 with:
 
@@ -33,7 +33,7 @@ with:
 -  getMaxWhiteBalanceTemperature()
 
 There are no ``set()`` methods for min and max temperature values; these
-are hard-coded in the webcam’s firmware. Note that firmware settings may
+are hard-coded in the webcam’s :term:`firmware <Firmware>`. Note that firmware settings may
 vary among different versions of the same webcam model.
 
 The Logitech C920 webcam has a min value of 2000 and a max value of

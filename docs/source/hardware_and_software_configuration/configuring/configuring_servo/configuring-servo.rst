@@ -1,7 +1,7 @@
 Configuring a Servo
 ====================
 
-You will also want to add a servo to the configuration file. In this
+You will also want to add a :term:`servo <Servo>` to the :term:`configuration file <Configuration File>`. In this
 example, you are using a standard 180-degree servo.
 
 

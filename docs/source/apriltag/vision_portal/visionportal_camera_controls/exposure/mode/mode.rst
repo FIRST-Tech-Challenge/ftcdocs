@@ -4,7 +4,7 @@ Exposure Control Mode
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
 
 
-A webcam may operate in one of various exposure modes.
+A :term:`webcam <Webcam>` may operate in one of various exposure modes.
 
 Many common webcams offer only some of these modes. To directly
 control the exposure, set the webcam to Manual mode.

@@ -10,7 +10,7 @@ is included in the blast with the rest of the content here.
 
 .. _revdriverhubtips:
 
-This Tech Tip is a long one, filled with great REV Driver Hub tips. Most
+This Tech Tip is a long one, filled with great REV :term:`Driver Hub` tips. Most
 everything here can be found in REV's Driver Hub Troubleshooting tips page,
 we've just annotated a few of these for the most common scenarios you'll
 potentially experience with the REV Driver Hub. Understand that this Tech Tip
@@ -23,7 +23,7 @@ Ten Driver Hub Tips
 -------------------
 
 1. Make sure your REV Driver Hub time/date is set correctly! This is the cause
-   of a number of inspection nightmares and Robot Controller log file
+   of a number of :term:`inspection <Inspection>` nightmares and :term:`Robot Controller` log file
    confusion, the first step should always be to check to make sure the
    Date/Time on the Driver Hub is set correctly. This is set through the normal
    Android System Settings by pulling down the Android Quick Settings pull-down
@@ -73,10 +73,10 @@ Ten Driver Hub Tips
    definitely NOT for multiple days.
 
 5. When a user puts the REV Driver Hub to sleep, or if it goes to sleep on
-   its own because the Driver Station App main screen is not actively
+   its own because the :term:`Driver Station App` main screen is not actively
    running in the foreground, it goes to sleep pretty easily. However,
    when the REV Driver Hub returns from a sleep state, sometimes the
-   Wi-Fi and the gamepads will not reload correctly or automatically;
+   Wi-Fi and the :term:`gamepads <Gamepad>` will not reload correctly or automatically;
    this requires you to unplug and replug the gamepads from the REV
    Driver Hub before you can use them again, or perform a hard reboot in
    order to bring Wi-Fi connectivity back. Many veteran teams use a
@@ -123,7 +123,7 @@ Ten Driver Hub Tips
    REV Support is unable to help you resolve (because of time pressures)
    before your big event.
 
-9. Ensure your REV Driver Hub is fully updated. Firmware 1.2.0 solves a
+9. Ensure your REV Driver Hub is fully updated. :term:`Firmware` 1.2.0 solves a
    host of REV Driver Hub issues, and it makes sense to use the on-board
    updater (once connected to Wi-Fi) to perform all updates on the Driver
    Hub.

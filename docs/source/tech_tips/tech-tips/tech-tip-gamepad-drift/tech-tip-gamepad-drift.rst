@@ -10,20 +10,20 @@ is included in the blast with the rest of the content here.
 
 .. _gamepadcalibrationanddrift:
 
-We had an abnormally large number of questions regarding gamepad calibration
+We had an abnormally large number of questions regarding :term:`gamepad <Gamepad>` calibration
 hit our support lines, both at *FIRST* and at REV Robotics, though question
 submitters had no idea that gamepad calibration was the issue - so let's cover
 the topic!
 
 How does a joystick know where "center" is on a gamepad? On virtually all
 gamepads the analog joysticks have an electrical device (usually a
-potentiometer) that electrically measures the motion of the stick. If the
+:term:`potentiometer <Potentiometer>`) that electrically measures the motion of the stick. If the
 electrical device's value at "center" does not coincide with the value the
 gamepad thinks should be center, the stick will have a non-zero value at its
 center position; this is called drift. In a video game, drift is what causes
 your character to walk left (or right, etc) even though you're not moving
-the joystick. For a robot, this can cause ghost turning or unwanted motor or
-servo motion. So how is this "center" value determined?
+the joystick. For a robot, this can cause ghost turning or unwanted
+:term:`motor <DC Motor>` or :term:`servo <Servo>` motion. So how is this "center" value determined?
 
 Some gamepads, like the Logitech F310 gamepads, simply read the value of the
 analog joystick when it's first powered on and assumes the sticks are always

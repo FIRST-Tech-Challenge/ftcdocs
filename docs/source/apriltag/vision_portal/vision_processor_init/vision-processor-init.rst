@@ -4,10 +4,10 @@ Vision Processor Initialization
 Processor Initialization - Overview
 -----------------------------------
 
-Your OpMode must **first prepare** for using AprilTag and/or
+Your :term:`OpMode` must **first prepare** for using :term:`AprilTag` and/or
 Color Processing commands, or methods.
 
-In the INIT portion of your Java or Blocks code, before ``waitForStart()``, use
+In the INIT portion of your Java or :term:`Blocks` code, before ``waitForStart()``, use
 these steps:
 
 - **Step 1.** *Optional:*  
@@ -37,7 +37,7 @@ AprilTag Initialization - Easy
 
 **Step 2** is creating the **AprilTag Processor**, software that evaluates frames streaming in from the camera.
 
-The SDK provides an "easy" way to create the processor, using only **defaults** and not mentioning a "Builder":
+The :term:`SDK` provides an "easy" way to create the processor, using only **defaults** and not mentioning a "Builder":
 
 .. tab-set::
    .. tab-item:: Blocks

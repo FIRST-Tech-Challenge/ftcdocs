@@ -1,7 +1,7 @@
 Connecting a Motor to the Hub
 ==============================
 
-The Hub can drive up to four (4) 12V DC motors per Hub. The Hub uses a
+The :term:`Hub` can drive up to four (4) 12V :term:`DC motors <DC Motor>` per Hub. The Hub uses a
 type of electrical connector known as a 2-pin JST VH connector. Many of
 the *FIRST* approved 12V DC motors are equipped with Anderson Powerpole
 connectors. An adapter cable can be used to connect the Anderson

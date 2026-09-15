@@ -1,7 +1,7 @@
 Overview
 =========
 
-Below is an overview of the process of contributing to FTC Docs.
+Below is an overview of the process of contributing to :term:`FTC Docs`.
 
 .. warning::
 

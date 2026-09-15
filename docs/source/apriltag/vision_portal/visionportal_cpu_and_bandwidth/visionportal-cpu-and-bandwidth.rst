@@ -6,24 +6,24 @@ Introduction
 
 Vision processing can consume significant **CPU resources** and USB
 communications **bandwidth**.  Reaching such limits may affect previews, and
-cause an OpMode or Robot Controller to slow down, or freeze, or crash.
+cause an :term:`OpMode` or :term:`Robot Controller` to slow down, or freeze, or crash.
 
 Teams can balance the benefits of higher resolution and speed
 (frames-per-second) against the risk of overloading CPU and bandwidth
 resources.
 
-The 8.2 SDK provides numerous tools to manage this balance:
+The 8.2 :term:`SDK` provides numerous tools to manage this balance:
 
 - disable and enable the RC preview (called LiveView) - "Level 1"
 - disable and enable a vision processor - "Level 2"
 - stop and resume the camera stream - "Level 3"
-- close VisionPortal - "Level 4"
+- close :term:`VisionPortal` - "Level 4"
 - monitor frames-per-second (FPS)
 - select a compressed video streaming format
 - select the camera resolution
 - set decimation (down-sampling)
 - select a pose solver algorithm
-- get all or only fresh detections from the AprilTag Processor
+- get all or only fresh detections from the :term:`AprilTag` Processor
 
 The first four actions are informally rated for benefit and response:
 
@@ -67,7 +67,7 @@ About Previews
 --------------
 
 As noted at the **Previews** page, LiveView refers only to the **Robot
-Controller** preview.  It's completely separate from the Driver Station (DS)
+Controller** preview.  It's completely separate from the :term:`Driver Station` (DS)
 **Camera Stream**, which still operates normally even if LiveView is stopped
 (manually or automatically).
 
@@ -129,7 +129,7 @@ refresh) remains available.
 Pause LiveView - Indirect
 -------------------------
 
-The SDK also offers an **indirect** control of LiveView, available in Blocks
+The SDK also offers an **indirect** control of LiveView, available in :term:`Blocks`
 and Java:
 
 .. code-block:: java
@@ -366,7 +366,7 @@ can be a concern for **dual webcams**.
 
 .. note::
    Internal phone cameras have an independent high-speed interconnect (not
-   USB), unaffected by an added USB webcam.
+   USB), unaffected by an added USB :term:`webcam <Webcam>`.
 
 The two webcams do *not* need to use the same format or resolution.
 
@@ -375,7 +375,7 @@ For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB
 capacity, although higher resolution can cause the auto-optimized frame rate to
 reduce.
 
-Using the Control Hub's two USB ports, the choice of stream format has little
+Using the :term:`Control Hub`'s two USB ports, the choice of stream format has little
 impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**;
 adding a webcam may affect its reliability.
 

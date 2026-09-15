@@ -9,7 +9,7 @@ CAD Resources
 `Computer Aided Design (CAD)
 <https://en.wikipedia.org/wiki/Computer-aided_design>`__ and 3D animation
 software is used in *FIRST* Tech Challenge by teams to design and visualize
-complex systems prior to manufacturing. There are many software options for CAD 
+complex systems prior to manufacturing. There are many software options for :term:`CAD` 
 and there's no way to list them all. Some software is provided free of charge, 
 some software is provided for a fee, and some require subscriptions. However, many organizations provide free 
 access to "premium" CAD software to *FIRST* teams.

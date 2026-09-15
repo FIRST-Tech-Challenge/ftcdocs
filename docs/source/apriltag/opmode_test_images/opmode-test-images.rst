@@ -6,15 +6,15 @@ Introduction
 
 In the 2023-2024 season, `FIRST Tech Challenge has introduced
 AprilTags <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__ into
-the season-unique competition. AprilTags were developed by the April
+the season-unique competition. :term:`AprilTags <AprilTag>` were developed by the April
 Robotics Laboratory at the University of Michigan and are a visual
 fiducial tagging system, built on a similar concept as QR codes, useful
 for a wide variety of tasks including augmented reality, robotics, and
 camera calibration. A properly calibrated camera and tag library can be
 used to detect AprilTags and provide information such as range and
 orientation information (also known as **pose** data) about the tags
-with respect to the camera. The *FIRST* Tech Challenge Software
-Development Kit (SDK) has been updated to add AprilTag detection APIs to
+with respect to the camera. The *FIRST* Tech Challenge :term:`Software
+Development Kit` (SDK) has been updated to add AprilTag detection APIs to
 help teams make use of this resource.
 
 This document contains examples of AprilTags that are intended

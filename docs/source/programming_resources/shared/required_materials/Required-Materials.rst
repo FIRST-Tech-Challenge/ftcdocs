@@ -42,7 +42,7 @@ tutorials, you will need to have the following materials available:
 .. |driverhub| image:: images/driverHub.jpg
 
 
-.. important:: Only the REV Control Hub and the REV Driver Hub are officially
+.. important:: Only the REV :term:`Control Hub` and the REV :term:`Driver Hub` are officially
    supported. An Android phone is legal to use in competition, but it is not
    supported. Teams who use one are responsible for all of their own testing
    and troubleshooting.
@@ -56,7 +56,7 @@ tutorials, you will need to have the following materials available:
      - Image
 
    * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
-       Alternately, teams may instead use a REV Robotics Expansion Hub
+       Alternately, teams may instead use a REV Robotics :term:`Expansion Hub`
        and an Android phone.
      - |chandphones| |exhub|
 
@@ -67,7 +67,7 @@ tutorials, you will need to have the following materials available:
    * - Wireless Internet access.
      - |wifi|
 
-   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
+   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the :term:`Robot Controller`. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
      - |laptop|
 
    * - Javascript-enabled web browser (Google Chrome is the recommended browser).
@@ -76,10 +76,10 @@ tutorials, you will need to have the following materials available:
    * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
      - |switch|
   
-   * - *FIRST*-approved\* 12V Battery (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current Competition Manual.**\
+   * - *FIRST*-approved\* 12V :term:`Battery` (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current** :term:`Competition Manual`.\
      - |battery|   Or |slimbattery|
 
-   * - *FIRST*-approved\* 12V DC Motor (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
+   * - *FIRST*-approved\* 12V :term:`DC Motor` (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
      - |motor|
 
 
@@ -89,20 +89,20 @@ tutorials, you will need to have the following materials available:
    * - REV Robotics Anderson to JST VH Cable (REV-31-1381).
      - |jst|
 
-   * - 180-Degree Standard Scale Servo (such as Hitec HS-485HB).
+   * - 180-Degree Standard Scale :term:`Servo` (such as Hitec HS-485HB).
      - |servo|
 
-   * - REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154).
+   * - REV Robotics Color :term:`Sensor` with 4-Pin Cable (REV-31-1154).
      - |color|
 
-   * - REV Robotics Touch Sensor with 4-Pin Cable( REV-31-1425).
+   * - REV Robotics :term:`Touch Sensor` with 4-Pin Cable( REV-31-1425).
      - |touch|
   
-   * - Logitech F310 USB Gamepad.
+   * - Logitech F310 USB :term:`Gamepad`.
      - |f310|
 
    * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
-   * - If you are using a smartphone as your DRIVER STATION and/or ROBOT CONTROLLER, you will need one (1) micro USB OTG adapter per smartphone.
+   * - If you are using a smartphone as your DRIVER STATION and/or ROBOT CONTROLLER, you will need one (1) micro USB :term:`OTG adapter <OTG Adapter>` per smartphone.
      - |otg|   |otg|

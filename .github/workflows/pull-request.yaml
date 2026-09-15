@@ -80,6 +80,27 @@ jobs:
       - name: Spell Check
         run: nix develop -c cspell "docs/source/**/*.rst" --no-progress
 
+  glossary-check:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v22
+
+      - name: Set up Magic Nix Cache
+        uses: DeterminateSystems/magic-nix-cache-action@v14
+        with:
+          use-flakehub: false
+
+      # Advisory only -- this heuristic can't judge word sense (e.g. "match"
+      # as a verb vs. the game term), so it always exits 0. It just prints a
+      # checklist of candidate unlinked-first-mention terms to the log for a
+      # human to verify against docs/source/contrib/style_guide/style-guide.rst.
+      - name: Glossary Link Check (advisory)
+        run: nix develop -c make -C docs/ glossarycheck
+
   link-check:
     runs-on: ubuntu-22.04
     steps:

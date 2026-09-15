@@ -5,7 +5,7 @@ Submitting Your Changes for Review
 Workflows
 ---------
 
-The following diagram shows the workflow for submitting changes to the FTC Docs repository.
+The following diagram shows the workflow for submitting changes to the :term:`FTC Docs` repository.
 For first time users of Git/GitHub, do not worry if this seems confusing. First focus 
 on understanding the steps and then the workflow will make more sense.
 

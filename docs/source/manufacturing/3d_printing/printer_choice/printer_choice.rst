@@ -18,7 +18,7 @@ Bambu Lab has fixed the issue in Q3 2025, but if you have an older model, it is 
 and temperature trends don't make sense, the 3D printer will shut itself down. This is essential to prevent possible
 fires and teams should not buy 3D printers without this feature.
 
-Most 3D printers you buy today will have this due to firmware updates, despite the age of the printer, but **it should still be checked (especially pre-2020 Ender 3 models)**.
+Most 3D printers you buy today will have this due to :term:`firmware <Firmware>` updates, despite the age of the printer, but **it should still be checked (especially pre-2020 Ender 3 models)**.
 
 Please search up whether the printer model you intend on buying has this feature. If you search up Ender 3s,
 you will find some results that say it does not, but this is dated information and not true, as newer (after 2020) Ender 3s are 
@@ -26,7 +26,7 @@ now shipped with that enabled in the firmware by default. **However, on older En
 
 All other printers that we list in our sections below are modern enough to have this feature as well.
 
-**Obsolete Products**: 3D printing technology moves at a fast pace, and it is important to check if the printer you intend on buying is not obsolete or discontinued by the manufacturer.
+**Obsolete Products**: :term:`3D printing <3D Printing>` technology moves at a fast pace, and it is important to check if the printer you intend on buying is not obsolete or discontinued by the manufacturer.
 This is important to check for a few reasons.
 
 1. Obsolete printers can be hard to find, and prices may be overinflated.

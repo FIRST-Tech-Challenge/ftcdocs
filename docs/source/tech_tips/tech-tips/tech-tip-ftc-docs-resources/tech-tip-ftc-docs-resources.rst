@@ -32,8 +32,8 @@ maintaining a 3D printer? ftc-docs has community contributions from *FIRST*
 Tech Challenge teams 16461 and 1002 introducing :ref:`3D printing in FIRST Tech
 Challenge <manufacturing/3d_printing/index:3D Printing>`. Once you've got a 3D
 printer, be sure to check out :ref:`Computer Aided Design (CAD)
-<cad_resources/index:CAD Resources>` also on ftc-docs to find a CAD package
-and start designing and printing parts for your robots!
+<cad_resources/index:CAD Resources>` also on ftc-docs to find a :term:`CAD`
+package and start designing and printing parts for your robots!
 
 .. _techvideo9182023:
 
@@ -41,7 +41,7 @@ Technical Update Video by AJ Foster
 -----------------------------------
 
 This is a Video Tech Tip from AJ Foster, *FIRST* Tech Challenge World
-Championship FTA and Orlando Robotics League All-Star Volunteer. AJ gives a
+Championship FTA and Orlando Robotics League All-Star :term:`Volunteer`. AJ gives a
 great synopsis on many of the key technical updates for the CENTERSTAGE
 presented by RTX season and some background on those changes. Watch his
 `Technical Update video on the FIRST Tech Challenge YouTube Channel

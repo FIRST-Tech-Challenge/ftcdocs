@@ -73,7 +73,7 @@ resource you want to explore!
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      Look for resources for :term:`Computer-Aided Design <Computer Aided Design>` (CAD) software.
       
       +++
       

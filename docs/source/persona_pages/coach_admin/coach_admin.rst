@@ -17,7 +17,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
 
       ^^^
 
-      We express the *FIRST* philosophies of Gracious Professionalism 
+      We express the *FIRST* philosophies of :term:`Gracious Professionalism` 
       and Coopertition through our Core Values.
       
       +++

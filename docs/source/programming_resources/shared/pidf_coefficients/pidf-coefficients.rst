@@ -1,11 +1,11 @@
 Changing PIDF Coefficients
 ===========================
 
-The REV Robotics Control Hub or REV Robotics Expansion Hub allows a user to change the PIDF
+The REV Robotics :term:`Control Hub` or REV Robotics :term:`Expansion Hub` allows a user to change the :term:`PIDF`
 coefficients used for closed loop motor control. The PIDF coefficients
 are specific to each channel (motor port) and to each RunMode.
 
-The following sample OpMode uses an extended or enhanced DcMotor class
+The following sample :term:`OpMode` uses an extended or enhanced DcMotor class
 (called “DcMotorEx”) to change the PIDF coefficients for the
 RUN_USING_ENCODER RunMode for a motor named “left_drive”. The OpMode
 uses the setPIDFCoefficients method of the DcMotorEx class to change the
@@ -151,5 +151,5 @@ way to adjust the PIDF coefficients is to use the extended/enhanced
        }
    }
 
-Note: As of SDK 7.0, the former PID-only methods are still
+Note: As of :term:`SDK` 7.0, the former PID-only methods are still
 available, but deprecated.

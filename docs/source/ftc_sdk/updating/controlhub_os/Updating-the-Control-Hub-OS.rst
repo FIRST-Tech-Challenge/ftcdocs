@@ -6,11 +6,11 @@ functions, such as scheduling tasks, executing applications, and
 controlling peripherals. This must sometimes be updated on the **REV
 Control Hub**. While this OS update is not specifically part of the
 :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires
-these updates for the Control Hub in order to perform correctly.
+these updates for the :term:`Control Hub` in order to perform correctly.
 
 Here are two methods for updating the Control Hub OS: 
 
-1. REV Hardware Client (RHC) 
+1. :term:`REV Hardware Client` (RHC) 
 2. Manage page on computer
 
 More info about updating the Control Hub OS is
@@ -23,7 +23,7 @@ More info about updating the Control Hub OS is
    2. Plug the Control Hub directly into a computer running the REV
       Hardware Client, with a USB-C data cable.
 
-   3. Click the hub’s large icon/rectangle. Under “Control Hub Operating
+   3. Click the :term:`hub <Hub>`’s large icon/rectangle. Under “Control Hub Operating
       System”, see the current/latest mismatch, if any (yellow oval,
       below).
 

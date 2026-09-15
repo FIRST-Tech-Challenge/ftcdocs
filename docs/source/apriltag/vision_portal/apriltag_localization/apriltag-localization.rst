@@ -4,11 +4,11 @@ AprilTag Localization
 Introduction
 ------------
 
-In *FIRST Tech Challenge* (FTC), **localization** uses sensor inputs to
+In *FIRST Tech Challenge* (FTC), **localization** uses :term:`sensor <Sensor>` inputs to
 determine the robot's current place **on the game field**.
 
 Since 2023, an FTC OpMode can read the **pose** (position and orientation) of
-an AprilTag, **relative to the camera**.  An OpMode can also read that
+an :term:`AprilTag`, **relative to the camera**.  An :term:`OpMode` can also read that
 AprilTag's **global** pose (on the FTC game field), stored as metadata.
 
 .. figure:: images/05-ITD-tags.png
@@ -37,7 +37,7 @@ and rotation, based on sensing one or more fixed landmarks -- AprilTags in this
 case.
 
 This capability is provided in 2024 with FTC SDK version 10.0, including a
-Sample OpMode, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`_.  This
+:term:`Sample OpMode`, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`_.  This
 tutorial describes how to use that OpMode.
 
 Configuration
@@ -48,8 +48,8 @@ Configuration
 * *the active robot configuration already contains "Webcam 1", or*
 * *using the built-in camera of an Android phone as Robot Controller.*
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used for AprilTag
+Before starting the programming, REV :term:`Control Hub` users should make a robot
+configuration that includes the USB :term:`webcam <Webcam>` to be used for AprilTag
 localization.
 
 For now, use the default webcam name, "Webcam 1".  If a different name is
@@ -57,12 +57,12 @@ preferred, edit the Sample OpMode to agree with the exact webcam name in the
 robot configuration.
 
 **Save and activate** that configuration; its name should appear on the paired
-Driver Station screen.
+:term:`Driver Station` screen.
 
 Open the Sample OpMode
 ----------------------
 
-To learn about opening the Sample OpMode, select and read the Blocks **or**
+To learn about opening the Sample OpMode, select and read the :term:`Blocks` **or**
 Java section below:
 
 .. tab-set::
@@ -86,7 +86,7 @@ Java section below:
    .. tab-item:: Java
       :sync: java
 
-      Open your choice of OnBot Java or Android Studio.
+      Open your choice of :term:`OnBot Java` or :term:`Android Studio`.
 
       In the ``teamcode`` folder, add/create a new OpMode with a name such as
       "AprilTagLocalization_Oscar_v01.java", and select the Sample OpMode
@@ -100,7 +100,7 @@ Java section below:
 Run the Sample OpMode
 ---------------------
 
-On the Driver Station, select the TeleOp OpMode that you just saved or built.
+On the Driver Station, select the :term:`TeleOp <TELEOP>` OpMode that you just saved or built.
 
 Aim the camera at an AprilTag from the current FTC game.
 
@@ -125,7 +125,7 @@ physical size** (4 x 4 inches, in this example):
 
    Partial AprilTag Sheet
 
-**Touch INIT only.**  No telemetry will appear, but at this moment the DS
+**Touch INIT only.**  No :term:`telemetry <Telemetry>` will appear, but at this moment the DS
 **Camera Stream** preview can be accessed.  See the next section re.  previews.
 
 After using the preview to aim at the AprilTag, touch the DS Start arrow.   The
@@ -177,7 +177,7 @@ Telemetry.
 RC Preview
 ----------
 
-The Robot Controller (RC) device also makes a preview, called ``LiveView``.
+The :term:`Robot Controller` (RC) device also makes a preview, called ``LiveView``.
 This is full video, and is shown automatically on the screen of an RC phone.
 
 .. figure:: images/30-LiveView.png
@@ -236,7 +236,7 @@ Reference Frames
 ----------------
 
 In the above example. the yaw angle is given as (approximately) -90 degrees.
-But the camera is facing in the negative X direction, thus has a heading or yaw
+But the camera is facing in the negative X direction, thus has a :term:`heading <Heading>` or yaw
 angle of -180 degrees in the official FTC 
 :ref:`field coordinate system <first field coordinate system>`
 :
@@ -251,7 +251,7 @@ angle of -180 degrees in the official FTC
 This sample OpMode uses a reference frame (coordinate system) that may be
 different than what you expect from other FTC navigation applications,
 including :ref:`IMU or robot axes <imu axes def>`
-, odometry device axes, and the FTC field system (shown above).  These
+, :term:`odometry <Odometry>` device axes, and the FTC field system (shown above).  These
 differences typically result in basic and obvious changes in axis direction,
 axis swapping, and orthogonal angles (90-degree increments).
 
@@ -400,7 +400,7 @@ AprilTags on the field.  This is done by combining three elements:
 * the camera's pose on the robot.
 
 AprilTag localization uses a reference frame (coordinate system) that may
-differ from others, such as IMU or robot axes, odometry device axes, and the
+differ from others, such as :term:`IMU` or robot axes, odometry device axes, and the
 FTC field system.  Adjust as needed.
 
 Evaluate this navigation tool against other choices, and plan a robot strategy

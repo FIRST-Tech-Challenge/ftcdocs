@@ -1,7 +1,7 @@
 Connecting a Servo to the Hub
 ==============================
 
-The Hub has 6 built-in servo ports. The servo ports accept the standard
+The :term:`Hub` has 6 built-in :term:`servo <Servo>` ports. The servo ports accept the standard
 3-wire header style connectors commonly found on servos. Note that
 ground pin is on the left side of the servo port.
 

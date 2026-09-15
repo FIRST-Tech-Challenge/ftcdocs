@@ -1,8 +1,8 @@
 Saving the Configuration Information
 ====================================
 Once you have configured your hardware, you must save the information to
-the configuration file. If you do not save this information, it will be
-lost and the robot controller will be unable to communicate with your
+the :term:`configuration file <Configuration File>`. If you do not save this information, it will be
+lost and the :term:`robot controller <Robot Controller>` will be unable to communicate with your
 hardware.
 
 Saving the Configuration Information Instructions

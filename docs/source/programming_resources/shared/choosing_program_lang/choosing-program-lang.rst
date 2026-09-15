@@ -1,8 +1,8 @@
 Choosing a Programming Tool
 ============================
 
-You need to select a programming tool to be able to create op modes
-for your competition robot. 
+You need to select a programming tool to be able to create :term:`op modes <OpMode>`
+for your competition robot.
 An Op Mode or Operational Mode is program that tells the robot what to do.
 There are three programming tools that are available for you to use.
 
@@ -37,7 +37,7 @@ Android Studio
 --------------
 An advanced integrated development environment
 for creating Android apps. This tool is the same tool that
-professional Android app developers use. Android Studio is only
+professional Android app developers use. :term:`Android Studio` is only
 recommended for advanced users who have extensive Java programming
 experience.
 
@@ -49,11 +49,11 @@ Recommendations
 
 Each tool has its own merits and weaknesses. For many users (especially
 rookies and novice programmers), **the Blocks Programming Tool is
-the best overall tool to use**. The Blocks Programming Tool is intuitive
+the best overall tool to use**. The :term:`Blocks Programming Tool` is intuitive
 and easy-to-learn. **It is the fastest way to get started programming
 your robot.**
 
-The OnBot Java Programming Tool is similar to the Blocks Programming
+The :term:`OnBot Java Programming Tool` is similar to the Blocks Programming
 Tool. However, OnBot Java is a text-based tool and it requires that the
 user have a sound understanding of the Java programming language.
 

@@ -15,9 +15,9 @@ Servos on the Control and Expansion Hubs
 
 There was a fantastic `question on the FTC-QA
 <https://ftc-qa.firstinspires.org/qa/229>`__ that prompted an in-depth
-discussion about servos in *FIRST* Tech Challenge - the question was in regard
-to servo compatibility and operation/performance on a REV Control Hub, REV
-Expansion Hub, and REV Servo Power Module. While the full explanation was
+discussion about :term:`servos <Servo>` in *FIRST* Tech Challenge - the question was in regard
+to servo compatibility and operation/performance on a REV :term:`Control Hub`, REV
+:term:`Expansion Hub`, and REV Servo Power Module. While the full explanation was
 too much for a Q&A answer, the complete answer was provided on the
 `FTC-Community forums
 <https://ftc-community.firstinspires.org/t/rev-control-hub-servo-port-compatibility/858>`__.
@@ -54,14 +54,14 @@ managing their own power usage. On the REV Control Hub, for instance, each servo
 port pair is limited in how much power it can draw (at least there's a limit on
 how long it can draw high loads). When using a servo power injector, the pool of
 power for a servo is much larger and less restricted since it pulls its power
-directly from the robot battery - using power injectors means you could consume
+directly from the robot :term:`battery <Battery>` - using power injectors means you could consume
 all of the power on the robot just from the servos alone! This will result in the
 robot power system browning out (resulting in loss of communications or loss of
-power to the control system) or even blowing the 20A battery fuse.
+power to the :term:`control system <Control System>`) or even blowing the 20A battery :term:`fuse <Fuse>`.
 
 Using a servo power injector can also expose different behaviors in servos that
 were not present when using the REV Control/Expansion Hub directly. The biggest
-behavior is the "Lost Signal" behavior. When an OpMode ends, the REV
+behavior is the "Lost Signal" behavior. When an :term:`OpMode` ends, the REV
 Control/Expansion hubs stop the signal and also cut power to the servo ports -
 this leads to the servos "going limp" as they lose power. With a servo power
 injector, the servos never lose power, and so "lost signal" behaviors will often

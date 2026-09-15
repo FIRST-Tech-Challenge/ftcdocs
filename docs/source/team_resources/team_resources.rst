@@ -14,6 +14,6 @@ Pages and Links
 | FTC Technical Support - https://ftc-community.firstinspires.org
 | FTC Avatar Submission - https://community.firstinspires.org/team-avatars
 | FTC Scoring Site (for avatar and hybrid event portfolio submission) - https://ftc-scoring.firstinspires.org
-| FTC Competition Manual - https://ftc.game/manual
+| FTC :term:`Competition Manual` - https://ftc.game/manual
 | FTC Competition Manual (HTML) - https://ftc.game/cm-html
 | FTC Competition Manual AI Chatbot - https://ftc-cmchatbot.firstinspires.org

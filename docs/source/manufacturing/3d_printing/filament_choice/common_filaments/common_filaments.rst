@@ -26,7 +26,7 @@ PLA (Polylactic Acid)
 
 |
 
-Polylactic Acid, or PLA, is the most common 3D printing filament used today. It is made from biological sources such as 
+Polylactic Acid, or PLA, is the most common :term:`3D printing <3D Printing>` filament used today. It is made from biological sources such as 
 corn starch or sugar cane. PLA is easy to print with, and is usually the best choice for most robot parts. It prints at 
 a low temperature, and tends to warp very little. PLA is very stiff, but can be brittle, especially under shock loads 
 (impacts), and parts should be designed with this in mind.

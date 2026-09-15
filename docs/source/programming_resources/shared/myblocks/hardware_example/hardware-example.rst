@@ -2,7 +2,7 @@ Hardware Example: control a servo
 =================================
 
 Here’s a very simple example to illustrate how a myBlock can access the
-**robot hardware**. Here, the Blocks user enters the servo’s name as a
+**robot hardware**. Here, the :term:`Blocks` user enters the :term:`servo <Servo>`’s name as a
 **parameter** of the myBlock.
 
 .. image:: images/a0300-wiggle-OBJ-short.png
@@ -23,7 +23,7 @@ to be visible on-screen, without scrolling sideways.
 
 Line 15: this method has 3 inputs and no outputs (keyword **void**).
 
-Line 17 shows how to access **hardwareMap**, the configured devices list
+Line 17 shows how to access :term:`hardwareMap`, the configured devices list
 provided from BlocksOpModeCompanion. That single line of Java does this:
 - declare a new variable called myServo, of type (class) Servo - **get**
 the properties (methods and variables) of the named servo from
@@ -34,7 +34,7 @@ Line 20 is a **for loop**, which you can learn about
 `here <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>`__.
 It runs the specified servo back and forth, using the specified duration
 and number of cycles. This **for loop** has the added condition
-``opModeIsActive()``, to monitor and verify the OpMode has not been
+``opModeIsActive()``, to monitor and verify the :term:`OpMode` has not been
 stopped.
 
 Lines 22 and 24: the object myServo uses a method ``setPosition()`` from
@@ -45,7 +45,7 @@ the class inherited from BlocksOpModeCompanion.
 
 The Blocks user must enter the exact device name from the **active
 configuration**. Hardware device names (motors, servos, sensors) are
-found in the Configure Robot menu of the RC app or paired DS app. Or, it
+found in the Configure Robot menu of the :term:`RC` app or paired :term:`DS` app. Or, it
 might be easier to retype the name from any Blocks drop-down list
 containing those device types. For example, a green Servo
 ``set .Position`` Block will display all configured servo names – make
@@ -68,7 +68,7 @@ CONs of hard-coding: - you need to know the exact servo name in advance
       with pros and cons. This is part of software design, a key
       professional skill and career path.
 
-A **different version** (gamepad-controlled, fully commented) of the
+A **different version** (:term:`gamepad <Gamepad>`-controlled, fully commented) of the
 above Java program is provided below.
 It illustrates using 5 of the 6 objects provided by
 BlocksOpModeCompanion, including **telemetry** and the **gamepads**.
@@ -77,7 +77,7 @@ OpMode like this:
 
 .. image:: images/a0320-wiggle-OpMode.png
 
-The final ``.sleep`` Block allows any telemetry to remain visible on the
+The final ``.sleep`` Block allows any :term:`telemetry <Telemetry>` to remain visible on the
 DS screen, before this sample OpMode ends.
 
 

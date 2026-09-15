@@ -1,14 +1,14 @@
 AprilTag Library
 ================
 
-For a *FIRST* Tech Challenge match, your OpMode has a known set of AprilTags to
+For a *FIRST* Tech Challenge :term:`match <Match>`, your :term:`OpMode` has a known set of :term:`AprilTags <AprilTag>` to
 detect.  They are preloaded by default or specified by you, with or without
 custom tags.
 
 These tags form an **AprilTag Library**. Each Library tag has a set of 4
 to 6 properties, described at the **Metadata** page.
 
-Starting with SDK 12.0, a Library holds two separate collections: single tags
+Starting with :term:`SDK` 12.0, a Library holds two separate collections: single tags
 and AprilTag Clusters, which are groups of tags detected together as one
 target. The difference matters when you build a custom Library. See
 **Libraries and Clusters** below.
@@ -57,7 +57,7 @@ Default Libraries
 
 The SDK uses two core Libraries of predefined AprilTags:
 
--  tags used only in Sample OpModes
+-  tags used only in :term:`Sample OpModes <Sample OpMode>`
 -  tags used only in the Robot Game (competition)
 
 The first Library, called ``SampleTagLibrary``, is available now with
@@ -125,7 +125,7 @@ tags.
 
          Completing Builder 
 
-      These are the first and last Blocks in the ``AprilTagProcessor.Builder``
+      These are the first and last :term:`Blocks` in the ``AprilTagProcessor.Builder``
       toolbox. The remaining Blocks are used to set optional features of the
       Processor. Here we are setting only the Library.
 

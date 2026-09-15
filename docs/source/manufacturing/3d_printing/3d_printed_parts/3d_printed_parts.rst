@@ -6,7 +6,7 @@ Here are some example parts that your team could make with a 3D printer to eithe
 Mounting Brackets
 -----------------
 
-One of the most common uses, 3D Prints can be used to make mounting brackets for motors, servos, 
+One of the most common uses, 3D Prints can be used to make mounting brackets for motors, :term:`servos <Servo>`, 
 electrical parts, bearings, and various other objects. This provides teams with a great control 
 of precision over how they mount things, and a decreased part count over commercial parts.
 

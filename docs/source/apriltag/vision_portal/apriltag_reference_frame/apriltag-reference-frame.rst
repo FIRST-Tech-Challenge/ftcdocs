@@ -4,7 +4,7 @@ AprilTag Reference Frame
 Introduction
 ------------
 
-Before discussing AprilTag **pose** (at the next page), the **FTC axes** or
+Before discussing :term:`AprilTag` **pose** (at the next page), the **FTC axes** or
 reference frame must be described.  Pose data is based on the **camera's
 point of view**, and requires a **flat AprilTag**.
 
@@ -32,7 +32,7 @@ is described in that reference frame as (X, Y, Z) position, also called
 displacement or translation.
 
 This is illustrated with a camera preview image, called LiveView, from a Robot
-Controller device (Control Hub or RC phone).
+Controller device (:term:`Control Hub` or RC phone).
 
 .. figure:: images/200-CH-LiveView-offsets-crop.png
    :width: 75%

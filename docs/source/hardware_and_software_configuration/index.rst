@@ -6,7 +6,7 @@
 Hardware and Software Configuration
 =====================================
 
-Hardware and Software Configuration for the Control System
+Hardware and Software Configuration for the :term:`Control System`
 
 .. toctree::
    :maxdepth: 2

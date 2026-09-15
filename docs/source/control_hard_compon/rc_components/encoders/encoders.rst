@@ -18,7 +18,7 @@ Encoders (Rotation Counters)
 
       +++
 
-      Built-in Encoder in the REV HD Hex Motor
+      Built-in :term:`Encoder` in the REV HD Hex Motor
 
    .. grid-item-card::
       :class-header: sd-bg-dark font-weight-bold sd-text-white
@@ -38,7 +38,7 @@ Encoders (Rotation Counters)
 
 An encoder is a device that measures the rotational displacement around an
 axis.  Most legal *FIRST* Tech Challenge motors contain a built in quadrature
-encoder that is compatible with a REV Hub. It is also possible to use a
+encoder that is compatible with a REV :term:`Hub`. It is also possible to use a
 standalone incremental encoder like a REV Through Bore Encoder (shown above).
 An incremental encoder works by sending out a "tick" per partial rotation of
 the shaft. More information on how many ticks are output per rotation can be

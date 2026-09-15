@@ -1,18 +1,18 @@
 Automatically Loading a Driver Controlled Op Mode
 ==================================================
 
-A FIRST Tech Challenge match consists of a 30 second autonomous period
-followed by a 2 minute driver controlled (i.e., tele-operated or teleop)
-period. Previously, teams had to manually select their teleop op mode
+A FIRST Tech Challenge :term:`match <Match>` consists of a 30 second :term:`autonomous <Autonomous>` period
+followed by a 2 minute driver controlled (i.e., tele-operated or :term:`teleop <TELEOP>`)
+period. Previously, teams had to manually select their teleop :term:`op mode <Op Mode>`
 after the autonomous portion their match was over.
 
-Teams can now preselect their teleop op mode, and have the Driver
-Station automatically load this op mode as soon as their autonomous run
+Teams can now preselect their teleop op mode, and have the :term:`Driver Station`
+automatically load this op mode as soon as their autonomous run
 has completed. This feature can help a team avoid selecting the wrong op
 mode during a match.
 
 To use this feature, verify that you are using version 6.1 or greater of
-the SDK software (Robot Controller and Driver Station).
+the :term:`SDK` software (:term:`Robot Controller` and Driver Station).
 
 Select an autonomous program to use during your match. The preselect
 button will appear in the lower left corner of the screen. It will be
@@ -34,7 +34,7 @@ inactive.
 Note that in order for the preselect button to be visible, the selected
 op mode must be designated as an autonomous op mode either by using the
 \_@Autonomous\_ annotation if it is written using Java or by selecting
-the *Autonomous* option in the Blocks editor. If you do not see the
+the *Autonomous* option in the :term:`Blocks` editor. If you do not see the
 preselect button, verify that your currently selected op mode has been
 designated as autonomous.
 

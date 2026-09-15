@@ -2,7 +2,7 @@ Intro to VS Code Tasks
 =======================
 :bdg-secondary:`Information` 
 
-In order to simplify the process of building and running FTC Docs we have created a set of tasks for Visual Studio Code. 
+In order to simplify the process of building and running :term:`FTC Docs` we have created a set of tasks for Visual Studio Code. 
 These tasks are defined in the `.vscode/tasks.json` file and can be run via the `Terminal` -> `Run Task...` menu. 
 
 Tasks

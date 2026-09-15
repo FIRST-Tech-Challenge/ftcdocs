@@ -23,7 +23,7 @@ requirement. Read details below for each product for more information.
 
    **What**:
 
-   *  Autodesk CAD software (including Fusion 360, Inventor, 3ds Max, and more...)
+   *  Autodesk :term:`CAD` software (including Fusion 360, Inventor, 3ds Max, and more...)
 
    **Expires**: Contact Autodesk for exact details.
 

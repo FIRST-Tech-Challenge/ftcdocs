@@ -7,7 +7,7 @@
 ====================================
 
 Welcome to the *FIRST®* Tech Challenge Documentation! This website contains everything you need to know to create a competition robot!
-There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.
+There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot :term:`control system <Control System>`.
 There is also information for coaches and mentors.
 
 *FIRST* Tech Challenge is a robotics program for middle and high school students.
@@ -20,6 +20,7 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    /overview/ftcoverview
    gracious_professionalism/gp
+   Glossary <glossary/glossary>
 
 .. toctree::
    :caption: Getting Started
@@ -266,7 +267,7 @@ The main menu contains links to the top level content. The following are quick l
    
       ^^^
 
-      The Software Development Kit (SDK) is the collection of tools for
+      The :term:`Software Development Kit` (SDK) is the collection of tools for
       developing software and executing it on the robot. 
 
       +++
@@ -320,7 +321,7 @@ The main menu contains links to the top level content. The following are quick l
       ^^^
 
       Be sure you're following all of the rules of the competition! 
-      The Competition Manual is an essential document.
+      The :term:`Competition Manual` is an essential document.
 
       +++
  

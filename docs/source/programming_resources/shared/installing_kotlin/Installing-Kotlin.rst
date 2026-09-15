@@ -8,8 +8,8 @@ What Is Kotlin?
 
 The Kotlin programming language is a modern alternative to the Java programming language
 that compiles and runs on the Java Virtual Machine (JVM) and can be used to develop Android
-applications. It was developed by JetBrains, the same company that developed the IntelliJ IDE
-(the basis for Android Studio).
+applications. It was developed by JetBrains, the same company that developed the IntelliJ :term:`IDE`
+(the basis for :term:`Android Studio`).
 
 * https://kotlinlang.org/
 

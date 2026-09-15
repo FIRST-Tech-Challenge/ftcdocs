@@ -37,7 +37,7 @@ Flush Cutter
 
 Flush cutters, otherwise known as diagonal cutters, snips, or snippers by teams, are an extremely versatile 
 tool that can be used for cutting and trimming things on your printer or your prints. A cheap pair like 
-pictured below is still great for 3D Printing and general use, just make sure that they stay sharp!
+pictured below is still great for :term:`3D Printing` and general use, just make sure that they stay sharp!
 
 .. figure:: images/flushcutters.png
   :align: center

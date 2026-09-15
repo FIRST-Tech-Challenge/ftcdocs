@@ -12,5 +12,5 @@ Expansion Hub Ports
 USB-B Port
 ----------
 
-An Android RC phone controls an Expansion Hub through this USB-mini-B 
-port, connected with USB OTG cable. This port also allows firmware updates.
+An Android RC phone controls an :term:`Expansion Hub` through this USB-mini-B 
+port, connected with USB OTG cable. This port also allows :term:`firmware <Firmware>` updates.

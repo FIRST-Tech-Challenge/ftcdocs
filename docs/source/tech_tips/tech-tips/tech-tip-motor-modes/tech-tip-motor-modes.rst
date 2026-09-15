@@ -13,11 +13,11 @@ is included in the blast with the rest of the content here.
 Using Encoders
 --------------
 
-Encoders are the devices that track how much a motor shaft has rotated, which
+:term:`Encoders <Encoder>` are the devices that track how much a :term:`motor <DC Motor>` shaft has rotated, which
 the vast majority of motors used in *FIRST* Tech Challenge have built-in. The
 encoders on the motors can help track a motor, but they can also be used to
-help synchronize and control motors via "Motor Modes" built into the Control
-and Expansion Hub firmware. Did you know that most programmers use these motor
+help synchronize and control motors via "Motor Modes" built into the
+:term:`Control Hub` and :term:`Expansion Hub` :term:`firmware <Firmware>`. Did you know that most programmers use these motor
 modes incorrectly? More on these "Motor Modes" and the correct way to use them
 can be found on the `REV Robotics Encoder documentation
 <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`__.
@@ -28,7 +28,7 @@ Motor Modes
 -----------
 
 This section is for all you who love diving deep into the *FIRST* Tech
-Challenge SDK and exploring interesting lesser-known behaviors of well-known
+Challenge :term:`SDK` and exploring interesting lesser-known behaviors of well-known
 interfaces. The `REV Robotics documentation
 <https://docs.revrobotics.com/duo-control/programming/using-encoder-feedback>`__
 for encoder feedback has a really good description of the four primary run
@@ -42,7 +42,7 @@ modes, namely:
 The first two modes do exactly as their names suggest, and generally no more.
 ``STOP_AND_RESET_ENCODER`` stops the motors and resets the encoder count to
 zero. ``RUN_WITHOUT_ENCODER`` more or less blindly controls the motor power
-using a calculated percentage of the available battery power through the
+using a calculated percentage of the available :term:`battery <Battery>` power through the
 motor's ``.setPower()`` method. There's really no more to see here.
 
 The last two modes are a bit more interesting. These two modes use a feature
@@ -54,7 +54,7 @@ using the ``.setVelocity()`` method, and :ref:`change the actual PIDF algorithm
 PIDF Coefficients>` being used by the motor mode (using the
 ``.setPIDFCoefficients()`` methods). Because these two motor modes rely on
 knowing specific motor characteristics, it's VERY important to set the
-correct motor type for the motor in the Robot Configuration!
+correct motor type for the motor in the :term:`Robot Configuration`!
 
 Finally, one final note about ``RUN_TO_POSITION``. When setting a Power or a
 Velocity for the motor in ``RUN_TO_POSITION`` mode, the value is intended to be

@@ -6,7 +6,7 @@ Control System Introduction
 
 *FIRST* Tech Challenge robots must play a challenging game that changes every year.
 In the VELOCITY VORTEX game robots could shoot softball size plastic balls
-into the blue or red center goals. During the end of the match they
+into the blue or red center goals. During the end of the :term:`match <Match>` they
 could lift and place a blue or red yoga ball onto the center goal structure.
 
 .. image:: images/HoustonMatchPlay.jpg
@@ -15,7 +15,6 @@ could lift and place a blue or red yoga ball onto the center goal structure.
 .. rst-class:: center
 
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
-
 
 
 Point-to-Point Control System
@@ -30,21 +29,21 @@ Android devices can communicate with each other over a wireless connection.
 
 |
 
-One Android device is mounted onto the robot and is called the *Robot
-Controller*. In most cases, the ROBOT CONTROLLER is the
-REV Robotics Control Hub. The Robot Controller acts as the “brains” of the
+One Android device is mounted onto the robot and is called the
+:term:`Robot Controller`. In most cases, the ROBOT CONTROLLER is the
+REV Robotics :term:`Control Hub`. The Robot Controller acts as the “brains” of the
 robot. It does all of the thinking for the robot and tells the robot what
 to do. It consists of an Android device running the Robot Controller app. Many
-Teams will also connect a REV Robotics Expansion Hub for additional ports to
-connect motors, servos and sensors to the ROBOT.
+Teams will also connect a REV Robotics :term:`Expansion Hub` for additional ports to
+connect motors, :term:`servos <Servo>` and :term:`sensors <Sensor>` to the ROBOT.
 
 A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the DRIVER STATION.
+:term:`gamepads <Gamepad>` connected. This second device is known as the DRIVER STATION.
 The DRIVER STATION is like a remote control that you might use
 to control your television. The DRIVER STATION allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
 Controller and to issue commands to the Robot Controller. The DRIVER STATION
-is usually a REV Robotics Driver Hub running the Driver Station app. 
+is usually a REV Robotics :term:`Driver Hub` running the :term:`Driver Station` app.
 
 .. important:: Only the REV Control Hub and the REV Driver Hub are officially
    supported. An Android smartphone is legal to use in competition, but it is
@@ -59,8 +58,8 @@ modules that lets the Robot Controller talk to the robot’s motors,
 servos, and sensors. The Robot Controller is integrated into the Control Hub, and communicates with the
 Expansion Hub through a serial connection. 
 
-The Control Hub and Expansion Hub are also connected to a 12V battery which is used to
-power the Control Hub, the Expansion Hub, the motors, the servos and sensors. 
+The Control Hub and Expansion Hub are also connected to a 12V :term:`battery <Battery>` which is used to
+power the Control Hub, the Expansion Hub, the motors, the servos and sensors.
 
 .. image:: images/REVControlHubLayout.png
    :align: center
@@ -70,7 +69,7 @@ power the Control Hub, the Expansion Hub, the motors, the servos and sensors.
 REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The REV Robotics Driver Hub is the electronic module that the team uses to 
+The REV Robotics Driver Hub is the electronic module that the team uses to
 control the ROBOT. Teams can use the Driver Station app to select and run
 various programs. One or more gamepads are connected to the Driver Hub and are
 used by the team to move the robot around the field and operate its various mechanisms.
@@ -89,8 +88,8 @@ AUTO vs. TELEOP
 
    <!-- cspell:ignore Teleoperated -->
 
-A *FIRST* Tech Challenge match has an Autonomous (AUTO) period and a
-Teleoperated (TELEOP) period. Teleoperated is a fancy word for remote controlled.
+A *FIRST* Tech Challenge match has an :term:`Autonomous` (AUTO) period and a
+:term:`Teleoperated <TELEOP>` (TELEOP) period. Teleoperated is a fancy word for remote controlled.
 
 In the AUTO phase of a match the robot operates without any human input or control.
 In the TELEOP phase, the robot can receive input from up to two human drivers.
@@ -105,7 +104,7 @@ During a typical *FIRST* Tech Challenge match, a team’s robot has to
 perform a variety of tasks in an effort to score points. For example, a
 team might want their robot to follow a white line on the competition
 floor and then score a game element (such as a ball) into a goal
-autonomously during a match. Teams will create an “OpMode” (which stands for
+autonomously during a match. Teams will create an “:term:`OpMode`” (which stands for
 “operational mode”) to specify the behavior for their robot.
 
 An *OpMode* is a computer program that is used to customize the behavior
@@ -120,9 +119,9 @@ depending on where on the field the robot will start the match.
 Teams who are participating in *FIRST* Tech Challenge have several
 of programming tools that they can use to create their own OpMode.
 Teams can use a visual (“drag and drop”) programming tool called the
-*Blocks Programming Tool* to create their OpModes. Teams can also
-use the Java programming language via the *OnBot Java Programming
-Tool* or Google’s *Android Studio* to create their OpModes.
+:term:`Blocks Programming Tool` to create their OpModes. Teams can also
+use the Java programming language via the :term:`OnBot Java Programming
+Tool` or Google’s :term:`Android Studio` to create their OpModes.
 
 See 
 :doc:`Choosing a Programming Tool </programming_resources/shared/choosing_program_lang/choosing-program-lang>`
@@ -157,7 +156,7 @@ Flagship Samsung phones seem to be well supported, as well as the Samsung A10.
 
 For a DRIVER STATION phone ensure the FTC Driver Station App is cleanly installed.
 See :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`.
-You will need an OTG adapter and a USB hub to connect gamepads.
+You will need an :term:`OTG adapter <OTG Adapter>` and a :term:`USB hub <USB Hub>` to connect gamepads.
 
 For a ROBOT CONTROLLER phone ensure the Robot Controller App is cleanly installed.
 See :doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-the-RC-App>`.

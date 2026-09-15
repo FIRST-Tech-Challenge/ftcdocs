@@ -76,12 +76,12 @@ color), very hard to see.  Let's try another image:
    Teal Outline of Blue Blob
 
 Now the teal outline of the blue Blob can be seen.  Its shape is irregular,
-which can be difficult for your OpMode to evaluate.
+which can be difficult for your :term:`OpMode` to evaluate.
 
 boxFit Rectangles
 -----------------
 
-The orange rectangle is drawn automatically by OpenCV, to give your OpMode a
+The orange rectangle is drawn automatically by :term:`OpenCV`, to give your OpMode a
 simpler geometric shape that represents the Blob.  It's not **exactly** like
 the actual Blob, but hopefully still useful.
 
@@ -140,7 +140,7 @@ Your programming tasks will include:
 * evaluate its data, and
 * take robot action accordingly.
 
-Now try the Sample OpMode for the :doc:`Color Locator <../color-locator-discover/color-locator-discover>` processor.
+Now try the :term:`Sample OpMode` for the :doc:`Color Locator <../color-locator-discover/color-locator-discover>` processor.
 
 ============
 

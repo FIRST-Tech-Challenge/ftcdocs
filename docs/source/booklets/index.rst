@@ -1,7 +1,7 @@
 Booklets
 ========
 
-More 'bite-sized' versions of the FTC Docs. These are meant to be printed out and used as a reference for teams.
+More 'bite-sized' versions of the :term:`FTC Docs`. These are meant to be printed out and used as a reference for teams.
 
 .. 
     In order to add a booklet, add a link to the booklet in the list below. The link should be in the format of:

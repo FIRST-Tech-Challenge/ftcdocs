@@ -1,25 +1,25 @@
 Updating Hub Firmware
 =====================
 
-Firmware is low-level software that controls a device’s circuit boards, or
-electronic **hardware**. This must sometimes be updated on the REV Expansion
-Hub and the REV Control Hub in order for the :doc:`Software Development Kit
+:term:`Firmware` is low-level software that controls a device’s circuit boards, or
+electronic **hardware**. This must sometimes be updated on the REV :term:`Expansion Hub`
+and the REV :term:`Control Hub` in order for the :doc:`Software Development Kit
 (SDK) </ftc_sdk/overview/index>` to perform correctly.
 
 Here are 5 methods: 
 
-1. REV Hardware Client (RHC) 
-2. Driver Station app
-3. Robot Controller (RC) app - on RC phone 
+1. :term:`REV Hardware Client` (RHC) 
+2. :term:`Driver Station` app
+3. :term:`Robot Controller` (RC) app - on RC phone 
 4. Manage page on computer 
-5. Manage page on Driver Station device (Driver Hub or DS phone)
+5. Manage page on Driver Station device (:term:`Driver Hub` or DS phone)
 
 .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
    1. For REV Control Hub, apply 12V robot power. For REV Expansion Hub,
       12V power is optional.
 
-   2. Plug the REV Hub directly into a computer running the REV Hardware
+   2. Plug the REV :term:`hub <Hub>` directly into a computer running the REV Hardware
       Client, with a USB data cable (not charge-only). The Expansion Hub’s
       port is Mini USB (not micro). On the Control Hub, use only the USB-C
       port, not its Mini USB port.

@@ -1,12 +1,12 @@
 Connecting a Touch Sensor to the Hub
 =====================================
 
-The Hub has 4 independent digital input/output (I/O) ports. Each port
-has two digital I/O pins for a total of 8 digital I/O pins on a Hub. You
-will connect a REV Robotics Touch sensor to one of the digital I/O
+The :term:`Hub` has 4 independent digital input/output (I/O) ports. Each port
+has two :term:`digital I/O <Digital I/O>` pins for a total of 8 digital I/O pins on a Hub. You
+will connect a REV Robotics :term:`Touch sensor <Touch Sensor>` to one of the digital I/O
 ports.
 
-Note that in the case of the REV Robotics Touch Sensor, the device has a
+Note that in the case of the REV Robotics Touch :term:`Sensor`, the device has a
 connector port for a 4-pin sensor cable. However, the device only needs
 to connect to one of the two available digital I/O pins. For the REV
 Robotics Touch Sensor, the second digital I/O pin in the port is the one

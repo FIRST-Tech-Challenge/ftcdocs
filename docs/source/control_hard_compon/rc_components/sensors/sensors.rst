@@ -1,8 +1,8 @@
 Sensors
 =========
 
-Listed below are some examples of common robot sensors. While the *FIRST* Tech
-Challenge SDK supports many sensors not all are natively supported.
+Listed below are some examples of common robot :term:`sensors <Sensor>`. While the *FIRST* Tech
+Challenge :term:`SDK` supports many sensors not all are natively supported.
 
 Examples
 ----------
@@ -134,7 +134,7 @@ Touch Sensor
 
       REV-31-1425
 
-A touch sensor is a digital output device that detects the activation of a
+A :term:`touch sensor <Touch Sensor>` is a digital output device that detects the activation of a
 button. This can be used as a limit switch, a way to limit the range of motion
 of a mechanism. Such a device would typically use the digital port.
 
@@ -211,7 +211,7 @@ IMU
       BNO055
 
 
-An Inertial Measurement Unit (IMU) is a sensor that is a combination of a
+An Inertial Measurement Unit (:term:`IMU`) is a sensor that is a combination of a
 Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
 the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
 of an object in 3 dimensions. An Accelerometer is a device that reports the
@@ -261,11 +261,11 @@ Potentiometer
 
       50k Ohm Potentiometer
 
-A Potentiometer is a device that changes the output voltage based upon the
+A :term:`Potentiometer` is a device that changes the output voltage based upon the
 degree to which the adjuster is turned. It is often used as a form of
 measuring the absolute orientation of an axle. The manner in which the output
 voltage changes is based on the Potentiometer that is used.
-Such a device is typically attached via the analog port of the REV Hub.
+Such a device is typically attached via the analog port of the REV :term:`Hub`.
 
 
 Sensor Compatibility Chart

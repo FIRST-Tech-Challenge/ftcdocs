@@ -6,13 +6,13 @@
 Updating Components of the Control System
 =========================================
 
-Components of the *FIRST* Tech Challenge Control System will
-periodically receive updates.  
+Components of the *FIRST* Tech Challenge :term:`Control System` will
+periodically receive updates.
 It is recommended teams update each component of the Control System
-to the latest released version of firmware, operating system and applications.
+to the latest released version of :term:`firmware <Firmware>`, operating system and applications.
 
-The Robot Controller App and the Driver Station App have an update schedule based on the game season.
-The season Kickoff SDK Release each year will include new game specific assets such as 
+The :term:`Robot Controller App` and the :term:`Driver Station App` have an update schedule based on the game season.
+The season Kickoff :term:`SDK` Release each year will include new game specific assets such as
 :doc:`AprilTags </apriltag/vision_portal/apriltag_intro/apriltag-intro>`. 
 
 .. note::
@@ -30,22 +30,22 @@ A **Driver Station** should be using the most recent Driver Station App.
 Regardless of the App versions selected, it is highly recommended that the installed
 Robot Controller App and Driver Station App versions match major and minor values
 to ensure compatibility as not all software versions are compatible with each other.
-e.g. if the Robot Controller App is version 11.1, the the Driver Hub should be
+e.g. if the Robot Controller App is version 11.1, the the :term:`Driver Hub` should be
 using Driver Station App 11.1.
 
 Teams may choose to run older versions of software without affecting their
-robot inspection status at an event. This is not recommended, but allowed.
+robot :term:`inspection <Inspection>` status at an event. This is not recommended, but allowed.
 
-Teams may also use Android phones as their Robot Controller or Driver Station.
-Please see the Competition Manual for permitted devices and the procedure for requesting exceptions.
+Teams may also use Android phones as their :term:`Robot Controller` or :term:`Driver Station`.
+Please see the :term:`Competition Manual` for permitted devices and the procedure for requesting exceptions.
 
 .. caution::
    Due to unpredictable variations in Android software across different
-   manufacturers and updates, the REV Control Hub is the only officially supported
+   manufacturers and updates, the REV :term:`Control Hub` is the only officially supported
    Robot Controller.
-   
-   The REV Driver Hub is the only officially supported Driver Station device. 
-   Not all phones have hardware driver support for the gamepads that are used in a driver station.
+
+   The REV Driver Hub is the only officially supported Driver Station device.
+   Not all phones have hardware driver support for the :term:`gamepads <Gamepad>` that are used in a driver station.
    
    Teams choosing to use an Android phone are responsible for testing and verifying its
    compatibility, functionality, and performance.
@@ -57,7 +57,7 @@ Update Instructions
    It is recommended to use the 
    `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
    to update devices if a Windows computer is available. 
-   The REV Hardware Client is able to update all control system device software.
+   The :term:`REV Hardware Client` is able to update all control system device software.
    
 
 Alternate methods can be used to update devices, see the detailed 
@@ -94,7 +94,7 @@ Then use the alternate update methods mentioned in the instructions in the above
    * - REV Driver Hub
      - `Driver Hub OS <https://software-metadata.revrobotics.com/releasenotes/driverhubos/#driver-hub-os-release-notes>`__
        and `Driver Station App <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__
-   * - REV Expansion Hub
+   * - REV :term:`Expansion Hub`
      - `Hub Firmware <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__
    * - REV Servo Hub
      - `REV Servo Hub Firmware <https://docs.revrobotics.com/rev-crossover-products/servo/servo-hub/servo-hub-firmware-changelog>`__

@@ -1,12 +1,12 @@
 3D Printing Terminology
 =======================
 
-3D Printing terminology can often feel overwhelming and complex, to simplify here's a list of some terms to know!
+:term:`3D Printing` terminology can often feel overwhelming and complex, to simplify here's a list of some terms to know!
 
 General 3D Printing Terms
 -------------------------
 
-* **Additive Manufacturing**: The method of creating a part by building material layer by layer from a CAD model (more commonly known as 3D Printing)
+* **Additive Manufacturing**: The method of creating a part by building material layer by layer from a :term:`CAD` model (more commonly known as 3D Printing)
 
 * **Fused Deposition Modeling (FDM)**: The most common type of 3D Printing where objects are produced by laying plastics layer by layer on a bed utilizing a heated nozzle.
 

@@ -1,8 +1,8 @@
 Connecting 12V Power to the Hub
 ================================
 
-The Hub draws power from a 12V rechargeable battery. For safety reasons,
-the battery has a 20A fuse built in. A mechanical switch is used to turn
+The :term:`Hub` draws power from a 12V rechargeable :term:`battery <Battery>`. For safety reasons,
+the battery has a 20A :term:`fuse <Fuse>` built in. A mechanical switch is used to turn
 on/turn off the power.
 
 Note that it will take an estimated 5 minutes to complete this task.

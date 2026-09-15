@@ -1,10 +1,10 @@
 Webcam States
 -------------
 
-Camera controls cannot be used until the webcam has reached the state
+Camera controls cannot be used until the :term:`webcam <Webcam>` has reached the state
 ``CAMERA_DEVICE_READY``.
 
-The VisionPortal reports these camera states:
+The :term:`VisionPortal` reports these camera states:
 
 - OPENING_CAMERA_DEVICE
 - CAMERA_DEVICE_READY
@@ -30,7 +30,7 @@ Notes and Guidelines for Enums
 
 - ``STARTING_STREAM`` - no processing is happening
 
-- ``STREAMING`` - Frames are available for processing (AprilTag detections
+- ``STREAMING`` - Frames are available for processing (:term:`AprilTag` detections
   and/or Color Processing results) and preview (RC preview and DS Camera Stream)
 
 - ``STOPPING_STREAM`` - processing may or may not be happening. This
@@ -39,4 +39,4 @@ Notes and Guidelines for Enums
 - ``CLOSING_CAMERA_DEVICE`` - no processing is happening
 
 - ``CAMERA_DEVICE_CLOSED`` - nothing is running, USB comms are closed.
-  Once closed, don't open camera again during this OpMode.
+  Once closed, don't open camera again during this :term:`OpMode`.

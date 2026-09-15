@@ -1,11 +1,11 @@
 Changing PID Coefficients
 ==========================
 
-The REV Robotics Control Hub and REV Robotics Expansion Hub allow a user to change the PID
+The REV Robotics :term:`Control Hub` and REV Robotics :term:`Expansion Hub` allow a user to change the PID
 coefficients used for closed loop motor control. The PID coefficients
 are channel and mode specific.
 
-The following op mode uses an extended or enhanced DcMotor class (called
+The following :term:`op mode <Op Mode>` uses an extended or enhanced DcMotor class (called
 “DcMotorEx”) to change the PID coefficients for the RUN_USING_ENCODER
 mode for a motor named “left_drive”. The op mode uses the
 setPIDCoefficients method of the DcMotorEx class to change the values.

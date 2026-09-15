@@ -11,7 +11,7 @@ You can also submit a pull request to the original repository to propose changes
 Steps
 -----
 
-1. Go to the repository you want to fork. In this case, it is the FTC Docs `repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_.
+1. Go to the repository you want to fork. In this case, it is the :term:`FTC Docs` `repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_.
 
 .. figure:: images/ftcdocs-gh.png
    :alt: FTC Docs Repository

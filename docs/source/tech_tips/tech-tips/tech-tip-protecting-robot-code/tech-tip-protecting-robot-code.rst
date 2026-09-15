@@ -14,8 +14,8 @@ Protect Your Robot with a Password
 ----------------------------------
 
 This is a gentle reminder that strong passwords and regular backups make for
-good competition. Even when competing at a Scrimmage before your competition
-season starts, be sure to change your Wi-Fi password on your Control Hub from
+good competition. Even when competing at a :term:`Scrimmage` before your competition
+season starts, be sure to change your Wi-Fi password on your :term:`Control Hub` from
 the default password of "password" to something only your team knows. Anyone
 who knows your password can easily gain access to your robot and change or
 delete your programs, change important settings, or even force your controller
@@ -23,7 +23,7 @@ to revert to factory settings! And with that said, it's ALWAYS a good idea to
 keep backups of your programs - it's especially important to regularly
 :ref:`download all Blocks
 <programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes:downloading an opmode>`
-and OnBot Java programs that are normally only stored on the robot in case
+and :term:`OnBot Java` programs that are normally only stored on the robot in case
 anything happens!
 
 .. _onbotjavabackups:

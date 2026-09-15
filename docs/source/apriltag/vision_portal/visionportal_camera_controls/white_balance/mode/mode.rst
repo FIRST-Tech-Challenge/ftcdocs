@@ -5,11 +5,11 @@ White Balance Control Mode
 
 This interface supports 3 values of WhiteBalanceControl.Mode:
 
--  AUTO
+-  :term:`AUTO`
 -  MANUAL
 -  UNKNOWN
 
-To directly control the color balance temperature, set the webcam to
+To directly control the color balance temperature, set the :term:`webcam <Webcam>` to
 Manual mode. Mode is managed with these WhiteBalanceControl methods:
 
 -  setMode(WhiteBalanceControl.Mode.MODE)
