@@ -17,19 +17,23 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
+      - name: Install LaTeX toolchain
+        run: |
+          sudo apt-get update
+          xargs -a dependencies sudo apt-get install -y
 
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: Build Booklets
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
-        run: nix develop -c make -C docs/ booklets
+        run: make -C docs booklets
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2

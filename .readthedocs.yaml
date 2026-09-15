@@ -22,7 +22,9 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.11"
-    
+
+# Install from pyproject.toml/uv.lock
 python:
   install:
-    - requirements: docs/requirements.txt
+    - method: uv
+      command: sync

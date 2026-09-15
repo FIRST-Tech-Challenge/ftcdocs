@@ -1,0 +1,6 @@
+texlive-xetex
+texlive-fonts-recommended
+texlive-latex-extra
+texlive-plain-generic
+latexmk
+fonts-roboto

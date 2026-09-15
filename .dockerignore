@@ -1,0 +1,7 @@
+.git/
+.venv/
+.direnv/
+docs/build/
+**/__pycache__/
+.DS_Store
+.idea/

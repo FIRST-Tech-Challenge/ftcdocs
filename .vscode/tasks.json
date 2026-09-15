@@ -3,14 +3,12 @@
         {
             "type": "shell",
             "label": "make-setup",
-            "command": "nix",
+            "command": "uv",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "develop",
-                "--command",
-                "true"
+                "sync"
             ],
             "group": {
                 "kind": "build",
@@ -18,16 +16,15 @@
             "problemMatcher": []
         },
         {
+            // The docs/Makefile targets already invoke Sphinx through `uv run`,
+            // so these need no environment activation of their own.
             "type": "shell",
             "label": "make-html",
-            "command": "nix",
+            "command": "make",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "develop",
-                "--command",
-                "make",
                 "-C",
                 "docs",
                 "html"
@@ -40,14 +37,11 @@
         {
             "type": "shell",
             "label": "make-latexpdf",
-            "command": "nix",
+            "command": "make",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "develop",
-                "--command",
-                "make",
                 "-C",
                 "docs",
                 "latexpdf"
@@ -60,14 +54,11 @@
         {
             "type": "shell",
             "label": "make-autobuild",
-            "command": "nix",
+            "command": "make",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "develop",
-                "--command",
-                "make",
                 "-C",
                 "docs",
                 "autobuild"
@@ -81,14 +72,11 @@
         {
             "type": "shell",
             "label": "make-clean",
-            "command": "nix",
+            "command": "make",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "develop",
-                "--command",
-                "make",
                 "-C",
                 "docs",
                 "clean"

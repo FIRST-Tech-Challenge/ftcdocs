@@ -4,17 +4,17 @@
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+SPHINXBUILD   ?= uv run sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
 
-SIZECHECKER   = python3 -m scripts.imagesizechecker
+SIZECHECKER   = uv run -m scripts.imagesizechecker
 CONFEXCLUDE   = --exclude-file source/conf.py
 SIZEMAX       = 500
 
-GLOSSARYCHECKER = python3 -m scripts.glossarychecker
+GLOSSARYCHECKER = uv run -m scripts.glossarychecker
 
-AUTOBUILD = sphinx-autobuild
+AUTOBUILD = uv run sphinx-autobuild
 HTMLBUILDDIR = build/html
 LATEXBUILDDIR = build/latex/
 BOOKLETSBUILDDIR = build/booklets
@@ -26,11 +26,17 @@ help:
 .PHONY: help Makefile
 
 setup:
-	@echo "Dependencies for local development are now managed by the Nix flake"
-	@echo "at the repository root. Run 'nix develop' from the repository root"
-	@echo "(or use direnv) to enter a shell with Python, Sphinx, and the LaTeX"
-	@echo "toolchain already installed."
-	@echo "(requirements.txt is kept only for the Read the Docs build.)"
+	@echo "Python dependencies are managed by uv, from pyproject.toml/uv.lock:"
+	@echo
+	@echo "  uv sync        # run from the repository root"
+	@echo
+	@echo "Every target here already invokes Sphinx through 'uv run', so no"
+	@echo "shell activation is needed. PDF targets (booklets, local-full,"
+	@echo "latexpdf) additionally need the LaTeX toolchain, which uv cannot"
+	@echo "install -- see the root 'dependencies' file, or use the dev"
+	@echo "container in .devcontainer/ which has it preinstalled."
+	@echo "The 'scripts' group (uv sync --group scripts) is only needed by"
+	@echo "convertWebp.py and convert_md_to_rst.py, not by any target here."
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350

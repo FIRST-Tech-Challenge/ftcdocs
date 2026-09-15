@@ -39,10 +39,10 @@ see in CI reflects real link rot.
    ```
    cd docs
    rm -rf build/linkcheck
-   <path-to-venv>/bin/python3.14 -m sphinx -b linkcheck source build/linkcheck -q
+   uv run sphinx-build -b linkcheck source build/linkcheck -q
    ```
-   (Use the repo's `.venv`/`nix develop` environment, not system Python — see the
-   repo's `AGENTS.md`/setup docs for which one applies.) This produces
+   (`uv run` resolves Sphinx from `pyproject.toml`/`uv.lock` — never use system
+   Python. `uv sync` first if the environment isn't set up yet.) This produces
    `build/linkcheck/output.json` (one JSON object per line) and `output.txt`.
 
 3. **Parse and categorize** rather than reading the scrollback:
@@ -101,8 +101,9 @@ see in CI reflects real link rot.
 7. **Re-run the full linkcheck** (step 2-3) until `broken` is 0. Then run a
    normal HTML build with warnings-as-errors to make sure nothing else regressed:
    ```
-   <venv>/bin/python3.14 -m sphinx -b html source /tmp/check -q -W
+   uv run sphinx-build -b html source /tmp/check -q -W
    ```
+   (`-W` matches CI, which builds with `-W --keep-going -n`.)
    For any `:ref:`/`:doc:` link you added or changed, spot-check the actual
    rendered HTML resolves to the right anchor/page rather than assuming:
    ```

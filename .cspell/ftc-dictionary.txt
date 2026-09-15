@@ -144,6 +144,7 @@ hypot
 ICYMI
 Javadocs
 JSTPH
+latexmk
 latexpdf
 longtable
 Mbps
@@ -159,6 +160,7 @@ powerbank
 preselection
 Premade
 println
+pyproject
 rearchitected
 replug
 replugged
@@ -168,6 +170,7 @@ sublist
 submethods
 subsubsection
 superinterface
+texlive
 titlesonly
 toctree
 todolist
@@ -178,6 +181,7 @@ unitization
 usba
 videography
 WCAG
+xetex
 
 bowden
 Bowden
