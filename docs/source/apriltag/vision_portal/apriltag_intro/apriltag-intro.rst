@@ -349,8 +349,13 @@ version is shown here:
         double poseAZ = rot.thirdAngle;
         }
 
+``rawPose`` is declared on ``AprilTagDetection`` itself, so the loop above
+needs no cast. It works for both single-tag and Cluster detections.
+
 These raw values are converted by the SDK to the default interface, as
-follows:
+follows. This is what the SDK does internally. You cannot write it in an
+OpMode, because ``ftcPose`` and its members are ``final`` and
+``AprilTagPoseFtc`` has no no-argument constructor.
 
 .. code:: java
 

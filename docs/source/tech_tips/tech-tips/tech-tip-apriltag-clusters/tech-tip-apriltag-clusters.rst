@@ -66,8 +66,8 @@ is visualized by a 3-color reticulum labeled in the center of the CELL's opening
 Detecting AprilTag Clusters
 ---------------------------
 
-In versions of the FTC SDK prior to v12.0, the ``AprilTagDetection``'s ``.getDetections()`` 
-method only returned a single type of AprilTag detection. In FTC SDK v12.0 and later, the ``.getDetections()`` method can now return two different kinds of AprilTag detections - 
+In versions of the FTC SDK prior to v12.0, the ``AprilTagProcessor``'s ``.getDetections()``
+method only returned a single type of AprilTag detection. In FTC SDK v12.0 and later, the ``.getDetections()`` method can now return two different kinds of AprilTag detections -
 Single Tag detections (of type ``AprilTagSingleDetection``) and Cluster Tag detections (of 
 type ``AprilTagClusterDetection``). Single Tag detections are the equivalent of the legacy
 detections where a single tag is found, meaning an AprilTag is detected and it is NOT
@@ -75,14 +75,14 @@ included in a defined season-specific cluster. Cluster Tag detections are return
 one or more AprilTags are detected that belong to a defined Cluster, and only one detection
 is returned per Cluster regardless of how many tags belonging to that Cluster were detected.
 Therefore, it is impossible to get a Single Tag detection for an AprilTag that belongs to 
-an AprilTag Cluster. BIOBUZZ has four defined AprilTag Clusters and no Single Tag Clusters.
+an AprilTag Cluster. BIOBUZZ has four defined AprilTag Clusters and no single tags.
 
 Code examples for detecting the two different types of AprilTags can be found by opening the
 ``ConceptAprilTag``, ``ConceptAprilTagEasy``, ``ConceptAprilTagLocalization``, 
 ``ConceptAprilTagOptimizeExposure``, or ``ConceptAprilTagSwitchableCameras`` examples.
 
-.. note:: *Fun Fact*: If an ``AprilTagClusterDetection`` object is returned by the 
-   ``AprilTagDetection``'s ``.getDetections()`` method, it is unnecessary to ensure that 
+.. note:: *Fun Fact*: If an ``AprilTagClusterDetection`` object is returned by the
+   ``AprilTagProcessor``'s ``.getDetections()`` method, it is unnecessary to ensure that
    object has MetaData before attempting to read the object's MetaData like you would be 
    required to with an ``AprilTagSingleDetection`` object. All ``AprilTagClusterDetection`` 
    objects are guaranteed to have MetaData, or else the SDK wouldn't know a given AprilTag 

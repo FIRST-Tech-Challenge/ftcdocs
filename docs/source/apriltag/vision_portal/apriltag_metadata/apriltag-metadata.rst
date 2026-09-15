@@ -14,6 +14,28 @@ Blocks/Java types):
 
 Two optional Metadata fields are described at the **Advanced Use** page.
 
+Cluster Metadata
+^^^^^^^^^^^^^^^^
+
+Starting with SDK 12.0, an AprilTag Cluster has its own Metadata, of Java type
+``AprilTagClusterMetadata``. This is a different type from the single-tag
+``AprilTagMetadata`` above, and it holds different fields:
+
+- cluster name (text/``String``)
+- short name (text/``String``)
+- unit for estimated position (``DistanceUnit``)
+- field position (``VectorF``, optional)
+- field orientation (``Quaternion``, optional)
+
+A Cluster has no ID code and no tag size of its own, because it is made up of
+several member tags. Each member has its own
+``AprilTagClusterMemberMetadata``, holding that member's ``id``, ``tagsize``,
+and position within the cluster. A Cluster is identified by name, not by ID
+code.
+
+See :ref:`AprilTag Clusters <apriltagclusters>` for how Clusters are detected
+and targeted.
+
 The full use of Metadata Blocks and Java methods is covered at the **Library**
 page.  For now it's enough to know the 4 basic elements of Metadata.
 
@@ -30,14 +52,18 @@ The SDK 8.2 Sample OpModes use AprilTags with these Metadata values:
 These four are available with the ``getSampleTagLibrary()`` Block or Java
 method.
 
-After Kickoff in September 2023, the CENTERSTAGE game tags will be available
-with ``getCenterStageTagLibrary()``.  That Library currently contains 3
-placeholder tags: MEOW (ID 0), WOOF (ID 1) and OINK (ID 2).
+Past and present game Libraries are available from ``AprilTagGameDatabase``:
 
-Before and after Kickoff, a call to ``getCurrentGameTagLibrary()`` will provide
-**both sets** of tags.
+- ``getCenterStageTagLibrary()``
+- ``getIntoTheDeepTagLibrary()``
+- ``getDecodeTagLibrary()``
+- ``getBioBuzzTagLibrary()``
 
-These three Libraries are discussed further at the **Library** page.
+A call to ``getCurrentGameTagLibrary()`` provides the current season's game
+tags and the Sample OpMode tags.
+
+From SDK 12.0 onward, a game Library may contain AprilTag Clusters as well as
+single tags. These Libraries are discussed further at the **Library** page.
 
 Tag Names
 ---------
@@ -61,24 +87,41 @@ A tag name, whether default or custom, can be retrieved as follows:
       Example of retrieving AprilTag Name
 
       .. code-block:: java
- 
-         AprilTagDetection myAprilTagDetection;
+
+         AprilTagSingleDetection myAprilTagDetection;
          String myAprilTagName;
          myAprilTagName = myAprilTagDetection.metadata.name;
+
+      A Cluster detection also has a ``.metadata.name``, reached through the
+      other subclass:
+
+      .. code-block:: java
+
+         AprilTagClusterDetection myAprilTagClusterDetection;
+         String myClusterName;
+         myClusterName = myAprilTagClusterDetection.metadata.name;
+
+      In both cases the declared type must be the subclass. The abstract parent
+      ``AprilTagDetection`` does not declare ``.metadata``, because the two
+      subclasses hold different Metadata types.
 
 As with tag ID code, the tag name is usually retrieved inside a ``for()`` loop,
 for immediate processing or stored for later use.  See the **Initialization**
 page for sample ``for()`` loop code.
 
-Unlike tag ID code, a detected AprilTag might have **no tag name** -- if it was
-not placed into the Library by default or with the custom Builder pattern.
+Unlike tag ID code, a detected single AprilTag might have **no tag name** -- if
+it was not placed into the Library by default or with the custom Builder
+pattern.
 
 To avoid logic errors, an OpMode can check the Metadata for a **null**
 condition before attempting to process a tag name.  This is illustrated in
-these Sample OpModes: 
+these Sample OpModes:
 
 - Blocks: ``ConceptAprilTag``
 - Java: ``ConceptAprilTag.java``
+
+A Cluster detection needs no such check. The SDK produces one only for a
+Cluster it already knows about, so the Metadata is always present.
 
 ====
 
