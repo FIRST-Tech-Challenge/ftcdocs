@@ -102,6 +102,11 @@ goals.
    Vision Multiportal <../vision_multiportal/vision-multiportal>
    AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
 
+.. seealso:: SDK 12.0 added AprilTag Clusters, groups of tags detected
+   together as one target, and split AprilTag detections into two types. The
+   change affects code on several of the pages above. See
+   :ref:`AprilTag Clusters <apriltagclusters>`.
+
 ====
 
 Much credit to 
