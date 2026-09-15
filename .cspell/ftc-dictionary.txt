@@ -6,6 +6,7 @@
 apriltag
 Apriltag
 apriltags
+BIOBUZZ
 CENTERSTAGE
 Coopertition
 Offseason
@@ -229,6 +230,11 @@ wireshark
 WLAN
 
 Uncategorized
+
+scorable
+unscorable
+prejava
+postjava
 
 # --- Miscellaneous example content (deliberately used in tutorials) ---
 boooring
