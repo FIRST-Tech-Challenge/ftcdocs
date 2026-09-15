@@ -35,7 +35,8 @@ setup:
 	@echo "latexpdf) additionally need the LaTeX toolchain, which uv cannot"
 	@echo "install -- see the root 'dependencies' file, or use the dev"
 	@echo "container in .devcontainer/ which has it preinstalled."
-	@echo "(requirements.txt is kept only for the Read the Docs build.)"
+	@echo "The 'scripts' group (uv sync --group scripts) is only needed by"
+	@echo "convertWebp.py and convert_md_to_rst.py, not by any target here."
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350

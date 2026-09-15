@@ -21,18 +21,14 @@ programmatically, but write the RST by hand section by section.
 
 1. **Locate and install tooling.** Find the `.docx` (usually dropped at the repo
    root or a path the user names). Make sure `python-docx` is available.
-   Check for Nix first (`command -v nix`) — if present, prefer an ephemeral
-   `nix-shell -p python3Packages.python-docx --run '<command>'` (or
-   `nix-shell -p python3Packages.python-docx` for an interactive shell) to try
-   the package out without installing anything permanently into the system or
-   the repo's `.venv`. This repo may also gain a `flake.nix` devShell — if one
-   exists at the repo root, `nix develop` is the more correct entry point than
-   ad hoc `nix-shell -p`, since it's the pinned, reproducible environment the
-   repo itself declares.
-   Fall back to `pip install python-docx` (using the repo's `.venv` if one
-   exists — `source .venv/bin/activate` before any `pip`/`make` command, check
-   for `<repo>/.venv` first, it's the project's own environment, not the
-   system Python) only when Nix isn't available.
+   This repo's Python environment is managed by uv, so prefer
+   `uv run --with python-docx python <script>`: `--with` resolves the package
+   into a throwaway overlay on the project environment, so nothing permanent is
+   added to `pyproject.toml`, `uv.lock`, or `.venv`. Use
+   `uv run --with python-docx python -` with a heredoc for one-off inspection.
+   Only add it to `pyproject.toml` if the conversion tooling becomes permanent —
+   and then to a dependency group (see `[dependency-groups]`), never to the main
+   dependencies, which are the docs build itself.
 
 2. **Read the docx structure**, don't just get plain text — paragraph *styles* carry
    the heading hierarchy and callout types you need to map to RST:
@@ -143,20 +139,19 @@ programmatically, but write the RST by hand section by section.
 
 9. **Build and verify** — don't just trust that the RST parsed:
    ```
-   nix develop -c make -C docs html   # if the repo has a flake.nix
-   # otherwise:
-   source .venv/bin/activate          # if the repo has one
+   uv sync              # once, if the environment isn't set up yet
    make -C docs html
    ```
-   If the build fails on a missing Python or system package (e.g. a Sphinx
-   extension, or a LaTeX package if you also touch a booklet/`latexpdf`
-   build) and Nix is available, use a throwaway `nix-shell -p <pkg>` to check
-   whether that specific package resolves the error before reaching for a
-   permanent `pip install` or system package manager — it's a cheap way to
-   confirm the root cause without changing anything persistent, and if it
-   works, that's a signal the *repo's* declared dependencies (flake, apt
-   `dependencies` file, or `requirements.txt` — whichever this repo is using)
-   need that package added, not just your local environment.
+   The `docs/Makefile` targets invoke Sphinx through `uv run` themselves, so no
+   shell activation is needed and there is no environment to enter first.
+   If the build fails on a missing Python package, use
+   `uv run --with <pkg> ...` to check whether that specific package resolves
+   the error before changing anything persistent. If it does, the fix belongs
+   in the *repo's* declared dependencies — `pyproject.toml` (then re-run
+   `uv lock`) for Python packages, or the root `dependencies` file for apt/LaTeX
+   packages — not just in your local environment. PDF/`latexpdf` builds need
+   that LaTeX toolchain; if it's missing locally, build inside the dev container
+   in `.devcontainer/` rather than installing TeX Live ad hoc.
    Check the tail *and* grep the full output for warnings/errors scoped to
    the new files' paths (warnings can appear mid-log, not just at the end).
    Then sanity-check the rendered HTML directly: figure/image counts match

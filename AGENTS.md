@@ -17,7 +17,6 @@ writing/accessibility style guide (all enforced in CI, see below).
 ```
 docs/
   Makefile                # all build entry points (see Build commands)
-  requirements.txt        # Python deps, including several FIRST-Tech-Challenge/ftcdocs-helper packages
   scripts/                # standalone maintenance scripts, not part of the Sphinx build itself
     imagesizechecker.py   #   run via `make imagecheck`
     convert_md_to_rst.py  #   one-off Markdown -> RST converter (pandoc wrapper)
@@ -87,13 +86,18 @@ uv sync             # from the repository root
 uv run make -C docs html
 ```
 
-Python dependencies come from `pyproject.toml` + `uv.lock`; `docs/requirements.txt` exists only
-because Read the Docs installs with pip and cannot read a uv lockfile. Requires Python 3.11 (matches
-CI and `.readthedocs.yaml`), which uv provisions itself. PDF/booklet builds additionally need a
-LaTeX toolchain (xetex, latexmk, fonts) — see the root `dependencies` file (apt package list, shared
-by CI and `.devcontainer/Dockerfile`) for the exact set. GitHub Codespaces / the devcontainer already has
-everything installed; local PDF builds are only fully supported on Linux (per
+Python dependencies come from `pyproject.toml` + `uv.lock` everywhere — locally, in CI, and on Read
+the Docs (`.readthedocs.yaml` installs with `method: uv`). There is no requirements.txt; run
+`uv export --format requirements-txt` if some tool ever needs one. Requires Python 3.11, which uv
+provisions itself. PDF/booklet builds additionally need a LaTeX toolchain (xetex, latexmk, fonts) —
+see the root `dependencies` file (apt package list, shared by CI and `.devcontainer/Dockerfile`) for
+the exact set. GitHub Codespaces / the devcontainer already has everything installed; local PDF
+builds on Windows need WSL2 or the devcontainer (per
 `docs/source/contrib/tutorials/setup/setup.rst`).
+
+The `scripts` dependency group (`uv sync --group scripts`) is only for `convertWebp.py` and
+`convert_md_to_rst.py`, which need Pillow and tqdm. The make-driven checkers
+(`imagesizechecker.py`, `glossarychecker.py`) are stdlib-only and need no group.
 
 ## Build & preview commands
 
