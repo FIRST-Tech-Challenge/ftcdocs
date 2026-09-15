@@ -15,7 +15,7 @@ known to work with the FTC Driver Station app:
 - Quadstick game controller in Xbox 360 Emulation Mode
 
 Starting with FTC SDK version 12.0, the gamepad indicators on the top right of
-the Driver tation App will be orange if the assigned gamepad is not recognized
+the Driver Station App will be orange if the assigned gamepad is not recognized
 and thus is using a built-in Android gamepad driver instead of a known FTC SDK
 gamepad driver. In this case, the built-in Android driver might work, but it's
 possible the device input (button/stick) mappings might be incorrect. Teams are
