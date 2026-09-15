@@ -21,7 +21,7 @@ jobs:
         run: uv sync --locked
 
       - name: link-check
-        run: make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
+        run: make -C docs linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Arhive Log
         if: ${{ failure() }}
