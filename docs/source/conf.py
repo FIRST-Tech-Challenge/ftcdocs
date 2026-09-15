@@ -298,15 +298,6 @@ linkcheck_request_headers = {
         "Accept-Encoding": "gzip,deflate",
         "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
     },
-    "https://www.hp.com/": {
-        "Origin": "https://www.hp.com",
-        "Referer": "https://www.hp.com/",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
-        "Accept-Language": "en-us,en;q=0.5",
-        "Accept-Encoding": "gzip,deflate",
-        "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
-    },
     "*": {
         "Accept": "text/html,application/xhtml+xml",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
@@ -354,6 +345,25 @@ linkcheck_allowed_redirects = {
 # Accept, Accept-Language, Referer, Accept-Encoding) are sufficient to get a
 # 200 from a non-CI IP, so this isn't a missing-header problem -- it's the
 # same CI-IP-reputation blocking as the entries above.
+# www.digikey.com (confirmed 9/2026) 403s a single, isolated request even with
+# the full browser User-Agent/Accept/Accept-Language headers set above -- this
+# is the same e-commerce WAF pattern as AndyMark/Pitsco/RCMart above, not a
+# real outage or a missing header.
+# www.ptc.com (confirmed 9/2026) aborts the TLS connection outright
+# (RemoteDisconnected) for Sphinx's linkcheck client on some pages, while the
+# identical URL loads fine via curl/a real browser -- a TLS-fingerprint-based
+# bot block that no request header can work around.
+# medium.com (confirmed 9/2026) intermittently 403s linkcheck's requests to
+# article pages while the same URL loads fine via curl/a real browser --
+# Medium's well-known bot/scraper detection, not a real outage.
+# www.hp.com (confirmed 9/2026) hangs for 20-45+ seconds and then drops the
+# connection outright for both product pages linked in the docs, even with
+# the dedicated Origin/Referer/User-Agent headers previously set for this
+# domain in linkcheck_request_headers above -- same IP-reputation-blocking
+# signature as otterbox.com above, just manifesting as a connection reset
+# instead of a 429. Since the per-domain headers no longer help, they've
+# been removed from linkcheck_request_headers; www.dell.com's equivalent
+# example links are already ignored below for the same reason.
 
 linkcheck_ignore = [
    r'https://my.firstinspires.org/Dashboard/',
@@ -382,6 +392,10 @@ linkcheck_ignore = [
    r'http://192.168.49.1',
    r'https://javadoc.io/doc/org.firstinspires.ftc/',
    r"https://www\.gnu\.org(?:/.*)?",
+   r'https://www\.digikey\.com/',
+   r'https://www\.ptc\.com/',
+   r'https://medium\.com/',
+   r'https://www\.hp\.com/',
 ]
 
 latex_documents = [

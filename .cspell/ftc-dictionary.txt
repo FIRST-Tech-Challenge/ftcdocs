@@ -6,6 +6,7 @@
 apriltag
 Apriltag
 apriltags
+BIOBUZZ
 CENTERSTAGE
 Coopertition
 Offseason
@@ -16,6 +17,7 @@ ORTOP
 POWERPLAY
 Pushbot
 quickstarts
+tagsize
 tele
 Tele
 teleop
@@ -237,6 +239,11 @@ wireshark
 WLAN
 
 Uncategorized
+
+scorable
+unscorable
+prejava
+postjava
 
 # --- Miscellaneous example content (deliberately used in tutorials) ---
 boooring

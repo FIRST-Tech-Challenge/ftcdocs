@@ -123,10 +123,10 @@ files."
    Make sure your phone is in Media device mode.
 
 If the phone is in Media device mode, you can launch Windows File Explorer to browse its
-contents. The phone should appear as a media device (e.g., "Moto E (4)") connected to your PC:
+contents. The phone should appear as a media device connected to your PC:
 
 .. figure:: images/phone-in-explorer.png
-   :alt: Windows File Explorer showing the phone listed as a media device named N9130 under This PC.
+   :alt: Windows File Explorer showing the phone listed as a media device under This PC.
 
    The phone should appear as a media device connected to your PC.
 

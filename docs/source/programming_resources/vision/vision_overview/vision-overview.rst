@@ -58,8 +58,10 @@ AprilTag Advantages
 AprilTag Disadvantages
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  The entire AprilTag must be in the camera view in order to be 
-   recognized, any occlusions render the object unprocessable.
+-  The entire AprilTag must be in the camera view in order to be
+   recognized, any occlusions render the object unprocessable. An AprilTag
+   Cluster reduces this problem. Only one member tag of the Cluster needs to
+   be fully visible for the whole Cluster to be detected.
 -  AprilTags must be included in the tag library in order to 
    process pose information for the tag (tag size and value must
    be known to the AprilTag system in advance).

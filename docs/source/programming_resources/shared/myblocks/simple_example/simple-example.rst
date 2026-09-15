@@ -121,7 +121,7 @@ is ready to use.
 Simple Example: run myGreeting
 ==============================
 
-In the browser still connected to the RC phone or Control Hub, - click
+In the browser still connected to the Control Hub or RC phone, - click
 the **Blocks** tab - click **Create New OpMode**, name it
 **Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** -
 click **OK**

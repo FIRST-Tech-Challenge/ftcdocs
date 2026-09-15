@@ -133,7 +133,7 @@ connected to the Robot Controller.
 
 It will display the devices that it found in a list underneath the words "USB Devices in configuration." You should see an entry that says something like "Expansion Hub Portal 1" in the list.
 
-Your Expansion Hub is listed as a Portal because it is directly connected to the Robot Controller phone through the USB cable or in the case of the Control Hub through the internal serial bus.
+Your Expansion Hub is listed as a Portal because it is directly connected to the Robot Controller — through the internal serial bus in the case of a Control Hub, or through the USB cable in the case of a Robot Controller phone.
 
 If you do not see your Expansion Hub Portal listed and you are using a smartphone as a Robot Controller, check the wired connections to make sure they are secure and then press the Scan button one or two times more to see if the smartphone detects the device on a re-scan of the USB bus.
 

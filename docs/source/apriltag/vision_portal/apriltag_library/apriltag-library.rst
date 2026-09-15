@@ -8,6 +8,11 @@ custom tags.
 These tags form an **AprilTag Library**. Each Library tag has a set of 4
 to 6 properties, described at the **Metadata** page.
 
+Starting with SDK 12.0, a Library holds two separate collections: single tags
+and AprilTag Clusters, which are groups of tags detected together as one
+target. The difference matters when you build a custom Library. See
+**Libraries and Clusters** below.
+
 This page shows many ways to create an AprilTag Library. The
 **Initialization** page explained this is the optional **Step 1** of
 preparing to use AprilTags in an OpMode.
@@ -210,8 +215,10 @@ an easy introduction.
       :sync: blocks
 
       -  Create a Library Builder, not the same as a Processor Builder.
-      -  Then use the ``addTags`` Block – note the plural “tags”, not
-         “tag”.
+      -  Then use the ``addLibrary`` Block. It brings in both the single tags
+         and the AprilTag Clusters of the season Library. Do not use the
+         ``addTags`` Block here. It brings in the single tags only and skips
+         every Cluster.
       -  Finalize the process with the ``.build`` command.
 
       The built Library is assigned or saved to your Variable, here called
@@ -254,9 +261,11 @@ an easy introduction.
          // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
+         // Add all the tags and all the clusters from the given AprilTagLibrary
+         // to the AprilTagLibrary.Builder. Use addLibrary(), not addTags().
+         // addTags() copies the single tags only and drops the clusters.
          // Get the AprilTagLibrary for the current season.
-         myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
+         myAprilTagLibraryBuilder.addLibrary(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
          // Build the AprilTag library and assign it to a variable.
          myAprilTagLibrary = myAprilTagLibraryBuilder.build();
@@ -309,9 +318,11 @@ tag, as follows.
          // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
+         // Add all the tags and all the clusters from the given AprilTagLibrary
+         // to the AprilTagLibrary.Builder. Use addLibrary(), not addTags().
+         // addTags() copies the single tags only and drops the clusters.
          // Get the AprilTagLibrary for the current season.
-         myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
+         myAprilTagLibraryBuilder.addLibrary(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
          // Add a tag, without pose information, to the AprilTagLibrary.Builder.
          myAprilTagLibraryBuilder.addTag(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
@@ -370,9 +381,11 @@ Variable to create a new AprilTag.
          // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
+         // Add all the tags and all the clusters from the given AprilTagLibrary
+         // to the AprilTagLibrary.Builder. Use addLibrary(), not addTags().
+         // addTags() copies the single tags only and drops the clusters.
          // Get the AprilTagLibrary for the current season.
-         myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
+         myAprilTagLibraryBuilder.addLibrary(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
          // Create a new AprilTagMetadata object and assign it to a variable.
          myAprilTagMetadata = new AprilTagMetadata(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
@@ -394,6 +407,56 @@ Variable to create a new AprilTag.
 
 For Blocks or Java, multiple tags could be added with multiple
 (shorter!) Variable names, such as ``myTag1``, ``myTag2``, etc.
+
+Libraries and Clusters
+~~~~~~~~~~~~~~~~~~~~~~
+
+Starting with SDK 12.0, an ``AprilTagLibrary`` stores single tags and AprilTag
+Clusters in two separate collections. Most Library methods act on one
+collection or the other. Pick the wrong one and the Library still builds, the
+OpMode still runs, and nothing is detected.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
+
+   * - Method
+     - Acts on
+   * - ``addTag()``, ``addTags()``
+     - single tags only
+   * - ``addCluster()``, ``addClusters()``
+     - clusters only
+   * - ``addLibrary()``
+     - both
+   * - ``getAllTags()``
+     - single tags only
+   * - ``getAllClusters()``
+     - clusters only
+
+When copying a season Library into your own Library Builder, use
+``addLibrary()``. The examples above do this. ``addTags()`` leaves every
+Cluster behind, and your OpMode then never receives an
+``AprilTagClusterDetection``.
+
+Lookups have the same split. ``lookupTag(id)`` searches the single tags only,
+and returns ``null`` for a tag that belongs to a Cluster. To find the Cluster
+a tag ID belongs to, call ``lookupCluster(id)``.
+
+.. code-block:: java
+
+   AprilTagLibrary myAprilTagLibrary;
+
+   // Returns null if tag 24 is a cluster member rather than a standalone tag.
+   AprilTagMetadata singleTag = myAprilTagLibrary.lookupTag(24);
+
+   // Returns the cluster that tag 24 belongs to, or null if it is not in one.
+   AprilTagClusterMetadata cluster = myAprilTagLibrary.lookupCluster(24);
+
+Cluster Metadata is a different type from single-tag Metadata, with different
+fields. See the **Metadata** page for both.
+
+For telling the two detection types apart, and for deciding which Cluster to
+target, see :ref:`AprilTag Clusters <apriltagclusters>`.
 
 Overwriting
 ~~~~~~~~~~~

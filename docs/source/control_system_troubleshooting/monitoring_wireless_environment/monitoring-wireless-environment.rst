@@ -49,7 +49,7 @@ connectivity for those pairs.
 5GHz Portion of the Spectrum
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-FTC-approved smartphones and the REV Robotics :term:`Control Hub` and :term:`Driver Hub`
+The REV Robotics :term:`Control Hub` and :term:`Driver Hub`, and most Android smartphones,
 support both the 2.4GHz and 5GHz bands. 5GHz channels do not overlap each
 other, and they offer greater bandwidth than 2.4GHz channels. They also have
 more limited range, which can be useful in a crowded competition venue with
@@ -61,8 +61,9 @@ lots of robots.
 
 For a deeper look at how to choose between the 2.4GHz and 5GHz bands based
 on your robot's design, see the
-`Wi-Fi Bands series <https://ftc-docs.firstinspires.org/en/latest/tech_tips/tech-tips.html>`__
-of Tech Tips.
+:ref:`Choosing a Wi-Fi Band for Your Robot
+<tech_tips/tech-tips/tech-tip-wifi-bands/tech-tip-wifi-bands:Choosing a Wi-Fi Band for Your Robot>`
+Tech Tip.
 
 Monitoring the Wireless Spectrum
 -----------------------------------

@@ -38,7 +38,7 @@ This new software includes two Color Processors, each compatible with the FTC
 These new processors can be used on the usual FTC cameras:
 
 * any UVC-compatible :term:`webcam <Webcam>`
-* the built-in camera of an FTC-supported Android phone (as :term:`Robot Controller`)
+* the built-in camera of an Android phone (as :term:`Robot Controller`)
 
 This does **not** include vision :term:`sensors <Sensor>` such as HuskyLens and LimeLight 3A,
 which do not use the FTC VisionPortal.

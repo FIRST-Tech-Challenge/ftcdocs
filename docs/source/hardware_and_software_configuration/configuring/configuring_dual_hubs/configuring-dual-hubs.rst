@@ -123,7 +123,12 @@ Using Two Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Teams without access to a Control Hub may use two Expansion Hubs on
-their robot.
+their robot, driven by an Android smartphone Robot Controller.
+
+.. important:: Smartphones are not officially supported. A smartphone is legal
+   to use in competition, but a team who uses one is responsible for all of
+   their own testing and troubleshooting. Only the REV Control Hub is
+   officially supported as a Robot Controller.
 
 Additional Equipment Needed
 ---------------------------
@@ -139,9 +144,7 @@ using a Control Hub on their robot.
    * - Required Item(s)
      - Image
 
-   * - A FIRST-approved Android smartphone with the FTC Robot Controller
-       app installed. For a list of FIRST-approved Android smartphones,
-       refer to the current Competition Manual.
+   * - An Android smartphone with the FTC Robot Controller app installed.
      - .. figure:: images/oneAndroidPhone.jpg
 
    * -  USB Type A male to type mini-B male cable.
