@@ -7,9 +7,13 @@ Setting Up Your Development Environment
    Only complete these steps if you have chosen to develop the site locally. 
    If you are using **GitHub Codespaces** you should skip this section.
 
-:term:`FTC Docs` uses a `Nix <https://nixos.org>`__ flake (``flake.nix`` at the root of the repository) to provide every
-dependency needed to build the site -- Python, Sphinx, and the LaTeX toolchain used for PDF booklets -- in one
-reproducible environment. You no longer need to install Python, Pip, or a LaTeX distribution yourself.
+:term:`FTC Docs` manages its Python dependencies with `uv <https://docs.astral.sh/uv/>`__, driven by
+``pyproject.toml`` and ``uv.lock`` at the root of the repository. uv installs Sphinx and every extension the site
+needs, and fetches the correct version of Python itself, so you do not need to install Python or Pip separately.
+
+Building the **PDF booklets** additionally requires a LaTeX toolchain, which uv cannot install. Most contributors
+never need this -- the site's HTML is what you edit and preview. If you do need PDF output, the simplest route is
+**GitHub Codespaces** or the dev container in ``.devcontainer/``, which come with the whole toolchain preinstalled.
 
 Remember, this step should **only be done for Local Development**. If you are using **GitHub Codespaces**
 you should skip this step. Also note that these steps should only be done **once**.
@@ -23,18 +27,28 @@ Steps
 .. tab-set::
    .. tab-item:: Windows
 
-      Nix (and the LaTeX/PDF build) requires Linux or macOS, so on Windows you'll need `WSL2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_.
+      1. Install `uv <https://docs.astral.sh/uv/getting-started/installation/>`__ by running this in PowerShell:
+         ``powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"``
+      2. Install Git from the `Git website <https://git-scm.com/downloads>`_.
+      3. Install the latest version of `VS Code <https://code.visualstudio.com/download>`_.
 
-      1. Install WSL2 and a Linux distribution (e.g. Ubuntu) by running ``wsl --install`` in an administrator PowerShell prompt.
-      2. Open a WSL terminal and install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
-      3. Install Git (usually already available in WSL, otherwise ``sudo apt install git``).
-      4. Install the latest version of `VS Code <https://code.visualstudio.com/download>`_, along with the `WSL extension <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>`_, and open your cloned repository from within WSL.
+      .. note::
+         This is enough to build and preview the HTML site. PDF booklet builds need a LaTeX distribution, which is
+         most easily obtained through **GitHub Codespaces**, the dev container, or
+         `WSL2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_ with
+         ``sudo apt install texlive-xetex latexmk fonts-roboto``.
 
    .. tab-item:: Linux/Mac
 
-      1. Install `Nix <https://nixos.org/download>`__: ``sh <(curl -L https://nixos.org/nix/install) --daemon``
+      1. Install `uv <https://docs.astral.sh/uv/getting-started/installation/>`__:
+         ``curl -LsSf https://astral.sh/uv/install.sh | sh``
       2. Install Git from the `Git website <https://git-scm.com/downloads>`_.
       3. Install the latest version of `VS Code  <https://code.visualstudio.com/download>`_.
+
+      .. note::
+         For PDF booklet builds, also install the LaTeX packages listed in the ``dependencies`` file at the root of
+         the repository. On Debian/Ubuntu that is ``xargs -a dependencies sudo apt-get install -y``. Alternatively,
+         use the devcontainer in `.devcontainer/devcontainer.json`.
 
 
 1. Open VS Code
@@ -83,7 +97,8 @@ Steps
    :alt: Task Menu
    :align: center
 
-7. On the new menu click on "make-setup". This task will only need to be run once per environment.
+7. On the new menu click on "make-setup". This runs ``uv sync``, which creates the project environment and
+   installs Sphinx and its extensions. This task will only need to be run once per environment.
 
 .. figure:: images/vscode-make-setup.png
    :alt: Make Setup

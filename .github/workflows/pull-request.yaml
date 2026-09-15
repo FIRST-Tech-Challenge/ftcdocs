@@ -1,29 +1,33 @@
 name: "Pull Request Docs Check"
 
-on: 
+on:
 - pull_request
 
-jobs:           
+jobs:
   build-pdf:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
+      - name: Install LaTeX toolchain
+        run: |
+          sudo apt-get update
+          xargs -a dependencies sudo apt-get install -y
 
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: Build PDF
         env:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
-        run: nix develop -c make -C docs/ latexpdf
-        
+        run: make -C docs/latexpdf
+
       - name: Archive PDF
         env:
           PR_NUMBER: ${{ github.event.number }}
@@ -33,7 +37,7 @@ jobs:
           name: FTCDOCS-PDF
           path: |
             docs/build/latex/*.pdf
-            FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }} 
+            FTCDOCS-PR-${{ env.PR_NUMBER }}-${{ env.ID }}
           if-no-files-found: error
 
   build-html:
@@ -42,43 +46,36 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: Build Site
         env:
           SPHINXOPTS: "-W --keep-going -n -D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
-        run: nix develop -c make -C docs/ html
-          
+        run: make -C docs/html
+
       - name: Archive Site
         uses: actions/upload-artifact@v4
         with:
           name: FTCDOCS-HTML
           path: 'docs/build/html'
           if-no-files-found: error
-          
+
   spelling-check:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Set up Magic Nix Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v14
-        with:
-          use-flakehub: false
-
+      # cspell is a Node tool and needs nothing installed -- the runner ships
+      # Node, and npx fetches the pinned major on demand.
       - name: Spell Check
-        run: nix develop -c cspell "docs/source/**/*.rst" --no-progress
+        run: npx cspell@8 "docs/source/**/*.rst" --no-progress
 
   glossary-check:
     runs-on: ubuntu-22.04
@@ -86,20 +83,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Set up Magic Nix Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v14
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          use-flakehub: false
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       # Advisory only -- this heuristic can't judge word sense (e.g. "match"
       # as a verb vs. the game term), so it always exits 0. It just prints a
       # checklist of candidate unlinked-first-mention terms to the log for a
       # human to verify against docs/source/contrib/style_guide/style-guide.rst.
       - name: Glossary Link Check (advisory)
-        run: nix develop -c make -C docs/ glossarycheck
+        run: make -C docs/glossarycheck
 
   link-check:
     runs-on: ubuntu-22.04
@@ -107,14 +104,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: Install additional dependencies
         run: |
@@ -130,24 +126,24 @@ jobs:
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100" > artifacts.json
-          
+
           DOWNLOAD_URL=$(jq -r '.artifacts[] | select(.name | startswith("LINKCHECK--")) | .archive_download_url' artifacts.json | head -n 1)
-          
+
           if [ -z "$DOWNLOAD_URL" ]; then
               echo "No previous LINKCHECK artifact found"
               exit 0
           fi
-          
+
           curl -L \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             -o linkcheck.zip "$DOWNLOAD_URL"
-          
+
           if [ $? -ne 0 ]; then
               echo "Failed to download the zip file"
               exit 0
           fi
-          
+
           if unzip -t linkcheck.zip >/dev/null 2>&1; then
               unzip -q linkcheck.zip -d linkcheck_contents
               echo "Successfully downloaded and unzipped previous LINKCHECK artifact"
@@ -160,7 +156,7 @@ jobs:
 
       - name: link-check
         run: |
-          nix develop -c make -C docs/ linkcheckdiff SPHINXOPTS="--keep-going"
+          make -C docs/linkcheckdiff SPHINXOPTS="--keep-going"
 
       - name: Archive Log
         if: always()
@@ -176,17 +172,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: image-check
-        run: nix develop -c make -C docs/ imagecheck
+        run: make -C docs/imagecheck
 
   check-redirect:
     runs-on: ubuntu-22.04
@@ -197,14 +192,13 @@ jobs:
       - name: Fetch origin/main
         run: git fetch origin main --depth=1
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v22
-
-      - name: Restore and cache Nix store
-        uses: nix-community/cache-nix-action@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          enable-cache: true
+
+      - name: Install Python dependencies
+        run: uv sync --locked
 
       - name: check-redirect
-        run: nix develop -c make -C docs/ rediraffecheckdiff
+        run: make -C docs/rediraffecheckdiff

@@ -83,13 +83,15 @@ docs/source/apriltag/vision_portal/apriltag_intro/
 ## Setup
 
 ```bash
-cd docs
-make setup          # pip install -r requirements.txt
+uv sync             # from the repository root
+uv run make -C docs html
 ```
 
-Requires Python 3.11 (matches CI and `.readthedocs.yaml`). PDF/booklet builds additionally need a
-LaTeX toolchain (xetex, latexmk, fonts) — see the root `dependencies` file (apt package list used by
-CI) or `.devcontainer/Dockerfile` for the exact set. GitHub Codespaces / the devcontainer already has
+Python dependencies come from `pyproject.toml` + `uv.lock`; `docs/requirements.txt` exists only
+because Read the Docs installs with pip and cannot read a uv lockfile. Requires Python 3.11 (matches
+CI and `.readthedocs.yaml`), which uv provisions itself. PDF/booklet builds additionally need a
+LaTeX toolchain (xetex, latexmk, fonts) — see the root `dependencies` file (apt package list, shared
+by CI and `.devcontainer/Dockerfile`) for the exact set. GitHub Codespaces / the devcontainer already has
 everything installed; local PDF builds are only fully supported on Linux (per
 `docs/source/contrib/tutorials/setup/setup.rst`).
 

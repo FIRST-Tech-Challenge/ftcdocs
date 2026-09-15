@@ -1,9 +1,10 @@
 {
-	"name": "Dockerfile",
+	"name": "FTC Docs",
 	"build": {
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
+	"postCreateCommand": "uv sync --locked",
 	"customizations": {
 		"vscode": {
 			"extensions": [

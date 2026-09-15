@@ -14,13 +14,18 @@ consult the [contributing section](https://ftc-docs.firstinspires.org/contrib/in
 
 # Building Locally
 
-This repository provides a [Nix](https://nixos.org) flake with everything needed to build the site
-(Python, Sphinx, and the LaTeX toolchain used for PDF booklets). With Nix installed, run:
+Python dependencies are managed with [uv](https://docs.astral.sh/uv/). With uv installed, run:
 
 ```
-nix develop
-make -C docs html
+uv sync
+uv run make -C docs html
 ```
+
+That covers the HTML site and the link/image/glossary checks. 
+
+Generating the PDF booklets requires an additional LaTeX toolchain, which uv cannot install. The
+`dependencies` file lists the exact package list needed for Debian/Ubuntu (`xargs -a dependencies sudo apt-get install -y`).
+On other platforms, the simplest route to a PDF build is the dev container in `.devcontainer/`, which has the whole toolchain preinstalled.
 
 See the [environment setup guide](https://ftc-docs.firstinspires.org/contrib/tutorials/setup/setup.html)
 for more detail.
