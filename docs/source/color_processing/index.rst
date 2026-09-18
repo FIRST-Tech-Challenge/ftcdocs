@@ -1,3 +1,5 @@
+.. _color_processing:
+
 Color Processing Introduction
 ===============================
 

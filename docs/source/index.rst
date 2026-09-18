@@ -72,13 +72,10 @@ and :doc:`gracious_professionalism/gp` to see why.
    :hidden:
 
    Computer Vision Overview </programming_resources/vision/vision_overview/vision-overview>
-   VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
-   VisionPortal Camera Controls </apriltag/vision_portal/visionportal_camera_controls/index>
-   Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
+   VisionPortal </apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   AprilTag </apriltag/vision_portal/apriltag_intro/apriltag-intro>
    Color Processing </color_processing/index>
-   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
-   Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
-   AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
+   HuskyLens </devices/huskylens/huskylens>
 
 .. toctree::
    :caption: CAD Resources

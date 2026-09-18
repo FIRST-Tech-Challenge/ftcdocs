@@ -57,8 +57,9 @@ one at a time:
          All AprilTag Detections being read in a FOR Loop
 
       This code snippet assumes ``myAprilTagProcessor`` and VisionPortal have been
-      initialized, as described at previous pages **Processor Initialization** and
-      **VisionPortal Initialization**.
+      initialized, as described at :doc:`Vision Processor Initialization
+      <../vision_processor_init/vision-processor-init>` and :doc:`VisionPortal
+      Initialization <../visionportal_init/visionportal-init>`.
 
    .. tab-item:: Java
       :sync: java
@@ -93,8 +94,9 @@ one at a time:
          }
 
       This code snippet assumes ``myAprilTagProcessor`` and VisionPortal have been
-      initialized, as described at previous pages **Processor Initialization** and
-      **VisionPortal Initialization**.
+      initialized, as described at :doc:`Vision Processor Initialization
+      <../vision_processor_init/vision-processor-init>` and :doc:`VisionPortal
+      Initialization <../visionportal_init/visionportal-init>`.
 
 The OpMode should take the desired action for each AprilTag **inside** the
 ``for() loop``, or store information for later action.  In the above example,
