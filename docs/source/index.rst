@@ -73,7 +73,7 @@ and :doc:`gracious_professionalism/gp` to see why.
 
    Computer Vision Overview </programming_resources/vision/vision_overview/vision-overview>
    VisionPortal </apriltag/vision_portal/visionportal_overview/visionportal-overview>
-   AprilTag </apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   AprilTag </apriltag/index>
    Color Processing </color_processing/index>
    HuskyLens </devices/huskylens/huskylens>
 

@@ -409,27 +409,18 @@ webcam Camera Controls, available also in FTC Blocks.
 
 **In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**
 
+Next Steps
+----------
+
 The AprilTag processor runs inside the :doc:`VisionPortal
 <../visionportal_overview/visionportal-overview>`, which covers camera
-selection, initialization, previews and camera controls. The pages below
-cover the AprilTag processor itself.
-
-.. toctree::
-   :maxdepth: 1
-
-   AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>
-   AprilTag Metadata <../apriltag_metadata/apriltag-metadata>
-   AprilTag Reference Frame <../apriltag_reference_frame/apriltag-reference-frame>
-   AprilTag Pose <../apriltag_pose/apriltag-pose>
-   Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
-   AprilTag Library <../apriltag_library/apriltag-library>
-   AprilTag Localization <../apriltag_localization/apriltag-localization>
-   AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
-   AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
+selection, initialization, previews and camera controls. The remaining
+:ref:`AprilTag pages <apriltag>` cover the AprilTag processor itself,
+starting with :doc:`AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>`.
 
 .. seealso:: SDK 12.0 added AprilTag Clusters, groups of tags detected
    together as one target, and split AprilTag detections into two types. The
-   change affects code on several of the pages above. See
+   change affects code on several of those pages. See
    :ref:`AprilTag Clusters <apriltagclusters>`.
 
 ====
