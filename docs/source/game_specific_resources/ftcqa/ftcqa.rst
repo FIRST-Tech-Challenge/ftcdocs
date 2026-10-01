@@ -19,27 +19,7 @@ separate Q&A account to create - logging in uses the same single sign-on as
 the team's `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_
 account, with no separate Q&A credentials issued.
 
-Only three team roles have authority to ask questions on behalf of a team:
-Lead Coach 1, Lead Coach 2, and the Team Administrator, as assigned on the
-team's `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_.
-
-Once logged in with one of those roles:
-
-#. Click "Team Q&A" under the current season's logo to open the current
-   season's Team Q&A board.
-#. Select the "My Questions" button. This button is only visible to accounts
-   with question-asking authority.
-#. Click "Draft New Question". This page also lists the team's answered
-   questions, unanswered questions, and any unsubmitted drafts.
-#. Fill in the team number (if the account is associated with more than one
-   team), a concise and unique title that is not phrased as a question, and
-   the question itself. Cite the specific rule numbers, defined terms,
-   :term:`Competition Manual` sections, or prior questions that are relevant,
-   using the reference key provided on the page for correct formatting.
-#. Click "Preview" to check formatting, then "Submit".
-
-.. important:: Submitted questions are final and cannot be edited or deleted.
-   Use "Save Draft" instead of "Submit" to save a question for further
-   editing or research before it is submitted; drafts can be edited or
-   deleted later from the Drafts list.
+For step-by-step instructions on asking a question - including who on the
+team is authorized to ask and how to properly cite rules - see the
+`Team Q&A Quick Start Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/game/q-a-help>`_.
 
