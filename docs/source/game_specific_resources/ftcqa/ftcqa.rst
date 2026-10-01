@@ -5,36 +5,42 @@
 FIRST Tech Challenge Game Q&A
 =============================
 
-The `Game Q&A <https://ftc-qa.firstinspires.org/>`_ is a forum/tool that
+The `Team Q&A <https://game-qa.firstinspires.org/>`_ is a forum/tool that
 provides teams an opportunity to receive clarifications from the Game Design
 Committee about the current season's challenge. Rulings on the Q&A are final
-and binding, and will be reflected in the :term:`Competition Manual`. 
+and binding, and will be reflected in the :term:`Competition Manual`.
 
 How to Ask Questions
 ~~~~~~~~~~~~~~~~~~~~
 
-Once the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ opens for the season
-(usually within 2-3 weeks of the challenge being announced) teams may ask
-questions using unique accounts provided to teams via their 
-`FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_ accounts. Teams
-must use these credentials to log into the system, and then may ask questions.
-Anyone may create a personal account and view or tag questions, but only
-accounts provided to teams may ask questions.
+Anyone may create a personal account on the
+`Team Q&A <https://game-qa.firstinspires.org/>`_ site and view questions
+without logging in, but logging in is required to ask a question. Log in with
+the same username and password used for the team's
+`FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_ account - no
+separate Q&A credentials are issued.
 
-Obtaining the team credentials for the question-asking team accounts can only
-be done by the Lead Coach 1 or 2 by selecting "Passwords/Voucher Codes" from
-the "Payment & Product" drop-down in the "Team Options" column of the team
-information in the `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_.  
-The Q&A website credentials for the team will be listed under the "Game Q&A
-Forum Accounts" section of the resulting webpage.
- 
-Game Q&A Summary
-~~~~~~~~~~~~~~~~
+Only three team roles have authority to ask questions on behalf of a team:
+Lead Coach 1, Lead Coach 2, and the Team Administrator, as assigned on the
+team's `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_.
 
-The Game Q&A tool periodically provides updates to their 
-"`one-page summary <https://ftc-qa.firstinspires.org/onepage.html>`_" of all
-answered questions. This one-page summary is not guaranteed to contain all
-questions and answers, and is also not guaranteed to be updated on a regular
-basis, but it is the best way to obtain a printable format of the questions and
-answers on the forum.
+Once logged in with one of those roles:
+
+#. Click "Team Q&A" under the current season's logo to open the current
+   season's Team Q&A board.
+#. Select the "My Questions" button. This button is only visible to accounts
+   with question-asking authority.
+#. Click "Draft New Question". This page also lists the team's answered
+   questions, unanswered questions, and any unsubmitted drafts.
+#. Fill in the team number (if the account is associated with more than one
+   team), a concise and unique title that is not phrased as a question, and
+   the question itself. Cite the specific rule numbers, defined terms,
+   :term:`Competition Manual` sections, or prior questions that are relevant,
+   using the reference key provided on the page for correct formatting.
+#. Click "Preview" to check formatting, then "Submit".
+
+.. important:: Submitted questions are final and cannot be edited or deleted.
+   Use "Save Draft" instead of "Submit" to save a question for further
+   editing or research before it is submitted; drafts can be edited or
+   deleted later from the Drafts list.
 

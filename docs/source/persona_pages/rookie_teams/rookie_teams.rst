@@ -204,7 +204,7 @@ resource you want to explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://ftc-qa.firstinspires.org/
+            .. button-link:: https://game-qa.firstinspires.org/
                :color: black
                :outline:
                :expand:

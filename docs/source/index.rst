@@ -347,7 +347,7 @@ The main menu contains links to the top level content. The following are quick l
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-link:: https://ftc-qa.firstinspires.org/
+            .. button-link:: https://game-qa.firstinspires.org/
                :color: black
                :outline:
                :expand:

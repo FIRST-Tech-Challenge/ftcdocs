@@ -9,7 +9,7 @@ Common Team FAQs
 If you're looking for quick answers regarding the many facets of being a team from registration to 
 competition to :term:`judging <Judging>`. Please refer to these official questions and answers to guide you through the season. 
 If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific 
-questions on the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ .
+questions on the `Game Q&A <https://game-qa.firstinspires.org/>`_ .
 
 Dashboard/Registration FAQs
 ----------------------------
