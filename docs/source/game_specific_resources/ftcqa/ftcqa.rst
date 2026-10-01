@@ -7,18 +7,17 @@ FIRST Tech Challenge Game Q&A
 
 The `Team Q&A <https://game-qa.firstinspires.org/>`_ is a forum/tool that
 provides teams an opportunity to receive clarifications from the Game Design
-Committee about the current season's challenge. Rulings on the Q&A are final
-and binding, and will be reflected in the :term:`Competition Manual`.
+Committee about the current season's challenge. Rulings on the Q&A will be
+reflected in the :term:`Competition Manual`.
 
 How to Ask Questions
 ~~~~~~~~~~~~~~~~~~~~
 
-Anyone may create a personal account on the
-`Team Q&A <https://game-qa.firstinspires.org/>`_ site and view questions
-without logging in, but logging in is required to ask a question. Log in with
-the same username and password used for the team's
-`FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_ account - no
-separate Q&A credentials are issued.
+Viewing questions on the `Team Q&A <https://game-qa.firstinspires.org/>`_
+site does not require logging in, but asking a question does. There is no
+separate Q&A account to create - logging in uses the same single sign-on as
+the team's `FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_
+account, with no separate Q&A credentials issued.
 
 Only three team roles have authority to ask questions on behalf of a team:
 Lead Coach 1, Lead Coach 2, and the Team Administrator, as assigned on the
