@@ -17,10 +17,8 @@ If you're looking to buy a laptop and want to make sure you meet the minimum
 requirements for the program you're participating in, like *FIRST* Tech
 Challenge, this section is for you! There is a
 :ref:`Computer Requirements <programming_resources/laptops/laptops:Computer Requirements for *FIRST* Programs>`
-document on ftc-docs that provides a cross-program view of the laptop
-requirements for all *FIRST* programs. It also has examples of the different
-laptops and a list of the required features needed for each program. Check
-it out!
+document on ftc-docs that points you to *FIRST*'s official, up-to-date
+computer requirements for all *FIRST* programs. Check it out!
 
 .. _3dprinting:
 
