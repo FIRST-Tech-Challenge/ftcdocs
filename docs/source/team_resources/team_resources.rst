@@ -8,7 +8,7 @@ Pages and Links
 ~~~~~~~~~~~~~~~
 
 | FTC Blog - https://community.firstinspires.org/topic/ftc
-| FTC Q&A - https://ftc-qa.firstinspires.org
+| FTC Q&A - https://game-qa.firstinspires.org
 | FTC Game and Season Info - https://ftc.game
 | FTC Events site - https://ftc-events.firstinspires.org
 | FTC Technical Support - https://ftc-community.firstinspires.org

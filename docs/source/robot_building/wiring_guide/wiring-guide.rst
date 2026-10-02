@@ -26,7 +26,7 @@ This guide shows the basics of properly wiring a robot, how to improve
 wiring reliability, and how to handle hardware issues associated with
 wiring.
 
-As always, the `FTC Q&A Forum <https://ftc-qa.firstinspires.org/>`__ and
+As always, the `FTC Q&A Forum <https://game-qa.firstinspires.org/>`__ and
 `Competition Manual <https://www.firstinspires.org/resource-library/ftc/game-and-season-info>`__
 rules take precedence over recommendations made here. Please refer to
 these sources before embarking on the electrical wiring task.

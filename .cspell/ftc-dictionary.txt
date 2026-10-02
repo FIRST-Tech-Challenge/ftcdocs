@@ -245,6 +245,7 @@ scorable
 unscorable
 prejava
 postjava
+unsubmitted
 
 # --- Miscellaneous example content (deliberately used in tutorials) ---
 boooring

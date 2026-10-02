@@ -13,8 +13,7 @@ is included in the blast with the rest of the content here.
 Servos on the Control and Expansion Hubs
 ----------------------------------------
 
-There was a fantastic `question on the FTC-QA
-<https://ftc-qa.firstinspires.org/qa/229>`__ that prompted an in-depth
+There was a fantastic question on the FTC Game Q&A that prompted an in-depth
 discussion about :term:`servos <Servo>` in *FIRST* Tech Challenge - the question was in regard
 to servo compatibility and operation/performance on a REV :term:`Control Hub`, REV
 :term:`Expansion Hub`, and REV Servo Power Module. While the full explanation was
