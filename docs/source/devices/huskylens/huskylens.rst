@@ -405,7 +405,7 @@ Competition Notes
 
 Now you are ready to experiment with color recognition of an actual Team
 Prop, also called a Team Game Element. Study the Competition Manual
-and the `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ for the Team
+and the `FTC Q&A <https://game-qa.firstinspires.org/>`__ for the Team
 Prop requirements. Choose your shades of “red” and “blue” (see note
 below), and follow the same steps as above.
 
