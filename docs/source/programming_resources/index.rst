@@ -78,6 +78,8 @@ covered in the **Vision Resources** section of the main menu. Start here:
    identification and field localization
 -  :doc:`Color Processing </color_processing/index>` -- detecting colors and
    color blobs with OpenCV
+-  :doc:`HuskyLens </devices/huskylens/huskylens>` -- an on-board vision
+   sensor that does its own processing
 
 Advanced Topics
 ~~~~~~~~~~~~~~~~
@@ -95,8 +97,7 @@ Advanced Topics for Programmers
    shared/external_libraries_blocks/external-libraries-blocks.rst
    imu/imu.rst
    shared/installing_kotlin/Installing-Kotlin
-   ../devices/huskylens/huskylens
-   
+
 Additional *FIRST* Website Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
