@@ -50,8 +50,9 @@ screen.
 
 On a Control Hub, the OpMode can run two webcams:
 
-- both plugged in directly to the Hub, or
-- both plugged into an unpowered USB Hub (with more restricted USB bandwidth)
+- both plugged into a powered USB Hub on the Control Hub's USB 3.0 port
+  (recommended, with more restricted USB bandwidth), or
+- both plugged in directly to the Control Hub, one per USB port
 
 On an RC phone, it can run the built-in phone camera along with a webcam.
 
@@ -86,26 +87,16 @@ The two webcams do *not* need to use the same format or resolution. For
 the testing mentioned above, the same format and resolution were applied
 to a Logitech C920 and a Logitech C270.
 
-Control Hub
-~~~~~~~~~~~
-
-For dual webcams **plugged directly into the Control Hub**, the USB 2.0
-and USB 3.0 ports are on different buses.
-
-This reduces the concern about USB bandwidth capacity, although higher
-resolution causes the auto-optimized frame rate to reduce (see test data
-below).
-
-Here the choice of stream format has little impact. But the USB 2.0 bus
-also carries the Control Hub’s **WiFi radio**; adding a webcam may
-affect its reliability.
-
 External USB Hub
 ~~~~~~~~~~~~~~~~
 
-On the other hand, both webcams on an **external USB Hub** (plugged into
-the CH 3.0 port) can exceed **USB bandwidth limits** (not quantified
-here).
+Plug both webcams into a **powered external USB Hub**, on the Control
+Hub's USB 3.0 port. This is the recommended arrangement. It keeps both
+webcams off the USB 2.0 bus, which also carries the Control Hub's **WiFi
+radio**, and the hub powers the webcams instead of the Control Hub.
+
+The tradeoff is bandwidth. Both webcams share the 3.0 bus and together
+can exceed **USB bandwidth limits** (not quantified here).
 
 Under the legacy **YUY2 format**, one webcam or the other may stop
 streaming above roughly 640x360 resolution. This is indicated by no
@@ -118,6 +109,20 @@ Hub.
 
 For both formats, higher resolution reduces frame rate. The **Managing
 CPU and Bandwidth** page discusses testing, tradeoffs and optimization.
+
+Control Hub Ports
+~~~~~~~~~~~~~~~~~
+
+For dual webcams **plugged directly into the Control Hub**, the USB 2.0
+and USB 3.0 ports are on different buses. This reduces the concern about
+USB bandwidth capacity, and the choice of stream format has little
+impact, although higher resolution causes the auto-optimized frame rate
+to reduce (see test data below).
+
+The cost is reliability. The webcam on the USB 2.0 port shares a bus
+with the Control Hub's WiFi radio, so :term:`ESD` or other interference
+at that webcam can drop the :term:`Driver Station` connection. See
+:ref:`USB Port Selection Best Practices <robot_building/best_practices/robot-best-practices:usb port selection best practices>`.
 
 Teams can evaluate these tradeoffs, assisted by the new reporting
 feature ``getFps()``, providing Frames Per Second (FPS). It’s available

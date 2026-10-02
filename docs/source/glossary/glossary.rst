@@ -485,7 +485,9 @@ in place.
    USB Hub
       A powered or unpowered splitter that provides extra USB ports. Needed when
       a :term:`Driver Station` phone must host two :term:`Gamepad` controllers
-      at once, in which case it connects through an :term:`OTG Adapter`.
+      at once, in which case it connects through an :term:`OTG Adapter`. To run
+      more than one :term:`Webcam`, use a powered USB hub on the
+      :term:`Control Hub`'s USB 3.0 port.
 
    VisionPortal
       The :term:`SDK` camera API. A VisionPortal opens a camera — a webcam or a
