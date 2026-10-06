@@ -1,3 +1,5 @@
+.. _apriltag_localization:
+
 AprilTag Localization
 =====================
 
@@ -126,7 +128,8 @@ physical size** (4 x 4 inches, in this example):
    Partial AprilTag Sheet
 
 **Touch INIT only.**  No :term:`telemetry <Telemetry>` will appear, but at this moment the DS
-**Camera Stream** preview can be accessed.  See the next section re.  previews.
+**Camera Stream** preview can be accessed.  See :doc:`VisionPortal Previews
+<../visionportal_previews/visionportal-previews>`.
 
 After using the preview to aim at the AprilTag, touch the DS Start arrow.   The
 OpMode should give Telemetry showing the **localization results**:

@@ -135,8 +135,8 @@ methods to be chained in a single Java statement ending with ``.build()``.
 Enabling and Disabling Processors
 ---------------------------------
 
-This note is repeated from the previous page 2, :doc:`Vision Processor Initialization
-<../vision_processor_init/vision-processor-init>`
+This note is repeated from the previous page, :doc:`Vision Processor Initialization
+<../vision_processor_init/vision-processor-init>` (Step 2).
 
 For a Processor created at Step 2, an OpMode does **not need** to enable that
 Processor at this Step 3, **VisionPortal Initialization**.

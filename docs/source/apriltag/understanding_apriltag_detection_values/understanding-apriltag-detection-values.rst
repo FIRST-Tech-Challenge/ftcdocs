@@ -1,3 +1,5 @@
+.. _apriltag_detection_values:
+
 Understanding AprilTag Detection Values
 =======================================
 

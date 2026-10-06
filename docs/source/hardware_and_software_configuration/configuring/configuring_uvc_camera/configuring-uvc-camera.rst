@@ -27,22 +27,18 @@ What type of External Camera can be Used?
 
 The system supports UVC cameras.
 Theoretically, if a camera is UVC compliant, then it should work with
-the system. However, there are a couple of recommended web cameras that
-have been tested with the *FIRST* Tech Challenge software and have been
-calibrated to work accurately with this software:
+the system. The following cameras have been tested with the *FIRST* Tech
+Challenge software and ship with built-in calibration data:
 
--  Logitech HD :term:`Webcam` C310
--  Logitech HD Pro Webcam C920
+- :ref:`logitech_c270_label`
+- :ref:`logitech_c310_label`
+- :ref:`logitech_c920_label`
 
-There are notes on :doc:`other UVC webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
-that teams can use.
+See :ref:`Webcams for Vision Portal <visionportal_webcams>` for the full list,
+including field of view, frame rates and supported resolutions for each model.
 
-Note that calibrating a UVC camera is an advanced task. Details on how
-to create a calibration file can be found in the comments of the
-*teamwebcamcalibrations.xml* file that is available as part of the
-ftc_app project folder (visit this
-`link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-for an online copy of the file).
+Calibrating a UVC camera yourself is an optional, advanced task. See
+:ref:`Camera Calibration <camera_calibration>`.
 
 REV Expansion Hub and Phone
 ---------------------------
