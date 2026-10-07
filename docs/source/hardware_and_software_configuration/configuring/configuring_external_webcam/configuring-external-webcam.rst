@@ -17,7 +17,7 @@ for putting together this documentation.
 Type of External Camera
 -----------------------
 
-Theoretically, any USB Video Class (UVC) camera should work with the 
+Theoretically, any USB Video Class (UVC) camera should work with the
 system. However, *FIRST* recommends using UVC web cameras from Logitech.
 The following cameras have been tested and calibrated to work accurately
 with :term:`SDK` software:
@@ -26,12 +26,11 @@ with :term:`SDK` software:
 - :ref:`logitech_c310_label`
 - :ref:`logitech_c920_label`
 
-Calibrating a UVC camera is an optional, advanced task. Instructions for
-creating a calibration file are in the comments of the
-`teamwebcamcalibrations.xml <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-file in the ftc_app project folder (visit this
-`link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-for an online copy of the file).
+See :ref:`Webcams for Vision Portal <visionportal_webcams>` for the full list,
+including field of view, frame rates and supported resolutions for each model.
+
+Calibrating a UVC camera yourself is an optional, advanced task. See
+:ref:`Camera Calibration <camera_calibration>`.
 
 Connecting the Camera
 ---------------------

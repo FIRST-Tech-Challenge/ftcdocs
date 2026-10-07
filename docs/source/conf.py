@@ -76,6 +76,25 @@ javadoc_url_map = {
 
 templates_path = ['_templates']
 
+# The booklet source files exist only as LaTeX entry points (see the
+# BOOKLETS_BUILD block below). Their toctrees are wrapped in ".. only:: latex",
+# but that does not stop Sphinx from registering them: toctrees are read into
+# the environment at read time and "only" is evaluated later. In an HTML build
+# those toctrees therefore claim pages such as apriltag-intro and
+# visionportal_camera_controls as booklet children, which detaches them from
+# the main navigation and collapses their section in the sidebar. Excluding the
+# booklet sources from non-booklet builds keeps the real nav parents intact.
+# booklets/index.rst is kept: it is linked from the main toctree and only
+# points at externally hosted PDFs.
+if os.environ.get("BOOKLETS_BUILD") != "true":
+    exclude_patterns = [
+        'booklets/advanced.rst',
+        'booklets/apriltags.rst',
+        'booklets/control_system.rst',
+        'booklets/sdk.rst',
+        'booklets/wiring_guide.rst',
+    ]
+
 # Image Checker Configuration
 
 IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg",

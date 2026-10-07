@@ -1,3 +1,5 @@
+.. _camera_calibration:
+
 Camera Calibration
 ==================
 

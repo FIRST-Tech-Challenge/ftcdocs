@@ -1,3 +1,5 @@
+.. _visionportal_webcams:
+
 Webcams for Vision Portal
 =========================
 
