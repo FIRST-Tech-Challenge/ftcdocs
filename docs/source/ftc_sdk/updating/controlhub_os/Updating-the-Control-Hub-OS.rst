@@ -16,7 +16,7 @@ Here are two methods for updating the Control Hub OS:
 More info about updating the Control Hub OS is
 `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__.
 
-.. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+.. dropdown:: Method 1 - REV Hardware Client (RHC)
 
    1. Apply 12V robot power to the REV Control Hub.
 
@@ -34,8 +34,10 @@ More info about updating the Control Hub OS is
 
          Updating the Control Hub OS
 
-   Confirm the Latest Version in the drop-down menu, then click the blue
-   “Update” rectangle (green arrow, above). The speed of this update is
+   Then click on the "Control Hub OS" tab.
+   Compare the Current Version and the latest Available Versions.
+   If there is a more recent Latest version click the orange "Install" button. 
+   The speed of this update is
    improved, since    :doc:`in Updating the REV Hardware Client
    </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
    the required update file was previously downloaded.

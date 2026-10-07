@@ -6,6 +6,8 @@ electronic **hardware**. This must sometimes be updated on the REV :term:`Expans
 and the REV :term:`Control Hub` in order for the :doc:`Software Development Kit
 (SDK) </ftc_sdk/overview/index>` to perform correctly.
 
+The REV Expansion Hub and REV Control Hub use the same firmware software.
+
 Here are 5 methods: 
 
 1. :term:`REV Hardware Client` (RHC) 
@@ -14,7 +16,7 @@ Here are 5 methods:
 4. Manage page on computer 
 5. Manage page on Driver Station device (:term:`Driver Hub` or DS phone)
 
-.. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+.. dropdown:: Method 1 - REV Hardware Client (RHC)
 
    1. For REV Control Hub, apply 12V robot power. For REV Expansion Hub,
       12V power is optional.
@@ -24,28 +26,29 @@ Here are 5 methods:
       port is Mini USB (not micro). On the Control Hub, use only the USB-C
       port, not its Mini USB port.
 
-   3. Click the hub’s large icon/rectangle. Under “Expansion/Control Hub
-      Firmware”, see the current/latest mismatch, if any (yellow oval,
-      below).
+   3. Click the hub’s large icon/rectangle. Under “Expansion Hub”, compare the Current Version
+      and Available Versions and if there is a more recent Latest version click the orange
+      "Install" button.
 
       .. figure:: images/350-RHC-EH-firmware.png
-         :alt: Updating Firmware
+         :alt: screen shot for Expansion Hub
          :width: 80%
          :align: center
 
-         Updating Firmware
+         Updating Expansion Hub Firmware
 
-      Here’s an example with Control Hub:
+      Here’s an example with a Control Hub. Click "Update" and then "Expansion/Control Hub Firmware"
+      tab to see the Current and Available firmware versions.
 
       .. figure:: images/400-RHC-EH-CH-firmware.png
-         :alt: Updating Firmware
+         :alt: screen shot for Control Hub 
          :width: 80%
          :align: center
 
-         Updating Firmware
+         Updating Control Hub Firmware
 
-      Confirm the Latest Version in the drop-down menu, then click the blue
-      “Re-install” rectangle (green arrow, above). This is done quickly, since
+      Compare the Current Version and Available Versions and if there is a more recent Latest
+      version click the orange "Install" button. This is done quickly, since
       :doc:`in Updating the REV Hardware Client 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
       the required update file was previously downloaded.

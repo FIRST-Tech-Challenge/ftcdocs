@@ -24,7 +24,7 @@ of the programming language/environment used to program robot Team Code.
    #. "Side loading” with APK 
    #. Software Manager on REV Driver Hub
 
-   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+   .. dropdown:: Method 1 - REV Hardware Client (RHC)
 
       Plug the REV Driver Hub directly into the Windows computer with RHC
       installed and open. Use a USB-C data cable. Make sure the “Hardware” tab
@@ -39,14 +39,16 @@ of the programming language/environment used to program robot Team Code.
       The RHC app will recognize the Driver Hub, as shown here:
 
       .. figure:: images/070-RHC-recognize-DH.png
-         :alt: Recognizing the Driver Hub
+         :alt: Screenshot Recognizing the Driver Hub
          :width: 80%
          :align: center
 
          Recognizing the Driver Hub
 
-      Once recognized, click on the Driver Hub’s large icon/rectangle. The RHC app now displays
-      the update status of the DS app, if any.
+      Once recognized, click on the Driver Hub’s large icon/rectangle. 
+      Then select the "Driver Station App" tab.
+      The RHC now displays the current version of the DS app, if installed.
+      It also shows you the latest version number of the DS App.
 
       .. figure:: images/075-RHC-update-DH.png
          :alt: Updating the Driver Hub
@@ -55,14 +57,15 @@ of the programming language/environment used to program robot Team Code.
 
          Updating the Driver Hub
 
-      Simply click the blue Update rectangle (green arrow) – done!
+      Simply click the Download and Install orange button – done!
 
-      The update was fast, because you had already downloaded the DS app to
-      the RHC. That was noted with ’(Already Downloaded)“, to the left of the
-      blue Update rectangle.
+      The update was fast, assuming you had already downloaded the DS app to
+      the RHC. 
 
       You could have selected an **older** version of the DS app, in the
-      drop-down list just above the blue Update rectangle.
+      drop-down list of available versions.
+      You might wish to do that if you need to run an older version of the
+      Robot Controller App on your robot and need to match app version numbers.
 
       After install, drag the DS app icon from the app menu to the Driver
       Hub’s home screen, if needed.
@@ -169,7 +172,7 @@ of the programming language/environment used to program robot Team Code.
    1. REV Hardware Client (RHC)
    2. “Side loading” with APK
 
-   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+   .. dropdown:: Method 1 - REV Hardware Client (RHC)
 
       Plug the DS phone directly into the computer with RHC installed and
       open. Use a USB data cable, not a charge-only cable. Make sure the
@@ -193,12 +196,11 @@ of the programming language/environment used to program robot Team Code.
       If the phone is not recognized, ensure that the phone has :doc:`developer
       options
       </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
-      enabled. If necessary, click the "Scan for Devices" button in the
-      lower-left of the REV Hardware Client app to force the RHC to rescan
-      devices.
+      enabled. 
 
-      Once recognized, click on that phone’s large icon/rectangle. The RHC app
-      now displays the update status of the DS app, if any.
+      Once recognized, click on that phone’s large icon/rectangle.
+      The RHC now displays the current version of the DS app, if installed.
+      It also shows you the latest version number of the DS App.
 
       .. figure:: images/040-RHC-update-DS-phone.png
          :alt: Update Status of Phone
@@ -207,14 +209,15 @@ of the programming language/environment used to program robot Team Code.
 
          Update Status of Smartphone
 
-      Simply click the blue Update rectangle (green arrow) – done!
+      Simply click the Download and Install orange button – done!
 
-      The update was fast, because you had already downloaded the DS app to
-      the RHC. That was noted with ’(Already Downloaded)“, to the left of the
-      blue Update rectangle.
+      The update was fast, assuming you had already downloaded the DS app to
+      the RHC. 
 
       You could have selected an **older** version of the DS app, in the
       drop-down list just above the blue Update rectangle.
+      You might wish to do that if you need to run an older version of the
+      Robot Controller App on your robot and need to match app version numbers.
 
       After install, drag the DS app icon from the app menu to the phone’s
       home screen.
