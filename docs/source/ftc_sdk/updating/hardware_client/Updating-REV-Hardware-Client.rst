@@ -73,15 +73,16 @@ Search for "REV" to find it, or look under R alphabetically in the list of progr
 Downloading Initial Updates
 ---------------------------
 
-This is a good time to **pre-download** various pieces of software you might need soon.
-These are the :term:`firmware <Firmware>`, operating system and App files that the RC
+This is a good time to **pre-download** various
+pieces of software you might need soon.
+These are the :term:`firmware <Firmware>`, operating system and App files that the RHC
 can install on your devices.
 
 Why download now? Later, this computer might be connected via Wi-Fi to a
 :term:`Robot Controller`, not to the internet. Or a good internet connection
 might not be available when urgently needed (`Murphy’s Law <HTTP://en.wikipedia.org/wiki/Murphy's_law>`__).
 
-Open the RC app. 
+Open the REV Hardware Client 2 app. 
 Click on the "Downloads" tab. 
 This will display a long list of files you can download for all REV hardware.
 This includes numerous devices that are not for *FIRST* Tech Challenge.
