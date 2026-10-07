@@ -1,7 +1,7 @@
 Installing and Updating the REV Hardware Client
 ===============================================
 
-The :term:`REV Hardware Client` (RHC) is a desktop app, or software tool, that simplifies
+The :term:`REV Hardware Client` (RC) is a desktop app, or software tool, that simplifies
 updating software on devices used in *FIRST* Tech Challenge. 
 In this tutorial, some steps will ask you to download software and updates - 
 doing this is not required, but useful if you happen later to not have an internet connection.
@@ -11,21 +11,21 @@ To install, use the following steps on a PC or laptop running Windows 11.
 **Apple/Mac and Linux users should visit the REV website for install instructions. 
 The overall process is very similar.**
 
-Installing the RHC 2
+Installing the RC 2
 --------------------
 
 In 2026 there is a new version 2 of the REV hardware client. It is separate from the 1.x versions. 
 If you already have a 1.x version installed, there is no automatic upgrade to version 2.
 
 .. Warning:: If you are using an Android phone for a Robot Controller do NOT use version 2 of the REV Hardware Client.
-   The RHC version 2 is NOT able to recognize or install/update the Robot Controller App on an Android phone.
+   The RC version 2 is NOT able to recognize or install/update the Robot Controller App on an Android phone.
    It will only install the Driver Station App.
    
-   You can use the `original RHC <https://docs.revrobotics.com/rev-hardware-client>`__ to install the Robot Controller App
+   You can use the `original RC <HTTP://docs.rev robotics.com/rev-hardware-client>`__ to install the Robot Controller App
    and Driver Station App on an Android phone.  
 
 1. Connect the computer to the internet, and go to the
-   `RHC version 2 Overview & Installation page <https://docs.revrobotics.com/rev-hardware-client-2/>`__.
+   `RC version 2 Overview & Installation page <HTTP://docs.rev robotics.com/rev-hardware-client-2/>`__.
    Click the orange "REV Hardware Client 2" button. 
 
    .. figure:: images/010-download.png
@@ -33,7 +33,7 @@ If you already have a 1.x version installed, there is no automatic upgrade to ve
       :width: 80%
       :align: center
 
-      RHC version 2 Overview & Installation page
+      RC version 2 Overview & Installation page
 
    |
 
@@ -56,7 +56,7 @@ If you already have a 1.x version installed, there is no automatic upgrade to ve
    The file is likely named **rev-hardware-client.exe**.
    Your browser may allow you to run that program after it is downloaded. If needed, 
    find that file in your browser's downloads folder. Click that
-   filename to begin installing the RHC 2 app.
+   filename to begin installing the RC 2 app.
 
 .. tip:: Be patient, the download file is small, but when you run the install program it copies over
    500MB of files. This can take over 10 minutes to copy and install over a slow Wi-Fi connection.
@@ -67,25 +67,25 @@ Run the program from the Windows Start menu.
 Search for "REV" to find it, or look under R alphabetically in the list of programs.
 
 .. note:: 
-   If you have the original version of the RHC installed, installing version 2 does NOT uninstall the that version.
+   If you have the original version of the RC installed, installing version 2 does NOT uninstall the that version.
    Go to Add or Remove Programs in Windows and select the older version to uninstall it.
 
 Downloading Initial Updates
 ---------------------------
 
 This is a good time to **pre-download** various pieces of software you might need soon.
-These are the :term:`firmware <Firmware>`, operating system and App files that the RHC
+These are the :term:`firmware <Firmware>`, operating system and App files that the RC
 can install on your devices.
 
 Why download now? Later, this computer might be connected via Wi-Fi to a
 :term:`Robot Controller`, not to the internet. Or a good internet connection
-might not be available when urgently needed (`Murphy’s Law <https://en.wikipedia.org/wiki/Murphy's_law>`__).
+might not be available when urgently needed (`Murphy’s Law <HTTP://en.wikipedia.org/wiki/Murphy's_law>`__).
 
-Open the RHC app. 
+Open the RC app. 
 Click on the "Downloads" tab. 
 This will display a long list of files you can download for all REV hardware.
 This includes numerous devices that are not for *FIRST* Tech Challenge.
-You can ignore the Pneumatic Hub Firmware, the Power Distribution Firmware, Servo Hub Firmware,
+You can ignore the Pneumatic Hub Firmware, the Power Distribution Firmware,
 and the SPARK MAX Firmware as these are for the *FIRST* Robotics Competition program.
 
 If may help to click on the upper triangle in the Device column so that this list
@@ -108,6 +108,8 @@ As shown above *FIRST* Tech Challenge has the following device files:
 3. Expansion Hub Firmware - Note: the Control Hub also uses this firmware file.
 4. FTC Driver Station App
 5. FTC Robot Controller App
+6. Not shown is the "Servo Hub Firmware" which you can locate in the list and download
+   if you have a REV Servo Hub. The older REV Servo Power module cannot be updated.
 
 .. caution:: Android Studio users should probably NOT download the FTC Robot Controller App. 
    Android Studio users compile their programs to create their own copy of the FTC Robot Controller App
@@ -119,14 +121,14 @@ As shown above *FIRST* Tech Challenge has the following device files:
 The Status column will show "Available" or "Downloaded". 
 In addition, there is a "Latest" tag beside the version number.
 
-Look for those 5 files and if there is a "Latest" version that is "Available" you should download it.
+Look for those files and if there is a "Latest" version that is "Available" you should download it.
 Click the Download icon for each (beside the green arrow).
 This may take a few minutes; the OS files are large.
 
 You don’t need to track where these files are stored; they will be
-available to the RHC app when needed for device update.
+available to the RC app when needed for device update.
 
-When complete, these 5 items will appear with the label "Downloaded"
+When complete, these items will appear with the label "Downloaded"
 instead of "Available".
 
 Updating the REV Hardware Client
@@ -150,8 +152,8 @@ You can also check this yourself.
 |
 
 That’s all for now! You will use these files later, when updating
-various devices. More info about using the RHC to update your devices is
-`at REV Robotics’ excellent documentation site. <https://docs.revrobotics.com/rev-hardware-client-2/rhc2/navigation/>`__ 
+various devices. More info about using the RC to update your devices is
+`at REV Robotics’ excellent documentation site. <HTTP://docs.rev robotics.com/rev-hardware-client-2/rhc2/navigation/>`__ 
 
 Updating the Downloaded Files
 -----------------------------

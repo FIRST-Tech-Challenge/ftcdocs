@@ -26,34 +26,36 @@ Here are 5 methods:
       port is Mini USB (not micro). On the Control Hub, use only the USB-C
       port, not its Mini USB port.
 
-   3. Click the hub’s large icon/rectangle. Under “Expansion Hub”, compare the Current Version
-      and Available Versions and if there is a more recent Latest version click the orange
-      "Install" button.
+   3. Click the hub’s large icon/rectangle. 
+   
+      * Here’s an example with a Control Hub. Click "Update" and then "Expansion/Control Hub Firmware"
+        tab to see the Current and Available firmware versions.
 
-      .. figure:: images/350-RHC-EH-firmware.png
-         :alt: screen shot for Expansion Hub
-         :width: 80%
-         :align: center
+        .. figure:: images/400-RHC-EH-CH-firmware.png
+           :alt: screen shot for Control Hub 
+           :width: 80%
+           :align: center
 
-         Updating Expansion Hub Firmware
+           Updating Control Hub Firmware
 
-      Here’s an example with a Control Hub. Click "Update" and then "Expansion/Control Hub Firmware"
-      tab to see the Current and Available firmware versions.
+        Compare the Current Version and Available Versions and if there is a more recent Latest
+        version click the orange "Install" button. This is done quickly, since
+        :doc:`in Updating the REV Hardware Client 
+        </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+        the required update file was previously downloaded.
 
-      .. figure:: images/400-RHC-EH-CH-firmware.png
-         :alt: screen shot for Control Hub 
-         :width: 80%
-         :align: center
+        Done! The Hub’s firmware is now updated.
 
-         Updating Control Hub Firmware
+      * For an  “Expansion Hub”, compare the Current Version
+        and Available Versions and if there is a more recent Latest version click the orange
+        "Install" button.
 
-      Compare the Current Version and Available Versions and if there is a more recent Latest
-      version click the orange "Install" button. This is done quickly, since
-      :doc:`in Updating the REV Hardware Client 
-      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      the required update file was previously downloaded.
+        .. figure:: images/350-RHC-EH-firmware.png
+           :alt: screen shot for Expansion Hub
+           :width: 80%
+           :align: center
 
-      Done! The Hub’s firmware is now updated.
+           Updating Expansion Hub Firmware
 
    More info about using the RHC to update Hub firmware is `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware>`__.
 

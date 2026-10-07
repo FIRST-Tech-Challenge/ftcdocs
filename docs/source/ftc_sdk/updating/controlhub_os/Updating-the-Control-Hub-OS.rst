@@ -23,9 +23,8 @@ More info about updating the Control Hub OS is
    2. Plug the Control Hub directly into a computer running the REV
       Hardware Client, with a USB-C data cable.
 
-   3. Click the :term:`hub <Hub>`’s large icon/rectangle. Under “Control Hub Operating
-      System”, see the current/latest mismatch, if any (yellow oval,
-      below).
+   3. Click the :term:`hub <Hub>`’s large icon/rectangle.
+      Then click on "Update" and ensure the "Control Hub OS" tab is selected.
 
       .. figure:: images/650-RHC-OS.png
          :alt: Updating the Control Hub OS
@@ -34,7 +33,6 @@ More info about updating the Control Hub OS is
 
          Updating the Control Hub OS
 
-   Then click on the "Control Hub OS" tab.
    Compare the Current Version and the latest Available Versions.
    If there is a more recent Latest version click the orange "Install" button. 
    The speed of this update is
