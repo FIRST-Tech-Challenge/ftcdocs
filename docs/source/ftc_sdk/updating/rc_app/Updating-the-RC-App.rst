@@ -83,8 +83,8 @@ Expand the following instructions that apply to your Robot Controller hardware:
       “Side loading”, while possible, is not described here for the Control Hub
       as it requires a cumbersome procedure with extra equipment.
 
-   .. dropdown:: Method 1 - REV Hardware Client - Windows computers only
-
+   .. dropdown:: Method 1 - REV Hardware Client 
+      
       Use a USB data cable to connect the REV Control Hub’s USB-C port to the
       Windows computer.  Make sure the “Hardware” tab on the RHC is active, at
       top left. 
@@ -103,8 +103,9 @@ Expand the following instructions that apply to your Robot Controller hardware:
 
          Recognizing the Control Hub
 
-      Once recognized, click on the Control Hub’s large icon/rectangle. The RHC app now displays
-      the update status of the RC app, if any.
+      Once recognized, click on the Control Hub’s large icon/rectangle. 
+      Then click on the "Robot Controller App" tab.
+      The RHC app now displays the Current Version and Available Versions.
 
       .. figure:: images/082-RHC-update-RC-CH.png
          :alt: Updating the Control Hub
@@ -113,7 +114,11 @@ Expand the following instructions that apply to your Robot Controller hardware:
 
          Updating the Control Hub
 
-      Simply click the blue Update rectangle (green arrow) – done!
+      If the latest available version is not the current version
+      simply click the orange "Install" button – done!
+
+      .. warning:: Do not update the Robot Controller App using the RHC if you are programming in Android Studio, 
+         see the Android Studio section above.
       
    .. dropdown:: Method 2 - Manage page on computer
 
@@ -229,6 +234,13 @@ Expand the following instructions that apply to your Robot Controller hardware:
       The Manage page, under Program and Manage, on a computer or Driver
       Station device, **does not** offer updating an RC app on a connected
       Robot Controller phone.
+      
+   .. Warning:: If you are using an Android phone for a Robot Controller do NOT use version 2 of the REV Hardware Client.
+      The RHC version 2 is NOT able to recognize or install/update the Robot Controller App on an Android phone.
+      It will only install the Driver Station App.
+   
+      You can use the `original RHC <https://docs.revrobotics.com/rev-hardware-client>`__ to install
+      the Robot Controller App and Driver Station App on an Android phone.
 
    .. dropdown:: Method 1 - REV Hardware Client - Windows computers only
 

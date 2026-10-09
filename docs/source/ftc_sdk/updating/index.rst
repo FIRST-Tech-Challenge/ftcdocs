@@ -55,10 +55,17 @@ Update Instructions
 
 .. tip::
    It is recommended to use the 
-   `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
+   :doc:`REV Hardware Client <hardware_client/Updating-REV-Hardware-Client>`
    to update devices if a Windows computer is available. 
-   The :term:`REV Hardware Client` is able to update all control system device software.
+   The :term:`REV Hardware Client` is able to update all control system device software
+   and runs on Windows, MacOS, and Linux.
    
+.. Warning:: If you are using an Android phone for a Robot Controller do NOT use version 2 of the REV Hardware Client (RHC).
+   The RHC version 2 is NOT able to recognize or install/update the Robot Controller App on an Android phone.
+   It will only install the Driver Station App.
+   
+   You can use the `original RHC <https://docs.revrobotics.com/rev-hardware-client>`__ to install the Robot Controller App
+   and Driver Station App on an Android phone.
 
 Alternate methods can be used to update devices, see the detailed 
 instructions linked to below.
