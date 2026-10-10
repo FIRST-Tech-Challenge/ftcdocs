@@ -73,8 +73,8 @@ Signal Sleeve recognition.
 
       Photo Credit: Mike Silversides
 
-**All sections of this Guide assume prior reading of the** :doc:`AprilTag
-Introduction <../apriltag_intro/apriltag-intro>` **.**
+**If you are using the AprilTag processor, read the** :doc:`AprilTag
+Introduction <../apriltag_intro/apriltag-intro>` **first.**
    
 The SDK describes AprilTag pose **relative to the camera**, by default.
 This computing process is called **pose estimation**, a term that emphasizes
@@ -85,27 +85,19 @@ goals.
 .. toctree::
    :maxdepth: 1
 
-   AprilTag Introduction <../apriltag_intro/apriltag-intro>
    Webcams for VisionPortal <../visionportal_webcams/visionportal-webcams>
    Vision Processor Initialization <../vision_processor_init/vision-processor-init>
    VisionPortal Initialization <../visionportal_init/visionportal-init>
    VisionPortal Previews <../visionportal_previews/visionportal-previews>
-   AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>
-   AprilTag Metadata <../apriltag_metadata/apriltag-metadata>
-   AprilTag Reference Frame <../apriltag_reference_frame/apriltag-reference-frame>
    Camera Calibration </programming_resources/vision/camera_calibration/camera-calibration>
-   AprilTag Pose <../apriltag_pose/apriltag-pose>
-   AprilTag Library <../apriltag_library/apriltag-library>
-   AprilTag Localization <../apriltag_localization/apriltag-localization>
-   VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
    VisionPortal Camera Controls <../visionportal_camera_controls/index>
+   VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
    Vision Multiportal <../vision_multiportal/vision-multiportal>
-   AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
 
-.. seealso:: SDK 12.0 added AprilTag Clusters, groups of tags detected
-   together as one target, and split AprilTag detections into two types. The
-   change affects code on several of the pages above. See
-   :ref:`AprilTag Clusters <apriltagclusters>`.
+.. seealso:: For the AprilTag processor specifically -- ID codes, pose, tag
+   libraries and field localization -- see :doc:`AprilTag
+   <../apriltag_intro/apriltag-intro>`. For the color processors, see
+   :ref:`Color Processing <color_processing>`.
 
 ====
 
