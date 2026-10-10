@@ -2,8 +2,10 @@ Utility OpModes
 ===============
 
 Starting with version 11.2 of the *FIRST* Tech Challenge :term:`SDK <SDK>`,
-Utility :term:`OpModes <OpMode>` are available to help test and troubleshoot your robot. Utility
-OpModes can be run from the :term:`Driver Station App`.
+Utility :term:`OpModes <OpMode>` are available to help test and troubleshoot
+your robot. Utility OpModes can be run from the :term:`Driver Station App`.
+Teams can also create their own Utility OpModes by using the ``@Utility``
+annotation in Java, or by selecting Utility as the OpMode type in Blocks.
 
 .. figure:: images/ds_menu.png
    :alt: Driver Station menu where Utility OpModes can be found
