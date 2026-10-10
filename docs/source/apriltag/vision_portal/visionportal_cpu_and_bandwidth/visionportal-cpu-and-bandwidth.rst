@@ -370,19 +370,21 @@ can be a concern for **dual webcams**.
 
 The two webcams do *not* need to use the same format or resolution.
 
-For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB
-3.0 ports are on different buses.  This reduces the concern about bandwidth
-capacity, although higher resolution can cause the auto-optimized frame rate to
-reduce.
+Plug both webcams into a **powered external USB Hub**, on the
+:term:`Control Hub`'s USB 3.0 port.  This is the recommended arrangement.  Both
+webcams then share that bus and can reach **bandwidth limits**, causing preview
+failures and OpMode crashes.  Manage this with the factors discussed already,
+and with the choice of **streaming format**.
 
-Using the :term:`Control Hub`'s two USB ports, the choice of stream format has little
-impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**;
-adding a webcam may affect its reliability.
+The alternative, **plugging one webcam into each Control Hub port**, puts them
+on different buses.  This reduces the concern about bandwidth capacity and the
+choice of stream format has little impact, although higher resolution can cause
+the auto-optimized frame rate to reduce.
 
-On the other hand, both webcams on an **external USB Hub** (plugged into the CH
-3.0 port) can reach **bandwidth limits**, causing preview failures and OpMode
-crashes.  This can be managed by factors discussed already, and by the choice
-of **streaming format**.
+But the USB 2.0 bus also carries the Control Hub's **WiFi radio**; a webcam on
+that port may affect its reliability, so the powered hub is the safer choice.
+See
+:ref:`USB Port Selection Best Practices <robot_building/best_practices/robot-best-practices:usb port selection best practices>`.
 
 Streaming Formats
 -----------------
