@@ -64,6 +64,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    hardware_and_software_configuration/index
    hardware_and_software_configuration/self_inspect/new-self-inspect
    hardware_and_software_configuration/self_inspect/self-inspect
+   utility_opmodes/index
    programming_resources/index
 
 .. toctree::
