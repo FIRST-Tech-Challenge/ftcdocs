@@ -12,7 +12,7 @@ programming blocks that are available with the
 :term:`Blocks Programming Tool`:
 
 `Blocks Programming Tool Reference
-Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
+Manual <https://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
 
 Sample Op Modes
 ~~~~~~~~~~~~~~~

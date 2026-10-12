@@ -779,5 +779,5 @@ guide should help ensure more robust electrical system performance and
 increase robot reliability.
 
 Basic wiring instructions are also provided by
-`REV Robotics <http://www.revrobotics.com/>`__ on their
+`REV Robotics <https://www.revrobotics.com/>`__ on their
 `DUO Control System support pages <https://docs.revrobotics.com/duo-control/menu/control-hub-gs/wiring-diagram>`__.

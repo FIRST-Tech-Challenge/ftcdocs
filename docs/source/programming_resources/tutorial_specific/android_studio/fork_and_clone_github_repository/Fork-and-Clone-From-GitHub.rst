@@ -279,7 +279,7 @@ Best Practices
   easier collaborative development, much smaller change sets when merging, and
   much easier fetches and merges.  
 - Try to keep your `git index
-  <http://shafiul.github.io/gitbook/1_the_git_index.html>`_ clean.  This will
+  <https://shafiul.github.io/gitbook/1_the_git_index.html>`_ clean.  This will
   make fetches and merges easier.  ``git status`` is your best friend here.  Use
   ``git status`` often to see what has changed in your local workspace.  Commit
   often in logical chunks so that it is easy to see the most recent changes.  
