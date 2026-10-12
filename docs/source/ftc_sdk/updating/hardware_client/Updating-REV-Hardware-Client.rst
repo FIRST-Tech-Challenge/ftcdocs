@@ -80,7 +80,7 @@ can install on your devices.
 
 Why download now? Later, this computer might be connected via Wi-Fi to a
 :term:`Robot Controller`, not to the internet. Or a good internet connection
-might not be available when urgently needed (`Murphy’s Law <HTTP://en.wikipedia.org/wiki/Murphy's_law>`__).
+might not be available when urgently needed (`Murphy’s Law <https://en.wikipedia.org/wiki/Murphy%27s_law>`__).
 
 Open the REV Hardware Client 2 app. 
 Click on the "Downloads" tab. 
