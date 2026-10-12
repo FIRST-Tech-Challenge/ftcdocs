@@ -16,24 +16,25 @@ Here are two methods for updating the Driver Hub OS:
 More info about updating the Driver Hub OS is
 `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__.
 
-.. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+.. dropdown:: Method 1 - REV Hardware Client (RHC)
 
    1. Turn on the Driver Hub. Plug it directly into a computer running the
       REV Hardware Client, with a USB-C data cable.
 
    2. Click the Driver Hub’s large icon/rectangle. Under “Driver Hub
-      Operating System”, see the current/latest mismatch, if any (yellow
+      Operating System”, select the "Driver Hub OS" tab if needed, see
+      the current/latest mismatch, if any (yellow
       oval, below).
 
       .. figure:: images/600-RHC-DH-OS.png
-         :alt: Updating the Driver Hub OS
+         :alt: screenshot of Updating the Driver Hub OS
          :width: 80%
          :align: center
 
          Updating the Driver Hub OS
 
       Confirm the Latest Version in the drop-down menu, if any. Then click the
-      blue rectangle, labeled “Update” when applicable. The speed of this
+      orange "Install" button if the current version is not the latest. The speed of this
       update is improved, since       
       :doc:`in Updating the REV Hardware Client 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
