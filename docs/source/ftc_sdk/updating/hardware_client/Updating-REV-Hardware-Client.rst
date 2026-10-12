@@ -21,11 +21,11 @@ If you already have a 1.x version installed, there is no automatic upgrade to ve
    The RHC version 2 is NOT able to recognize or install/update the Robot Controller App on an Android phone.
    It will only install the Driver Station App.
    
-   You can use the `original RHC <HTTP://docs.rev robotics.com/rev-hardware-client>`__ to install the Robot Controller App
+   You can use the `original RHC <https://docs.revrobotics.com/rev-hardware-client>`__ to install the Robot Controller App
    and Driver Station App on an Android phone.  
 
 1. Connect the computer to the internet, and go to the
-   `RHC version 2 Overview & Installation page <HTTP://docs.rev robotics.com/rev-hardware-client-2/>`__.
+   `RHC version 2 Overview & Installation page <https://docs.revrobotics.com/rev-hardware-client-2/>`__.
    Click the orange "REV Hardware Client 2" button. 
 
    .. figure:: images/010-download.png
@@ -154,7 +154,7 @@ You can also check this yourself.
 
 That’s all for now! You will use these files later, when updating
 various devices. More info about using the RHC to update your devices is
-`at REV Robotics’ excellent documentation site. <HTTP://docs.rev robotics.com/rev-hardware-client-2/rhc2/navigation/>`__ 
+`at REV Robotics’ excellent documentation site. <https://docs.revrobotics.com/rev-hardware-client-2/rhc2/navigation/>`__ 
 
 Updating the Downloaded Files
 -----------------------------
