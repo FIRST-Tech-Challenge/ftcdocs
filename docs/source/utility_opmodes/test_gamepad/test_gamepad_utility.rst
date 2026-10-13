@@ -7,7 +7,13 @@ connected. Once you run the OpMode, it will show you what the currently
 registered gamepad inputs are.
 
 .. figure:: images/gamepad_setup.png
+    :width: 75%
     :alt: Initialization for the Test Gamepad Utility OpMode
 
+    Figure 1: Launching the Test Gamepad Utility OpMode
+
 .. figure:: images/gamepad_opmode.png
+   :width: 75%
    :alt: The Driver Station app running the Test Gamepad Utility OpMode
+
+   Figure 2: Example of the Test Gamepad Utility OpMode running

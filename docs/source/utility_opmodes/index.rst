@@ -19,13 +19,14 @@ These OpModes reside in the Settings menu, and are accessed by selecting
 
 .. figure:: images/ds_menu.png
    :alt: Driver Station menu where Utility OpModes can be found
-   :scale: 85%
+   :width: 75%
 
    Figure 1: Accessing the Utility OpModes via the Settings Menu
 
 .. figure:: images/util_list.png
    :alt: Utility OpMode dialogue in the Driver Station app
-
+   :width: 75%
+   
    Figure 2: Accessing the list of Utility OpModes
 
 .. toctree::
