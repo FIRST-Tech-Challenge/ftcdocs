@@ -8,4 +8,8 @@ through your hardware and set values. Remember to also look at the physical
 robot and make sure your motors and servos are moving as expected.
 
 .. figure:: images/hardware_opmode.png
+   :width: 75%
+   :class: no-scaled-link
    :alt: The Driver Station app running the Test Hardware Utility OpMode
+
+   Figure 1: Driver Station app running the Test Hardware Utility OpMode
