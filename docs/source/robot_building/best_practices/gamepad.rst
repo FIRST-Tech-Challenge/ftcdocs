@@ -21,7 +21,7 @@ gamepad driver. In this case, the built-in Android driver might work, but it's
 possible the device input (button/stick) mappings might be incorrect. Teams are
 not allowed to modify the Driver Station app in any way, which includes adding
 custom drivers for gamepads. Teams are strongly encouraged to use the
-:ref:`Test Gamepads Utility <utilityopmodes>` :term:`OpMode` to verify that their
+:ref:`Test Gamepad Utility <utilityopmodes>` :term:`OpMode` to verify that their
 gamepad is registering the inputs correctly.
 
 It is recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_
