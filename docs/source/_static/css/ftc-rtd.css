@@ -1484,3 +1484,21 @@ html[data-theme='dark'] .rst-content footer {
 		left: var(--fi-sidebar-width);
 	}
 }
+
+/* style glossary links as dotted lines and regular text color so they aren't expected to be page links */
+a.hxr-hoverxref:not(.sd-btn),
+a.hxr-hoverxref:not(.sd-btn):hover,
+a.hxr-hoverxref:not(.sd-btn):visited {
+	color: var(--fi-ink-soft);
+	text-decoration-color: var(--fi-ink-soft);
+	text-decoration: underline dotted;
+}
+
+html[data-theme='dark'] .document a.hxr-hoverxref:not(.sd-btn),
+html[data-theme='dark'] .document a.hxr-hoverxref:not(.sd-btn):hover,
+html[data-theme='dark'] .document a.hxr-hoverxref:not(.sd-btn):visited {
+	color: var(--fi-ink-soft);;
+	text-decoration-color: var(--fi-ink-soft);;
+	text-decoration: underline dotted;
+}
+
