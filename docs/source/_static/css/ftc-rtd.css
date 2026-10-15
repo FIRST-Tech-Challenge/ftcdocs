@@ -50,6 +50,11 @@
 	--fi-mono: "Roboto Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	--fi-sidebar-width: 320px;
 	--fi-utility-height: 44px;
+  --hoverxref-bg-color-dark: dimgray;
+  --hoverxref-bg-color-light: white;
+  /* “dark” means “light-on-dark” so fg-color-dark is a light color */
+  --hoverxref-fg-color-dark: white;
+  --hoverxref-fg-color-light: black;
 }
 
 html[data-theme='dark'] {
@@ -1502,3 +1507,17 @@ html[data-theme='dark'] .document a.hxr-hoverxref:not(.sd-btn):visited {
 	text-decoration: underline dotted;
 }
 
+body:is([data-theme="dark"], [data-mode="dark"])) {
+  --hoverxref-bg-color: var(--hoverxref-bg-color-dark);
+  --hoverxref-fg-color: var(--hoverxref-fg-color-dark);
+}
+/* use variables to set tooltip colors */
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+  background-color: var(--hoverxref-bg-color);
+  opacity: 1.0;
+  z-index: 9999;
+  color: var(--hoverxref-fg-color);
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border {
+  border-right-color: var(--hoverxref-bg-color);
+}
