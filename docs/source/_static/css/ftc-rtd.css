@@ -1502,3 +1502,7 @@ html[data-theme='dark'] .document a.hxr-hoverxref:not(.sd-btn):visited {
 	text-decoration: underline dotted;
 }
 
+body:is([data-theme="dark"], [data-mode="dark"])) {
+  --hoverxref-bg-color: var(--hoverxref-bg-color-dark);
+  --hoverxref-fg-color: var(--hoverxref-fg-color-dark);
+}
