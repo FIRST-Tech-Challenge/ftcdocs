@@ -1514,6 +1514,7 @@ body:is([data-theme="dark"], [data-mode="dark"])) {
 /* use variables to set tooltip colors */
 .tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
   background-color: var(--hoverxref-bg-color);
+  opacity: 1.0;
   color: var(--hoverxref-fg-color);
 }
 .tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border {
