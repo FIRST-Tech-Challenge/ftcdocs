@@ -1511,3 +1511,11 @@ body:is([data-theme="dark"], [data-mode="dark"])) {
   --hoverxref-bg-color: var(--hoverxref-bg-color-dark);
   --hoverxref-fg-color: var(--hoverxref-fg-color-dark);
 }
+/* use variables to set tooltip colors */
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+  background-color: var(--hoverxref-bg-color);
+  color: var(--hoverxref-fg-color);
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border {
+  border-right-color: var(--hoverxref-bg-color);
+}
