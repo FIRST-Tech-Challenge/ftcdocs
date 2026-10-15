@@ -50,6 +50,11 @@
 	--fi-mono: "Roboto Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	--fi-sidebar-width: 320px;
 	--fi-utility-height: 44px;
+  --hoverxref-bg-color-dark: dimgray;
+  --hoverxref-bg-color-light: white;
+  /* “dark” means “light-on-dark” so fg-color-dark is a light color */
+  --hoverxref-fg-color-dark: white;
+  --hoverxref-fg-color-light: black;
 }
 
 html[data-theme='dark'] {
