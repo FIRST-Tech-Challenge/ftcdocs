@@ -1316,6 +1316,41 @@ div.ethical-footer {
 	margin-top: 6px;
 }
 
+/* :term: hover tooltips. hoverxref uses Tooltipster's "shadow" theme, which
+   hardcodes a white box, a white arrow and grey text, so in dark mode the
+   bubble stays white. Repaint the box, its text and the arrow on the side the
+   tooltip opens from with the dark surface tokens. The tooltip is appended to
+   <body>, outside .document, so its links need the dark link color too. */
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+	background: var(--fi-surface-alt);
+	border: 1px solid var(--fi-border-strong);
+	box-shadow: var(--fi-shadow);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow .tooltipster-content {
+	color: var(--fi-ink-soft);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow .tooltipster-content a {
+	color: var(--fi-link);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow.tooltipster-bottom .tooltipster-arrow-border {
+	border-bottom-color: var(--fi-surface-alt);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow.tooltipster-top .tooltipster-arrow-border {
+	border-top-color: var(--fi-surface-alt);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow.tooltipster-left .tooltipster-arrow-border {
+	border-left-color: var(--fi-surface-alt);
+}
+
+html[data-theme='dark'] .tooltipster-sidetip.tooltipster-shadow.tooltipster-right .tooltipster-arrow-border {
+	border-right-color: var(--fi-surface-alt);
+}
+
 /* --------------------------------------------------------------------------
    17. Dark mode surfaces
    -------------------------------------------------------------------------- */
