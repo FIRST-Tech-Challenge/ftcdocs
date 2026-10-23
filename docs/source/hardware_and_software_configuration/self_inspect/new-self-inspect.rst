@@ -13,7 +13,7 @@ These rules are described in the :term:`Competition Manual` which can be found o
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
 .. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
-   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
+   is available to help teams self-inspect their robot before their event. Teams are strongly encouraged to self-inspect prior to their event.
    
    There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ 
    with some examples of legal and illegal parts (though it is not a substitute for the Competition Manual).
@@ -41,7 +41,7 @@ Version Information
 -------------------
 
 The Competition Manual lists the minimum recommended versions of device :term:`firmware <Firmware>`, Android operating system, and FTC Apps.
-Teams may choose to run older versions without affecting their ROBOT inspection status.
+Teams may choose to run older versions without affecting their robot inspection status.
 This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
 
 .. note::
@@ -56,11 +56,11 @@ Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP 
 If the game has :term:`AprilTags <AprilTag>`, the :term:`SDK` will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
 As the season progresses, minor releases will include bug fixes and some enhancements. e.g. 11.1, 11.2, etc.
   
-Regardless of the versions selected, it is highly recommended that the installed ROBOT CONTROLLER
-App and DRIVER STATION App versions match major and minor values to ensure compatibility as not
+Regardless of the versions selected, it is highly recommended that the installed robot controller
+App and driver station App versions match major and minor values to ensure compatibility as not
 all software versions are compatible with each other.
 
-Teams may choose to run older versions without affecting their ROBOT inspection status. 
+Teams may choose to run older versions without affecting their robot inspection status. 
 
 .. caution::
    Some FTC App versions have a different robot communication protocol and are unable to connect with each other.
@@ -195,4 +195,3 @@ FTC rules.
 
 Each inspection screen updates automatically, with or without a Restart
 Robot. This allows quick verification that issues have been resolved.
-

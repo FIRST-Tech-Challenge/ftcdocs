@@ -184,9 +184,9 @@ you'd like to see.
 
    Example sample questions:
 
-   * How many SAMPLES is a ROBOT allowed to CONTROL at a time?
+   * How many samples is a robot allowed to control at a time?
    * What are the different ways to score points?
-   * How large can a ROBOT be in its STARTING CONFIGURATION?
+   * How large can a robot be in its starting configuration?
    * Which awards are best for advancement?
    * How do I write a strong engineering portfolio?
 
@@ -198,7 +198,7 @@ you'd like to see.
    Examples of difficult questions:
 
    * What is the maximum score for an :term:`alliance <Alliance>`?
-   * Can ROBOTS pick up an opposing ALLIANCE'S SAMPLES?
+   * Can robots pick up an opposing alliance's samples?
    * How many :term:`matches <Match>` does a team play at an event?
 
    This example was specific to FIRST Tech Challenge, but this process can be
@@ -244,5 +244,4 @@ you'd like to see.
    easy to use interface to save prompt sessions and resume them later. With
    Google AI Studio, you also can select the specific model you want to use, and
    when available you can choose to use preview versions of up and coming models.
-
 

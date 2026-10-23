@@ -27,7 +27,7 @@ gamepad is registering the inputs correctly.
 It is recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_
 close to the USB connector in order to reduce the amount of electrical noise.
 Teams are also encouraged to use a `short USB extension cable <https://www.digikey.com/en/products/detail/startechcom/USB3EXT6INBK/21397568>`_
-on the DRIVER STATION to limit the amount of wear and tear on the USB ports
+on the driver station to limit the amount of wear and tear on the USB ports
 from frequent plugging and unplugging of the gamepad. The extenders should
-always remain plugged into the DRIVER STATION and, with proper strain relief,
+always remain plugged into the driver station and, with proper strain relief,
 can help protect the port from accidental damage.

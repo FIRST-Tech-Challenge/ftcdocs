@@ -51,9 +51,9 @@ Now let's point the camera at an INTO THE DEEP game element called a
 .. figure:: images/30-Blobs-blue-basic.png
    :width: 75%
    :align: center
-   :alt: Detecting Blob from a Blue SAMPLE
+   :alt: Detecting blob from a blue sample
 
-   Blob from a Blue SAMPLE
+   Blob from a blue sample
 
 Here the software was told to seek shades of blue.  The orange rectangle
 encloses a Blob of blue color.

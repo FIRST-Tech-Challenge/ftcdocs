@@ -14,7 +14,7 @@ These rules are described in the :term:`Competition Manual` which can be found o
 `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
 .. tip:: An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
-   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
+   is available to help teams self-inspect their robot before their event. Teams are strongly encouraged to self-inspect prior to their event.
 
 The Self Inspect screen is provided only as a quick, handy reference to
 help teams confirm that certain control system elements are up-to-date
@@ -63,7 +63,7 @@ phone can display only its own RC Self Inspect.
 
 This means that the Self Inspect screens can report as follows: 
 
-**DRIVER STATION**
+**driver station**
 
 - `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__, on
   DS phone paired to RC phone 
@@ -76,7 +76,7 @@ This means that the Self Inspect screens can report as follows:
   <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__, on Driver Hub
   paired to Control Hub
 
-**ROBOT CONTROLLER**
+**robot controller**
 
 -  `RC Self Inspect
    1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__,
