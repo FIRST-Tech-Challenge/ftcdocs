@@ -38,7 +38,7 @@ Automatic Auto to Driver Control Program Switching
 Did you know that it's possible for the :term:`Driver Station` to
 :ref:`automatically load your Driver Controlled OpMode
 <programming_resources/shared/auto_load_opmode/auto-load-opmode:Automatically
-Loading a Driver Controlled Op Mode>` as soon as your :term:`Autonomous` :term:`OpMode` has
+Loading a Driver Controlled OpMode>` as soon as your :term:`Autonomous` :term:`OpMode` has
 completed? Lots of teams go into panic mode immediately after Autonomous has
 completed - they're trying to navigate and select the proper Driver
 Controlled OpMode, Initialize, and Run the OpMode while also picking up

@@ -98,7 +98,7 @@ reset the Hub's name and password back to their factory default values.
 
 .. important:: Resetting a Control Hub will restore its default
    network name and password. However, existing configuration files and
-   :term:`op modes <OpMode>` should not be affected by the reset. This includes op modes that
+   :term:`OpModes <OpMode>` should not be affected by the reset. This includes OpModes that
    were created using the :term:`Blocks`, :term:`OnBot Java` and :term:`Android Studio` tools.
 
 Resetting Instructions

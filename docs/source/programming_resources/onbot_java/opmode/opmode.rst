@@ -1,4 +1,4 @@
-Writing an Op Mode :bdg-info:`OBJ`
+Writing an OpMode :bdg-info:`OBJ`
 ==================================
 
 .. toctree::

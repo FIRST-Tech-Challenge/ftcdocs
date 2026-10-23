@@ -14,7 +14,7 @@ quickly.
 
 The Blocks Programming Tool is a visual design tool that lets
 programmers use a web browser to create, edit and save their
-:term:`op modes <Op Mode>`.
+:term:`OpModes <OpMode>`.
 
 *FIRST* recommends getting starting with Blocks, even if you are an
 experienced programmer. Using Blocks is the *easiest* and *fastest* way

@@ -1,4 +1,4 @@
-Writing an Op Mode :bdg-success:`AS`
+Writing an OpMode :bdg-success:`AS`
 ====================================
 
 These pages cover writing an :term:`OpMode` in the ``TeamCode`` module, building it,

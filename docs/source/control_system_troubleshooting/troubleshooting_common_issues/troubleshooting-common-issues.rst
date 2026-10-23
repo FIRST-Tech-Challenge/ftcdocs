@@ -194,7 +194,7 @@ match the corresponding name in the *FIRST* Tech Challenge SDK's hardware
 map, and it applies to apps created using Android Studio.
 
 .. figure:: images/hardware-not-found.png
-   :alt: Driver Station error screen reading unable to find a hardware device with the name motor_1, shown in red text below the Op Mode status.
+   :alt: Driver Station error screen reading unable to find a hardware device with the name motor_1, shown in red text below the OpMode status.
 
    The name used by the OpMode must match the name used in the
    configuration file for the device exactly.
@@ -267,7 +267,7 @@ itself — unfortunately, this is the only way to stop an unresponsive
 thread.
 
 .. figure:: images/runaway-opmode-log.png
-   :alt: Robot Controller log excerpt in red showing a user linear Op Mode took too long to exit and the app killing itself.
+   :alt: Robot Controller log excerpt in red showing a user linear OpMode took too long to exit and the app killing itself.
 
    If the app detects a potential unresponsive OpMode, it logs an error and
    then aborts itself.

@@ -14,7 +14,7 @@ a ‘repo’. You don’t need to know its inner workings, just what it does
 and how to use it.
 
 This beginner-level tutorial shows how to incorporate a library’s
-features into your :term:`Op Modes <OpMode>`, and provides simple examples. It does
+features into your :term:`OpModes <OpMode>`, and provides simple examples. It does
 not teach Java.
 
 Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who

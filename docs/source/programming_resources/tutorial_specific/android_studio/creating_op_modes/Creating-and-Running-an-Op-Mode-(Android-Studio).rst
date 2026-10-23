@@ -49,8 +49,8 @@ you would like to use in your OpMode.
 Sample OpModes
 ~~~~~~~~~~~~~~
 
-A great way to learn how to program a robot is to examine the :term:`sample op
-modes <Sample OpMode>` that are included with the Android Studio project folder. You
+A great way to learn how to program a robot is to examine the :term:`sample
+OpModes <Sample OpMode>` that are included with the Android Studio project folder. You
 can locate these files in the FtcRobotController module in the package
 ``org.firstinspires.ftc.robotcontroller.external.samples``.
 

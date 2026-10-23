@@ -273,9 +273,9 @@ The REV Robotics Control Hub should come with the Robot Controller app
 pre-installed. Once you have successfully installed the Driver
 Station on an Android phone, you will want to establish a secure
 wireless connection between the Control Hub and the DRIVER STATION. This
-connection will allow your DRIVER STATION device to select op modes on
+connection will allow your DRIVER STATION device to select OpModes on
 your Robot Controller and send :term:`gamepad <Gamepad>` input to these programs.
-Likewise, it will allow your op modes running on your Robot Controller
+Likewise, it will allow your OpModes running on your Robot Controller
 to send :term:`telemetry <Telemetry>` data to your DRIVER STATION phone where it can be
 displayed for your drivers. The process to connect the two devices is
 known as "pairing."
@@ -368,8 +368,8 @@ Two Android Smartphone Pairing
 Once you have successfully installed the apps onto your Android
 phones, you will want to establish a secure wireless connection between
 the two devices. This connection will allow your DRIVER STATION device to
-select op modes on your Robot Controller phone and send gamepad input to
-these programs. Likewise, it will allow your op modes running on your
+select OpModes on your Robot Controller phone and send gamepad input to
+these programs. Likewise, it will allow your OpModes running on your
 Robot Controller phone to send telemetry data to your DRIVER STATION
 device where it can be displayed for your drivers. The process to connect
 the two phones is known as pairing.

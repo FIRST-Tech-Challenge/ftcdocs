@@ -5,15 +5,15 @@ The REV Robotics :term:`Control Hub` and REV Robotics :term:`Expansion Hub` allo
 coefficients used for closed loop motor control. The PID coefficients
 are channel and mode specific.
 
-The following :term:`op mode <Op Mode>` uses an extended or enhanced DcMotor class (called
+The following :term:`OpMode <OpMode>` uses an extended or enhanced DcMotor class (called
 “DcMotorEx”) to change the PID coefficients for the RUN_USING_ENCODER
-mode for a motor named “left_drive”. The op mode uses the
+mode for a motor named “left_drive”. The OpMode uses the
 setPIDCoefficients method of the DcMotorEx class to change the values.
 This method is not available with the standard DcMotor class.
 
 Note that changes made to the PID coefficients do not persist if you
 power cycle the REV Robotics Control Hub or REV Robotics Expansion Hub. If you need your changes to
-the PID to persist, you should consider modifying your op mode to store
+the PID to persist, you should consider modifying your OpMode to store
 state information on the Control Hub or Android phone. The Android Developer website
 has a tutorial on how to save data from your app onto an Android device
 `here <https://developer.android.com/training/data-storage>`__

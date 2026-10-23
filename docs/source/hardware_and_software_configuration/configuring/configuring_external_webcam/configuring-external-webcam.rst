@@ -67,35 +67,35 @@ activity should detect the webcam and give it a default name of “Webcam
 .. image:: images/webcam-config-CH.jpg
    :alt: Screen shot showing the Scan button circled in yellow and the resulting USB device listed as Webcam 1.
 
-You can keep this default name (the sample :term:`Op Modes <OpMode>` reference this name)
-or change it. If you change the webcam name, make sure your Op Modes
+You can keep this default name (the sample :term:`OpModes <OpMode>` reference this name)
+or change it. If you change the webcam name, make sure your OpModes
 refer to this new name.
 
-Sample Op Modes
+Sample OpModes
 ---------------
 
 When the configuration has been saved and activated, the external UVC
 camera can be programmed for robot vision tasks.
 
 The SDK software offers “webcam” versions of its sample :term:`Blocks` and Java
-Op Modes, showing how to use the external UVC camera for :term:`VisionPortal` operations.
+OpModes, showing how to use the external UVC camera for :term:`VisionPortal` operations.
 
 .. image:: images/blockswebcam.png
    :alt: Blocks code for initializing a webcam.
 
-Before opening and editing an Op Mode, verify that the intended
+Before opening and editing an OpMode, verify that the intended
 configuration (with camera) is active. Also verify that the name
-referenced in the Op Mode matches the name specified in the
+referenced in the OpMode matches the name specified in the
 configuration file.
 
 Image Preview
 -------------
 
-The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
-Modes using VisionPortal.
+The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’
+OpModes using VisionPortal.
 
 On a paired DRIVER STATION device, with the camera connected and
-configured, select a stream-enabled Op Mode. Press the INIT button, and
+configured, select a stream-enabled OpMode. Press the INIT button, and
 wait briefly for streaming software to initialize; do not press the
 START button. Instead open the main menu (the 3 dots in upper right hand
 corner of the screen) and select Camera Stream. This option appears only
@@ -116,21 +116,21 @@ This option may be used to adjust the camera, with frequent manual image
 refreshing as needed. When finished, open the main menu and select
 Camera Stream again to turn off the preview. The preview image will
 close, the game pads will be enabled, and the START button may be
-pressed to continue running the Op Mode.
+pressed to continue running the OpMode.
 
 .. image:: images/DS-webcam-preview-CH-3.jpg
    :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
 .. note:: Because the Camera Stream feature is only available
-   during the INIT phase of an Op Mode, you must ensure that the VisionPortal
-   is activated in your Op Mode **before** the waitForStart command:
+   during the INIT phase of an OpMode, you must ensure that the VisionPortal
+   is activated in your OpMode **before** the waitForStart command:
 
 .. image:: images/activateBeforeWaitForStart.png
    :alt: Blocks code showing the INIT code for the webcam is called before wait for start.
 
 If you do not see the Camera Stream option in your main menu on your
 DRIVER STATION, then verify that the VisionPortal is activated
-before the waitForStart command in your Op Mode. Also make sure you’ve
+before the waitForStart command in your OpMode. Also make sure you’ve
 given the system enough time to initialize the VisionPortal software before
 you check to see if Camera Stream is available.
 

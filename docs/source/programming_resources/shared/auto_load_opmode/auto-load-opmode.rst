@@ -1,15 +1,15 @@
-Automatically Loading a Driver Controlled Op Mode
+Automatically Loading a Driver Controlled OpMode
 ==================================================
 
 A FIRST Tech Challenge :term:`match <Match>` consists of a 30 second :term:`autonomous <Autonomous>` period
 followed by a 2 minute driver controlled (i.e., tele-operated or :term:`teleop <TELEOP>`)
-period. Previously, teams had to manually select their teleop :term:`op mode <Op Mode>`
+period. Previously, teams had to manually select their teleop :term:`OpMode <OpMode>`
 after the autonomous portion their match was over.
 
-Teams can now preselect their teleop op mode, and have the :term:`Driver Station`
-automatically load this op mode as soon as their autonomous run
-has completed. This feature can help a team avoid selecting the wrong op
-mode during a match.
+Teams can now preselect their teleop OpMode, and have the :term:`Driver Station`
+automatically load this OpMode as soon as their autonomous run
+has completed. This feature can help a team avoid selecting the wrong
+OpMode during a match.
 
 To use this feature, verify that you are using version 6.1 or greater of
 the :term:`SDK` software (:term:`Robot Controller` and Driver Station).
@@ -32,20 +32,20 @@ inactive.
 
 
 Note that in order for the preselect button to be visible, the selected
-op mode must be designated as an autonomous op mode either by using the
+OpMode must be designated as an autonomous OpMode either by using the
 \_@Autonomous\_ annotation if it is written using Java or by selecting
 the *Autonomous* option in the :term:`Blocks` editor. If you do not see the
-preselect button, verify that your currently selected op mode has been
+preselect button, verify that your currently selected OpMode has been
 designated as autonomous.
 
 .. figure:: images/designateAsAutonomous.png   
    :align: center
 
-   The selected op mode must be designated as Autonomous in order for the preselect button to be visible.
+   The selected OpMode must be designated as Autonomous in order for the preselect button to be visible.
 
-To activate it, simply tap the (translucent) button and select an op
-mode. The button will then become fully opaque and the name of the
-preselected op mode will appear adjacent to the button. This indicates
+To activate it, simply tap the (translucent) button and select an
+OpMode. The button will then become fully opaque and the name of the
+preselected OpMode will appear adjacent to the button. This indicates
 the feature is active.
 
 .. figure:: images/selectTeleOpLandscape.png
@@ -67,7 +67,7 @@ OpMode to the TeleOp program which was preselected before the start of
 Autonomous. The auto-preselection will be aborted if the user presses
 stop (either the main stop or init stop buttons). It will only
 transition if the OpMode either self-exits, or is terminated by the 30s
-timer. Drive Teams must still press Init and start the op mode manually,
+timer. Drive Teams must still press Init and start the OpMode manually,
 for safety reasons.
 
 Should you wish to not be required to manually enable and configure the
@@ -78,7 +78,7 @@ automatically activate the preselection feature and configure it to
 preselect the OpMode specified in the annotation.
 
 .. code-block:: java
-   :caption: Use the preselectTeleOp parameter to specify a preselected op mode.
+   :caption: Use the preselectTeleOp parameter to specify a preselected OpMode.
 
 
    @Autonomous(name="Blue Alliance Auto", group="Pushbot", preselectTeleOp="BlueAllianceTeleOp")
@@ -89,28 +89,28 @@ dropdown in the Blocks program editor.
 .. figure:: images/preselectBlocks.png   
    :align: center
 
-   You can preselect a teleop op mode mode using the Blocks editor.
+   You can preselect a teleop OpMode using the Blocks editor.
 
 Note that there is an option in the Settings menu of the Driver
-Station app called “OpMode Auto Queue”. If this option is enabled, then
-the Driver Station will automatically load an autonomous op mode’s
-preselected teleop op mode as designated by the ``preselectTeleOp``
+Station app called “Op Mode Auto Queue”. If this option is enabled, then
+the Driver Station will automatically load an autonomous OpMode’s
+preselected teleop OpMode as designated by the ``preselectTeleOp``
 parameter. If this option is disabled, then the Driver Station will not
-automatically load the preselected teleop op mode. If the “Op Mode Auto
-Queue” option is disabled, a team can still select a teleop op mode by
+automatically load the preselected teleop OpMode. If the “Op Mode Auto
+Queue” option is disabled, a team can still select a teleop OpMode by
 using the preselect button on the main Driver Station activity.
 
 .. figure:: images/AutoQueueEnabledLandscape.png   
    :align: center
 
    If the OpMode Auto Queue option is enabled, the Driver Station will
-   automatically load the preselectTeleOp op mode in landscape mode.
+   automatically load the preselectTeleOp OpMode in landscape mode.
 
 .. figure:: images/AutoQueueEnabled.png   
    :align: center
 
    If the OpMode Auto Queue option is enabled, the Driver Station will
-   automatically load the preselectTeleOp op mode in portrait mode.
+   automatically load the preselectTeleOp OpMode in portrait mode.
 
 .. raw:: html
 

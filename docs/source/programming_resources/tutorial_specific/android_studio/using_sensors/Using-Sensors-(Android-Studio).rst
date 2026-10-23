@@ -16,7 +16,7 @@ time this document was most recently edited, the REV Color-Range sensor
 saturates around 2" (5cm). This means that for distances less than or
 equal to 2", the sensor returns a measured distance equal to 2" or so.
 
-Modify your :term:`op mode <Op Mode>` to add a :term:`telemetry <Telemetry>` statement that will send the
+Modify your :term:`OpMode <OpMode>` to add a :term:`telemetry <Telemetry>` statement that will send the
 distance information (in centimeters) to the Driver Station.
 
 .. code-block:: java
@@ -28,8 +28,8 @@ distance information (in centimeters) to the Driver Station.
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-After you have modified your op mode, build and install the updated
-Robot Controller app, then run the op mode to verify that it now
+After you have modified your OpMode, build and install the updated
+Robot Controller app, then run the OpMode to verify that it now
 displays distance on your Driver Station. Note that if the distance
 reads "NaN" (short for "Not a Number") it probably means that your
 sensor is too far from the target (zero reflection). Also note that the
@@ -58,7 +58,7 @@ the Control Hub or Expansion Hub, the Touch Sensor will be connected to the seco
 (labeled "1") of the port. The first pin (labeled "0") will stay
 disconnected.
 
-Modify the code in your op mode that occurs before the waitForStart
+Modify the code in your OpMode that occurs before the waitForStart
 command to set the digital channel for input mode.
 
 .. code-block:: java
@@ -91,6 +91,6 @@ ground. Otherwise, the touch sensor button is not pressed.
    telemetry.update();
 
 Build and install the updated Robot Controller app, then reinitialize
-and restart your op mode. The op mode should now display the state of
+and restart your OpMode. The OpMode should now display the state of
 the button ("PRESSED" or "NOT PRESSED").
 

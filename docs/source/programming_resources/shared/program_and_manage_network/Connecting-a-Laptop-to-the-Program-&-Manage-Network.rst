@@ -4,7 +4,7 @@ Connecting a Laptop to the Program & Manage Network
 Connecting Your Laptop to the Program & Manage Network
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In order to write an :term:`Op Mode <OpMode>`, you will need to connect your programming
+In order to write an :term:`OpMode <OpMode>`, you will need to connect your programming
 laptop to the Program & Manage Wi-Fi network. The Program & Manage Wi-Fi
 network is a wireless network created by your :term:`Robot Controller`. Before
 you begin this exercise, please make sure that your Windows laptop has

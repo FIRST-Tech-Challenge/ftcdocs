@@ -4,7 +4,7 @@ OnBot Java Reference Info :bdg-info:`OBJ`
 Javadoc Reference Pages
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-As you start to write more complicated :term:`op modes <OpMode>`, you will need to use
+As you start to write more complicated :term:`OpModes <OpMode>`, you will need to use
 more features of the *FIRST* Tech Challenge :term:`software development kit <Software Development Kit>`
 (SDK). You can reference online :term:`Javadoc` material that provide
 descriptions of the available *FIRST* Tech Challenge-related classes and
@@ -12,7 +12,7 @@ methods, at the following web address:
 
 https://javadoc.io/doc/org.firstinspires.ftc
 
-Sample Op Modes
+Sample OpModes
 ~~~~~~~~~~~~~~~
 
 The :term:`OnBot Java Programming Tool` has several built-in example OpModes and projects

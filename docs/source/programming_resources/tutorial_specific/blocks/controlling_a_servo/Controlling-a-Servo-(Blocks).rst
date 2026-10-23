@@ -1,10 +1,10 @@
 Controlling a Servo :bdg-warning:`Blocks`
 =========================================
 
-In the section titled :doc:`Creating an Op Mode with 
+In the section titled :doc:`Creating an OpMode with 
 Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use
-the :term:`Blocks Programming Tool` to write an :term:`op mode <OpMode>` that controls a 12V
-:term:`DC motor <DC Motor>`. In this section, you will learn how to write an op mode that
+the :term:`Blocks Programming Tool` to write an :term:`OpMode <OpMode>` that controls a 12V
+:term:`DC motor <DC Motor>`. In this section, you will learn how to write an OpMode that
 controls a :term:`servo <Servo>` motor.
 
 What is a Servo Motor?
@@ -17,7 +17,7 @@ In the figure below, a "standard scale" 180-degree servo is shown. This
 type of servo is popular with hobbyists and with FIRST Tech Challenge
 teams. This servo motor can rotate its shaft through a range of 180
 degrees. Using an electronic module known as a servo controller you can
-write an op mode that will move a servo motor to a specific position.
+write an OpMode that will move a servo motor to a specific position.
 Once the motor reaches this target position, it will hold the position,
 even if external forces are applied to the shaft of the servo.
 
@@ -30,10 +30,10 @@ Servo motors are useful when you want to do precise movements (for
 example, sweep an area with a :term:`sensor <Sensor>` to look for a target or move the
 control surfaces on a remotely controlled airplane).
 
-Modifying Your Op Mode to Control a Servo
+Modifying Your OpMode to Control a Servo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's modify your op mode to add the logic required to control a servo
+Let's modify your OpMode to add the logic required to control a servo
 motor. For this example, you will use the buttons on the Logitech F310
 :term:`gamepad <Gamepad>` to control the position of the servo motor.
 
@@ -54,7 +54,7 @@ corresponds to 180 degrees of rotation for a typical servo motor.
 
 In this example, you will use the colored buttons on the right side of
 the F310 controller to control the position of the servo. Initially, the
-op mode will move the servo to the midway position (90 degrees of its
+OpMode will move the servo to the midway position (90 degrees of its
 180-degree range). Pushing the yellow "Y" button will move the servo to
 the zero-degree position. Pushing the blue "X" button or the red "B"
 button will move the servo to the 90-degree position. Pushing the green
@@ -66,7 +66,7 @@ button will move the servo to the 90-degree position. Pushing the green
 |
 
 
-Modifying the Op Mode to Control a Servo Motor Instructions
+Modifying the OpMode to Control a Servo Motor Instructions
 -----------------------------------------------------------
 
 1. Verify that your laptop is still connected to the
@@ -117,7 +117,7 @@ block should click into place.
 
 |
 
-   When a user selects this op mode, the servo position will initially be set to the midway point (90-degree position).
+   When a user selects this OpMode, the servo position will initially be set to the midway point (90-degree position).
 
 7. Click on the "Logic" category of the programming blocks and select 
 the "if do" block from the list of available blocks. Drag the block   
@@ -175,7 +175,7 @@ place in the do portion of the "if do" block.
 
 |
 
-   If the "Y" button is pressed on gamepad #1, the op mode will move the servo's position to the 0-degree position.
+   If the "Y" button is pressed on gamepad #1, the OpMode will move the servo's position to the 0-degree position.
 
 13. Click on the blue and white Settings icon for the "if do" block.  
 This will display a pop-up menu that lets you modify the "if do"      
@@ -256,7 +256,7 @@ clause of the first else-if block.
 
 22. Highlight the number "0" and change it to "0.5". With this        
 change, if the user presses the "X" button or "B" button on gamepad   
-#1, the op mode will move the servo to the midway (90-degree)         
+#1, the OpMode will move the servo to the midway (90-degree)         
 position.                                                             
 
 .. image:: images/ControlServoStep22ControlHub.jpg
@@ -274,7 +274,7 @@ that the servo's position will be set to a value of 1.
 
 |
 
-   For this clause, if the "A" button is pressed on the #1 gamepad, the op mode will move the servo to the 180-degree position.
+   For this clause, if the "A" button is pressed on the #1 gamepad, the OpMode will move the servo to the 180-degree position.
 
 24. Insert a "call telemetry.addData" block (numeric) before the      
 "call Telemetry.update" block. Rename the key field to "Servo         
@@ -286,9 +286,9 @@ field.
 
 |
 
-   This set of blocks will send the current servo position value to the DRIVER STATION while the op mode is running.
+   This set of blocks will send the current servo position value to the DRIVER STATION while the OpMode is running.
 
-25. Save your op mode and verify that it was saved successfully to
+25. Save your OpMode and verify that it was saved successfully to
 the Robot Controller.
 
 .. image:: images/ControlServoStep25ControlHub.jpg
@@ -298,8 +298,8 @@ the Robot Controller.
 
 26. Follow the procedure outlined in the section titled :doc:`Running Your 
 OpMode <../running_op_modes/Running-Your-Op-Mode>` 
-to run your updated op mode. Also, make sure that your gamepad is     
-designated as User #1 before running your op mode.                    
+to run your updated OpMode. Also, make sure that your gamepad is     
+designated as User #1 before running your OpMode.                    
 
 .. image:: images/ControlServoStep26ControlHub.jpg
    :align: center

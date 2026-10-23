@@ -41,7 +41,7 @@ the "**Save Op Mode**" button within the editing window of the software.
 .. figure:: images/blocks_save.jpg
    :align: center
    :width: 80%
-   :alt: Saving Opmode
+   :alt: Saving OpMode
 
    Saving the OpMode within the Blocks Editor
 
@@ -51,7 +51,7 @@ same row to indicate that the program has been saved.
 .. figure:: images/blocks_saved.jpg
    :align: center
    :width: 80%
-   :alt: Opmode Saved
+   :alt: OpMode Saved
 
    Message indicating OpMode has been Saved
 
@@ -85,7 +85,7 @@ Interface.
 .. figure:: images/blocks_download.jpg
    :align: center
    :width: 80%
-   :alt: Opmode Download
+   :alt: OpMode Download
 
    Downloading a Blocks program
 
@@ -109,9 +109,9 @@ OpModes.
    Blocks Management Interface
 
 OpModes can be downloaded through this interface. Initially, the "**Download
-Selected Op Modes**" button on this interface is grayed out. One or more Op Modes
+Selected Op Modes**" button on this interface is grayed out. One or more OpModes
 can be selected in this interface, and then they can all be downloaded at once.
-In the example below, the "Mecanum Drive" opmode is selected and then downloaded
+In the example below, the "Mecanum Drive" OpMode is selected and then downloaded
 via the "**Download Selected Op Modes**" button.
 
 .. figure:: images/blocks_manage_download.png
