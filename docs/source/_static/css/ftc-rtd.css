@@ -1236,8 +1236,11 @@ footer .btn-neutral:hover,
 	color: #fff;
 }
 
+/* In dark mode a dark button disappears into the page, so invert it: a light
+   button with an ink icon, the same contrast the switcher has in light mode. */
 html[data-theme='dark'] .theme-switcher {
-	background-color: var(--fi-surface-alt);
+	background-color: var(--fi-ink);
+	color: var(--fi-brand-ink);
 }
 
 /* Read the Docs / ethical ads slots */
