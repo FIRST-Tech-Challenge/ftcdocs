@@ -1,4 +1,4 @@
-Creating and Running an Op Mode :bdg-info:`OBJ`
+Creating and Running an OpMode :bdg-info:`OBJ`
 ===============================================
 
 The Java Programming Language
@@ -17,7 +17,7 @@ Java Tutorial, which is available at the following address:
 
 https://docs.oracle.com/javase/tutorial/
 
-What's an Op Mode?
+What's an OpMode?
 ~~~~~~~~~~~~~~~~~~
 
 During a typical *FIRST* Tech Challenge :term:`match <Match>`, a team's robot must perform
@@ -31,16 +31,16 @@ CONTROLLER after being selected on the DRIVER STATION device.
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own OpModes.
 This document explains how to use the :term:`OnBot Java Programming Tool` to
-write an op mode for a robot.
+write an OpMode for a robot.
 
 The OnBot Java Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The OnBot Java Programming Tool is a user-friendly programming tool
 that is served up by the :term:`Robot Controller`. A user can create
-custom op modes for their robot using this tool and then save these op
-modes directly onto the Robot Controller. Users write their op modes
-using Java. The op modes are compiled very quickly on the Robot
+custom OpModes for their robot using this tool and then save these
+OpModes directly onto the Robot Controller. Users write their OpModes
+using Java. The OpModes are compiled very quickly on the Robot
 Controller and then loaded dynamically by the Robot Controller during
 run time.
 
@@ -59,7 +59,7 @@ OnBot Java Programming Tool.
 
 |
 
-Note that the process used to create and edit an op mode is identical if
+Note that the process used to create and edit an OpMode is identical if
 you are using an Android phone as your Robot Controller.
 
 .. image:: images/BlocksPicture2.jpg
@@ -77,16 +77,16 @@ and configured your Android devices and robot hardware. It also assumes
 that you have successfully connected your laptop to the Program & Manage
 server on the Robot Controller device.
 
-Creating Your First Op Mode
+Creating Your First OpMode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you connected your laptop successfully to the Program & Manage
 wireless network of the Robot Controller, then you are ready to create
-your first op mode. In this section, you will use the OnBot Java
-Programming Tool to create the program logic for your first op mode.
+your first OpMode. In this section, you will use the OnBot Java
+Programming Tool to create the program logic for your first OpMode.
 
 
-Creating Your First Op Mode Instructions
+Creating Your First OpMode Instructions
 ----------------------------------------
 
 1. Launch the web browser on your laptop (*FIRST* recommends using      
@@ -152,15 +152,15 @@ your new file.
 
    For this example, specify "MyFIRSTJavaOpMode" as the File Name in the New File dialog box.
 
-   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available :term:`sample op modes <Sample OpMode>` (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic :term:`LinearOpMode` framework for you.
+   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available :term:`sample OpModes <Sample OpMode>` (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic :term:`LinearOpMode` framework for you.
 
-   Check the option labeled "TeleOp" to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) op mode.
+   Check the option labeled "TeleOp" to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) OpMode.
    
-   Also, make sure you check the "Setup Code for Configured Hardware" option.  If this option is enabled, the OnBot Java editor will look at the hardware :term:`configuration file <Configuration File>` for your Robot Controller and automatically generate the code that you will need to access the configured devices in your op mode.
+   Also, make sure you check the "Setup Code for Configured Hardware" option.  If this option is enabled, the OnBot Java editor will look at the hardware :term:`configuration file <Configuration File>` for your Robot Controller and automatically generate the code that you will need to access the configured devices in your OpMode.
 
-   Press the "OK" button to create your new op mode.
+   Press the "OK" button to create your new OpMode.
 
-6. You should see your newly created op mode in the editing pane of   
+6. You should see your newly created OpMode in the editing pane of   
 the OnBot Java user interface.                                        
 
 .. image:: images/OnBotDoc_Step6_NewOpModeEditPane.jpg
@@ -168,7 +168,7 @@ the OnBot Java user interface.
 
 |
 
-Congratulations, you created your first op mode! The op mode currently
+Congratulations, you created your first OpMode! The OpMode currently
 does not do much, but you will eventually modify it to make it more
 useful.
 
@@ -177,38 +177,38 @@ useful.
 
 |
 
-Note that when you create an OnBot op mode, you create a .java file that
-is stored on the Robot Controller. You can access your saved op modes
+Note that when you create an OnBot OpMode, you create a .java file that
+is stored on the Robot Controller. You can access your saved OpModes
 using the project browser on the left side of the screen. You can also
-organize your saved op modes by right mouse clicking on the project
+organize your saved OpModes by right mouse clicking on the project
 browser to display a list of options to create, edit or delete files and
 folders.
 
-Also, note that the OnBot Java editor automatically saves your op mode
+Also, note that the OnBot Java editor automatically saves your OpMode
 as you are editing it, provided that you are connected to the Program &
 Manage server.
 
-Examining the Structure of Your Op Mode
+Examining the Structure of Your OpMode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It can be helpful to think of an op mode as a list of tasks for the
-Robot Controller to perform. For a linear op mode, the Robot Controller
+It can be helpful to think of an OpMode as a list of tasks for the
+Robot Controller to perform. For a linear OpMode, the Robot Controller
 will process this list of tasks sequentially. Users can also use control
 loops (such as a while loop) to have the Robot Controller repeat (or
-iterate) certain tasks within a linear op mode.
+iterate) certain tasks within a linear OpMode.
 
 .. image:: images/ExaminingStructurePic2.jpg
    :align: center
 
 |
 
-If you think about an op mode as a list of instructions for the robot,
+If you think about an OpMode as a list of instructions for the robot,
 this set of instructions that you created will be executed by the robot
-whenever a team member selects the op mode called "MyFIRSTJavaOpMode"
-from the list of available op modes for this Robot Controller.
+whenever a team member selects the OpMode called "MyFIRSTJavaOpMode"
+from the list of available OpModes for this Robot Controller.
 
-Let's look at the structure of your newly created op mode. Here's a copy
-of the op mode text (minus some comments, the package definition, and
+Let's look at the structure of your newly created OpMode. Here's a copy
+of the OpMode text (minus some comments, the package definition, and
 some import package statements):
 
 .. code-block:: java
@@ -245,19 +245,19 @@ some import package statements):
        }
    }
 
-At the start of the op mode there is an annotation that occurs before
+At the start of the OpMode there is an annotation that occurs before
 the class definition. This annotation states that this is a
-:term:`tele-operated <TELEOP>` (i.e., driver controlled) op mode:
+:term:`tele-operated <TELEOP>` (i.e., driver controlled) OpMode:
 
 .. code-block:: java
 
    @TeleOp
 
-If you wanted to change this op mode to an :term:`autonomous <Autonomous>` op mode, you would
+If you wanted to change this OpMode to an :term:`autonomous <Autonomous>` OpMode, you would
 replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead.
 
-You can see from the sample code that an op mode is defined as a Java
-class. In this example, the op mode name is called "MyFIRSTJavaOpMode"
+You can see from the sample code that an OpMode is defined as a Java
+class. In this example, the OpMode name is called "MyFIRSTJavaOpMode"
 and it inherits characteristics from the LinearOpMode class.
 
 .. code-block:: java
@@ -265,7 +265,7 @@ and it inherits characteristics from the LinearOpMode class.
    public class MyFIRSTJavaOpMode extends LinearOpMode {
 
 You can also see that the OnBot Java editor created five private member
-variables for this op mode. These variables will hold references to the
+variables for this OpMode. These variables will hold references to the
 five configured devices that the OnBot Java editor detected in the
 configuration file of your Robot Controller.
 
@@ -277,16 +277,16 @@ configuration file of your Robot Controller.
        private DistanceSensor sensorColorRange;
        private Servo servoTest;
 
-Next, there is an overridden method called runOpMode. Every op mode of
+Next, there is an overridden method called runOpMode. Every OpMode of
 type LinearOpMode must implement this method. This method gets called
-when a user selects and runs the op mode.
+when a user selects and runs the OpMode.
 
 .. code-block:: java
 
        @Override
        public void runOpMode() {
 
-At the start of the runOpMode method, the op mode uses an object named
+At the start of the runOpMode method, the OpMode uses an object named
 :term:`hardwareMap` to get references to the hardware devices that are listed in
 the Robot Controller's configuration file:
 
@@ -302,22 +302,22 @@ The hardwareMap object is available to use in the runOpMode method. It
 is an object of type HardwareMap class.
 
 Note that when you attempt to retrieve a reference to a specific device
-in your op mode, the name that you specify as the second argument of the
+in your OpMode, the name that you specify as the second argument of the
 HardwareMap.get method must match the name used to define the device in
 your configuration file. For example, if you created a configuration
 file that had a :term:`DC motor <DC Motor>` named "motorTest", then you must use this same
 name (it is case sensitive) to retrieve this motor from the hardwareMap
-object. If the names do not match, the op mode will throw an exception
+object. If the names do not match, the OpMode will throw an exception
 indicating that it cannot find the device.
 
-In the next few statements of the example, the op mode prompts the user
+In the next few statements of the example, the OpMode prompts the user
 to push the start button to continue. It uses another object that is
 available in the runOpMode method. This object is called :term:`telemetry <Telemetry>` and
-the op mode uses the addData method to add a message to be sent to the
-DRIVER STATION. The op mode then calls the update method to send the
+the OpMode uses the addData method to add a message to be sent to the
+DRIVER STATION. The OpMode then calls the update method to send the
 message to the DRIVER STATION. Then it calls the waitForStart method, to
 wait until the user pushes the start button on the :term:`driver station <Driver Station>` to
-begin the op mode run.
+begin the OpMode run.
 
 .. code-block:: java
 
@@ -326,12 +326,12 @@ begin the op mode run.
            // Wait for the game to start (driver presses PLAY)
            waitForStart();
 
-Note that all linear op modes should have a waitForStart statement to
-ensure that the robot will not begin executing the op mode until the
+Note that all linear OpModes should have a waitForStart statement to
+ensure that the robot will not begin executing the OpMode until the
 driver pushes the start button.
 
-After a start command has been received, the op mode enters a while loop
-and keeps iterating in this loop until the op mode is no longer active
+After a start command has been received, the OpMode enters a while loop
+and keeps iterating in this loop until the OpMode is no longer active
 (i.e., until the user pushes the stop button on the DRIVER STATION):
 
 .. code-block:: java
@@ -343,20 +343,20 @@ and keeps iterating in this loop until the op mode is no longer active
 
            }
 
-As the op mode iterates in the while loop, it will continue to send
+As the OpMode iterates in the while loop, it will continue to send
 telemetry messages with the index of "Status" and the message of
 "Running" to be displayed on the DRIVER STATION.
 
-Building Your Op Mode
+Building Your OpMode
 ~~~~~~~~~~~~~~~~~~~~~
 
-When you create or edit an op mode the OnBot Java editor will auto-save
+When you create or edit an OpMode the OnBot Java editor will auto-save
 the .java file to the file system of the Robot Controller. However,
 before you can execute your changes on the Robot Controller, you must
-first build the op mode and convert it from a Java text file to a binary
+first build the OpMode and convert it from a Java text file to a binary
 that can be loaded dynamically into the :term:`Robot Controller app <Robot Controller App>`.
 
-If you are satisfied with your op mode and are ready to build, press the
+If you are satisfied with your OpMode and are ready to build, press the
 Build button (which is the button with the wrench symbol, see image
 below) to start the build process. Note that the build process will
 build **all of the .java files** on your Robot Controller.
@@ -375,20 +375,20 @@ you should see a "Build succeeded!" message in the message pane.
 
 |
 
-Once you have built the binary files with your updated op modes, they
-are ready to run on the Robot Controller. Before we run our example op
-mode, let's see what happens if a problem occurs during the build
+Once you have built the binary files with your updated OpModes, they
+are ready to run on the Robot Controller. Before we run our example
+OpMode, let's see what happens if a problem occurs during the build
 process.
 
 Troubleshooting Build Messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the previous section, the build process went smoothly. Let's modify
-your op mode slightly to cause an error in the build process.
+your OpMode slightly to cause an error in the build process.
 
 In the editing pane of the OnBot Java window, look for the line that
 reads ``private Servo servoTest;``. This should appear somewhere near the
-beginning of your op mode class definition. Change the word "Servo" to
+beginning of your OpMode class definition. Change the word "Servo" to
 the word "Zervo":
 
 .. code-block:: java
@@ -396,7 +396,7 @@ the word "Zervo":
    private Zervo servoTest;
 
 Also, let's modify the telemetry statement that informs the user that
-the op mode has been initialized, and let's remove one of the two
+the OpMode has been initialized, and let's remove one of the two
 arguments so that the statement looks like this:
 
 .. code-block:: java
@@ -412,7 +412,7 @@ indicates that there is a syntax error in the statement.
 
 |
 
-After you have modified your op mode, you can press the build button and
+After you have modified your OpMode, you can press the build button and
 see what error messages appear.
 
 .. image:: images/OnBotDoc_IllegalStart.jpg
@@ -420,7 +420,7 @@ see what error messages appear.
 
 |
 
-When you first attempt to build the op mode, you should get an "illegal
+When you first attempt to build the OpMode, you should get an "illegal
 start of expression error". This is because the addData method is
 missing its second argument. The OnBot Java system also directs you to
 the file that has the error, and the location within the file where the
@@ -452,17 +452,17 @@ column 13.
 |
 
 You should restore the statement back to its original form and then push
-the build button and verify that the op mode gets built properly.
+the build button and verify that the OpMode gets built properly.
 
 .. code-block:: java
 
    private Servo servoTest;
 
-Running Your Op Mode
+Running Your OpMode
 ~~~~~~~~~~~~~~~~~~~~
 
-*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the DRIVER STATION is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
-*  On the DRIVER STATION, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
+*  If you successfully rebuilt your OpMode, you are ready to run the OpMode. Verify that the DRIVER STATION is still connected to the Robot Controller. Since you designated that your example OpMode is a tele-operated OpMode, it will be listed as a "TeleOp" OpMode.
+*  On the DRIVER STATION, use the "TeleOp" dropdown list control to display the list of available OpModes. Select your OpMode ("MyFIRSTJavaOpMode") from the list.
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -474,7 +474,7 @@ Running Your Op Mode
 
 |
 
-   Press the INIT button to initialize the op mode.
+   Press the INIT button to initialize the OpMode.
 
 .. image:: images/InitDH.png
    :align: center
@@ -486,7 +486,7 @@ Running Your Op Mode
 
 |
 
-The op mode will execute the statements in the runOpMode method up to
+The OpMode will execute the statements in the runOpMode method up to
 the waitForStart statement. It will then wait until you press the start
 button (which is represented by the triangular shaped symbol) to
 continue.
@@ -501,9 +501,9 @@ continue.
 
 |
 
-Once you press the start button, the op mode will continue to iterate
+Once you press the start button, the OpMode will continue to iterate
 and send the "Status: Running" message to the DRIVER STATION. To stop
-the op mode, press the square-shaped stop button.
+the OpMode, press the square-shaped stop button.
 
 .. image:: images/TelemetryDH.png
    :align: center
@@ -515,12 +515,12 @@ the op mode, press the square-shaped stop button.
 
 |
 
-Congratulations! You ran your first java op mode!
+Congratulations! You ran your first java OpMode!
 
-Modifying Your Op Mode to Control a Motor
+Modifying Your OpMode to Control a Motor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's modify your op mode to control the DC motor that you connected and
+Let's modify your OpMode to control the DC motor that you connected and
 configured for your REV :term:`Expansion Hub`. Modify the code for the program
 loop so that it looks like the following:
 
@@ -580,15 +580,15 @@ via the telemetry mechanism to the DRIVER STATION.
        telemetry.addData("Target Power", tgtPower);
        telemetry.addData("Motor Power", motorTest.getPower());
 
-After you have modified your op mode to include these new statements,
-press the build button and verify that the op mode was built
+After you have modified your OpMode to include these new statements,
+press the build button and verify that the OpMode was built
 successfully.
 
-Running Your Op Mode with a Gamepad Connected
+Running Your OpMode with a Gamepad Connected
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*  Your op mode takes input from a gamepad and uses this input to control
-   a DC motor. To run your op mode, you will need to connect a Logitech
+*  Your OpMode takes input from a gamepad and uses this input to control
+   a DC motor. To run your OpMode, you will need to connect a Logitech
    F310 gamepad to the DRIVER STATION.
 
 Connect the gamepad to the DRIVER STATION. If using a phone, you will
@@ -604,7 +604,7 @@ need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 |
 
-Your example op mode is looking for input from the gamepad designated as
+Your example OpMode is looking for input from the gamepad designated as
 the user or driver #1. Press the Start button and the A button
 simultaneously on the Logitech F310 controller to designate your
 gamepad as user #1. Note that pushing the Start button and the B button
@@ -622,13 +622,13 @@ gamepad #1, the little icon should be highlighted in green. If the icon
 is missing or if it does not highlight in green when you use your
 gamepad, then there is a problem with the connection to the gamepad.
 
-Select, initialize and run your "MyFIRSTJavaOpMode" op mode. It is
-important to note that whenever you rebuild an op mode, you must stop
-the current op mode run and then restart it before the changes that you
+Select, initialize and run your "MyFIRSTJavaOpMode" OpMode. It is
+important to note that whenever you rebuild an OpMode, you must stop
+the current OpMode run and then restart it before the changes that you
 just built take effect.
 
 If you configured your gamepad properly, then the left joystick should
-control the motion of the motor. As you run your op mode, be careful and
+control the motion of the motor. As you run your OpMode, be careful and
 make sure you do not get anything caught in the turning motor. Note that
 the User #1 gamepad icon should highlight green each time you move the
 joystick. Also note that the target power and actual motor power values

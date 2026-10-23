@@ -16,7 +16,7 @@ time this document was most recently edited, the REV Color-Range sensor
 saturates around 2" (5cm). This means that for distances less than or
 equal to 2", the sensor returns a measured distance equal to 2" or so.
 
-Modify your op mode to add a :term:`telemetry <Telemetry>` statement that will send the
+Modify your OpMode to add a :term:`telemetry <Telemetry>` statement that will send the
 distance information (in centimeters) to the :term:`Driver Station`.
 
 .. code-block:: java
@@ -28,8 +28,8 @@ distance information (in centimeters) to the :term:`Driver Station`.
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-After you have modified your op mode, push the build button, then run
-the op mode to verify that it now displays distance on your Driver
+After you have modified your OpMode, push the build button, then run
+the OpMode to verify that it now displays distance on your Driver
 Station. Note that if the distance reads "NaN" (short for "Not a
 Number") it probably means that your sensor is too far from the target
 (zero reflection). Also note that the sensor saturates at around 5 cm.
@@ -57,7 +57,7 @@ the Control Hub or Expansion Hub, the Touch Sensor will be connected to the seco
 (labeled "1") of the port. The first pin (labeled "0") will stay
 disconnected.
 
-Modify the code in your op mode that occurs before the waitForStart
+Modify the code in your OpMode that occurs before the waitForStart
 command to set the digital channel for input mode.
 
 .. code-block:: java
@@ -89,7 +89,7 @@ ground. Otherwise, the touch sensor button is not pressed.
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-Rebuild your op mode, then reinitialize and restart your op mode. The op
-mode should now display the state of the button ("PRESSED" or "NOT
+Rebuild your OpMode, then reinitialize and restart your OpMode. The
+OpMode should now display the state of the button ("PRESSED" or "NOT
 PRESSED").
 

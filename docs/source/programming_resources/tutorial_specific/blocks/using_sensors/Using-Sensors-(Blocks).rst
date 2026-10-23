@@ -18,7 +18,7 @@ equal to 2", the sensor returns a measured distance equal to 2" or so.
 
 Note that it will take an estimated 15 minutes to complete this task.
 
-Modifying the Op Mode to Display Distance Instructions
+Modifying the OpMode to Display Distance Instructions
 ------------------------------------------------------
 
 1. Verify that your laptop is still connected to the Robot            
@@ -82,7 +82,7 @@ the "number" field of the "call telemetry.addData" programming block.
 
    This will send the measured distance to the target in centimeters back to the DRIVER STATION.
 
-8. Save your op mode and verify that it was saved successfully to the 
+8. Save your OpMode and verify that it was saved successfully to the 
 Robot Controller.                                                     
 
 .. image:: images/DistanceSensorStep8ControlHub.jpg
@@ -92,14 +92,14 @@ Robot Controller.
 
 9. Follow the procedure outlined in the section titled :doc:`Running Your  
 OpMode <../running_op_modes/Running-Your-Op-Mode>` 
-to run your updated op mode.                                          
+to run your updated OpMode.                                          
 
 .. image:: images/DistanceSensorStep9ControlHub.jpg
    :align: center
 
 |
 
-   As you run the op mode, if you move your hand above the color light sensor, you should see the measured distance change on the DRIVER STATION screen.  If the expression "NaN" (not a number) is displayed on the DRIVER STATION, the target is most likely out of range (and the sensor does not detect any reflected light).
+   As you run the OpMode, if you move your hand above the color light sensor, you should see the measured distance change on the DRIVER STATION screen.  If the expression "NaN" (not a number) is displayed on the DRIVER STATION, the target is most likely out of range (and the sensor does not detect any reflected light).
 
 Touch Sensor
 ~~~~~~~~~~~~
@@ -127,7 +127,7 @@ disconnected.
 
 Note that it will take an estimated 15 minutes to complete this task.
 
-Modifying the Op Mode to Display Button (Touch Sensor) State Instructions
+Modifying the OpMode to Display Button (Touch Sensor) State Instructions
 -------------------------------------------------------------------------
 
 1. Verify that your laptop is still connected to the Robot            
@@ -205,7 +205,7 @@ pressed".
 
 |
 
-10. Save your op mode and verify that it was saved successfully to    
+10. Save your OpMode and verify that it was saved successfully to    
 the Robot Controller.                                                 
 
 .. image:: images/TouchSensorOpModeStep10ControlHub.jpg
@@ -215,12 +215,12 @@ the Robot Controller.
 
 11. Follow the procedure outlined in the section titled :doc:`Running Your 
 OpMode <../running_op_modes/Running-Your-Op-Mode>`
-to run your updated op mode.                                          
+to run your updated OpMode.                                          
 
 .. image:: images/TouchSensorOpModeStep11ControlHub.jpg
    :align: center
 
 |
 
-   As you run the op mode and push or release the button, the :term:`telemetry <Telemetry>` message on the DRIVER STATION should update to reflect the current state of the digital Touch Sensor.
+   As you run the OpMode and push or release the button, the :term:`telemetry <Telemetry>` message on the DRIVER STATION should update to reflect the current state of the digital Touch Sensor.
 

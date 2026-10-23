@@ -1,7 +1,7 @@
 Controlling a Servo :bdg-success:`AS`
 =====================================
 
-In this section, you will modify your :term:`op mode <Op Mode>` to control a :term:`servo <Servo>` motor
+In this section, you will modify your :term:`OpMode <OpMode>` to control a :term:`servo <Servo>` motor
 with the buttons of the :term:`gamepad <Gamepad>`.
 
 What is a Servo Motor?
@@ -14,7 +14,7 @@ In the figure below, "standard scale" 180-degree servo is shown. This
 type of servo is popular with hobbyists and with FIRST Tech Challenge
 teams. This servo motor can rotate its shaft through a range of 180
 degrees. Using an electronic module known as a servo controller you can
-write an op mode that will move a servo motor to a specific position.
+write an OpMode that will move a servo motor to a specific position.
 Once the motor reaches this target position, it will hold the position,
 even if external forces are applied to the shaft of the servo.
 
@@ -27,10 +27,10 @@ Servo motors are useful when you want to do precise movements (for
 example, sweep an area with a :term:`sensor <Sensor>` to look for a target or move the
 control surfaces on a remotely controlled airplane).
 
-Modifying Your Op Mode to Control a Servo
+Modifying Your OpMode to Control a Servo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's modify your op mode to add the logic required to control a servo
+Let's modify your OpMode to add the logic required to control a servo
 motor. For this example, you will use the buttons on the Logitech F310
 gamepad to control the position of the servo motor.
 
@@ -51,7 +51,7 @@ corresponds to 180 degrees of rotation for a typical servo motor.
 
 In this example, you will use the colored buttons on the right side of
 the F310 controller to control the position of the servo. Initially, the
-op mode will move the servo to the midway position (90 degrees of its
+OpMode will move the servo to the midway position (90 degrees of its
 180-degree range). Pushing the yellow "Y" button will move the servo to
 the zero-degree position. Pushing the blue "X" button or the red "B"
 button will move the servo to the 90-degree position. Pushing the green
@@ -62,7 +62,7 @@ button will move the servo to the 90-degree position. Pushing the green
 
 |
 
-Modify your op mode to add the following code:
+Modify your OpMode to add the following code:
 
 .. code-block:: java
 
@@ -95,10 +95,10 @@ F310 gamepad are pressed. If the Y button is pressed, it will move the
 servo to the 0-degree position. If either the X button or B button is
 pressed, it will move the servo to the 90-degree position. If the A
 button is pressed, it will move the servo to the 180-degree position.
-The op mode will also send :term:`telemetry <Telemetry>` data on the servo position to the
+The OpMode will also send :term:`telemetry <Telemetry>` data on the servo position to the
 :term:`Driver Station`.
 
-After you have modified your op mode, you can build it and then run it.
+After you have modified your OpMode, you can build it and then run it.
 Verify that gamepad #1 is still configured and then use the colored
 buttons to move the position of the servo.
 

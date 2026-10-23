@@ -1,9 +1,9 @@
 Choosing a Programming Tool
 ============================
 
-You need to select a programming tool to be able to create :term:`op modes <OpMode>`
+You need to select a programming tool to be able to create :term:`OpModes <OpMode>`
 for your competition robot.
-An Op Mode or Operational Mode is program that tells the robot what to do.
+An OpMode or Operational Mode is program that tells the robot what to do.
 There are three programming tools that are available for you to use.
 
 *FIRST* strongly recommends that **all users**
@@ -14,9 +14,9 @@ The Blocks Programming Tool
 ---------------------------
 
 A visual programming tool that
-lets programmers use a web browser to create, edit and save their op
-modes. This tool is recommended for novice programmers and for users
-who prefer to design their op modes visually, using a drag-and-drop
+lets programmers use a web browser to create, edit and save their
+OpModes. This tool is recommended for novice programmers and for users
+who prefer to design their OpModes visually, using a drag-and-drop
 interface.
 
 .. image:: images/BlocksPicture1.jpg
@@ -26,9 +26,9 @@ The OnBot Java Programming Tool
 -------------------------------
 A text-based programming
 tool that lets programmers use a web browser to create, edit and save
-their Java op modes. This tool is recommended for programmers who
+their Java OpModes. This tool is recommended for programmers who
 have basic to advanced Java skills and who would like to write
-text-based op modes.
+text-based OpModes.
 
 .. image:: images/onBotJavaScreen.jpg
    :alt: OnBot Java Programming Tool showing Java source code.
@@ -62,8 +62,8 @@ user have a sound understanding of the Java programming language.
 
 It is important to note that with the Blocks Programming Tool and the
 OnBot Java Programming Tool, a user only needs a web browser to create,
-edit and build op modes for their robot. A user can even create, edit
-and build op modes using an iPad, an Android phone, or a Chromebook.
+edit and build OpModes for their robot. A user can even create, edit
+and build OpModes using an iPad, an Android phone, or a Chromebook.
 
 Android Studio is a powerful development tool. However, it requires
 extensive Java programming knowledge. It also needs a dedicated laptop

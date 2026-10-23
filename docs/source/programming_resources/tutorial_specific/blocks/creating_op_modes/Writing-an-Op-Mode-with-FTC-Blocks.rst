@@ -1,32 +1,32 @@
-Creating Op Modes :bdg-warning:`Blocks`
+Creating OpModes :bdg-warning:`Blocks`
 ========================================
 
 
-What's an Op Mode?
+What's an OpMode?
 ~~~~~~~~~~~~~~~~~~
 
 During a typical *FIRST* Tech Challenge :term:`match <Match>`, a team's robot must
 perform a variety of tasks to score points. For example, a team might
 want their robot to follow a white line on the competition floor and
 then score a game element into a goal autonomously during a match. Teams
-write programs called *op modes* (which stands for "operational modes")
-to specify the behavior for their robot. These :term:`op modes <OpMode>` run on the
+write programs called *OpModes* (which stands for "operational modes")
+to specify the behavior for their robot. These :term:`OpModes <OpMode>` run on the
 :term:`Robot Controller` after being selected on the :term:`DRIVER STATION <Driver Station>`.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
+of programming tools that they can use to create their own OpModes.
 This section of the wiki explains how to use the
-:term:`Blocks Programming Tool` to write an op mode for a robot.
+:term:`Blocks Programming Tool` to write an OpMode for a robot.
 
 The Blocks Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Blocks Programming Tool is a user-friendly programming tool that
-is served up by the Robot Controller. A user can create custom op modes
-for their robot using this tool and then save these op modes directly
+is served up by the Robot Controller. A user can create custom OpModes
+for their robot using this tool and then save these OpModes directly
 onto the Robot Controller. Users drag and drop jigsaw-shaped programming
 blocks onto a design "canvas" and arrange these blocks to create the
-program logic for their op mode. The Blocks Programming Tool is
+program logic for their OpMode. The Blocks Programming Tool is
 powered by Google's Blockly software and was developed with support from
 Google.
 
@@ -45,7 +45,7 @@ Blocks Programming Tool.
 
 |
 
-Note that the process used to create and edit an op mode is identical if
+Note that the process used to create and edit an OpMode is identical if
 you are using a :term:`Control Hub` as your Robot Controller.
 
 .. image:: images/BlocksPicture2b.jpg
@@ -64,18 +64,18 @@ setup and configured your Android devices and robot hardware. It also
 assumes that you have successfully connected your laptop to the Robot
 Controller's Program & Manage wireless network.
 
-Creating Your First Op Mode
+Creating Your First OpMode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you connected your laptop successfully to the Program & Manage
 wireless network of the Robot Controller, then you are ready to create
-your first op mode. In this section, you will use the Blocks
-Programming Tool to create the program logic for your first op mode.
+your first OpMode. In this section, you will use the Blocks
+Programming Tool to create the program logic for your first OpMode.
 
-Note that it will take an estimated 10 minutes to create your first op
-mode.
+Note that it will take an estimated 10 minutes to create your first
+OpMode.
 
-Creating Your First Op Mode Instructions
+Creating Your First OpMode Instructions
 ----------------------------------------
 
 1. Launch the web browser on your laptop (FIRST recommends using      
@@ -120,7 +120,7 @@ navigate to the main Blocks Programming screen.
 
 |
 
-   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks Op Modes on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
+   The main Blocks Programming screen is where you create new OpModes.  It is also the screen where you can see a list of existing Blocks OpModes on a Robot Controller.  Initially this list will be empty until you create and save your first OpMode.
 
 .. image:: images/WritingFirstOpModeStep3bControlHub.jpg
    :align: center
@@ -135,10 +135,10 @@ towards the upper left hand corner of the browser window.
 
 |
 
-   When prompted, specify a name for the op mode and hit "OK" to continue.
+   When prompted, specify a name for the OpMode and hit "OK" to continue.
 
-5. Verify that you created the new op mode. You should see your newly 
-created op mode opened for editing in your web browser's main screen. 
+5. Verify that you created the new OpMode. You should see your newly 
+created OpMode opened for editing in your web browser's main screen. 
 
 .. image:: images/WritingFirstOpModeStep5ControlHub.jpg
    :align: center
@@ -147,48 +147,48 @@ created op mode opened for editing in your web browser's main screen.
 
    Notice that the left-hand side of the browsers screen contains a list of categorized programming blocks.  If you click on a category, the browser will display a list of available related programming blocks.
 
-   The right-hand side of the screen is where you arrange your programming blocks to create the logic for your op mode.
+   The right-hand side of the screen is where you arrange your programming blocks to create the logic for your OpMode.
 
 
-Examining the Structure of Your Op Mode
+Examining the Structure of Your OpMode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you create a new op mode, there should already be a set of
-programming blocks that are placed on the design canvas for your op
-mode. These blocks are automatically included with each new op mode that
-you create. They create the basic structure for your op mode.
+When you create a new OpMode, there should already be a set of
+programming blocks that are placed on the design canvas for your
+OpMode. These blocks are automatically included with each new OpMode that
+you create. They create the basic structure for your OpMode.
 
 .. image:: images/ExaminingStructurePic1ControlHub.jpg
    :align: center
 
 |
 
-In the figure shown above, the main body of the op mode is defined by
+In the figure shown above, the main body of the OpMode is defined by
 the outer purple bracket that has the words "to runOpMode" at the top.
-As the help tip indicates, this function is executed when this op mode
+As the help tip indicates, this function is executed when this OpMode
 ("MyFIRSTOpMode" in this example) is selected from the DRIVER STATION.
 
-It can be helpful to think of an op mode as a list of tasks for the
+It can be helpful to think of an OpMode as a list of tasks for the
 Robot Controller to perform. The Robot Controller will process this list
 of tasks sequentially. Users can also use control loops (such as a while
 loop) to have the Robot Controller repeat (or iterate) certain tasks
-within an op mode.
+within an OpMode.
 
 .. image:: images/ExaminingStructurePic2.jpg
    :align: center
 
 |
 
-If you think about an op mode as a list of instructions for the robot,
+If you think about an OpMode as a list of instructions for the robot,
 this set of instructions will be executed by the robot whenever a team
-member selects the op mode called "MyFIRSTOpMode" from the list of
-available op modes for this Robot Controller.
+member selects the OpMode called "MyFIRSTOpMode" from the list of
+available OpModes for this Robot Controller.
 
 You can hide the help text by clicking on the blue button with the
-question mark ("?") on it. Let's look at the flow of this basic op mode.
+question mark ("?") on it. Let's look at the flow of this basic OpMode.
 The blue colored block with the words "Put initialization blocks here"
-is a comment. Comments are placed in an op mode for the benefit of the
-human user. The robot will ignore any comments in an op mode.
+is a comment. Comments are placed in an OpMode for the benefit of the
+human user. The robot will ignore any comments in an OpMode.
 
 .. image:: images/ExaminingStructurePic3.jpg
    :align: center
@@ -197,7 +197,7 @@ human user. The robot will ignore any comments in an op mode.
 
 Any programming blocks that are placed after the "Put initialization
 blocks here" comment (and before the "call MyFIRSTOpMode.waitForStart"
-block) will be executed when the op mode is first selected by a user at
+block) will be executed when the OpMode is first selected by a user at
 the DRIVER STATION.
 
 When the Robot Controller reaches the block labeled "call
@@ -214,7 +214,7 @@ after the Start button has been pressed.
 
 After the "call MyFIRSTOpMode.waitForStart", there is a conditional "if"
 block ("if call MyFIRSTOpMode.isActive") that only gets executed if the
-op mode is still active (i.e., a stop command hasn't been received).
+OpMode is still active (i.e., a stop command hasn't been received).
 
 .. image:: images/ExaminingStructurePic4bControlhub.jpg
    :align: center
@@ -238,7 +238,7 @@ This green control block will perform the steps listed under the "do"
 portion of the block as long as the condition "call
 MyFIRSTOpMode.opModeIsActive" is true. What this means is that the
 statements included in the "do" portion of the block will repeatedly be
-executed as long as the op mode "MyFIRSTOpMode" is running. Once the
+executed as long as the OpMode "MyFIRSTOpMode" is running. Once the
 user presses the Stop button, the "call MyFIRSTOpMode.opModeIsActive"
 clause is no longer true and the "repeat while" loop will stop repeating
 itself.
@@ -246,7 +246,7 @@ itself.
 Controlling a DC Motor
 ~~~~~~~~~~~~~~~~~~~~~~
 
-In this section, you will add some blocks to your op mode that will
+In this section, you will add some blocks to your OpMode that will
 allow you to control a :term:`DC motor <DC Motor>` with a :term:`gamepad <Gamepad>`.
 
 Note that you will need an estimated 15 minutes to complete this task.
@@ -255,22 +255,22 @@ Note that you will need an estimated 15 minutes to complete this task.
 
 If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`
 to do so. After you created and activated your configuration file,
-you can close and then reopen your op mode so that the programming 
+you can close and then reopen your OpMode so that the programming 
 blocks for the newly configured devices will be visible.
 
-Modifying Your Op Mode to Control a DC Motor Instructions
+Modifying Your OpMode to Control a DC Motor Instructions
 ---------------------------------------------------------
 
 1. On the left-hand side of the screen click on the category called   
 "Variables" to display the list of block commands that are used to    
-create and modify variables within your op mode.                      
+create and modify variables within your OpMode.                      
 
 .. image:: images/AddingDCMotorStep1ControlHub.jpg
    :align: center
 
 |
 
-   Click on "Create variable..." to create a new variable that will represent the target motor power for our op mode.
+   Click on "Create variable..." to create a new variable that will represent the target motor power for our OpMode.
 
 2. When prompted, type in a name ("tgtPower") for your new variable.  
 
@@ -308,7 +308,7 @@ blocks.
 
 |
 
-   Note that the :term:`control system <Control System>` lets you have up to two gamepads controlling a robot.  By selecting "gamepad1" you are telling the op mode to use the control input from the gamepad that is designated as driver #1.
+   Note that the :term:`control system <Control System>` lets you have up to two gamepads controlling a robot.  By selecting "gamepad1" you are telling the OpMode to use the control input from the gamepad that is designated as driver #1.
 
 6. Drag the "gamepad1.LeftStickY" block so it snaps in place onto the 
 right side of the "set tgtPower to" block. This set of blocks will    
@@ -394,7 +394,7 @@ of the "set motor1.Power to" block.
 Inserting Telemetry Statements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Your op mode is just about ready to run. However, before continuing, you
+Your OpMode is just about ready to run. However, before continuing, you
 will add a couple of :term:`telemetry <Telemetry>` statements that will send information
 from the Robot Controller to the DRIVER STATION for display on the
 DRIVER STATION user interface. This telemetry mechanism is a useful way
@@ -461,20 +461,20 @@ second telemetry block.
 
 |
 
-   Your op mode will now also send the motor power information from the Robot Controller to be displayed on the DRIVER STATION.
+   Your OpMode will now also send the motor power information from the Robot Controller to be displayed on the DRIVER STATION.
 
-Saving Your Op Mode
+Saving Your OpMode
 ~~~~~~~~~~~~~~~~~~~
 
-After you have modified your op mode, it is very important to save the
-op mode to the Robot Controller.
+After you have modified your OpMode, it is very important to save the
+OpMode to the Robot Controller.
 
 Note it will take an estimated 1 minute to complete this task.
 
-Saving Your Op Mode Instructions
+Saving Your OpMode Instructions
 --------------------------------
 
-1. Press the "Save Op Mode" button to save the op mode to the Robot   
+1. Press the "Save Op Mode" button to save the OpMode to the Robot   
 Controller. If your save was successful, you should see the words     
 "Save completed successfully" to the right of the buttons.            
 
@@ -487,7 +487,7 @@ Controller. If your save was successful, you should see the words
 Exiting Program & Manage Screen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After you have modified and saved your op mode, if your DRIVER STATION
+After you have modified and saved your OpMode, if your DRIVER STATION
 is still in the Program & Manage screen, then you should exit this
 screen and return to the Main DRIVER STATION screen.
 
@@ -499,13 +499,13 @@ Exiting Programming Mode Instructions
 
 1. Press the Android back arrow to exit the Program & Manage screen.  
 You need to exit the Program & Manage screen before you can run your  
-op mode.                                                              
+OpMode.                                                              
 
 .. image:: images/SavingOpModeStep1ControlHub.jpg
    :align: center
 
 |
 
-Congratulations! You wrote your first op mode using the Blocks
-Programming Tool! You will learn how to run your op mode in the the
-section entitled :doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>`.
+Congratulations! You wrote your first OpMode using the Blocks
+Programming Tool! You will learn how to run your OpMode in the the
+section entitled :doc:`Running Your OpMode <../running_op_modes/Running-Your-Op-Mode>`.

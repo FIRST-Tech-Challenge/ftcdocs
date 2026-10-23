@@ -120,10 +120,10 @@ wiring! It is extremely important that the polarity is correct for this
 special cable. If the polarity is reversed it could damage your
 electronic equipment.**
 
-Sample Op Modes
+Sample OpModes
 ^^^^^^^^^^^^^^^
 
-There are sample :term:`Blocks` and Java :term:`Op Modes <OpMode>` that demonstrate how to use
+There are sample :term:`Blocks` and Java :term:`OpModes <OpMode>` that demonstrate how to use
 the external UVC web camera for :term:`VisionPortal` operations. Before
 a team can use the external UVC camera, a :term:`configuration file <Configuration File>` must be
 configured with the external camera defined as one of the USB-connected
