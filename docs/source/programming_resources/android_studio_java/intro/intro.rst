@@ -2,8 +2,8 @@ Introduction :bdg-success:`AS`
 =====================================
 
 These pages introduce the :term:`Control System`, list the hardware needed to complete
-this tutorial, and describe the Android devices used as the :term:`ROBOT CONTROLLER <Robot Controller>`
-and the :term:`DRIVER STATION <Driver Station>`. Most of *Using Your Android Device* describes the
+this tutorial, and describe the Android devices used as the :term:`robot controller <Robot Controller>`
+and the :term:`driver station <Driver Station>`. Most of *Using Your Android Device* describes the
 smartphone setups; teams using a :term:`Driver Hub` only need its first section.
 
 .. toctree::

@@ -18,13 +18,13 @@ Changing the Name
 
 In order to comply with the :term:`Competition Manual`, the name of the Driver
 Station (DS) should be changed. 
-Configure devices for your team number. The ROBOT CONTROLLER, DRIVER STATION, and any spares used must be configured/named to correspond to the correct team number as follows:
+Configure devices for your team number. The robot controller, driver station, and any spares used must be configured/named to correspond to the correct team number as follows:
 
-A.     ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),
+A.     robot controller should be named <team number>-RC (e.g., 12345-RC),
 
-B.     DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and
+B.     driver station should be named <team number>-DS (e.g., 12345-DS), and
 
-C.     If a spare ROBOT CONTROLLER or DRIVER STATION is configured, a letter designator may be added <team number>-<letter>-RC/DS (e.g., 12345-A-DS, 12345-B-DS)
+C.     If a spare robot controller or driver station is configured, a letter designator may be added <team number>-<letter>-RC/DS (e.g., 12345-A-DS, 12345-B-DS)
 
 Check the current Competition Manual for the rules related to *Control, Command & Signals System*.
 
@@ -69,7 +69,7 @@ right hand corner to display a pop-up menu.
 
 |   
 
-3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS*    
+3. Click on *Driver Station Name* on the *driver station SETTINGS*    
 page.                                                                 
 
 .. image:: images/clickDriverStationName.png

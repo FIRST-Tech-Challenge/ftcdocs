@@ -13,8 +13,8 @@ configuring your :term:`Control System` hardware, installing and managing the
 not need to have worked through the :term:`Blocks` or :term:`OnBot Java` tutorials first.
 
 The tutorial is written for the officially supported setup: a REV Robotics
-:term:`Control Hub` as the :term:`ROBOT CONTROLLER <Robot Controller>` and a REV Robotics :term:`Driver Hub` as the
-:term:`DRIVER STATION <Driver Station>`. Smartphones are legal to use in competition but are not
+:term:`Control Hub` as the :term:`robot controller <Robot Controller>` and a REV Robotics :term:`Driver Hub` as the
+:term:`driver station <Driver Station>`. Smartphones are legal to use in competition but are not
 officially supported, and the pages this tutorial links to cover those setups
 separately.
 

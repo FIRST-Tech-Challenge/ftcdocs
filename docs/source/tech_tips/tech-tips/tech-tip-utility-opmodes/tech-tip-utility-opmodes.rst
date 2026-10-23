@@ -19,7 +19,7 @@ kind of :term:`OpMode` is available:
 classification of OpModes designed to help teams classify and group OpModes
 that are not meant to live alongside the AUTO or TELEOP OpModes - those OpModes
 that teams write that provide diagnostics or control that you wouldn't run
-during a MATCH. UNCLUTTER YOUR OPMODES! 
+during a match. UNCLUTTER YOUR OPMODES! 
 
 Many teams write test OpModes for virtually everything connected to their 
 system, from actuators to :term:`sensors <Sensor>` - including 

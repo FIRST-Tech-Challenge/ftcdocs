@@ -7,14 +7,14 @@ familiarize yourself with the basic operation of your Android device.
 REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Teams who are using the REV Robotics :term:`Driver Hub` as their DRIVER STATION
+Teams who are using the REV Robotics :term:`Driver Hub` as their driver station
 should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
 for instructions on how to set up and use the REV Robotics Driver Hub.
 
 Android Smartphone
 ~~~~~~~~~~~~~~~~~~
 
-An Android smartphone may be used as a DRIVER STATION or ROBOT CONTROLLER,
+An Android smartphone may be used as a driver station or robot controller,
 but it is not recommended.
 
 .. important:: Smartphones are not officially supported. They are legal to use

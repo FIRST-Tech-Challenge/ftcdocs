@@ -58,7 +58,7 @@ Camera Configuration
 Before using the external camera, it must be added to the active
 :term:`configuration file <Configuration File>` as a USB-connected device.
 
-Use the Configure Robot menu item on the paired DRIVER STATION device to
+Use the Configure Robot menu item on the paired driver station device to
 add the webcam as a USB-connected device to an existing or newly created
 configuration file. Note that the Scan operation for the Configure Robot
 activity should detect the webcam and give it a default name of “Webcam
@@ -94,7 +94,7 @@ Image Preview
 The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
 Modes using VisionPortal.
 
-On a paired DRIVER STATION device, with the camera connected and
+On a paired driver station device, with the camera connected and
 configured, select a stream-enabled Op Mode. Press the INIT button, and
 wait briefly for streaming software to initialize; do not press the
 START button. Instead open the main menu (the 3 dots in upper right hand
@@ -105,7 +105,7 @@ for safety.
 .. image:: images/DS-webcam-preview-CH-1.jpg
    :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
-The camera image will appear on the DRIVER STATION screen. Manually
+The camera image will appear on the driver station screen. Manually
 touch the image to refresh it. To preserve bandwidth, only one frame is
 sent at a time.
 
@@ -129,7 +129,7 @@ pressed to continue running the Op Mode.
    :alt: Blocks code showing the INIT code for the webcam is called before wait for start.
 
 If you do not see the Camera Stream option in your main menu on your
-DRIVER STATION, then verify that the VisionPortal is activated
+driver station, then verify that the VisionPortal is activated
 before the waitForStart command in your Op Mode. Also make sure you’ve
 given the system enough time to initialize the VisionPortal software before
 you check to see if Camera Stream is available.
@@ -151,7 +151,7 @@ to install and run scrcpy on your computer.
 
 .. warning:: While scrcpy is a great way to view the camera output,
    the Competition Manual does not allow teams to
-   have any devices other than the DRIVER STATION connected to your Control
+   have any devices other than the driver station connected to your Control
    Hub during a :term:`match <Match>`.
 
 External HDMI Monitor

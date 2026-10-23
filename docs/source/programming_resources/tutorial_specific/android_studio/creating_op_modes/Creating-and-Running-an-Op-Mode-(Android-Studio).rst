@@ -513,7 +513,7 @@ or other approved gamepad to the Driver Station.
 
 Connect the gamepad to the Driver Station. If using a REV Robotics :term:`Driver
 Hub`, you can directly connect the gamepad to one of the USB-A ports. On a
-DRIVER STATION phone, you will need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
+driver station phone, you will need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center

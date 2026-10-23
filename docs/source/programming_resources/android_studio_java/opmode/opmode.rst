@@ -2,11 +2,11 @@ Writing an Op Mode :bdg-success:`AS`
 ====================================
 
 These pages cover writing an :term:`OpMode` in the ``TeamCode`` module, building it,
-installing it onto the :term:`ROBOT CONTROLLER <Robot Controller>`, and running it from the :term:`DRIVER
+installing it onto the :term:`robot controller <Robot Controller>`, and running it from the :term:`DRIVER
 STATION <Driver Station>`.
 
 A :term:`Control Hub` has Developer Options enabled from the factory. The first page
-below is needed only by teams using a smartphone ROBOT CONTROLLER.
+below is needed only by teams using a smartphone robot controller.
 
 .. toctree::
     Enabling Developer Options (Smartphone Robot Controller) <../../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>
