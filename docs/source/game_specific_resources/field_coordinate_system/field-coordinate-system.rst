@@ -127,16 +127,16 @@ Square Field
    * The Y axis points across the field from the Red Wall towards the Blue Alliance.
    * The X axis points away from the audience to the rear of the field.
 
-Square Field (Inverted ALLIANCE AREA)
+Square Field (Inverted alliance area)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/decode-field.png
-   :alt: A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA.
+   :alt: A square field with X, Y and Z axes shown, with inverted alliance area.
    
    The DECODE game field
    
-   The DECODE game field is essentially a square field, but the red and blue ALLIANCE
-   AREAS are swapped from their typical configuration (red ALLIANCE AREA on the left 
+   The DECODE game field is essentially a square field, but the red and blue alliance
+   areas are swapped from their typical configuration (red alliance area on the left
    when viewed from the audience). In this configuration, the X and Y axes are "inverted"
    in which direction the positive axis points. This is still consistent with the field
    coordinate system definition, but the field is inverted.
@@ -198,4 +198,3 @@ with respect to the robot. See :ref:`IMU axes definition. <programming_resources
 The yaw value from the IMU, also known the :term:`heading <Heading>`, measures rotation about the Z axis
 which points up from the robot. 
 You can use the IMU to determine which direction a robot is facing.
-

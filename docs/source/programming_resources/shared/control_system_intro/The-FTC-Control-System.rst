@@ -30,19 +30,19 @@ Android devices can communicate with each other over a wireless connection.
 |
 
 One Android device is mounted onto the robot and is called the
-:term:`Robot Controller`. In most cases, the ROBOT CONTROLLER is the
+:term:`Robot Controller`. In most cases, the robot controller is the
 REV Robotics :term:`Control Hub`. The Robot Controller acts as the “brains” of the
 robot. It does all of the thinking for the robot and tells the robot what
 to do. It consists of an Android device running the Robot Controller app. Many
 Teams will also connect a REV Robotics :term:`Expansion Hub` for additional ports to
-connect motors, :term:`servos <Servo>` and :term:`sensors <Sensor>` to the ROBOT.
+connect motors, :term:`servos <Servo>` and :term:`sensors <Sensor>` to the robot.
 
 A second Android device sits with the team drivers and has one or two
-:term:`gamepads <Gamepad>` connected. This second device is known as the DRIVER STATION.
-The DRIVER STATION is like a remote control that you might use
-to control your television. The DRIVER STATION allows a team to
+:term:`gamepads <Gamepad>` connected. This second device is known as the driver station.
+The driver station is like a remote control that you might use
+to control your television. The driver station allows a team to
 communicate remotely (using a secure, wireless connection) to the Robot
-Controller and to issue commands to the Robot Controller. The DRIVER STATION
+Controller and to issue commands to the Robot Controller. The driver station
 is usually a REV Robotics :term:`Driver Hub` running the :term:`Driver Station` app.
 
 .. important:: Only the REV Control Hub and the REV Driver Hub are officially
@@ -70,7 +70,7 @@ REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 The REV Robotics Driver Hub is the electronic module that the team uses to
-control the ROBOT. Teams can use the Driver Station app to select and run
+control the robot. Teams can use the Driver Station app to select and run
 various programs. One or more gamepads are connected to the Driver Hub and are
 used by the team to move the robot around the field and operate its various mechanisms.
 
@@ -132,7 +132,7 @@ Android Smartphones
 
 The REV Driver Hub and REV Control Hub are the only officially supported control system devices.
 
-Teams may opt to use an Android smartphone as their DRIVER STATION, ROBOT CONTROLLER or both.
+Teams may opt to use an Android smartphone as their driver station, robot controller or both.
 Due to unpredictable variations in Android software across different manufacturers and updates, 
 the REV Robotics Control Hub and Driver Hub are the only officially supported devices for the control system.
 
@@ -154,11 +154,11 @@ Flagship Samsung phones seem to be well supported, as well as the Samsung A10.
 
 
 
-For a DRIVER STATION phone ensure the FTC Driver Station App is cleanly installed.
+For a driver station phone ensure the FTC Driver Station App is cleanly installed.
 See :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`.
 You will need an :term:`OTG adapter <OTG Adapter>` and a :term:`USB hub <USB Hub>` to connect gamepads.
 
-For a ROBOT CONTROLLER phone ensure the Robot Controller App is cleanly installed.
+For a robot controller phone ensure the Robot Controller App is cleanly installed.
 See :doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-the-RC-App>`.
 You will need an OTG adapter and a USB A to USB Mini cable to connect to a REV Expansion Hub.
 
@@ -169,7 +169,7 @@ You will need an OTG adapter and a USB A to USB Mini cable to connect to a REV E
 
 |
 
-Teams who use an Android smartphone as their ROBOT CONTROLLER will need a
+Teams who use an Android smartphone as their robot controller will need a
 REV Robotics Expansion Hub to connect motors, servos and sensors. The smartphone is
 connected to the Expansion Hub via a USB-A to USB-Mini cable and an OTG adapter.
 
@@ -177,4 +177,3 @@ connected to the Expansion Hub via a USB-A to USB-Mini cable and an OTG adapter.
    :align: center
 
 |
-

@@ -25,8 +25,8 @@ a variety of tasks to score points. For example, a team might want their
 robot to follow a white line on the competition floor and then score a
 game element into a goal autonomously during a match. Teams write
 programs called :term:`OpModes <OpMode>` (which stands for "operational modes") to
-specify the behavior for their robot. These OpModes run on the ROBOT
-CONTROLLER after being selected on the DRIVER STATION device.
+specify the behavior for their robot. These OpModes run on the robot
+CONTROLLER after being selected on the driver station device.
 
 Teams who are participating in the *FIRST* Tech Challenge have a variety
 of programming tools that they can use to create their own OpModes.
@@ -314,8 +314,8 @@ In the next few statements of the example, the op mode prompts the user
 to push the start button to continue. It uses another object that is
 available in the runOpMode method. This object is called :term:`telemetry <Telemetry>` and
 the op mode uses the addData method to add a message to be sent to the
-DRIVER STATION. The op mode then calls the update method to send the
-message to the DRIVER STATION. Then it calls the waitForStart method, to
+driver station. The op mode then calls the update method to send the
+message to the driver station. Then it calls the waitForStart method, to
 wait until the user pushes the start button on the :term:`driver station <Driver Station>` to
 begin the op mode run.
 
@@ -332,7 +332,7 @@ driver pushes the start button.
 
 After a start command has been received, the op mode enters a while loop
 and keeps iterating in this loop until the op mode is no longer active
-(i.e., until the user pushes the stop button on the DRIVER STATION):
+(i.e., until the user pushes the stop button on the driver station):
 
 .. code-block:: java
 
@@ -345,7 +345,7 @@ and keeps iterating in this loop until the op mode is no longer active
 
 As the op mode iterates in the while loop, it will continue to send
 telemetry messages with the index of "Status" and the message of
-"Running" to be displayed on the DRIVER STATION.
+"Running" to be displayed on the driver station.
 
 Building Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~~
@@ -461,8 +461,8 @@ the build button and verify that the op mode gets built properly.
 Running Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~
 
-*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the DRIVER STATION is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
-*  On the DRIVER STATION, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
+*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the driver station is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
+*  On the driver station, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -502,7 +502,7 @@ continue.
 |
 
 Once you press the start button, the op mode will continue to iterate
-and send the "Status: Running" message to the DRIVER STATION. To stop
+and send the "Status: Running" message to the driver station. To stop
 the op mode, press the square-shaped stop button.
 
 .. image:: images/TelemetryDH.png
@@ -571,7 +571,7 @@ negating the joystick y value can be very useful in practice.
 The next set of statements sets the power of motorTest to the value
 represented by the variable tgtPower. The values for target power and
 actual motor power are then added to the set of data that will be sent
-via the telemetry mechanism to the DRIVER STATION.
+via the telemetry mechanism to the driver station.
 
 .. code-block:: java
 
@@ -589,9 +589,9 @@ Running Your Op Mode with a Gamepad Connected
 
 *  Your op mode takes input from a gamepad and uses this input to control
    a DC motor. To run your op mode, you will need to connect a Logitech
-   F310 gamepad to the DRIVER STATION.
+   F310 gamepad to the driver station.
 
-Connect the gamepad to the DRIVER STATION. If using a phone, you will
+Connect the gamepad to the driver station. If using a phone, you will
 need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.
 
 .. image:: images/GamepadDHConnection.jpg
@@ -617,7 +617,7 @@ simultaneously would designate the gamepad as user #2.
 
 If you successfully designated the gamepad to be user #1, you should see
 a little gamepad icon above the text "User 1" in the upper right hand
-corner of the DRIVER STATION Screen. Whenever there is activity on
+corner of the driver station Screen. Whenever there is activity on
 gamepad #1, the little icon should be highlighted in green. If the icon
 is missing or if it does not highlight in green when you use your
 gamepad, then there is a problem with the connection to the gamepad.
@@ -632,7 +632,7 @@ control the motion of the motor. As you run your op mode, be careful and
 make sure you do not get anything caught in the turning motor. Note that
 the User #1 gamepad icon should highlight green each time you move the
 joystick. Also note that the target power and actual motor power values
-should be displayed in the telemetry area on the DRIVER STATION.
+should be displayed in the telemetry area on the driver station.
 
 .. image:: images/TelemetryDH.png
    :align: center
@@ -643,4 +643,3 @@ should be displayed in the telemetry area on the DRIVER STATION.
    :align: center
 
 |
-

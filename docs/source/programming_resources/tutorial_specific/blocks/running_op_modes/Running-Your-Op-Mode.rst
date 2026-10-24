@@ -2,8 +2,8 @@ Running Your OpMode (All Languages)
 -----------------------------------
 
 If your :term:`OpMode` requires input from a :term:`gamepad <Gamepad>`, then you will need to
-connect a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that you can
-have up to two gamepads connected to a DRIVER STATION. If using a phone,
+connect a Logitech F310 or other approved gamepad to the driver station. Note that you can
+have up to two gamepads connected to a driver station. If using a phone,
 this will require a :term:`USB hub <USB Hub>`. However, in this example, we will only have
 a solitary gamepad connected.
 
@@ -12,7 +12,7 @@ Note that you will need an estimated 10 minutes to complete this task.
 Running Your OpMode Instructions
 ---------------------------------
 
-1. Connect the gamepad to the DRIVER STATION. If using a phone, you will
+1. Connect the gamepad to the driver station. If using a phone, you will
 need a Micro USB :term:`OTG adapter <OTG Adapter>` cable.                                                        
 
 .. image:: images/GamepadDHConnection.jpg
@@ -39,7 +39,7 @@ as user #1.
 
    Note that pushing the Start button and the B button simultaneously would designate the gamepad as user #2.
 
-3. On the DRIVER STATION screen, touch the triangular-shaped,         
+3. On the driver station screen, touch the triangular-shaped,         
 "TeleOp" dropdown list button to display a list available OpModes.   
 You should see your recently saved OpMode among the list of          
 available OpModes that reside on your :term:`Robot Controller`.              
@@ -69,7 +69,7 @@ Controller.
 
 |
 
-   Note that even though you are using the DRIVER STATION to select the OpMode, the actual OpMode instructions will be executed on the Robot Controller.
+   Note that even though you are using the driver station to select the OpMode, the actual OpMode instructions will be executed on the Robot Controller.
 
 1. Press the INIT button to initialize your OpMode.                  
 
@@ -111,5 +111,5 @@ right hand corner of the screen.
 
 |
 
-   If you want to stop your OpMode, press the square-shaped Stop button on the DRIVER STATION.
+   If you want to stop your OpMode, press the square-shaped Stop button on the driver station.
 

@@ -7,7 +7,7 @@ What Needs to Be Configured for My Control System?
 Driver Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who are using the REV Robotics :term:`Driver Hub` as their DRIVER STATION
+Teams who are using the REV Robotics :term:`Driver Hub` as their driver station
 should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
 for instructions on how to set up and use the REV Robotics Driver Hub.
 
@@ -15,17 +15,17 @@ Control Hub Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
-   References to the DRIVER STATION smartphone may instead apply to the
+   References to the driver station smartphone may instead apply to the
    `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
    which is preloaded with the :term:`Driver Station` (DS) app.
 
 Teams who are using a :term:`Control Hub` (which has an integrated Android Device)
-will only need to configure a single smartphone for use as a DRIVER STATION. The process is as follows:
+will only need to configure a single smartphone for use as a driver station. The process is as follows:
 
 *  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station (DS) app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
+*  Install the Driver Station (DS) app onto the driver station device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
 *  Put your phone into Airplane Mode (with the WiFi radio still on).
-*  Pair (i.e., wirelessly connect) the DRIVER STATION to the Control Hub.
+*  Pair (i.e., wirelessly connect) the driver station to the Control Hub.
 
 .. image:: images/ControlHubAndPhone.jpg
    :align: center
@@ -47,14 +47,14 @@ Two Android Smartphone Configuration
 
 Teams who have two smartphones and are not using a Control Hub will need
 to configure one smartphone for use as a :term:`Robot Controller` and a second
-smartphone for use as an DRIVER STATION. The process is as follows,
+smartphone for use as an driver station. The process is as follows,
 
 *  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number).
 *  Install the Robot Controller app onto the Robot Controller phone.
 *  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
+*  Install the Driver Station app onto the driver station device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
 *  Put your phones into Airplane Mode (with the WiFi radios still on).
-*  Pair (i.e., wirelessly connect) the DRIVER STATION to the Robot Controller.
+*  Pair (i.e., wirelessly connect) the driver station to the Robot Controller.
 
 .. image:: images/twoAndroidPhones.jpg
    :align: center
@@ -68,13 +68,13 @@ Renaming Your Smartphones
 
 The official rules of the *FIRST* Tech Challenge (see R707) require that
 you change the Wi-Fi name of your smartphones to include your team
-number and "-RC" if the phone is a Robot Controller or "-DS" if it is a DRIVER STATION. A team can insert an additional dash and a letter ("A",
+number and "-RC" if the phone is a Robot Controller or "-DS" if it is a driver station. A team can insert an additional dash and a letter ("A",
 "B", "C", etc.) if the team has more than one set of Android phones.
 
 If, for example, a team has a team number of 9999 and the team has
 multiple sets of phones, the team might decide to name one phone
 "9999-C-RC" for the Robot Controller and the other phone "9999-C-DS" for
-the DRIVER STATION. The "-C" indicates that these devices belong to the
+the driver station. The "-C" indicates that these devices belong to the
 third set of phones for this team.
 
 The name of a Robot Controller phone can be changed in the RC app, using
@@ -82,7 +82,7 @@ instructions :ref:`found here <programming_resources/shared/managing_smartphone_
 It can also be changed at the *Manage* page from the RC app, a paired DS
 app, or a connected laptop; click ``Apply Wi-Fi Settings`` when done.
 
-The name of a DRIVER STATION device can be changed in the DS app, using
+The name of a driver station device can be changed in the DS app, using
 instructions
 :ref:`found here <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:changing the name>`.
 
@@ -131,7 +131,7 @@ level, as described below.
    * - 7. Select **Configure Device** from the pop-up menu.
      - |rename7|
 
-   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the :term:`Wi-Fi Direct` inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
+   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a driver station, specify your team number and -DS. You can also set the :term:`Wi-Fi Direct` inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
      - |rename8|
 
    * - 9. After renaming your phone, power cycle the device.
@@ -144,9 +144,9 @@ Installing the *FIRST* Tech Challenge Apps
 For detailed instructions on how to install and update apps, please see these
 other pages:
 
-:ref:`ROBOT CONTROLLER app <ftc_sdk/updating/rc_app/updating-the-rc-app:updating the robot controller (rc) app>`
+:ref:`robot controller app <ftc_sdk/updating/rc_app/updating-the-rc-app:updating the robot controller (rc) app>`
 
-:ref:`DRIVER STATION app <ftc_sdk/updating/ds_app/updating-the-ds-app:updating the driver station app>`
+:ref:`driver station app <ftc_sdk/updating/ds_app/updating-the-ds-app:updating the driver station app>`
 
 
 **As of 2021, the SDK apps (v 6.1 and higher) are no longer available on
@@ -233,7 +233,7 @@ Placing Phones into Airplane Mode with Wi-Fi On
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For the *FIRST* Tech Challenge competitions, it is important that you
-place your Robot Controller and DRIVER STATION devices into Airplane mode
+place your Robot Controller and driver station devices into Airplane mode
 but keep their Wi-Fi radios turned on. This is important because you do
 not want any of the cellular telephone functions to be enabled during a
 :term:`match <Match>`. The cellular telephone functions could disrupt the function of
@@ -261,7 +261,7 @@ the robot during a match.
      - |airplane2|
 
 
-Pairing the DRIVER STATION to the Robot Controller
+Pairing the driver station to the Robot Controller
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _control-hub-users-1:
@@ -272,11 +272,11 @@ Control Hub Pairing
 The REV Robotics Control Hub should come with the Robot Controller app
 pre-installed. Once you have successfully installed the Driver
 Station on an Android phone, you will want to establish a secure
-wireless connection between the Control Hub and the DRIVER STATION. This
-connection will allow your DRIVER STATION device to select op modes on
+wireless connection between the Control Hub and the driver station. This
+connection will allow your driver station device to select op modes on
 your Robot Controller and send :term:`gamepad <Gamepad>` input to these programs.
 Likewise, it will allow your op modes running on your Robot Controller
-to send :term:`telemetry <Telemetry>` data to your DRIVER STATION phone where it can be
+to send :term:`telemetry <Telemetry>` data to your driver station phone where it can be
 displayed for your drivers. The process to connect the two devices is
 known as "pairing."
 
@@ -329,7 +329,7 @@ task.
    * - 6. From the **Settings** screen, look for and select \ **Pairing Method** to launch the **Pairing** \ **Method** screen.
      - |pairing6|
 
-   * - 7. Touch the words **Control Hub** to indicate that this DRIVER STATION will be pairing with a Control Hub.
+   * - 7. Touch the words **Control Hub** to indicate that this driver station will be pairing with a Control Hub.
      - |pairing7|
 
    * - 8. From the **Settings** screen, look for and select \ **Pair with Robot Controller** to launch the **Pair** \ **with Robot Controller** screen.
@@ -341,13 +341,13 @@ task.
    * - 10. Find the name of your Control Hub's wireless network from the list of available WiFi networks. Click on the network name to select the network. If this is the first time you are connecting to the Control Hub, then the default network name should begin with the prefix FTC- (FTC-1Ybr in this example). The default network name should be listed on a sticker attached to the bottom side of the Control Hub.
      - |pairing10|
 
-   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the :term:`Hub`. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
+   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the :term:`Hub`. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the driver station will not have access to the Internet.
      - |pairing11|
 
-   * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
+   * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main driver station screen.
      - |pairing12|
 
-   * - 13. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Control Hub. The name of the Control Hub's WiFi network (FTC-1Ybr in this example) should be displayed in the Network field on the Driver Station.
+   * - 13. Verify that the driver station screen has changed and that it now indicates that it is connected to the Control Hub. The name of the Control Hub's WiFi network (FTC-1Ybr in this example) should be displayed in the Network field on the Driver Station.
      - |pairing13|
 
 
@@ -356,21 +356,21 @@ task.
 Two Android Smartphone Pairing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. important:: If your DRIVER STATION was previously paired to a
+.. important:: If your driver station was previously paired to a
    Control Hub, and you currently would like to connect to an Android
    smartphone Robot Controller, then before attempting to pair to the Robot
    Controller, you should forget the Wi-Fi network for the previous Control
-   Hub (using the Android Wifi Settings screen on the DRIVER STATION) and
-   then power cycle the DRIVER STATION phone. If the previous Control Hub
-   is powered on and if you haven't forgotten this network, then the DRIVER STATION might try and connect to the Control Hub and might be unable to
+   Hub (using the Android Wifi Settings screen on the driver station) and
+   then power cycle the driver station phone. If the previous Control Hub
+   is powered on and if you haven't forgotten this network, then the driver station might try and connect to the Control Hub and might be unable to
    connect to the Robot Controller smartphone.
 
 Once you have successfully installed the apps onto your Android
 phones, you will want to establish a secure wireless connection between
-the two devices. This connection will allow your DRIVER STATION device to
+the two devices. This connection will allow your driver station device to
 select op modes on your Robot Controller phone and send gamepad input to
 these programs. Likewise, it will allow your op modes running on your
-Robot Controller phone to send telemetry data to your DRIVER STATION
+Robot Controller phone to send telemetry data to your driver station
 device where it can be displayed for your drivers. The process to connect
 the two phones is known as pairing.
 
@@ -406,7 +406,7 @@ Note that it will take an estimated 10 minutes to complete this task.
    * - 2. Verify that the Robot Controller app is running. The **Robot Status** field should read running if it is working properly.
      - |pairingns2|
 
-   * - 3. On the DRIVER STATION device, browse the available apps and locate the **FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
+   * - 3. On the driver station device, browse the available apps and locate the **FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
      - |pairingns3| |pairingns3b|
 
    * - 4. Touch the three vertical dots on the upper right hand corner of the main screen of the Driver Station app. This will launch a pop-up menu.
@@ -418,20 +418,20 @@ Note that it will take an estimated 10 minutes to complete this task.
    * - 6. From the **Settings** screen, look for and select \ **Pairing Method** to launch the **Pairing** \ **Method** screen.
      - |pairingns6|
 
-   * - 7. Verify that the **Wifi Direct** mode is selected, which means that this DRIVER STATION will be pairing with another Android device.
+   * - 7. Verify that the **Wifi Direct** mode is selected, which means that this driver station will be pairing with another Android device.
      - |pairingns7|
 
    * - 8. From the **Settings** screen, look for and select \ **Pair with Robot Controller** to launch the **Pair** \ \ **with Robot Controller** screen.
      - |pairingns8|
 
-   * - 9. Find the name of your Robot Controller from the list and select it. After you have made your selection, use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
+   * - 9. Find the name of your Robot Controller from the list and select it. After you have made your selection, use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main driver station screen.
      - |pairingns9|
 
-   * - 10. When the DRIVER STATION returns to its main screen, the first time you attempt to connect to the Robot Controller a prompt should appear on the Robot Controller screen. Click on the **ACCEPT** button to accept the connection request from the DRIVER STATION.
+   * - 10. When the driver station returns to its main screen, the first time you attempt to connect to the Robot Controller a prompt should appear on the Robot Controller screen. Click on the **ACCEPT** button to accept the connection request from the driver station.
      - |pairingns10|
 
-   * - 11. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Robot Controller. The name of the Robot Controller's remote network (9999-C-RC in this example) should be displayed in the Network field on the DRIVER STATION.
+   * - 11. Verify that the driver station screen has changed and that it now indicates that it is connected to the Robot Controller. The name of the Robot Controller's remote network (9999-C-RC in this example) should be displayed in the Network field on the driver station.
      - |pairingns11|
 
-   * - 12. Verify that the Robot Controller screen has changed and that it now indicates that it is connected to the DRIVER STATION. The Network status should read active, connected on the Robot Controller's main screen.
+   * - 12. Verify that the Robot Controller screen has changed and that it now indicates that it is connected to the driver station. The Network status should read active, connected on the Robot Controller's main screen.
      - |pairingns12|

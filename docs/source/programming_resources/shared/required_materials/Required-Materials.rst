@@ -55,12 +55,12 @@ tutorials, you will need to have the following materials available:
    * - Required Item(s)
      - Image
 
-   * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
+   * - A REV Robotics Control Hub to be used as a robot controller.
        Alternately, teams may instead use a REV Robotics :term:`Expansion Hub`
        and an Android phone.
      - |chandphones| |exhub|
 
-   * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
+   * - A REV Robotics Driver Hub to be used as a driver station device.
        Alternately, teams may instead use an Android phone.
      - |driverhub|
 
@@ -104,5 +104,5 @@ tutorials, you will need to have the following materials available:
    * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
      - |usba|
 
-   * - If you are using a smartphone as your DRIVER STATION and/or ROBOT CONTROLLER, you will need one (1) micro USB :term:`OTG adapter <OTG Adapter>` per smartphone.
+   * - If you are using a smartphone as your driver station and/or robot controller, you will need one (1) micro USB :term:`OTG adapter <OTG Adapter>` per smartphone.
      - |otg|   |otg|
