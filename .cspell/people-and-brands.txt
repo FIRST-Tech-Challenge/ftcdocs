@@ -21,6 +21,7 @@ Sinton
 Stefen
 Strones
 Szczeszynski
+Vens
 Woodie
 
 # --- GitHub handles / usernames referenced in prose ---
@@ -37,11 +38,13 @@ Windwoes
 # --- Hardware & software vendors, products, brand names ---
 Adafruit
 Aliexpress
+Amcrest
 Anker
 Anycubic
 Arducam
 Bambu
 Bambulabs
+Behringer
 Belkin
 Bilda
 BILDA
@@ -55,10 +58,13 @@ Creality
 Creo
 Dassault
 Digikey
+DistroAV
 Dualshock
 Elegoo
+Elgato
 Etpark
 Fluidd
+Focusrite
 Hitec
 Hiwin
 huskylens
@@ -69,14 +75,17 @@ Kayeton
 Klipper
 Lifecam
 Logictech
+Mackie
 Markforged
 Mathcad
 Microswiss
+MOTU
 Nextruder
 Omron
 Onshape
 Otterbox
 Phaetus
+Phenyx
 Pinda
 Pitsco
 Powerpole
@@ -85,6 +94,7 @@ prusa
 Prusa
 Prusaslicer
 Ryzen
+Scarlett
 Sensortec
 solidworks
 Solidworks

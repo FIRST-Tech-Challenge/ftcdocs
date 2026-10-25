@@ -11,8 +11,8 @@ shown on a projector in the venue.
 
     flowchart LR
         subgraph Capture
-            fieldcam[Field camera]
-            awardcam[Awards camera]
+            fieldCamera[Field camera]
+            awardsCamera[Awards camera]
             ptz[PTZ cameras over NDI]
             venue[Venue sound system]
             mic[Your own microphones]
@@ -33,8 +33,8 @@ shown on a projector in the venue.
             recording[Local recording]
         end
 
-        fieldcam --> computer
-        awardcam --> computer
+        fieldCamera --> computer
+        awardsCamera --> computer
         ptz --> computer
         venue --> usb --> computer
         mic --> interface --> computer
@@ -50,8 +50,8 @@ shown on a projector in the venue.
         classDef silver fill:#e6e6e6,stroke:#5f5f5f,stroke-width:2px,stroke-dasharray:6 3,color:#000
         classDef gold fill:#ffe08a,stroke:#9a7400,stroke-width:4px,color:#000
 
-        class fieldcam,venue,usb,computer,ftclive,platform,projector,recording bronze
-        class awardcam,mic,interface silver
+        class fieldCamera,venue,usb,computer,ftclive,platform,projector,recording bronze
+        class awardsCamera,mic,interface silver
         class ptz,mixer,automation gold
 
 The style of each box shows the tier where that piece is first added. Every
