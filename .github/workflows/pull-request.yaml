@@ -8,16 +8,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Restore and cache Nix store
+      - name: Restore Nix store
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: Build PDF
         env:
@@ -40,16 +41,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Restore and cache Nix store
+      - name: Restore Nix store
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: Build Site
         env:
@@ -67,15 +69,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Set up Magic Nix Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v14
+      - name: Restore Nix store
+        uses: nix-community/cache-nix-action@v7
         with:
-          use-flakehub: false
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: Spell Check
         run: nix develop -c cspell "docs/source/**/*.rst" --no-progress
@@ -84,15 +88,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Set up Magic Nix Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v14
+      - name: Restore Nix store
+        uses: nix-community/cache-nix-action@v7
         with:
-          use-flakehub: false
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       # Advisory only -- this heuristic can't judge word sense (e.g. "match"
       # as a verb vs. the game term), so it always exits 0. It just prints a
@@ -105,16 +111,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Restore and cache Nix store
+      - name: Restore Nix store
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: Install additional dependencies
         run: |
@@ -174,16 +181,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Restore and cache Nix store
+      - name: Restore Nix store
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: image-check
         run: nix develop -c make -C docs/ imagecheck
@@ -192,7 +200,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Fetch origin/main
         run: git fetch origin main --depth=1
@@ -200,11 +208,12 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v22
 
-      - name: Restore and cache Nix store
+      - name: Restore Nix store
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock') }}
-          gc-max-store-size-linux: 9G
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: false
 
       - name: check-redirect
         run: nix develop -c make -C docs/ rediraffecheckdiff
