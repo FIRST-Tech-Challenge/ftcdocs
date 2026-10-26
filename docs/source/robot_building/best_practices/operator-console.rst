@@ -147,7 +147,7 @@ Here are some examples of operator consoles.
       +++
 
       This is a tray from a 24 pack of pop cans. The REV Driver Hub is secured to the tray via a M3 screw and washer from the underside of the tray.
-      Short USB extensions are also secured to the tray. A USB power bank is secured via Velco-like reusable cable tie.
+      Short USB extensions are also secured to the tray. A USB power bank is secured with a reusable cable tie.
 
 .. tip:: None of the above examples show `ferrite cable clips <https://www.revrobotics.com/rev-39-1224-pk4/>`_ on the USB gamepad cables. 
    However these are still recommended as they would reduce electrical noise from static electricity buildup on the field that might interfere with gamepad inputs.
