@@ -6,10 +6,10 @@ Introduction
 
 The :term:`Competition Manual` allows the use of USB Video Class (UVC) compatible
 cameras for computer vision-related tasks.
-Teams who are using a Control Hub as their ROBOT CONTROLLER use an externally
+Teams who are using a Control Hub as their robot controller use an externally
 connected camera for computer vision tasks, since the Control Hub has no
-built-in camera. Teams who are using an Android smartphone as their ROBOT
-CONTROLLER have the option of using an externally connected camera instead of
+built-in camera. Teams who are using an Android smartphone as their robot
+controller have the option of using an externally connected camera instead of
 the phone's built-in camera.
 
 The advantage of using an external camera is that the camera can be
@@ -135,4 +135,3 @@ Android cameras, for vision-related tasks.
 
 .. image:: images/blockswebcam.png
    :alt: Sample Blocks code
-

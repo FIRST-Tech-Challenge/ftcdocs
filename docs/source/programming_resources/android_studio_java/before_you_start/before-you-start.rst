@@ -13,8 +13,8 @@ Supported Control System Setup
 
 This tutorial is written for the officially supported setup:
 
--  a REV Robotics :term:`Control Hub` as the :term:`ROBOT CONTROLLER <Robot Controller>`, and
--  a REV Robotics :term:`Driver Hub` as the :term:`DRIVER STATION <Driver Station>`.
+-  a REV Robotics :term:`Control Hub` as the :term:`robot controller <Robot Controller>`, and
+-  a REV Robotics :term:`Driver Hub` as the :term:`driver station <Driver Station>`.
 
 .. important:: Smartphones are not officially supported. They are legal to use
    in competition, but a team who uses one is responsible for all of their own
@@ -32,13 +32,13 @@ Two smartphone setups appear throughout the Control System documentation. Both
 are covered by the same pages this tutorial links to, in sections labeled for
 smartphones:
 
--  A **smartphone ROBOT CONTROLLER** connected to a REV Robotics :term:`Expansion Hub`.
+-  A **smartphone robot controller** connected to a REV Robotics :term:`Expansion Hub`.
    This setup needs extra steps that a Control Hub does not: renaming the
    phone, placing it in airplane mode with Wi-Fi on, pairing it to the DRIVER
    STATION, and
    :doc:`enabling Developer Options <../../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
    so Android Studio can install the app onto it.
--  A **smartphone DRIVER STATION** in place of a Driver Hub. This setup needs
+-  A **smartphone driver station** in place of a Driver Hub. This setup needs
    the phone renamed and paired, and needs a Micro USB :term:`OTG adapter <OTG Adapter>` cable to
    connect a :term:`gamepad <Gamepad>`.
 
@@ -60,18 +60,18 @@ Android Studio itself does not cover.
 -  :doc:`Computer Requirements </programming_resources/laptops/laptops>`
    -- the laptop specifications recommended for running Android Studio.
 -  :doc:`Configuring Your Android Devices <../../shared/configuring_android/Configuring-Your-Android-Devices>`
-   -- installing apps, updating :term:`firmware <Firmware>`, and pairing the DRIVER STATION to the
-   ROBOT CONTROLLER.
+   -- installing apps, updating :term:`firmware <Firmware>`, and pairing the driver station to the
+   robot controller.
 -  :doc:`Connecting Devices to a Control or Expansion Hub </hardware_and_software_configuration/connecting_devices/index>`
    -- wiring power, motors, :term:`servos <Servo>`, and :term:`sensors <Sensor>` to the :term:`hub <Hub>`.
 -  :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
-   -- creating the :term:`robot configuration file <Configuration File>` from the DRIVER STATION, which is
+   -- creating the :term:`robot configuration file <Configuration File>` from the driver station, which is
    how your :term:`OpMode` finds each device by name.
 -  :doc:`Managing a Control Hub <../../shared/managing_control_hub/Managing-a-Control-Hub>`
    -- renaming the Control Hub, changing its password, and updating Hub
    firmware.
 -  :doc:`Managing a Driver Hub <../../shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
-   -- renaming the Driver Hub and updating the DRIVER STATION app.
+   -- renaming the Driver Hub and updating the driver station app.
 -  :doc:`Updating Components of the Control System </ftc_sdk/updating/index>`
    -- keeping the Control Hub OS, Driver Hub OS, and apps current.
 
@@ -95,30 +95,30 @@ documentation that covers it.
        number naming requirements in the :term:`Competition Manual`.
      - :doc:`Managing a Control Hub <../../shared/managing_control_hub/Managing-a-Control-Hub>`,
        :doc:`Managing a Driver Hub <../../shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`
-   * - The Driver Hub is paired to the Control Hub, and the DRIVER STATION app
-       shows the ROBOT CONTROLLER as connected.
+   * - The Driver Hub is paired to the Control Hub, and the driver station app
+       shows the robot controller as connected.
      - :doc:`Configuring Your Android Devices <../../shared/configuring_android/Configuring-Your-Android-Devices>`
    * - A robot configuration file has been created, saved, and activated from
-       the DRIVER STATION, and each device name matches the name your OpMode
+       the driver station, and each device name matches the name your OpMode
        will use.
      - :doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`
-   * - The Control Hub OS, Driver Hub OS, Hub firmware, and the DRIVER STATION
+   * - The Control Hub OS, Driver Hub OS, Hub firmware, and the driver station
        app are up to date.
      - :doc:`Updating Components of the Control System </ftc_sdk/updating/index>`
    * - Android Studio is installed and the ``FtcRobotController`` project has
        been downloaded and opened.
      - :doc:`Installing Android Studio <../../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio>`,
        :doc:`Downloading the Android Studio Project Folder <../../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
-   * - The ``FtcRobotController`` project and the DRIVER STATION app both come
+   * - The ``FtcRobotController`` project and the driver station app both come
        from the current season's release.
      - :doc:`Downloading the Android Studio Project Folder <../../tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`
    * - A USB Type C cable connects the laptop to the Control Hub's Type C port,
        and Android Studio lists the hub as an available deployment target.
      - :doc:`Creating and Running an OpMode <../../tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio)>`
 
-.. important:: Android Studio builds and installs the entire ROBOT CONTROLLER
+.. important:: Android Studio builds and installs the entire robot controller
    app, replacing the one on the Control Hub. The app it installs must be
-   compatible with the DRIVER STATION app on the Driver Hub, so update both
+   compatible with the driver station app on the Driver Hub, so update both
    from the same season's release.
 
 .. note:: This tutorial deploys the app over the USB Type C connection
