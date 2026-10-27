@@ -29,7 +29,7 @@ Additional console components can include:
 - A `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_ attached near the connector of the gamepad USB cable will 
   reduce electrical signal interference from the gamepad that may cause the Driver Station to receive incorrect gamepad inputs. 
   Most likely this would be due to static electricity coming from the field.
-- For driver stations using an Android device, a :term:`OTG adapter <OTG Adapter>` connect one gamepad is required.
+- For driver stations using an Android device, a :term:`OTG adapter <OTG Adapter>` is required to connect one gamepad.
   Add a :term:`USB hub <USB Hub>` in order to connect two gamepads (or use a USB hub with OTG included). The hub may also be powered by a USB power bank.
 
 A physical operator console can also provide the following benefits.
