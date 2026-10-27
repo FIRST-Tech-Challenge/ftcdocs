@@ -151,3 +151,8 @@ Here are some examples of operator consoles.
 
 .. tip:: None of the above examples show `ferrite cable clips <https://www.revrobotics.com/rev-39-1224-pk4/>`_ on the USB gamepad cables. 
    However these are still recommended as they would reduce electrical noise from static electricity buildup on the field that might interfere with gamepad inputs.
+
+You can find design files suitable for :doc:`/manufacturing/3d_printing/index` on Thingiverse.
+Component holders for driver station components and even this
+`Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_.
+

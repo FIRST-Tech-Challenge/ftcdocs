@@ -10,12 +10,12 @@ These images represent a basic connection diagram for the components that have
 typically been used to create a :term:`Driver Station`. These components have
 typically been purchased from the *FIRST* Storefront (in the "Control and
 Communication" kit). These configurations show sample connections, and in no
-way represent the only possible way of connecting these components. These
-images also do not represent using a 
-`Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_, 
-which is recommended for teams to use for component management and
-transportation. See the :term:`Competition Manual` for more information 
-on *OPERATOR CONSOLES*.
+way represent the only possible way of connecting these components. 
+
+These images also do not represent using an :term:`operator console <Operator Console>`
+which is recommended for teams to use for component management and transportation.
+See the :term:`Competition Manual` for the rules on operator consoles.
+Examples can be seen on the :ref:`Operator Console Best Practices <robot_building/best_practices/robot-best-practices:operator console best practices>` page.
 
 .. tab-set::
 
