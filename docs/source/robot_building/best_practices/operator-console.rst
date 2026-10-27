@@ -23,7 +23,7 @@ Additional console components can include:
 - Fasteners are allowed so that the components can't move around or fall off.
 - Decorations such a team name, team number, and team branding.
 - A USB power bank and a USB cable that connects the power bank to the USB-C port of the REV Driver Hub. 
-  the REV Driver Hub can kept fully charged even with gamepads connected. 
+  The REV Driver Hub can kept fully charged even with gamepads connected. 
 - Short USB extension cables. These can reduce wear and tear on the REV Driver Hub USB ports.
   Securing the extension cables and cable strain relief also reduces the likelihood of USB disconnects.
 - A `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_ attached near the connector of the gamepad USB cable will 
