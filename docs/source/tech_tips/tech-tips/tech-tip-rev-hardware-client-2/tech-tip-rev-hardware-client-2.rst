@@ -55,7 +55,7 @@ didn't know we needed. Some highlights for *FIRST* Tech Challenge teams:
 * **One-click updates** - update all of the software on a connected device in
   a single step, or open the update manager to update several devices of the
   same type.
-* **Offline-friendly downloads** - pre-download the latest firmware, operating
+* **Offline downloads** - download the latest firmware, operating
   system, and app files while you have internet access, then install them
   later at a competition where you don't.
 * **Backup and restore** - back up user data from supported devices and
