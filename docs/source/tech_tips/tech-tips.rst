@@ -65,6 +65,7 @@ Software and Programming
    tech-tips/tech-tip-google-ai-studio/tech-tip-google-ai-studio
    tech-tips/tech-tip-apriltag-clusters/tech-tip-apriltag-clusters
    tech-tips/tech-tip-utility-opmodes/tech-tip-utility-opmodes
+   tech-tips/tech-tip-rev-hardware-client-2/tech-tip-rev-hardware-client-2
 
 Competition and Team Resources
 ------------------------------
