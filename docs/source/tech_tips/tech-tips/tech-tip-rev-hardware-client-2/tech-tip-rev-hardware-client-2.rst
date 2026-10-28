@@ -80,8 +80,12 @@ REV Robotics' `REV Hardware Client 2 documentation
 <https://docs.revrobotics.com/rev-hardware-client-2/rhc2/overview/changelog>`__
 tracks what's been added in each release.
 
-.. image:: images/rhc2-rc-console.png
+.. figure:: images/rhc2-rc-console.png
    :alt: Example of active session programming through the RHC 2.
+   :align: center
+   :width: 75%
+
+   New active session programming portal in RHC 2.
 
 Using RHC 2 to update individual devices is covered on these FTC Docs pages:
 
