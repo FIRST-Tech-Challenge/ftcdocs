@@ -257,10 +257,10 @@ surrounding indentation level unless starting a new content block.
   description ("legend") is required (e.g. photo credits, or connecting the image to surrounding
   editorial text). Alt text and caption must say different things — alt text is functional
   (what's literally in the image), caption is editorial/illustrative.
-- Avoid the `align`, `width`, `height`, `scale` options where possible — they create accessibility
-  problems (image floats out of context in PDF; Sphinx auto-links the image to a full-size version with
-  no link title). If you must constrain width, add `:class: no-scaled-link` to suppress that
-  auto-generated link.
+- Always set `:width:` (a percentage, e.g. `75%`), `:align: center`, and `:class: no-scaled-link`
+  on every `.. image::` and `.. figure::`. The class suppresses the untitled link Sphinx otherwise
+  adds to the full-size image when a width is set. Never use `left`/`right` alignment (the image
+  floats out of context), and avoid `height` and `scale` (they can distort the aspect ratio).
 - Prefer local, project-hosted images over externally-hosted ones (availability/copyright risk).
 
 **Accessibility** is treated as a first-class, ongoing concern (not just images) — see

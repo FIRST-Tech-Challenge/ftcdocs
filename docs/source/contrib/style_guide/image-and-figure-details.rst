@@ -41,13 +41,16 @@ Determine if the image needs a caption. Photo credits need a caption. Complex im
 Anything that requires an editorial or illustrative description to tie the image to the content of the page requires a caption. 
 
 If no caption is required then the image directive can be used. 
-Add the ``:alt:`` option and provide text that describes the image. 
-This is all you need for basic images.
+Add the ``:alt:`` option and provide text that describes the image,
+along with the required ``:width:``, ``:align:``, and ``:class:`` options described in `Image Options`_.
 
 .. code:: ReST
 
    .. image:: images/butterfly.jpg
       :alt: A blue butterfly sitting on an orange flower.
+      :width: 75%
+      :align: center
+      :class: no-scaled-link
 
 The alt text should have a functional description. A functional description explains exactly what is in an image. 
 These descriptions should be thorough but brief, one or two sentences.
@@ -62,9 +65,10 @@ See `Alt Text`_ for more information about alt text.
    This is not good accessibility. If you are editing an existing page that has an image or figure directive with no ``:alt:`` option,
    please take a moment to add the ``:alt:`` option with a functional description of the image.
 
-The image directive has many options, but we don't recommend most of them for FTC Docs. 
-This is new guidance, many existing pages specify **width** and **align**.
-It maybe worth removing those if you are changing the content on that page anyway.
+The image directive has many options. FTC Docs requires **width**, **align**, and **class** on every image and figure,
+and recommends avoiding most of the others; see `Image Options`_ below.
+Many existing pages are missing some of these options.
+If you are changing the content on a page anyway, please take a moment to add them.
 
 Image Options
 ^^^^^^^^^^^^^
@@ -102,37 +106,31 @@ target : *text (URI or reference name)*
    argument may be a URI (relative or absolute), or a reference name with
    underscore suffix (e.g. \`a name`_).
 
-The new guidance related to images comes from improving website accessibility.
-We recommending avoiding the following options.
+Every ``image`` and ``figure`` directive in FTC Docs must use the following options:
 
+width
+   Always set **width**, as a percentage of the line width (for example ``:width: 75%``).
+   A percentage scales with the page, so the image keeps its proportions in a desktop browser,
+   in a mobile browser, and in the PDF. Choose a percentage that shows the image's relevant
+   detail clearly; detailed screenshots usually need a larger percentage than simple photos.
 
-align 
-   The accessibility problem comes because the image can float to the new position with text re-flowing around it.
-   This can float the image out of context with its surrounding text. That is a big accessibility issue as images should relate to the text near them.
-   Images can float to the next page in the PDF version, sometimes the image is there all alone on an otherwise blank page.
+align
+   Always set **align** to **center** (``:align: center``).
+   Center alignment keeps the image on its own line between the paragraphs around it, so text does not
+   flow around the image and the image stays next to the content it relates to.
+   Do not use "left" or "right", which let the image float and the text re-flow around it.
 
-width, height, scale
-   Width is usually used to force the image to not fill the width of the page which usually looks OK in HTML and PDF. 
-   However, when viewing in a mobile browser the image can be too small to see easily.
-   For example, a width of 50% will look fine when viewed on a big screen, but in portrait mode in a mobile browser the image will be half the width of the screen.
-   However, on mobile you can usually just use two fingers to zoom the image (as long as you don't have a physical disability with your fingers). 
-   
-   The bigger accessibility problem with these options is that that Sphinx will insert a link to the image. 
-   The idea is that you can click the link to see the full size image.
-   This is an accessibility issue as the link itself has no title. It does not read well in a screen reader.
-   If a visually impaired person followed the link they end up on a page with no text content and no alt text either.
-   
-   Sighted persons who want to see the full size image have the option to right click the image and open it in a new tab or window.
-   
-   The :term:`AprilTag` test images have both height and width specified as 5 inches which looks OK on the desktop or in a PDF,
-   but ends up with a squished aspect ratio if viewed in a mobile browser.
-   We'd be better off not specifying set sizes for the HTML and the PDF version of FTC docs.
-   Then provide a separate PDF download that they can print to get accurately sized AprilTags.
-   
-   If you want to keep the **width** option (perhaps the image size is too big for the page), 
-   then for accessibility we recommend you add the **class** option with **no-scaled-link** e.g. ``:class: no-scaled-link``
-   This tells Sphinx to not create the link, but the images will have the width you want.
-   Though a better option might be to change the resolution of the image if relevant detail can be preserved.
+class
+   Always add ``:class: no-scaled-link`` together with **width**.
+   When **width** is set, Sphinx otherwise wraps the image in a link to the full size image file.
+   That link has no title, so it does not read well in a screen reader, and a visually impaired person
+   who followed it would end up on a page with no text content and no alt text.
+   Sighted persons who want to see the full size image can still right click the image and open it in a new tab or window.
+
+Avoid the **height** and **scale** options. Combined with **width** they can distort the image's aspect ratio,
+especially in a mobile browser. For example, the :term:`AprilTag` test images have both height and width specified as 5 inches,
+which looks OK on the desktop or in a PDF but ends up with a squished aspect ratio in a mobile browser.
+If a reader needs an image at an exact printed size, provide a separate PDF download instead.
 
 External Images
 ^^^^^^^^^^^^^^^
@@ -264,11 +262,14 @@ with a travel article about Machu Picchu.
 
    .. figure:: images/martha.jpg
       :alt: A closeup of a llama's face looking off to the side on a mountain.
-      
+      :width: 75%
+      :align: center
+      :class: no-scaled-link
+
       Martha is one of the many domesticated llamas that roam freely around the grounds of Machu Picchu.
 
-Note that the ``:alt:`` line and caption are both indented 3 spaces after the directive.
-A blank line is required between the ``:alt:`` and the caption.
+Note that the option lines and caption are all indented 3 spaces after the directive.
+A blank line is required between the last option and the caption.
 
 We don't want the ``:alt:`` line to be blank for a figure.
 A screen reader will have probably spoken that there is a figure, without alt text the screen reader will skip over announcing the image and read the caption
@@ -276,11 +277,11 @@ leaving the user wondering what the caption is referring to.
 
 The ``.. figure`` directive supports all options of the ``.. image`` directive. These options (except align) are passed on to the contained image.
 
-* ``:align:``  "left", "center", or "right". 
-   The horizontal alignment of the figure, allowing the image to float and have the text flow around it. The specific behavior depends upon the browser or rendering software used.
-   
-   Avoid using **align**. In PDF it tends to float the figure to another area of the page,
-   sometimes to the next page where the image is no longer in context.
+* ``:align:``  "left", "center", or "right".
+   The horizontal alignment of the figure. The specific behavior depends upon the browser or rendering software used.
+
+   Always use ``:align: center`` for figures, the same as for images.
+   "left" and "right" let the figure float with the text flowing around it, which can move it out of context.
 
 There is an optional legend that can be included after the caption. This might be useful for charts and maps and other complex imagery.
 The legend paragraph is a good place for a long description of the image to go.
@@ -360,6 +361,7 @@ In this case the long description is basically a listing of the devices connecte
    * - .. figure:: ../../programming_resources/shared/control_system_intro/images/REVExpansionHubLayout.jpg
           :alt: Rev expansion hub with various devices connected.
           :width: 25%
+          :align: center
           :class: no-scaled-link
           
           Expansion Hub and Phone
