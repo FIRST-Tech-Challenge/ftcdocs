@@ -203,7 +203,6 @@ follows:
 .. |devop2a| image:: images/2a-developer-options.jpg
 .. |devop2b| image:: images/2b-developer-options.jpg
 .. |devop4| image:: images/4-developer-options.jpg
-.. |devop5| image:: images/5-developer-options.*
 
 .. list-table::
    :widths: 50 50
@@ -226,7 +225,15 @@ follows:
      - |devop4|
 
    * - 5. To disable the Developer options at anytime, tap the switch.
-     - |devop5|
+     - .. only:: html
+
+          .. image:: images/5-developer-options.gif
+             :alt: The Developer options switch on an Android phone being turned off.
+
+       .. only:: latex
+
+          .. image:: images/5-developer-options.png
+             :alt: The Developer options screen on an Android phone with the On switch at the top.
 
 
 Placing Phones into Airplane Mode with Wi-Fi On
