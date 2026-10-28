@@ -70,7 +70,7 @@ didn't know we needed. Some highlights for *FIRST* Tech Challenge teams:
   for the Control Hub. If a Wi-Fi session drops it doesn't immediately kill
   the programming environment, when Wi-Fi is restored the session window
   reconnects and continues just like a web browser. This helps prevent lost 
-  data while programming Blocks and On-Bot Java through the RHC 2.
+  data while programming Blocks and OnBot Java through the RHC 2.
 * **Dark mode** - for the late-night build sessions.
 
 The full list of features, supported devices, and system requirements is on
