@@ -100,7 +100,7 @@ NEW: Live Log Streaming
 -----------------------
 
 When something goes wrong on a robot, the Robot Controller's log file is
-usually the best place to find out why - but digging it out of the Control Hub
+usually the best place to find out why, but digging it out of the Control Hub
 after the fact takes time. The FTC Log Viewer in RHC 2 streams the log live
 while your robot runs, so you can watch messages appear as you start an
 :term:`OpMode`, press buttons, or reproduce a problem.
