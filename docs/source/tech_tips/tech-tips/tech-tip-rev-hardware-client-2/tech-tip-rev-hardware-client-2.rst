@@ -84,6 +84,7 @@ tracks what's been added in each release.
    :alt: Example of active session programming through the RHC 2.
    :align: center
    :width: 75%
+   :class: no-scaled-link
 
    New active session programming portal in RHC 2.
 
