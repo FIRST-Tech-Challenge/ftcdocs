@@ -1,8 +1,8 @@
 Gamepad Best Practices
 ------------------------
 
-While there are no rules around which :term:`gamepads <Gamepad>` teams may use on their OPERATOR
-CONSOLE, not all gamepads are supported by the FTC :term:`Driver Station app <Driver Station App>`. The
+While there are no rules around which :term:`gamepads <Gamepad>` teams may use on their :term:`operator console <Operator Console>`,
+not all gamepads are supported by the FTC :term:`Driver Station app <Driver Station App>`. The
 following gamepads have custom drivers that are included in the FTC :term:`SDK` and are
 known to work with the FTC Driver Station app:
 
@@ -24,10 +24,19 @@ custom drivers for gamepads. Teams are strongly encouraged to use the
 :ref:`Test Gamepad Utility <utilityopmodes>` :term:`OpMode` to verify that their
 gamepad is registering the inputs correctly.
 
-It is recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_
-close to the USB connector in order to reduce the amount of electrical noise.
+Special features of some gamepads (Rumble, Lighting) may be programmed and used by teams for notifications and signaling to the drivers of the robot.
+
+If a gamepad is rechargeable, it is highly recommended you charge it fully before a competition and keep it charged throughout the event.
+Some gamepads can disconnect from the Driver Station when below 50% charge, some may need even more charge to work properly.
+See :ref:`Operator Console Best Practices <robot_building/best_practices/robot-best-practices:operator console best practices>` 
+for an operator console that keeps both the REV Driver Hub and gamepads charged by using a USB power bank to supply power to both.
+
+It is also recommended to add a  `ferrite cable clip <https://www.revrobotics.com/rev-39-1224-pk4/>`_
+close to the USB connector of the gamepad cable in order to reduce the amount of electrical noise that could create a bad signal to the driver station.
+
 Teams are also encouraged to use a `short USB extension cable <https://www.digikey.com/en/products/detail/startechcom/USB3EXT6INBK/21397568>`_
 on the driver station to limit the amount of wear and tear on the USB ports
 from frequent plugging and unplugging of the gamepad. The extenders should
 always remain plugged into the driver station and, with proper strain relief,
 can help protect the port from accidental damage.
+

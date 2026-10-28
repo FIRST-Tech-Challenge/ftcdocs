@@ -1,6 +1,9 @@
 Driver Station Components
 =========================
 
+The collection of driver station components that the drive team uses to control the robot is referred to as an :term:`Operator Console`.
+See :ref:`Operator Console Best Practices <robot_building/best_practices/robot-best-practices:operator console best practices>`.
+
 Android Device
 --------------
 
@@ -259,10 +262,10 @@ Gamepads
 
       Quadstick FPS
 
-The Competition Manual defines the gamepads that are allowed in competition
-play. Up to two gamepads, in any combination, of the allowed types of gamepads
-may be used. All gamepads MUST be used in wired mode only, no wireless of any
+One or two gamepads may be used. All gamepads MUST be used in wired mode only, no wireless of any
 kind is allowed. Special features of some gamepads (Rumble, Lighting) may be
 programmed and used by teams for notifications and signaling to the drivers of
 the robot.
+
+See :ref:`Gamepad Best Practices <robot_building/best_practices/robot-best-practices:gamepad best practices>`.
 
