@@ -360,6 +360,11 @@ in place.
       thresholding, contour finding — used to detect objects in a camera frame.
       See :doc:`/color_processing/index`.
 
+   Operator Console
+      An operator console is the set of components and mechanisms used by the drive team
+      to relay commands to the robot. 
+      See :ref:`Operator Console Best Practices <robot_building/best_practices/robot-best-practices:operator console best practices>`.
+
    OTG Adapter
       A small "USB On-The-Go" adapter that lets an Android phone act as a USB
       host, so that a :term:`Gamepad`, :term:`USB Hub` or

@@ -553,7 +553,7 @@ negative value of the gamepad1's left joystick:
    tgtPower = -this.gamepad1.left_stick_y;
 
 The object gamepad1 is available for you to access in the runOpMode
-method. It represents the state of :term:`gamepad <Gamepad>` #1 in your OPERATOR CONSOLE.
+method. It represents the state of :term:`gamepad <Gamepad>` #1 in your :term:`operator console <Operator Console>`.
 Note that for the F310 gamepads that are used during the competition,
 the Y value of a joystick ranges from -1, when a joystick is in its
 topmost position, to +1, when a joystick is in its bottommost position.

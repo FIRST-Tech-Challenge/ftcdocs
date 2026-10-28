@@ -26,6 +26,10 @@ and can be read independently.
 
 .. include:: gamepad.rst
 
+.. _operator_console_best_practices:
+
+.. include:: operator-console.rst
+
 .. include:: battery-mounting.rst
 
 .. include:: smartphone.rst
