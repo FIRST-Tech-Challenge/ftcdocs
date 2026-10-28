@@ -31,7 +31,8 @@ and :doc:`gracious_professionalism/gp` to see why.
    persona_pages/veteran_teams/veteran_teams
    persona_pages/coach_admin/coach_admin
    persona_pages/mentor_tech/mentor_tech
-   
+   persona_pages/volunteer/volunteer
+
 .. toctree::
    :caption: Game and Season-Specific Resources
    :maxdepth: 1
@@ -94,7 +95,6 @@ and :doc:`gracious_professionalism/gp` to see why.
    Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
    Robot Wiring Guide <robot_building/wiring_guide/wiring-guide>
    Robot Best Practices <robot_building/best_practices/robot-best-practices>
-   Event Streaming Best Practices <event_streaming/index>
 
 .. toctree::
    :caption: Manufacturing
@@ -112,6 +112,13 @@ and :doc:`gracious_professionalism/gp` to see why.
    Team Complimentary Software<sponsors/software/software>
    Team Discounts<sponsors/discounts/discounts>
    team_resources/team_resources
+
+.. toctree::
+   :caption: Volunteer Docs
+   :maxdepth: 1
+   :hidden:
+
+   volunteer_docs/technical_director/index
 
 .. toctree::
    :caption: FTC Docs
@@ -134,6 +141,8 @@ and :doc:`gracious_professionalism/gp` to see why.
 - :doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for help or Team Administrative Resources can look here.
 
 - :doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors looking for Technical Resources should look here first!
+
+- :doc:`Volunteer <persona_pages/volunteer/volunteer>` Event Volunteers looking for resources to plan and run events can look here.
 
 The main menu contains links to the top level content. The following are quick links organized by topic.
 
