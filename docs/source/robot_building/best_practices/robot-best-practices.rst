@@ -24,6 +24,8 @@ and can be read independently.
 
 .. include:: control-system-software-management.rst
 
+.. _gamepad_best_practices:
+
 .. include:: gamepad.rst
 
 .. _operator_console_best_practices:
