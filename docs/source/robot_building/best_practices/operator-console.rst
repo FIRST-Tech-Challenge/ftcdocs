@@ -27,7 +27,7 @@ Additional console components can include:
 - Decorations such a team name, team number, and team branding.
 - A USB power bank and a USB cable that connects the power bank to the USB-C port of the REV Driver Hub. 
   The REV Driver Hub can kept fully charged even with gamepads connected. 
-  Some gamepads are rechargeable and are known not to work well unless well charged. A USB powerbank can help keep them charged.
+  Some gamepads are rechargeable and are known not to work well unless well charged. A USB powerbank can help keep them charged while not significantly depleting the internal battery in the Driver Hub.
 - Short USB extension cables. These can reduce wear and tear on the REV Driver Hub USB ports.
   When the extension cables are secured to the console, this protects the REV Driver Hub in the situation
   where the hub is on the floor, and the gamepad operator raises the gamepad enough to lift the hub off the floor.
