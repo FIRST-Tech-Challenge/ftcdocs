@@ -106,6 +106,33 @@ IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
 
+# FTCLIVE_BUILD produces a small, self-contained HTML site for volunteers
+# (e.g. to bundle with FTC Live). volunteer_docs/index.rst is the root,
+# and only the pages volunteers need are built; everything else is left out via
+# include_patterns. Run it with "make ftc-live-html".
+#
+# The glossary is not part of the subset (it links to most of the site), so the
+# :term: role is rendered as plain text in this build (see setup() below).
+# Redirects are disabled because their targets are mostly outside the subset.
+if os.environ.get("FTCLIVE_BUILD") == "true":
+    master_doc = "volunteer_docs/index"
+    include_patterns = [
+        "persona_pages/volunteer/**",
+        "volunteer_docs/**",
+        "event_streaming/**",
+        "control_system_troubleshooting/**",
+    ]
+    extensions.remove("sphinxext.rediraffe")
+    # Lets content differ in this build with ".. only:: ftclive" and
+    # ".. only:: not ftclive".
+    tags.add("ftclive")
+else:
+    # volunteer_docs/index.rst is only the root of the volunteer build; keep it
+    # out of the main site and the booklets.
+    exclude_patterns = list(globals().get("exclude_patterns", [])) + [
+        "volunteer_docs/index.rst",
+    ]
+
 output_name = 'ftcdocs'
 
 # -- Options for HTML output
@@ -478,10 +505,126 @@ def setup(app):
     app.add_js_file("js/external-links-new-tab.js")
     app.add_js_file("js/adjust-css-vars.js")
 
+    if os.environ.get("FTCLIVE_BUILD") == "true":
+        from docutils import nodes
+        from sphinx.util.nodes import split_explicit_title
+
+        def plain_term_role(name, rawtext, text, lineno, inliner,
+                            options=None, content=None):
+            # "text <target>" -> "text"; a bare term renders as itself.
+            _, title, _ = split_explicit_title(text)
+            return [nodes.inline(rawtext, title)], []
+
+        app.add_role_to_domain("std", "term", plain_term_role, override=True)
+
+        # Sphinx resolves :doc:/:ref: references before it prunes ".. only::"
+        # blocks, so a link inside a non-matching block still warns about its
+        # missing target. Prune them as soon as each document is read instead.
+        from sphinx import addnodes
+
+        def prune_only_nodes(app, doctree):
+            for node in list(doctree.findall(addnodes.only)):
+                if app.builder.tags.eval_condition(node["expr"]):
+                    node.replace_self(node.children)
+                else:
+                    node.parent.remove(node)
+
+        app.connect("doctree-read", prune_only_nodes)
+
+        # Pages that exist in the source tree but are left out of this build
+        # (see include_patterns) still get linked from the pages that are in it.
+        # Point those links at the live site instead of leaving them dead. A
+        # target that is not in the source tree at all (a typo) is not touched,
+        # so it still warns.
+        import posixpath
+        from pathlib import Path
+        from docutils.nodes import make_id
+
+        def docname_join(basedocname, docname):
+            # Same rule as Sphinx's :doc: role: absolute ("/x") or relative to
+            # the directory of the referencing document.
+            return posixpath.normpath(
+                posixpath.join("/" + basedocname, "..", docname))[1:]
+
+        live_docs_url = "https://ftc-docs.firstinspires.org/en/latest"
+
+        def doc_title(docname):
+            # First "====" underlined title of the source file.
+            lines = (Path(app.srcdir) / f"{docname}.rst").read_text(
+                encoding="utf-8").splitlines()
+            for text, rule in zip(lines, lines[1:]):
+                if text.strip() and rule.strip() and set(rule.strip()) == {"="}:
+                    return text.strip()
+            return docname
+
+        def link_to_live_site(app, env, node, contnode):
+            if node.get("refdomain") != "std":
+                return None
+            kind, target = node["reftype"], node["reftarget"]
+            anchor, title = "", None
+            if kind == "doc":
+                docname = docname_join(node["refdoc"], target)
+                if not node.get("refexplicit"):
+                    title = doc_title(docname) if (Path(app.srcdir) /
+                                                   f"{docname}.rst").exists() else None
+            elif kind == "ref" and ":" in target:
+                # autosectionlabel labels are "<docname>:<section title>".
+                docname, section = target.split(":", 1)
+                anchor = "#" + make_id(section)
+            else:
+                return None
+            if docname in env.found_docs:
+                return None
+            if not (Path(app.srcdir) / f"{docname}.rst").exists():
+                return None
+            ref = nodes.reference("", "", internal=False,
+                                  refuri=f"{live_docs_url}/{docname}.html{anchor}")
+            ref.append(nodes.inline(title, title) if title else contnode)
+            return ref
+
+        app.connect("missing-reference", link_to_live_site)
+
+        # On the main site the Control System Troubleshooting Guide already has
+        # a parent (the "Guides" toctree), so the Control System Advisor page
+        # only links to it. This build has no "Guides", so nest the guide under
+        # the advisor page here instead.
+        def nest_troubleshooting_under_csa(app, docname, source):
+            if docname == "volunteer_docs/control_system_advisor/index":
+                source[0] += (
+                    "\n.. toctree::\n"
+                    "   :maxdepth: 1\n"
+                    "   :hidden:\n\n"
+                    "   Control System Troubleshooting Guide "
+                    "</control_system_troubleshooting/index>\n"
+                )
+
+        app.connect("source-read", nest_troubleshooting_under_csa)
+
+        # The bundle's front page is volunteer_docs/index.html. Give the bundle
+        # a root index.html that redirects to it, so it opens at its root URL.
+        def write_root_redirect(app, exception):
+            if exception is not None or app.builder.format != "html":
+                return
+            target = f"{app.config.root_doc}.html"
+            (Path(app.outdir) / "index.html").write_text(
+                "<!doctype html>\n"
+                '<meta charset="utf-8">\n'
+                "<title>FTC Live Edition</title>\n"
+                f'<meta http-equiv="refresh" content="0; url={target}">\n'
+                f'<link rel="canonical" href="{target}">\n'
+                f'<p><a href="{target}">FTC Live Edition</a></p>\n',
+                encoding="utf-8",
+            )
+
+        app.connect("build-finished", write_root_redirect)
+
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
 
 html_context = dict()
+
+if os.environ.get("FTCLIVE_BUILD") == "true":
+    html_context['edition_label'] = "FTC Live Edition"
 
 # Configure for local official-esque builds
 if(os.environ.get("DOCS_BUILD") == "true"):

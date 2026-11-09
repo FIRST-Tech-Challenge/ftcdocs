@@ -119,6 +119,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    :hidden:
 
    volunteer_docs/technical_director/index
+   volunteer_docs/control_system_advisor/index
 
 .. toctree::
    :caption: FTC Docs
