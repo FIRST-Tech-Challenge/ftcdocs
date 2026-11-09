@@ -43,6 +43,10 @@ autobuild:
 	BOOKLETS_BUILD="true" $(SPHINXBUILD) -M latexpdf $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
 
 booklets: --generate-booklets --move-booklets
+
+volunteer-html:
+	VOLUNTEER_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(BUILDDIR)/volunteer $(SPHINXOPTS) $(O)
+
 	
 local-full:
 	DOCS_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(HTMLBUILDDIR) $(SPHINXOPTS) $(O)

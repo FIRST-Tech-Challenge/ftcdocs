@@ -106,6 +106,32 @@ IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
 
+# VOLUNTEER_BUILD produces a small, self-contained HTML site for volunteers
+# (e.g. to bundle with an offline event kit). volunteer_docs/index.rst is the root,
+# and only the pages volunteers need are built; everything else is left out via
+# include_patterns. Run it with "make volunteer-html".
+#
+# The glossary is not part of the subset (it links to most of the site), so the
+# :term: role is rendered as plain text in this build (see setup() below).
+# Redirects are disabled because their targets are mostly outside the subset.
+if os.environ.get("VOLUNTEER_BUILD") == "true":
+    master_doc = "volunteer_docs/index"
+    include_patterns = [
+        "persona_pages/volunteer/**",
+        "volunteer_docs/**",
+        "event_streaming/**",
+    ]
+    extensions.remove("sphinxext.rediraffe")
+    # Lets content swap internal links for links to the live site with
+    # ".. only:: volunteer" / ".. only:: not volunteer".
+    tags.add("volunteer")
+else:
+    # volunteer_docs/index.rst is only the root of the volunteer build; keep it
+    # out of the main site and the booklets.
+    exclude_patterns = list(globals().get("exclude_patterns", [])) + [
+        "volunteer_docs/index.rst",
+    ]
+
 output_name = 'ftcdocs'
 
 # -- Options for HTML output
@@ -477,6 +503,32 @@ def setup(app):
     #app.add_css_file("css/ftc-rtl.css")
     app.add_js_file("js/external-links-new-tab.js")
     app.add_js_file("js/adjust-css-vars.js")
+
+    if os.environ.get("VOLUNTEER_BUILD") == "true":
+        from docutils import nodes
+        from sphinx.util.nodes import split_explicit_title
+
+        def plain_term_role(name, rawtext, text, lineno, inliner,
+                            options=None, content=None):
+            # "text <target>" -> "text"; a bare term renders as itself.
+            _, title, _ = split_explicit_title(text)
+            return [nodes.inline(rawtext, title)], []
+
+        app.add_role_to_domain("std", "term", plain_term_role, override=True)
+
+        # Sphinx resolves :doc:/:ref: references before it prunes ".. only::"
+        # blocks, so a link inside a non-matching block still warns about its
+        # missing target. Prune them as soon as each document is read instead.
+        from sphinx import addnodes
+
+        def prune_only_nodes(app, doctree):
+            for node in list(doctree.findall(addnodes.only)):
+                if app.builder.tags.eval_condition(node["expr"]):
+                    node.replace_self(node.children)
+                else:
+                    node.parent.remove(node)
+
+        app.connect("doctree-read", prune_only_nodes)
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False
