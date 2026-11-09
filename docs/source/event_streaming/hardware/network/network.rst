@@ -18,18 +18,9 @@ recommends for each resolution.
 
 Connect the streaming computer to the internet with a network cable whenever
 possible. Avoid running the stream through a phone hotspot near the field: a
-hotspot adds another Wi-Fi network on the channels robots use.
-
-.. only:: not volunteer
-
-   See the :doc:`/control_system_troubleshooting/index` for how other Wi-Fi
-   traffic affects robots.
-
-.. only:: volunteer
-
-   See the `Control System Troubleshooting Guide
-   <https://ftc-docs.firstinspires.org/en/latest/control_system_troubleshooting/index.html>`__
-   on the FTC Docs website for how other Wi-Fi traffic affects robots.
+hotspot adds another Wi-Fi network on the channels robots use. See the
+:doc:`/control_system_troubleshooting/index` for how other Wi-Fi traffic
+affects robots.
 
 School Networks
 ---------------

@@ -18,3 +18,4 @@ page, which lists the available resources by volunteer role.
 
    /persona_pages/volunteer/volunteer
    /volunteer_docs/technical_director/index
+   /volunteer_docs/control_system_advisor/index

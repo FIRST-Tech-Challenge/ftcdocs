@@ -109,7 +109,7 @@ master_doc = "index"
 # FTCLIVE_BUILD produces a small, self-contained HTML site for volunteers
 # (e.g. to bundle with an offline event kit). volunteer_docs/index.rst is the root,
 # and only the pages volunteers need are built; everything else is left out via
-# include_patterns. Run it with "make volunteer-html".
+# include_patterns. Run it with "make ftc-live-html".
 #
 # The glossary is not part of the subset (it links to most of the site), so the
 # :term: role is rendered as plain text in this build (see setup() below).
@@ -120,6 +120,7 @@ if os.environ.get("FTCLIVE_BUILD") == "true":
         "persona_pages/volunteer/**",
         "volunteer_docs/**",
         "event_streaming/**",
+        "control_system_troubleshooting/**",
     ]
     extensions.remove("sphinxext.rediraffe")
     # Lets content swap internal links for links to the live site with
@@ -529,6 +530,75 @@ def setup(app):
                     node.parent.remove(node)
 
         app.connect("doctree-read", prune_only_nodes)
+
+        # Pages that exist in the source tree but are left out of this build
+        # (see include_patterns) still get linked from the pages that are in it.
+        # Point those links at the live site instead of leaving them dead. A
+        # target that is not in the source tree at all (a typo) is not touched,
+        # so it still warns.
+        import posixpath
+        from pathlib import Path
+        from docutils.nodes import make_id
+
+        def docname_join(basedocname, docname):
+            # Same rule as Sphinx's :doc: role: absolute ("/x") or relative to
+            # the directory of the referencing document.
+            return posixpath.normpath(
+                posixpath.join("/" + basedocname, "..", docname))[1:]
+
+        live_docs_url = "https://ftc-docs.firstinspires.org/en/latest"
+
+        def doc_title(docname):
+            # First "====" underlined title of the source file.
+            lines = (Path(app.srcdir) / f"{docname}.rst").read_text(
+                encoding="utf-8").splitlines()
+            for text, rule in zip(lines, lines[1:]):
+                if text.strip() and rule.strip() and set(rule.strip()) == {"="}:
+                    return text.strip()
+            return docname
+
+        def link_to_live_site(app, env, node, contnode):
+            if node.get("refdomain") != "std":
+                return None
+            kind, target = node["reftype"], node["reftarget"]
+            anchor, title = "", None
+            if kind == "doc":
+                docname = docname_join(node["refdoc"], target)
+                if not node.get("refexplicit"):
+                    title = doc_title(docname) if (Path(app.srcdir) /
+                                                   f"{docname}.rst").exists() else None
+            elif kind == "ref" and ":" in target:
+                # autosectionlabel labels are "<docname>:<section title>".
+                docname, section = target.split(":", 1)
+                anchor = "#" + make_id(section)
+            else:
+                return None
+            if docname in env.found_docs:
+                return None
+            if not (Path(app.srcdir) / f"{docname}.rst").exists():
+                return None
+            ref = nodes.reference("", "", internal=False,
+                                  refuri=f"{live_docs_url}/{docname}.html{anchor}")
+            ref.append(nodes.inline(title, title) if title else contnode)
+            return ref
+
+        app.connect("missing-reference", link_to_live_site)
+
+        # On the main site the Control System Troubleshooting Guide already has
+        # a parent (the "Guides" toctree), so the Control System Advisor page
+        # only links to it. This build has no "Guides", so nest the guide under
+        # the advisor page here instead.
+        def nest_troubleshooting_under_csa(app, docname, source):
+            if docname == "volunteer_docs/control_system_advisor/index":
+                source[0] += (
+                    "\n.. toctree::\n"
+                    "   :maxdepth: 1\n"
+                    "   :hidden:\n\n"
+                    "   Control System Troubleshooting Guide "
+                    "</control_system_troubleshooting/index>\n"
+                )
+
+        app.connect("source-read", nest_troubleshooting_under_csa)
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False

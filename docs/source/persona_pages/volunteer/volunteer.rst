@@ -44,11 +44,12 @@ explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Event Streaming
+      Control System Advisor
 
       ^^^
 
-      How to put together a reliable livestream for an event.
+      Resources for the volunteer who helps teams with control system
+      problems at an event.
 
       +++
 
@@ -56,13 +57,13 @@ explore!
 
          .. div:: col-sm pl-1 pr-1
 
-            .. button-ref:: ../../event_streaming/index
+            .. button-ref:: ../../volunteer_docs/control_system_advisor/index
                :ref-type: doc
                :color: black
                :outline:
                :expand:
 
-               Event Streaming Best Practices
+               Control System Advisor
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
