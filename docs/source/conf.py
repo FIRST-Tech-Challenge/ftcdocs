@@ -106,7 +106,7 @@ IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg
 # Specify the master doc file, AKA our homepage
 master_doc = "index"
 
-# VOLUNTEER_BUILD produces a small, self-contained HTML site for volunteers
+# FTCLIVE_BUILD produces a small, self-contained HTML site for volunteers
 # (e.g. to bundle with an offline event kit). volunteer_docs/index.rst is the root,
 # and only the pages volunteers need are built; everything else is left out via
 # include_patterns. Run it with "make volunteer-html".
@@ -114,7 +114,7 @@ master_doc = "index"
 # The glossary is not part of the subset (it links to most of the site), so the
 # :term: role is rendered as plain text in this build (see setup() below).
 # Redirects are disabled because their targets are mostly outside the subset.
-if os.environ.get("VOLUNTEER_BUILD") == "true":
+if os.environ.get("FTCLIVE_BUILD") == "true":
     master_doc = "volunteer_docs/index"
     include_patterns = [
         "persona_pages/volunteer/**",
@@ -504,7 +504,7 @@ def setup(app):
     app.add_js_file("js/external-links-new-tab.js")
     app.add_js_file("js/adjust-css-vars.js")
 
-    if os.environ.get("VOLUNTEER_BUILD") == "true":
+    if os.environ.get("FTCLIVE_BUILD") == "true":
         from docutils import nodes
         from sphinx.util.nodes import split_explicit_title
 
@@ -534,6 +534,9 @@ def setup(app):
 cookiebanner_enabled = False
 
 html_context = dict()
+
+if os.environ.get("FTCLIVE_BUILD") == "true":
+    html_context['edition_label'] = "FTC Live Edition"
 
 # Configure for local official-esque builds
 if(os.environ.get("DOCS_BUILD") == "true"):

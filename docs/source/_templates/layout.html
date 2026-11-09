@@ -43,6 +43,14 @@
     <img src="{{ pathto('_static/ftc-logo-horz-ondark.png', 1) }}" class="logo logo-on-dark" alt="{{ _logo_alt }}"/>
   </a>
 
+  {#- Edition label, only set for special builds such as FTCLive. Styled by
+      .edition-label in ftc-rtd.css. -#}
+  {%- if edition_label %}
+    <div class="edition-label">
+      {{ edition_label }}
+    </div>
+  {%- endif %}
+
   {%- if theme_display_version %}
     {%- set nav_version = version %}
     {%- if READTHEDOCS and current_version %}

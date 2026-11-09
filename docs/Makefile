@@ -44,8 +44,8 @@ autobuild:
 
 booklets: --generate-booklets --move-booklets
 
-volunteer-html:
-	VOLUNTEER_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(BUILDDIR)/volunteer $(SPHINXOPTS) $(O)
+ftc-live-html:
+	FTCLIVE_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(BUILDDIR)/ftclive $(SPHINXOPTS) $(O)
 
 	
 local-full:
