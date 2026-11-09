@@ -107,7 +107,7 @@ IMAGE_SIZE_EXCLUSIONS = ["source/control_hard_compon/rc_components/images/A1.svg
 master_doc = "index"
 
 # FTCLIVE_BUILD produces a small, self-contained HTML site for volunteers
-# (e.g. to bundle with an offline event kit). volunteer_docs/index.rst is the root,
+# (e.g. to bundle with FTC Live). volunteer_docs/index.rst is the root,
 # and only the pages volunteers need are built; everything else is left out via
 # include_patterns. Run it with "make ftc-live-html".
 #
@@ -123,9 +123,9 @@ if os.environ.get("FTCLIVE_BUILD") == "true":
         "control_system_troubleshooting/**",
     ]
     extensions.remove("sphinxext.rediraffe")
-    # Lets content swap internal links for links to the live site with
-    # ".. only:: volunteer" / ".. only:: not volunteer".
-    tags.add("volunteer")
+    # Lets content differ in this build with ".. only:: ftclive" and
+    # ".. only:: not ftclive".
+    tags.add("ftclive")
 else:
     # volunteer_docs/index.rst is only the root of the volunteer build; keep it
     # out of the main site and the booklets.
@@ -599,6 +599,24 @@ def setup(app):
                 )
 
         app.connect("source-read", nest_troubleshooting_under_csa)
+
+        # The bundle's front page is volunteer_docs/index.html. Give the bundle
+        # a root index.html that redirects to it, so it opens at its root URL.
+        def write_root_redirect(app, exception):
+            if exception is not None or app.builder.format != "html":
+                return
+            target = f"{app.config.root_doc}.html"
+            (Path(app.outdir) / "index.html").write_text(
+                "<!doctype html>\n"
+                '<meta charset="utf-8">\n'
+                "<title>FTC Live Edition</title>\n"
+                f'<meta http-equiv="refresh" content="0; url={target}">\n'
+                f'<link rel="canonical" href="{target}">\n'
+                f'<p><a href="{target}">FTC Live Edition</a></p>\n',
+                encoding="utf-8",
+            )
+
+        app.connect("build-finished", write_root_redirect)
 
 # Set Cookie Banner to disabled by default
 cookiebanner_enabled = False

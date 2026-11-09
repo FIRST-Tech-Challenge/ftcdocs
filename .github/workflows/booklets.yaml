@@ -39,11 +39,16 @@ jobs:
           SPHINXOPTS: "-D html_context.commit=${{ github.sha }} -D version=latest -A display_github=true -A github_user=${{ github.repository_owner }} -A github_repo=${{ github.event.repository.name }} -A github_version=${{ github.ref_name }} -A conf_py_path=/docs/source/"
         run: nix develop -c make -C docs/ booklets
 
+      # Written to docs/build/booklets so the sync below uploads it with the
+      # booklets (and so --delete does not remove it).
+      - name: Build FTCLive bundle
+        run: nix develop -c make -C docs/ ftc-live-zip
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::549273919012:role/gh-actions/ftc-docs-uploader
           aws-region: us-west-2
-      - name: Upload Booklets to S3
+      - name: Upload Booklets and FTCLive bundle to S3
         run: |
           aws s3 sync docs/build/booklets s3://ftc-docs-cdn/booklets/en --delete

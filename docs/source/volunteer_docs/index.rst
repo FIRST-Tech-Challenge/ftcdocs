@@ -1,9 +1,9 @@
 :orphan:
 
-FTC Docs for Volunteers
-=======================
+FTC Live Edition
+================
 
-This is a volunteer-only copy of the FTC Docs. It contains the resources
+This is the FTC Live Edition of the FTC Docs. It contains the resources
 written for *FIRST* Tech Challenge event volunteers and can be used without
 an internet connection. The complete, up-to-date documentation is on the
 `FTC Docs website <https://ftc-docs.firstinspires.org>`__.

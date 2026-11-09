@@ -47,6 +47,12 @@ booklets: --generate-booklets --move-booklets
 ftc-live-html:
 	FTCLIVE_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(BUILDDIR)/ftclive $(SPHINXOPTS) $(O)
 
+# zips the ftc-live html build
+ftc-live-zip: ftc-live-html
+	mkdir -p $(BOOKLETSBUILDDIR)
+	rm -f $(BOOKLETSBUILDDIR)/ftclive.zip
+	cd $(BUILDDIR)/ftclive && zip -qr ../booklets/ftclive.zip . -x ".doctrees/*" ".buildinfo*"
+
 	
 local-full:
 	DOCS_BUILD="true" $(SPHINXBUILD) -b html $(SOURCEDIR) $(HTMLBUILDDIR) $(SPHINXOPTS) $(O)
