@@ -54,3 +54,9 @@ source. An NDI decoder box (about $170) connected to any display on the same
 network can then show the program feed. This is useful for putting the
 audience display in a pit area on the other side of the building, without
 running an HDMI cable there.
+
+----
+
+| **Previous:** :doc:`Streaming Computer </event_streaming/hardware/streaming_computer/streaming-computer>`
+| **Next:** :doc:`Software </event_streaming/software/index>`
+| **Section:** :doc:`Hardware </event_streaming/hardware/index>`

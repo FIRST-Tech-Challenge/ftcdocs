@@ -52,3 +52,9 @@ Long Events
 YouTube doesn't keep an archive of livestreams longer than 12 hours. For long
 days, or multi-day events, end the stream and start a new one at a natural
 break, such as lunch or the end of each day.
+
+----
+
+| **Previous:** :doc:`Encoders (OBS) </event_streaming/software/encoders_obs/encoders-obs>`
+| **Next:** :doc:`Add-ons </event_streaming/addons/index>`
+| **Section:** :doc:`Software </event_streaming/software/index>`

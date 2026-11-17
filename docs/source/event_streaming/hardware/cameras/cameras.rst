@@ -70,3 +70,8 @@ Because NDI cameras are all on the same network, cameras owned by different
 volunteers can be combined for championships and Premier Events. A typical Gold
 setup has a camera on each field, one on the awards area, and one that an
 operator can move during opening ceremonies and alliance selection.
+
+----
+
+| **Previous:** :doc:`Hardware </event_streaming/hardware/index>`
+| **Next:** :doc:`Audio </event_streaming/hardware/audio/audio>`

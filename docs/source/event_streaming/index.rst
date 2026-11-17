@@ -29,6 +29,49 @@ This article covers the equipment and setup needed to get a stream on the
 air. It does not cover show production, such as scripting the emcee or
 planning the run of show.
 
+In This Article
+---------------
+
+If this is your first stream, read the pages in order. Each page also links to
+the previous and next pages at the bottom, so you can read straight through.
+
+- :doc:`System Overview <system_overview/system-overview>`: how cameras,
+  audio, and the streaming computer connect at each tier.
+- :doc:`Hardware <hardware/index>`: the physical equipment for a stream.
+
+  - :doc:`Cameras <hardware/cameras/cameras>`: where to place cameras, and
+    which cameras to use at each tier.
+  - :doc:`Audio <hardware/audio/audio>`: getting clean sound from the venue or
+    your own microphones.
+  - :doc:`Network <hardware/network/network>`: the local camera network and
+    the internet connection for the stream.
+  - :doc:`Streaming Computer <hardware/streaming_computer/streaming-computer>`:
+    the computer that runs OBS Studio.
+  - :doc:`Video Output <hardware/video_output/video-output>`: showing the
+    stream on the venue's projector.
+
+- :doc:`Software <software/index>`: the encoder and the streaming platform.
+
+  - :doc:`Encoders (OBS) <software/encoders_obs/encoders-obs>`: setting up OBS
+    Studio.
+  - :doc:`Streaming Platform <software/streaming_platform/streaming-platform>`:
+    publishing the stream on YouTube.
+
+- :doc:`Add-ons <addons/index>`: optional tools that make the stream easier to
+  run or more useful to teams.
+
+  - :doc:`OBS Plugins <addons/obs_plugins/obs-plugins>`: plugins that add
+    features to OBS Studio, such as NDI camera support.
+  - :doc:`Match Splitting <addons/match_splitting/index>`: one video per
+    match, made live or after the event.
+  - :doc:`FTC Live Integration <addons/ftc_live_integration/ftc-live-integration>`:
+    showing FTC Live displays on the stream and automating scene changes.
+
+- :doc:`Budget and Shopping List <budget/budget>`: what equipment costs at
+  each tier.
+- :doc:`Day-of Checklist and Troubleshooting <day_of_checklist/day-of-checklist>`:
+  packing, pre-show checks, and fixing common problems.
+
 How the Tiers Work
 ------------------
 
@@ -74,6 +117,10 @@ ask:
 Buy equipment you'll keep using season after season, such as IP cameras and
 PoE switches. Borrow anything you would use once and then store. For a first
 stream, try to keep the event's own spending under about $500.
+
+----
+
+| **Next:** :doc:`System Overview </event_streaming/system_overview/system-overview>`
 
 .. toctree::
    :maxdepth: 2

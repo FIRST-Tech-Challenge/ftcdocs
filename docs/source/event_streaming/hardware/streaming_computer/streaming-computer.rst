@@ -88,3 +88,9 @@ event, and is easier to transport and set up than a desktop tower.
 
 If each division has its own stream, give each stream its own streaming
 computer.
+
+----
+
+| **Previous:** :doc:`Network </event_streaming/hardware/network/network>`
+| **Next:** :doc:`Video Output </event_streaming/hardware/video_output/video-output>`
+| **Section:** :doc:`Hardware </event_streaming/hardware/index>`

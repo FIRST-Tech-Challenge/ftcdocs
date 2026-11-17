@@ -20,6 +20,12 @@ Splitting matches live without automation means someone has to start and stop
 a recording for every match, which ties up a :term:`volunteer <Volunteer>` for the whole event.
 Bronze and Silver events should split matches after the event instead.
 
+----
+
+| **Previous:** :doc:`OBS Plugins </event_streaming/addons/obs_plugins/obs-plugins>`
+| **Next:** :doc:`Live Match Splitting </event_streaming/addons/match_splitting/live/live>`
+| **Section:** :doc:`Add-ons </event_streaming/addons/index>`
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:

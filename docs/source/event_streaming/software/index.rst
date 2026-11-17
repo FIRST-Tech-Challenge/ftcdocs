@@ -13,6 +13,12 @@ recommended encoder at every tier, and YouTube is the recommended platform.
 - :doc:`Encoders (OBS) <encoders_obs/encoders-obs>`
 - :doc:`Streaming Platform <streaming_platform/streaming-platform>`
 
+----
+
+| **Previous:** :doc:`Video Output </event_streaming/hardware/video_output/video-output>`
+| **Next:** :doc:`Encoders (OBS) </event_streaming/software/encoders_obs/encoders-obs>`
+| **Section:** :doc:`Event Streaming Best Practices </event_streaming/index>`
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:

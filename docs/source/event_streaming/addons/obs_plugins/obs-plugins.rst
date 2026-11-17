@@ -38,3 +38,8 @@ Automatic scene switching doesn't use a traditional OBS plugin. Instead, an
 outside tool reads match information from FTC Live and controls OBS through
 OBS's built-in WebSocket server. See
 :doc:`FTC Live Integration </event_streaming/addons/ftc_live_integration/ftc-live-integration>`.
+
+----
+
+| **Previous:** :doc:`Add-ons </event_streaming/addons/index>`
+| **Next:** :doc:`Match Splitting </event_streaming/addons/match_splitting/index>`

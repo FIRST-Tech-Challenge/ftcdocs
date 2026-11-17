@@ -49,3 +49,9 @@ without re-encoding:
 Cutting without re-encoding is fast, but the cut can only land on a keyframe,
 so each clip may start a second or two earlier than the exact time you asked
 for. Start each cut a few seconds before the match begins.
+
+----
+
+| **Previous:** :doc:`Live Match Splitting </event_streaming/addons/match_splitting/live/live>`
+| **Next:** :doc:`FTC Live Integration </event_streaming/addons/ftc_live_integration/ftc-live-integration>`
+| **Section:** :doc:`Match Splitting </event_streaming/addons/match_splitting/index>`
