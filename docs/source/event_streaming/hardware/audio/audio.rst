@@ -89,3 +89,9 @@ blocks the affected part of the stream. Plan for this before the event:
 - Or keep music in the room and off the stream. This only works if the
   stream's audio comes from your own microphones rather than the venue's
   sound system, which is one reason to move to Silver.
+
+----
+
+| **Previous:** :doc:`Cameras </event_streaming/hardware/cameras/cameras>`
+| **Next:** :doc:`Network </event_streaming/hardware/network/network>`
+| **Section:** :doc:`Hardware </event_streaming/hardware/index>`
