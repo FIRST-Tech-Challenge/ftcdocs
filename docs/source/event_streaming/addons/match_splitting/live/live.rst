@@ -42,3 +42,8 @@ Keep OBS recording the whole day as well, separately from the per-match
 recordings. If the automation misses a match, you can still cut it from the
 full recording using the
 :doc:`post-event method <../post_event/post-event>`.
+
+----
+
+| **Previous:** :doc:`Match Splitting </event_streaming/addons/match_splitting/index>`
+| **Next:** :doc:`Post-event Match Splitting </event_streaming/addons/match_splitting/post_event/post-event>`

@@ -110,3 +110,9 @@ Some purchases pay for themselves over many events, and others don't:
 - **Store it together:** keep each field's equipment in its own rolling tote
   (about $100) with a printed packing list. See
   :doc:`Day-of Checklist and Troubleshooting </event_streaming/day_of_checklist/day-of-checklist>`.
+
+----
+
+| **Previous:** :doc:`FTC Live Integration </event_streaming/addons/ftc_live_integration/ftc-live-integration>`
+| **Next:** :doc:`Day-of Checklist and Troubleshooting </event_streaming/day_of_checklist/day-of-checklist>`
+| **Section:** :doc:`Event Streaming Best Practices </event_streaming/index>`

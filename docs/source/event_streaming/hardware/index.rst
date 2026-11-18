@@ -16,6 +16,12 @@ paid in recent seasons.
 - :doc:`Streaming Computer <streaming_computer/streaming-computer>`
 - :doc:`Video Output <video_output/video-output>`
 
+----
+
+| **Previous:** :doc:`System Overview </event_streaming/system_overview/system-overview>`
+| **Next:** :doc:`Cameras </event_streaming/hardware/cameras/cameras>`
+| **Section:** :doc:`Event Streaming Best Practices </event_streaming/index>`
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:

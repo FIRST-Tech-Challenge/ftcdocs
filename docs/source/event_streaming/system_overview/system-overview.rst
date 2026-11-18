@@ -82,3 +82,8 @@ these distances:
 
 A cable that is ten feet too short is one of the most common setup-day
 problems, and it's easy to avoid with a tape measure and a site visit.
+
+----
+
+| **Previous:** :doc:`Event Streaming Best Practices </event_streaming/index>`
+| **Next:** :doc:`Hardware </event_streaming/hardware/index>`
