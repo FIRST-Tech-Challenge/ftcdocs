@@ -14,6 +14,12 @@ them start to pay off at the Silver and Gold tiers.
 - :doc:`Match Splitting <match_splitting/index>`
 - :doc:`FTC Live Integration <ftc_live_integration/ftc-live-integration>`
 
+----
+
+| **Previous:** :doc:`Streaming Platform </event_streaming/software/streaming_platform/streaming-platform>`
+| **Next:** :doc:`OBS Plugins </event_streaming/addons/obs_plugins/obs-plugins>`
+| **Section:** :doc:`Event Streaming Best Practices </event_streaming/index>`
+
 .. toctree::
    :maxdepth: 2
    :titlesonly:

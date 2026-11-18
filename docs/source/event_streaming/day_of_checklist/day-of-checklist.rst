@@ -104,3 +104,8 @@ Common Problems
      - The cable is connected backward, or the fiber is damaged
      - Check that the *Source* end is at the computer. Then try a short HDMI
        cable to rule out the projector.
+
+----
+
+| **Previous:** :doc:`Budget and Shopping List </event_streaming/budget/budget>`
+| **Back to the start:** :doc:`Event Streaming Best Practices </event_streaming/index>`

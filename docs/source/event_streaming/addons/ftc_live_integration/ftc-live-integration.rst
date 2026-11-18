@@ -39,3 +39,9 @@ These tools run alongside FTC Live, not inside it. FTC Live doesn't need to be
 changed or configured to support them, and if an automation tool stops
 working, scoring keeps working. Keep it that way: don't install anything onto
 the FTC Live server to support the stream.
+
+----
+
+| **Previous:** :doc:`Post-event Match Splitting </event_streaming/addons/match_splitting/post_event/post-event>`
+| **Next:** :doc:`Budget and Shopping List </event_streaming/budget/budget>`
+| **Section:** :doc:`Add-ons </event_streaming/addons/index>`

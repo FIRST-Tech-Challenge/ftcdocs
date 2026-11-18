@@ -63,3 +63,9 @@ only works when everything is on the same local network. Venue networks often
 block it. Put NDI cameras, the streaming computer, and any Dante audio
 equipment on their own switch rather than the venue's network, and connect
 the streaming computer to the internet separately.
+
+----
+
+| **Previous:** :doc:`Audio </event_streaming/hardware/audio/audio>`
+| **Next:** :doc:`Streaming Computer </event_streaming/hardware/streaming_computer/streaming-computer>`
+| **Section:** :doc:`Hardware </event_streaming/hardware/index>`

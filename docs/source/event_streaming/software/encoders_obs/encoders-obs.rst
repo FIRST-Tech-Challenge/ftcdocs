@@ -76,3 +76,8 @@ stop recordings for each match. OBS has a built-in WebSocket server
 (**Tools > WebSocket Server Settings**) that lets outside programs control it.
 Automation tools use this to switch scenes without anyone touching OBS. See
 :doc:`FTC Live Integration </event_streaming/addons/ftc_live_integration/ftc-live-integration>`.
+
+----
+
+| **Previous:** :doc:`Software </event_streaming/software/index>`
+| **Next:** :doc:`Streaming Platform </event_streaming/software/streaming_platform/streaming-platform>`
