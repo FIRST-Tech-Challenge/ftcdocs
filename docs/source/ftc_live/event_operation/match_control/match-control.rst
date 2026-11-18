@@ -37,8 +37,11 @@ Settings
    - **Enable Recorded Countdown** plays a recorded countdown and starts the
      match automatically. Use it for events without an emcee.
    - **Use Live Scoring** is checked by default.
-   - **Require Official Scorer Init Submit Before Start?**
-   - **Enable HR Match Control?**
+   - **Require Scorer Init Submit Before Start?**
+   - **Enable Referee Tablets** creates Referee pages to allow Referees to directly
+     input fouls during matches.
+   - **Enable External Match Control** adds some or all of the match flow buttons
+     to the Head Referee tablet interface.
    - **Allow External Randomization**, only for seasons that include
      randomization.
 
@@ -77,10 +80,11 @@ Help
 Test Matches
 ------------
 
-Test matches are different from practice matches. Use them to train volunteers
-and to test the FTC Live system before you run practice or qualification
-matches. You can use them to train as an Official Scorer (check the
-**Training** box) or to try new features with the default test teams.
+Test matches are different from scheduled practice matches. Use them to train
+volunteers and to test the FTC Live system before you run scheduled practice or
+qualification matches. You can use them to train as an Official Scorer
+(check the **Training** box) or to try new features with the default test teams.
+Test matches are also used to run *unscheduled* practice matches for teams.
 
 Test matches are found in the **Settings** tab of the Match Control page.
 
@@ -96,9 +100,13 @@ volunteers have their accounts and are logged in on the tablets. Check that:
 
 - The tablets work correctly:
 
-  - Each alliance's Official Scorer tablet stays connected for the entire
-    match.
+  - Each alliance's Official Scorer (and Referee) tablet stays connected for the
+    entire match.
   - Official Scorers can submit autonomous, teleop, and final scores.
+  - The Head Referee tablet stays connected and can view scores and fouls,
+    as well as assign cards and Ranking Point violations.
+  - If Referee Input is enabled, Referees can add and subtract fouls
+    and submit autonomous, teleop, and final scores.
 
 - The displays update through the phases of the match, including Start Match
   and randomization.
@@ -119,7 +127,9 @@ rules for these matches, see the :term:`Competition Manual`. Give each team an
 equal number of matches if possible.
 
 If your event has no planned practice matches, go on to
-:ref:`ftc live qualification matches`.
+:ref:`ftc live qualification matches`. The event can also
+choose to offer unscheduled practice matches, which use the
+Test Matches feature.
 
 Create the Practice Match Schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -261,9 +271,10 @@ results also appear online.
 Score Edit
 ^^^^^^^^^^
 
-Use the **Score Edit** tab before you select **Commit & Post Last Match**, and
-work with the Head Referee and the FTA. Make sure the Official Scorer tablets
-have finished entering scores first, because the data can conflict.
+If the Head Referee determines there was an error in scoring after all Scorers
+and Referees submit their final scores, work with them and the FTA to correct
+the score with the Score Edit tool. Do not edit scores until after all inputs
+from the tablets are submitted.
 
 Replay
 ^^^^^^
