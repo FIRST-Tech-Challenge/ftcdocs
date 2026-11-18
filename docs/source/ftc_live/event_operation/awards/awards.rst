@@ -47,14 +47,14 @@ presentation during the playoffs. The best practice is to use the **Present
 Awards** tab on the Match Control page. The required awards breaks during the
 playoff matches are explained in the :term:`Competition Manual`, Section 13.7.
 For the playoff timing, see
-:doc:`/ftc_live/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
+:doc:`/ftc_live/event_operation/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
 
 Present Awards
 --------------
 
 On the Match Control page, the **Present Awards** tab opens a page with the
 awards grouped, so that only the awards required for each break are
-presented. See :doc:`/ftc_live/match_control/match-control` for the rest of the
+presented. See :doc:`/ftc_live/event_operation/match_control/match-control` for the rest of the
 Match Control page.
 
 .. image:: images/present-awards-tab.png

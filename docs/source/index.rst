@@ -118,6 +118,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    :maxdepth: 1
    :hidden:
 
+   volunteer_docs/scorekeeper/index
    volunteer_docs/technical_director/index
 
 .. toctree::

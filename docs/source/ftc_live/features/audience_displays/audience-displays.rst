@@ -6,7 +6,7 @@ during an event. They are listed in the order they usually appear at an event.
 Some are optional, depending on the size and capabilities of the event.
 
 The Scorekeeper controls which screen appears from the Match Control page. See
-:doc:`/ftc_live/match_control/match-control`. To show the audience display on
+:doc:`/ftc_live/event_operation/match_control/match-control`. To show the audience display on
 a livestream, see
 :doc:`/event_streaming/addons/ftc_live_integration/ftc-live-integration`.
 
@@ -77,7 +77,7 @@ Inspection Status (Optional)
 
 If you have set up inspection tracking and the inspection schedule, you can
 show this screen at the beginning of the event. See
-:doc:`/ftc_live/inspection_tools/inspection-tools`.
+:doc:`/ftc_live/features/inspection_tools/inspection-tools`.
 
 .. image:: images/inspection-status.png
    :alt: Inspection status screen with two team lists showing check-in and robot inspection status colors, and a color legend.
@@ -260,7 +260,7 @@ Awards
 
 The awards screens celebrate the teams that won awards. The order in which to
 show awards is on the Present Awards page. See
-:doc:`/ftc_live/awards/awards`.
+:doc:`/ftc_live/event_operation/awards/awards`.
 
 Awards Screen: Unfilled
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -317,7 +317,7 @@ Video
 
 The video screen plays the event videos that *FIRST* provides. Videos show only
 on the audience displays. Download the event videos before you use this screen.
-See :doc:`/ftc_live/event_preparation/event-preparation`.
+See :doc:`/ftc_live/setup/event_preparation/event-preparation`.
 
 .. image:: images/video.jpeg
    :alt: Video screen showing a season logo on a white background.

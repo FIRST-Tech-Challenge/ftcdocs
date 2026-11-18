@@ -25,4 +25,4 @@ enters the scores from the paper scoresheets by hand.
    Wait to transfer the event data in FTC Live until 24 to 48 hours before the
    event, or until all earlier events are uploaded and you have verified the
    event configuration in the Event Portal. See
-   :doc:`/ftc_live/transfer_event_data/transfer-event-data`.
+   :doc:`/ftc_live/setup/transfer_event_data/transfer-event-data`.

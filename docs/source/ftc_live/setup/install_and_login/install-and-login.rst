@@ -117,7 +117,7 @@ The **Event Admin** menu is at the top left of every page.
 Setup Event
    Creates a single event from an event key found on the *Play Event Locally*
    page in the Event Portal, or creates an unlisted event. See
-   :doc:`/ftc_live/transfer_event_data/transfer-event-data`.
+   :doc:`/ftc_live/setup/transfer_event_data/transfer-event-data`.
 
 Create User
    Creates individual user accounts for people who need only some FTC Live

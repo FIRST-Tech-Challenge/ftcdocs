@@ -80,7 +80,7 @@ back to the **Schedule** tab of Match Control to view and play the playoff
 matches.
 
 The Scorekeeper and Official Scorers run these matches the same way as the
-qualification matches. See :doc:`/ftc_live/match_control/match-control`.
+qualification matches. See :doc:`/ftc_live/event_operation/match_control/match-control`.
 
 Print the Playoff Bracket and Schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -133,4 +133,4 @@ replaces **Reset Alliance Selection**, which isn't there.
    :alt: The Danger Zone section of Settings with a red Reset Finals Matches button.
 
 For more on dual-division events, see
-:doc:`/ftc_live/dual_division/dual-division`.
+:doc:`/ftc_live/features/dual_division/dual-division`.

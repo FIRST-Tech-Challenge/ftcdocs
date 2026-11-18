@@ -131,7 +131,7 @@ transfer the event data:
 #. Select **Play Event Locally** to transfer the event to FTC Live.
 
 For the timing and the transfer methods, see
-:doc:`/ftc_live/transfer_event_data/transfer-event-data`.
+:doc:`/ftc_live/setup/transfer_event_data/transfer-event-data`.
 
 Generate Matches for Each Division
 ----------------------------------
@@ -152,7 +152,7 @@ laptop.
    :alt: The Create Match Schedule page for one division, with match block settings, Save, Preview, and Run Matchmaker buttons, and the generated qualification schedule below.
 
 For more about creating the schedule, see
-:doc:`/ftc_live/match_control/match-control`.
+:doc:`/ftc_live/event_operation/match_control/match-control`.
 
 .. warning::
 
@@ -201,7 +201,7 @@ Separate Servers for Each Division
 
 If each division used its own server, export each division's database file
 from its laptop with the wizard described in
-:doc:`/ftc_live/after_the_event/after-the-event`. Then, on the parent laptop:
+:doc:`/ftc_live/event_operation/after_the_event/after-the-event`. Then, on the parent laptop:
 
 #. Copy the files to the parent laptop, for example with a USB drive.
 #. On the **Generate Inter-Division Finals** page, select **Browse** and choose
@@ -218,5 +218,5 @@ Awards for Dual Division
 
 Awards for a dual division event are entered and presented in the parent
 event. See the :term:`Competition Manual` and
-:doc:`/ftc_live/awards/awards` for the process of entering and presenting
+:doc:`/ftc_live/event_operation/awards/awards` for the process of entering and presenting
 awards.

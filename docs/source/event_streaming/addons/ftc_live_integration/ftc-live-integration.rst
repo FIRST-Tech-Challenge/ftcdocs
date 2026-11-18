@@ -2,7 +2,7 @@ FTC Live Integration
 ====================
 
 FTC Live is the software that runs scoring at FTC events. (For installing and
-running it, see the :doc:`FTC Live Setup Guide </ftc_live/index>`.) Its displays are web
+running it, see the :doc:`FTC Live Setup Guide </ftc_live/setup/index>`.) Its displays are web
 pages, so OBS can show them on the stream, and outside tools can follow what
 is happening in each :term:`match <Match>`.
 

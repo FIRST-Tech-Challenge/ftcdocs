@@ -7,7 +7,7 @@ is controlled and scores are edited. Open it from the event home page.
 
 To follow along with this page before the event, open Match Control in an
 unlisted event. See
-:doc:`/ftc_live/transfer_event_data/transfer-event-data`.
+:doc:`/ftc_live/setup/transfer_event_data/transfer-event-data`.
 
 Contents of the Match Control Page
 ----------------------------------
@@ -45,7 +45,7 @@ Settings
 Alliance Selection
    Runs alliance selection after the qualification matches are complete and
    before playoffs. Use it with a display. See
-   :doc:`/ftc_live/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
+   :doc:`/ftc_live/event_operation/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
 
 Video Switch
    Has all the options for what the displays show. Go to this page to change
@@ -55,11 +55,11 @@ Video Switch
      play your own videos.
    - **Connected Displays** tracks and configures the connected displays.
 
-   See :doc:`/ftc_live/audience_displays/audience-displays`.
+   See :doc:`/ftc_live/features/audience_displays/audience-displays`.
 
 Present Awards
    Shows the awards on displays after they are entered in the Awards Manager.
-   See :doc:`/ftc_live/awards/awards`.
+   See :doc:`/ftc_live/event_operation/awards/awards`.
 
 Help
    Has the FTC Live Tech Support chat button, support phone numbers, and a link
@@ -181,7 +181,7 @@ Verify these items:
   and the FTA.
 - Whether any team is present that isn't marked as "Judging Only."
 - Whether all teams are competing. If not, change the team's competing status.
-  See :doc:`/ftc_live/event_preparation/event-preparation`.
+  See :doc:`/ftc_live/setup/event_preparation/event-preparation`.
 
 Create the Qualification Match Schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -276,7 +276,7 @@ Match Flow on Displays
 
 The top section of the Match Control page has the match flow options that
 control what the audience displays show. See
-:doc:`/ftc_live/audience_displays/audience-displays`.
+:doc:`/ftc_live/features/audience_displays/audience-displays`.
 
 The Pit Display, which you open from the event home page, can show the team
 rankings. You can show a similar view on the Audience Displays with the **Ranks

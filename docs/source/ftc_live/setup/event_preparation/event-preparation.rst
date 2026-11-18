@@ -51,10 +51,10 @@ the Event Director and the *FIRST* Technical Advisor (FTA).
 FTC Live has three schedules, one for each kind of match. The playoff schedule
 depends on the qualification schedule and alliance selection being complete.
 
-- Practice match schedule. See :doc:`/ftc_live/match_control/match-control`.
-- Qualification match schedule. See :doc:`/ftc_live/match_control/match-control`.
+- Practice match schedule. See :doc:`/ftc_live/event_operation/match_control/match-control`.
+- Qualification match schedule. See :doc:`/ftc_live/event_operation/match_control/match-control`.
 - Playoff schedule. See
-  :doc:`/ftc_live/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
+  :doc:`/ftc_live/event_operation/alliance_selection_and_playoffs/alliance-selection-and-playoffs`.
 
 Teams
 -----
@@ -374,7 +374,7 @@ The inspection displays show inspection status from the **Video Switch** tab in
 Match Control **Settings**. Before you use them, make sure the team list is
 final, and that the inspection settings are set up under **Inspection Status
 and Schedule**. For setup instructions, see
-:doc:`/ftc_live/inspection_tools/inspection-tools`.
+:doc:`/ftc_live/features/inspection_tools/inspection-tools`.
 
 Sponsors
 --------
@@ -410,5 +410,5 @@ Display a Sponsor
 ^^^^^^^^^^^^^^^^^
 
 Show sponsor information on the audience displays from the **Video Switch** tab
-of the Match Control page. See :doc:`/ftc_live/match_control/match-control` for
+of the Match Control page. See :doc:`/ftc_live/event_operation/match_control/match-control` for
 details.

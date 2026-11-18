@@ -19,4 +19,4 @@ See :doc:`Technical Director </volunteer_docs/technical_director/index>` for
 the full list.
 
 - :doc:`Event Streaming Best Practices </event_streaming/index>`
-- :doc:`FTC Live Setup Guide </ftc_live/index>`
+- :doc:`FTC Live Setup Guide </ftc_live/setup/index>`

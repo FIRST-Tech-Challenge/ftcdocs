@@ -106,7 +106,7 @@ System Layout
 FTC Live works in many configurations. FIRST Tech Challenge technical support
 supports the most commonly used layout, described here, and a basic layout
 for paper scoring, an emergency backup described in
-:doc:`/ftc_live/paper_scoring/paper-scoring`.
+:doc:`/ftc_live/features/paper_scoring/paper-scoring`.
 
 Most Used Configuration: Real-Time Scoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
