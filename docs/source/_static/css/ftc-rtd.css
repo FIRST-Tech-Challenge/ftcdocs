@@ -237,6 +237,15 @@ html[data-theme='dark'] .wy-side-nav-search > a img.logo-on-dark {
 	text-align: left;
 }
 
+.wy-side-nav-search > div.edition-label {
+	color: var(--fi-ink);
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	margin: 0 0 12px;
+	text-align: left;
+}
+
 .wy-side-nav-search input[type="text"] {
 	border: 1px solid var(--fi-border-strong);
 	border-radius: var(--fi-radius);

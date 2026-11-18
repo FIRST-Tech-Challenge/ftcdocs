@@ -255,6 +255,7 @@
           ftcdocsPython
           pkgs.gnumake
           pkgs.git
+          pkgs.zip # make ftc-live-zip
           texliveEnv
           pkgs.roboto
           pkgs.nodePackages.cspell
